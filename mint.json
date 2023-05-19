@@ -13,12 +13,12 @@
   },
   "topbarLinks": [
     {
-      "name": "Documentation",
+      "name": "Documentazione",
       "url": "https://mintlify.com/docs"
     }
   ],
   "topbarCtaButton": {
-    "name": "Get Started",
+    "name": "Inizia subito",
     "url": "https://github.com/mintlify/starter"
   },
   "anchors": [
@@ -26,16 +26,6 @@
       "name": "API Reference",
       "icon": "rectangle-terminal",
       "url": "api-reference"
-    },
-    {
-      "name": "Changelog",
-      "icon": "list",
-      "url": "https://mintlify.com"
-    },
-    {
-      "name": "Community",
-      "icon": "discord",
-      "url": "https://mintlify.com/community"
     }
   ],
   "navigation": [
