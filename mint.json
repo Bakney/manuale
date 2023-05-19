@@ -21,6 +21,11 @@
     "name": "Inizia subito",
     "url": "https://github.com/mintlify/starter"
   },
+  "topAnchor": {
+    "name": "Documentazione",
+    "icon": "book-open",
+    "iconType": "duotone"
+  }
   "anchors": [
     {
       "name": "API Reference",
