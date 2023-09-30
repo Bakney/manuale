@@ -5,7 +5,7 @@
     "dark": "/logo/dark.png",
     "light": "/logo/light.png"
   },
-  "favicon": "/favicon.png",
+  "favicon": "https://bakney.com/favicon.png",
   "colors": {
     "primary": "#0069ED",
     "light": "#4D9CFF",
@@ -13,8 +13,8 @@
   },
   "topbarLinks": [
     {
-      "name": "Documentazione",
-      "url": "https://mintlify.com/docs"
+      "name": "Stato dell'app",
+      "url": "https://stats.uptimerobot.com/vpB02fEQgE"
     }
   ],
   "topbarCtaButton": {
