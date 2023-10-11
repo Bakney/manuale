@@ -2,18 +2,24 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "Documentazione di Bakney Sport",
   "logo": {
-    "dark": "/logo/dark.png",
-    "light": "/logo/light.png"
+    "dark": "/logo/dark.svg",
+    "light": "/logo/light.svg"
   },
-  "favicon": "https://bakney.com/favicon.svg",
+  "favicon": "favicon.svg",
   "colors": {
     "primary": "#0069ED",
     "light": "#4D9CFF",
     "dark": "#0050B4"
   },
+  "feedback": {
+    "thumbsRating": true
+  },
+  "search": {
+    "prompt": "Cerca nella documentazione"
+  },
   "topbarLinks": [
     {
-      "name": "Stato dell'app",
+      "name": "Stato applicazione",
       "url": "https://stats.uptimerobot.com/vpB02fEQgE"
     }
   ],
@@ -28,38 +34,36 @@
   },
   "anchors": [
     {
-      "name": "API Reference",
-      "icon": "rectangle-terminal",
-      "url": "api-reference"
+      "name": "Domande Frequenti",
+      "icon": "question",
+      "url": "faq"
     }
   ],
   "navigation": [
     {
-      "group": "Home",
+      "group": "Documentazione",
       "pages": [
-        "introduction",
-        "features"
+        "docs/introduzione",
+        "docs/libro-soci",
+        "docs/corsi",
+        "docs/pagamenti",
+        "docs/ricevute",
+        "docs/carnet",
+        "docs/registro-presenze",
+        "docs/bilancio",
+        "docs/comunicazioni"
       ]
     },
     {
-      "group": "API Documentation",
-      "pages": [
-        "api-reference/authentication"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/update",
-        "api-reference/endpoint/delete"
-      ]
+      "group": "Domande frequenti",
+      "pages": ["faq/come-si-fa"]
     }
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "youtube": "https://www.youtube.com/@bakney3037",
+    "instagram": "https://www.instagram.com/bakney.sport",
+    "facebook": "https://www.facebook.com/bakney.sport",
+    "linkedin": "https://www.linkedin.com/company/bakney-srl",
+    "website": "https://bakney.com"
   }
 }
