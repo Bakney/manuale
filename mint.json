@@ -56,7 +56,11 @@
     },
     {
       "group": "Domande frequenti",
-      "pages": ["faq/come-si-fa"]
+      "pages": [
+        "faq/come-si-crea-un-socio",
+        "faq/come-si-importano-dei-soci",
+        "faq/i-miei-dati-sono-al-sicuro"
+      ]
     }
   ],
   "footerSocials": {
