@@ -7,15 +7,22 @@
   },
   "favicon": "favicon.svg",
   "colors": {
-    "primary": "#0069ED",
-    "light": "#4D9CFF",
-    "dark": "#0050B4"
+    "primary": "#351DC2",
+    "light": "#7160d6",
+    "dark": "#351DC2"
+  },
+  "theme": "venus",
+  "modeToggle": {
+    "default": "light"
+  },
+  "seo": {
+    "indexHiddenPages": true
   },
   "feedback": {
     "thumbsRating": true
   },
   "search": {
-    "prompt": "Cerca nella documentazione"
+    "prompt": "Cerca nel manuale"
   },
   "topbarLinks": [
     {
