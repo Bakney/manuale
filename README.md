@@ -34,3 +34,5 @@ You can also preview changes using PRs, which generates a preview link of the do
 - Page loads as a 404 - Make sure you are running in a folder with `mint.json`
 
 ### Update
+
+Test
