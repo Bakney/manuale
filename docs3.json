@@ -1,0 +1,91 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "name": "Documentazione di Bakney Sport",
+  "logo": {
+    "dark": "/logo/dark.svg",
+    "light": "/logo/light.svg"
+  },
+  "favicon": "favicon.svg",
+  "colors": {
+    "primary": "#351DC2",
+    "light": "#7160d6",
+    "dark": "#351DC2"
+  },
+  "theme": "maple",
+  "modeToggle": {
+    "default": "light"
+  },
+  "seo": {
+    "indexHiddenPages": true
+  },
+  "feedback": {
+    "thumbsRating": true
+  },
+  "search": {
+    "prompt": "Cerca nel manuale"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Stato applicazione",
+        "href": "https://bakney-status.html2pdfapi.com"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Accedi a Bakney",
+      "href": "https://app.bakney.com"
+    }
+  },
+  "navigation": {
+    "dropdowns": [
+      {
+        "dropdown": "Documentazione",
+        "icon": "book-open",
+        "description": "Documentazione completa di Bakney Sport",
+        "groups": [
+          {
+            "group": "Guide",
+            "pages": [
+              "tutorials/come-assegnare-i-tag-agli-atleti"
+            ]
+          },
+          {
+            "group": "Documentazione",
+            "pages": [
+              "docs/introduzione",
+              "docs/libro-soci",
+              "docs/corsi",
+              "docs/pagamenti",
+              "docs/ricevute",
+              "docs/carnet",
+              "docs/registro-presenze",
+              "docs/bilancio",
+              "docs/comunicazioni"
+            ]
+          }
+        ]
+      },
+      {
+        "dropdown": "Domande Frequenti",
+        "icon": "question",
+        "description": "Risposte alle domande più comuni",
+        "pages": [
+          "faq/come-si-crea-un-socio",
+          "faq/come-inviare-email-nuovi-iscritti",
+          "faq/come-si-importano-dei-soci",
+          "faq/i-miei-dati-sono-al-sicuro"
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "socials": {
+      "youtube": "https://www.youtube.com/@bakney3037",
+      "instagram": "https://www.instagram.com/bakney.sport",
+      "facebook": "https://www.facebook.com/bakney.sport",
+      "linkedin": "https://www.linkedin.com/company/bakney-srl",
+      "website": "https://bakney.com"
+    }
+  }
+}
