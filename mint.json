@@ -48,6 +48,12 @@
   ],
   "navigation": [
     {
+      "group": "Guide",
+      "pages": [
+        "tutorials/come-assegnare-i-tag-agli-atleti"
+      ]
+    },
+    {
       "group": "Documentazione",
       "pages": [
         "docs/introduzione",
