@@ -44,11 +44,15 @@
       "name": "Domande Frequenti",
       "icon": "question",
       "url": "faq"
+    }, {
+      "name": "Guide e tutorial",
+      "icon": "life-ring",
+      "url": "tutorials"
     }
   ],
   "navigation": [
     {
-      "group": "Guide",
+      "group": "Guide e tutorial",
       "pages": [
         "tutorials/come-assegnare-i-tag-agli-atleti"
       ]
