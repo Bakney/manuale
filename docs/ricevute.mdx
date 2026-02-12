@@ -10,6 +10,23 @@ Se un atleta paga online non è necessario fare nulla. Se invece un atleta paga 
 o con mezzi al di fuori della piattaforma, dovrai segnare il pagamento come pagato per emettere
 in automatico la ricevuta.
 
+## Numerazione progressiva
+
+Le ricevute vengono numerate con un **progressivo automatico all'interno dell'anno fiscale**.
+Ad ogni nuovo anno fiscale la numerazione riparte dal numero iniziale configurato.
+
+Il sistema calcola il prossimo numero considerando:
+- Il numero più alto tra le ricevute già emesse nell'anno fiscale corrente
+- Il **numero iniziale** configurato nelle impostazioni
+
+Il numero assegnato sarà sempre il maggiore tra questi due valori, incrementato di uno.
+
+<Tip>
+  Puoi configurare il numero iniziale da **Impostazioni > Generali > Numero Iniziale Ricevute**.
+  Questo è utile, ad esempio, se durante l'anno hai già emesso ricevute con un altro sistema
+  e vuoi proseguire la numerazione senza sovrapposizioni.
+</Tip>
+
 ## Come posso scaricare una ricevuta?
 
 Per scaricare una ricevuta, vai nella sezione **Documenti > Ricevute**.
@@ -30,6 +47,17 @@ Se hai abilitato la funzione **Ricevute temporanee eliminabili** dalle impostazi
 una ricevuta cliccando sull'icona del cestino fino a 7 giorni dalla sua creazione.
 Abilita subito l'impostazione per poter eliminare le ricevute.
 
+<Warning>
+  **Finestra di eliminazione di 7 giorni**: una volta trascorsi 7 giorni dalla creazione,
+  la ricevuta non potrà più essere eliminata. Se hai necessità di correggere una ricevuta
+  dopo questo periodo, contatta il supporto.
+</Warning>
+
+<Info>
+  Quando elimini una ricevuta, il pagamento corrispondente torna automaticamente allo stato
+  **non pagato**, permettendoti di correggerlo e generare una nuova ricevuta.
+</Info>
+
 ## Modifica del progressivo della ricevuta
 
 Per modificare il progressivo di una singola ricevuta, vai nella sezione **Documenti > Ricevute**.
@@ -47,3 +75,10 @@ Dalle **Impostazioni > Generali** puoi configurare le seguenti opzioni:
 4. **Data uguale per ricevute e pagamenti** - Se abilitata, la data di emissione della ricevuta sarà uguale
    alla data di pagamento. Se disabilitata, la data di emissione della ricevuta sarà uguale alla data di creazione
    della ricevuta.
+
+<Tip>
+  **Quando usare "Data uguale per ricevute e pagamenti"?** Questa opzione è utile quando registri
+  pagamenti avvenuti in una data diversa da quella in cui li inserisci nel sistema. Ad esempio,
+  se un atleta paga il 15 del mese ma tu registri il pagamento il 20, con questa opzione attiva
+  la ricevuta riporterà la data del 15 (data del pagamento effettivo).
+</Tip>

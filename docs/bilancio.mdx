@@ -21,21 +21,35 @@ Aggiorna il tuo anno fiscale dalle impostazioni per allineare il tuo bilancio. P
 3. **Anno sportivo (2)**: l'anno fiscale inizia il 1° giugno e termina il 31 maggio.
 4. **Altro periodo**: l'anno fiscale inizia e termina in un periodo a tua scelta.
 
-<Note>Aggiorna il periodo del tuo Anno Fiscale per allineare il bilancio.</Note>
+<Warning>
+  **Impatto dell'anno fiscale sul bilancio**: il bilancio viene calcolato in base al periodo
+  dell'anno fiscale configurato. Se modifichi il tipo di anno fiscale, tutte le voci di bilancio
+  verranno raggruppate nel nuovo periodo. Verifica attentamente le date prima di procedere con
+  il cambio per evitare discrepanze nel rendiconto.
+</Warning>
 
 ## Conti economici
 
-I conti economici rappresentano i tuoi conti correnti ed il tuo portafoglio. Possono essere di due tipi:
+I conti economici rappresentano i tuoi conti correnti ed il tuo portafoglio. Possono essere di tre tipi:
 
-1. _CASSA_: rappresenta il tuo portafoglio. In questo conto vengono registrate tutte le entrate e le uscite in contanti.
-2. _BANCA_: rappresenta il tuo conto corrente. In questo conto vengono registrate tutte le entrate e le uscite con bonifico bancario.
+| Tipo conto | Descrizione |
+| --- | --- |
+| **CASSA** | Rappresenta il tuo portafoglio o la cassa fisica. In questo conto vengono registrate tutte le entrate e le uscite in contanti |
+| **BANCA** | Rappresenta il tuo conto corrente bancario. In questo conto vengono registrate tutte le entrate e le uscite con bonifico bancario |
+| **ALTRO** | Per conti che non rientrano nelle categorie precedenti, ad esempio conti postali o fondi dedicati |
 
 Potrai creare tutti i conti economici che vuoi e potrai sempre modificarli in base alle tue esigenze.
 Specifica al momento della creazione il saldo iniziale del conto per avere un bilancio sempre aggiornato.
 
+<Info>
+  **Assegnazione automatica del conto**: quando crei un nuovo pagamento, il sistema lo assegna
+  automaticamente al conto **BANCA** predefinito dell'associazione. Puoi sempre cambiare il conto
+  manualmente durante la creazione o la modifica del pagamento.
+</Info>
+
 ## Giroconti
 
-I giroconti rappresentano i tuoi conti correnti ed il tuo portafoglio. Quando depositi o prelevi denaro dal tuo conto corrente senza
+I giroconti sono trasferimenti di denaro tra i tuoi conti (ad esempio da cassa a banca). Quando depositi o prelevi denaro dal tuo conto corrente senza
 avere un pagamento in entrata o in uscita, dovrai registrare un giroconto per tenere aggiornato il tuo bilancio.
 
 ## Pubblicazione del bilancio
@@ -44,3 +58,11 @@ Una volta che hai inserito tutte le entrate e le uscite, potrai pubblicare il tu
 associati.
 
 <Warning>Una volta pubblicato il bilancio non potrai più modificarlo.</Warning>
+
+## Risorse correlate
+
+<CardGroup cols={2}>
+  <Card title="Come generare il bilancio" icon="file-invoice-dollar" href="/faq/come-generare-bilancio">
+    Guida rapida su come generare e pubblicare il bilancio della tua associazione.
+  </Card>
+</CardGroup>

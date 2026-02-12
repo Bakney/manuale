@@ -12,7 +12,7 @@ pagano comunque un abbonamento per un numero di lezioni.
 
 I carnet lavorano in sincrono con le lezioni, quindi se un atleta non è presente
 a una lezione, il carnet non viene scalato, ma se un atleta non ha più lezioni
-disponibili, bakney ti avviserà che sono terminate.
+disponibili, Bakney ti avviserà che sono terminate.
 
 ## Come funziona un carnet?
 
@@ -23,6 +23,27 @@ o più corsi.
 Quando un atleta partecipa ad una lezione, questa viene scalata dal carnet. Se il carnet
 non ha più lezioni disponibili, l'atleta non potrà più partecipare alle lezioni.
 
+### Logica di scalamento lezioni
+
+Se un atleta possiede **più carnet** attivi per lo stesso corso, il sistema scala la lezione dal carnet con il **minor numero di lezioni rimaste**. Questa logica permette di esaurire prima i carnet quasi terminati, mantenendo quelli più nuovi con più lezioni disponibili.
+
+<Info>
+  Non devi preoccuparti di scegliere da quale carnet scalare le lezioni: il sistema lo fa automaticamente in modo intelligente. Inoltre, un carnet il cui pagamento non è ancora stato saldato non verrà utilizzato fino al completamento del pagamento.
+</Info>
+
+### Carnet pubblici e privati
+
+Quando crei un carnet puoi decidere se renderlo **pubblico** o **privato**:
+
+| Tipo | Descrizione |
+| --- | --- |
+| **Pubblico** | Il carnet è acquistabile direttamente dagli atleti dalla loro area personale. Utile per pacchetti standard che vuoi rendere disponibili a tutti. |
+| **Privato** | Il carnet può essere assegnato solo manualmente dall'associazione. Utile per pacchetti personalizzati o promozionali riservati a specifici atleti. |
+
+<Tip>
+  Per creare un carnet privato, imposta il campo **Pubblico** a `No` durante la creazione. Potrai comunque assegnarlo manualmente a qualsiasi atleta in qualsiasi momento.
+</Tip>
+
 ### Registro presenze automatico con carnet
 
 Attivando l'opzione **Segna Presenze Automaticamente** dalle impostazioni, le lezioni saranno
@@ -30,9 +51,13 @@ scalate in automatico nella data della lezione.
 L'atleta dalla sua area personale potrà segnalare che non parteciperà alla lezione e questo
 bloccherà Bakney dal segnare la presenza e scalare la lezione dal carnet.
 
+#### Blocco per assenza prevista
+
+Se un atleta segnala in anticipo che non parteciperà a una lezione (tramite la sua area personale), il sistema **non** scala la lezione dal carnet per quella data. L'assenza prevista viene registrata separatamente e il carnet rimane invariato.
+
 <Note>
   Puoi sempre modificare le presenze manualmente dalla sezione **Corsi &gt
-  Registro presenze**. Se rimuovi una presenza, il carnet verrà ricaricato.
+  Registro presenze**. Se rimuovi una presenza, il carnet verrà ricaricato con la lezione precedentemente scalata.
 </Note>
 
 ## Creare e gestire un carnet
@@ -66,3 +91,30 @@ e seleziona il corso a cui vuoi assegnarlo.
   Puoi assegnare un carnet ad un corso solo se il carnet è stato assegnato ad un
   atleta. E solo se l'atleta è iscritto al corso.
 </Warning>
+
+## Ricaricare un carnet
+
+Se un atleta ha terminato le lezioni di un carnet, puoi creare un **nuovo carnet** con le stesse caratteristiche senza doverlo riconfigurare da zero. Dalla pagina di dettaglio del carnet, usa la funzione di ricarica: verrà creato un nuovo carnet identico (stesso numero di lezioni, stesso importo) e associato automaticamente agli stessi corsi del carnet precedente.
+
+<Tip>
+  La ricarica crea un carnet completamente nuovo con un proprio pagamento. Lo storico delle lezioni del carnet precedente rimane consultabile.
+</Tip>
+
+## Riepilogo delle regole di funzionamento
+
+| Regola | Descrizione |
+| --- | --- |
+| **Scalamento automatico** | Quando viene segnata la presenza, una lezione viene scalata dal carnet con meno lezioni rimaste. |
+| **Restituzione lezione** | Se rimuovi una presenza dal registro, la lezione viene restituita al carnet. |
+| **Assenza prevista** | Se l'atleta segnala un'assenza, la lezione non viene scalata. |
+| **Carnet non pagato** | Un carnet il cui pagamento non è stato saldato non viene utilizzato per lo scalamento. |
+| **Restrizione assegnazione** | Un carnet può essere associato a un corso solo se l'atleta è iscritto a quel corso. |
+| **Carnet esaurito** | Quando le lezioni finiscono, Bakney ti avvisa e l'atleta non viene segnato come presente automaticamente. |
+
+## Risorse correlate
+
+<CardGroup cols={2}>
+  <Card title="Registro presenze e carnet" icon="clipboard-list" href="/tutorials/come-gestire-registro-presenze-carnet">
+    Tutorial su come gestire il registro presenze insieme ai carnet lezioni.
+  </Card>
+</CardGroup>

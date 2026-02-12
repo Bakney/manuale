@@ -15,8 +15,12 @@ Un potenziale socio compila il modulo di iscrizione e firma il documento. A ques
 punto l'associazione può decidere se accettare o rifiutare la richiesta di iscrizione.
 
 <Steps>
-  <Step title="Socio compila e firma il modulo"></Step>
-  <Step title="L'associazione approva o rifiuta l'iscrizione"></Step>
+  <Step title="Socio compila e firma il modulo">
+    Il potenziale socio compila il modulo di iscrizione online e lo firma digitalmente.
+  </Step>
+  <Step title="L'associazione approva o rifiuta l'iscrizione">
+    Una volta ricevuta la richiesta, l'associazione può accettarla o rifiutarla.
+  </Step>
 </Steps>
 
 <CardGroup cols={2}>
@@ -40,19 +44,90 @@ punto l'associazione può decidere se accettare o rifiutare la richiesta di iscr
   </Card>
 </CardGroup>
 
+## Ciclo di vita dell'iscrizione
+
+Ogni iscrizione in Bakney segue un percorso ben definito, dal momento in cui il socio compila il modulo fino all'eventuale archiviazione. Ecco i possibili stati:
+
+| Stato | Significato |
+| --- | --- |
+| **Non firmato** | Il modulo di iscrizione è stato creato (ad esempio come bozza o da importazione), ma il socio non ha ancora firmato il documento. |
+| **In attesa** | Il socio ha compilato e firmato il modulo. L'iscrizione è in attesa di approvazione da parte dell'associazione. |
+| **Accettato** | L'associazione ha approvato la richiesta. Il socio è ufficialmente iscritto. |
+| **Rifiutato** | L'associazione ha rifiutato la richiesta di iscrizione. |
+| **Dimesso** | Il socio si è ritirato o è stato archiviato dall'associazione. |
+
+<Steps>
+  <Step title="Il socio compila e firma il modulo">
+    Lo stato passa da **Non firmato** a **In attesa**.
+  </Step>
+  <Step title="L'associazione valuta la richiesta">
+    L'associazione può **accettare** o **rifiutare** l'iscrizione.
+  </Step>
+  <Step title="L'iscrizione è attiva">
+    Se accettata, il socio risulta iscritto e può partecipare alle attività dell'associazione.
+  </Step>
+</Steps>
+
+<Tip>
+  Se hai importato soci da un file Excel o CSV, le iscrizioni partono dallo stato **Non firmato**. Potrai successivamente far firmare il modulo al socio.
+</Tip>
+
+## Tipologie di iscrizione
+
+Quando crei un'iscrizione puoi scegliere tra tre tipologie:
+
+| Tipologia | Descrizione |
+| --- | --- |
+| **Associato** | Il socio è iscritto solo come membro dell'associazione. Non è tesserato presso alcun ente sportivo. |
+| **Associato e Tesserato** | Il socio è sia membro dell'associazione che tesserato presso l'ente sportivo di riferimento. Questa è la tipologia più comune. |
+| **Tesserato** | Il socio è tesserato presso l'ente sportivo ma non è membro dell'associazione. Utile per atleti affiliati tramite altri enti. |
+
+## Ruoli del socio
+
+Ad ogni socio puoi assegnare un ruolo all'interno dell'associazione:
+
+| Ruolo | Descrizione |
+| --- | --- |
+| **Socio ordinario** | Membro standard dell'associazione (ruolo predefinito). |
+| **Consigliere** | Membro del consiglio direttivo. |
+| **Segretario** | Responsabile della segreteria dell'associazione. |
+| **Vice Presidente** | Vice presidente dell'associazione. |
+| **Presidente** | Presidente dell'associazione. |
+| **Socio volontario** | Socio che presta servizio volontario. |
+| **Socio sostenitore** | Socio che sostiene economicamente l'associazione. |
+| **Tesoriere** | Responsabile della gestione economica. |
+
+<Note>
+  Il ruolo del socio è puramente organizzativo e viene riportato nel modulo di iscrizione e nei documenti ufficiali dell'associazione.
+</Note>
+
+## Durata delle iscrizioni
+
+In Bakney puoi scegliere come calcolare la durata delle iscrizioni dei soci. Questa impostazione si configura dalla sezione **Impostazioni** e si applica a tutte le nuove iscrizioni.
+
+| Modalità | Come funziona |
+| --- | --- |
+| **Anno solare dalla data di iscrizione** | L'iscrizione dura esattamente 12 mesi dalla data in cui il socio si iscrive. Ad esempio, se il socio si iscrive il 15 marzo 2025, l'iscrizione scade il 15 marzo 2026. |
+| **Come la stagione sportiva** | L'iscrizione segue le date della stagione sportiva configurata nelle impostazioni. Ad esempio, dal 1 settembre al 31 agosto dell'anno successivo, indipendentemente da quando il socio si iscrive. |
+| **Dall'iscrizione al termine della stagione sportiva** | L'iscrizione parte dalla data di iscrizione del socio e termina alla fine della stagione sportiva corrente. |
+
+<Tip>
+  Puoi configurare la data di inizio stagione sportiva dalla sezione **Impostazioni**. La durata scelta si applica automaticamente a tutte le nuove iscrizioni.
+</Tip>
+
 ## Aggiungi un Socio
 
-Per aggiungere un socio vai nella sezione `Libro Soci` e clicca su pulsante `Nuovo Socio`.
+Per aggiungere un socio vai nella sezione `Libro Soci` e clicca sul pulsante `Nuovo Socio`.
 Apparirà la seguente pagina:
 
 <Frame caption="Wizard di creazione di un nuovo socio.">
   <img src="/images/libro-soci/libro-soci-1.png" />
 </Frame>
 
-Potrai decide di creare associare un socio a te stesso o ad un nuovo utente.
+Potrai decidere se creare un nuovo socio o associarne uno esistente al tuo account.
 
 <Tip>
-  I soci posso essere associati alla tua associazione sportiva oppure ad un
+  I soci possono essere associati alla tua associazione sportiva oppure ad un
   altro account Bakney.
 </Tip>
 
@@ -74,7 +149,7 @@ a te stesso.
 #### Cosa succede se hai più tipologie di quote sociali?
 
 In questo caso dovrai anche scegliere la tipologia di quota sociale del socio.
-Per modificare le tipologie di quote sociali vai nella sezione `Libro Soci` e clicca su pulsante `Modulo`
+Per modificare le tipologie di quote sociali vai nella sezione `Libro Soci` e clicca sul pulsante `Modulo`
 attivando l'opzione `Quote multiple`.
 
 ### 2. Informazioni Anagrafiche
@@ -106,10 +181,18 @@ In questa sezione puoi caricare il certificato medico del socio e selezionare
 la data di scadenza. Se il socio non ha un certificato medico, puoi decidere di
 caricarlo in un secondo momento.
 
+#### Esenzione certificato medico per minori di 6 anni
+
+I bambini con meno di 6 anni sono **automaticamente esenti** dall'obbligo di presentare il certificato medico. Il sistema calcola l'età del socio a partire dalla data di nascita inserita nell'anagrafica: finché il bambino non compie 6 anni, nella scheda del socio vedrai l'indicazione "Esente" con il numero di giorni rimanenti prima del compimento dei 6 anni.
+
+<Info>
+  Non devi fare nulla per attivare questa esenzione: è sufficiente che la data di nascita del socio sia inserita correttamente. Quando il bambino compirà 6 anni, il sistema richiederà automaticamente il certificato medico.
+</Info>
+
 #### Scadenza dei Certificati Medici
 
 Con **Bakney** è impossibile far dimenticare ai soci quando un certificato medico è in scadenza.
-In automatico verranno inviate delle notiche via email.
+In automatico verranno inviate delle notifiche via email.
 
 | Giorni alla scadenza       | cosa succede?                                                     |
 | -------------------------- | ----------------------------------------------------------------- |
@@ -179,6 +262,14 @@ oppure non sia stato possibile importare i soci, puoi scaricare un file di esemp
 Una volta caricato il file, potrai decidere quali colonne importare e come associarle
 alle informazioni anagrafiche dei soci su **Bakney**.
 
+#### Deduplicazione automatica durante l'importazione
+
+Per evitare la creazione di iscrizioni duplicate, il sistema controlla automaticamente ogni riga del file importato. Se trova una combinazione identica di **nome**, **cognome**, **codice fiscale** e **periodo di iscrizione** già presente nel libro soci, quella riga viene saltata.
+
+<Info>
+  Se stai importando lo stesso file due volte (ad esempio dopo una correzione), non verranno creati duplicati. Il sistema riconosce i soci già presenti e importa solo quelli nuovi.
+</Info>
+
 ## Trasferimento dei Soci
 
 Se hai aggiunto un socio collegandolo al tuo account associazione e vuoi trasferirlo
@@ -190,6 +281,14 @@ il pulsante `Trasferisci`.
 Se nell'anagrafica del socio è già stata inserita una mail, il form di trasferimento
 sarà già compilato. In caso contrario, dovrai inserire la mail fornita dal socio oppure,
 se il socio ha già un account Bakney, puoi inserire il suo **username**.
+
+#### Scadenza delle richieste di trasferimento
+
+Ogni richiesta di trasferimento ha una validità di **30 giorni**. Se il destinatario non completa il trasferimento entro questo periodo, la richiesta scade automaticamente e dovrà essere inviata nuovamente.
+
+<Warning>
+  Controlla che il destinatario del trasferimento accetti la richiesta entro 30 giorni, altrimenti dovrai ripetere l'operazione.
+</Warning>
 
 ## Assegnazione di Tag ai Soci
 
@@ -213,6 +312,23 @@ Qui potrai scegliere se assegnare un tag esistente oppure crearne uno nuovo.
 
 ### Eliminare un Tag
 
-Per elminare un tag, seleziona i soci cliccando sulla _checkbox_ a sinistra del nome
+Per eliminare un tag, seleziona i soci cliccando sulla _checkbox_ a sinistra del nome
 e premi il pulsante `Assegna Tag`. A questo punto seleziona solo il tag che vuoi
 che siano assegnati ai soci e premi il pulsante `Applica`.
+
+## Risorse correlate
+
+<CardGroup cols={2}>
+  <Card title="Come creare un socio" icon="user-plus" href="/faq/come-si-crea-un-socio">
+    Guida passo passo per creare un nuovo socio nella tua associazione.
+  </Card>
+  <Card title="Importare soci da file" icon="file-import" href="/faq/come-si-importano-dei-soci">
+    Scopri come importare i soci da un file Excel o CSV.
+  </Card>
+  <Card title="Condividere il link iscrizioni" icon="link" href="/faq/come-condividere-il-link-iscrizioni">
+    Come condividere il link e il QR code per le iscrizioni online.
+  </Card>
+  <Card title="Gestire i certificati medici" icon="file-medical" href="/tutorials/come-gestire-certificati-medici">
+    Tutorial sulla gestione dei certificati medici degli atleti.
+  </Card>
+</CardGroup>

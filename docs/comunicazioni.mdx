@@ -21,7 +21,7 @@ I messaggi sono comunicazioni che verranno inviate via email o SMS.
 
 ### Come inviare una comunicazione SMS/email?
 
-Per inviare una comunicazione SMS/email clicca sull'icona **areoplano** a destra del messaggio che vuoi inviare.
+Per inviare una comunicazione SMS/email clicca sull'icona **aeroplano** a destra del messaggio che vuoi inviare.
 A questo punto puoi importare i numeri di telefono o gli indirizzi email dei tuoi atleti e inviare la comunicazione.
 In alternativa, puoi specificare a mano i numeri di telefono o gli indirizzi email dei tuoi atleti.
 
@@ -40,10 +40,72 @@ inserire degli step di attesa e il messaggio/email da inviare.
 
 Esistono due tipologie di attivazione di un workflow:
 
-1. Data e ora specifica
+1. Data e ora specifica (programmato)
 2. Evento specifico (come ad esempio un pagamento effettuato)
+
+### Trigger disponibili
+
+Un trigger è l'evento che attiva il workflow. Ecco tutti i trigger disponibili:
+
+| Trigger | Descrizione |
+| --- | --- |
+| **Nuova iscrizione** | Si attiva quando un nuovo socio si iscrive all'associazione |
+| **Iscrizione firmata** | Si attiva quando un socio firma il modulo di iscrizione |
+| **Iscrizione approvata** | Si attiva quando l'associazione approva un'iscrizione |
+| **Nuova iscrizione corso** | Si attiva quando un atleta viene iscritto a un corso |
+| **Certificato medico scaduto** | Si attiva quando il certificato medico di un atleta risulta scaduto |
+| **Certificato medico in scadenza** | Si attiva quando il certificato medico sta per scadere (7 o 30 giorni prima) |
+| **Pagamento effettuato** | Si attiva quando un pagamento viene segnato come pagato |
+| **Programmato** | Si attiva in una data e ora specifica scelta da te |
+
+<Tip>
+  Con il trigger **Programmato** puoi scegliere a chi inviare la comunicazione: a tutti gli iscritti,
+  solo agli approvati, ai non firmati, agli archiviati, oppure a chi ha un tag specifico.
+</Tip>
+
+### Blocchi del workflow
+
+Dopo aver scelto il trigger, puoi aggiungere una sequenza di blocchi per definire cosa deve succedere:
+
+<CardGroup cols={3}>
+  <Card title="Attesa" icon="clock">
+    Inserisce una pausa prima del blocco successivo. Puoi specificare la durata in **minuti**,
+    **ore** o **giorni**.
+  </Card>
+  <Card title="Email" icon="envelope">
+    Invia un'email con oggetto e contenuto personalizzato ai destinatari scelti
+    (atleti, associazione o entrambi).
+  </Card>
+  <Card title="SMS" icon="message">
+    Invia un messaggio SMS al numero di telefono dell'atleta. Consuma crediti SMS.
+  </Card>
+</CardGroup>
+
+I blocchi vengono eseguiti in sequenza, dall'alto verso il basso. Puoi combinare più blocchi per
+creare automazioni articolate. Ad esempio:
+
+1. **Trigger**: Nuova iscrizione corso
+2. **Email**: Messaggio di benvenuto
+3. **Attesa**: 3 giorni
+4. **Email**: Promemoria con le informazioni utili
+
+### Limiti delle comunicazioni
+
+<Warning>
+  Tieni presente i seguenti limiti:
+  - **Email**: massimo **1.000 email al giorno** per associazione. Il contatore si azzera ogni giorno automaticamente.
+  - **SMS**: hai a disposizione **10 SMS gratuiti** per testare il servizio. Terminati i crediti, puoi acquistarne di nuovi dalla sezione **Comunicazioni > Configurazioni > SMS e utilizzo**.
+</Warning>
 
 ### Come creare un workflow?
 
 Per creare un workflow clicca sul pulsante **+ Automazione** nella sezione **Comunicazioni > Automazione**.
 Ti si aprirà una finestra dove potrai specificare il nome del workflow e le operazioni da eseguire.
+
+## Risorse correlate
+
+<CardGroup cols={2}>
+  <Card title="Impostare automazioni e workflow" icon="wand-magic-sparkles" href="/tutorials/come-impostare-automazioni-workflow">
+    Tutorial completo su come creare e configurare le automazioni via workflow.
+  </Card>
+</CardGroup>

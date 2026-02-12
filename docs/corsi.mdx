@@ -39,6 +39,14 @@ pagamento per l'atleta.
   sistema creerà solamente il pagamento per le rate successive.
 </Note>
 
+<Info>
+  Il numero massimo di rate consentite è**11**. Se hai bisogno di più scadenze, valuta l'utilizzo di un corso di tipo **Abbonamento** con frequenza mensile.
+</Info>
+
+<Tip>
+  Se preferisci che anche gli atleti iscritti in ritardo ricevano il piano rate completo (comprese le rate già scadute), puoi abilitare l'opzione **Piano rate completo** dalla sezione **Impostazioni**. In questo modo il sistema creerà i pagamenti per tutte le rate, anche quelle con data già passata.
+</Tip>
+
 #### Corso con le rate e pagamento in unica soluzione
 
 Se il corso prevede ad esempio 2 o 3 rate annuali, ma vuoi dare la possibilità agli atleti di
@@ -64,7 +72,7 @@ specificando per ognuna:
 - **Importo**: il prezzo della quota
 - **Causale**: la descrizione che apparirà nel pagamento (es. "Iscrizione corso - Quota Studenti")
 
-Puoi gestire la causali dalla sezione **Contabilità > Pagamenti > Causali (centri di costo)**.
+Puoi gestire le causali dalla sezione **Contabilità > Pagamenti > Causali (centri di costo)**.
 
 <Note>
   Le quote multiple sono pagamenti una tantum e non si rinnovano automaticamente.
@@ -100,6 +108,18 @@ Puoi configurare:
 
 È possibile specificare per quanto i corsi saranno validi (attivi), se un corso non è più valido (inattivo)
 non saranno ad esempio rinnovati gli abbonamenti.
+
+Ogni corso può trovarsi in uno dei seguenti stati di visibilità:
+
+| Stato | Descrizione |
+| --- | --- |
+| **Visibile** | Il corso è attivo e visibile agli atleti. Gli abbonamenti vengono rinnovati automaticamente (se configurati). |
+| **Non visibile** | Il corso è nascosto e non viene mostrato agli atleti. Gli abbonamenti **non** si rinnovano automaticamente. |
+| **Interno** | Il corso è visibile solo all'associazione e non viene mostrato pubblicamente agli atleti. Utile per corsi interni o in fase di preparazione. |
+
+<Warning>
+  Se imposti un corso come **Non visibile**, tutti i rinnovi automatici degli abbonamenti associati a quel corso verranno interrotti. Assicurati che questo sia il comportamento desiderato prima di cambiare lo stato.
+</Warning>
 
 ## Gestire i corsi
 
@@ -147,7 +167,7 @@ registro presenze e pubblicare il calendario.
 #### Condivisione del calendario
 
 Per condividere il calendario con gli atleti, clicca su `Condividi` e copia il link che ti viene fornito.
-In alternativa premi su `Whatsapp` per condividere il calendario tramite Whatsapp oppure premi su `Invia Email` per inviare una email con il link del calendario.
+In alternativa premi su `WhatsApp` per condividere il calendario tramite WhatsApp oppure premi su `Invia Email` per inviare una email con il link del calendario.
 
 In alternativa, se hai un sito web, puoi incorporare il calendario direttamente nel tuo sito web Copiando
 il codice HTML fornito nella sezione `Codice HTML da incorporare nel tuo sito`.
@@ -177,3 +197,49 @@ A questo punto potrai:
 
 Come puoi vedere abbiamo implementato tutti gli strumenti per rendere flessibile la gestione dei corsi,
 ma allo stesso tempo senza complicare la gestione operativa del corso.
+
+## Dettagli tecnici e casi particolari
+
+In questa sezione troverai informazioni utili su come il sistema gestisce alcune situazioni particolari.
+
+### Giorno di addebito per gli abbonamenti
+
+Quando configuri un corso di tipo **Abbonamento**, puoi scegliere il giorno del mese in cui generare il pagamento. Il giorno massimo selezionabile è il **28**: questo evita problemi con i mesi che hanno meno di 31 giorni (come febbraio, aprile, giugno, ecc.).
+
+<Note>
+  Se vuoi che il pagamento venga generato a fine mese, imposta il giorno al **28**. In questo modo il pagamento verrà creato regolarmente ogni mese senza problemi di calendario.
+</Note>
+
+### Prevenzione pagamenti duplicati
+
+Il sistema impedisce la creazione di pagamenti duplicati per la stessa rata o lo stesso abbonamento. Se un pagamento per una determinata scadenza è già stato creato, non ne verrà generato un secondo. Questo protegge da errori in caso di doppio clic o riprocessamento accidentale.
+
+### Eliminazione di un corso
+
+Quando elimini un corso, il sistema esegue una **cancellazione sicura**: il corso viene nascosto dalla lista ma i dati non vengono persi definitivamente. In particolare:
+
+- I **pagamenti già saldati** vengono conservati e restano visibili nella sezione Pagamenti
+- I **pagamenti non ancora saldati** vengono eliminati per evitare scadenze orfane
+- Le **rate non pagate** vengono rimosse
+
+<Warning>
+  L'eliminazione di un corso non può essere annullata dalla piattaforma. Prima di eliminare un corso, assicurati di aver verificato lo stato dei pagamenti associati.
+</Warning>
+
+### Eliminazione di un atleta dal corso
+
+Quando rimuovi un atleta da un corso, il comportamento è simile: le rate e i pagamenti non ancora saldati vengono eliminati, mentre quelli già pagati restano nell'archivio pagamenti.
+
+## Risorse correlate
+
+<CardGroup cols={2}>
+  <Card title="Pagamenti rateizzati" icon="money-check-dollar" href="/tutorials/come-impostare-pagamenti-rateizzati">
+    Tutorial su come impostare e gestire i pagamenti rateizzati per i corsi.
+  </Card>
+  <Card title="Registro Presenze" icon="clipboard-check" href="/docs/registro-presenze">
+    Scopri come gestire le presenze degli atleti alle lezioni.
+  </Card>
+  <Card title="Carnet lezioni" icon="ticket" href="/docs/carnet">
+    Come funzionano i carnet di lezioni prepagate per i tuoi corsi.
+  </Card>
+</CardGroup>
