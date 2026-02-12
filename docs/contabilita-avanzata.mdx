@@ -1,0 +1,292 @@
+---
+title: "Contabilità avanzata"
+description: "In questa sezione troverai tutte le informazioni relative alle funzionalità avanzate di contabilità: fatture attive e passive, anagrafica fornitori e clienti, conti finanziari, giroconti e causali di pagamento."
+---
+
+## Panoramica
+
+Bakney Sport mette a disposizione un modulo di contabilità avanzata che ti permette di gestire in modo completo la parte amministrativa della tua associazione sportiva.
+Da questa sezione potrai gestire:
+
+- **Fatture attive** (emesse verso i clienti)
+- **Fatture passive** (ricevute dai fornitori)
+- **Anagrafica fornitori e clienti**
+- **Conti finanziari** (cassa, banca e altri conti)
+- **Giroconti** (trasferimenti tra conti)
+- **Causali di pagamento** (centri di costo)
+
+---
+
+## Fatture attive
+
+Le fatture attive sono i documenti fiscali che la tua associazione emette verso i propri clienti. Bakney Sport supporta anche la generazione di fatture elettroniche nel formato richiesto dalla normativa italiana.
+
+### Creare una fattura attiva
+
+<Steps>
+  <Step title="Vai nella sezione Fatture Attive">
+    Dalla sezione **Contabilità**, clicca su **Fatture Attive**.
+  </Step>
+  <Step title="Clicca su + Fattura">
+    Clicca sul pulsante **+ Fattura** per aprire il modulo di creazione.
+  </Step>
+  <Step title="Compila i dati del cedente">
+    Inserisci i dati della tua associazione (cedente): denominazione, partita IVA, codice fiscale, indirizzo, CAP, città, provincia e paese.
+  </Step>
+  <Step title="Compila i dati del cliente">
+    Inserisci i dati del destinatario (cessionario): denominazione, partita IVA, codice fiscale, indirizzo e recapiti.
+  </Step>
+  <Step title="Aggiungi le righe della fattura">
+    Per ogni riga inserisci: descrizione, quantità, prezzo unitario, aliquota IVA e unità di misura.
+  </Step>
+  <Step title="Configura il pagamento">
+    Seleziona le condizioni di pagamento tra:
+    - **Pagamento completo**
+    - **Pagamento a rate**
+    - **Anticipo**
+
+    Indica anche la modalità di pagamento (contanti, bonifico, carta di pagamento, ecc.), l'importo totale e la data di scadenza.
+  </Step>
+  <Step title="Salva la fattura">
+    Clicca su **Salva** per registrare la fattura. Il sistema assegnerà automaticamente un numero progressivo.
+  </Step>
+</Steps>
+
+<Tip>Se la tua associazione emette fatture elettroniche, Bakney Sport genera automaticamente il file XML nel formato FatturaPA (FPR12) pronto per l'invio al Sistema di Interscambio.</Tip>
+
+### Modificare una fattura attiva
+
+Per modificare una fattura attiva, clicca sul pulsante **Modifica** a forma di matita nella riga corrispondente. Potrai aggiornare l'identificativo, le date di pagamento e scadenza, lo stato (pagata o non pagata) e le note.
+
+### Segnare una fattura come pagata
+
+Dal modulo di modifica, cambia lo stato da **Non pagata** a **Pagata** e clicca su **Salva**.
+
+<Note>Una fattura segnata come pagata verrà considerata nel calcolo del bilancio come entrata incassata.</Note>
+
+---
+
+## Fatture passive
+
+Le fatture passive sono i documenti fiscali che la tua associazione riceve dai propri fornitori. Registrare le fatture passive ti permette di tenere traccia di tutte le spese e di monitorare le scadenze di pagamento.
+
+### Registrare una fattura passiva
+
+<Steps>
+  <Step title="Vai nella sezione Fatture Passive">
+    Dalla sezione **Contabilità**, clicca su **Fatture Passive**.
+  </Step>
+  <Step title="Clicca su + Fattura">
+    Clicca sul pulsante **+ Fattura** per aprire il modulo di registrazione.
+  </Step>
+  <Step title="Compila i dati della fattura">
+    Inserisci le seguenti informazioni:
+    1. **Identificativo**: il numero o codice della fattura del fornitore
+    2. **Importo**: l'importo totale della fattura
+    3. **Data pagamento**: la data in cui hai effettuato o effettuerai il pagamento
+    4. **Data scadenza**: la data entro cui la fattura deve essere pagata
+    5. **Conto**: il conto finanziario su cui registrare il pagamento
+    6. **Fornitore**: seleziona il fornitore dall'anagrafica
+    7. **Stato**: pagata o non pagata
+    8. **Note** (opzionale): eventuali annotazioni
+  </Step>
+  <Step title="Salva la fattura">
+    Clicca su **Salva** per registrare la fattura passiva.
+  </Step>
+</Steps>
+
+<Tip>Registra le fatture passive appena le ricevi, anche se non le hai ancora pagate. In questo modo avrai sempre sotto controllo le scadenze e potrai pianificare i pagamenti in anticipo.</Tip>
+
+### Modificare una fattura passiva
+
+Per modificare una fattura passiva clicca sul pulsante **Modifica** a forma di matita. Potrai aggiornare l'identificativo, le date, lo stato di pagamento e le note.
+
+### Segnare una fattura passiva come pagata
+
+Dal modulo di modifica, cambia lo stato da **Non pagata** a **Pagata** e clicca su **Salva**.
+
+<Warning>Una volta segnata come pagata, la fattura passiva verrà conteggiata come uscita nel bilancio. Assicurati che la data di pagamento sia corretta.</Warning>
+
+---
+
+## Fornitori e clienti
+
+La sezione **Fornitori e Clienti** ti permette di creare e mantenere un'anagrafica completa di tutti i soggetti con cui la tua associazione ha rapporti economici.
+
+### Aggiungere un fornitore o cliente
+
+<Steps>
+  <Step title="Vai nella sezione Fornitori e Clienti">
+    Dalla sezione **Contabilità**, clicca su **Fornitori e Clienti**.
+  </Step>
+  <Step title="Clicca su + Nuovo">
+    Clicca sul pulsante per aggiungere una nuova anagrafica.
+  </Step>
+  <Step title="Compila i dati anagrafici">
+    Inserisci le seguenti informazioni:
+    1. **Nome**: il nome o la ragione sociale (obbligatorio)
+    2. **Tipo**: seleziona **Fornitore** o **Cliente**
+    3. **Codice fiscale**: il codice fiscale del soggetto
+    4. **Partita IVA**: la partita IVA, se disponibile
+    5. **Indirizzo**: l'indirizzo completo
+    6. **Email**: l'indirizzo email
+    7. **Telefono**: il numero di telefono
+    8. **Città**, **CAP**, **Provincia**, **Paese** e **Nazionalità**
+    9. **Note** (opzionale): eventuali annotazioni aggiuntive
+  </Step>
+  <Step title="Salva">
+    Clicca su **Salva** per registrare l'anagrafica.
+  </Step>
+</Steps>
+
+<Tip>Compila sempre il codice fiscale e la partita IVA: questi dati ti serviranno quando creerai le fatture attive o registrerai le fatture passive associate a quel soggetto.</Tip>
+
+### Modificare un fornitore o cliente
+
+Per modificare i dati di un fornitore o cliente, apri la scheda del soggetto e aggiorna i campi desiderati. Ricordati di cliccare su **Salva** per applicare le modifiche.
+
+### Eliminare un fornitore o cliente
+
+Per eliminare un'anagrafica, clicca sul pulsante **Elimina** a forma di cestino.
+
+<Warning>Prima di eliminare un fornitore o cliente, assicurati che non ci siano fatture o pagamenti ancora collegati a quel soggetto.</Warning>
+
+---
+
+## Conti finanziari
+
+I conti finanziari rappresentano i tuoi conti correnti, il portafoglio contanti e qualsiasi altro strumento finanziario della tua associazione. Gestirli correttamente ti permette di avere un bilancio sempre aggiornato.
+
+### Tipologie di conto
+
+Bakney Sport supporta tre tipologie di conto:
+
+1. **Cassa**: rappresenta il denaro contante a disposizione dell'associazione.
+2. **Banca**: rappresenta un conto corrente bancario.
+3. **Altro**: rappresenta qualsiasi altro strumento finanziario (ad esempio un conto postale o un conto deposito).
+
+### Creare un nuovo conto
+
+<Steps>
+  <Step title="Vai nella sezione Conti">
+    Dalla sezione **Contabilità**, clicca su **Conti**.
+  </Step>
+  <Step title="Clicca su + Conto">
+    Clicca sul pulsante per aggiungere un nuovo conto finanziario.
+  </Step>
+  <Step title="Compila i dati del conto">
+    Inserisci le seguenti informazioni:
+    1. **Nome**: un nome descrittivo per il conto (ad esempio "Cassa sede" o "Conto BancaXY")
+    2. **Tipologia**: seleziona tra Cassa, Banca o Altro
+    3. **Stato**: attivo o disattivato
+    4. **Saldo iniziale**: l'importo presente sul conto al momento della creazione
+    5. **Codice**: un codice identificativo per il conto
+  </Step>
+  <Step title="Salva">
+    Clicca su **Salva** per creare il conto.
+  </Step>
+</Steps>
+
+<Info>Quando crei un pagamento, potrai selezionare su quale conto registrarlo. Il sistema aggiornerà automaticamente il saldo del conto in base alle entrate e alle uscite.</Info>
+
+### Modificare un conto
+
+Per modificare un conto clicca sul pulsante **Modifica** a forma di matita. Potrai aggiornare il nome, la tipologia, lo stato, il saldo iniziale e il codice.
+
+<Note>I conti di default creati automaticamente dal sistema non possono essere eliminati, ma possono essere modificati.</Note>
+
+<Tip>Inserisci il saldo iniziale corretto al momento della creazione del conto. Questo valore viene utilizzato come punto di partenza per il calcolo del saldo attuale nel bilancio.</Tip>
+
+---
+
+## Giroconti
+
+I giroconti sono trasferimenti di denaro tra un conto e un altro della tua associazione. Servono a registrare i movimenti interni che non corrispondono a entrate o uscite reali, ma a semplici spostamenti di fondi.
+
+**Esempio pratico**: prelevi 500 euro dal conto corrente bancario per avere contanti in cassa. In questo caso devi registrare un giroconto dal conto "Banca" al conto "Cassa" di 500 euro.
+
+### Creare un giroconto
+
+<Steps>
+  <Step title="Vai nella sezione Giroconti">
+    Dalla sezione **Contabilità**, clicca su **Giroconti**.
+  </Step>
+  <Step title="Clicca su + Giroconto">
+    Clicca sul pulsante **+ Giroconto** per aprire il modulo di creazione.
+  </Step>
+  <Step title="Compila i dati del giroconto">
+    Inserisci le seguenti informazioni:
+    1. **Data giroconto**: la data in cui è avvenuto il trasferimento
+    2. **Dal conto**: seleziona il conto da cui prelevare il denaro
+    3. **Al conto**: seleziona il conto su cui depositare il denaro
+    4. **Importo**: l'importo del trasferimento
+  </Step>
+  <Step title="Salva">
+    Clicca su **Salva** per registrare il giroconto.
+  </Step>
+</Steps>
+
+<Warning>Non puoi selezionare lo stesso conto come origine e destinazione del giroconto.</Warning>
+
+### Eliminare un giroconto
+
+Per eliminare un giroconto clicca sul pulsante **Elimina** a forma di cestino nella riga corrispondente. Il sistema chiederà una conferma prima di procedere con l'eliminazione.
+
+<Tip>Registra sempre i giroconti quando sposti denaro tra i tuoi conti. In questo modo il saldo di ogni conto resterà allineato con la situazione reale e il bilancio sarà sempre corretto.</Tip>
+
+---
+
+## Causali di pagamento
+
+Le causali di pagamento (dette anche centri di costo) ti permettono di classificare ogni entrata e ogni uscita della tua associazione in categorie specifiche. Questo è fondamentale per avere un bilancio ordinato e per capire come vengono distribuite le risorse economiche.
+
+### Tipologie di causali
+
+Ogni causale può essere di due tipi:
+
+1. **Istituzionale**: relativa alle attività istituzionali dell'associazione (corsi sportivi, quote associative, ecc.)
+2. **Commerciale**: relativa alle attività commerciali dell'associazione (sponsorizzazioni, vendita merchandising, ecc.)
+
+Ogni causale è inoltre classificata come **Entrata** o **Uscita**.
+
+### Creare una causale
+
+<Steps>
+  <Step title="Vai nella sezione Causali">
+    Dalla sezione **Pagamenti**, clicca su **Gestisci Causali**.
+  </Step>
+  <Step title="Clicca su + Causale">
+    Clicca sul pulsante **+ Causale** per aprire il modulo di creazione.
+  </Step>
+  <Step title="Compila i dati della causale">
+    Inserisci le seguenti informazioni:
+    1. **Nome**: un nome descrittivo per la causale (ad esempio "Quota corso nuoto" o "Affitto palestra")
+    2. **Movimento**: seleziona **Entrata** o **Uscita**
+    3. **Tipologia**: seleziona **Istituzionale** o **Commerciale**
+    4. **Detraibile fiscalmente** (solo per le entrate): attiva questa opzione se i pagamenti con questa causale sono detraibili dal 730
+  </Step>
+  <Step title="Configura la gestione IVA">
+    Se necessario, configura le impostazioni IVA:
+    - **Tipo IVA**: seleziona l'aliquota IVA applicabile (esente, esclusa, 4%, 10%, 22%, ecc.)
+    - **Tipo detrazione**: seleziona la percentuale di detrazione (nessuna, 10% o 50%)
+  </Step>
+  <Step title="Salva">
+    Clicca su **Salva** per creare la causale.
+  </Step>
+</Steps>
+
+### Modificare una causale
+
+Per modificare una causale clicca sul pulsante **Modifica** a forma di matita. Potrai aggiornare il nome, il tipo di movimento, la tipologia, la detraibilità e le impostazioni IVA.
+
+<Note>Le causali di default fornite dal sistema non possono essere modificate o eliminate.</Note>
+
+### Causali aggiuntive nei pagamenti
+
+Quando crei un pagamento, puoi associare una o più causali aggiuntive. Questo ti permette di suddividere un singolo pagamento su più centri di costo, specificando per ciascuno la causale e l'importo corrispondente. Per aggiungere una causale aggiuntiva, clicca su **Aggiungi causale** all'interno del modulo di creazione del pagamento.
+
+<Tip>Usa le causali aggiuntive quando un unico pagamento copre voci diverse. Ad esempio, un socio paga in un'unica soluzione la quota associativa e la quota corso: puoi registrare un solo pagamento con due causali e i rispettivi importi.</Tip>
+
+### Causali detraibili 730
+
+Le causali contrassegnate come **Detraibile fiscalmente** ti permettono di generare facilmente un riepilogo di tutti i pagamenti detraibili ai fini della dichiarazione dei redditi (modello 730). Questo è particolarmente utile a fine anno quando i tuoi associati ti chiedono la documentazione per la detrazione fiscale delle spese sportive.
