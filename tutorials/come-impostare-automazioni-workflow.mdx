@@ -1,0 +1,222 @@
+---
+title: Come impostare le automazioni con i workflow
+description: "Guida su come creare automazioni per inviare email e SMS in base a eventi specifici."
+---
+
+# Indice
+
+In questa guida imparerai come:
+
+<Steps>
+  <Step title="Introduzione ai workflow">
+    Cosa sono i workflow e come possono automatizzare la comunicazione con i tuoi atleti.
+  </Step>
+  <Step title="Trigger disponibili">
+    Quali eventi possono attivare un workflow automatico.
+  </Step>
+  <Step title="Azioni disponibili">
+    Quali azioni puoi configurare all'interno di un workflow.
+  </Step>
+  <Step title="Creare un workflow passo dopo passo">
+    Come creare un workflow dall'inizio alla fine.
+  </Step>
+  <Step title="Esempi di workflow utili">
+    Esempi pratici di workflow per le esigenze più comuni.
+  </Step>
+  <Step title="Attivare, disattivare e modificare i workflow">
+    Come gestire i workflow già creati.
+  </Step>
+  <Step title="Limiti e informazioni utili">
+    Limiti di invio e altre informazioni importanti.
+  </Step>
+</Steps>
+
+# Introduzione ai workflow
+
+I **workflow** sono automazioni che ti permettono di inviare comunicazioni automatiche (email e SMS) in base a eventi specifici che accadono nella tua associazione.
+
+Ad esempio, puoi configurare un workflow che invia automaticamente un'email di benvenuto a ogni nuovo iscritto, oppure un promemoria quando un certificato medico sta per scadere.
+
+I workflow sono composti da:
+- Un **trigger** (l'evento che attiva il workflow)
+- Una o più **azioni** (cosa fare quando il trigger si attiva)
+
+<Info>
+    I workflow sono disponibili per i piani **Pro** e **Teams**.
+</Info>
+
+# Trigger disponibili
+
+Un trigger è l'evento che fa partire il workflow. Ecco i trigger disponibili:
+
+| Trigger | Descrizione |
+|---------|-------------|
+| **Nuova iscrizione** | Si attiva quando viene creata una nuova iscrizione |
+| **Iscrizione firmata** | Si attiva quando un'iscrizione viene firmata dall'atleta |
+| **Iscrizione approvata** | Si attiva quando un'iscrizione viene approvata dall'associazione |
+| **Nuova iscrizione a un corso** | Si attiva quando un atleta viene iscritto a un corso |
+| **Certificato medico in scadenza** | Si attiva quando un certificato medico sta per scadere |
+| **Certificato medico scaduto** | Si attiva quando un certificato medico è scaduto |
+| **Pagamento effettuato** | Si attiva quando un pagamento viene segnato come pagato |
+| **Data programmata** | Si attiva a una data e ora specifiche che scegli tu |
+
+<Tip>
+    Il trigger **Data programmata** è particolarmente utile per inviare comunicazioni di massa, come auguri di inizio stagione o promemoria prima della ripresa dei corsi.
+</Tip>
+
+## Destinatari nel trigger "Data programmata"
+
+Quando utilizzi il trigger "Data programmata", puoi scegliere a chi inviare la comunicazione:
+
+- **Tutti** gli iscritti attivi
+- Solo gli iscritti con stato **Approvato**
+- Solo gli iscritti con stato **In attesa**
+- Solo gli iscritti con stato **Non firmato**
+- Solo gli iscritti con stato **Rifiutato**
+- Solo gli iscritti **Archiviati**
+- Solo gli iscritti con un **tag specifico**
+
+# Azioni disponibili
+
+Le azioni sono le operazioni che il workflow esegue quando il trigger si attiva. Puoi combinare più azioni in sequenza:
+
+| Azione | Descrizione |
+|--------|-------------|
+| **Attesa** | Attende un periodo di tempo specificato (minuti, ore o giorni) prima di eseguire l'azione successiva |
+| **Invio email** | Invia un'email personalizzata ai destinatari |
+| **Invio SMS** | Invia un SMS ai destinatari |
+
+## Destinatari delle azioni
+
+Per le azioni di invio email e SMS, puoi scegliere i destinatari:
+
+- **Atleti**: l'email viene inviata all'atleta (e al tutore se minorenne)
+- **Associazione**: l'email viene inviata solo all'indirizzo dell'associazione
+- **Tutti**: l'email viene inviata sia all'atleta che all'associazione
+
+# Creare un workflow passo dopo passo
+
+Per creare un nuovo workflow:
+
+1. Vai nella sezione **Comunicazioni > Workflow**
+2. Clicca su **+ Nuovo Workflow**
+3. Inserisci un **nome** per il workflow (ad esempio: "Benvenuto nuovo iscritto")
+4. Aggiungi una **descrizione** opzionale
+
+## Configurare il trigger
+
+5. Seleziona il **trigger** che attiverà il workflow
+6. Se scegli "Data programmata", imposta la data e l'ora desiderate e seleziona i destinatari
+
+## Aggiungere le azioni
+
+7. Clicca su **Aggiungi azione** per aggiungere il primo blocco di azione
+8. Seleziona il tipo di azione (**Email**, **SMS** o **Attesa**)
+
+### Se scegli "Invio email":
+- Inserisci l'**oggetto** dell'email
+- Scrivi il **contenuto** dell'email
+- Seleziona i **destinatari**
+
+### Se scegli "Invio SMS":
+- Scrivi il **testo** dell'SMS
+- Seleziona i **destinatari**
+
+### Se scegli "Attesa":
+- Specifica il **tempo di attesa** (ad esempio: 2 giorni, 4 ore, 30 minuti)
+
+9. Puoi aggiungere ulteriori azioni in sequenza cliccando nuovamente su **Aggiungi azione**
+10. Clicca su **Salva**
+
+<Note>
+    Le azioni vengono eseguite in **sequenza**, dall'alto verso il basso. L'azione di "Attesa" è utile per creare sequenze temporizzate, come inviare una prima email subito e una seconda dopo 3 giorni.
+</Note>
+
+# Esempi di workflow utili
+
+## Email di benvenuto
+
+- **Trigger**: Nuova iscrizione
+- **Azione 1**: Invio email di benvenuto con le informazioni utili per il nuovo iscritto
+
+## Promemoria pagamento dopo l'iscrizione
+
+- **Trigger**: Nuova iscrizione a un corso
+- **Azione 1**: Attesa di 3 giorni
+- **Azione 2**: Invio email di promemoria per il pagamento del corso
+
+## Promemoria certificato medico
+
+- **Trigger**: Certificato medico in scadenza
+- **Azione 1**: Invio email con le istruzioni per il rinnovo del certificato medico
+
+## Conferma pagamento
+
+- **Trigger**: Pagamento effettuato
+- **Azione 1**: Invio email di conferma del pagamento ricevuto
+
+## Comunicazione di inizio stagione
+
+- **Trigger**: Data programmata (ad esempio 1 settembre)
+- **Destinatari**: Tutti gli iscritti attivi
+- **Azione 1**: Invio email con le informazioni sulla nuova stagione sportiva
+
+# Attivare, disattivare e modificare i workflow
+
+## Attivare un workflow
+
+Dopo aver creato un workflow, questo sarà in stato **disattivato**. Per attivarlo:
+
+1. Vai nella sezione **Comunicazioni > Workflow**
+2. Trova il workflow che vuoi attivare
+3. Clicca sull'interruttore per **attivarlo**
+
+Da questo momento, il workflow si attiverà automaticamente ogni volta che si verifica il trigger configurato.
+
+## Disattivare un workflow
+
+Per disattivare temporaneamente un workflow senza eliminarlo:
+
+1. Vai nella sezione **Comunicazioni > Workflow**
+2. Clicca sull'interruttore del workflow per **disattivarlo**
+
+Il workflow non si attiverà più fino a quando non lo riattiverai.
+
+## Modificare un workflow
+
+Per modificare un workflow esistente:
+
+1. Vai nella sezione **Comunicazioni > Workflow**
+2. Clicca sul workflow che vuoi modificare
+3. Apporta le modifiche desiderate (trigger, azioni, contenuto delle email/SMS)
+4. Clicca su **Salva**
+
+<Warning>
+    Ti consigliamo di **disattivare** il workflow prima di modificarlo, per evitare che venga eseguito con una configurazione parzialmente aggiornata.
+</Warning>
+
+# Limiti e informazioni utili
+
+## Limiti di invio
+
+| Tipo | Limite |
+|------|--------|
+| **Email** | Massimo **1.000 email al giorno** per associazione |
+| **SMS** | Inclusi **10 SMS gratuiti**; ulteriori SMS possono essere acquistati dalla sezione Comunicazioni |
+
+## Informazioni importanti
+
+- I workflow vengono eseguiti in modo **asincrono**: le azioni non vengono eseguite istantaneamente ma entro pochi minuti dall'attivazione del trigger
+- L'azione di "Attesa" programma l'esecuzione delle azioni successive al termine del periodo indicato
+- Se il workflow è disattivato nel momento in cui dovrebbe eseguire un'azione in coda, l'azione **non verrà eseguita**
+- Le email vengono inviate tramite il server SMTP configurato nelle impostazioni delle comunicazioni, oppure tramite il servizio email di Bakney se non hai configurato un server SMTP personalizzato
+
+<Tip>
+    Inizia con workflow semplici (ad esempio un'email di benvenuto) e aggiungi complessità man mano che prendi dimestichezza con il sistema.
+</Tip>
+
+# Conclusione
+
+In questa guida hai imparato come creare e gestire i workflow per automatizzare le comunicazioni con i tuoi atleti. I workflow ti permettono di risparmiare tempo e garantire che ogni atleta riceva le informazioni giuste al momento giusto.
+
+Se hai domande o suggerimenti, contattaci tramite il nostro [supporto](mailto:support@bakney.com).

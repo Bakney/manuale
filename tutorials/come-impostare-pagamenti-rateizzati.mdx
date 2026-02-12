@@ -1,0 +1,143 @@
+---
+title: Come impostare i pagamenti rateizzati
+description: "Guida su come configurare i corsi con pagamento a rate e gestire le situazioni particolari."
+---
+
+# Indice
+
+In questa guida imparerai come:
+
+<Steps>
+  <Step title="Attivare i pagamenti a rate">
+    Come abilitare le rate durante la creazione di un corso.
+  </Step>
+  <Step title="Configurare le rate">
+    Come impostare il numero di rate, le scadenze e gli importi.
+  </Step>
+  <Step title="Generazione automatica dei pagamenti">
+    Come il sistema crea automaticamente i pagamenti per ogni rata.
+  </Step>
+  <Step title="Atleta che si iscrive dopo le prime scadenze">
+    Come il sistema gestisce le iscrizioni tardive e l'opzione 'Piano rate completo'.
+  </Step>
+  <Step title="Offrire anche il pagamento in un'unica soluzione">
+    Come attivare l'opzione di pagamento unico accanto alle rate.
+  </Step>
+  <Step title="Modificare il piano rate per un singolo atleta">
+    Come gestire situazioni particolari e personalizzare le rate.
+  </Step>
+</Steps>
+
+# Attivare i pagamenti a rate
+
+Per attivare i pagamenti a rate in un corso:
+
+1. Vai nella sezione **Corsi** e clicca su **+ Nuovo Corso** (oppure modifica un corso esistente)
+2. Nella sezione dedicata ai pagamenti, attiva l'opzione **Pagamento a rate**
+3. Una volta attivata, comparirà la sezione per configurare le singole rate
+
+<Info>
+    I pagamenti a rate sono disponibili per i corsi di tipo standard. Per i corsi ad abbonamento, il sistema gestisce automaticamente i rinnovi periodici.
+</Info>
+
+# Configurare le rate
+
+Dopo aver attivato i pagamenti a rate, dovrai configurare:
+
+## Numero di rate
+
+Puoi impostare fino a un **massimo di 11 rate** per ogni corso. Per ogni rata dovrai specificare:
+
+- **Importo**: l'ammontare della singola rata
+- **Data di scadenza**: la data entro cui la rata dovrebbe essere pagata
+
+## Come configurare le rate
+
+1. Clicca su **Aggiungi rata** per aggiungere una nuova rata al piano
+2. Inserisci l'**importo** della rata
+3. Seleziona la **data di scadenza**
+4. Ripeti per ogni rata che desideri aggiungere
+
+<Tip>
+    Puoi impostare rate di importi diversi. Ad esempio, una prima rata più alta all'iscrizione e le successive di importo inferiore nei mesi successivi.
+</Tip>
+
+## Esempio di configurazione
+
+Per un corso da 600 euro suddiviso in 3 rate:
+
+| Rata | Importo | Scadenza |
+|------|---------|----------|
+| 1    | 200,00 euro  | 01/09/2025 |
+| 2    | 200,00 euro  | 01/11/2025 |
+| 3    | 200,00 euro  | 01/01/2026 |
+
+# Generazione automatica dei pagamenti
+
+Quando un atleta si iscrive a un corso con pagamento a rate, il sistema genera automaticamente:
+
+- Un **pagamento separato** per ogni rata configurata
+- Ogni pagamento avrà l'**importo** e la **data di scadenza** specificati nella configurazione del corso
+- I pagamenti comparirànno nella sezione **Contabilità > Pagamenti** dell'atleta
+
+Potrai quindi gestire ogni rata singolarmente, segnandola come pagata quando ricevi il pagamento, oppure lasciare che l'atleta paghi online tramite Stripe.
+
+<Note>
+    Se hai attivato i pagamenti online con Stripe, l'atleta potrà pagare ogni singola rata separatamente dal proprio profilo.
+</Note>
+
+# Atleta che si iscrive dopo le prime scadenze
+
+Può capitare che un atleta si iscriva a un corso quando alcune date di scadenza delle rate sono già passate. In questo caso, il sistema ha un comportamento predefinito e un'opzione aggiuntiva:
+
+## Comportamento predefinito
+
+Per impostazione predefinita, quando un atleta si iscrive dopo che alcune scadenze sono già passate, il sistema crea **solo le rate con scadenza futura**. Le rate con scadenza passata vengono ignorate.
+
+**Esempio**: se un corso ha 3 rate con scadenza settembre, novembre e gennaio, e un atleta si iscrive a ottobre, vedrà solo le rate di novembre e gennaio.
+
+## Opzione "Piano rate completo"
+
+Se desideri che tutti gli atleti ricevano **tutte le rate** indipendentemente dalla data di iscrizione, puoi attivare l'opzione **Piano rate completo**:
+
+1. Vai in **Impostazioni > Generali**
+2. Attiva l'opzione **Piano rate completo**
+3. Da questo momento, tutti i nuovi iscritti riceveranno **tutte le rate** del piano, comprese quelle con scadenza precedente alla data di iscrizione
+
+<Warning>
+    L'opzione "Piano rate completo" si applica a **tutti i corsi** della tua associazione. Non è possibile attivarla solo per un corso specifico.
+</Warning>
+
+# Offrire anche il pagamento in un'unica soluzione
+
+Puoi offrire ai tuoi atleti la possibilità di pagare il corso **in un'unica soluzione** anziché a rate. Questo è particolarmente utile per chi preferisce pagare tutto subito, magari ad un prezzo leggermente scontato.
+
+Per attivare questa opzione:
+
+1. Nella configurazione del corso, attiva l'opzione **Pagamento in un'unica soluzione**
+2. Inserisci l'**importo** del pagamento unico
+
+In questo modo, al momento dell'iscrizione, l'atleta potrà scegliere se pagare a rate oppure in un'unica soluzione.
+
+<Tip>
+    Puoi impostare un importo leggermente inferiore per il pagamento unico rispetto alla somma delle rate, così da incentivare il pagamento anticipato.
+</Tip>
+
+# Modificare il piano rate per un singolo atleta
+
+Se hai necessità di modificare le rate per un singolo atleta (ad esempio per accordi particolari), puoi farlo direttamente dalla sezione del corso dell'atleta:
+
+1. Vai nella scheda dell'atleta e accedi alla sezione del **corso**
+2. Troverai l'elenco delle rate con i rispettivi importi e scadenze
+3. Puoi modificare singolarmente gli importi o le date di scadenza
+4. Puoi anche eliminare una rata non ancora pagata o aggiungerne una nuova
+
+<Note>
+    Le modifiche al piano rate di un singolo atleta non influenzano il piano rate degli altri iscritti al corso. Ogni modifica è individuale.
+</Note>
+
+# Conclusione
+
+In questa guida hai imparato come configurare i pagamenti a rate per i tuoi corsi, gestire le iscrizioni tardive con l'opzione "Piano rate completo" e personalizzare il piano rate per i singoli atleti.
+
+Se hai domande o suggerimenti, contattaci tramite il nostro [supporto](mailto:support@bakney.com).

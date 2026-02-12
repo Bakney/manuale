@@ -1,0 +1,158 @@
+---
+title: Come gestire il registro presenze e i carnet
+description: "Guida completa per gestire le presenze degli atleti e i carnet lezioni."
+---
+
+# Indice
+
+In questa guida imparerai come:
+
+<Steps>
+  <Step title="Visualizzare il registro presenze">
+    Come accedere e consultare il registro presenze di un corso.
+  </Step>
+  <Step title="Segnare le presenze manualmente">
+    Come registrare manualmente la presenza o l'assenza degli atleti.
+  </Step>
+  <Step title="Presenze automatiche (Pro/Teams)">
+    Come funziona il sistema di presenze automatiche e come gli atleti possono segnalare le assenze.
+  </Step>
+  <Step title="Come funzionano i carnet con le presenze">
+    Come le lezioni del carnet vengono scalate automaticamente e ripristinate in caso di rimozione.
+  </Step>
+  <Step title="Gestire le lezioni perse e le correzioni">
+    Come correggere errori nel registro presenze e gestire situazioni particolari.
+  </Step>
+  <Step title="Consigli per la gestione dei carnet">
+    Come controllare le lezioni rimanenti, assegnare nuovi carnet e gestirli al meglio.
+  </Step>
+</Steps>
+
+# Visualizzare il registro presenze
+
+Per accedere al registro presenze di un corso, vai nella sezione **Corsi** e clicca sul corso che ti interessa.
+All'interno della scheda del corso troverai la tab **Registro Presenze**, dove potrai visualizzare tutte le lezioni programmate e le presenze registrate per ciascuna.
+
+Il registro mostra per ogni lezione:
+- La **data e l'ora** della lezione
+- L'**elenco degli iscritti** al corso
+- Lo **stato di presenza** di ogni atleta (presente o assente)
+- L'eventuale **istruttore** assegnato alla lezione
+
+<Info>
+    Per poter utilizzare il registro presenze è necessario prima **pubblicare il calendario** del corso. Fino a quando il calendario è in stato di bozza, il registro non sarà disponibile.
+</Info>
+
+# Segnare le presenze manualmente
+
+Per segnare la presenza di un atleta in una lezione:
+
+1. Vai nel **Registro Presenze** del corso
+2. Seleziona la **lezione** (giornata) che ti interessa
+3. Per ogni atleta troverai un **interruttore (toggle)**: attivalo per segnare l'atleta come presente, disattivalo per segnarlo come assente
+
+Puoi modificare lo stato di presenza in qualsiasi momento: se hai commesso un errore, ti basta cliccare nuovamente sull'interruttore per cambiare lo stato.
+
+<Tip>
+    Puoi segnare le presenze anche retroattivamente, ad esempio se hai dimenticato di registrare le presenze di una lezione passata.
+</Tip>
+
+# Presenze automatiche (Pro/Teams)
+
+Se hai un piano **Pro** o **Teams**, puoi attivare la funzione di **presenze automatiche**. Questa funzione segna automaticamente come presenti tutti gli atleti iscritti al corso al termine della lezione.
+
+## Come funziona
+
+- Il sistema controlla le lezioni del giorno e **segna come presenti tutti gli iscritti** al corso per quella lezione
+- Gli atleti che sanno di non poter partecipare possono **segnalare la propria assenza in anticipo** tramite l'app
+- Gli atleti che hanno segnalato un'assenza attesa vengono esclusi dalla registrazione automatica
+
+## Come si attivano le presenze automatiche
+
+L'attivazione delle presenze automatiche avviene tramite il calendario del corso. Una volta pubblicato il calendario, il sistema inizierà a segnare automaticamente le presenze per le lezioni programmate.
+
+<Note>
+    Le presenze automatiche vengono registrate per le lezioni **del giorno corrente**. Le lezioni passate non vengono segnate retroattivamente.
+</Note>
+
+# Come funzionano i carnet con le presenze
+
+I carnet sono pacchetti di lezioni che vengono scalati automaticamente quando un atleta viene segnato come presente. Ecco come funziona il meccanismo:
+
+## Scalamento delle lezioni
+
+- Quando un atleta con un carnet viene segnato come **presente** (manualmente o automaticamente), una lezione viene **scalata dal carnet**
+- Il sistema seleziona automaticamente il carnet con il **minor numero di lezioni rimanenti** tra quelli attivi e con lezioni disponibili
+- Se il carnet non è stato ancora pagato, le lezioni **non vengono scalate**
+
+## Ripristino delle lezioni
+
+- Se **rimuovi** la presenza di un atleta (lo segni come assente dopo averlo segnato come presente), la lezione viene **restituita al carnet**
+- Il conteggio delle lezioni rimanenti viene aggiornato automaticamente
+
+<Warning>
+    Se un atleta ha un carnet con **zero lezioni rimanenti**, non verrà segnato come presente dalle presenze automatiche. Dovrai assegnargli un nuovo carnet per continuare.
+</Warning>
+
+## Registro lezioni nel carnet
+
+Ogni carnet mantiene un registro interno delle lezioni utilizzate, dove viene salvata la data, il corso e il titolo della lezione. Questo ti permette di avere un tracciamento completo delle lezioni fruite dall'atleta.
+
+# Gestire le lezioni perse e le correzioni
+
+## Correggere una presenza errata
+
+Se hai segnato erroneamente un atleta come presente:
+
+1. Vai nel registro presenze della lezione
+2. Disattiva l'interruttore dell'atleta
+3. Se l'atleta ha un carnet, la lezione verrà automaticamente **restituita**
+
+## Aggiungere una presenza mancante
+
+Se un atleta era presente ma non è stato registrato:
+
+1. Vai nel registro presenze della lezione (anche se passata)
+2. Attiva l'interruttore dell'atleta
+3. Se l'atleta ha un carnet, la lezione verrà **scalata** dal carnet
+
+<Tip>
+    Puoi sempre verificare il numero di lezioni rimanenti di un carnet dalla sezione **Carnet** dell'atleta, accessibile dalla sua scheda nell'iscrizione al corso.
+</Tip>
+
+# Consigli per la gestione dei carnet
+
+## Controllare le lezioni rimanenti
+
+Per verificare quante lezioni rimangono in un carnet:
+
+- Vai nella sezione **Carnet** oppure nella scheda dell'atleta
+- Vedrai il conteggio **lezioni rimanenti / lezioni totali** per ogni carnet assegnato
+
+Nella **Bacheca** troverai anche un widget che ti mostra i carnet in esaurimento (con meno di 4 lezioni rimanenti), così puoi intervenire tempestivamente.
+
+## Assegnare un nuovo carnet
+
+Quando le lezioni di un carnet si esauriscono, puoi assegnarne uno nuovo:
+
+1. Vai nella sezione **Carnet** dell'atleta
+2. Clicca su **Ricarica** per creare un nuovo carnet dello stesso tipo
+3. Verrà creato automaticamente un nuovo pagamento associato al carnet
+
+## Modificare le lezioni rimanenti
+
+Se hai necessità di correggere manualmente il numero di lezioni rimanenti di un carnet:
+
+1. Vai nella sezione **Carnet** dell'atleta
+2. Modifica il valore delle **lezioni rimanenti**
+3. Il nuovo valore non può superare il numero totale di lezioni del carnet e non può essere negativo
+
+<Note>
+    Quando un carnet viene ricaricato, il nuovo carnet avrà il numero completo di lezioni previste dal pacchetto originale, indipendentemente da quante lezioni rimanevano nel carnet precedente.
+</Note>
+
+# Conclusione
+
+In questa guida hai imparato come gestire il registro presenze, segnare le presenze manualmente e automaticamente, e come i carnet interagiscono con il sistema di presenze.
+
+Se hai domande o suggerimenti, contattaci tramite il nostro [supporto](mailto:support@bakney.com).

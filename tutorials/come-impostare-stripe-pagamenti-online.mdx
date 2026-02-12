@@ -1,0 +1,142 @@
+---
+title: Come impostare Stripe per i pagamenti online
+description: "Guida passo-passo per configurare Stripe e iniziare a ricevere pagamenti online."
+---
+
+# Indice
+
+In questa guida imparerai come:
+
+<Steps>
+  <Step title="Prerequisiti">
+    Cosa ti serve per iniziare a ricevere pagamenti online.
+  </Step>
+  <Step title="Collegare il tuo account Stripe">
+    Come collegare Stripe a Bakney passo dopo passo.
+  </Step>
+  <Step title="Attivare i pagamenti online">
+    Come abilitare i pagamenti online nelle impostazioni dell'associazione.
+  </Step>
+  <Step title="Metodi di pagamento disponibili">
+    Quali metodi di pagamento puoi offrire ai tuoi atleti.
+  </Step>
+  <Step title="Come pagano gli atleti">
+    Il flusso di pagamento dal punto di vista dell'atleta.
+  </Step>
+  <Step title="Monitorare i pagamenti Stripe">
+    Come controllare lo stato dei pagamenti online ricevuti.
+  </Step>
+</Steps>
+
+# Prerequisiti
+
+Prima di iniziare, assicurati di avere:
+
+- Un **account Stripe** attivo. Se non ne hai ancora uno, puoi crearlo gratuitamente su [stripe.com](https://stripe.com)
+- I **dati della tua associazione** (codice fiscale, indirizzo, dati del rappresentante legale) che verranno richiesti durante la configurazione di Stripe
+
+<Info>
+    La creazione dell'account Stripe e la verifica dei dati possono richiedere qualche giorno. Ti consigliamo di iniziare questo processo con anticipo rispetto a quando vorrai attivare i pagamenti online.
+</Info>
+
+# Collegare il tuo account Stripe
+
+Per collegare Stripe a Bakney:
+
+1. Vai in **Impostazioni > Pagamenti Online**
+2. Clicca su **Collega Stripe**
+3. Verrai reindirizzato alla pagina di configurazione di Stripe
+4. Se hai già un account Stripe, accedi con le tue credenziali. Altrimenti, segui la procedura guidata per crearne uno nuovo
+5. Completa tutti i passaggi richiesti da Stripe (dati dell'associazione, dati bancari per gli accrediti, ecc.)
+6. Al termine della configurazione, verrai reindirizzato a Bakney
+
+<Note>
+    Stripe richiede la tipologia di organizzazione **no-profit** per le associazioni sportive. Questo viene preimpostato automaticamente da Bakney durante la procedura di collegamento.
+</Note>
+
+## Verificare il collegamento
+
+Dopo aver completato la procedura:
+
+1. Torna in **Impostazioni > Pagamenti Online**
+2. Vedrai lo stato del collegamento con Stripe
+3. Se tutto è andato a buon fine, lo stato sarà **Collegato**
+
+Se il collegamento non è andato a buon fine, puoi ripetere la procedura cliccando nuovamente su **Collega Stripe**. Il sistema verificherà lo stato del tuo account Stripe e ti guiderà verso il completamento dei passaggi mancanti.
+
+# Attivare i pagamenti online
+
+Una volta collegato Stripe, devi attivare i pagamenti online nelle impostazioni generali:
+
+1. Vai in **Impostazioni > Generali**
+2. Scorri fino alla sezione **Pagamenti**
+3. Attiva l'opzione **Pagamenti online**
+4. Salva le impostazioni
+
+Da questo momento, gli atleti potranno pagare online le quote di iscrizione, le rate dei corsi e i carnet.
+
+# Metodi di pagamento disponibili
+
+Con Stripe puoi offrire ai tuoi atleti i seguenti metodi di pagamento:
+
+| Metodo | Descrizione |
+|--------|-------------|
+| **Carta di credito/debito** | Visa, Mastercard, American Express e altre carte principali |
+| **Addebito diretto SEPA** | Addebito diretto sul conto corrente dell'atleta (area SEPA) |
+
+Puoi scegliere quali metodi di pagamento abilitare dalle impostazioni dei pagamenti online.
+
+<Tip>
+    L'addebito diretto SEPA è particolarmente utile per i pagamenti ricorrenti, come gli abbonamenti mensili, poiché non richiede l'inserimento dei dati della carta ogni volta.
+</Tip>
+
+# Come pagano gli atleti
+
+Ecco come funziona il flusso di pagamento dal punto di vista dell'atleta:
+
+1. L'atleta accede al proprio profilo su Bakney
+2. Nella sezione **Pagamenti** vede l'elenco dei pagamenti in sospeso
+3. Seleziona il pagamento (o i pagamenti) da effettuare
+4. Clicca su **Paga online**
+5. Viene mostrata la pagina di checkout sicura di Stripe
+6. L'atleta inserisce i dati di pagamento e conferma
+7. Se il pagamento va a buon fine, viene automaticamente segnato come **pagato** nel sistema
+8. Viene generata automaticamente la **ricevuta**
+
+<Info>
+    L'atleta può pagare anche più pagamenti contemporaneamente in un'unica transazione, semplificando il processo.
+</Info>
+
+# Monitorare i pagamenti Stripe
+
+Per controllare lo stato dei pagamenti online ricevuti:
+
+1. Vai nella sezione **Contabilità > Pagamenti**
+2. I pagamenti effettuati online tramite Stripe sono riconoscibili e vengono segnati automaticamente come pagati
+3. Per ogni pagamento puoi vedere i dettagli della transazione
+
+## Commissioni
+
+<Note>
+    Bakney **non trattiene nessuna commissione** sui pagamenti online. Le uniche commissioni applicate sono quelle standard di Stripe.
+    Per conoscere le commissioni aggiornate di Stripe, consulta la pagina [Stripe Pricing](https://stripe.com/it/pricing).
+</Note>
+
+## Dashboard di Stripe
+
+Per un monitoraggio ancora più dettagliato delle transazioni, puoi accedere direttamente alla tua **dashboard di Stripe** su [dashboard.stripe.com](https://dashboard.stripe.com), dove troverai:
+
+- Elenco completo delle transazioni
+- Dettagli sui pagamenti e sugli accrediti
+- Report finanziari
+- Gestione dei rimborsi
+
+<Tip>
+    Controlla periodicamente la dashboard di Stripe per verificare che gli accrediti sul tuo conto corrente siano regolari e corrispondano ai pagamenti ricevuti.
+</Tip>
+
+# Conclusione
+
+In questa guida hai imparato come configurare Stripe per ricevere pagamenti online, quali metodi di pagamento sono disponibili e come monitorare le transazioni.
+
+Se hai domande o suggerimenti, contattaci tramite il nostro [supporto](mailto:support@bakney.com).
