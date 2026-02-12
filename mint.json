@@ -55,21 +55,36 @@
       "group": "Guide e tutorial",
       "pages": [
         "tutorials/come-assegnare-i-tag-agli-atleti",
-        "tutorials/come-creare-moduli-iscrizione-personalizzati"
+        "tutorials/come-creare-moduli-iscrizione-personalizzati",
+        "tutorials/come-gestire-registro-presenze-carnet",
+        "tutorials/come-esportare-dati-associazione",
+        "tutorials/come-impostare-pagamenti-rateizzati",
+        "tutorials/come-gestire-certificati-medici",
+        "tutorials/come-impostare-gestire-istruttori",
+        "tutorials/come-impostare-stripe-pagamenti-online",
+        "tutorials/come-impostare-automazioni-workflow"
       ]
     },
     {
       "group": "Documentazione",
       "pages": [
         "docs/introduzione",
+        "docs/bacheca",
         "docs/libro-soci",
         "docs/corsi",
-        "docs/pagamenti",
-        "docs/ricevute",
+        "docs/istruttori",
+        "docs/camp-e-ritiri",
+        "docs/calendario",
         "docs/carnet",
         "docs/registro-presenze",
+        "docs/pagamenti",
+        "docs/ricevute",
+        "docs/contabilita-avanzata",
         "docs/bilancio",
-        "docs/comunicazioni"
+        "docs/comunicazioni",
+        "docs/archivio",
+        "docs/collaboratori",
+        "docs/impostazioni"
       ]
     },
     {
@@ -78,7 +93,20 @@
         "faq/come-si-crea-un-socio",
         "faq/come-inviare-email-nuovi-iscritti",
         "faq/come-si-importano-dei-soci",
-        "faq/i-miei-dati-sono-al-sicuro"
+        "faq/i-miei-dati-sono-al-sicuro",
+        "faq/come-condividere-il-link-iscrizioni",
+        "faq/come-gestire-i-certificati-medici",
+        "faq/come-configurare-i-pagamenti-online",
+        "faq/come-stampare-tessere-atleti",
+        "faq/come-generare-bilancio",
+        "faq/come-usare-ricerca-filtri-atleti",
+        "faq/come-archiviare-dati",
+        "faq/come-calcolare-generare-codici-fiscali",
+        "faq/come-invitare-collaboratori",
+        "faq/come-cambiare-anno-sportivo-fiscale",
+        "faq/come-collegare-google-calendar",
+        "faq/come-abilitare-autenticazione-due-fattori",
+        "faq/quali-sono-piani-abbonamento"
       ]
     }
   ],
