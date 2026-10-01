@@ -5,54 +5,56 @@ description: "Dalle Impostazioni puoi personalizzare e stampare le tessere dei t
 
 # Personalizzare la tessera
 
-Prima di stampare le tessere, puoi personalizzarne l'aspetto. Vai su **Impostazioni** e cerca
-la sezione **Personalizza tessera**.
 
-Da qui puoi configurare:
+Le impostazioni della tessera si trovano in **Profilo → Generali → Personalizza tessera**. I controlli riguardano l’aspetto proposto nella tessera e una preferenza di disponibilità.
 
-- **Colore**: scegli il colore principale della tessera
-- **Layout**: seleziona tra il layout **Standard** o **Classico**
-- **QR Code**: attiva o disattiva il QR code sulla tessera
-- **Emissione solo su approvazione**: se attivato, la tessera viene generata solo dopo l'approvazione dell'iscrizione
+| Campo | Significato nel modulo |
+| --- | --- |
+| **Colore della tessera** | Colore scelto; **Usa il colore dell’istanza** torna al colore generale dell’applicazione |
+| **Layout della tessera** | **Standard** oppure **Classico** |
+| **Mostra QR code nella tessera** | Mostra o nasconde il codice nella tessera |
+| **Rendi disponibile la tessera solo su approvazione** | Preferenza salvata nella configurazione dell’associazione |
 
-<Tip>
-  Il QR code sulla tessera permette di identificare rapidamente l'atleta.
-  Inquadrandolo con un dispositivo si accede direttamente alla sua scheda anagrafica.
-</Tip>
+L’**Anteprima della tessera** aiuta a controllare l’aspetto. Cambiare l’anteprima non basta a conservare le scelte: il salvataggio delle impostazioni è un’operazione separata, descritta nel [capitolo Impostazioni](/docs/impostazioni).
+
+Il QR identifica l’iscrizione. Non è un collegamento che apre automaticamente la scheda anagrafica completa della persona: il suo utilizzo dipende dalla funzione che lo legge.
+
+<Note>La disponibilità della tessera per iscrizioni non approvate deve essere verificata separatamente: la sola preferenza salvata non garantisce che ogni percorso di visualizzazione o condivisione applichi quel limite.</Note>
 
 # Stampare la tessera di un singolo atleta
 
+
+<Note>Questa procedura è descritta dai comandi presenti, ma attende la prova completa nell’applicazione. Le immagini segnaposto devono essere sostituite con schermate reali prima della pubblicazione.</Note>
+
+La tessera si apre dai dettagli dell’iscrizione. Sono disponibili due risultati diversi: **Scarica immagine** produce un’immagine PNG; **Stampa** apre una scheda dedicata e la stampa del browser.
+
 <Steps>
-  <Step title="Vai nell'anagrafica dell'atleta">
-    Dalla sezione **Libro Soci**, clicca sul nome dell'atleta di cui vuoi stampare la tessera.
+  <Step title="Apri l’iscrizione corretta">
+    In **Organizzazione → Iscrizioni** apri i dettagli della persona. Controlla l’iscrizione e il suo periodo: una persona può avere uno storico diverso dalla registrazione che intendi stampare.
   </Step>
-  <Step title="Apri la sezione Tessera">
-    All'interno del profilo dell'atleta, cerca la sezione o il pulsante **Tessera**.
+  <Step title="Mostra e controlla la tessera">
+    Nelle informazioni premi **Mostra Tessera**. Controlla nome, associazione, numero e scadenza mostrati, oltre al layout e al QR se presenti. Il comando diventa **Nascondi Tessera** quando è aperta.
   </Step>
-  <Step title="Stampa o scarica">
-    Clicca su **Stampa** o **Scarica** per ottenere la tessera in formato PDF,
-    pronta per essere stampata.
+  <Step title="Scegli il risultato">
+    Per un’immagine premi **Scarica immagine** e controlla il file **tessera.png**. Per la stampa premi **Stampa**: si apre una nuova scheda della tessera e il browser propone la propria finestra di stampa.
+  </Step>
+  <Step title="Verifica la stampa prima di conservarla">
+    Controlla l’anteprima e scegli la destinazione disponibile nel tuo browser. Se il browser consente di salvare in PDF, quella scelta avviene nella sua finestra di stampa: non è un download PDF generato dal pulsante dell’applicazione.
   </Step>
 </Steps>
+
+<Note>Il percorso di stampa usa un collegamento temporaneo valido **3 giorni**. Apertura della nuova scheda, file PNG e risultato della stampa devono ancora essere verificati nel browser. Se la nuova scheda viene bloccata, controlla l’avviso del browser prima di ripetere il comando.</Note>
+
+La condivisione via email o WhatsApp è distinta dalla stampa e richiede i servizi esterni scelti. Non è compresa nella procedura qui descritta.
 
 # Stampare le tessere in blocco
 
-Se hai bisogno di stampare le tessere di più atleti contemporaneamente:
 
-<Steps>
-  <Step title="Vai nella sezione Libro Soci">
-    Dal menu laterale, accedi al **Libro Soci**.
-  </Step>
-  <Step title="Seleziona gli atleti">
-    Seleziona gli atleti di cui vuoi stampare la tessera usando le caselle di selezione.
-  </Step>
-  <Step title="Scegli l'azione di stampa">
-    Dalla barra delle azioni in blocco, scegli **Stampa tessere**. Verrà generato
-    un file PDF contenente tutte le tessere selezionate.
-  </Step>
-</Steps>
+La lista **Iscrizioni** attuale non espone l’azione **Stampa tessere** per più righe. Selezionare più persone rende disponibili altre operazioni, ma non genera un PDF con tutte le tessere selezionate.
 
-<Info>
-  Se hai attivato l'opzione **Emissione solo su approvazione**, le tessere verranno
-  generate solo per gli atleti la cui iscrizione è stata approvata.
-</Info>
+**Vista corrente** stampa o esporta un elenco delle iscrizioni; non è una raccolta di tessere. Non usare quel comando aspettandoti una tessera per ogni persona.
+
+Per una tessera singola usa **Mostra Tessera** nei dettagli dell’iscrizione, poi **Stampa** o **Scarica immagine**. Un’organizzazione della stampa di più tessere richiede un percorso separato, che questa versione della guida non attesta.
+
+<Note>Il vecchio manuale descriveva un’azione in blocco non presente nei comandi correnti. Non è verificata nemmeno una selezione automatica delle sole iscrizioni approvate per la stampa in blocco.</Note>
+

@@ -1,78 +1,100 @@
 ---
-title: Come abilitare l'autenticazione a due fattori?
-description: "Proteggi il tuo account Bakney abilitando l'autenticazione a due fattori (2FA) con un'app authenticator."
+title: "Come abilitare l'autenticazione a due fattori?"
+description: "Configurare il codice temporaneo del proprio account e riconoscere i passaggi che richiedono il salvataggio."
 ---
 
 # Abilitare l'autenticazione a due fattori (2FA)
 
-L'autenticazione a due fattori aggiunge un livello di sicurezza al tuo account.
-Oltre alla password, ad ogni accesso ti verrà chiesto un codice temporaneo
-generato dal tuo telefono.
+L'autenticazione a due fattori aggiunge un codice temporaneo alla verifica dell'account. Quando è attiva, l'accesso con email o nome utente e password richiede anche un codice valido generato dall'app di autenticazione.
+
+L'impostazione riguarda **il tuo account**. Attivarla non abilita automaticamente il doppio fattore per tutti i collaboratori o per tutti gli atleti dell'associazione.
+
+<Note>Le istruzioni sono basate sulle funzioni presenti nell'applicazione. Attivazione, nuovo accesso e disattivazione attendono una verifica completa in browser. Le immagini sono segnaposto e non contengono codici reali.</Note>
 
 ## Perché attivare il 2FA?
 
-Con il 2FA attivo, anche se qualcuno dovesse scoprire la tua password non
-potrebbe accedere al tuo account senza il codice generato dalla tua app.
-Questo è particolarmente importante perché il tuo account Bakney contiene
-dati sensibili dei tuoi atleti.
+Il codice temporaneo aggiunge un controllo oltre alla password e riduce il rischio di accesso con la sola password compromessa. Mantieni protette anche la casella email, la password e l'app che genera i codici.
+
+Prepara il telefono e chiarisci come recuperare l'accesso se lo perdi. La pagina di configurazione mostra un QR e una chiave segreta: chi li possiede può configurare la generazione dei codici del tuo account.
+
+<Warning>Non condividere QR, chiave segreta o codici OTP in chat, documenti e schermate. Per illustrare la procedura usa immagini con entrambe le informazioni nascoste.</Warning>
 
 ## App compatibili
 
-Per utilizzare il 2FA ti serve un'app authenticator sul tuo telefono. Le app
-consigliate sono:
+La pagina dell'applicazione cita **Microsoft Authenticator** e **Google Authenticator** come esempi di app per scansionare il QR e generare il codice temporaneo. La configurazione usa un codice a **6 cifre**.
 
-- **Microsoft Authenticator** (disponibile per iOS e Android)
-- **Google Authenticator** (disponibile per iOS e Android)
-
-<Tip>
-  Se non hai ancora un'app authenticator, ti consigliamo di scaricarla prima
-  di iniziare la configurazione. La trovi gratuitamente nell'App Store o nel
-  Google Play Store.
-</Tip>
+Prima di iniziare, apri la tua app di autenticazione e individua il comando per aggiungere un account tramite QR o chiave. I nomi dei comandi sul telefono dipendono dall'app utilizzata; questa guida non verifica disponibilità, backup o trasferimento degli account di tali servizi.
 
 ## Come attivare il 2FA
 
 <Steps>
-  <Step title="Vai nelle impostazioni di sicurezza">
-    Dalla barra laterale clicca sul tuo **Profilo** e poi su **Autenticazione a due fattori**.
+  <Step title="Apri la pagina del tuo profilo">
+    Apri **Profilo** e scegli **Autenticazione 2 fattori**. La pagina si intitola **Autenticazione a due fattori**. Controlla lo stato dell'interruttore prima di modificarlo.
   </Step>
-  <Step title="Abilita il doppio fattore">
-    Attiva l'interruttore **Abilita Doppio Fattore**. Apparirà un **codice QR** sullo schermo.
+  <Step title="Prepara la configurazione">
+    Attiva **Abilita Doppio Fattore**. L'applicazione prepara un QR e una **Chiave Segreta**. Il solo cambio dell'interruttore non completa l'attivazione.
   </Step>
-  <Step title="Scannerizza il codice QR">
-    Apri l'app authenticator sul tuo telefono e scannerizza il codice QR mostrato
-    a schermo. In alternativa, puoi inserire manualmente la **chiave segreta**
-    mostrata sotto il QR.
+  <Step title="Aggiungi l'account nell'app di autenticazione">
+    Sul telefono aggiungi un account e scansiona il QR. Se l'app consente l'inserimento manuale, usa la chiave mostrata nella stessa pagina. Tieni queste informazioni riservate.
   </Step>
-  <Step title="Inserisci il codice OTP">
-    L'app genererà un codice a **6 cifre** che cambia ogni 30 secondi. Inserisci
-    il codice nel campo **Codice OTP** su Bakney.
+  <Step title="Conferma il codice">
+    Inserisci il codice corrente di **6 cifre** nel campo **Codice OTP**. Se il codice cambia mentre lo stai scrivendo, usa quello nuovo.
   </Step>
-  <Step title="Salva">
-    Clicca su **Salva** per completare l'attivazione. Da questo momento, ad ogni
-    accesso ti verrà richiesto il codice OTP.
+  <Step title="Salva e controlla lo stato">
+    Premi **Salva**. Attendi **Autenticazione a due fattori aggiornata.** e controlla che l'interruttore risulti attivo dopo il ricaricamento della pagina. In caso di **Codice OTP errato, riprova.**, controlla il codice corrente e ripeti la conferma.
   </Step>
 </Steps>
 
+<Frame caption="Segnaposto FullHD: configurazione 2FA con QR e chiave segreta completamente nascosti. Attivazione e persistenza ancora da verificare.">
+  <img src="/images/autenticazione/2fa-setup-pending.svg" alt="Segnaposto della configurazione 2FA senza QR, chiave segreta o codice OTP reali" />
+</Frame>
+
+<Note>Non uscire dall'account durante una configurazione incompleta. Controlla il salvataggio e conserva l'accesso all'app che genera i codici prima di provare un nuovo login.</Note>
+
 ## Come funziona il login con il 2FA
 
-Dopo aver attivato il 2FA, ogni volta che accedi a Bakney:
+La procedura documentata riguarda l'accesso con credenziali. Dopo un'attivazione riuscita:
 
-1. Inserisci email e password come al solito
-2. Nella schermata successiva, apri l'app authenticator sul telefono
-3. Inserisci il codice a 6 cifre mostrato dall'app
-4. Clicca su **Conferma** per accedere
+<Steps>
+  <Step title="Inserisci le credenziali">
+    Accedi come di consueto con il tuo identificativo e la password.
+  </Step>
+  <Step title="Apri l'app di autenticazione">
+    Quando compare **Autenticazione a Due Fattori**, trova sul telefono il codice dell'account appena configurato.
+  </Step>
+  <Step title="Inserisci il codice corrente">
+    Compila **Inserisci il codice OTP.** con sei cifre e conferma nel riquadro. L'applicazione verifica il codice prima di completare l'accesso.
+  </Step>
+</Steps>
+
+Un codice assente, incompleto o non valido non completa l'accesso. Se il tentativo fallisce, controlla di usare l'account corretto nell'app e il codice corrente. Le modalità alternative di accesso e il recupero dell'account richiedono una verifica separata.
+
+<Frame caption="Segnaposto FullHD: richiesta OTP durante il login, senza credenziali o codici visibili. Nuovo accesso ancora da verificare.">
+  <img src="/images/autenticazione/2fa-login-pending.svg" alt="Segnaposto della richiesta OTP al login con dati sensibili nascosti" />
+</Frame>
 
 ## Come disattivare il 2FA
 
-Se vuoi disattivare l'autenticazione a due fattori, vai su **Profilo > Autenticazione
-a due fattori** e disattiva l'interruttore.
+<Steps>
+  <Step title="Apri il profilo dalla sessione autenticata">
+    Da una sessione già autenticata, apri **Profilo > Autenticazione 2 fattori**. Controlla che **Abilita Doppio Fattore** sia attivo sull’account che vuoi modificare.
+  </Step>
+  <Step title="Disattiva e salva">
+    Disattiva **Abilita Doppio Fattore** e premi **Salva**. Attendi la conferma **Autenticazione a due fattori aggiornata.** Il modulo attuale non richiede un nuovo OTP per disattivare dalla sessione autenticata.
+  </Step>
+  <Step title="Controlla la disattivazione">
+    Riapri la pagina e controlla che l’interruttore sia spento. Per controllare anche l’accesso, apri una nuova sessione e verifica che dopo le credenziali non venga più richiesto il codice OTP.
+  </Step>
+</Steps>
+
+<Note>La sola modifica dell’interruttore non salva lo stato: premi **Salva** prima di lasciare la pagina.</Note>
+
+<Note>Bozza in attesa di prova: questa sezione deve essere confermata con una procedura reale prima della pubblicazione.</Note>
 
 ## Hai perso l'accesso all'app?
 
-<Warning>
-  Se perdi l'accesso all'app di autenticazione (ad esempio se cambi telefono
-  senza trasferire l'app), non potrai accedere al tuo account autonomamente.
-  In questo caso, contatta il supporto Bakney che ti aiuterà a recuperare
-  l'accesso.
-</Warning>
+Se hai ancora una sessione autenticata, la pagina del profilo offre la disattivazione descritta sopra. Valuta il cambio del dispositivo con il responsabile e verifica la nuova configurazione prima di chiudere la sessione.
+
+Se non riesci più ad accedere, chiedi al **gestore della tua installazione** quale procedura di recupero è disponibile e come viene verificata la tua identità. Questa guida non documenta codici di recupero, un pulsante di reset autonomo o un ripristino garantito dal supporto.
+
+<Warning>Il recupero dipende dalla gestione effettiva dell'installazione e richiede una verifica esterna. Non inviare al supporto password, QR, chiave segreta o codici temporanei per dimostrare la tua identità.</Warning>

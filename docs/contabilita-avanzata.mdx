@@ -5,288 +5,372 @@ description: "In questa sezione troverai tutte le informazioni relative alle fun
 
 ## Panoramica
 
-Bakney Sport mette a disposizione un modulo di contabilità avanzata che ti permette di gestire in modo completo la parte amministrativa della tua associazione sportiva.
-Da questa sezione potrai gestire:
+<Note>Bozza in attesa di prova: questa sezione deve essere confermata con una procedura reale prima della pubblicazione.</Note>
 
-- **Fatture attive** (emesse verso i clienti)
-- **Fatture passive** (ricevute dai fornitori)
-- **Anagrafica fornitori e clienti**
-- **Conti finanziari** (cassa, banca e altri conti)
-- **Giroconti** (trasferimenti tra conti)
-- **Causali di pagamento** (centri di costo)
-
----
+La sezione **Contabilità** raccoglie pagamenti, documenti fiscali e strumenti di gestione.
+Apri **Documenti fiscali** per le **Fatture Attive** e le **Fatture Passive**; apri **Gestione** per **Fornitori e Clienti**, **Conti Finanziari**, **Giroconti** e **Bilancio**.
+Le **Causali** si gestiscono dalla pagina dei **Pagamenti**.
+<Info>Il titolare dell'associazione usa i comandi descritti nell'esempio. Per un collaboratore servono i permessi delle singole sezioni e delle operazioni: il solo accesso ai pagamenti non autorizza a leggere o modificare conti, giroconti e bilancio.</Info>
+<Note>Questo percorso verifica conti, giroconti e rendiconto. Le procedure sulle fatture, sulle anagrafiche e sulle causali sono descritte nelle bozze seguenti e restano da provare.</Note>
 
 ## Fatture attive
 
-Le fatture attive sono i documenti fiscali che la tua associazione emette verso i propri clienti. Bakney Sport supporta anche la generazione di fatture elettroniche nel formato richiesto dalla normativa italiana.
+<Note>Bozza in attesa di prova: questa sezione deve essere confermata con una procedura reale prima della pubblicazione.</Note>
+
+Le **Fatture Attive** riguardano i documenti emessi verso i clienti.
+Preparare e registrare un documento, contrassegnarlo come pagato o inviato e trasmetterlo al destinatario sono operazioni diverse.
+Prima prepara i dati dell'associazione, quelli del cliente e le righe della fattura.
+<Note>Creazione, generazione del documento e file XML non sono esercitate in questa procedura. La conformità fiscale e la consegna tramite servizi esterni richiedono una verifica separata.</Note>
 
 ### Creare una fattura attiva
 
-<Steps>
-  <Step title="Vai nella sezione Fatture Attive">
-    Dalla sezione **Contabilità**, clicca su **Fatture Attive**.
-  </Step>
-  <Step title="Clicca su + Fattura">
-    Clicca sul pulsante **+ Fattura** per aprire il modulo di creazione.
-  </Step>
-  <Step title="Compila i dati del cedente">
-    Inserisci i dati della tua associazione (cedente): denominazione, partita IVA, codice fiscale, indirizzo, CAP, città, provincia e paese.
-  </Step>
-  <Step title="Compila i dati del cliente">
-    Inserisci i dati del destinatario (cessionario): denominazione, partita IVA, codice fiscale, indirizzo e recapiti.
-  </Step>
-  <Step title="Aggiungi le righe della fattura">
-    Per ogni riga inserisci: descrizione, quantità, prezzo unitario, aliquota IVA e unità di misura.
-  </Step>
-  <Step title="Configura il pagamento">
-    Seleziona le condizioni di pagamento tra:
-    - **Pagamento completo**
-    - **Pagamento a rate**
-    - **Anticipo**
+<Note>Bozza in attesa di prova: questa sezione deve essere confermata con una procedura reale prima della pubblicazione.</Note>
 
-    Indica anche la modalità di pagamento (contanti, bonifico, carta di pagamento, ecc.), l'importo totale e la data di scadenza.
-  </Step>
-  <Step title="Salva la fattura">
-    Clicca su **Salva** per registrare la fattura. Il sistema assegnerà automaticamente un numero progressivo.
-  </Step>
+<Steps>
+<Step title="Apri Fatture Attive">
+Scegli **Contabilità > Documenti fiscali > Fatture Attive** e apri il comando per una nuova fattura. Occorre il permesso per creare fatture attive.
+</Step>
+<Step title="Controlla i dati generali e la numerazione">
+Verifica paese, formato, tipo documento, valuta, destinatario SDI e **Data Fattura**. Compila **Prefisso**, **Numero** e **Anno**: il modulo contiene questi campi, quindi non presumere una numerazione completamente automatica.
+</Step>
+<Step title="Completa cedente, cliente e righe">
+Compila denominazione, dati fiscali e sede del cedente e del cliente. Verifica i recapiti del destinatario.
+Per ogni riga indica descrizione, quantità, prezzo unitario, aliquota IVA e unità di misura. Controlla i totali e le condizioni di pagamento prima di salvare.
+</Step>
+<Step title="Salva e verifica il documento">
+Dopo **Salva**, torna all’elenco, cerca il numero appena inserito e controlla che il documento sia presente anche dopo il ricaricamento. Un messaggio di errore durante la preparazione del file non dimostra che la fattura sia pronta per l’invio.
+</Step>
 </Steps>
 
-<Tip>Se la tua associazione emette fatture elettroniche, Bakney Sport genera automaticamente il file XML nel formato FatturaPA (FPR12) pronto per l'invio al Sistema di Interscambio.</Tip>
+<Warning>Generazione, scaricamento XML e trasmissione al Sistema di Interscambio restano da verificare. Questa bozza non attesta che un documento sia stato accettato o consegnato.</Warning>
 
 ### Modificare una fattura attiva
 
-Per modificare una fattura attiva, clicca sul pulsante **Modifica** a forma di matita nella riga corrispondente. Potrai aggiornare l'identificativo, le date di pagamento e scadenza, lo stato (pagata o non pagata) e le note.
+<Note>Bozza in attesa di prova: questa sezione deve essere confermata con una procedura reale prima della pubblicazione.</Note>
+
+<Steps>
+<Step title="Apri la matita della fattura">
+In **Fatture Attive** individua il documento e premi **Modifica**. Il modulo di aggiornamento riguarda gli stati **Pagata** e **Inviata**.
+</Step>
+<Step title="Salva gli stati e ricontrolla">
+Seleziona gli stati corretti, premi **Salva**, ricarica l’elenco e verifica il risultato sul documento scelto. Non usare questa finestra come procedura per riscrivere date, importi, righe o numero: tali modifiche non sono confermate da questo modulo.
+</Step>
+</Steps>
 
 ### Segnare una fattura come pagata
 
-Dal modulo di modifica, cambia lo stato da **Non pagata** a **Pagata** e clicca su **Salva**.
+<Note>Bozza in attesa di prova: questa sezione deve essere confermata con una procedura reale prima della pubblicazione.</Note>
 
-<Note>Una fattura segnata come pagata verrà considerata nel calcolo del bilancio come entrata incassata.</Note>
+<Steps>
+<Step title="Controlla l’incasso">
+Verifica che l’importo sia stato effettivamente incassato e individua la fattura in **Fatture Attive**.
+</Step>
+<Step title="Aggiorna lo stato Pagata">
+Apri **Modifica**, scegli lo stato pagato e premi **Salva**. Ricarica l’elenco per controllare la stessa fattura.
+</Step>
+</Steps>
 
----
+<Note>Il solo cambio di stato della fattura attiva aggiorna il documento e non crea automaticamente un pagamento. Le entrate del rendiconto derivano dai pagamenti saldati: controlla la registrazione del relativo incasso senza duplicarla.</Note>
 
 ## Fatture passive
 
-Le fatture passive sono i documenti fiscali che la tua associazione riceve dai propri fornitori. Registrare le fatture passive ti permette di tenere traccia di tutte le spese e di monitorare le scadenze di pagamento.
+<Note>Bozza in attesa di prova: questa sezione deve essere confermata con una procedura reale prima della pubblicazione.</Note>
+
+Le **Fatture Passive** registrano i documenti ricevuti dai fornitori, con importo, scadenza, conto e stato di pagamento.
+Prepara l'anagrafica del fornitore e il conto da usare prima della registrazione.
+<Note>Questa procedura non crea né paga una fattura passiva. Il collegamento con il pagamento deve essere controllato con una prova dedicata.</Note>
 
 ### Registrare una fattura passiva
 
-<Steps>
-  <Step title="Vai nella sezione Fatture Passive">
-    Dalla sezione **Contabilità**, clicca su **Fatture Passive**.
-  </Step>
-  <Step title="Clicca su + Fattura">
-    Clicca sul pulsante **+ Fattura** per aprire il modulo di registrazione.
-  </Step>
-  <Step title="Compila i dati della fattura">
-    Inserisci le seguenti informazioni:
-    1. **Identificativo**: il numero o codice della fattura del fornitore
-    2. **Importo**: l'importo totale della fattura
-    3. **Data pagamento**: la data in cui hai effettuato o effettuerai il pagamento
-    4. **Data scadenza**: la data entro cui la fattura deve essere pagata
-    5. **Conto**: il conto finanziario su cui registrare il pagamento
-    6. **Fornitore**: seleziona il fornitore dall'anagrafica
-    7. **Stato**: pagata o non pagata
-    8. **Note** (opzionale): eventuali annotazioni
-  </Step>
-  <Step title="Salva la fattura">
-    Clicca su **Salva** per registrare la fattura passiva.
-  </Step>
-</Steps>
+<Note>Bozza in attesa di prova: questa sezione deve essere confermata con una procedura reale prima della pubblicazione.</Note>
 
-<Tip>Registra le fatture passive appena le ricevi, anche se non le hai ancora pagate. In questo modo avrai sempre sotto controllo le scadenze e potrai pianificare i pagamenti in anticipo.</Tip>
+<Steps>
+<Step title="Apri Fatture Passive">
+Scegli **Contabilità > Documenti fiscali > Fatture Passive** e premi **Fattura** con il simbolo **+**.
+</Step>
+<Step title="Inserisci il documento del fornitore">
+Compila **Identificativo**, **Importo**, **Data pagamento**, **Data scadenza**, **Conto**, **Fornitore** e **Pagata**; aggiungi le **Note** se servono.
+Usa il numero del documento ricevuto. Il conto e il fornitore devono essere già disponibili. Tieni separata la scadenza dalla data dell'effettivo pagamento.
+</Step>
+<Step title="Salva e controlla dopo il ricaricamento">
+Premi **Salva**. Ricarica l’elenco e verifica identificativo, importo, fornitore, conto e stato. Controlla anche il pagamento collegato prima di registrare un’altra spesa per lo stesso documento.
+</Step>
+</Steps>
 
 ### Modificare una fattura passiva
 
-Per modificare una fattura passiva clicca sul pulsante **Modifica** a forma di matita. Potrai aggiornare l'identificativo, le date, lo stato di pagamento e le note.
+<Note>Bozza in attesa di prova: questa sezione deve essere confermata con una procedura reale prima della pubblicazione.</Note>
+
+<Steps>
+<Step title="Apri la fattura da correggere">
+In **Fatture Passive** premi la matita **Modifica** nella riga del documento.
+</Step>
+<Step title="Correggi e salva">
+Ricontrolla identificativo, importo, date, conto, fornitore, stato e note. Premi **Salva**, poi ricarica la pagina e verifica sia il documento sia il pagamento collegato. La verifica del mantenimento di tale collegamento è ancora da eseguire.
+</Step>
+</Steps>
 
 ### Segnare una fattura passiva come pagata
 
-Dal modulo di modifica, cambia lo stato da **Non pagata** a **Pagata** e clicca su **Salva**.
+<Note>Bozza in attesa di prova: questa sezione deve essere confermata con una procedura reale prima della pubblicazione.</Note>
 
-<Warning>Una volta segnata come pagata, la fattura passiva verrà conteggiata come uscita nel bilancio. Assicurati che la data di pagamento sia corretta.</Warning>
+<Steps>
+<Step title="Verifica il pagamento al fornitore">
+Controlla conto, importo e data effettiva dell’uscita.
+</Step>
+<Step title="Salva lo stato della fattura">
+Apri **Modifica**, imposta **Pagata**, controlla **Data pagamento** e premi **Salva**. Ricarica l’elenco e controlla la registrazione della spesa collegata.
+</Step>
+</Steps>
 
----
+<Warning>Non registrare due volte la stessa uscita. Lo stato e la data devono corrispondere al pagamento effettivo; il loro effetto sul rendiconto non è verificato da questo percorso sui giroconti.</Warning>
 
 ## Fornitori e clienti
 
-La sezione **Fornitori e Clienti** ti permette di creare e mantenere un'anagrafica completa di tutti i soggetti con cui la tua associazione ha rapporti economici.
+<Note>Bozza in attesa di prova: questa sezione deve essere confermata con una procedura reale prima della pubblicazione.</Note>
+
+In **Contabilità > Gestione > Fornitori e Clienti** raccogli le anagrafiche dei soggetti con cui l'associazione ha rapporti economici.
+Ogni anagrafica ha un tipo **Fornitore** oppure **Cliente**. Prima di crearne una, cerca il nome per evitare duplicati.
+Occorrono i permessi per consultare e gestire queste anagrafiche. Creazione, modifica e rimozione sono ancora da provare in una procedura dedicata.
 
 ### Aggiungere un fornitore o cliente
 
-<Steps>
-  <Step title="Vai nella sezione Fornitori e Clienti">
-    Dalla sezione **Contabilità**, clicca su **Fornitori e Clienti**.
-  </Step>
-  <Step title="Clicca su + Nuovo">
-    Clicca sul pulsante per aggiungere una nuova anagrafica.
-  </Step>
-  <Step title="Compila i dati anagrafici">
-    Inserisci le seguenti informazioni:
-    1. **Nome**: il nome o la ragione sociale (obbligatorio)
-    2. **Tipo**: seleziona **Fornitore** o **Cliente**
-    3. **Codice fiscale**: il codice fiscale del soggetto
-    4. **Partita IVA**: la partita IVA, se disponibile
-    5. **Indirizzo**: l'indirizzo completo
-    6. **Email**: l'indirizzo email
-    7. **Telefono**: il numero di telefono
-    8. **Città**, **CAP**, **Provincia**, **Paese** e **Nazionalità**
-    9. **Note** (opzionale): eventuali annotazioni aggiuntive
-  </Step>
-  <Step title="Salva">
-    Clicca su **Salva** per registrare l'anagrafica.
-  </Step>
-</Steps>
+<Note>Bozza in attesa di prova: questa sezione deve essere confermata con una procedura reale prima della pubblicazione.</Note>
 
-<Tip>Compila sempre il codice fiscale e la partita IVA: questi dati ti serviranno quando creerai le fatture attive o registrerai le fatture passive associate a quel soggetto.</Tip>
+<Steps>
+<Step title="Apri una nuova anagrafica">
+Da **Gestione > Fornitori e Clienti** apri il comando per una nuova anagrafica.
+</Step>
+<Step title="Compila i dati del soggetto">
+Inserisci **Nome** e scegli **Tipo** fra **Fornitore** e **Cliente**.
+Completa quando disponibili codice fiscale, partita IVA, indirizzo, email, telefono, città, CAP, provincia, paese, nazionalità e note.
+Il nome è richiesto. Un indirizzo email inserito deve essere valido; lascia vuoti i dati che non conosci anziché inventarli.
+</Step>
+<Step title="Salva e cerca il risultato">
+Premi **Salva**, torna all’elenco e cerca il nome. Ricarica e riapri la scheda per verificare tipo, recapiti e dati fiscali.
+</Step>
+</Steps>
 
 ### Modificare un fornitore o cliente
 
-Per modificare i dati di un fornitore o cliente, apri la scheda del soggetto e aggiorna i campi desiderati. Ricordati di cliccare su **Salva** per applicare le modifiche.
+<Note>Bozza in attesa di prova: questa sezione deve essere confermata con una procedura reale prima della pubblicazione.</Note>
+
+<Steps>
+<Step title="Apri la scheda corretta">
+Cerca il soggetto in **Fornitori e Clienti** e apri la sua scheda. Controlla nome e dati fiscali prima di correggere un omonimo.
+</Step>
+<Step title="Salva le correzioni">
+Aggiorna i campi e premi **Salva**. Dopo la conferma riapri la scheda e controlla i dati conservati. Non presumere che cambino anche i documenti già emessi: questa variante resta da verificare.
+</Step>
+</Steps>
 
 ### Eliminare un fornitore o cliente
 
-Per eliminare un'anagrafica, clicca sul pulsante **Elimina** a forma di cestino.
+<Note>Bozza in attesa di prova: questa sezione deve essere confermata con una procedura reale prima della pubblicazione.</Note>
 
-<Warning>Prima di eliminare un fornitore o cliente, assicurati che non ci siano fatture o pagamenti ancora collegati a quel soggetto.</Warning>
+<Steps>
+<Step title="Controlla i documenti collegati">
+Prima della rimozione verifica se il soggetto è utilizzato in fatture o pagamenti. Conservalo se serve a ricostruire documenti o movimenti esistenti.
+</Step>
+<Step title="Conferma solo il soggetto corretto">
+Usa il cestino **Elimina**, controlla il nome nella richiesta di conferma e conferma solo dopo la verifica. Ricarica l’elenco e controlla l’assenza della voce.
+</Step>
+</Steps>
 
----
+<Warning>La rimozione e i suoi effetti sui collegamenti non sono esercitati. Questa bozza non promette che il programma impedisca ogni eliminazione di un soggetto già utilizzato.</Warning>
 
 ## Conti finanziari
 
-I conti finanziari rappresentano i tuoi conti correnti, il portafoglio contanti e qualsiasi altro strumento finanziario della tua associazione. Gestirli correttamente ti permette di avere un bilancio sempre aggiornato.
+<Note>Bozza in attesa di prova: questa sezione deve essere confermata con una procedura reale prima della pubblicazione.</Note>
+
+I conti rappresentano cassa, banca e altri strumenti finanziari.
+Apri **Contabilità > Gestione > Conti Finanziari** per leggere **Saldo iniziale**, **Saldo attuale**, **Tipo** e **Stato**.
+Il saldo attuale parte da quello iniziale, aggiunge le entrate saldate e i giroconti ricevuti, e sottrae le spese saldate e i giroconti inviati.
+<Frame>![Elenco conti con i saldi dopo il trasferimento](/images/contabilita/bilancio/8.placeholder.svg)</Frame>
+<Note>L'elenco dei conti mostra il saldo complessivo dei movimenti; la liquidità del rendiconto considera la fine dell'esercizio selezionato. Le condizioni sui pagamenti archiviati e sulle date non coincidono in tutti i prospetti: controlla i movimenti se trovi una differenza.</Note>
 
 ### Tipologie di conto
 
-Bakney Sport supporta tre tipologie di conto:
+<Note>Bozza in attesa di prova: questa sezione deve essere confermata con una procedura reale prima della pubblicazione.</Note>
 
-1. **Cassa**: rappresenta il denaro contante a disposizione dell'associazione.
-2. **Banca**: rappresenta un conto corrente bancario.
-3. **Altro**: rappresenta qualsiasi altro strumento finanziario (ad esempio un conto postale o un conto deposito).
+| Tipologia | Uso del conto |
+| --- | --- |
+| **Cassa** | Contanti dell'associazione |
+| **Banca** | Conto corrente bancario |
+| **Altro** | Altri strumenti di incasso o pagamento |
+
+La tipologia stabilisce se il conto viene riepilogato in **Cassa**, **Banca** o **Altro** nella liquidità.
+Nell'esempio vengono usate cassa e banca. Un conto di tipo **Altro** resta una variante da esercitare.
+<Frame>![Tipologia Banca nel modulo di creazione](/images/contabilita/bilancio/2.placeholder.svg)</Frame>
 
 ### Creare un nuovo conto
 
-<Steps>
-  <Step title="Vai nella sezione Conti">
-    Dalla sezione **Contabilità**, clicca su **Conti**.
-  </Step>
-  <Step title="Clicca su + Conto">
-    Clicca sul pulsante per aggiungere un nuovo conto finanziario.
-  </Step>
-  <Step title="Compila i dati del conto">
-    Inserisci le seguenti informazioni:
-    1. **Nome**: un nome descrittivo per il conto (ad esempio "Cassa sede" o "Conto BancaXY")
-    2. **Tipologia**: seleziona tra Cassa, Banca o Altro
-    3. **Stato**: attivo o disattivato
-    4. **Saldo iniziale**: l'importo presente sul conto al momento della creazione
-    5. **Codice**: un codice identificativo per il conto
-  </Step>
-  <Step title="Salva">
-    Clicca su **Salva** per creare il conto.
-  </Step>
-</Steps>
+<Note>Bozza in attesa di prova: questa sezione deve essere confermata con una procedura reale prima della pubblicazione.</Note>
 
-<Info>Quando crei un pagamento, potrai selezionare su quale conto registrarlo. Il sistema aggiornerà automaticamente il saldo del conto in base alle entrate e alle uscite.</Info>
+<Steps>
+<Step title="Apri Conti Finanziari">
+Nel menu **Contabilità**, apri **Gestione > Conti Finanziari**.
+Occorrono l'accesso ai conti e il permesso per crearli. Nell'esempio trovi **Cassa Aurora**, con saldo iniziale **0,00 €** e saldo attuale **50,00 €**.
+<Frame>![Conti finanziari e saldo attuale della Cassa Aurora](/images/contabilita/bilancio/1.placeholder.svg)</Frame>
+</Step>
+<Step title="Compila il nuovo conto">
+Premi **Conto** con il simbolo **+**.
+Nella finestra **Creazione di un conto economico** inserisci **Nome**, **Tipologia**, **Saldo Iniziale** e **Codice**.
+Nell'esempio: **Banca Aurora**, **Banca**, **100,00** e **BANCA-AURORA**. Tutti questi campi sono richiesti.
+Lo **Stato** si modifica successivamente: il nuovo conto nasce attivo.
+<Frame>![Nuovo conto Banca Aurora prima del salvataggio](/images/contabilita/bilancio/2.placeholder.svg)</Frame>
+</Step>
+<Step title="Salva e controlla il risultato">
+Premi **Salva**. Dopo la conferma **Conto creato con successo.**, la finestra si chiude e l'elenco si aggiorna.
+Ricarica la pagina e controlla nome, tipologia e saldo iniziale. Per rileggere il codice, apri la matita **Modifica** del conto. Un conto senza movimenti ha saldo attuale uguale al saldo iniziale.
+<Frame>![Conto Banca Aurora conservato dopo il ricaricamento](/images/contabilita/bilancio/3.placeholder.svg)</Frame>
+</Step>
+</Steps>
 
 ### Modificare un conto
 
-Per modificare un conto clicca sul pulsante **Modifica** a forma di matita. Potrai aggiornare il nome, la tipologia, lo stato, il saldo iniziale e il codice.
+<Note>Bozza in attesa di prova: questa sezione deve essere confermata con una procedura reale prima della pubblicazione.</Note>
 
-<Note>I conti di default creati automaticamente dal sistema non possono essere eliminati, ma possono essere modificati.</Note>
-
-<Tip>Inserisci il saldo iniziale corretto al momento della creazione del conto. Questo valore viene utilizzato come punto di partenza per il calcolo del saldo attuale nel bilancio.</Tip>
-
----
+<Steps>
+<Step title="Apri la modifica del conto">
+In **Gestione > Conti Finanziari** premi la matita **Modifica** nella riga del conto.
+Puoi aggiornare **Nome**, **Tipologia**, **Stato**, **Saldo Iniziale** e **Codice**.
+Nell'esempio correggi il saldo iniziale di **Banca Aurora** da **100,00** a **125,00**.
+<Frame>![Correzione del saldo iniziale nella finestra di modifica](/images/contabilita/bilancio/4.placeholder.svg)</Frame>
+</Step>
+<Step title="Salva e ricontrolla">
+Premi **Salva**, attendi **Conto modificato con successo.** e ricarica l'elenco.
+Il saldo iniziale e quello attuale di questo conto, ancora senza movimenti, diventano **125,00 €**.
+Correggere il saldo iniziale cambia la base di calcolo del conto; usa un movimento per registrare un nuovo incasso o una nuova spesa.
+<Frame>![Saldo iniziale corretto conservato dopo il ricaricamento](/images/contabilita/bilancio/5.placeholder.svg)</Frame>
+</Step>
+</Steps>
+<Note>I conti predefiniti possono essere modificati; il loro cestino non consente l'eliminazione.
+Per un conto personale, il cestino è disabilitato se ci sono pagamenti o giroconti collegati. Nell'esempio la banca può essere rimossa solo dopo avere eliminato il giroconto e aver controllato che non abbia pagamenti.
+La rimozione richiede conferma; dopo il ricaricamento rimane la sola cassa dimostrativa.</Note>
+<Frame>![Conto bancario inutilizzato rimosso e cassa iniziale conservata](/images/contabilita/bilancio/18.placeholder.svg)</Frame>
+<Warning>Disattivare un conto non dimostra che sia escluso dal calcolo del rendiconto: non usare lo stato per nascondere movimenti già registrati. Questa prova corregge il saldo iniziale e lascia il conto attivo.</Warning>
 
 ## Giroconti
 
-I giroconti sono trasferimenti di denaro tra un conto e un altro della tua associazione. Servono a registrare i movimenti interni che non corrispondono a entrate o uscite reali, ma a semplici spostamenti di fondi.
+<Note>Bozza in attesa di prova: questa sezione deve essere confermata con una procedura reale prima della pubblicazione.</Note>
 
-**Esempio pratico**: prelevi 500 euro dal conto corrente bancario per avere contanti in cassa. In questo caso devi registrare un giroconto dal conto "Banca" al conto "Cassa" di 500 euro.
+I giroconti spostano denaro fra i conti dell'associazione e si consultano in **Contabilità > Gestione > Giroconti**.
+Un trasferimento dalla cassa alla banca riduce la cassa e aumenta la banca dello stesso importo.
+Nell'esempio **20,00 €** passano da **Cassa Aurora** a **Banca Aurora**: il totale della liquidità resta **175,00 €**.
+<Frame>![Effetto del giroconto sui due saldi senza variazione del totale](/images/contabilita/bilancio/8.placeholder.svg)</Frame>
+<Tip>Per un incasso da un socio o una spesa verso un fornitore usa il pagamento corrispondente. Il giroconto serve allo spostamento interno.</Tip>
 
 ### Creare un giroconto
 
-<Steps>
-  <Step title="Vai nella sezione Giroconti">
-    Dalla sezione **Contabilità**, clicca su **Giroconti**.
-  </Step>
-  <Step title="Clicca su + Giroconto">
-    Clicca sul pulsante **+ Giroconto** per aprire il modulo di creazione.
-  </Step>
-  <Step title="Compila i dati del giroconto">
-    Inserisci le seguenti informazioni:
-    1. **Data giroconto**: la data in cui è avvenuto il trasferimento
-    2. **Dal conto**: seleziona il conto da cui prelevare il denaro
-    3. **Al conto**: seleziona il conto su cui depositare il denaro
-    4. **Importo**: l'importo del trasferimento
-  </Step>
-  <Step title="Salva">
-    Clicca su **Salva** per registrare il giroconto.
-  </Step>
-</Steps>
+<Note>Bozza in attesa di prova: questa sezione deve essere confermata con una procedura reale prima della pubblicazione.</Note>
 
-<Warning>Non puoi selezionare lo stesso conto come origine e destinazione del giroconto.</Warning>
+<Steps>
+<Step title="Apri Giroconti">
+Da **Contabilità**, scegli **Gestione > Giroconti** e premi **Giroconto** con il simbolo **+**.
+Prima crea i due conti fra cui spostare il denaro. Occorrono i permessi di lettura dei conti e di creazione dei giroconti.
+</Step>
+<Step title="Indica data, origine, destinazione e importo">
+Compila **Data giroconto**, **Dal conto**, **Al conto** e **Importo**.
+Nell'esempio trasferisci **20,00 €** da **Cassa Aurora** a **Banca Aurora** alla data mostrata.
+Inserisci l'importo con due decimali, ad esempio **20,00**. Le due scelte devono indicare conti diversi: l'interfaccia esclude dalla seconda scelta il conto già selezionato.
+<Frame>![Giroconto compilato con origine e destinazione diverse](/images/contabilita/bilancio/6.placeholder.svg)</Frame>
+</Step>
+<Step title="Salva e controlla il trasferimento">
+Premi **Salva**, attendi la conferma e ricarica la pagina.
+Controlla data, conti e importo nella riga creata.
+<Frame>![Giroconto conservato dopo il ricaricamento](/images/contabilita/bilancio/7.placeholder.svg)</Frame>
+Apri **Conti Finanziari**: la cassa passa da **50,00 €** a **30,00 €** e la banca da **125,00 €** a **145,00 €**.
+Il totale dei due conti rimane **175,00 €**: il giroconto sposta denaro e non crea un'entrata o una spesa.
+<Frame>![Saldi della cassa e della banca dopo il giroconto](/images/contabilita/bilancio/8.placeholder.svg)</Frame>
+</Step>
+</Steps>
 
 ### Eliminare un giroconto
 
-Per eliminare un giroconto clicca sul pulsante **Elimina** a forma di cestino nella riga corrispondente. Il sistema chiederà una conferma prima di procedere con l'eliminazione.
+<Note>Bozza in attesa di prova: questa sezione deve essere confermata con una procedura reale prima della pubblicazione.</Note>
 
-<Tip>Registra sempre i giroconti quando sposti denaro tra i tuoi conti. In questo modo il saldo di ogni conto resterà allineato con la situazione reale e il bilancio sarà sempre corretto.</Tip>
-
----
+<Steps>
+<Step title="Scegli il giroconto da eliminare">
+Apri **Gestione > Giroconti** e individua data, origine, destinazione e importo.
+Premi il cestino **Elimina** nella sua riga. È necessario il permesso per eliminare i giroconti.
+<Frame>![Conferma per eliminare il giroconto](/images/contabilita/bilancio/16.placeholder.svg)</Frame>
+</Step>
+<Step title="Conferma e verifica i saldi">
+Nella richiesta **Vuoi eliminare il giroconto?**, premi **Elimina**; **Annulla** lascia il trasferimento presente.
+Ricarica l'elenco e controlla che la riga sia assente. In **Conti Finanziari** i saldi tornano a **50,00 €** per la cassa e **125,00 €** per la banca.
+<Frame>![Giroconto eliminato e saldi ripristinati](/images/contabilita/bilancio/17.placeholder.svg)</Frame>
+<Warning>Elimina solo un trasferimento registrato per errore. Se il denaro è stato spostato davvero, correggi la registrazione mantenendo una traccia coerente con i movimenti reali.</Warning>
+</Step>
+</Steps>
 
 ## Causali di pagamento
 
-Le causali di pagamento (dette anche centri di costo) ti permettono di classificare ogni entrata e ogni uscita della tua associazione in categorie specifiche. Questo è fondamentale per avere un bilancio ordinato e per capire come vengono distribuite le risorse economiche.
+<Note>Bozza in attesa di prova: questa sezione deve essere confermata con una procedura reale prima della pubblicazione.</Note>
+
+Le causali classificano entrate e spese e ne determinano il raggruppamento nel rendiconto.
+Apri **Pagamenti** e **Gestisci Causali** per consultarle. Prima di aggiungerne una, controlla quelle esistenti.
+<Note>Le operazioni di creazione, modifica, ripartizione fra più causali e riepilogo delle detrazioni restano da provare. Il flusso di bilancio usa soltanto la causale già presente sulle quote dimostrative.</Note>
 
 ### Tipologie di causali
 
-Ogni causale può essere di due tipi:
+<Note>Bozza in attesa di prova: questa sezione deve essere confermata con una procedura reale prima della pubblicazione.</Note>
 
-1. **Istituzionale**: relativa alle attività istituzionali dell'associazione (corsi sportivi, quote associative, ecc.)
-2. **Commerciale**: relativa alle attività commerciali dell'associazione (sponsorizzazioni, vendita merchandising, ecc.)
-
-Ogni causale è inoltre classificata come **Entrata** o **Uscita**.
+Ogni causale distingue **Entrata** oppure **Uscita** e **Istituzionale** oppure **Commerciale**.
+Queste scelte hanno scopi diversi: il movimento stabilisce la direzione, la tipologia stabilisce la colonna del rendiconto.
+Per le entrate può essere presente **Detraibile fiscalmente**.
+<Note>La scelta fiscale dipende dalla situazione dell'associazione e del pagamento; il programma registra la classificazione scelta, senza attestare che ogni spesa dia diritto a una detrazione.</Note>
 
 ### Creare una causale
 
+<Note>Bozza in attesa di prova: questa sezione deve essere confermata con una procedura reale prima della pubblicazione.</Note>
+
 <Steps>
-  <Step title="Vai nella sezione Causali">
-    Dalla sezione **Pagamenti**, clicca su **Gestisci Causali**.
-  </Step>
-  <Step title="Clicca su + Causale">
-    Clicca sul pulsante **+ Causale** per aprire il modulo di creazione.
-  </Step>
-  <Step title="Compila i dati della causale">
-    Inserisci le seguenti informazioni:
-    1. **Nome**: un nome descrittivo per la causale (ad esempio "Quota corso nuoto" o "Affitto palestra")
-    2. **Movimento**: seleziona **Entrata** o **Uscita**
-    3. **Tipologia**: seleziona **Istituzionale** o **Commerciale**
-    4. **Detraibile fiscalmente** (solo per le entrate): attiva questa opzione se i pagamenti con questa causale sono detraibili dal 730
-  </Step>
-  <Step title="Configura la gestione IVA">
-    Se necessario, configura le impostazioni IVA:
-    - **Tipo IVA**: seleziona l'aliquota IVA applicabile (esente, esclusa, 4%, 10%, 22%, ecc.)
-    - **Tipo detrazione**: seleziona la percentuale di detrazione (nessuna, 10% o 50%)
-  </Step>
-  <Step title="Salva">
-    Clicca su **Salva** per creare la causale.
-  </Step>
+<Step title="Apri Gestisci Causali">
+Dalla pagina **Pagamenti** scegli **Gestisci Causali**, poi **Causale** con il simbolo **+**.
+</Step>
+<Step title="Classifica la voce">
+Compila **Nome**, **Movimento** e **Tipologia**. Per un’entrata controlla **Detraibile fiscalmente**. In **Gestione IVA** verifica **Tipo IVA** e **Tipo detrazione** secondo la classificazione concordata per la tua associazione.
+</Step>
+<Step title="Salva e ricontrolla la scelta">
+Premi **Salva**, ricarica l’elenco e controlla nome, direzione, tipologia e opzioni. Prima di usare la causale su molti pagamenti, verifica il risultato su una singola registrazione.
+</Step>
 </Steps>
 
 ### Modificare una causale
 
-Per modificare una causale clicca sul pulsante **Modifica** a forma di matita. Potrai aggiornare il nome, il tipo di movimento, la tipologia, la detraibilità e le impostazioni IVA.
+<Note>Bozza in attesa di prova: questa sezione deve essere confermata con una procedura reale prima della pubblicazione.</Note>
 
-<Note>Le causali di default fornite dal sistema non possono essere modificate o eliminate.</Note>
+<Steps>
+<Step title="Apri la matita della causale personale">
+In **Gestisci Causali** individua la voce e premi **Modifica**. Le causali comuni fornite dal sistema hanno i comandi di modifica e rimozione disabilitati.
+</Step>
+<Step title="Salva e controlla il rendiconto">
+Correggi i campi disponibili, premi **Salva** e ricontrolla dopo il ricaricamento. Le classificazioni sono utilizzate nel calcolo dei pagamenti: l’effetto su registrazioni precedenti e rendiconti già pubblicati resta da esercitare.
+</Step>
+</Steps>
 
 ### Causali aggiuntive nei pagamenti
 
-Quando crei un pagamento, puoi associare una o più causali aggiuntive. Questo ti permette di suddividere un singolo pagamento su più centri di costo, specificando per ciascuno la causale e l'importo corrispondente. Per aggiungere una causale aggiuntiva, clicca su **Aggiungi causale** all'interno del modulo di creazione del pagamento.
+<Note>Bozza in attesa di prova: questa sezione deve essere confermata con una procedura reale prima della pubblicazione.</Note>
 
-<Tip>Usa le causali aggiuntive quando un unico pagamento copre voci diverse. Ad esempio, un socio paga in un'unica soluzione la quota associativa e la quota corso: puoi registrare un solo pagamento con due causali e i rispettivi importi.</Tip>
+<Steps>
+<Step title="Apri il pagamento">
+Nel modulo del pagamento trova **Causali aggiuntive** e premi **Aggiungi causale**.
+</Step>
+<Step title="Ripartisci l’importo senza duplicarlo">
+Per ogni riga scegli una causale coerente con **Entrata** o **Uscita** e indica l’importo assegnato. Il rendiconto sposta questi importi dalla causale principale alle aggiuntive: non sono nuovi incassi.
+</Step>
+<Step title="Salva e confronta la ripartizione">
+Salva il pagamento, riaprilo e controlla causali e importi. Confronta poi le voci del rendiconto mantenendo il totale del pagamento. Questa prova di ripartizione resta da eseguire.
+</Step>
+</Steps>
 
 ### Causali detraibili 730
 
-Le causali contrassegnate come **Detraibile fiscalmente** ti permettono di generare facilmente un riepilogo di tutti i pagamenti detraibili ai fini della dichiarazione dei redditi (modello 730). Questo è particolarmente utile a fine anno quando i tuoi associati ti chiedono la documentazione per la detrazione fiscale delle spese sportive.
+<Note>Bozza in attesa di prova: questa sezione deve essere confermata con una procedura reale prima della pubblicazione.</Note>
+
+**Detraibile fiscalmente** contrassegna le causali delle entrate che intendi utilizzare nei riepiloghi delle spese detraibili.
+Controlla persona, causale, importo, data e modalità di pagamento prima di preparare la documentazione richiesta dal socio.
+<Note>La produzione del riepilogo 730 e la sua completezza non sono esercitate. Questo contrassegno non è una conferma automatica del diritto alla detrazione e non sostituisce la verifica della documentazione.</Note>
+

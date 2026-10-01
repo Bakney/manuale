@@ -5,139 +5,181 @@ description: "Guida su come configurare i corsi con pagamento a rate e gestire l
 
 # Indice
 
-In questa guida imparerai come:
+La guida distingue la configurazione del corso, l’assegnazione delle rate e l’incasso:
 
-<Steps>
-  <Step title="Attivare i pagamenti a rate">
-    Come abilitare le rate durante la creazione di un corso.
-  </Step>
-  <Step title="Configurare le rate">
-    Come impostare il numero di rate, le scadenze e gli importi.
-  </Step>
-  <Step title="Generazione automatica dei pagamenti">
-    Come il sistema crea automaticamente i pagamenti per ogni rata.
-  </Step>
-  <Step title="Atleta che si iscrive dopo le prime scadenze">
-    Come il sistema gestisce le iscrizioni tardive e l'opzione 'Piano rate completo'.
-  </Step>
-  <Step title="Offrire anche il pagamento in un'unica soluzione">
-    Come attivare l'opzione di pagamento unico accanto alle rate.
-  </Step>
-  <Step title="Modificare il piano rate per un singolo atleta">
-    Come gestire situazioni particolari e personalizzare le rate.
-  </Step>
-</Steps>
+- [Attivare i pagamenti a rate](#attivare-i-pagamenti-a-rate) in un corso Standard.
+- [Configurare le rate](#configurare-le-rate) con importi e scadenze.
+- [Generazione automatica dei pagamenti](#generazione-automatica-dei-pagamenti): quando vengono registrate le quote.
+- [Atleta che si iscrive dopo le prime scadenze](#atleta-che-si-iscrive-dopo-le-prime-scadenze): differenza tra rate selezionate e piano predefinito.
+- [Offrire anche il pagamento in un’unica soluzione](#offrire-anche-il-pagamento-in-ununica-soluzione).
+- [Modificare il piano rate per un singolo atleta](#modificare-il-piano-rate-per-un-singolo-atleta).
+
+Una rata assegnata è una quota da gestire, non una prova di incasso. Per gli incassi consulta [Pagamenti](/docs/pagamenti).
 
 # Attivare i pagamenti a rate
 
-Per attivare i pagamenti a rate in un corso:
+<Note>Procedura basata sui comandi presenti nell’applicazione, ancora da verificare in browser e dopo la riapertura.</Note>
 
-1. Vai nella sezione **Corsi** e clicca su **+ Nuovo Corso** (oppure modifica un corso esistente)
-2. Nella sezione dedicata ai pagamenti, attiva l'opzione **Pagamento a rate**
-3. Una volta attivata, comparirà la sezione per configurare le singole rate
+Prepara importo totale e scadenze prima di iscrivere i tesserati. Occorrono i permessi per creare o modificare il corso; l’assegnazione al tesserato e l’incasso sono operazioni distinte.
 
-<Info>
-    I pagamenti a rate sono disponibili per i corsi di tipo standard. Per i corsi ad abbonamento, il sistema gestisce automaticamente i rinnovi periodici.
-</Info>
+<Steps>
+  <Step title="Apri il modulo del corso">
+    In **Attività > Corsi e Abbonamenti**, premi **Corso o Abbonamento**. Compila titolo e descrizione e scegli **Standard**.
+  </Step>
+  <Step title="Imposta quota e rateizzazione">
+    Compila **Quota attività**, poi attiva **Rateizza**. La sezione **Rateizzazione della quota attività** permette di preparare le scadenze.
+  </Step>
+  <Step title="Controlla prima di salvare">
+    Completa il piano descritto sotto, salva il corso e riaprilo. Per una prova assegna il piano a un solo tesserato e controlla le quote create.
+  </Step>
+</Steps>
 
 # Configurare le rate
 
-Dopo aver attivato i pagamenti a rate, dovrai configurare:
+Il piano associa a ogni rata un numero, un importo e una scadenza. Il totale della quota e gli importi delle singole rate vanno confrontati prima del salvataggio.
+
+| Dato | Cosa controllare |
+| --- | --- |
+| Numero di rate | Da 2 a 30 nel generatore attuale |
+| Importo | Uguale per tutte, oppure diverso per singola rata |
+| **Scade il** | La data della singola rata |
+| Totale | La somma deve corrispondere alla scelta dell’associazione |
+
+Le date iniziali del generatore sono proposte mensili a partire dalla data corrente, non un calendario approvato automaticamente. Le date dell’esempio vanno sostituite con quelle della stagione reale.
 
 ## Numero di rate
 
-Puoi impostare fino a un **massimo di 11 rate** per ogni corso. Per ogni rata dovrai specificare:
+Il generatore accetta da **2 a 30** rate. Se il numero è fuori dall’intervallo mostra **Numero rate non valido, inserisci un numero tra 2 e 30** e non abilita correttamente la creazione del piano.
 
-- **Importo**: l'ammontare della singola rata
-- **Data di scadenza**: la data entro cui la rata dovrebbe essere pagata
+Il vecchio limite di undici rate non descrive il generatore corrente. Per una sola quota usa il corso Standard senza rateizzazione; per periodi ricorrenti valuta **Abbonamento**, che ha regole diverse dal piano di scadenze.
 
 ## Come configurare le rate
 
-1. Clicca su **Aggiungi rata** per aggiungere una nuova rata al piano
-2. Inserisci l'**importo** della rata
-3. Seleziona la **data di scadenza**
-4. Ripeti per ogni rata che desideri aggiungere
+<Note>Procedura basata sui comandi presenti nell’applicazione, ancora da verificare in browser e dopo la riapertura.</Note>
 
-<Tip>
-    Puoi impostare rate di importi diversi. Ad esempio, una prima rata più alta all'iscrizione e le successive di importo inferiore nei mesi successivi.
-</Tip>
+<Steps>
+  <Step title="Genera le righe">
+    Dopo **Rateizza**, indica il numero di rate e premi **Crea Rate**. Si aprono le righe numerate.
+  </Step>
+  <Step title="Rivedi tutte le scadenze">
+    Modifica **Scade il** per ogni rata. Controlla anno, mese e ordine; non lasciare una data proposta soltanto perché sembra plausibile.
+  </Step>
+  <Step title="Scegli la ripartizione degli importi">
+    Con importi uniformi controlla la divisione della quota. Per importi differenti attiva **Permetti rate di importi diversi**, compila le righe e verifica il totale aggiornato.
+  </Step>
+  <Step title="Salva e riapri">
+    Salva il corso e riapri la scheda per controllare importi e date conservati. La rimozione di una riga ancora in preparazione cambia il piano: ricontrolla anche il totale.
+  </Step>
+</Steps>
+
+<Frame caption="Segnaposto FullHD: numero di rate, importi e scadenze del piano. Procedura ancora da verificare.">
+  <img src="/images/course-payment-additional/installments-pending.svg" alt="Segnaposto FullHD: numero di rate, importi e scadenze del piano" />
+</Frame>
 
 ## Esempio di configurazione
 
-Per un corso da 600 euro suddiviso in 3 rate:
+Per una quota di **300,00 €**, un esempio di ripartizione è:
 
-| Rata | Importo | Scadenza |
-|------|---------|----------|
-| 1    | 200,00 euro  | 01/09/2025 |
-| 2    | 200,00 euro  | 01/11/2025 |
-| 3    | 200,00 euro  | 01/01/2026 |
+| Rata | Importo | Scadenza da concordare |
+| --- | --- | --- |
+| 1 | 100,00 € | Prima data della stagione |
+| 2 | 100,00 € | Seconda data della stagione |
+| 3 | 100,00 € | Terza data della stagione |
+| Totale | 300,00 € | — |
+
+Con **Permetti rate di importi diversi** puoi invece preparare 150,00 €, 100,00 € e 50,00 €, mantenendo lo stesso totale. Questi sono importi di esempio, non quote già registrate. Una divisione in importi uguali può richiedere un controllo dei centesimi: verifica sempre la somma finale.
 
 # Generazione automatica dei pagamenti
 
-Quando un atleta si iscrive a un corso con pagamento a rate, il sistema genera automaticamente:
+Nel percorso di iscrizione al corso, le rate selezionate vengono registrate come rate individuali con relativi pagamenti. Il salvataggio del corso conserva invece il modello generale del piano: non va confuso con l’assegnazione a tutti i tesserati.
 
-- Un **pagamento separato** per ogni rata configurata
-- Ogni pagamento avrà l'**importo** e la **data di scadenza** specificati nella configurazione del corso
-- I pagamenti comparirànno nella sezione **Contabilità > Pagamenti** dell'atleta
+La precedente indicazione **«il pagamento viene creato 30 giorni prima della scadenza»** non descrive il percorso attuale di assegnazione, che può creare subito le quote selezionate. Inoltre l’elenco dell’atleta può mostrare solo una parte delle scadenze future; la visualizzazione non coincide con il momento di registrazione.
 
-Potrai quindi gestire ogni rata singolarmente, segnandola come pagata quando ricevi il pagamento, oppure lasciare che l'atleta paghi online tramite Stripe.
+| Operazione | Effetto da distinguere |
+| --- | --- |
+| Salvataggio del corso | Conserva il piano generale |
+| Iscrizione con rate selezionate | Registra quelle rate e i pagamenti collegati |
+| Modifica del singolo piano | Aggiunge o rimuove collegamenti secondo le rate selezionate |
+| Incasso | Aggiorna separatamente lo stato del pagamento |
 
-<Note>
-    Se hai attivato i pagamenti online con Stripe, l'atleta potrà pagare ogni singola rata separatamente dal proprio profilo.
-</Note>
+Non ripetere l’assegnazione soltanto perché una scadenza non compare subito nella pagina dell’atleta: controlla prima il piano della sua iscrizione e i pagamenti dell’associazione.
 
 # Atleta che si iscrive dopo le prime scadenze
 
-Può capitare che un atleta si iscriva a un corso quando alcune date di scadenza delle rate sono già passate. In questo caso, il sistema ha un comportamento predefinito e un'opzione aggiuntiva:
+La gestione di un’iscrizione tardiva dipende dal percorso. Il modulo attuale **Iscrivi al corso** propone **Piano rate** e può selezionare tutte le rate del corso, comprese quelle con data passata.
+
+Le rate selezionate esplicitamente vengono assegnate. Il filtro delle scadenze future e l’impostazione del piano completo riguardano invece i percorsi che ricavano il piano predefinito senza una selezione esplicita. Prima di confermare controlla quindi le righe effettivamente scelte, non soltanto la data di iscrizione.
 
 ## Comportamento predefinito
 
-Per impostazione predefinita, quando un atleta si iscrive dopo che alcune scadenze sono già passate, il sistema crea **solo le rate con scadenza futura**. Le rate con scadenza passata vengono ignorate.
+Quando il piano viene ricavato automaticamente, il codice confronta la scadenza con la data di creazione dell’iscrizione al corso: assegna le scadenze uguali o successive, salvo piano completo abilitato.
 
-**Esempio**: se un corso ha 3 rate con scadenza settembre, novembre e gennaio, e un atleta si iscrive a ottobre, vedrà solo le rate di novembre e gennaio.
+Questo comportamento non annulla le rate passate selezionate esplicitamente. Nel modulo **Iscrivi al corso**, la selezione iniziale può comprendere l’intero piano: rivedi **Piano rate** e lascia soltanto le scadenze concordate prima di confermare.
+
+<Note>Una rata con scadenza precedente può quindi comparire legittimamente dopo un’iscrizione tardiva. Prima di considerarla un errore controlla come è stato assegnato il piano.</Note>
 
 ## Opzione "Piano rate completo"
 
-Se desideri che tutti gli atleti ricevano **tutte le rate** indipendentemente dalla data di iscrizione, puoi attivare l'opzione **Piano rate completo**:
+<Note>Procedura basata sui comandi presenti nell’applicazione, ancora da verificare in browser e dopo la riapertura.</Note>
 
-1. Vai in **Impostazioni > Generali**
-2. Attiva l'opzione **Piano rate completo**
-3. Da questo momento, tutti i nuovi iscritti riceveranno **tutte le rate** del piano, comprese quelle con scadenza precedente alla data di iscrizione
+L’impostazione corrente si chiama **Assegna piano rate completo di default**. Serve per i percorsi di assegnazione predefinita; non sostituisce il controllo di una selezione esplicita nel modulo.
 
-<Warning>
-    L'opzione "Piano rate completo" si applica a **tutti i corsi** della tua associazione. Non è possibile attivarla solo per un corso specifico.
-</Warning>
+<Steps>
+  <Step title="Apri le impostazioni">
+    Vai in **Profilo > Impostazioni** e trova **Assegna piano rate completo di default**.
+  </Step>
+  <Step title="Scegli e salva il comportamento">
+    Abilita l’opzione soltanto se l’associazione vuole assegnare anche le scadenze precedenti nei percorsi predefiniti. Salva le impostazioni e riapri per controllare il valore.
+  </Step>
+  <Step title="Controlla una nuova assegnazione">
+    Usa una singola iscrizione di prova e verifica il piano risultante. La modifica dell’impostazione non va interpretata come aggiornamento retroattivo di tutti i piani esistenti.
+  </Step>
+</Steps>
+
+Nell’elenco del corso è presente anche **Assegna piano rate completo**, un’operazione sulle iscrizioni selezionate. È distinta dall’impostazione generale e può sostituire le rate non incassate.
 
 # Offrire anche il pagamento in un'unica soluzione
 
-Puoi offrire ai tuoi atleti la possibilità di pagare il corso **in un'unica soluzione** anziché a rate. Questo è particolarmente utile per chi preferisce pagare tutto subito, magari ad un prezzo leggermente scontato.
+<Note>Procedura basata sui comandi presenti nell’applicazione, ancora da verificare in browser e dopo la riapertura.</Note>
 
-Per attivare questa opzione:
+<Steps>
+  <Step title="Prepara il piano">
+    Nel corso Standard attiva **Rateizza** e crea le rate. Compare **Permetti pagamento in un’unica soluzione**.
+  </Step>
+  <Step title="Configura l’importo alternativo">
+    Attiva **Unica soluzione**, indica la quota della relativa area e salva. Controlla che l’importo alternativo sia quello concordato, anche se diverso dal totale rate.
+  </Step>
+  <Step title="Applica e controlla la scelta">
+    Nel corso seleziona il tesserato. Usa **Operazioni su selezionati > Cambia in unica soluzione** quando disponibile; rivedi la conferma e controlla il pagamento creato e le quote già incassate.
+  </Step>
+</Steps>
 
-1. Nella configurazione del corso, attiva l'opzione **Pagamento in un'unica soluzione**
-2. Inserisci l'**importo** del pagamento unico
-
-In questo modo, al momento dell'iscrizione, l'atleta potrà scegliere se pagare a rate oppure in un'unica soluzione.
-
-<Tip>
-    Puoi impostare un importo leggermente inferiore per il pagamento unico rispetto alla somma delle rate, così da incentivare il pagamento anticipato.
-</Tip>
+<Warning>La sostituzione riguarda le rate non incassate e non dispone un rimborso delle somme già ricevute. Controlla gli incassi prima della conversione; non è una transazione Stripe.</Warning>
 
 # Modificare il piano rate per un singolo atleta
 
-Se hai necessità di modificare le rate per un singolo atleta (ad esempio per accordi particolari), puoi farlo direttamente dalla sezione del corso dell'atleta:
+<Note>Procedura basata sui comandi presenti nell’applicazione, ancora da verificare in browser e dopo la riapertura.</Note>
 
-1. Vai nella scheda dell'atleta e accedi alla sezione del **corso**
-2. Troverai l'elenco delle rate con i rispettivi importi e scadenze
-3. Puoi modificare singolarmente gli importi o le date di scadenza
-4. Puoi anche eliminare una rata non ancora pagata o aggiungerne una nuova
+<Steps>
+  <Step title="Apri l’iscrizione corretta">
+    In **Iscritti al corso**, individua il tesserato e usa il comando di modifica della sua riga. Controlla nome e corso.
+  </Step>
+  <Step title="Rivedi Piano rate">
+    Nel campo **Piano rate** seleziona le rate da mantenere o aggiungere. Le righe indicano scadenza, importo e stato; il modulo avverte che i pagamenti già incassati non vengono eliminati nello stesso modo delle rate in attesa.
+  </Step>
+  <Step title="Salva e confronta le quote">
+    Premi **Modifica**, poi riapri il piano. Consulta anche i pagamenti: aggiungere una rata crea una nuova quota, mentre rimuoverla può cancellare il collegamento e il pagamento non incassato.
+  </Step>
+  <Step title="Correggi l’importo nel percorso appropriato">
+    La modifica del piano serve soprattutto a scegliere le rate. Non presumere che selezionare di nuovo una rata già collegata aggiorni il suo importo alla nuova quota del corso. Per una somma registrata consulta il singolo pagamento.
+  </Step>
+</Steps>
 
-<Note>
-    Le modifiche al piano rate di un singolo atleta non influenzano il piano rate degli altri iscritti al corso. Ogni modifica è individuale.
-</Note>
+<Warning>Evita di modificare in blocco piani con incassi già avvenuti senza confronto individuale. Una rata rimossa non equivale a rimborso o annullamento della ricevuta.</Warning>
 
 # Conclusione
 
-In questa guida hai imparato come configurare i pagamenti a rate per i tuoi corsi, gestire le iscrizioni tardive con l'opzione "Piano rate completo" e personalizzare il piano rate per i singoli atleti.
+Per preparare un piano controlla totale, numero di rate, importi e scadenze; poi verifica la selezione nella singola iscrizione. Le scadenze passate e il piano completo dipendono dal percorso di assegnazione, mentre l’incasso è separato.
 
-Se hai domande o suggerimenti, contattaci tramite il nostro [supporto](mailto:support@bakney.com).
+Per le opzioni del corso consulta [Corsi](/docs/corsi). Per registrare l’incasso o correggere una quota usa [Pagamenti](/docs/pagamenti). Le procedure di questa guida restano in attesa di prova in browser: una configurazione salvata non dimostra esecuzione o pagamento online.
+

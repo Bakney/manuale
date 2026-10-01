@@ -5,76 +5,73 @@ description: "Guida completa alla gestione dei certificati medici degli atleti s
 
 # Gestire i certificati medici
 
-Bakney Sport ti aiuta a tenere sotto controllo i certificati medici dei tuoi atleti,
-avvisandoti automaticamente quando stanno per scadere.
+Il certificato si gestisce dalla scheda dell'iscrizione, nella sezione **Certificato medico**. Per valutare la situazione controlla tre dati distinti: **documento allegato**, **data di scadenza** e indicazione **Certificato medico agonistico**.
+
+La data permette all'applicazione di mostrare il tempo rimanente o la scadenza. Non dimostra da sola che il documento sia presente: un'importazione può registrare una scadenza senza allegare il certificato originale.
+
+Per consultare la scheda servono i permessi di lettura delle iscrizioni; per caricare, sostituire, rimuovere o cambiare i dati servono i permessi di modifica. Alcune azioni non vengono proposte per un'iscrizione archiviata.
+
+<Note>Il gestionale aiuta a registrare e controllare i dati. Il contenuto del certificato e i requisiti richiesti per l'attività devono essere verificati dall'associazione.</Note>
 
 ## Caricare un certificato medico
 
-Puoi caricare il certificato medico di un atleta in due momenti:
-
-1. **Durante l'iscrizione**: nell'ultimo passaggio della creazione di un nuovo socio
-2. **In qualsiasi momento**: dall'anagrafica dell'atleta, nella tab **Certificato Medico**
-
 <Steps>
-  <Step title="Vai nell'anagrafica dell'atleta">
-    Vai nella sezione **Libro Soci** e clicca sul nome dell'atleta.
+  <Step title="Apri la sezione della persona">
+    In **Organizzazione → Iscrizioni**, apri la persona e la sezione **Certificato medico**. Se non c'è un certificato, premi **Nuovo Certificato**; se ne esiste uno, usa **Sostituisci certificato** quando vuoi cambiare il file.
+    <Frame>![Segnaposto della sezione del certificato medico](/images/certificati/profilo/1.placeholder.svg)</Frame>
   </Step>
-  <Step title="Apri la tab Certificato Medico">
-    Clicca sulla tab **Certificato Medico**.
+  <Step title="Carica e attendi la conferma">
+    Nella finestra **Certificato Medico** usa **Trascina o premi per caricare il Certificato Medico**. Sono ammessi **PDF** e **immagini fino a 5 MB**. Attendi **Documento caricato** con il nome del file; se compare un errore, correggi il file e riprova.
+    <Frame>![Segnaposto del file caricato nella finestra del certificato](/images/certificati/profilo/2.placeholder.svg)</Frame>
   </Step>
-  <Step title="Carica il certificato">
-    Clicca su **Carica certificato** e seleziona il file dal tuo dispositivo.
-    Puoi caricare file in formato PDF, JPG o PNG.
-  </Step>
-  <Step title="Imposta la data di scadenza">
-    Inserisci la **data di scadenza** del certificato medico. Questa informazione
-    è fondamentale per le notifiche automatiche.
+  <Step title="Controlla la data e salva">
+    Imposta **Data Scadenza** confrontandola con il documento e premi **Salva**. Dopo la conferma riapri la sezione, controlla la data e verifica l'allegato; ricarica la pagina per controllare i dati conservati.
+    <Frame>![Segnaposto del certificato e della data dopo il salvataggio](/images/certificati/profilo/3.placeholder.svg)</Frame>
   </Step>
 </Steps>
+
+<Warning>Il caricamento allega il file subito. **Salva** applica la data di scadenza: chiudere la finestra dopo il caricamento non annulla automaticamente il file appena allegato. Se hai scelto il documento sbagliato, correggilo dalla sezione.</Warning>
 
 ## Notifiche automatiche di scadenza
 
-Bakney invia automaticamente delle email di promemoria agli atleti quando il certificato medico
-sta per scadere:
+L'impostazione **Invia notifiche certificati medici**, in **Profilo → Generali → Altro**, abilita i promemoria previsti **30 giorni** e **7 giorni** prima della scadenza e **1 giorno** dopo.
 
-| Quando | Cosa succede |
-| --- | --- |
-| 30 giorni prima della scadenza | Email di promemoria all'atleta |
-| 7 giorni prima della scadenza | Email di sollecito all'atleta |
-| Il giorno dopo la scadenza | Email di notifica che il certificato è scaduto |
+La selezione automatica considera iscrizioni correnti, non archiviate né eliminate, create negli ultimi **366 giorni**, con una scadenza che coincide con il giorno previsto dal promemoria. Non recupera indistintamente tutte le scadenze passate.
 
-<Info>
-  Le notifiche vengono inviate automaticamente, non devi fare nulla.
-  Puoi monitorare lo stato dei certificati dalla **Bacheca** nel widget
-  **Certificati medici in scadenza**.
-</Info>
+Il destinatario viene cercato prima nell'email dell'atleta, poi nell'email del tutore principale se la prima manca o non è valida; in mancanza di entrambe viene usata l'email dell'account collegato. Controlla quindi i recapiti della scheda, oltre all'interruttore.
+
+<Note>La programmazione dei promemoria e il recapito dipendono dai servizi email dell'installazione. La presenza della funzione nel gestionale non dimostra che un messaggio sia stato consegnato. Usa anche l'elenco e la bacheca per controllare le scadenze.</Note>
 
 ## Controllare lo stato dei certificati
 
-Dalla **Bacheca** puoi aggiungere due widget dedicati ai certificati medici:
-
-- **Certificati medici in scadenza**: mostra gli atleti con certificati che scadranno a breve
-- **Certificati medici scaduti**: mostra gli atleti con certificati già scaduti
-
-<Tip>
-  Ti consigliamo di controllare regolarmente il widget dei certificati in scadenza
-  e di contattare direttamente gli atleti che non hanno ancora rinnovato il certificato.
-</Tip>
-
-## Aggiornare un certificato medico
-
-Quando un atleta porta un nuovo certificato medico:
-
 <Steps>
-  <Step title="Vai nell'anagrafica dell'atleta">
-    Vai nella sezione **Libro Soci** e clicca sul nome dell'atleta.
+  <Step title="Controlla l'elenco delle iscrizioni">
+    Nella scheda **Tesserati** consulta la colonna **Certificato**. Le etichette possono indicare tempo rimanente, scadenza, dato mancante oppure l'indicazione di esenzione legata all'età.
   </Step>
-  <Step title="Carica il nuovo certificato">
-    Nella tab **Certificato Medico**, carica il nuovo file e aggiorna la data di scadenza.
+  <Step title="Apri la situazione completa">
+    Apri **Certificato medico** della persona e controlla documento, **Data Scadenza** e **Certificato medico agonistico**. Una data registrata senza il file non equivale ad avere verificato il certificato.
+  </Step>
+  <Step title="Confronta elenco e bacheca">
+    Usa **Certificato non presente** e **Certificato scaduto** per restringere l'elenco. In bacheca, **Certificati medici in scadenza** e **Certificati medici scaduti** mostrano gruppi propri: controlla il periodo della persona prima di confrontare i conteggi.
   </Step>
 </Steps>
 
-<Warning>
-  Assicurati sempre di aggiornare la data di scadenza quando carichi un nuovo certificato,
-  altrimenti le notifiche automatiche continueranno a riferirsi alla vecchia data.
-</Warning>
+<Note>Il filtro «scaduto» dell'elenco comprende anche la data di oggi. Alcune etichette e la bacheca distinguono invece le date precedenti a oggi: per i casi al limite, fa riferimento alla data effettivamente registrata.</Note>
+
+## Aggiornare un certificato medico
+
+<Steps>
+  <Step title="Sostituisci il documento quando necessario">
+    Apri **Certificato medico** e premi **Sostituisci certificato**. Carica il nuovo PDF o immagine, attendi la conferma e controlla la **Data Scadenza** del nuovo documento prima di premere **Salva**.
+    <Frame>![Segnaposto della sostituzione di un certificato medico](/images/certificati/profilo/5.placeholder.svg)</Frame>
+  </Step>
+  <Step title="Aggiorna una data senza cambiare file">
+    Usa il controllo di modifica della scadenza nella sezione. Ricontrolla la data sul certificato e premi **Salva** nella finestra. Il solo cambiamento della data non carica un nuovo documento.
+  </Step>
+  <Step title="Controlla anche la classificazione">
+    Se necessario modifica **Certificato medico agonistico**. Questo interruttore invia una modifica separata: attendi la conferma e ricarica la scheda. Controlla infine file, data e classificazione insieme.
+  </Step>
+</Steps>
+
+<Warning>**Rimuovi** richiede una conferma ed elimina il collegamento del certificato. Usalo soltanto se vuoi rimuoverlo, anziché aggiornarne la data. La sostituzione non dimostra una notifica automatica al destinatario.</Warning>
+

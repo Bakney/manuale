@@ -1,111 +1,153 @@
 ---
 title: "Comunicazioni"
-description: "In questa sezione troverai tutte le informazioni relative alle comunicazioni con i tuoi atleti."
+description: "Post, email e automazioni: destinatari, salvataggio e controlli prima dell'invio."
 ---
 
-<Note>I worflow sono in fase beta e potrebbero subire delle variazioni</Note>
+Le comunicazioni dell’associazione comprendono **post**, **email** e **automazioni**. I post pubblicano avvisi nell’area degli atleti; le email usano una lista di indirizzi; le automazioni collegano un evento a una sequenza di azioni.
+
+La **Bacheca interna** è uno spazio separato per amministratori e collaboratori. Il tipo di messaggio e i suoi destinatari vanno quindi scelti in base alle persone a cui vuoi rivolgerti.
+
+<Note>Le procedure di questa pagina attendono la prova completa nell’applicazione. Le immagini sono segnaposto. Salvataggio del messaggio, richiesta di invio e ricezione dell’email sono risultati distinti: servizio, consegna e programmazione delle automazioni devono essere verificati nella tua installazione.</Note>
 
 ## Comunicazioni
 
-La sezioni **Comunicazioni** è dedicata alla gestione delle comunicazioni con i tuoi atleti.
-Ti permette di pubblicare dei post che saranno visibili nella bacheca dell'atleta e di inviare SMS e email.
+Apri **Comunicazioni** nel menu dell'associazione. Da qui trovi **Messaggi**, **Automazioni** e **Configurazioni**. La disponibilità delle pagine e dei comandi dipende dai permessi del tuo account; se manca un comando, chiedi al responsabile dell'associazione di controllarli.
+
+| Ti serve… | Usa… | A chi è rivolto |
+| --- | --- | --- |
+| Pubblicare un avviso nell'area dell'atleta | **Messaggi > Post** | Gli atleti dell'associazione |
+| Preparare o inviare un'email | **Messaggi > Messaggio** | La lista di indirizzi che controlli prima dell'invio |
+| Preparare una comunicazione legata a un evento o a una data | **Automazioni** | I destinatari configurati nell'automazione |
+| Configurare il mittente e consultare lo storico | **Configurazioni** | Gestione del servizio email dell'associazione |
+
+La **Bacheca interna** è uno spazio distinto per amministratori e collaboratori. Un post destinato agli atleti va preparato dalla pagina **Messaggi**.
 
 ### Post
 
-I post sono messaggi che verranno visualizzati nella bacheca dell'atleta.
-Puoi utilizzarli per comunicare con i tuoi atleti in modo semplice, veloce e diretto.
+Un post è un avviso pubblicato nell'area dell'atleta, senza spedizione di un'email. È adatto a informazioni generali, come una variazione degli orari o un avviso della segreteria. La pubblicazione riguarda l'associazione: il modulo non offre una lista di singoli destinatari.
+
+<Steps>
+  <Step title="Apri il modulo del post">
+    Vai in **Comunicazioni > Messaggi** e premi **Post**. Si apre **Crea un post**.
+  </Step>
+  <Step title="Scrivi e controlla l'avviso">
+    Compila **Contenuto** con un testo da 20 a 1.000 caratteri. Controlla che sia comprensibile per tutti gli atleti e che non contenga informazioni personali destinate a una sola persona.
+  </Step>
+  <Step title="Pubblica">
+    Premi **Pubblica**. Il post viene registrato per l'associazione; controlla che compaia nell'elenco dei messaggi. **Chiudi** permette di uscire dal modulo prima della pubblicazione.
+  </Step>
+</Steps>
+
+<Frame caption="Segnaposto FullHD: modulo Crea un post, prima della pubblicazione. Verifica della pubblicazione ancora da eseguire.">
+  <img src="/images/comunicazioni/post-pending.svg" alt="Segnaposto della schermata Crea un post, da acquisire in FullHD" />
+</Frame>
+
+<Note>La presenza nell'elenco conferma la registrazione del post. La visualizzazione effettiva nell'account di un atleta deve essere verificata separatamente.</Note>
 
 ### Messaggi
 
-I messaggi sono comunicazioni che verranno inviate via email o SMS.
+Il comando **Messaggio** prepara un'email con **Oggetto** e **Contenuto**. Nel selettore **Tipo messaggio** è disponibile **Email**. Il modulo attuale non propone SMS.
+
+| Scelta nel modulo | Pulsante finale | Risultato della richiesta |
+| --- | --- | --- |
+| **Inviare subito ad una lista email?** disattivato | **Salva** | Registra il messaggio nell'elenco, senza richiederne l'invio |
+| **Inviare subito ad una lista email?** attivato | **Invia** | Registra il messaggio e richiede l'invio alla **Lista email** |
+
+L'oggetto richiesto dal modulo deve avere da **5 a 100 caratteri**, il contenuto da **20 a 1.000**. Un messaggio salvato può essere inviato successivamente con l'icona dell'aeroplano nella sua riga.
+
+<Warning>Una conferma dell'applicazione non dimostra che l'email sia arrivata nella casella del destinatario. Consulta lo storico e verifica la ricezione con un indirizzo di prova prima di usare liste reali.</Warning>
 
 ### Come inviare una comunicazione SMS/email?
 
-Per inviare una comunicazione SMS/email clicca sull'icona **aeroplano** a destra del messaggio che vuoi inviare.
-A questo punto puoi importare i numeri di telefono o gli indirizzi email dei tuoi atleti e inviare la comunicazione.
-In alternativa, puoi specificare a mano i numeri di telefono o gli indirizzi email dei tuoi atleti.
+La procedura disponibile riguarda le **email**. Gli SMS citati dal titolo appartengono al precedente manuale e non sono selezionabili in questa versione.
+
+<Steps>
+  <Step title="Prepara il messaggio">
+    In **Comunicazioni > Messaggi**, premi **Messaggio**. Lascia **Email** come tipo e compila **Oggetto** e **Contenuto**. Per conservare il testo prima dell'invio, lascia disattivato **Inviare subito ad una lista email?** e premi **Salva**.
+  </Step>
+  <Step title="Apri la richiesta di invio">
+    Individua il messaggio nell'elenco e premi l'icona dell'**aeroplano** nella sua riga. Si apre **Invio di un messaggio**. Il comando non serve per i post.
+  </Step>
+  <Step title="Controlla la lista email">
+    Inserisci gli indirizzi nel campo **Lista email**, separati da virgole e senza spazi. Puoi usare **importa atleti** per compilare la lista e poi rivederla. Per una prova, sostituiscila con un solo indirizzo controllato dall'associazione.
+  </Step>
+  <Step title="Invia una volta e controlla l'esito">
+    Premi **Invia** quando testo e destinatari sono corretti. Apri **Comunicazioni > Configurazioni** e la voce dello storico email; controlla anche la casella di prova. In presenza di un errore, chiarisci l'esito prima di ripetere l'operazione, per evitare duplicati.
+  </Step>
+</Steps>
+
+Per inviare direttamente dal modulo iniziale, attiva **Inviare subito ad una lista email?**, compila **Lista email** e premi **Invia**. Anche in questo caso il controllo dei destinatari deve precedere la richiesta.
+
+<Frame caption="Segnaposto FullHD: Invio di un messaggio con una lista di prova. Invio, storico e ricezione non ancora verificati.">
+  <img src="/images/comunicazioni/email-send-pending.svg" alt="Segnaposto del modulo Invio di un messaggio con destinatari di prova" />
+</Frame>
 
 ### Quanti SMS posso inviare?
 
-Troverai il numero di SMS disponibili nella sezione **Comunicazioni > Configurazioni > SMS e utilizzo**.
-Se hai terminato i crediti SMS puoi acquistarne di nuovi cliccando sul pulsante **Acquista ora**.
+In questa versione non è disponibile l'invio SMS. Le pagine correnti espongono **Email SMTP** e lo storico email; non propongono un acquisto di crediti SMS.
 
-<Note>Avrai a disposizione 10 SMS gratuiti per testare il servizio.</Note>
+I riferimenti ai **10 SMS gratuiti**, a **SMS e utilizzo** e a **Acquista ora** del precedente manuale non si applicano alla procedura documentata qui.
 
 ## Automazioni via Workflow
 
-I workflow ti permettono di automatizzare l'invio di comunicazioni via email e SMS.
-Durante la creazione dei workflow puoi specificare delle condizioni che attiveranno l'invio di una comunicazione e
-inserire degli step di attesa e il messaggio/email da inviare.
+Un workflow collega un **evento di attivazione** a una sequenza di passaggi. Puoi preparare un'email di benvenuto per una nuova iscrizione, oppure una comunicazione per una data scelta. I passaggi configurabili nell'editor sono un messaggio email e un'attesa prima del passaggio successivo.
 
-Esistono due tipologie di attivazione di un workflow:
+Le automazioni vengono create **spente**. Il salvataggio conserva la configurazione; l'attivazione dall'elenco la rende utilizzabile per gli eventi successivi. Per le date programmate servono anche i servizi di esecuzione dell'installazione.
 
-1. Data e ora specifica (programmato)
-2. Evento specifico (come ad esempio un pagamento effettuato)
+<Note>Preparare l'automazione, attivarla e ricevere l'email sono tre controlli distinti. Il tutorial descrive i comandi presenti; la consegna e il rispetto degli orari richiedono una prova del servizio effettivo.</Note>
 
 ### Trigger disponibili
 
-Un trigger è l'evento che attiva il workflow. Ecco tutti i trigger disponibili:
+Nel blocco **Evento di attivazione** sono presenti i seguenti eventi:
 
-| Trigger | Descrizione |
+| Nome nell'editor | Significato |
 | --- | --- |
-| **Nuova iscrizione** | Si attiva quando un nuovo socio si iscrive all'associazione |
-| **Iscrizione firmata** | Si attiva quando un socio firma il modulo di iscrizione |
-| **Iscrizione approvata** | Si attiva quando l'associazione approva un'iscrizione |
-| **Nuova iscrizione corso** | Si attiva quando un atleta viene iscritto a un corso |
-| **Certificato medico scaduto** | Si attiva quando il certificato medico di un atleta risulta scaduto |
-| **Certificato medico in scadenza** | Si attiva quando il certificato medico sta per scadere (7 o 30 giorni prima) |
-| **Pagamento effettuato** | Si attiva quando un pagamento viene segnato come pagato |
-| **Programmato** | Si attiva in una data e ora specifica scelta da te |
+| **Nuova iscrizione** | Una nuova iscrizione all'associazione, non una nuova iscrizione a un corso |
+| **Iscrizione firmata** | La firma dell'iscrizione |
+| **Iscrizione approvata** | L'approvazione dell'iscrizione |
+| **Data e ora specifica** | Una data con ora e un filtro sulle iscrizioni |
 
-<Tip>
-  Con il trigger **Programmato** puoi scegliere a chi inviare la comunicazione: a tutti gli iscritti,
-  solo agli approvati, ai non firmati, agli archiviati, oppure a chi ha un tag specifico.
-</Tip>
+Gli eventi di pagamento, iscrizione a un corso e scadenza del certificato medico non sono presenti nel selettore attuale. Non usarli come istruzioni per creare un nuovo workflow.
 
 ### Blocchi del workflow
 
-Dopo aver scelto il trigger, puoi aggiungere una sequenza di blocchi per definire cosa deve succedere:
+Dopo il primo evento, sotto **scegli il prossimo step** trovi:
 
-<CardGroup cols={3}>
-  <Card title="Attesa" icon="clock">
-    Inserisce una pausa prima del blocco successivo. Puoi specificare la durata in **minuti**,
-    **ore** o **giorni**.
-  </Card>
-  <Card title="Email" icon="envelope">
-    Invia un'email con oggetto e contenuto personalizzato ai destinatari scelti
-    (atleti, associazione o entrambi).
-  </Card>
-  <Card title="SMS" icon="message">
-    Invia un messaggio SMS al numero di telefono dell'atleta. Consuma crediti SMS.
-  </Card>
-</CardGroup>
+| Comando | Cosa configura |
+| --- | --- |
+| **Azione Messaggio** | Un'email, con destinatari, oggetto e contenuto |
+| **Rimani in Attesa** | Un intervallo in **Minuti**, **Ore** o **Giorni** prima del passaggio seguente |
 
-I blocchi vengono eseguiti in sequenza, dall'alto verso il basso. Puoi combinare più blocchi per
-creare automazioni articolate. Ad esempio:
+I blocchi seguono l'ordine dall'alto verso il basso. Puoi aggiungere, per esempio, una prima email, un'attesa e una seconda email. Un'attesa finale senza un passaggio successivo non prepara un altro invio. **Notifica push (in arrivo)** è disabilitata e gli SMS non sono un'azione disponibile.
 
-1. **Trigger**: Nuova iscrizione corso
-2. **Email**: Messaggio di benvenuto
-3. **Attesa**: 3 giorni
-4. **Email**: Promemoria con le informazioni utili
+Per destinatari e salvataggio consulta il [tutorial sui workflow](/tutorials/come-impostare-automazioni-workflow).
 
 ### Limiti delle comunicazioni
 
-<Warning>
-  Tieni presente i seguenti limiti:
-  - **Email**: massimo **1.000 email al giorno** per associazione. Il contatore si azzera ogni giorno automaticamente.
-  - **SMS**: hai a disposizione **10 SMS gratuiti** per testare il servizio. Terminati i crediti, puoi acquistarne di nuovi dalla sezione **Comunicazioni > Configurazioni > SMS e utilizzo**.
-</Warning>
+La configurazione dell'associazione prevede un limite email con valore iniziale **1.000**. Il valore presente nel codice non garantisce 1.000 destinatari al giorno per ogni installazione: conteggio, servizio utilizzato e azzeramento devono essere controllati con il gestore.
+
+<Warning>Il mittente, il servizio SMTP, l'esecuzione delle automazioni e la ricezione sono da verificare nella tua installazione. Lo storico non equivale a una conferma di lettura o di consegna nella posta in arrivo. Prima di comunicazioni collettive, verifica anche finalità, destinatari e regole privacy applicabili con il responsabile dell'associazione.</Warning>
 
 ### Come creare un workflow?
 
-Per creare un workflow clicca sul pulsante **+ Automazione** nella sezione **Comunicazioni > Automazione**.
-Ti si aprirà una finestra dove potrai specificare il nome del workflow e le operazioni da eseguire.
+<Steps>
+  <Step title="Prepara una regola spenta">
+    Apri **Comunicazioni > Automazioni** e premi **Automazione**. Assegna un nome, configura **Evento di attivazione** e aggiungi **Azione Messaggio**. Per una prima prova usa **Me stesso**, che corrisponde all'indirizzo del proprietario dell'associazione.
+  </Step>
+  <Step title="Salva e controlla prima di attivare">
+    La chiusura dei pannelli di configurazione può già salvare il workflow. Premi **Salva**, torna all'elenco con **Chiudi** e controlla che il nome sia presente con stato **Spenta**. L'attivazione è un passaggio separato, successivo al controllo del contenuto.
+  </Step>
+</Steps>
+
+La [guida all'email di benvenuto](/faq/come-inviare-email-nuovi-iscritti) e il [tutorial completo](/tutorials/come-impostare-automazioni-workflow) descrivono i singoli passaggi. Questa procedura attende la verifica in browser di creazione, riapertura e attivazione.
 
 ## Risorse correlate
 
 <CardGroup cols={2}>
   <Card title="Impostare automazioni e workflow" icon="wand-magic-sparkles" href="/tutorials/come-impostare-automazioni-workflow">
-    Tutorial completo su come creare e configurare le automazioni via workflow.
+    Eventi disponibili, destinatari, email, attese e gestione dello stato.
+  </Card>
+  <Card title="Email ai nuovi iscritti" icon="envelope" href="/faq/come-inviare-email-nuovi-iscritti">
+    Preparare un messaggio di benvenuto e controllarlo prima dell'attivazione.
   </Card>
 </CardGroup>

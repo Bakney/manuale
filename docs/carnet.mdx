@@ -5,116 +5,196 @@ description: "In questa sezione troverai tutte le informazioni necessarie per la
 
 ## Cos'è un carnet?
 
-Un carnet è uno strumento che puoi utilizzare per far acquistare ai tesserati
-un numero di lezioni prepagate. Torna utile in tutte quelle situazioni in cui
-gestisci i corsi con atleti che non sono presenti a tutte le lezioni, ma che
-pagano comunque un abbonamento per un numero di lezioni.
+<Note>Bozza in attesa di prova: i passaggi e le immagini previste devono essere verificati con una cattura del flusso reale prima della pubblicazione.</Note>
 
-I carnet lavorano in sincrono con le lezioni, quindi se un atleta non è presente
-a una lezione, il carnet non viene scalato, ma se un atleta non ha più lezioni
-disponibili, Bakney ti avviserà che sono terminate.
+Un carnet è un pacchetto di lezioni associato a un tesserato. Nell'esempio Giulia dispone di **5** lezioni a **50,00 €**.
+L'assegnazione e il suo pagamento sono distinti dall'iscrizione al corso. Una presenza manuale consuma una lezione; la sua rimozione la restituisce.
+
+<Steps>
+<Step title="Assegna un nuovo carnet a Giulia">
+Apri il carnet e scegli **Utilizzo**.
+Premi **Assegna carnet**. Nel modulo **Assegna un carnet**, cerca Giulia in **Associa carnet a**, seleziona **Giulia Bianchi** e premi **Assegna**.
+<Frame>![Giulia selezionata per l’assegnazione del carnet](/images/registro-presenze/carnet-manuale/6.placeholder.svg)</Frame>
+Nell'elenco **Utilizzo del Carnet** compare una nuova riga con **5/5** lezioni. L'assegnazione genera un pagamento di **50,00 €**, inizialmente in attesa.
+<Frame>![Carnet assegnato a Giulia con cinque lezioni disponibili](/images/registro-presenze/carnet-manuale/7.placeholder.svg)</Frame>
+<Note>Una riga senza collegamenti mostra **Valido per tutti i corsi**. Il carnet può essere usato per le presenze nei corsi a cui il tesserato è iscritto; il collegamento permette di limitarlo al corso scelto.</Note>
+</Step>
+<Step title="Segna Giulia come presente">
+In **Modifica Presenze**, cerca l'atleta se la lista è lunga usando **Ricerca atleta**.
+Trova **Bianchi Giulia** e attiva il suo interruttore. Ogni cambio viene salvato subito; attendi la conferma prima di chiudere.
+<Frame>![Presenza di Giulia attiva nella lezione](/images/registro-presenze/carnet-manuale/13.placeholder.svg)</Frame>
+Premi **Chiudi**, poi apri **Carnet → Carnet ginnastica 5 lezioni → Utilizzo**.
+La riga di Giulia mostra **4/5**: la presenza ha consumato una sola lezione. Il conteggio rimane dopo il ricaricamento.
+<Frame>![Conteggio conservato di quattro lezioni disponibili su cinque](/images/registro-presenze/carnet-manuale/14.placeholder.svg)</Frame>
+</Step>
+<Step title="Correggi una presenza e controlla il carnet">
+Riapri **Ginnastica per tutti → Presenze** e la stessa lezione con il pulsante blu della lista.
+In **Modifica Presenze**, disattiva l'interruttore di **Bianchi Giulia**. Attendi il salvataggio e premi **Chiudi**.
+Torna al carnet nella scheda **Utilizzo**: la riga torna a **5/5** e rimane così anche dopo il ricaricamento.
+<Frame>![Cinque lezioni ripristinate dopo la rimozione della presenza](/images/registro-presenze/carnet-manuale/15.placeholder.svg)</Frame>
+<Note>Disattivare una presenza corregge la partecipazione alla lezione e restituisce la lezione usata. Eliminare un'intera data dal registro è un'altra operazione.</Note>
+</Step>
+</Steps>
 
 ## Come funziona un carnet?
 
-Un carnet è composto da un numero di lezioni prepagate. Ogni carnet è assegnato ad
-un atleta e può essere utilizzato solo da lui. Il carnet può poi essere associato ad uno
-o più corsi.
+<Note>Bozza in attesa di prova: i passaggi e le immagini previste devono essere verificati con una cattura del flusso reale prima della pubblicazione.</Note>
 
-Quando un atleta partecipa ad una lezione, questa viene scalata dal carnet. Se il carnet
-non ha più lezioni disponibili, l'atleta non potrà più partecipare alle lezioni.
+Prepara un pacchetto, assegnalo al tesserato, collegalo al corso e controlla che il suo pagamento sia incassato prima di segnare la presenza.
+
+<Steps>
+<Step title="Assegna un nuovo carnet a Giulia">
+Apri il carnet e scegli **Utilizzo**.
+Premi **Assegna carnet**. Nel modulo **Assegna un carnet**, cerca Giulia in **Associa carnet a**, seleziona **Giulia Bianchi** e premi **Assegna**.
+<Frame>![Giulia selezionata per l’assegnazione del carnet](/images/registro-presenze/carnet-manuale/6.placeholder.svg)</Frame>
+Nell'elenco **Utilizzo del Carnet** compare una nuova riga con **5/5** lezioni. L'assegnazione genera un pagamento di **50,00 €**, inizialmente in attesa.
+<Frame>![Carnet assegnato a Giulia con cinque lezioni disponibili](/images/registro-presenze/carnet-manuale/7.placeholder.svg)</Frame>
+<Note>Una riga senza collegamenti mostra **Valido per tutti i corsi**. Il carnet può essere usato per le presenze nei corsi a cui il tesserato è iscritto; il collegamento permette di limitarlo al corso scelto.</Note>
+</Step>
+<Step title="Collega il carnet al corso">
+Nella riga di Giulia, premi **collega corso**.
+In **Assegna carnet ad un corso**, seleziona **Ginnastica per tutti** e premi **Assegna carnet**.
+<Frame>![Corso già frequentato da Giulia selezionato per il collegamento](/images/registro-presenze/carnet-manuale/8.placeholder.svg)</Frame>
+Il titolo del corso compare nella colonna **Corsi** e il conteggio rimane **5/5** anche dopo il ricaricamento.
+<Frame>![Collegamento al corso conservato nella riga del carnet](/images/registro-presenze/carnet-manuale/9.placeholder.svg)</Frame>
+<Warning>La lista propone i corsi a cui il tesserato è già iscritto. Se manca il corso desiderato, esegui prima l'iscrizione al corso. Il collegamento dell'assegnazione esistente non genera un secondo pagamento.</Warning>
+</Step>
+<Step title="Incassa il pagamento del carnet">
+Apri **Pagamenti** e trova il pagamento di **50,00 €** intestato a Giulia, creato dall'assegnazione.
+Premi il pulsante con il suggerimento **Segna come pagato**. In **Incassare il pagamento?**, indica **Data Incasso** e premi **Incassa**.
+Nell'esempio togliamo **Genera ricevuta** e lasciamo **Invia email** disattivato: il pagamento viene incassato senza produrre subito il PDF o inviare un messaggio.
+<Frame>![Incasso del pagamento del carnet senza PDF immediato o email](/images/registro-presenze/carnet-manuale/10.placeholder.svg)</Frame>
+<Note>Il pagamento della quota corso da 120,00 € resta separato e in attesa. Controlla importo e intestatario prima di confermare l'incasso del carnet.</Note>
+</Step>
+</Steps>
 
 ### Logica di scalamento lezioni
 
-Se un atleta possiede **più carnet** attivi per lo stesso corso, il sistema scala la lezione dal carnet con il **minor numero di lezioni rimaste**. Questa logica permette di esaurire prima i carnet quasi terminati, mantenendo quelli più nuovi con più lezioni disponibili.
+<Note>Bozza in attesa di prova: i passaggi e le immagini previste devono essere verificati con una cattura del flusso reale prima della pubblicazione.</Note>
 
-<Info>
-  Non devi preoccuparti di scegliere da quale carnet scalare le lezioni: il sistema lo fa automaticamente in modo intelligente. Inoltre, un carnet il cui pagamento non è ancora stato saldato non verrà utilizzato fino al completamento del pagamento.
-</Info>
+Con più carnet il sistema cerca quello attivo con il minor numero positivo di lezioni rimaste; controlla poi il suo pagamento. La scelta tra più carnet e il caso di carnet non pagato richiedono ancora una prova specifica. Non usare l’esempio con un solo carnet per dedurre il comportamento di tutti i pacchetti.
 
 ### Carnet pubblici e privati
 
-Quando crei un carnet puoi decidere se renderlo **pubblico** o **privato**:
+<Note>Bozza in attesa di prova: i passaggi e le immagini previste devono essere verificati con una cattura del flusso reale prima della pubblicazione.</Note>
 
-| Tipo | Descrizione |
-| --- | --- |
-| **Pubblico** | Il carnet è acquistabile direttamente dagli atleti dalla loro area personale. Utile per pacchetti standard che vuoi rendere disponibili a tutti. |
-| **Privato** | Il carnet può essere assegnato solo manualmente dall'associazione. Utile per pacchetti personalizzati o promozionali riservati a specifici atleti. |
-
-<Tip>
-  Per creare un carnet privato, imposta il campo **Pubblico** a `No` durante la creazione. Potrai comunque assegnarlo manualmente a qualsiasi atleta in qualsiasi momento.
-</Tip>
+<Steps>
+<Step title="Rendi privato il pacchetto">
+Apri il titolo del carnet nell'elenco e resta nella scheda **Dettagli**.
+Disattiva **Carnet pubblico**, poi premi **Salva**. La scelta resta salvata dopo il ricaricamento.
+<Frame>![Carnet pubblico disattivato nella scheda Dettagli](/images/registro-presenze/carnet-manuale/5.placeholder.svg)</Frame>
+<Note>Il modulo iniziale non contiene il campo Pubblico: per ottenere il carnet privato dell'esempio lo modifichiamo dopo la creazione. L'acquisto dall'area atleta richiede una verifica separata.</Note>
+</Step>
+</Steps>
 
 ### Registro presenze automatico con carnet
 
-Attivando l'opzione **Segna Presenze Automaticamente** dalle impostazioni, le lezioni saranno
-scalate in automatico nella data della lezione.
-L'atleta dalla sua area personale potrà segnalare che non parteciperà alla lezione e questo
-bloccherà Bakney dal segnare la presenza e scalare la lezione dal carnet.
+<Note>Bozza in attesa di prova: i passaggi e le immagini previste devono essere verificati con una cattura del flusso reale prima della pubblicazione.</Note>
+
+Le presenze automatiche e le assenze previste dell’area atleta richiedono una prova dedicata. La procedura qui illustrata registra e corregge manualmente una presenza; non dimostra l’esecuzione del processo automatico.
 
 #### Blocco per assenza prevista
 
-Se un atleta segnala in anticipo che non parteciperà a una lezione (tramite la sua area personale), il sistema **non** scala la lezione dal carnet per quella data. L'assenza prevista viene registrata separatamente e il carnet rimane invariato.
+<Note>Bozza in attesa di prova: i passaggi e le immagini previste devono essere verificati con una cattura del flusso reale prima della pubblicazione.</Note>
 
-<Note>
-  Puoi sempre modificare le presenze manualmente dalla sezione **Corsi &gt
-  Registro presenze**. Se rimuovi una presenza, il carnet verrà ricaricato con la lezione precedentemente scalata.
-</Note>
+Le presenze automatiche e le assenze previste dell’area atleta richiedono una prova dedicata. La procedura qui illustrata registra e corregge manualmente una presenza; non dimostra l’esecuzione del processo automatico.
 
 ## Creare e gestire un carnet
 
-Per creare un carnet, vai nella sezione **Corsi > Carnet** e clicca sul pulsante
-**+ Carnet**. Compila il form con i dati richiesti e clicca su **Crea**.
+<Note>Bozza in attesa di prova: i passaggi e le immagini previste devono essere verificati con una cattura del flusso reale prima della pubblicazione.</Note>
 
-Puoi specificare l'importo ed il numero di lezioni che vuoi includere nel carnet.
-Un carnet può essere utilizzato da un solo atleta alla volta, ma su più corsi.
+<Steps>
+<Step title="Crea il pacchetto di lezioni">
+Apri **Attività → Carnet** e premi **Carnet**.
+In **Nuovo Carnet**, compila **Titolo**, **Descrizione**, **Prezzo del carnet** e **Numero lezioni**.
+Nell'esempio usiamo **Carnet ginnastica 5 lezioni**, **50,00 €** e **5** lezioni.
+<Frame>![Informazioni del carnet: titolo, descrizione, prezzo e cinque lezioni](/images/registro-presenze/carnet-manuale/3.placeholder.svg)</Frame>
+Premi **Continua**. Nella seconda fase puoi selezionare gli atleti a cui assegnarlo subito; nell'esempio lasciamo la lista vuota per assegnarlo in seguito.
+Premi **Completa**, controlla i dati e conferma **Continua**. Il nuovo carnet compare nell'elenco come **pubblico**.
+<Frame>![Pacchetto creato nell’elenco Carnet](/images/registro-presenze/carnet-manuale/4.placeholder.svg)</Frame>
+<Note>Creare il pacchetto senza assegnazioni non genera un pagamento. Il pagamento nasce quando lo assegni a un tesserato.</Note>
+</Step>
+<Step title="Rendi privato il pacchetto">
+Apri il titolo del carnet nell'elenco e resta nella scheda **Dettagli**.
+Disattiva **Carnet pubblico**, poi premi **Salva**. La scelta resta salvata dopo il ricaricamento.
+<Frame>![Carnet pubblico disattivato nella scheda Dettagli](/images/registro-presenze/carnet-manuale/5.placeholder.svg)</Frame>
+<Note>Il modulo iniziale non contiene il campo Pubblico: per ottenere il carnet privato dell'esempio lo modifichiamo dopo la creazione. L'acquisto dall'area atleta richiede una verifica separata.</Note>
+</Step>
+</Steps>
 
-<Note>
-  Puoi anche creare dei carnet privati non pubblicamente acquistabili che potrai
-  assegnare manualmente all'atleta. Per farlo, basta che imposti il campo
-  **Pubblico** a `No`.
-</Note>
+<Note>Un collaboratore con il solo accesso in lettura può consultare corso, carnet e presenze. Per iscrivere un tesserato, creare o assegnare un carnet, modificare il calendario o segnare presenze servono i permessi delle singole operazioni.</Note>
 
 ## Assegnare un carnet ad un atleta
 
-Per assegnare un carnet ad un atleta, vai nella sezione **Corsi > Carnet** e clicca
-sul carnet che vuoi assegnare. Nella pagina di **Utilizzo** del carnet, clicca su **Assegna nuovo carnet**
-e seleziona l'atleta a cui vuoi assegnarlo.
+<Note>Bozza in attesa di prova: i passaggi e le immagini previste devono essere verificati con una cattura del flusso reale prima della pubblicazione.</Note>
+
+<Steps>
+<Step title="Assegna un nuovo carnet a Giulia">
+Apri il carnet e scegli **Utilizzo**.
+Premi **Assegna carnet**. Nel modulo **Assegna un carnet**, cerca Giulia in **Associa carnet a**, seleziona **Giulia Bianchi** e premi **Assegna**.
+<Frame>![Giulia selezionata per l’assegnazione del carnet](/images/registro-presenze/carnet-manuale/6.placeholder.svg)</Frame>
+Nell'elenco **Utilizzo del Carnet** compare una nuova riga con **5/5** lezioni. L'assegnazione genera un pagamento di **50,00 €**, inizialmente in attesa.
+<Frame>![Carnet assegnato a Giulia con cinque lezioni disponibili](/images/registro-presenze/carnet-manuale/7.placeholder.svg)</Frame>
+<Note>Una riga senza collegamenti mostra **Valido per tutti i corsi**. Il carnet può essere usato per le presenze nei corsi a cui il tesserato è iscritto; il collegamento permette di limitarlo al corso scelto.</Note>
+</Step>
+<Step title="Incassa il pagamento del carnet">
+Apri **Pagamenti** e trova il pagamento di **50,00 €** intestato a Giulia, creato dall'assegnazione.
+Premi il pulsante con il suggerimento **Segna come pagato**. In **Incassare il pagamento?**, indica **Data Incasso** e premi **Incassa**.
+Nell'esempio togliamo **Genera ricevuta** e lasciamo **Invia email** disattivato: il pagamento viene incassato senza produrre subito il PDF o inviare un messaggio.
+<Frame>![Incasso del pagamento del carnet senza PDF immediato o email](/images/registro-presenze/carnet-manuale/10.placeholder.svg)</Frame>
+<Note>Il pagamento della quota corso da 120,00 € resta separato e in attesa. Controlla importo e intestatario prima di confermare l'incasso del carnet.</Note>
+</Step>
+</Steps>
+
+<Note>Un collaboratore con il solo accesso in lettura può consultare corso, carnet e presenze. Per iscrivere un tesserato, creare o assegnare un carnet, modificare il calendario o segnare presenze servono i permessi delle singole operazioni.</Note>
 
 ### Assegnare un corso ad un carnet
 
-Una volta assegnato un carnet ad un atleta, puoi assegnare il carnet ad un corso. Per farlo,
-vai nella sezione **Corsi > Carnet** e clicca sul carnet che vuoi assegnare. Nella pagina di **Utilizzo**
-del carnet, trova l'atleta a cui assegnato il carnet, clicca su **assegna corso**
-e seleziona il corso a cui vuoi assegnarlo.
+<Note>Bozza in attesa di prova: i passaggi e le immagini previste devono essere verificati con una cattura del flusso reale prima della pubblicazione.</Note>
 
-<Warning>
-  Puoi assegnare un carnet ad un corso solo se il carnet è stato assegnato ad un
-  atleta. E solo se l'atleta è iscritto al corso.
-</Warning>
+<Steps>
+<Step title="Iscrivi il tesserato al corso">
+Apri **Attività → Corsi e Abbonamenti** e scegli **Ginnastica per tutti**.
+Nella scheda **Iscritti al corso**, premi **Tesserato**. Nel modulo **Iscrivi al corso**, cerca **Giulia** in **Tesserati** e seleziona **GIULIA BIANCHI (Anno corrente)**.
+Premi **Aggiungi** e controlla che Giulia compaia nell'elenco anche dopo aver ricaricato la pagina.
+<Frame>![Giulia Bianchi selezionata nel modulo Iscrivi al corso](/images/registro-presenze/carnet-manuale/1.placeholder.svg)</Frame>
+<Frame>![Iscrizione di Giulia conservata nel corso](/images/registro-presenze/carnet-manuale/2.placeholder.svg)</Frame>
+<Note>Il corso dell'esempio ha una quota di **120,00 €**: l'iscrizione genera il relativo pagamento in attesa. Il carnet viene assegnato separatamente e aggiunge il proprio pagamento; non sostituisce questa quota.</Note>
+</Step>
+<Step title="Collega il carnet al corso">
+Nella riga di Giulia, premi **collega corso**.
+In **Assegna carnet ad un corso**, seleziona **Ginnastica per tutti** e premi **Assegna carnet**.
+<Frame>![Corso già frequentato da Giulia selezionato per il collegamento](/images/registro-presenze/carnet-manuale/8.placeholder.svg)</Frame>
+Il titolo del corso compare nella colonna **Corsi** e il conteggio rimane **5/5** anche dopo il ricaricamento.
+<Frame>![Collegamento al corso conservato nella riga del carnet](/images/registro-presenze/carnet-manuale/9.placeholder.svg)</Frame>
+<Warning>La lista propone i corsi a cui il tesserato è già iscritto. Se manca il corso desiderato, esegui prima l'iscrizione al corso. Il collegamento dell'assegnazione esistente non genera un secondo pagamento.</Warning>
+</Step>
+</Steps>
 
 ## Ricaricare un carnet
 
-Se un atleta ha terminato le lezioni di un carnet, puoi creare un **nuovo carnet** con le stesse caratteristiche senza doverlo riconfigurare da zero. Dalla pagina di dettaglio del carnet, usa la funzione di ricarica: verrà creato un nuovo carnet identico (stesso numero di lezioni, stesso importo) e associato automaticamente agli stessi corsi del carnet precedente.
+<Note>Bozza in attesa di prova: i passaggi e le immagini previste devono essere verificati con una cattura del flusso reale prima della pubblicazione.</Note>
 
-<Tip>
-  La ricarica crea un carnet completamente nuovo con un proprio pagamento. Lo storico delle lezioni del carnet precedente rimane consultabile.
-</Tip>
+In Utilizzo è disponibile il comando **Ricarica carnet**. Prima di usarlo controlla persona, conteggio e stato del pagamento. La ricarica crea una nuova assegnazione con un nuovo pagamento e copia i collegamenti ai corsi; questo caso richiede ancora una prova del flusso reale.
 
 ## Riepilogo delle regole di funzionamento
 
-| Regola | Descrizione |
+<Note>Bozza in attesa di prova: i passaggi e le immagini previste devono essere verificati con una cattura del flusso reale prima della pubblicazione.</Note>
+
+| Operazione illustrata | Risultato nell'esempio |
 | --- | --- |
-| **Scalamento automatico** | Quando viene segnata la presenza, una lezione viene scalata dal carnet con meno lezioni rimaste. |
-| **Restituzione lezione** | Se rimuovi una presenza dal registro, la lezione viene restituita al carnet. |
-| **Assenza prevista** | Se l'atleta segnala un'assenza, la lezione non viene scalata. |
-| **Carnet non pagato** | Un carnet il cui pagamento non è stato saldato non viene utilizzato per lo scalamento. |
-| **Restrizione assegnazione** | Un carnet può essere associato a un corso solo se l'atleta è iscritto a quel corso. |
-| **Carnet esaurito** | Quando le lezioni finiscono, Bakney ti avvisa e l'atleta non viene segnato come presente automaticamente. |
+| Assegna carnet | Cinque lezioni e nuovo pagamento di 50,00 € |
+| Collega corso | Collegamento senza un secondo pagamento |
+| Segna presente | Conteggio da 5/5 a 4/5 |
+| Rimuovi presenza | Conteggio da 4/5 a 5/5 |
+
+<Frame>![Conteggio dopo la presenza](/images/registro-presenze/carnet-manuale/14.placeholder.svg)</Frame><Frame>![Conteggio dopo la correzione](/images/registro-presenze/carnet-manuale/15.placeholder.svg)</Frame>
+
+<Note>Scelta tra più carnet, esaurimento e presenze automatiche hanno ancora bisogno dei propri esempi verificati.</Note>
 
 ## Risorse correlate
 
-<CardGroup cols={2}>
-  <Card title="Registro presenze e carnet" icon="clipboard-list" href="/tutorials/come-gestire-registro-presenze-carnet">
-    Tutorial su come gestire il registro presenze insieme ai carnet lezioni.
-  </Card>
-</CardGroup>
+<Note>Bozza in attesa di prova: i passaggi e le immagini previste devono essere verificati con una cattura del flusso reale prima della pubblicazione.</Note>
+
+<CardGroup cols={2}><Card title="Registro presenze e carnet" icon="clipboard-list" href="/tutorials/come-gestire-registro-presenze-carnet">Segui il tutorial per iscrivere l’atleta, assegnare il carnet, segnare e correggere una presenza.</Card><Card title="Carnet" icon="ticket" href="/docs/carnet">Consulta creazione, assegnazione e conteggio delle lezioni.</Card></CardGroup>
+

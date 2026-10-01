@@ -5,128 +5,245 @@ description: "In questa sezione troverai tutte le informazioni relative ai pagam
 
 ## Metodi di pagamento
 
-Bakney Sport supporta diversi metodi di pagamento per adattarsi alle esigenze della tua associazione:
+Il **Metodo** descrive il mezzo con cui registri il pagamento. È distinto dal **Conto**, dalla **Causale** e dal tipo di quota.
 
-| Metodo | Descrizione |
+| Metodo nell’applicazione | Uso nella registrazione |
 | --- | --- |
-| **Contanti** | Pagamento in contanti, registrato manualmente dalla segreteria |
-| **Bonifico** | Bonifico bancario tradizionale |
-| **Online (Stripe)** | Pagamento online tramite carta di credito/debito. Richiede la configurazione di Stripe |
-| **Addebito SEPA** | Addebito diretto sul conto corrente dell'atleta tramite SEPA |
-| **POS** | Pagamento effettuato tramite terminale POS fisico |
+| **non definito** | Mezzo ancora da indicare |
+| **contanti** | Incasso o pagamento in contanti |
+| **Bonifico Bancario** | Movimento tramite bonifico |
+| **Altro mezzo Online** | Altro mezzo online registrato |
+| **Bonifico SEPA** | Bonifico SEPA registrato |
+| **Stripe** | Movimento associato al percorso Stripe |
+| **PoS** | Movimento registrato tramite terminale |
 
-<Tip>
-  Puoi filtrare i pagamenti per metodo rendendo visibile la colonna **Metodo** nella tabella
-  e usando la barra di ricerca.
-</Tip>
+Impostare un metodo non avvia da solo una transazione. In particolare, registrare **Stripe** o **PoS** non prova che il servizio esterno abbia incassato la somma. Conto, importo, stato e data dell’incasso vanno controllati separatamente.
 
 ## Tipologie di pagamento
 
-Ogni pagamento in Bakney Sport è associato a una tipologia che ne identifica la natura:
+**Tipologia** distingue un’**Entrata** da un’**Uscita**. **Tipo Quota** descrive invece l’origine della quota:
 
-| Tipologia | Quando viene usata |
+| Tipo Quota | Significato |
 | --- | --- |
-| **Altro** | Pagamenti generici non legati a iscrizioni o corsi (es. acquisto materiale, sponsorizzazioni) |
-| **Iscrizione** | Pagamento della quota associativa legata all'iscrizione di un socio |
-| **Corso** | Pagamento della quota di un corso o di una rata di un corso a pagamento rateizzato |
-| **Giroconto** | Trasferimento di denaro tra i conti dell'associazione (es. da cassa a banca) |
+| **Altro** | Registrazione non classificata come iscrizione o corso |
+| **Iscrizione** | Quota collegata all’iscrizione |
+| **Corso** | Quota di attività, rata, carnet o abbonamento secondo il collegamento |
+| **Giroconto** | Movimento tra conti, da gestire con la funzione dedicata |
 
-<Note>
-  La tipologia viene assegnata automaticamente dal sistema quando il pagamento è generato
-  da un'iscrizione o da un corso. Per i pagamenti manuali puoi scegliere la tipologia più adatta.
-</Note>
+Lo stato **In attesa** o **Pagato** è separato da queste classificazioni. Se nelle impostazioni è attivo l’incasso automatico dei nuovi pagamenti, la creazione può risultare già **Pagato** e preparare anche una ricevuta per un’entrata intestata a tesserato, fornitore o istruttore. Le uscite e le entrate senza un destinatario previsto seguono condizioni differenti.
+
+<Note>L’incasso automatico non va descritto come creazione senza ricevuta. Prima di salvare una registrazione controlla l’impostazione e il destinatario; il campo data da solo non rappresenta tutte le condizioni del flusso.</Note>
 
 ## Creare un pagamento
 
-Per creare un pagamento vai nella sezione **Pagamenti** e clicca sul pulsante **+ Pagamento**.
-A questo punto compila il form con le informazioni richieste:
+<Steps>
+  <Step title="Apri il modulo">
+    Apri **Pagamenti** dal menu laterale e premi **Pagamento**.
+  </Step>
+  <Step title="Compila una nuova entrata">
+    Inserisci **Descrizione** e **Importo**. In **Intestato a** scegli la persona; indica il **Conto** e la **Causale**.
+    Nell'esempio registriamo **35,00** in contanti per **Giulia Bianchi** sul conto **Cassa Aurora**.
+    Mantieni **Tipologia → Entrata** e **Tipo Quota → Altro**, con la **Data Incasso** vuota.
+    <Frame>![Modulo compilato per una nuova entrata in contanti](/images/pagamenti/registrazione/1.placeholder.svg)</Frame>
+  </Step>
+  <Step title="Crea e controlla">
+    Premi **Crea**. Chiudi i dettagli per tornare all'elenco e trovare il nuovo pagamento.
+    Con l'incasso automatico disattivato, il pagamento viene creato **In attesa** e va incassato separatamente.
+    <Frame>![Pagamento creato nell'elenco](/images/pagamenti/registrazione/2.placeholder.svg)</Frame>
+  </Step>
+</Steps>
 
-1. **Nome**: assegna un nome al pagamento
-2. **Data di Pagamento**: data entro cui deve essere fatto il pagamento
-3. **Tipologia**: entrata o uscita
-4. **Causali aggiuntive**: è possibile aggiungere una o più causali in un unico pagamento
-5. **Associato a**: fornitore (se uscita) o iscrizione (se entrata)
-6. **Conto**: conto economico su cui registrare il pagamento
-7. **Note** (opzionale): se desideri aggiungere delle note di pagamento
+<Note>Un collaboratore con il solo permesso di lettura può consultare i pagamenti. Per crearli serve il permesso di creazione.</Note>
 
 ## Segna un pagamento come "pagato"
 
-Per segnare come pagato un pagamento clicca sul pulsante **Approva** a forma di spunta. A questo punto Bakney Sport genererà una ricevuta di pagamento che potrai scaricare dalla sezione **Ricevute**.
+<Steps>
+  <Step title="Conferma l'incasso">
+    Nella riga di un'entrata **In attesa**, premi il pulsante con il suggerimento **Segna come pagato**.
+    Nella finestra **Incassare il pagamento?** indica la **Data Incasso**.
+  </Step>
+  <Step title="Scegli la generazione del PDF">
+    **Genera ricevuta** è selezionato inizialmente. Se lo togli, il sistema registra comunque una ricevuta per l'entrata intestata alla persona, ma non ne genera subito il PDF.
+    Nell'esempio togliamo la selezione e lasciamo **Invia email** disattivato; premiamo **Incassa**.
+    <Frame>![Conferma dell'incasso senza generazione immediata del PDF](/images/pagamenti/registrazione/5.placeholder.svg)</Frame>
+  </Step>
+  <Step title="Controlla lo stato">
+    Chiudi i dettagli. Il pagamento risulta **Pagato** e conserva la data indicata anche dopo il ricaricamento.
+    <Frame>![Pagamento incassato e conservato nell'elenco](/images/pagamenti/registrazione/6.placeholder.svg)</Frame>
+  </Step>
+</Steps>
+
+<Note>Per incassare serve il permesso di modifica dei pagamenti. [Leggi come consultare il PDF della ricevuta](/docs/ricevute#come-posso-scaricare-una-ricevuta).</Note>
 
 ## Vincolo sull'importo
 
-L'importo di un pagamento deve essere sempre uguale o superiore a zero. Non è possibile inserire importi negativi.
+**Importo** rappresenta una somma; **Tipologia** indica se è un’entrata o un’uscita. Per registrare una somma da restituire, prepara una registrazione di uscita con l’importo concordato e la causale appropriata, invece di cambiare soltanto il segno di un’entrata.
 
-<Warning>
-  Se devi registrare un rimborso, crea un pagamento di tipo **uscita** con l'importo del rimborso.
-</Warning>
+L’importo del pagamento può comprendere la somma della voce principale e delle causali aggiuntive. Controlla il totale finale, non soltanto il valore della prima casella.
+
+<Note>Questa guida non conferma un blocco generale del server per qualunque importo negativo: la precedente affermazione «non è possibile inserire importi negativi» non è dimostrata in tutti i percorsi esaminati. Usa importi coerenti con il movimento e verifica eventuali correzioni con il responsabile contabile.</Note>
 
 ## Eliminare un pagamento
 
-Per eliminare un pagamento clicca sul pulsante **Elimina** a forma di cestino.
-Se il pagamento è stato segnato come pagato, Bakney Sport dovrai prima eliminare la ricevuta di pagamento dalla sezione **Ricevute**. A questo punto potrai eliminare anche il pagamento.
+<Note>Procedura ancora da verificare in browser, compresi risultato e riapertura. I comandi descritti sono presenti nell’applicazione.</Note>
 
-<Warning>
-  **Eliminazione a cascata**: quando elimini l'iscrizione di un atleta a un corso, i pagamenti delle
-  rate **non ancora pagate** vengono eliminati automaticamente. I pagamenti **già saldati** vengono
-  invece conservati insieme alle relative ricevute.
-</Warning>
+La cancellazione di una registrazione non dispone un rimborso al destinatario. Prima di procedere controlla anche ricevute, rate e documenti collegati.
+
+<Steps>
+  <Step title="Individua la registrazione">
+    Apri **Pagamenti** e controlla destinatario, importo, metodo e stato. Usa il comando **Elimina** nella riga, se disponibile con i tuoi permessi.
+  </Step>
+  <Step title="Rivedi la conferma">
+    Controlla che la richiesta riguardi il pagamento corretto. Premi **Elimina** per confermare oppure **Annulla** per uscire senza conferma.
+  </Step>
+  <Step title="Controlla i documenti e le quote">
+    Dopo l’operazione cerca il pagamento nell’elenco. Se è collegata una ricevuta, il percorso di cancellazione singola la contrassegna come annullata e ne aggiorna il documento. Controlla separatamente il piano rate e la ricevuta.
+  </Step>
+</Steps>
+
+<Warning>Le operazioni collettive hanno un percorso distinto e non vanno considerate equivalenti a tutte le condizioni della cancellazione singola. Per un pagamento incassato o online chiarisci prima come trattare ricevuta e rimborso; l’eliminazione dall’elenco non restituisce fondi su Stripe.</Warning>
 
 ## Modificare un pagamento
 
-Per modificare un pagamento clicca sul pulsante **Modifica** a forma di matita. A questo punto compila il form con le informazioni richieste e clicca sul pulsante **Salva**.
+<Steps>
+  <Step title="Apri un pagamento in attesa">
+    Nell'elenco **Pagamenti**, premi il pulsante con il suggerimento **Modifica** nella riga del pagamento.
+  </Step>
+  <Step title="Modifica l'importo">
+    Nel modulo **Modifica Pagamento** cambia **Importo**, per esempio da **35,00** a **40,00**, poi premi **Modifica**.
+    <Frame>![Modifica dell'importo prima dell'incasso](/images/pagamenti/registrazione/3.placeholder.svg)</Frame>
+  </Step>
+  <Step title="Controlla il salvataggio">
+    Chiudi i dettagli e torna all'elenco. Il nuovo importo rimane salvato anche dopo il ricaricamento della pagina.
+    <Frame>![Importo modificato e conservato dopo il ricaricamento](/images/pagamenti/registrazione/4.placeholder.svg)</Frame>
+  </Step>
+</Steps>
+
+<Note>Il solo accesso in lettura non permette di modificare un pagamento.</Note>
 
 ## Esportare i pagamenti
 
-Per esportare i pagamenti clicca sul pulsante **Esporta** e seleziona il formato di esportazione desiderato tra **Excel** e **CSV**.
+<Note>Procedura ancora da verificare in browser, compresi risultato e riapertura. I comandi descritti sono presenti nell’applicazione.</Note>
+
+L’esportazione permette di confrontare i dati fuori dall’applicazione. Controlla prima ambito, periodo e filtri: il file non rappresenta automaticamente soltanto le righe selezionate.
+
+<Steps>
+  <Step title="Scegli il tipo di esportazione">
+    In **Pagamenti**, apri **Esporta** e scegli **CSV (dall’inizio)** oppure **Excel (dall’inizio)** per l’esportazione generale.
+  </Step>
+  <Step title="Esporta una ricerca specifica">
+    Per un ambito filtrato imposta la ricerca e i filtri. Usa il comando con suggerimento **Esporta ricerca corrente in Excel**. La **Prima nota** ha ulteriori scelte di periodo, tra cui corrente, precedente e filtro selezionato.
+  </Step>
+  <Step title="Controlla il file">
+    Attendi il download e apri il file. Confronta destinatari, somme, stati e date con l’ambito scelto; non inviare l’esportazione a terzi prima di aver controllato i dati personali inclusi.
+  </Step>
+</Steps>
+
+L’esportazione non modifica lo stato dei pagamenti. Il download, il contenuto delle diverse varianti e l’apertura del file attendono una prova completa.
 
 ## Personalizzare le colonne della tabella
 
-Per personalizzare le colonne della tabella clicca sul pulsante in alto a destra della tabella e seleziona le colonne che desideri visualizzare. L'informazione sarà salvata automaticamente anche al cambio di pagina.
+<Note>Procedura ancora da verificare in browser, compresi risultato e riapertura. I comandi descritti sono presenti nell’applicazione.</Note>
+
+<Steps>
+  <Step title="Apri le scelte della tabella">
+    Nell’area dei comandi della tabella **Pagamenti**, apri il pulsante con l’icona delle regolazioni. Compare l’elenco delle colonne.
+  </Step>
+  <Step title="Scegli cosa mostrare">
+    Spunta le colonne utili, per esempio **Metodo**, e togli quelle che non servono alla consultazione. La scelta riguarda la visualizzazione, non cancella i dati delle registrazioni.
+  </Step>
+  <Step title="Controlla la riapertura">
+    La modifica richiama il salvataggio delle impostazioni della tabella. Riapri la pagina e controlla che le colonne scelte restino visibili. La persistenza e il comportamento ai diversi permessi attendono una prova.
+  </Step>
+</Steps>
+
+<Note>Su schermi più piccoli alcune colonne possono essere nascoste o richiedere lo scorrimento orizzontale. Non interpretare una colonna non visibile come un dato mancante nel pagamento.</Note>
 
 ## Come sollecitare un pagamento
 
-Per sollecitare un pagamento seleziona uno o più pagamenti e clicca sul pulsante **Sollecita**. A questo punto Bakney Sport invierà una mail di sollecito al socio.
+<Warning>Questa sezione richiede verifiche esterne del servizio, delle condizioni applicabili o della consegna. Non documenta un’operazione esterna già eseguita.</Warning>
 
-<Info>
-  **Catena di invio del sollecito**: il sistema cerca l'indirizzo email seguendo questo ordine di priorità:
-  1. **Email dell'atleta** - se presente nell'anagrafica del socio
-  2. **Email dell'account** - l'email dell'utente associato all'iscrizione
+Il sollecito riguarda un pagamento **In attesa** intestato a un tesserato. Verifica l’email del tesserato e il mancato incasso prima di richiedere il messaggio; non usarlo indiscriminatamente per fornitori o registrazioni prive di persona collegata.
 
-  Se l'atleta non ha un indirizzo email, il sollecito verrà inviato all'email dell'account che ha effettuato l'iscrizione.
-</Info>
+<Steps>
+  <Step title="Controlla le registrazioni">
+    In **Pagamenti**, filtra o individua le quote in attesa. Seleziona soltanto le righe da sollecitare dopo il confronto con gli incassi effettivi.
+  </Step>
+  <Step title="Richiedi il sollecito">
+    Premi **Sollecita** e rivedi la conferma con il numero di persone coinvolte. **Annulla** evita la conferma; **Sollecita** richiede l’invio.
+  </Step>
+  <Step title="Verifica destinatari ed esito">
+    Il messaggio usa l’email del tesserato quando presente e può aggiungere l’indirizzo dell’account dell’associazione secondo il collegamento. Controlla lo storico email e, per la prova, la casella destinataria.
+  </Step>
+</Steps>
+
+Il sollecito non cambia da solo lo stato del pagamento e viene rifiutato dal percorso se il pagamento risulta già incassato. Una conferma a schermo non dimostra ricezione o lettura. Procedura in browser, consegna e finalità della comunicazione restano da verificare.
 
 ## Come vedere i pagamenti avvenuti via Stripe
 
-Per vedere i pagamenti avvenuti via Stripe (online) assicurati di avere la colonna **Metodo** visibile.
-A questo punto nella barra di ricerca scrivi `Stripe` e premi invio. Bakney Sport ti mostrerà tutti i pagamenti avvenuti via Stripe.
+<Note>Procedura ancora da verificare in browser, compresi risultato e riapertura. I comandi descritti sono presenti nell’applicazione.</Note>
+
+Per consultare le registrazioni Stripe, usa il dato **Metodo** insieme a stato, data e importo. La sola parola Stripe nel testo di una descrizione non certifica una transazione.
+
+<Steps>
+  <Step title="Mostra Metodo">
+    In **Pagamenti**, controlla che la colonna **Metodo** sia visibile; se serve abilitala dalle scelte della tabella.
+  </Step>
+  <Step title="Applica il filtro corretto">
+    Nel filtro **Metodo** scegli **Stripe**. Rivedi anche **Stato** e il periodo, in modo da distinguere incassi da registrazioni ancora in attesa.
+  </Step>
+  <Step title="Confronta i dettagli">
+    Apri la registrazione e controlla importo, data e ricevuta. Se devi verificare il trasferimento effettivo o una discrepanza, confronta con il portale dell’account Stripe corretto insieme al gestore.
+  </Step>
+</Steps>
+
+Il filtro applicativo e la sua riapertura attendono una prova in browser. Commissioni, accrediti e dati del portale esterno richiedono un controllo distinto.
 
 ## Gestione delle causali
 
-Per gestire le causali clicca sul pulsante **Gestisci Causali**. Ti si aprirà una pagina con tutte le causali presenti nel sistema.
-Da qui potrai:
+<Note>Procedura ancora da verificare in browser, compresi risultato e riapertura. I comandi descritti sono presenti nell’applicazione.</Note>
 
-1. **Aggiungere una causale**: clicca sul pulsante **+ Causale** e compila il form con le informazioni richieste
-2. **Modificare una causale**: clicca sul pulsante **Modifica** a forma di matita e compila il form con le informazioni richieste
-3. **Eliminare una causale**: clicca sul pulsante **Elimina** a forma di cestino
+Le causali classificano entrate e uscite e possono essere associate a una quota. La causale non sostituisce importo, conto e destinatario.
 
-Le causali di default non possono essere modificate o eliminate.
+<Steps>
+  <Step title="Apri le causali">
+    Dal gruppo **Pagamenti** apri **Causali**. Per una nuova voce usa il comando di creazione: si apre **Crea una causale**.
+  </Step>
+  <Step title="Compila la classificazione">
+    Indica **Nome** e **Movimento**, scegliendo **Entrata** o **Uscita**. Controlla **Tipologia**, **Tipo IVA** e **Tipo detrazione** secondo la classificazione concordata con il responsabile.
+  </Step>
+  <Step title="Salva e ricontrolla">
+    Salva la causale e ritrovala nell’elenco. Per correggerla usa il comando di modifica e controlla la riapertura. Nel modulo di pagamento scegli una causale coerente con il movimento.
+  </Step>
+</Steps>
+
+<Note>Le impostazioni fiscali non costituiscono una verifica normativa. Prima di modificare una causale già utilizzata, controlla quali registrazioni e documenti dipendono da essa.</Note>
 
 ### Causali detraibili 730
 
-Potrai creare una causale detraibile 730 cliccando sul pulsante **+ Causale** e attivando la voce **Detraibile fiscalmente**.
-Questo è particolarmente utile per generare una stampa di tutti i pagamenti detraibili 730.
+<Warning>Questa sezione richiede verifiche esterne del servizio, delle condizioni applicabili o della consegna. Non documenta un’operazione esterna già eseguita.</Warning>
+
+Per le causali di entrata è presente **Detraibile fiscalmente**. L’opzione identifica nell’applicazione una classificazione da usare nei documenti previsti, ma non accerta da sola il diritto alla detrazione.
+
+<Steps>
+  <Step title="Controlla la causale di entrata">
+    Apri **Causali** e il modulo di creazione o modifica della voce. Verifica **Movimento > Entrata**.
+  </Step>
+  <Step title="Configura dopo la verifica contabile">
+    Se la classificazione è stata confermata dal responsabile, usa **Detraibile fiscalmente** e controlla le altre impostazioni di tipologia e detrazione.
+  </Step>
+  <Step title="Salva e controlla l’utilizzo">
+    Salva, riapri la causale e controlla la registrazione a cui viene assegnata. La configurazione e i documenti risultanti attendono la prova in browser.
+  </Step>
+</Steps>
+
+Requisiti, soggetti ammessi, modalità di pagamento e documentazione fiscale devono essere verificati per il caso concreto. Non considerare l’interruttore una garanzia di detraibilità nel 730.
 
 ## Risorse correlate
 
 <CardGroup cols={2}>
-  <Card title="Ricevute" icon="receipt" href="/docs/ricevute">
-    Scopri come generare e gestire le ricevute di pagamento.
-  </Card>
-  <Card title="Configurare Stripe" icon="credit-card" href="/tutorials/come-impostare-stripe-pagamenti-online">
-    Tutorial per configurare i pagamenti online tramite Stripe.
-  </Card>
-  <Card title="Contabilità avanzata" icon="calculator" href="/docs/contabilita-avanzata">
-    Funzionalità avanzate per la gestione contabile della tua associazione.
-  </Card>
+  <Card title="Ricevute" icon="file-invoice" href="/docs/ricevute">Emissione, consultazione e gestione dei documenti.</Card>
+  <Card title="Rate dei corsi" icon="coins" href="/tutorials/come-impostare-pagamenti-rateizzati">Scadenze e quote assegnate ai tesserati.</Card>
+  <Card title="Pagamenti online" icon="credit-card" href="/tutorials/come-impostare-stripe-pagamenti-online">Configurazione dell’istanza e limiti da verificare con il servizio.</Card>
 </CardGroup>
+

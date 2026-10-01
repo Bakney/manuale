@@ -1,58 +1,69 @@
 ---
-title: Come inviare un'email ai nuovi iscritti?
-description: "Dalla sezione Comunicazioni > Automazioni puoi creare una regola per inviare un'email ai nuovi iscritti in automatico."
+title: "Come inviare un'email ai nuovi iscritti?"
+description: "Preparare un'automazione di benvenuto, scegliere i destinatari e controllare il salvataggio prima dell'attivazione."
 ---
 
 # Prima di iniziare
 
-Se desidere inviare un'email utilizzando l'email dell'associazione, è necessario
-configurare le impostazioni SMTP nella sezione **Comunicazioni > Configurazioni > Email SMTP**.
+L'evento **Nuova iscrizione** riguarda l'iscrizione all'associazione. Non indica l'aggiunta di un atleta a un corso e non invia retroattivamente il benvenuto a tutte le iscrizioni già presenti.
 
-Potrai poi tenere traccia delle email inviate da **Comunicazioni > Configurazioni > Statistiche Email**.
+Ti serve un account che possa aprire **Comunicazioni > Automazioni**, creare e aggiornare le automazioni. Prima di usare destinatari reali, concorda con il responsabile il mittente e la casella che riceverà la prova.
 
-Puoi inviare fino a 1000 email al giorno, se hai bisogno di inviare più email
-puoi contattare il nostro team per attivare questa funzione a <a href="mailto:support@bakney.com">support@bakney.com</a>.
+| Controllo | Dove o con chi verificarlo |
+| --- | --- |
+| Mittente dell'associazione | **Comunicazioni > Configurazioni > Email SMTP** |
+| Dati del servizio email | Gestore dell'installazione o del servizio SMTP |
+| Indirizzo usato da **Me stesso** | Email del proprietario dell'associazione |
+| Storico delle richieste email | Voce **Statische Email** nelle configurazioni; la pagina aperta si intitola **Statistiche Email** |
+| Ricezione e cartella spam | Casella destinataria della prova |
+
+Per usare un SMTP dell'associazione, la pagina offre **SMTP Host**, **SMTP Port**, **Email SMTP**, **Password SMTP**, **Nome Mittente** e **Cifratura Email**. Usa i valori comunicati dal gestore del servizio, salva e controlla l'esito. **Verifica SMTP** può inviare un'email di prova al proprietario dell'associazione: eseguilo solo quando sei pronto a riceverla.
+
+<Warning>La disponibilità del servizio email, il limite effettivo e la consegna non sono stati verificati per questa guida. Un SMTP mancante o non valido può far usare il servizio email dell'installazione; verifica il mittente effettivo. Il valore iniziale di 1.000 non è una garanzia di 1.000 destinatari al giorno.</Warning>
 
 # Creare un'automazione per inviare un'email ai nuovi iscritti
 
-Nel seguente video puoi vedere come creare un'automazione per inviare un'email ai nuovi iscritti.
-
-<video
-  controls
-  className="w-fit"
-  src="https://bakney-object-spaces.fra1.cdn.digitaloceanspaces.com/manuale-assets/automazione_invio_email.mp4"></video>
+Questa procedura descrive i comandi presenti nell'applicazione e attende una prova completa in browser. L'immagine è un segnaposto. Puoi preparare il workflow spento e rivederlo prima di richiedere invii.
 
 <Steps>
-  <Step title="Accedi alla sezione Automazioni">
-    Vai su **Comunicazioni > Automazioni** nel menu di navigazione.
+  <Step title="Apri Automazioni">
+    Vai in **Comunicazioni > Automazioni** e premi **Automazione**. Si apre l'editor, con il nome iniziale **Nuova Automazione** e un blocco **Evento di attivazione**.
   </Step>
-  <Step title="Crea una nuova automazione">
-    Clicca sul pulsante **Crea nuova automazione** in alto a destra.
+  <Step title="Assegna un nome riconoscibile">
+    Modifica il nome in alto, per esempio **Benvenuto nuova iscrizione**. Il nome ti aiuterà a ritrovare la regola nell'elenco; il salvataggio non richiede una descrizione aggiuntiva nell'editor.
   </Step>
-  <Step title="Configura il trigger">
-    Seleziona **Nuova iscrizione** come evento di attivazione (trigger) per
-    l'automazione.
+  <Step title="Scegli Nuova iscrizione">
+    Nel blocco **Evento di attivazione**, premi **Configura** e seleziona **Nuova iscrizione**. Chiudi il pannello. La chiusura può già salvare la configurazione: non considerare **Chiudi** come un annullamento.
   </Step>
-  <Step title="Imposta l'azione">
-    Crea una nuova **Azione messaggio**, selezione **atleti** oppure **atleti e
-    me stesso** come destinatari se desideri ricevere una copia dell'email.
+  <Step title="Aggiungi il messaggio email">
+    Sotto **scegli il prossimo step**, premi **Azione Messaggio**. Nel nuovo blocco premi **Configura** e lascia **Email** come tipo.
   </Step>
-  <Step title="Personalizza il contenuto dell'email">
-    Compila i campi per l'oggetto e il corpo dell'email per personalizzare il
-    messaggio.
+  <Step title="Scegli destinatari e oggetto">
+    Per la prima prova scegli **Me stesso** e scrivi un **Oggetto**, per esempio **Benvenuto nella nostra associazione**. **Me stesso** usa la casella del proprietario dell'associazione; non quella del collaboratore che sta modificando il workflow.
   </Step>
-  <Step title="Salva l'automazione">
-    Rivedi le impostazioni, dai un nome all'automazione, quindi salva.
+  <Step title="Prepara il contenuto">
+    Premi **Crea email**: il compositore si apre in una nuova scheda. Scrivi il benvenuto, i contatti della segreteria e i prossimi passi. Salva nel compositore e attendi la conferma **Email salvata.**. Torna all'editor e controlla che il contenuto sia presente; per riaprirlo usa **Modifica**.
   </Step>
-  <Step title="Attiva l'automazione">
-    Premi sul pulsante **Attiva** (a forma di tasto play) per far partire
-    l'automazione.
+  <Step title="Salva e riapri la regola spenta">
+    Chiudi il pannello, premi **Salva**, poi **Chiudi** per tornare all'elenco. Controlla il nome e lo stato **Spenta**. Riapri con il comando di modifica e verifica evento, destinatari, oggetto e contenuto.
+  </Step>
+  <Step title="Attiva dopo il controllo">
+    Torna all'elenco, premi l'icona **play** della riga e conferma **Attiva**. Controlla che lo stato diventi **Attiva**. Per verificare l'esecuzione serve una successiva iscrizione di prova concordata con il responsabile, oltre al controllo dello storico e della casella destinataria.
   </Step>
 </Steps>
 
-Seguendo questi passaggi, creerai un'automazione che invierà automaticamente un'email di benvenuto a ogni nuovo iscritto.
+<Frame caption="Segnaposto FullHD: evento Nuova iscrizione e configurazione dell'email di benvenuto. Creazione, riapertura e attivazione ancora da verificare.">
+  <img src="/images/comunicazioni/workflow-welcome-pending.svg" alt="Segnaposto dell'automazione di benvenuto con evento e messaggio email" />
+</Frame>
+
+<Note>Il workflow viene creato spento. **Salva** conserva la regola; l'icona play richiede l'attivazione. Non attivare una seconda regola equivalente senza controllare quelle già presenti, per evitare email duplicate.</Note>
 
 # Note e consigli
 
-- Puoi vedere le email inviate da **Comunicazioni > Configurazioni > Statistiche Email**
-- Non puoi modificare un'automazione che è attiva, devi prima fermarla.
+Prima di passare dalla prova agli invii per gli iscritti, controlla i destinatari effettivi. Le scelte **Atleti** e **Atleti e Me stesso** possono includere l'account collegato all'iscrizione, l'email dell'atleta, quella del tutore principale per un minorenne e la casella del proprietario dell'associazione. Nella versione esaminata, anche **Atleti** può includere il proprietario: non usarlo per escluderlo con certezza.
+
+Per cambiare un workflow attivo, torna all'elenco, usa l'icona **pausa** e conferma **Disattiva**. Attendi lo stato **Spenta**, poi modifica e salva. La modalità **Visualizza in sola lettura** permette la consultazione di una regola attiva, senza conservarne le modifiche.
+
+Consulta **Statistiche Email** per richieste ed errori registrati, poi controlla la ricezione nella casella di prova. La conferma a schermo, lo stato **Attiva** e una voce di storico non dimostrano da soli la consegna o la lettura. Tempi di esecuzione, regole privacy e recapito richiedono verifiche con il responsabile e il gestore del servizio.
+
+Per date programmate, attese e altri esempi consulta il [tutorial sui workflow](/tutorials/come-impostare-automazioni-workflow). Per un singolo invio manuale usa [Comunicazioni](/docs/comunicazioni).

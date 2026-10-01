@@ -5,77 +5,93 @@ description: "Scopri come funziona l'archiviazione manuale e automatica dei dati
 
 # Cosa significa archiviare
 
-In Bakney Sport, archiviare non significa eliminare. I dati archiviati vengono **conservati**
-ma spostati fuori dalle viste attive. In questo modo il tuo Libro Soci e le altre sezioni
-rimangono ordinati, mostrando solo le informazioni correnti.
+In Assozeta, archiviare un'iscrizione la sposta dall'elenco **Tesserati** alla scheda **Archivio** delle iscrizioni. Puoi consultarla e riportarla nell'elenco attivo con l'azione di ripristino.
 
-Quando archivi un'iscrizione, vengono archiviati anche i **pagamenti** e le **ricevute**
-ad essa collegati.
+Il comportamento dei pagamenti collegati è descritto nella sezione **Cosa viene archiviato**.
 
 # Archiviazione manuale
 
-Puoi archiviare manualmente le iscrizioni dalla sezione **Libro Soci**.
-
 <Steps>
-  <Step title="Seleziona le iscrizioni">
-    Nella sezione **Libro Soci**, seleziona le iscrizioni che vuoi archiviare usando
-    le caselle di selezione.
+  <Step title="Seleziona l'iscrizione">
+    Apri **Organizzazione → Iscrizioni** e seleziona la casella accanto alla persona da archiviare.
+    <Frame>![Iscrizione selezionata per l'archiviazione](/images/faq/archiviazione/1.placeholder.svg)</Frame>
   </Step>
-  <Step title="Clicca su Archivia">
-    Dalla barra delle azioni in blocco, scegli **Archivia**. Le iscrizioni selezionate
-    verranno spostate nell'archivio.
+  <Step title="Conferma l'archiviazione">
+    Premi **Archivia** nella barra delle azioni, poi **Archivia selezionati** nella finestra di conferma. L'iscrizione viene tolta dall'elenco attivo.
+    <Frame>![Conferma dell'archiviazione](/images/faq/archiviazione/2.placeholder.svg)</Frame>
   </Step>
 </Steps>
+
+<Note>Un collaboratore in sola lettura può consultare le iscrizioni, ma non archiviarle. Per l'archiviazione servono i relativi permessi.</Note>
 
 # Archiviazione automatica
 
-Bakney Sport offre un sistema di archiviazione automatica che archivia le iscrizioni
-al termine dell'anno fiscale.
+
+L’opzione **Archivia Iscrizioni Automaticamente** è presente nelle impostazioni **Generali**. Usa l’inizio dell’anno fiscale dell’associazione per individuare le iscrizioni create in un periodo fiscale concluso.
+
+L’opzione salvata e il lavoro automatico sono due controlli distinti: l’archiviazione richiede che i servizi programmati dell’installazione eseguano l’operazione. Non è una conferma che tutte le iscrizioni siano già state spostate all’apertura della nuova stagione.
+
+<Warning>Prima di attivarla controlla le date fiscali e i pagamenti collegati. Il comportamento automatico non è una copia esatta dell’archiviazione manuale; l’esecuzione completa nel passaggio di anno deve essere verificata sulla tua installazione.</Warning>
 
 ## Come funziona
 
-Quando l'archiviazione automatica è attiva, il sistema controlla periodicamente le iscrizioni.
-Se la data di creazione di un'iscrizione appartiene a un anno fiscale precedente a quello
-corrente, l'iscrizione viene archiviata automaticamente insieme ai relativi pagamenti e ricevute.
+
+Il controllo automatico considera le iscrizioni non archiviate e non eliminate delle associazioni che hanno l’opzione attiva. Per ogni iscrizione calcola l’anno fiscale usando la sua **data di creazione** e il giorno e mese di inizio dell’anno fiscale configurati.
+
+Se quel periodo è concluso, il lavoro previsto archivia l’iscrizione, il suo pagamento diretto e il documento contabile collegato a quel pagamento. Non è il criterio “iscrizione scaduta”: la data di scadenza dell’iscrizione e il periodo fiscale di creazione sono dati distinti.
+
+La presenza dei collegamenti al pagamento e al documento è importante. Nella versione corrente, dati mancanti possono interrompere l’esecuzione del lavoro; non è quindi corretto promettere che ogni iscrizione venga archiviata automaticamente, né che tutti i pagamenti o tutte le ricevute della persona siano inclusi.
+
+<Note>Orario di esecuzione, completamento del lavoro e gestione delle iscrizioni senza pagamento o documento richiedono una verifica separata. Per i dati già spostati controlla gli archivi interessati, senza dedurre il risultato dal solo interruttore attivo.</Note>
 
 ## Come attivarla
 
+
+<Note>Questa procedura è descritta dai comandi presenti, ma attende la prova completa nell’applicazione. Le immagini segnaposto devono essere sostituite con schermate reali prima della pubblicazione.</Note>
+
 <Steps>
-  <Step title="Vai nelle Impostazioni">
-    Dal menu laterale, accedi alle **Impostazioni**.
+  <Step title="Controlla le impostazioni dell’associazione">
+    Con il proprietario o un account autorizzato apri **Profilo → Generali**. Controlla giorno e mese di inizio dell’anno fiscale prima di cambiare l’opzione.
   </Step>
-  <Step title="Attiva l'archiviazione automatica">
-    Cerca l'opzione **Archiviazione automatica** e attivala.
+  <Step title="Attiva e salva">
+    Trova **Archivia Iscrizioni Automaticamente**, attiva l’interruttore e premi **Salva**. Se il controllo è disattivato, verifica il permesso di aggiornamento delle impostazioni.
+  </Step>
+  <Step title="Verifica la preferenza conservata">
+    Ricarica la pagina e controlla che l’interruttore e le date fiscali siano rimasti come desiderato. Questo controllo riguarda il salvataggio della preferenza, non l’avvenuta archiviazione delle iscrizioni.
+  </Step>
+  <Step title="Concorda la verifica dell’esecuzione">
+    Prima di affidarti al passaggio automatico, concorda con il gestore dell’installazione la prova sul periodo fiscale e sui dati da archiviare. Controlla poi **Iscrizioni → Archivio** e i pagamenti interessati.
   </Step>
 </Steps>
 
-<Info>
-  L'archiviazione automatica si basa sull'anno fiscale della tua associazione.
-  Assicurati di aver configurato correttamente il giorno e il mese di inizio
-  dell'anno fiscale nelle Impostazioni.
-</Info>
+<Warning>Il salvataggio non esegue immediatamente il lavoro automatico. Programmazione, gestione dei dati incompleti ed esito del passaggio di anno richiedono una verifica esterna a questa procedura.</Warning>
 
 # Consultare i dati archiviati
 
-Per visualizzare i dati archiviati, vai nella sezione **Archivio** dal menu laterale.
-Qui troverai tutte le iscrizioni, i pagamenti e le ricevute che sono stati archiviati.
+Per consultare le iscrizioni archiviate apri **Organizzazione → Iscrizioni** e scegli la scheda **Archivio**.
+
+<Frame>![Archivio delle iscrizioni](/images/faq/archiviazione/3.placeholder.svg)</Frame>
 
 # Ripristinare i dati archiviati
 
-Se hai bisogno di riportare un'iscrizione tra quelle attive, puoi ripristinarla
-dall'archivio. Seleziona l'iscrizione archiviata e scegli l'opzione **Ripristina**.
-L'iscrizione tornerà visibile nella sezione attiva del Libro Soci.
+<Steps>
+  <Step title="Apri l'archivio delle iscrizioni">
+    Apri **Organizzazione → Iscrizioni**, quindi la scheda **Archivio**. Nella riga della persona premi il pulsante con il suggerimento **Rimuovi dall'archivio**.
+    <Frame>![Iscrizione archiviata e pulsante di ripristino](/images/faq/archiviazione/3.placeholder.svg)</Frame>
+  </Step>
+  <Step title="Conferma lo spostamento">
+    Nella finestra di conferma premi **Sposta nel libro soci**.
+    <Frame>![Conferma del ritorno nell'elenco attivo](/images/faq/archiviazione/4.placeholder.svg)</Frame>
+  </Step>
+  <Step title="Controlla l'elenco attivo">
+    Torna alla scheda **Tesserati**. L'iscrizione compare di nuovo e rimane visibile dopo il ricaricamento.
+    <Frame>![Iscrizione ripristinata nell'elenco attivo](/images/faq/archiviazione/5.placeholder.svg)</Frame>
+  </Step>
+</Steps>
 
 # Cosa viene archiviato
 
-Quando archivi un'iscrizione, vengono archiviati automaticamente anche:
+L'operazione archivia l'iscrizione. Archivia anche il suo pagamento collegato quando non è saldato e gli altri pagamenti non saldati della persona che rientrano nel periodo dell'iscrizione.
 
-- **Iscrizione**: l'iscrizione del socio o tesserato
-- **Pagamenti**: tutti i pagamenti collegati all'iscrizione
-- **Ricevute**: le ricevute associate ai pagamenti
+<Warning>Ripristinare l'iscrizione non ripristina automaticamente i pagamenti archiviati. Nell'esempio di Sara Conti, la quota non saldata resta nell'archivio dei pagamenti anche dopo il ritorno della persona nell'elenco attivo.</Warning>
 
-<Warning>
-  L'archiviazione automatica viene eseguita periodicamente dal sistema. Se hai appena
-  attivato l'opzione, potrebbero essere necessari alcuni giorni prima che le iscrizioni
-  degli anni precedenti vengano archiviate.
-</Warning>

@@ -5,68 +5,97 @@ description: "Guida passo-passo per configurare i pagamenti online con Stripe ne
 
 # Configurare i pagamenti online con Stripe
 
-Bakney Sport ti permette di ricevere pagamenti online dai tuoi atleti tramite **Stripe**, una delle
-piattaforme di pagamento più sicure e utilizzate al mondo.
+In questa installazione self-hosted i pagamenti online usano un **account Stripe diretto dell’istanza**. Non si configura un nuovo account Connect dal precedente pulsante **Configura Stripe**: quel percorso di onboarding è disabilitato.
+
+Le condizioni applicative sono due: integrazione Stripe configurata e abilitata nell’istanza, e **Pagamenti Online** abilitato per l’associazione. Il salvataggio di queste opzioni non costituisce un incasso.
+
+Per i dettagli consulta il [tutorial Stripe](/tutorials/come-impostare-stripe-pagamenti-online).
 
 ## Cosa serve per iniziare?
 
-Per attivare i pagamenti online ti servirà:
+<Warning>Questa sezione richiede verifiche esterne del servizio, delle condizioni applicabili o della consegna. Non documenta un’operazione esterna già eseguita.</Warning>
 
-1. Un account **Stripe** (puoi crearlo gratuitamente durante la configurazione)
-2. Un conto corrente bancario dove ricevere i pagamenti
-3. I dati della tua associazione (codice fiscale, indirizzo, ecc.)
+Concorda con il gestore quale account Stripe usare e quale ambiente destinare alla prova. La configurazione dell’istanza richiede il proprietario o un amministratore autorizzato; il responsabile dell’associazione deve poter modificare le proprie impostazioni.
+
+Servono chiave pubblica, chiave segreta dello stesso ambiente e firma del webhook, oltre alla configurazione prevista sul servizio esterno. Per una prova prepara una quota e un destinatario controllati, senza coinvolgere incassi reali.
+
+L’applicazione non conferma da sola attivazione dell’account, verifiche richieste dal provider, metodi, tariffe o accrediti. Chiarisci questi aspetti prima dell’uso e mantieni riservate le credenziali.
 
 ## Come attivare Stripe
 
+<Note>Procedura ancora da verificare in browser, compresi risultato e riapertura. I comandi descritti sono presenti nell’applicazione.</Note>
+
 <Steps>
-  <Step title="Vai nelle impostazioni">
-    Dal menu laterale, vai nella sezione **Impostazioni** e cerca la voce relativa ai pagamenti online.
+  <Step title="Configura l’istanza con l’account autorizzato">
+    Apri **Profilo > Self Instance > Integrazioni**, scheda **Stripe**. Controlla account e ambiente, compila i campi richiesti, abilita **Abilita Stripe** e premi **Salva Stripe**.
   </Step>
-  <Step title="Avvia la configurazione Stripe">
-    Clicca su **Configura Stripe** per avviare la procedura di collegamento.
+  <Step title="Controlla la configurazione salvata">
+    Riapri la scheda e controlla stato e origine. **Verifica Stripe** effettua il controllo in lettura disponibile; non esegue un pagamento.
   </Step>
-  <Step title="Completa la registrazione su Stripe">
-    Verrai reindirizzato su Stripe dove dovrai inserire i dati della tua associazione
-    e del conto corrente. Segui le istruzioni a schermo.
-  </Step>
-  <Step title="Torna su Bakney">
-    Una volta completata la registrazione, verrai automaticamente riportato su Bakney Sport.
-    Il tuo account Stripe è ora collegato.
+  <Step title="Abilita l’associazione">
+    In **Profilo > Impostazioni**, abilita **Pagamenti Online** e salva. Controlla la comparsa di **Paga Ora** per la quota di prova dal destinatario previsto.
   </Step>
 </Steps>
 
-<Info>
-  La procedura di verifica di Stripe può richiedere da pochi minuti a qualche giorno lavorativo.
-  Nel frattempo potrai comunque iniziare a configurare i pagamenti.
-</Info>
+<Note>Il salvataggio e i controlli in browser attendono una prova. La configurazione del webhook e una transazione completa richiedono inoltre una verifica esterna; non basta la voce Stripe Configurato.</Note>
 
 ## Come funziona per i tuoi atleti?
 
-Una volta configurato Stripe, quando crei un pagamento per un atleta avrai la possibilità
-di inviare un **link di pagamento**. L'atleta potrà pagare comodamente con:
+<Note>Procedura ancora da verificare in browser, compresi risultato e riapertura. I comandi descritti sono presenti nell’applicazione.</Note>
 
-- Carta di credito
-- Carta di debito
-- Apple Pay / Google Pay (dove disponibile)
+L’atleta consulta i pagamenti collegati al proprio account. Una quota in attesa può proporre il percorso online quando l’associazione e l’istanza lo rendono disponibile.
 
-<Tip>
-  Puoi inviare i link di pagamento anche tramite la funzione **Comunicazioni** per
-  raggiungere più atleti contemporaneamente.
-</Tip>
+<Steps>
+  <Step title="Controlla la quota">
+    L’atleta apre **Pagamenti** e confronta associazione, importo e quota. Il comando disponibile è **Paga Ora**.
+  </Step>
+  <Step title="Rivedi il pagamento esterno">
+    Il comando apre il modulo Stripe. Il destinatario deve controllare i dati e seguire la modalità di prova o uso reale concordata con l’associazione.
+  </Step>
+  <Step title="Ricontrolla stato e ricevuta">
+    Dopo l’esito rivedi la quota nell’applicazione. In presenza di un risultato incerto chiedi all’associazione il confronto con la transazione prima di ripetere; la ricevuta si consulta quando il documento è disponibile.
+  </Step>
+</Steps>
+
+La guida non attesta una transazione esercitata, un tempo massimo di aggiornamento o un accredito garantito. La ricezione dell’eventuale email è un controllo distinto.
 
 ## Domande frequenti
 
+Le domande successive distinguono le impostazioni dell’applicazione dalle condizioni del servizio esterno. **Configurato**, **abilitato** e **incassato** non sono stati equivalenti.
+
+Per un dubbio sull’esito raccogli nome della quota, importo e orario e chiedi al gestore il confronto con l’account Stripe corretto. Non condividere chiavi, firma del webhook o dati riservati della carta.
+
 ### Quanto costa Stripe?
 
-Stripe applica una commissione su ogni transazione ricevuta. Le tariffe aggiornate
-sono disponibili sul sito ufficiale di Stripe. Bakney Sport non applica commissioni aggiuntive.
+<Warning>Questa sezione richiede verifiche esterne del servizio, delle condizioni applicabili o della consegna. Non documenta un’operazione esterna già eseguita.</Warning>
+
+Questa guida non indica tariffe fisse o percentuali perché il costo dipende dall’account e dalle condizioni del servizio. Chiedi al gestore di verificare commissioni applicabili a metodi, rimborsi e accrediti prima dell’uso.
+
+Il riepilogo delle commissioni nell’applicazione deriva dai dati recuperati dal servizio per il periodo scelto. Non è un listino e un valore zero non dimostra assenza di commissioni. Confronta il costo effettivo nel portale dell’account corretto.
 
 ### I pagamenti sono sicuri?
 
-Sì, Stripe è certificato PCI-DSS di livello 1, il più alto standard di sicurezza
-per i pagamenti online. I dati delle carte non vengono mai salvati sui server di Bakney.
+<Warning>Questa sezione richiede verifiche esterne del servizio, delle condizioni applicabili o della consegna. Non documenta un’operazione esterna già eseguita.</Warning>
+
+L’applicazione usa un modulo Stripe per il percorso online e verifica la firma delle notifiche di esito previste dal servizio prima di elaborarle. Questi controlli non costituiscono una garanzia totale di sicurezza o conformità dell’intera installazione.
+
+Verifica con il gestore ambiente, account, credenziali, autorizzazioni e destinazione delle notifiche. Il servizio esterno e l’infrastruttura richiedono verifiche proprie; non inserire dati di carte in chat o nei campi descrittivi dei pagamenti per chiedere assistenza.
 
 ### Posso disattivare i pagamenti online?
 
-Sì, puoi disconnettere Stripe in qualsiasi momento dalle **Impostazioni**.
-I pagamenti già ricevuti non saranno influenzati.
+<Note>Procedura ancora da verificare in browser, compresi risultato e riapertura. I comandi descritti sono presenti nell’applicazione.</Note>
+
+<Steps>
+  <Step title="Disabilita l’opzione dell’associazione">
+    Vai in **Profilo > Impostazioni**, disattiva **Pagamenti Online** e salva. Riapri per controllare il valore.
+  </Step>
+  <Step title="Distingui la configurazione dell’istanza">
+    Il proprietario o amministratore può inoltre disattivare **Abilita Stripe** in **Self Instance > Integrazioni > Stripe** e salvare. La scelta dell’istanza ha un ambito più ampio dell’opzione dell’associazione.
+  </Step>
+  <Step title="Controlla richieste e incassi già avviati">
+    Verifica con il gestore eventuali pagamenti in corso. La disattivazione non è un rimborso e non annulla automaticamente transazioni già avviate o incassi registrati.
+  </Step>
+</Steps>
+
+Le modifiche e la riapertura attendono la prova in browser. Le notifiche di esito di richieste già avviate possono richiedere ulteriori controlli sul servizio; non rimuovere indiscriminatamente le credenziali per risolvere una discrepanza.
+

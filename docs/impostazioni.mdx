@@ -5,324 +5,424 @@ description: "In questa sezione è spiegato come configurare le impostazioni del
 
 ## Introduzione
 
-Nella sezione Impostazioni puoi personalizzare il funzionamento di Bakney
-per adattarlo alle esigenze della tua associazione. Le impostazioni sono
-suddivise in diverse aree accessibili dal menu del profilo.
+Le impostazioni dell’associazione si trovano in **Profilo**. Usa **Informazioni Account** per dati dell’organizzazione, firma, timbro, testi e modelli dei documenti; usa **Generali** per periodi, ricevute, tessera e regole delle iscrizioni.
+
+I due pannelli hanno salvataggi distinti. Il menu comprende anche **Stripe** e **Autenticazione a due fattori**. I controlli di modifica dipendono dai permessi: per configurare l’associazione usa il suo account proprietario. Le voci visibili possono cambiare in un’istanza gestita autonomamente.
+
+Le sezioni seguenti distinguono le impostazioni proposte dalla loro applicazione a iscrizioni, pagamenti e documenti. Una scelta nel modulo deve essere salvata prima di essere usata.
 
 ## Informazioni dell'organizzazione
 
-Per aggiornare i dati della tua associazione vai nella sezione `Profilo` e
-seleziona **Informazioni** dal menu laterale. Qui puoi modificare:
+<Note>Bozza in attesa di prova: i passaggi e le immagini previste richiedono la verifica del flusso reale prima della pubblicazione.</Note>
 
-- **Denominazione** - il nome completo della tua associazione
-- **Codice Fiscale** e **Partita IVA**
-- **Indirizzo**, **Città** e **CAP**
-- **IBAN** - il codice bancario dell'associazione
-- **Sito Web** e **WhatsApp**
-- **Federazione** e **Matricola federazione** (es. FISR, CONI)
-- **Sport** praticato
-- **Nome abbreviato** dell'associazione
-- **Foto profilo** dell'associazione
-
-<Tip>
-  Queste informazioni appariranno nei documenti generati da Bakney,
-  come ricevute e moduli di iscrizione. Assicurati che siano sempre aggiornate.
-</Tip>
+<Steps>
+<Step title="Apri le informazioni dell’organizzazione">
+Dal menu laterale apri **Profilo**, poi **Informazioni Account**.
+La pagina **Informazioni** contiene i dati dell'**Account** e, più sotto, quelli dell'**Organizzazione**.
+Nell'esempio il proprietario gestisce l'**Associazione Sportiva Aurora**, con sede a **Roma**.
+<Frame>![Dati originali dell’organizzazione Aurora e controlli del proprietario](/images/impostazioni/organizzazione-anno/1.placeholder.svg)</Frame>
+</Step>
+<Step title="Aggiorna i recapiti e controlla i dati">
+Scorri fino a **Organizzazione**. Nell'esempio cambiamo **Indirizzo** da **Via dello Sport 12** a **Via dello Sport 14** e **Cap** da **00100** a **00101**.
+Inseriamo **Sito Web**: **https://aurora.example.test**, **Nome Abbreviato**: **Aurora** e **Sport**: **Ginnastica**.
+Denominazione, Codice Fiscale e Città restano quelli dell'associazione dimostrativa.
+Sono presenti anche Partita IVA, IBAN, WhatsApp, Federazione e Matricola federazione: usa i dati effettivi dell'associazione quando compili questi campi.
+<Frame>![Indirizzo, sito web, nome abbreviato e sport prima del salvataggio](/images/impostazioni/organizzazione-anno/2.placeholder.svg)</Frame>
+</Step>
+<Step title="Salva e verifica i dati dell’associazione">
+Premi **Salva** nella parte superiore della pagina **Informazioni**.
+Dopo la conferma, riapri la pagina e controlla i campi modificati: l'esempio mostra **Via dello Sport 14**, **00101**, **Aurora** e **Ginnastica**.
+<Frame>![Informazioni dell’organizzazione salvate e presenti dopo il ricaricamento](/images/impostazioni/organizzazione-anno/3.placeholder.svg)</Frame>
+</Step>
+</Steps>
 
 ### Firma del presidente e timbro
 
-Nella stessa sezione puoi caricare la **firma del presidente** e il **timbro**
-dell'associazione. Questi verranno inseriti automaticamente nei documenti.
+La firma del presidente e il timbro sono immagini dell’organizzazione, separate dalla firma raccolta nel modulo dell’atleta. Le anteprime consentono di controllare il contenuto prima del salvataggio.
 
-Puoi aggiungere la firma in due modi:
-1. Caricando un'immagine della firma
-2. Disegnandola direttamente a schermo cliccando su **Scrivi firma**
+<Note>Procedura in stesura: salvataggio, ricaricamento e schermate reali devono ancora essere verificati nell’istanza dimostrativa.</Note>
+
+<Steps>
+
+<Step title="Apri i campi dell’organizzazione">
+In **Profilo → Informazioni Account**, scorri fino a **Firma del presidente** e **Timbro**.
+<Frame>![Segnaposto da sostituire: Firma del presidente, Seleziona una firma, Scrivi firma e Timbro prima del salvataggio](/images/impostazioni/configurazione/firma.placeholder.svg)</Frame>
+</Step>
+
+<Step title="Carica o disegna la firma">
+Usa **Seleziona una firma** per un’immagine oppure **Scrivi firma** per disegnarla nel riquadro dedicato. Per il timbro usa **Seleziona un timbro**. Controlla le anteprime: non confondere i due file.
+</Step>
+
+<Step title="Salva e controlla il documento">
+Premi **Salva**, riapri **Informazioni Account** e verifica le immagini. Controlla poi una nuova stampa del documento che ti serve: l’anteprima del campo non verifica la posizione nella stampa.
+</Step>
+
+</Steps>
+
+<Note>La rimozione dall’anteprima va ricontrollata dopo il salvataggio. Non considerare automaticamente aggiornati i PDF già generati.</Note>
 
 ### Intestazione e piè di pagina stampe
 
-Puoi personalizzare l'intestazione e il piè di pagina che appaiono nelle
-stampe dei documenti (ricevute, moduli, ecc.). Inserisci il testo desiderato
-e clicca su **Salva**.
+In **Informazioni Account** trovi due editor distinti: **Intestazione stampe** e **Piè di pagina stampe**. Inserisci dati dell’associazione che vuoi mostrare, senza ripetere informazioni già presenti nel modello.
 
-<Note>
-  Lascia il campo vuoto se non vuoi che l'intestazione o il piè di pagina
-  appaiano nei documenti.
-</Note>
+<Note>Procedura in stesura: salvataggio, ricaricamento e schermate reali devono ancora essere verificati nell’istanza dimostrativa.</Note>
+
+<Steps>
+
+<Step title="Compila i testi">
+Scrivi l’intestazione nel primo editor e il testo finale nel secondo. Lascia vuoto il campo che vuoi omettere.
+<Frame>![Segnaposto da sostituire: Intestazione stampe, Piè di pagina stampe e Testo Extra Ricevute](/images/impostazioni/configurazione/stampe.placeholder.svg)</Frame>
+</Step>
+
+<Step title="Salva la pagina e riaprila">
+Premi **Salva** in **Informazioni Account**. Riapri il pannello e verifica che entrambi i testi siano conservati.
+</Step>
+
+<Step title="Controlla una nuova stampa">
+Apri una ricevuta o un modulo da stampare e controlla che i testi non coprano le altre informazioni. Un modello personalizzato può usare una propria intestazione e un proprio piè di pagina.
+</Step>
+
+</Steps>
 
 ## Anno fiscale
 
-L'anno fiscale determina il periodo di riferimento per il rendiconto annuale,
-le ricevute e i pagamenti. Per configurarlo vai nella sezione `Profilo` >
-**Impostazioni generali** e cerca la voce **Anno fiscale**.
+<Note>Bozza in attesa di prova: i passaggi e le immagini previste richiedono la verifica del flusso reale prima della pubblicazione.</Note>
 
-Le opzioni disponibili sono:
+Per configurare l'anno fiscale dell'associazione, scegli il periodo in **Profilo → Generali** e salva la modifica.
 
-| Opzione | Periodo |
+| Opzione dell'anno fiscale | Periodo proposto |
 | --- | --- |
-| **Anno solare** | Gennaio - Dicembre |
-| **Anno Sportivo 1** | Settembre - Agosto |
-| **Anno Sportivo 2** | Giugno - Maggio |
-| **Altro Periodo** | Personalizzato (scegli mese e giorno di inizio) |
+| **Anno solare (Gennaio-Dicembre)** | 1 Gennaio–31 Dicembre |
+| **Anno Sportivo 1 (Settembre-Agosto)** | 1 Settembre–31 Agosto |
+| **Anno Sportivo 2 (Giugno-Maggio)** | 1 Giugno–31 Maggio |
+| **Altro Periodo (personalizzato)** | Mese e giorno scelti da te |
 
-Se scegli **Altro Periodo**, puoi selezionare il mese e il giorno esatti
-in cui inizia il tuo anno fiscale.
+<Steps>
+<Step title="Apri le impostazioni generali">
+Dal menu laterale apri **Profilo**, poi premi **Generali** nel menu del profilo.
+La pagina contiene **Anno fiscale** e **Stagione sportiva** in due riquadri distinti.
+Prima della modifica Aurora usa un anno fiscale **Gennaio–Dicembre** e una stagione che inizia il **1 Settembre**.
+<Frame>![Anno fiscale e stagione sportiva sono configurati separatamente](/images/impostazioni/organizzazione-anno/4.placeholder.svg)</Frame>
+</Step>
+<Step title="Scegli l’inizio dell’anno fiscale">
+Nel riquadro **Anno fiscale**, scegli il periodo dal menu.
+Nell'esempio selezioniamo **Altro Periodo (personalizzato)**, poi **Ottobre** e **15**.
+Controlla il riepilogo del periodo prima di salvare: con questo inizio, l'anno termina il **14 Ottobre** dell'anno successivo.
+<Frame>![Periodo fiscale personalizzato con inizio il 15 Ottobre](/images/impostazioni/organizzazione-anno/5.placeholder.svg)</Frame>
+</Step>
+<Step title="Salva la configurazione fiscale">
+Premi **Salva** in alto nella pagina, poi ricarica **Generali**.
+Controlla che **Altro Periodo (personalizzato)**, **Ottobre** e **15** siano ancora selezionati.
+<Frame>![Periodo fiscale e stagione salvati e riletti dal server](/images/impostazioni/organizzazione-anno/7.placeholder.svg)</Frame>
+</Step>
+</Steps>
 
-<Warning>
-  Cambiare il tipo di anno fiscale influenzerà il rendiconto annuale.
-  Verifica attentamente prima di salvare.
-</Warning>
+<Note>Per modificare l'organizzazione e questi periodi usa l'account del proprietario dell'associazione.
+Un collaboratore autorizzato alla sola consultazione vede i valori, ma trova disattivati i controlli dell'anno fiscale e della stagione.
+<Frame>![Collaboratore in sola lettura con controlli delle impostazioni disattivati](/images/impostazioni/organizzazione-anno/8.placeholder.svg)</Frame></Note>
 
 ## Stagione sportiva
 
-La stagione sportiva viene utilizzata per gestire le iscrizioni e i
-tesseramenti. Puoi impostare il mese e il giorno di inizio della stagione.
+<Note>Bozza in attesa di prova: i passaggi e le immagini previste richiedono la verifica del flusso reale prima della pubblicazione.</Note>
 
-Se la tua stagione dura meno di un anno, attiva l'opzione **Dura meno di
-un anno** e seleziona anche la data di fine stagione.
+<Steps>
+<Step title="Apri le impostazioni generali">
+Dal menu laterale apri **Profilo**, poi premi **Generali** nel menu del profilo.
+La pagina contiene **Anno fiscale** e **Stagione sportiva** in due riquadri distinti.
+Prima della modifica Aurora usa un anno fiscale **Gennaio–Dicembre** e una stagione che inizia il **1 Settembre**.
+<Frame>![Anno fiscale e stagione sportiva sono configurati separatamente](/images/impostazioni/organizzazione-anno/4.placeholder.svg)</Frame>
+</Step>
+<Step title="Imposta la stagione sportiva">
+Nel riquadro **Stagione sportiva**, seleziona direttamente mese e giorno di inizio: nell'esempio **Settembre** e **1**.
+Attiva **Dura meno di un anno** per indicare anche la fine e scegli **Giugno**, **30**.
+Controlla nuovamente il giorno iniziale dopo aver cambiato il mese finale e verifica il riepilogo della stagione.
+Se la stagione dura un anno intero, lascia disattivata l'opzione: la fine viene proposta come il giorno precedente all'inizio dell'anno successivo.
+<Frame>![Stagione dal 1 Settembre al 30 Giugno e durata delle iscrizioni](/images/impostazioni/organizzazione-anno/6.placeholder.svg)</Frame>
+</Step>
+<Step title="Salva e ricontrolla la stagione">
+Premi **Salva**, ricarica **Generali** e ricontrolla inizio, fine e durata.
+Aurora mostra **1 Settembre–30 Giugno**, con **Dura meno di un anno** attiva.
+<Frame>![Stagione sportiva e anno fiscale conservati dopo il ricaricamento](/images/impostazioni/organizzazione-anno/7.placeholder.svg)</Frame>
+</Step>
+</Steps>
 
 ## Durata delle iscrizioni e tesseramenti
 
-In questa sezione puoi scegliere come viene calcolata la durata delle
-iscrizioni e dei tesseramenti.
+<Note>Bozza in attesa di prova: i passaggi e le immagini previste richiedono la verifica del flusso reale prima della pubblicazione.</Note>
 
-Le opzioni disponibili sono:
-
-| Opzione | Significato |
+| Regola | Decorrenza |
 | --- | --- |
-| **Un anno solare dalla data di iscrizione** | L'iscrizione dura 12 mesi dalla data in cui viene effettuata |
-| **Da inizio stagione sportiva** | L'iscrizione parte dall'inizio della stagione corrente |
-| **Dall'iscrizione al termine della stagione** | L'iscrizione dura dalla data in cui viene effettuata fino alla fine della stagione |
+| **Un'anno solare dalla data di iscrizione** | Dalla data di iscrizione, per un anno |
+| **Da inizio stagione sportiva** | Dall'inizio al termine della stagione |
+| **Dall'iscrizione al termine della stagione sportiva** | Dalla data di iscrizione al termine della stagione |
 
-<Note>
-  Modificare queste impostazioni non cambierà le iscrizioni e i tesseramenti
-  esistenti. Le nuove regole si applicheranno solo ai nuovi inserimenti.
-</Note>
+<Steps>
+<Step title="Scegli come calcolare le nuove durate">
+Più sotto trovi **Durata delle iscrizioni** e **Durata dei tesseramenti**, con un menu per ciascuna voce.
+Nell'esempio scegliamo **Dall'iscrizione al termine della stagione sportiva** in entrambi i menu.
+La stagione indica il periodo dell'attività; questi menu stabiliscono da quando decorre la singola iscrizione o il singolo tesseramento.
+<Frame>![Durata dalla data di iscrizione al termine della stagione configurata](/images/impostazioni/organizzazione-anno/6.placeholder.svg)</Frame>
+</Step>
+<Step title="Salva e ricontrolla la stagione">
+Premi **Salva**, ricarica **Generali** e ricontrolla inizio, fine e durata.
+Aurora mostra **1 Settembre–30 Giugno**, con **Dura meno di un anno** attiva.
+<Frame>![Stagione sportiva e anno fiscale conservati dopo il ricaricamento](/images/impostazioni/organizzazione-anno/7.placeholder.svg)</Frame>
+</Step>
+</Steps>
 
-Puoi anche configurare:
-- **Numero iniziale tesseramenti** - il numero progressivo da cui partono i tesseramenti
-- **Tipo di tesseramento predefinito** - ad esempio FISR, CONI, ecc.
+Il salvataggio cambia le impostazioni usate dall'associazione. Le date delle iscrizioni già presenti nell'esempio restano invariate.
+La durata delle nuove iscrizioni dipende dalla regola selezionata in **Durata delle iscrizioni**; la durata dei nuovi tesseramenti usa il menu dedicato.
+<Warning>Un nuovo inizio dell'anno fiscale cambia il periodo con cui vengono raggruppati i dati contabili. Non considerare i riepiloghi fiscali già consultati come fissi: ricontrollali dopo una modifica.</Warning>
+<Note>Questa procedura verifica la configurazione salvata e la conservazione delle iscrizioni esistenti. Prima di usare una nuova configurazione per la contabilità della tua associazione, controlla il periodo effettivo con chi la gestisce.</Note>
 
 ## Ricevute
 
+Le impostazioni delle ricevute sono divise tra **Generali** e **Informazioni Account**. In Generali trovi numerazione, numero iniziale, data e visibilità della causale. In Informazioni Account trovi testi e modello di stampa.
+
+La ricevuta è un documento collegato al pagamento: cambiare un’impostazione non equivale a incassare un pagamento né a correggere tutte le ricevute esistenti. Leggi [Ricevute](/docs/ricevute) per emissione e gestione e controlla un nuovo documento dopo le modifiche.
+
 ### Numera ricevute
 
-Se attivi questa opzione, le ricevute riporteranno un numero progressivo
-in base all'anno fiscale. Puoi anche impostare il **numero iniziale** da cui
-partire.
+In **Profilo → Generali → Ricevute**, **Numera Ricevute** controlla la presenza del numero progressivo nella stampa. **Numero iniziale ricevute** è la base: per partire da 1 inserisci 0; per proporre 101 inserisci 100. Se esistono numeri già usati nel periodo, il calcolo tiene conto anche dell’ultimo numero.
+
+<Note>Procedura in stesura: salvataggio, ricaricamento e schermate reali devono ancora essere verificati nell’istanza dimostrativa.</Note>
+
+<Steps>
+
+<Step title="Controlla prima i numeri esistenti">
+Consulta l’elenco delle ricevute e l’anno fiscale configurato. La base non deve essere interpretata come un comando per rinumerare i documenti esistenti.
+<Frame>![Segnaposto da sostituire: Numera Ricevute, numero iniziale, data e nome della causale](/images/impostazioni/configurazione/ricevute.placeholder.svg)</Frame>
+</Step>
+
+<Step title="Imposta numerazione e base">
+Attiva **Numera Ricevute**, compila **Numero iniziale ricevute** e leggi il numero mostrato nel riepilogo.
+</Step>
+
+<Step title="Salva e verifica un nuovo documento">
+Premi **Salva**, ricarica Generali e controlla l’opzione. Alla successiva emissione, confronta numero, data e periodo con le ricevute già presenti.
+</Step>
+
+</Steps>
 
 ### Data uguale per ricevute e pagamenti
 
-Se abilitata, le ricevute riporteranno la stessa data del pagamento
-corrispondente.
+L’opzione **Data uguale per ricevute e pagamenti**, in **Generali → Ricevute**, viene usata nei flussi di emissione per assegnare alla ricevuta la data del pagamento. Non cambia il giorno in cui il denaro viene effettivamente trasferito.
+
+<Note>Procedura in stesura: salvataggio, ricaricamento e schermate reali devono ancora essere verificati nell’istanza dimostrativa.</Note>
+
+<Steps>
+
+<Step title="Scegli la regola di data">
+Attiva o disattiva **Data uguale per ricevute e pagamenti**, poi premi **Salva**.
+</Step>
+
+<Step title="Controlla il pagamento e la ricevuta">
+Riapri Generali per verificare l’opzione. Quando emetti una nuova ricevuta, controlla la data del pagamento e quella del documento: non dedurre una correzione dei documenti già presenti.
+</Step>
+
+</Steps>
 
 ### Nascondi nome causale
 
-Se abilitata, il nome della causale non apparirà nel dettaglio delle
-ricevute.
+**Nascondi nome causale**, in **Generali → Ricevute**, controlla l’inserimento del nome della causale nel dettaglio della stampa. La causale continua a essere un dato del pagamento: nasconderne il nome non elimina la classificazione contabile.
+
+Controlla il contenuto di una nuova stampa quando cambi questa opzione; descrizioni e altre voci possono restare visibili.
 
 ### Causale predefinita
 
-Puoi selezionare una causale predefinita per i pagamenti delle iscrizioni
-e una per i pagamenti dei corsi. Queste verranno applicate automaticamente
-quando non ne viene specificata una diversa.
+In **Generali** trovi **Causale predefinita iscrizioni** e **Causale predefinita corsi**. Sono scelte distinte; i menu mostrano le causali disponibili con il loro tipo. La prima viene proposta per i pagamenti di iscrizione dove non specificato altrimenti; la seconda riguarda i corsi.
 
-<Tip>
-  Per ulteriori dettagli sulla gestione delle ricevute, consulta la pagina
-  [Ricevute](/docs/ricevute).
-</Tip>
+Una causale assegnata esplicitamente al pagamento o alla quota va controllata nel suo dettaglio: il valore predefinito non è una richiesta di riclassificazione di tutti i pagamenti già registrati. Consulta [Pagamenti](/docs/pagamenti) per gestire le causali.
 
 ## Modelli documenti
 
-Puoi scegliere il layout grafico per le ricevute e per i moduli di iscrizione.
-Per ciascun tipo di documento sono disponibili due modelli:
+I modelli delle ricevute e delle iscrizioni si scelgono in **Profilo → Informazioni Account**. Sono due selezioni separate: **Modello Ricevute** e **Modello Iscrizione**. Entrambe offrono **Standard** e **Classico**.
 
-- **Standard** - layout moderno
-- **Classico** - layout tradizionale
+<Note>Procedura in stesura: salvataggio, ricaricamento e schermate reali devono ancora essere verificati nell’istanza dimostrativa.</Note>
 
-Clicca sul modello che preferisci e poi su **Salva** per applicarlo.
+<Steps>
+
+<Step title="Scegli il tipo di documento">
+Scorri fino a **Modello Ricevute** o **Modello Iscrizione**. Controlla quale dei due stai modificando.
+<Frame>![Segnaposto da sostituire: Modello Ricevute e Modello Iscrizione: Standard e Classico](/images/impostazioni/configurazione/modelli.placeholder.svg)</Frame>
+</Step>
+
+<Step title="Seleziona e salva il modello">
+Premi la scheda **Standard** o **Classico** e poi **Salva**. Riapri Informazioni Account per controllare la selezione.
+</Step>
+
+<Step title="Controlla la stampa effettiva">
+Genera o apri la stampa pertinente e controlla testo, spazi e firma. L’immagine del modello è un’anteprima grafica, non il documento con i dati della tua associazione.
+</Step>
+
+</Steps>
 
 ### Testo extra ricevute
 
-Puoi aggiungere del testo personalizzato che apparirà in tutte le ricevute.
-Lascia il campo vuoto se non vuoi utilizzare questa funzione.
+**Testo Extra Ricevute**, in **Informazioni Account**, è un editor distinto dall’intestazione e dal piè di pagina. Serve a inserire un testo aggiuntivo nel modello della ricevuta. Se non ti serve, lascia il campo vuoto.
+
+Il testo viene conservato con i dati dell’organizzazione e usato dalla generazione della stampa. La sua modifica non prova che un PDF già prodotto sia stato rigenerato: controlla il documento che stai per consegnare.
 
 ## Personalizza tessera
 
-Puoi personalizzare l'aspetto della tessera dei tuoi soci e tesserati:
+In **Profilo → Generali → Personalizza tessera** trovi approvazione, codice QR, colore e layout. L’anteprima usa un socio di esempio: non è la tessera di una persona reale.
 
-- **Rendi disponibile la tessera solo su approvazione** - se abilitata, la tessera sarà visibile solo dopo che l'iscrizione viene approvata
-- **Mostra QR code nella tessera** - abilita o disabilita il codice QR sulla tessera
-- **Colore della tessera** - scegli il colore principale della tessera
-- **Layout della tessera** - seleziona tra Standard e Classico
+<Note>Procedura in stesura: salvataggio, ricaricamento e schermate reali devono ancora essere verificati nell’istanza dimostrativa.</Note>
 
-Un'anteprima della tessera ti mostrerà come apparirà con le impostazioni scelte.
+<Steps>
+
+<Step title="Imposta disponibilità e codice QR">
+Scegli **Rendi disponibile la tessera solo su approvazione** e **Mostra QR code nella tessera** secondo il funzionamento che vuoi proporre.
+<Frame>![Segnaposto da sostituire: Personalizza tessera: approvazione, QR, colore, layout e anteprima](/images/impostazioni/configurazione/tessera.placeholder.svg)</Frame>
+</Step>
+
+<Step title="Scegli colore e layout">
+Usa **Colore della tessera** e **Layout della tessera**, con **Standard** o **Classico**. **Usa il colore dell’istanza** elimina il colore personalizzato. Controlla l’anteprima.
+</Step>
+
+<Step title="Salva e controlla una tessera">
+Premi **Salva**, ricarica Generali e ricontrolla i valori. Apri poi la tessera di un socio per verificare contenuto e disponibilità nel suo stato di iscrizione.
+</Step>
+
+</Steps>
+
+<Note>Controlla anche la tessera di un’iscrizione non approvata: il salvataggio dell’opzione non dimostra da solo che ogni accesso alla tessera sia bloccato.</Note>
+
+Consulta [Come stampare le tessere](/faq/come-stampare-tessere-atleti) per la stampa singola e in blocco.
 
 ## Moduli d'iscrizione
 
-Puoi rendere obbligatori alcuni campi nella compilazione dei moduli di
-iscrizione da parte degli atleti:
+Le regole dei campi obbligatori si trovano in **Profilo → Informazioni Account → Moduli d’iscrizione**. Sono separate dai testi, dalle quote e dalle sezioni del modulo personalizzato.
 
-- **Telefono atleta obbligatorio**
-- **Email atleta obbligatoria**
-- **Email tutore obbligatoria**
-- **Telefono tutore obbligatorio**
-- **Firma obbligatoria alla compilazione**
+| Opzione | Informazione richiesta nel modulo autonomo |
+| --- | --- |
+| **Telefono atleta obbligatorio** | Recapito telefonico dell’atleta |
+| **Email atleta obbligatoria** | Indirizzo email dell’atleta |
+| **Email tutore obbligatoria** | Recapito email del tutore |
+| **Telefono tutore obbligatorio** | Recapito telefonico del tutore |
+| **Firma obbligatoria alla compilazione** | Firma nel passaggio dedicato |
 
-<Info>
-  Queste regole si applicano solo quando gli atleti compilano il modulo
-  autonomamente. Se crei un'anagrafica dal tuo account associazione,
-  questi obblighi non verranno applicati.
-</Info>
+<Note>Procedura in stesura: salvataggio, ricaricamento e schermate reali devono ancora essere verificati nell’istanza dimostrativa.</Note>
 
-<Tip>
-  Per scoprire come creare moduli personalizzati, consulta il tutorial
-  [Come creare moduli di iscrizione personalizzati](/tutorials/come-creare-moduli-iscrizione-personalizzati).
-  Per sapere come condividere il link di iscrizione con i tuoi atleti, consulta la FAQ
-  [Come condividere il link iscrizioni?](/faq/come-condividere-il-link-iscrizioni).
-</Tip>
+<Steps>
+
+<Step title="Scegli gli obblighi necessari">
+Imposta i cinque interruttori nel pannello Informazioni Account. La pagina distingue i dati dell’atleta da quelli del tutore.
+<Frame>![Segnaposto da sostituire: Obblighi di telefono, email, tutore e firma nei moduli autonomi](/images/impostazioni/configurazione/moduli.placeholder.svg)</Frame>
+</Step>
+
+<Step title="Salva e prova il modulo condiviso">
+Premi **Salva**, riapri il pannello e controlla i valori. Apri poi il link del modulo come utente che si iscrive e verifica quali dati vengono richiesti.
+</Step>
+
+</Steps>
+
+<Info>La pagina indica che questi obblighi non si applicano quando crei l’anagrafica dall’account dell’associazione. Il modulo autonomo e la compilazione interna devono quindi essere controllati separatamente.</Info>
+
+Per quote, regolamento e campi aggiuntivi consulta [Moduli di iscrizione personalizzati](/tutorials/come-creare-moduli-iscrizione-personalizzati).
 
 ### Modulo di iscrizione anonimo
 
-Se abilitato, ai soci o tesserati che compilano il modulo non verrà
-chiesto di creare un account Bakney.
+In **Generali**, **Modulo di iscrizione anonimo** evita la richiesta di creare un nuovo account nel modulo autonomo. Nel percorso di iscrizione può essere mostrato **Continua senza account**.
+
+“Anonimo” riguarda l’account di accesso: non significa che l’iscrizione sia priva di nome, recapiti o altri dati richiesti dal modulo. L’interruttore è disattivato quando **Account obbligatorio** è attivo. Le due scelte non sono combinabili nella pagina.
 
 ### Account obbligatorio
 
-Se abilitato, i soci o tesserati dovranno avere un account Bakney
-per compilare il modulo. Questa opzione e il modulo anonimo si escludono
-a vicenda.
+**Account obbligatorio**, in **Generali**, richiede un account nel percorso autonomo. Con questa opzione il modulo non propone il pulsante **Continua senza account** a chi non ha effettuato l’accesso.
+
+Per selezionarla devi prima disattivare **Modulo di iscrizione anonimo**. Controlla entrambi i valori dopo il salvataggio e prova il collegamento condiviso senza una sessione già aperta, per vedere il percorso effettivo dei nuovi iscritti.
 
 ## Checkout
 
-Puoi aggiungere informazioni nel checkout, ad esempio i dati per
-effettuare un bonifico bancario. Queste informazioni saranno visibili
-agli atleti al momento del pagamento.
+Il testo **Checkout** si configura in **Profilo → Informazioni Account**. Puoi inserire le informazioni da leggere al momento del pagamento, ad esempio i dati che l’associazione intende comunicare per un bonifico. Il testo informativo non esegue il trasferimento.
+
+<Note>Procedura in stesura: salvataggio, ricaricamento e schermate reali devono ancora essere verificati nell’istanza dimostrativa.</Note>
+
+<Steps>
+
+<Step title="Scrivi le istruzioni di pagamento">
+Scorri fino a **Checkout** e compila l’editor. Controlla importi, intestatario e recapiti prima di usare il testo per l’associazione.
+<Frame>![Segnaposto da sostituire: Testo Checkout nelle Informazioni Account](/images/impostazioni/configurazione/checkout.placeholder.svg)</Frame>
+</Step>
+
+<Step title="Salva e controlla il percorso dell’atleta">
+Premi **Salva**, riapri Informazioni Account e verifica il contenuto. Controlla poi il checkout nel percorso di pagamento prima di condividere le istruzioni.
+</Step>
+
+</Steps>
 
 ## Altre impostazioni
 
+In **Generali** trovi anche opzioni per pagamenti online, assegnazione delle rate, archiviazione e presenze. Alcune vengono lette quando crei un nuovo dato; altre dipendono da elaborazioni periodiche.
+
+La presenza di un interruttore non attesta che un servizio esterno o un’elaborazione automatica abbia completato il lavoro. Le sezioni seguenti spiegano cosa configura ciascuna scelta e quale risultato va controllato.
+
 ### Pagamenti online
 
-Abilita o disabilita la possibilità di ricevere pagamenti online.
-Questa funzionalità richiede la configurazione di Stripe (vedi sezione
-dedicata).
+**Pagamenti Online**, in **Generali**, configura la possibilità di usare il percorso online. La pagina indica che Stripe deve essere configurato: l’interruttore da solo non completa il collegamento né prova un incasso.
+
+Le installazioni gestite autonomamente presentano lo stato di Stripe nella sezione dedicata e richiedono la configurazione dell’istanza. Segui la guida [Pagamenti online](/faq/come-configurare-i-pagamenti-online) per distinguere impostazioni locali e passaggi sul servizio esterno.
 
 ### Presenze automatiche
 
-Se abilitata (disponibile solo nei piani **Pro** e **Teams**), nel giorno
-della lezione del corso tutti gli atleti verranno segnati automaticamente
-come presenti.
+**Segna Presenze Automaticamente**, in **Generali**, attiva un’elaborazione prevista per i piani di tipo Pro e Teams. Il processo considera corsi attivi e giornate di presenza ancora da elaborare, controllando anche le assenze previste e le condizioni dei carnet.
+
+Non è un comando per segnare retroattivamente ogni partecipante di ogni lezione. La schedulazione e l’esecuzione devono essere operative nell’installazione. Controlla una giornata concreta nel [Registro Presenze](/docs/registro-presenze) e l’eventuale consumo del carnet prima di fare affidamento sull’automatismo.
+
+<Note>L’esecuzione programmata non è verificata da questa stesura. Un valore salvato nell’interruttore non prova che una presenza sia stata registrata.</Note>
 
 ### Archiviazione automatica
 
-Se abilitata, le iscrizioni saranno archiviate automaticamente all'inizio
-del nuovo anno fiscale.
+**Archivia Iscrizioni Automaticamente**, in **Generali**, abilita un processo che confronta il periodo fiscale della data di creazione dell’iscrizione con la data corrente. Il processo prova ad archiviare iscrizione, pagamento e ricevuta collegati.
 
-<Info>
-  **Come funziona**: il sistema verifica periodicamente tutte le iscrizioni attive. Se la data
-  di creazione di un'iscrizione ricade in un anno fiscale precedente a quello corrente,
-  l'iscrizione viene archiviata automaticamente insieme al relativo pagamento e alla ricevuta.
-  L'anno fiscale di riferimento è quello configurato nelle impostazioni (vedi sezione **Anno fiscale**).
-</Info>
+Non promette un’esecuzione esatta all’inizio di qualsiasi periodo personalizzato: la pianificazione del servizio e i collegamenti fra i dati vanno verificati nell’installazione. Prima di attivarlo, controlla anno fiscale e una selezione di iscrizioni con pagamento e ricevuta. Consulta [Archiviazione](/faq/come-archiviare-dati) per controllo e ripristino.
+
+<Note>Il processo automatico e i casi con collegamenti mancanti richiedono verifica. Per archiviare una specifica iscrizione usa la procedura manuale e controlla il risultato nell’Archivio.</Note>
 
 ### Pagamenti segnati come pagati
 
-Se abilitata, quando aggiungi un pagamento manualmente questo verrà
-automaticamente segnato come pagato, senza generare la ricevuta.
+**Segna come "pagati" i pagamenti aggiunti manualmente**, in **Generali**, determina lo stato assegnato alla creazione manuale di un pagamento. Se la scelta è attiva, il nuovo pagamento viene registrato come pagato e, se manca la data, viene assegnata una data di pagamento.
+
+Il flusso può anche generare una ricevuta per un’entrata pagata con un destinatario. Le spese e i pagamenti senza destinatario seguono condizioni diverse. Quindi non usare questa opzione pensando che impedisca sempre l’emissione del documento.
+
+Controlla nel dettaglio del nuovo pagamento stato, data, persona collegata e ricevuta prima di consegnare documenti. Consulta [Pagamenti](/docs/pagamenti) per registrazione e incasso.
 
 ### Piano rate completo
 
-Se abilitata, quando aggiungi un atleta a un corso con le rate, verranno
-assegnate tutte le rate, anche quelle già scadute.
+L’opzione si chiama **Assegna piano rate completo di default**, in **Generali**. Quando assegni un atleta a un corso con rate, la scelta influisce sull’inclusione delle rate già scadute.
 
-<Info>
-  **Esempio pratico**: supponiamo che un corso abbia 10 rate mensili da settembre a giugno.
-  Se aggiungi un atleta a dicembre:
-  - **Con l'opzione attiva**: l'atleta riceverà tutte e 10 le rate, comprese quelle di settembre,
-    ottobre e novembre (già scadute). Questo è utile se l'atleta deve comunque saldare l'intero importo del corso.
-  - **Con l'opzione disattiva**: l'atleta riceverà solo le rate da dicembre in poi (7 rate).
-    Questo è utile se l'atleta paga solo per il periodo effettivo di frequenza.
-</Info>
+Nei percorsi che assegnano il piano predefinito, l’opzione attiva include anche le rate già scadute; senza di essa vengono confrontate le scadenze con l’inizio dell’iscrizione al corso. Nei moduli che permettono di selezionare le singole rate, la selezione esplicita può includere anche date passate. Il risultato dipende quindi dalle date e dalle righe effettivamente selezionate, non soltanto dal mese in cui stai lavorando.
+
+Prima di confermare, controlla il piano proposto per quella persona. Il tutorial [Pagamenti rateizzati](/tutorials/come-impostare-pagamenti-rateizzati) spiega creazione del piano, ingresso a corso iniziato e verifica delle rate.
 
 ### Pagamenti di importo zero
 
-Se abilitata, gli atleti vedranno anche i pagamenti di importo zero e
-le relative ricevute. Verranno inoltre creati pagamenti per quote di
-tesseramento e iscrizione con importo zero.
+**Pagamenti di importo zero**, in **Generali**, viene usato per la visibilità dei pagamenti nell’area dell’atleta e, nei flussi previsti, per decidere se creare pagamenti anche con quota pari a zero.
+
+Non è un comando per ricreare tutti i pagamenti o tutte le ricevute mancanti. Controlla separatamente la quota configurata, il pagamento prodotto e ciò che vede l’atleta. Il significato resta quello della quota: un importo zero non prova un versamento.
 
 ### Modalità scura
 
-Attiva la modalità scura per visualizzare Bakney con un tema scuro.
+In **Profilo → Generali** trovi **Modalità scura (beta)**. La preferenza viene conservata nelle impostazioni dell’account e la pagina la rilegge dopo il salvataggio.
 
-<Note>
-  La modalità scura è attualmente in versione beta.
-</Note>
+La disponibilità del controllo non attesta che ogni schermata o documento esportato abbia un tema scuro completo. La pagina presenta la modalità come **beta**: controlla la leggibilità delle schermate che usi dopo aver cambiato la preferenza.
 
 ## Stripe - Pagamenti online
 
-Per accettare pagamenti online devi collegare un account Stripe. Vai nella
-sezione `Profilo` e seleziona **Stripe** dal menu laterale.
+In **Profilo → Stripe** trovi lo stato e le impostazioni dei pagamenti online. Il percorso cambia tra l’installazione gestita autonomamente e il servizio con collegamento dell’account: nel primo caso la pagina controlla la configurazione dell’istanza; nel secondo propone il percorso di onboarding.
 
-<Steps>
-  <Step title="Avvia la configurazione">
-    Clicca sul pulsante per avviare la configurazione di Stripe. Verrai
-    reindirizzato al sito di Stripe per completare la registrazione.
-  </Step>
-  <Step title="Completa la registrazione su Stripe">
-    Segui le istruzioni di Stripe per verificare la tua identità e
-    configurare il tuo conto.
-  </Step>
-  <Step title="Torna su Bakney">
-    Una volta completata la configurazione, torna su Bakney. Lo stato di
-    Stripe risulterà attivo e potrai ricevere pagamenti online.
-  </Step>
-</Steps>
+Le preferenze per **Carte** e **Addebito Sepa** sono configurazioni della pagina. Non sono prova che un metodo sia già utilizzabile dal tuo account o che un pagamento sia stato accreditato.
 
-Una volta configurato Stripe, puoi scegliere i metodi di pagamento
-accettati tra:
-- **Carte** (carta di credito e debito)
-- **Addebito SEPA**
+Consulta [Configurare i pagamenti online](/faq/come-configurare-i-pagamenti-online) e [Impostare Stripe](/tutorials/come-impostare-stripe-pagamenti-online) per prerequisiti, stato e controlli.
 
-<Info>
-  Ricorda di abilitare anche l'opzione **Pagamenti Online** nelle impostazioni
-  generali dopo aver configurato Stripe.
-</Info>
-
-<Tip>
-  Per una guida completa alla configurazione dei pagamenti online, consulta la FAQ
-  [Come configurare i pagamenti online?](/faq/come-configurare-i-pagamenti-online).
-</Tip>
+<Note>Attivazione sul provider, verifica del conto, disponibilità dei metodi e transazioni richiedono un ambiente esterno o sandbox. Restano fuori dalle prove di questa stesura.</Note>
 
 ## Autenticazione a due fattori (2FA)
 
-Per proteggere meglio il tuo account puoi attivare l'autenticazione a due
-fattori. Vai nella sezione `Profilo` e seleziona **Autenticazione a due
-fattori** dal menu laterale.
+In **Profilo → Autenticazione a due fattori** puoi configurare un codice temporaneo aggiuntivo per l’accesso. La pagina distingue la generazione del QR e della chiave dal salvataggio dell’attivazione con il codice OTP.
 
-<Steps>
-  <Step title="Abilita il doppio fattore">
-    Attiva l'interruttore **Abilita Doppio Fattore**. Apparirà un codice
-    QR sullo schermo.
-  </Step>
-  <Step title="Scannerizza il codice QR">
-    Apri un'app come **Microsoft Authenticator** o **Google Authenticator**
-    sul tuo telefono e scannerizza il codice QR. In alternativa, puoi
-    inserire manualmente la chiave segreta mostrata sotto il QR.
-  </Step>
-  <Step title="Inserisci il codice OTP">
-    Inserisci il codice a 6 cifre generato dall'app nel campo **Codice OTP**.
-  </Step>
-  <Step title="Salva">
-    Clicca su **Salva** per attivare l'autenticazione a due fattori.
-    Da questo momento, ad ogni accesso ti verrà chiesto il codice OTP.
-  </Step>
-</Steps>
+Non condividere QR o chiave nelle schermate del manuale: sono credenziali del tuo account. Segui [Abilitare l’autenticazione a due fattori](/faq/come-abilitare-autenticazione-due-fattori) per il percorso completo e la verifica di un nuovo accesso.
 
-<Warning>
-  Se perdi l'accesso all'app di autenticazione, contatta il supporto
-  per recuperare il tuo account.
-</Warning>
+L’assistenza o il recupero dell’account non sono garantiti dalla presenza del comando: il percorso di recupero va verificato con chi gestisce l’installazione.
 
-<Tip>
-  Per maggiori informazioni sulla sicurezza dei dati, consulta la FAQ
-  [I miei dati sono al sicuro?](/faq/i-miei-dati-sono-al-sicuro).
-</Tip>

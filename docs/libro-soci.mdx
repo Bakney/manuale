@@ -5,330 +5,349 @@ description: "In questa sezione è spiegato come funziona il libro soci."
 
 ## Introduzione
 
-Il libro soci è obbligatorio per tutte le associazioni.
-In Bakney la gestione digitale è strutturata in modo da
-farti trovare le informazioni che ti servono in un click.
+In Assozeta apri **Organizzazione → Iscrizioni** per consultare l'elenco dei tesserati.
+Ogni riga mostra il nome della persona e le informazioni dell'iscrizione.
+
+<Frame>![Elenco delle iscrizioni dell'associazione](/images/faq/ricerca-filtri/1.placeholder.svg)</Frame>
+
+Per trovare una persona, usa il campo **Cerca...**. [Leggi come cercare e cancellare la ricerca](/faq/come-usare-ricerca-filtri-atleti#la-barra-di-ricerca).
 
 ### Come funziona il libro soci?
 
-Un potenziale socio compila il modulo di iscrizione e firma il documento. A questo
-punto l'associazione può decidere se accettare o rifiutare la richiesta di iscrizione.
+Il **Libro Soci** raccoglie le iscrizioni di tipo **Socio** e **Socio e Tesserato**. La scheda **Tesserati** raccoglie invece **Socio e Tesserato** e **Tesserato**: una stessa iscrizione può quindi comparire nei due elenchi.
 
-<Steps>
-  <Step title="Socio compila e firma il modulo">
-    Il potenziale socio compila il modulo di iscrizione online e lo firma digitalmente.
-  </Step>
-  <Step title="L'associazione approva o rifiuta l'iscrizione">
-    Una volta ricevuta la richiesta, l'associazione può accettarla o rifiutarla.
-  </Step>
-</Steps>
+Puoi inserire una persona dall'associazione, ricevere una domanda tramite il modulo online oppure partire dalle **Bozze** importate da file. Controlla sempre lo **Stato**: avere una riga nell'elenco non significa che la domanda sia già **accettata**. Anche firma, quota e certificato sono informazioni distinte.
 
-<CardGroup cols={2}>
-  <Card title="Aggiungi un Socio" icon="user-plus" href="#aggiungi-un-socio">
-    Come aggiungere un socio al tuo libro soci.
-  </Card>
-  <Card title="Anagrafica Smart" icon="id-card-clip" href="#anagrafica-smart">
-    Controlla le anagrafiche e le loro attività in un unico posto.
-  </Card>
-  <Card
-    title="Iscrizioni con QR code"
-    icon="qrcode"
-    href="#iscrizioni-con-qr-code">
-    Raccogli le iscrizioni online e in presenza con un QR code.
-  </Card>
-  <Card
-    title="Importa Soci da file"
-    icon="file-import"
-    href="#importa-soci-da-file">
-    Importa in modo intelligente i soci da un file Excel o CSV.
-  </Card>
-</CardGroup>
+Per iniziare scegli la procedura adatta:
+
+- [Inserimento di una singola persona](/faq/come-si-crea-un-socio).
+- [Importazione di un elenco](/faq/come-si-importano-dei-soci).
+- [Condivisione del modulo online](/faq/come-condividere-il-link-iscrizioni).
+
+<Note>Il ruolo di socio e i permessi di accesso all'applicazione sono gestiti separatamente. L'approvazione della domanda non assegna automaticamente permessi di collaborazione.</Note>
 
 ## Ciclo di vita dell'iscrizione
 
-Ogni iscrizione in Bakney segue un percorso ben definito, dal momento in cui il socio compila il modulo fino all'eventuale archiviazione. Ecco i possibili stati:
+Nell'elenco **Organizzazione → Iscrizioni**, la colonna **Stato** distingue la richiesta appena inserita da quella approvata.
+Le etichette mostrate nell'elenco sono **non firmata**, **in attesa**, **rifiutata**, **accettata** e **ritirata/o**.
 
-| Stato | Significato |
-| --- | --- |
-| **Non firmato** | Il modulo di iscrizione è stato creato (ad esempio come bozza o da importazione), ma il socio non ha ancora firmato il documento. |
-| **In attesa** | Il socio ha compilato e firmato il modulo. L'iscrizione è in attesa di approvazione da parte dell'associazione. |
-| **Accettato** | L'associazione ha approvato la richiesta. Il socio è ufficialmente iscritto. |
-| **Rifiutato** | L'associazione ha rifiutato la richiesta di iscrizione. |
-| **Dimesso** | Il socio si è ritirato o è stato archiviato dall'associazione. |
+La [procedura di creazione](/faq/come-si-crea-un-socio#creare-un-socio-socio-tesserato-o-tesserato) lascia la richiesta firmata di **Marta Neri** **in attesa**.
+Per approvare questa richiesta, serve il permesso di modifica delle iscrizioni.
 
 <Steps>
-  <Step title="Il socio compila e firma il modulo">
-    Lo stato passa da **Non firmato** a **In attesa**.
+  <Step title="Trova la richiesta da approvare">
+    Apri **Organizzazione → Iscrizioni** e trova la persona nell'elenco.
+    Controlla che lo stato della richiesta dell'esempio sia **in attesa**.
+    <Frame>![Richiesta firmata di Marta Neri in attesa di approvazione](/images/libro-soci/approvazione/1.placeholder.svg)</Frame>
   </Step>
-  <Step title="L'associazione valuta la richiesta">
-    L'associazione può **accettare** o **rifiutare** l'iscrizione.
+  <Step title="Conferma l'approvazione">
+    Nella riga premi il pulsante con il suggerimento **Approva Iscrizione**.
+    Alla domanda **Vuoi accettare l'iscrizione?**, premi **Approva**.
+    Se vuoi tornare all'elenco per ricontrollare i dati, premi **Annulla**.
+    <Frame>![Conferma dell'approvazione di una singola iscrizione](/images/libro-soci/approvazione/2.placeholder.svg)</Frame>
   </Step>
-  <Step title="L'iscrizione è attiva">
-    Se accettata, il socio risulta iscritto e può partecipare alle attività dell'associazione.
+  <Step title="Controlla lo stato salvato">
+    La colonna **Stato** mostra **accettata**. Ricarica la pagina per controllare che la modifica sia conservata.
+    Il pulsante di approvazione risulta disattivato per l'iscrizione già accettata.
+    <Frame>![Iscrizione accettata presente dopo il ricaricamento](/images/libro-soci/approvazione/3.placeholder.svg)</Frame>
+  </Step>
+  <Step title="Controlla separatamente la quota">
+    Apri **Pagamenti** per consultare il pagamento collegato alla persona.
+    Nell'esempio, con l'incasso automatico disattivato, la quota di **25,00 €** rimane **In attesa** dopo l'approvazione dell'iscrizione.
+    <Frame>![Quota associativa ancora da incassare dopo l'approvazione](/images/libro-soci/approvazione/4.placeholder.svg)</Frame>
+    [Leggi come confermare l'incasso](/docs/pagamenti#segna-un-pagamento-come-pagato).
   </Step>
 </Steps>
 
-<Tip>
-  Se hai importato soci da un file Excel o CSV, le iscrizioni partono dallo stato **Non firmato**. Potrai successivamente far firmare il modulo al socio.
-</Tip>
+<Note>Un collaboratore in sola lettura vede la richiesta, ma il pulsante **Approva Iscrizione** è disattivato. Il rifiuto, il ritiro e l'approvazione di più persone insieme richiedono procedure distinte.</Note>
 
 ## Tipologie di iscrizione
 
-Quando crei un'iscrizione puoi scegliere tra tre tipologie:
+Nel primo passaggio dell'inserimento scegli la tipologia che vuoi registrare:
 
-| Tipologia | Descrizione |
+| Tipologia mostrata | Informazioni da controllare |
 | --- | --- |
-| **Associato** | Il socio è iscritto solo come membro dell'associazione. Non è tesserato presso alcun ente sportivo. |
-| **Associato e Tesserato** | Il socio è sia membro dell'associazione che tesserato presso l'ente sportivo di riferimento. Questa è la tipologia più comune. |
-| **Tesserato** | Il socio è tesserato presso l'ente sportivo ma non è membro dell'associazione. Utile per atleti affiliati tramite altri enti. |
+| **Socio** | Ruolo del socio e quota associativa. |
+| **Socio e Tesserato** | Ruolo, quota associativa e quota di tesseramento. |
+| **Tesserato** | Quota di tesseramento; il ruolo del socio non viene proposto in questo passaggio. |
+
+La scelta determina quali campi vengono mostrati e in quali elenchi compare l'iscrizione. **Socio e Tesserato** compare sia nel **Libro Soci** sia in **Tesserati**.
+
+<Note>Queste etichette classificano la registrazione nell'applicazione. Non dimostrano che un ente esterno abbia ricevuto o completato un tesseramento: controlla separatamente numero, tipo e date della tessera.</Note>
 
 ## Ruoli del socio
 
-Ad ogni socio puoi assegnare un ruolo all'interno dell'associazione:
+Per le tipologie **Socio** e **Socio e Tesserato**, il primo passaggio propone il ruolo da riportare nell'iscrizione. Le opzioni sono **Socio ordinario**, **Consigliere**, **Segretario**, **Vice Presidente**, **Presidente**, **Socio volontario**, **Socio sostenitore** e **Tesoriere**.
 
-| Ruolo | Descrizione |
-| --- | --- |
-| **Socio ordinario** | Membro standard dell'associazione (ruolo predefinito). |
-| **Consigliere** | Membro del consiglio direttivo. |
-| **Segretario** | Responsabile della segreteria dell'associazione. |
-| **Vice Presidente** | Vice presidente dell'associazione. |
-| **Presidente** | Presidente dell'associazione. |
-| **Socio volontario** | Socio che presta servizio volontario. |
-| **Socio sostenitore** | Socio che sostiene economicamente l'associazione. |
-| **Tesoriere** | Responsabile della gestione economica. |
+Scegli il ruolo che corrisponde alla situazione della persona nell'associazione. Non usare questo campo per dare accesso ai dati dell'organizzazione: il ruolo nell'iscrizione non abilita i permessi per leggere, modificare o approvare le domande.
 
-<Note>
-  Il ruolo del socio è puramente organizzativo e viene riportato nel modulo di iscrizione e nei documenti ufficiali dell'associazione.
-</Note>
+<Note>Per autorizzare una persona a lavorare nell'applicazione, usa la gestione dei collaboratori. Registrare un socio come **Presidente** o **Tesoriere** non sostituisce quell'autorizzazione.</Note>
 
 ## Durata delle iscrizioni
 
-In Bakney puoi scegliere come calcolare la durata delle iscrizioni dei soci. Questa impostazione si configura dalla sezione **Impostazioni** e si applica a tutte le nuove iscrizioni.
+In **Profilo → Generali**, le impostazioni distinguono la durata delle iscrizioni dalla durata dei tesseramenti. Per l'iscrizione sono disponibili tre criteri:
 
-| Modalità | Come funziona |
+| Criterio | Date proposte per una nuova iscrizione senza date già impostate |
 | --- | --- |
-| **Anno solare dalla data di iscrizione** | L'iscrizione dura esattamente 12 mesi dalla data in cui il socio si iscrive. Ad esempio, se il socio si iscrive il 15 marzo 2025, l'iscrizione scade il 15 marzo 2026. |
-| **Come la stagione sportiva** | L'iscrizione segue le date della stagione sportiva configurata nelle impostazioni. Ad esempio, dal 1 settembre al 31 agosto dell'anno successivo, indipendentemente da quando il socio si iscrive. |
-| **Dall'iscrizione al termine della stagione sportiva** | L'iscrizione parte dalla data di iscrizione del socio e termina alla fine della stagione sportiva corrente. |
+| **Un'anno solare dalla data di iscrizione** | Inizio alla data di creazione; termine alla stessa data dell'anno successivo. |
+| **Da inizio stagione sportiva** | Inizio e termine del periodo dell'associazione che comprende la data di creazione. |
+| **Dall'iscrizione al termine della stagione sportiva** | Inizio alla data di creazione; termine alla fine del periodo dell'associazione. |
 
-<Tip>
-  Puoi configurare la data di inizio stagione sportiva dalla sezione **Impostazioni**. La durata scelta si applica automaticamente a tutte le nuove iscrizioni.
-</Tip>
+Per esempio, con il primo criterio, una creazione del **15 marzo 2026** propone **15 marzo 2026 → 15 marzo 2027**. I criteri legati alla stagione dipendono dal giorno e dal mese di inizio configurati.
+
+<Note>Una modifica delle impostazioni non riscrive automaticamente le date già presenti nelle iscrizioni. Prima di un rinnovo, controlla le date effettive della scheda e quelle del tesseramento.</Note>
 
 ## Aggiungi un Socio
 
-Per aggiungere un socio vai nella sezione `Libro Soci` e clicca sul pulsante `Nuovo Socio`.
-Apparirà la seguente pagina:
+Apri **Organizzazione → Iscrizioni** e premi **Aggiungi**. Il modulo guida la compilazione del profilo, dell'anagrafica, della firma, dei documenti e del riepilogo.
+Per creare un'iscrizione serve il relativo permesso; un collaboratore in sola lettura può consultare l'elenco.
 
-<Frame caption="Wizard di creazione di un nuovo socio.">
-  <img src="/images/libro-soci/libro-soci-1.png" />
-</Frame>
+<Frame>![Dove iniziare la creazione di una nuova iscrizione](/images/faq/creazione-socio/1.placeholder.svg)</Frame>
 
-Potrai decidere se creare un nuovo socio o associarne uno esistente al tuo account.
-
-<Tip>
-  I soci possono essere associati alla tua associazione sportiva oppure ad un
-  altro account Bakney.
-</Tip>
+[Segui la procedura completa con l'esempio di Marta Neri](/faq/come-si-crea-un-socio#creare-un-socio-socio-tesserato-o-tesserato).
 
 ### 1. Informazioni Profilo
 
-Per ogni socio puoi decidere se collegarlo ad un nuovo account Bakney oppure
-a te stesso.
+Mantieni **Tipo iscrizione → Socio e Tesserato** e il ruolo **Socio ordinario**.
+    Controlla le quote visualizzate prima di proseguire: nell'associazione dell'esempio la quota associativa è **25,00 €**, quella di tesseramento **0,00 €**.
+    Alla domanda **Crea nuovo account per il socio / tesserato?**, scegli **No**: questa guida registra la persona collegandola all'account dell'associazione.
+    <Frame>![Tipo di iscrizione, quote e scelta di non creare un nuovo account](/images/faq/creazione-socio/2.placeholder.svg)</Frame>
 
-| Crea nuovo account? | Significa che...                                    |
-| ------------------- | --------------------------------------------------- |
-| Sì                  | Crei un nuovo account Bakney                        |
-| No                  | Crei un nuovo socio associato alla tua associazione |
-
-<Note>
-  Se un socio ha un account Bakney potrà comodamente accedere alle ricevute
-  online.
-</Note>
+La scelta **No** conserva il collegamento all'account dell'associazione. Il percorso con un nuovo account personale richiede una procedura distinta. Premi **Continua** per passare all'anagrafica.
 
 #### Cosa succede se hai più tipologie di quote sociali?
 
-In questo caso dovrai anche scegliere la tipologia di quota sociale del socio.
-Per modificare le tipologie di quote sociali vai nella sezione `Libro Soci` e clicca sul pulsante `Modulo`
-attivando l'opzione `Quote multiple`.
+Le quote associative e le quote di tesseramento hanno elenchi separati. Con **Quote multiple** puoi proporre più piani, ciascuno con nome e importo. I piani con un periodo di disponibilità possono non comparire fuori dalle date configurate.
+
+<Steps>
+  <Step title="Controlla le quote configurate">
+    Apri **Organizzazione → Modulo Iscrizioni → Quote**. Controlla il nome e l'importo dei piani associativi e, se necessario, dei piani di tesseramento. Per modificare il modulo servono i relativi permessi; l'accesso può dipendere anche dal piano dell'associazione.
+  </Step>
+  <Step title="Scegli il piano durante l'inserimento">
+    Nel primo passaggio di **Aggiungi** scegli la tipologia della persona. Se è prevista la quota associativa, seleziona il suo piano; per un tesserato controlla anche il piano di tesseramento. Evita di confondere due piani con importi uguali ma nomi diversi.
+  </Step>
+  <Step title="Verifica il risultato">
+    Prima di creare l'iscrizione, controlla il riepilogo. Dopo la creazione verifica i pagamenti collegati alla persona: la scelta di una quota non è, da sola, una conferma di incasso.
+  </Step>
+</Steps>
+
+<Note>La configurazione dei piani e la creazione dell'iscrizione sono due salvataggi distinti. Se non trovi un piano, controlla anche le sue date di disponibilità.</Note>
 
 ### 2. Informazioni Anagrafiche
 
-In questa sezione puoi inserire le informazioni anagrafiche del socio, come
-nome, cognome, data di nascita, ecc.
-Se il socio è un minore di 18 anni, dovrai inserire anche le informazioni
-anagrafiche del tutore legale.
+Inserisci **Nome**, **Cognome**, **Sesso**, **Data di nascita** e **Città di nascita**.
+    Nell'esempio usiamo dati fittizi: **Marta Neri**, sesso **F**, nata il **01/01/2000** a **Roma**.
+    Compila **Codice Fiscale** oppure premi **Genera codice fiscale**, il pulsante accanto al campo, dopo aver inserito questi dati.
+    Controlla il risultato nel campo prima di proseguire.
+    <Frame>![Dati anagrafici con il codice fiscale generato](/images/faq/creazione-socio/3.placeholder.svg)</Frame>
+    Inserisci anche **Indirizzo**, **Città di residenza** e **CAP**, poi i recapiti.
+    Nell'esempio: **Via delle Attività 4**, **Roma**, **00100**, email **marta@example.test**.
+    Usa dati e recapiti della persona che stai registrando; quelli della guida servono soltanto a mostrare il flusso.
+    <Frame>![Residenza e recapiti della persona](/images/faq/creazione-socio/4.placeholder.svg)</Frame>
 
-Puoi anche decidere di continuare l'inserimento in un secondo momento cliccando
-su `Salva bozza`. L'iscrizione in questo caso non sarà ancora valida e la troverai
-nella sezione `Libro Soci` nella tabella `Bozze Iscrizioni`.
+Controlla i campi contrassegnati con l'asterisco e premi **Continua**.
 
 ### 3. Firma del Documento
 
-In questa sezione puoi far firmare il documento al socio. Puoi decidere se:
+Nel passaggio **Firma del documento**, raccogli la firma nell'area dedicata e controlla che il tratto sia visibile prima di continuare.
+    La guida mostra una firma dimostrativa tracciata con il mouse.
+    <Frame>![Area di firma compilata con un tratto dimostrativo](/images/faq/creazione-socio/5.placeholder.svg)</Frame>
 
-1. Inserire la firma del socio con un tablet o un mouse
-2. Caricando una foto della firma del socio che verrà elaborata automaticamente
-
-<Note>
-  Il **modulo di iscrizione** può essere firmato in un secondo momento dal
-  socio!
-</Note>
+Premi **Continua** per raggiungere il passaggio del certificato medico.
 
 ### 4. Certificato Medico
 
-In questa sezione puoi caricare il certificato medico del socio e selezionare
-la data di scadenza. Se il socio non ha un certificato medico, puoi decidere di
-caricarlo in un secondo momento.
+Il passaggio successivo riguarda il **Certificato Medico**.
+    Nell'esempio non alleghiamo un documento e proseguiamo fino al riepilogo.
+    <Frame>![Passaggio del certificato medico senza un allegato nell’esempio](/images/faq/creazione-socio/6.placeholder.svg)</Frame>
+    <Note>Questo esempio descrive la registrazione di un adulto. Le procedure per minori, caricamento e scadenza dei certificati richiedono guide specifiche.</Note>
+
+Premi **Continua** per rivedere i dati prima del salvataggio.
 
 #### Esenzione certificato medico per minori di 6 anni
 
-I bambini con meno di 6 anni sono **automaticamente esenti** dall'obbligo di presentare il certificato medico. Il sistema calcola l'età del socio a partire dalla data di nascita inserita nell'anagrafica: finché il bambino non compie 6 anni, nella scheda del socio vedrai l'indicazione "Esente" con il numero di giorni rimanenti prima del compimento dei 6 anni.
+L'applicazione può mostrare l'etichetta **Esente per …** per una persona che non ha ancora compiuto sei anni. Il conteggio deriva dalla data di nascita registrata; alcune varianti dell'interfaccia abilitano inoltre una specifica indicazione per i minori.
 
-<Info>
-  Non devi fare nulla per attivare questa esenzione: è sufficiente che la data di nascita del socio sia inserita correttamente. Quando il bambino compirà 6 anni, il sistema richiederà automaticamente il certificato medico.
-</Info>
+Questa etichetta non aggiunge un certificato né una sua data di scadenza. Quando l'età cambia, il riepilogo può tornare a indicare il documento o la scadenza mancanti. Mantieni quindi corretta la data di nascita e controlla il certificato effettivamente allegato.
+
+<Warning>La parola **Esente** è un'etichetta dell'applicazione. Non usarla come conferma dei requisiti sanitari per una disciplina, una gara o un ente: questi requisiti devono essere verificati con i soggetti competenti.</Warning>
 
 #### Scadenza dei Certificati Medici
 
-Con **Bakney** è impossibile far dimenticare ai soci quando un certificato medico è in scadenza.
-In automatico verranno inviate delle notifiche via email.
+L'impostazione **Invia notifiche certificati medici**, in **Profilo → Generali → Altro**, abilita i promemoria previsti **30 giorni** e **7 giorni** prima della scadenza e **1 giorno** dopo.
 
-| Giorni alla scadenza       | cosa succede?                                                     |
-| -------------------------- | ----------------------------------------------------------------- |
-| 30 giorni                  | invio email di notifica che il certificato medico sta per scadere |
-| 7 giorni                   | invio email di notifica che il certificato medico sta per scadere |
-| il giorno dopo la scadenza | invio email di notifica che il certificato medico è scaduto       |
+La selezione automatica considera iscrizioni correnti, non archiviate né eliminate, create negli ultimi **366 giorni**, con una scadenza che coincide con il giorno previsto dal promemoria. Non recupera indistintamente tutte le scadenze passate.
+
+Il destinatario viene cercato prima nell'email dell'atleta, poi nell'email del tutore principale se la prima manca o non è valida; in mancanza di entrambe viene usata l'email dell'account collegato. Controlla quindi i recapiti della scheda, oltre all'interruttore.
+
+<Note>La programmazione dei promemoria e il recapito dipendono dai servizi email dell'installazione. La presenza della funzione nel gestionale non dimostra che un messaggio sia stato consegnato. Usa anche l'elenco e la bacheca per controllare le scadenze.</Note>
 
 ### 5. Riepilogo e Creazione
 
-In questa sezione puoi rivedere tutte le informazioni inserite, controllare che
-siano corrette e procedere con la creazione del socio.
-
-Al momento della creazione del socio, verrà creato un **pagamento** per la quota
-sociale che troverai nella sezione `Pagamenti`.
+Nel passaggio **Controlla le Informazioni**, rivedi il tipo di iscrizione, i dati della persona, la firma e gli eventuali allegati.
+    <Frame>![Riepilogo della richiesta prima del salvataggio](/images/faq/creazione-socio/7.placeholder.svg)</Frame>
+    Premi **Salva**. Alla domanda **Hai inserito i dati corretti? Controlla prima di continuare.**, premi **Continua** per confermare.
+    Torni nell'elenco delle iscrizioni: cerca **Marta Neri** e controlla che la riga sia presente anche dopo il ricaricamento.
+    <Frame>![Nuova iscrizione presente nell’elenco dopo il ricaricamento](/images/faq/creazione-socio/8.placeholder.svg)</Frame>
+    <Note>Salvare questa richiesta firmata la lascia **in attesa di approvazione**. La creazione e l'approvazione sono operazioni distinte. Con l'incasso automatico disattivato, la quota di **25,00 €** resta da incassare.</Note>
 
 ## Anagrafica Smart
 
-Da questa sezione puoi controllare tutte le informazioni anagrafiche dei soci.
+La scheda di un'iscrizione raccoglie i dati dell'iscrizione e le sezioni collegate alla persona.
+Qui seguiamo la modifica di **Numero tessera** e **Tipologia tessera** di **Giulia Bianchi**, una persona fittizia dell'**Associazione Sportiva Aurora**.
+Per consultare la scheda serve il permesso di lettura delle iscrizioni; per salvare i metadati serve il permesso di modifica e un'iscrizione non archiviata.
 
-| Tab                | Descrizione                                     |
-| ------------------ | ----------------------------------------------- |
-| Dati Anagrafici    | Informazioni anagrafiche del socio              |
-| Certificato Medico | Informazioni sul certificato medico del socio   |
-| Corsi              | Corsi a cui il socio è iscritto                 |
-| Pagamenti          | Pagamenti effettuati dal socio                  |
-| Carnet             | Carnet acquistati dal socio                     |
-| Registro Presenze  | Presenze del socio ai corsi                     |
-| Trasferimenti      | Trasferimenti del socio ad altri account Bakney |
+<Steps>
+  <Step title="Apri la scheda della persona">
+    Dal menu laterale apri **Organizzazione → Iscrizioni**. Trova la riga della persona e premi il suo **nome e cognome**.
+    Si apre una scheda laterale: controlla che il nome in alto corrisponda all'iscrizione che vuoi modificare.
+    Nell'esempio apriamo **Giulia Bianchi**, già accettata.
+    <Frame>![Scheda laterale dell’iscrizione e schede di navigazione](/images/libro-soci/scheda/1.placeholder.svg)</Frame>
+  </Step>
+  <Step title="Individua i metadati dell'iscrizione">
+    Nella scheda iniziale cerca **Informazioni Iscrizione**. **Numero tessera** identifica la tessera, mentre **Tipologia tessera** ne descrive la tipologia: è distinta dal campo **Tipo iscrizione**.
+    La stessa area mostra **Iscritto dal**, **Scade il**, **Tipo iscrizione** e, per i soci, **Ruolo socio**.
+    In **Altre informazioni** trovi **Stato**, **Accettata/o il** e **Ritirata/o il**; più sotto trovi **Note** ed eventuali **Campi aggiuntivi**.
+    Rivedi questi dati per riconoscere l'iscrizione corretta prima di procedere. Nell'esempio modifichiamo soltanto i due campi della tessera.
+  </Step>
+  <Step title="Modifica numero e tipologia tessera">
+    Inserisci **42** in **Numero tessera** e **Tessera Aurora** in **Tipologia tessera**.
+    Il numero è un campo testuale; la validazione del modulo ammette lettere, cifre e il carattere di sottolineatura, senza spazi.
+    Usa i valori della tua iscrizione: quelli della guida sono dimostrativi.
+    Controlla i campi prima di premere **Salva**, che diventa disponibile quando ci sono modifiche.
+    <Frame>![Numero e tipologia tessera modificati prima del salvataggio](/images/libro-soci/scheda/2.placeholder.svg)</Frame>
+  </Step>
+  <Step title="Salva e controlla dopo il ricaricamento">
+    Premi **Salva** nella scheda e attendi il completamento del salvataggio.
+    Ricarica la pagina, torna in **Organizzazione → Iscrizioni** e premi nuovamente il nome della persona.
+    Controlla che **Numero tessera** mostri **42** e **Tipologia tessera** mostri **Tessera Aurora**.
+    Il nome rimane **Giulia Bianchi** e lo stato rimane **Accettata**.
+    <Frame>![Dati della tessera conservati dopo la riapertura della scheda](/images/libro-soci/scheda/3.placeholder.svg)</Frame>
+  </Step>
+  <Step title="Passa alla sezione che ti serve">
+    Nella barra delle schede puoi aprire **Certificato medico**, **Pagamenti** e **Documenti**.
+    Per le iscrizioni che comprendono il tesseramento sono presenti anche **Corsi e Abbonamenti**, **Carnet** e **Registro Presenze**.
+    [Segui la procedura per caricare il certificato e inserire la scadenza](/tutorials/come-gestire-certificati-medici#dal-profilo-dell-atleta).
+    Le azioni nelle altre sezioni hanno procedure proprie: il salvataggio dei dati della tessera conclude questa modifica.
+  </Step>
+</Steps>
 
-Per accedere alle informazioni anagrafiche di un socio, vai nella sezione `Libro Soci` e
-clicca sul nome del socio come mostrato nel video qui sotto.
+<Note>Questa procedura salva i metadati dell'iscrizione. La modifica dei dati personali della persona richiede la procedura dell'anagrafica. Un collaboratore in sola lettura può consultare la scheda, ma non dispone dell'azione di salvataggio.</Note>
 
-<iframe
-  src="https://drive.google.com/file/d/1Z_QpvvuLyKlVtv3pNT9_DSpd8e1QhpRt/preview?start=1&mute=1&showinfo=0&controls=0"
-  width="700"
-  height="395"
-    frameborder="0"
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
->
-
-</iframe>
+<Note>Bozza in attesa di prova: questi passaggi e le immagini devono essere confermati dalla cattura del flusso reale prima della pubblicazione.</Note>
 
 ## Iscrizioni con QR code
 
-Per raccogliere le iscrizioni online e in presenza, puoi utilizzare il **QR code**
-che trovi nella sezione `Libro Soci` cliccando sul pulsante `Condividi link iscrizioni`.
+Il QR code evita di digitare l'indirizzo del modulo. La persona lo legge con il proprio dispositivo e prosegue sul modulo online dell'associazione.
 
-Potrai condividere il **QR code** con i soci tramite:
+<Steps>
+  <Step title="Apri la condivisione">
+    Apri **Organizzazione → Iscrizioni**, entra nel **Libro Soci** e premi il pulsante di condivisione. Si apre **Condividi link iscrizioni**, con il QR code e l'indirizzo del modulo della tua associazione.
+    <Frame>![Segnaposto della finestra di condivisione del modulo iscrizioni](/images/libro-soci/libro-soci-4.placeholder.svg)</Frame>
+  </Step>
+  <Step title="Controlla il modulo collegato">
+    Premi **Apri** per aprire il modulo in una nuova scheda. Controlla il nome dell'associazione e le opzioni proposte prima di distribuire l'indirizzo.
+  </Step>
+  <Step title="Prepara il QR code">
+    Il pulsante **QR code** apre una finestra di stampa. Controlla l'anteprima e scegli la stampante o una destinazione disponibile nel tuo browser. Il QR code e il link puntano allo stesso modulo.
+  </Step>
+</Steps>
 
-1. Mail
-2. WhatsApp
-3. Copiando il link
-4. Stampandolo e mostrandolo in palestra
-
-<Frame height="100" caption="Esempio di QR code da condividere con i soci.">
-  <img src="/images/libro-soci/libro-soci-4.png" />
-</Frame>
+<Note>Stampa e scansione dipendono dal browser e dal dispositivo. Verifica una copia stampata prima di esporla. L'apertura del modulo non crea un'iscrizione e non la approva.</Note>
 
 ## Importa Soci da file
 
-Se già stai utilizzando un _gestionale_ o un file Excel o CSV con i soci, puoi importarli in modo intelligente in **Bakney**.
+L'importazione legge le righe di un foglio e le prepara come **Bozze**. Prima di creare le iscrizioni devi controllarle, correggere i dati mancanti e approvare quelle valide.
 
-Per importare i soci vai nella sezione `Libro Soci` e clicca sul pulsante `Importa`.
-Qui potrai trascinare il file Excel o CSV. Nel caso in cui il file non sia compatibile,
-oppure non sia stato possibile importare i soci, puoi scaricare un file di esempio.
+<Steps>
+  <Step title="Prepara un file leggibile">
+    Usa preferibilmente un file **XLSX** con una riga per persona e intestazioni chiare. Per un **CSV** usa il separatore **punto e virgola**. Mantieni codice fiscale e CAP come testo per evitare modifiche da parte del foglio di calcolo.
+  </Step>
+  <Step title="Collega le colonne">
+    Apri **Bozze** e avvia **Importa atleti**. Carica il file, controlla i collegamenti tra le sue colonne e i campi dell'applicazione, quindi completa gli eventuali valori comuni per residenza, indirizzo e CAP.
+    <Frame>![Segnaposto del collegamento delle colonne durante l'importazione](/images/faq/come-si-importano-dei-soci/1.placeholder.svg)</Frame>
+  </Step>
+  <Step title="Controlla le bozze">
+    Premi **Importa Atleti** e conferma **Continua**. Torna alle **Bozze**, controlla il numero di righe e apri quelle da correggere. L'approvazione, con scelta della tipologia e delle quote, è un passaggio successivo.
+  </Step>
+</Steps>
 
-Una volta caricato il file, potrai decidere quali colonne importare e come associarle
-alle informazioni anagrafiche dei soci su **Bakney**.
+[Segui la procedura completa](/faq/come-si-importano-dei-soci).
 
 #### Deduplicazione automatica durante l'importazione
 
-Per evitare la creazione di iscrizioni duplicate, il sistema controlla automaticamente ogni riga del file importato. Se trova una combinazione identica di **nome**, **cognome**, **codice fiscale** e **periodo di iscrizione** già presente nel libro soci, quella riga viene saltata.
+Il controllo delle iscrizioni duplicate viene eseguito durante la creazione o l'approvazione delle bozze. Cerca, nella stessa associazione, un'iscrizione non archiviata con **nome, cognome e codice fiscale corrispondenti**, senza distinguere maiuscole e minuscole, e un periodo che si sovrappone a quello controllato. Se presente, può entrare nel confronto anche la categoria personalizzata della persona.
 
-<Info>
-  Se stai importando lo stesso file due volte (ad esempio dopo una correzione), non verranno creati duplicati. Il sistema riconosce i soci già presenti e importa solo quelli nuovi.
-</Info>
+L'importazione del file, invece, prepara una bozza per ciascuna riga: ripetere il caricamento può creare nuove bozze anche per dati già caricati. Inoltre il controllo tiene conto della possibilità di rinnovo di un'iscrizione scaduta.
+
+<Warning>Non considerare l'importazione ripetuta una garanzia di assenza di doppioni. Un nome scritto diversamente, una diversa associazione, un'iscrizione archiviata o date diverse possono cambiare il risultato. Controlla le bozze e cerca la persona nell'elenco prima di approvarla.</Warning>
 
 ## Trasferimento dei Soci
 
-Se hai aggiunto un socio collegandolo al tuo account associazione e vuoi trasferirlo
-ad un altro account atleta, puoi farlo in modo semplice e veloce.
+Nell'interfaccia attuale la funzione si chiama **Dai accesso**. Serve a collegare un'iscrizione gestita dall'associazione all'account della persona; non sposta il socio in un'altra associazione.
 
-Ti basterà selezionare il socio cliccando sulla _checkbox_ a sinistra del nome e premere
-il pulsante `Trasferisci`.
+<Steps>
+  <Step title="Seleziona una sola iscrizione">
+    Nel **Libro Soci** o in **Tesserati**, seleziona la riga della persona. La funzione richiede una sola riga e controlla che l'iscrizione sia ancora collegata all'account che la gestisce.
+  </Step>
+  <Step title="Controlla il destinatario">
+    Premi **Dai accesso**. Inserisci l'email o l'identificativo richiesto nella finestra. Se viene trovato un account esistente, controlla nome e cognome; altrimenti l'applicazione propone la creazione di un account dall'email.
+  </Step>
+  <Step title="Conferma consapevolmente">
+    Ricontrolla il destinatario prima di premere **Dai accesso**. Se i dati non sono corretti, premi **Annulla**. La conferma cambia il collegamento dell'iscrizione e dell'anagrafica; se viene creato un nuovo account è previsto anche un messaggio di benvenuto.
+  </Step>
+</Steps>
 
-Se nell'anagrafica del socio è già stata inserita una mail, il form di trasferimento
-sarà già compilato. In caso contrario, dovrai inserire la mail fornita dal socio oppure,
-se il socio ha già un account Bakney, puoi inserire il suo **username**.
+<Warning>La conferma attuale viene accettata direttamente dal servizio, senza attendere una successiva accettazione del destinatario. Il servizio controlla anche la titolarità dell'iscrizione: un permesso di modifica da solo non garantisce che ogni riga sia trasferibile.</Warning>
 
 #### Scadenza delle richieste di trasferimento
 
-Ogni richiesta di trasferimento ha una validità di **30 giorni**. Se il destinatario non completa il trasferimento entro questo periodo, la richiesta scade automaticamente e dovrà essere inviata nuovamente.
+La procedura attuale di **Dai accesso** completa direttamente il collegamento e registra il trasferimento come accettato. Non è corretto descriverla come una richiesta che il destinatario deve approvare entro **30 giorni**.
 
-<Warning>
-  Controlla che il destinatario del trasferimento accetti la richiesta entro 30 giorni, altrimenti dovrai ripetere l'operazione.
-</Warning>
+Il servizio conserva anche il controllo di eventuali vecchie richieste in attesa: una richiesta già scaduta viene marcata come scaduta, mentre una richiesta ancora in attesa può impedire una nuova operazione sulla stessa iscrizione.
+
+<Note>Se **Dai accesso** segnala una richiesta già esistente, controlla quale account gestisce ora la persona e chiedi assistenza riportando il messaggio mostrato. Evita di ripetere la conferma con email diverse per tentare di sbloccare la scheda.</Note>
 
 ## Assegnazione di Tag ai Soci
 
-Per organizzare meglio le iscrizioni, e soprattutto per poter sfruttare al meglio
-le funzioni di automazione di **Bakney**, puoi assegnare dei **tag** ai soci.
+I tag sono etichette per organizzare e filtrare le iscrizioni. La selezione applicata può assegnare i tag spuntati e rimuovere quelli lasciati senza spunta dalle righe selezionate.
 
-Puoi sfruttare i tag per:
+<Steps>
+  <Step title="Seleziona le persone nell'elenco Tesserati">
+    Apri **Organizzazione → Iscrizioni → Tesserati**, cerca le persone e seleziona le righe. Per modificare i tag delle iscrizioni serve il permesso di modifica.
+  </Step>
+  <Step title="Prepara l'insieme di tag">
+    Apri **Assegna Tag**. Spunta tutte le etichette che le persone selezionate devono mantenere. Se vuoi aggiungere un tag senza perdere quelli già presenti, controlla anche le altre spunte.
+  </Step>
+  <Step title="Applica e ricontrolla">
+    Premi **APPLICA**. Controlla il risultato nelle righe e ricarica l'elenco per verificare le etichette salvate. Per gruppi con tag diversi, lavora su selezioni più piccole.
+  </Step>
+</Steps>
 
-1. Assegnare i soci a squadre, gruppi o categorie
-2. Assegnare un tag identificativo per poter creare delle liste da utilizzare nelle automazioni
-
-Potrai assegnare più di un tag ad ogni socio; per farlo, vai nella sezione `Libro Soci`
-seleziona i soci cliccando sulla _checkbox_ a sinistra del nome e premi il pulsante
-`Assegna Tag`.
-
-Qui potrai scegliere se assegnare un tag esistente oppure crearne uno nuovo.
-
-<Tip>
-  Ogni tag assegnato ai soci che non è stato selezionato verrà eliminato.
-</Tip>
+<Note>Un tag non iscrive automaticamente a un corso e non assegna permessi di accesso. È distinto dal ruolo del socio e dalla tipologia dell'iscrizione.</Note>
 
 ### Eliminare un Tag
 
-Per eliminare un tag, seleziona i soci cliccando sulla _checkbox_ a sinistra del nome
-e premi il pulsante `Assegna Tag`. A questo punto seleziona solo il tag che vuoi
-che siano assegnati ai soci e premi il pulsante `Applica`.
+Puoi togliere un tag da alcune iscrizioni oppure eliminare l'etichetta dall'associazione. Scegli l'operazione in base al risultato desiderato.
+
+<Steps>
+  <Step title="Togli il tag solo dalle persone selezionate">
+    In **Tesserati** seleziona le righe, apri **Assegna Tag** e togli la spunta al tag da rimuovere. Mantieni spuntati gli altri tag da conservare, quindi premi **APPLICA** e controlla le righe aggiornate.
+  </Step>
+  <Step title="Elimina l'etichetta dall'associazione">
+    Nel menu dei tag, il pulsante di eliminazione accanto all'etichetta apre **Vuoi eliminare il tag?**. Premi **Elimina** soltanto se il tag non deve più essere disponibile; **Annulla** conserva l'etichetta.
+  </Step>
+</Steps>
+
+<Warning>L'eliminazione dell'etichetta ha un effetto diverso dalla rimozione su alcune righe. Se vuoi cambiare soltanto un gruppo di persone, usa le spunte e **APPLICA**.</Warning>
 
 ## Risorse correlate
 
-<CardGroup cols={2}>
-  <Card title="Come creare un socio" icon="user-plus" href="/faq/come-si-crea-un-socio">
-    Guida passo passo per creare un nuovo socio nella tua associazione.
-  </Card>
-  <Card title="Importare soci da file" icon="file-import" href="/faq/come-si-importano-dei-soci">
-    Scopri come importare i soci da un file Excel o CSV.
-  </Card>
-  <Card title="Condividere il link iscrizioni" icon="link" href="/faq/come-condividere-il-link-iscrizioni">
-    Come condividere il link e il QR code per le iscrizioni online.
-  </Card>
-  <Card title="Gestire i certificati medici" icon="file-medical" href="/tutorials/come-gestire-certificati-medici">
-    Tutorial sulla gestione dei certificati medici degli atleti.
-  </Card>
-</CardGroup>
+- [Creare un socio, un socio tesserato o un tesserato](/faq/come-si-crea-un-socio): dati iniziali, quote e controllo della richiesta.
+- [Importare soci da file](/faq/come-si-importano-dei-soci): collegamento delle colonne, correzione delle bozze e approvazione.
+- [Condividere il link delle iscrizioni](/faq/come-condividere-il-link-iscrizioni): copia del link e apertura del modulo.
+- [Ricerca e filtri degli atleti](/faq/come-usare-ricerca-filtri-atleti): periodo, stato, tag e vista corrente.
+- [Gestire i certificati medici](/tutorials/come-gestire-certificati-medici): file, data di scadenza, promemoria e controlli nella bacheca.
+
+Le schede **Libro Soci**, **Tesserati**, **Bozze** e **Archivio** hanno scopi diversi. Se una persona non compare, controlla prima la scheda aperta e i filtri attivi.
+

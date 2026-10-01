@@ -5,168 +5,167 @@ description: "In questa sezione troverai tutte le informazioni necessarie per la
 
 ## Introduzione
 
-Il registro presenze è lo strumento di Bakney Sport che ti permette di tenere traccia della partecipazione degli atleti alle lezioni di ogni corso. È strettamente collegato al **calendario delle lezioni** del corso: ogni data inserita nel calendario genera automaticamente una riga nel registro presenze.
+<Note>Bozza in attesa di prova: i passaggi e le immagini previste devono essere verificati con una cattura del flusso reale prima della pubblicazione.</Note>
 
-Il registro presenze si integra con diverse funzionalità di Bakney:
+Il registro raccoglie le presenze alle lezioni del corso. Prima iscrivi il tesserato, poi crea una lezione nel calendario e apri **Presenze**.
 
-- **Corsi**: ogni corso ha il proprio registro presenze dedicato
-- **Carnet**: quando segni una presenza, il sistema scala automaticamente una lezione dal carnet dell'atleta
-- **Area personale dell'atleta**: gli atleti possono consultare il proprio storico presenze e segnalare assenze previste
-
-<CardGroup cols={2}>
-  <Card title="Presenze manuali" icon="hand-pointer" href="#segnare-le-presenze-manualmente">
-    Come segnare le presenze manualmente per ogni lezione.
-  </Card>
-  <Card title="Presenze automatiche" icon="robot" href="#presenze-automatiche-proteams">
-    Come funziona il sistema automatico di registrazione presenze.
-  </Card>
-  <Card title="Interazione con i carnet" icon="ticket" href="#interazione-con-i-carnet">
-    Come le presenze si collegano allo scalamento delle lezioni dai carnet.
-  </Card>
-  <Card title="Sincronizzazione calendario" icon="calendar" href="#sincronizzazione-con-il-calendario">
-    Come il registro si aggiorna in base al calendario delle lezioni.
-  </Card>
-</CardGroup>
+<Steps>
+<Step title="Aggiungi la lezione al calendario">
+Apri **Ginnastica per tutti** e premi **Calendario**.
+Nel mese visualizzato clicca sul giorno della lezione. In **Crea lezione**, compila **Nome**, **Inizio** e **Fine**; l'istruttore è facoltativo.
+Nell'esempio inseriamo **Lezione dimostrativa di ginnastica**, dalle **08:00** alle **09:00** nella data del registro dimostrativo.
+<Frame>![Lezione singola con nome e orario nel modulo Crea lezione](/images/registro-presenze/carnet-manuale/11.placeholder.svg)</Frame>
+Premi **Crea**. Il salvataggio pubblica il calendario e rende disponibile la nuova riga nelle presenze.
+<Note>Questa versione salva direttamente la lezione quando premi Crea. Per la lezione singola dell'esempio non serve un ulteriore comando Salva e Aggiorna.</Note>
+</Step>
+<Step title="Apri la scheda Presenze">
+Dalla pagina del corso premi **Presenze**.
+Nel **Registro delle presenze** trova **Lezione dimostrativa di ginnastica**, con data e orario.
+<Frame>![Nuova lezione nel Registro delle presenze](/images/registro-presenze/carnet-manuale/12.placeholder.svg)</Frame>
+Premi il pulsante blu con l'icona della lista nella riga della lezione per aprire **Modifica Presenze**.
+<Note>La navigazione attuale usa le schede Iscritti al corso, Calendario e Presenze. Non è necessario cercare il vecchio pulsante Mostra registro.</Note>
+</Step>
+</Steps>
 
 ## Segnare le presenze manualmente
 
-Per segnare le presenze degli atleti alle lezioni del corso, vai nella pagina del corso e premi su `Mostra registro` per rendere visibile il registro presenze.
+<Note>Bozza in attesa di prova: i passaggi e le immagini previste devono essere verificati con una cattura del flusso reale prima della pubblicazione.</Note>
 
 <Steps>
-  <Step title="Apri il registro presenze">
-    Vai nella sezione **Corsi**, seleziona il corso e premi su `Mostra registro`.
-  </Step>
-  <Step title="Seleziona la lezione">
-    Clicca sui due puntini a destra della lezione e premi su **Aggiorna presenze**.
-  </Step>
-  <Step title="Segna le presenze">
-    Per ogni atleta, attiva lo switch per segnarlo come **presente** o lascialo disattivato per segnarlo come **assente**.
-  </Step>
+<Step title="Apri la scheda Presenze">
+Dalla pagina del corso premi **Presenze**.
+Nel **Registro delle presenze** trova **Lezione dimostrativa di ginnastica**, con data e orario.
+<Frame>![Nuova lezione nel Registro delle presenze](/images/registro-presenze/carnet-manuale/12.placeholder.svg)</Frame>
+Premi il pulsante blu con l'icona della lista nella riga della lezione per aprire **Modifica Presenze**.
+<Note>La navigazione attuale usa le schede Iscritti al corso, Calendario e Presenze. Non è necessario cercare il vecchio pulsante Mostra registro.</Note>
+</Step>
+<Step title="Segna Giulia come presente">
+In **Modifica Presenze**, cerca l'atleta se la lista è lunga usando **Ricerca atleta**.
+Trova **Bianchi Giulia** e attiva il suo interruttore. Ogni cambio viene salvato subito; attendi la conferma prima di chiudere.
+<Frame>![Presenza di Giulia attiva nella lezione](/images/registro-presenze/carnet-manuale/13.placeholder.svg)</Frame>
+Premi **Chiudi**, poi apri **Carnet → Carnet ginnastica 5 lezioni → Utilizzo**.
+La riga di Giulia mostra **4/5**: la presenza ha consumato una sola lezione. Il conteggio rimane dopo il ricaricamento.
+<Frame>![Conteggio conservato di quattro lezioni disponibili su cinque](/images/registro-presenze/carnet-manuale/14.placeholder.svg)</Frame>
+</Step>
 </Steps>
 
-<Tip>
-  Puoi aggiornare le presenze in qualsiasi momento, anche dopo la data della lezione. Le modifiche vengono salvate immediatamente.
-</Tip>
+<Note>Un collaboratore con il solo accesso in lettura può consultare corso, carnet e presenze. Per iscrivere un tesserato, creare o assegnare un carnet, modificare il calendario o segnare presenze servono i permessi delle singole operazioni.</Note>
 
 ## Presenze automatiche (Pro/Teams)
 
-Bakney Sport, attivando l'apposita opzione nella sezione **Impostazioni**, ti permette di gestire il
-registro presenze in modo automatico. Questa funzionalità è disponibile per i piani **Pro** e **Teams**.
+<Note>Bozza in attesa di prova: i passaggi e le immagini previste devono essere verificati con una cattura del flusso reale prima della pubblicazione.</Note>
+
+Le presenze automatiche e le assenze previste dell’area atleta richiedono una prova dedicata. La procedura qui illustrata registra e corregge manualmente una presenza; non dimostra l’esecuzione del processo automatico.
 
 ### Come funziona
 
-Il sistema di presenze automatiche segna tutti gli atleti iscritti al corso come **presenti** nel giorno della lezione. Il processo avviene automaticamente:
+<Note>Bozza in attesa di prova: i passaggi e le immagini previste devono essere verificati con una cattura del flusso reale prima della pubblicazione.</Note>
 
-1. Il giorno della lezione, il sistema verifica tutte le lezioni in programma
-2. Per ogni lezione, tutti gli atleti iscritti al corso vengono segnati come presenti
-3. Gli atleti che hanno segnalato un'assenza prevista vengono esclusi
-
-<Note>
-  Una volta che una lezione è stata marcata automaticamente, il sistema non la riprocessa. Questo avviene grazie a un flag interno che impedisce la doppia marcatura. Se hai bisogno di modificare le presenze dopo la marcatura automatica, puoi farlo manualmente.
-</Note>
+Le presenze automatiche e le assenze previste dell’area atleta richiedono una prova dedicata. La procedura qui illustrata registra e corregge manualmente una presenza; non dimostra l’esecuzione del processo automatico.
 
 ### Segnalazione assenze da parte degli atleti
 
-Ogni atleta iscritto al corso può accedere alla propria area personale su Bakney Sport e segnalare in anticipo che non parteciperà a una determinata lezione. Quando il sistema processa le presenze automatiche, gli atleti che hanno segnalato un'assenza prevista vengono **automaticamente esclusi** e non vengono segnati come presenti.
+<Note>Bozza in attesa di prova: i passaggi e le immagini previste devono essere verificati con una cattura del flusso reale prima della pubblicazione.</Note>
 
-<Info>
-  Le assenze previste vengono registrate separatamente nel sistema. Puoi visualizzarle dalla pagina del registro presenze, dove vedrai la lista degli atleti che hanno segnalato la propria assenza per ogni lezione.
-</Info>
+Le presenze automatiche e le assenze previste dell’area atleta richiedono una prova dedicata. La procedura qui illustrata registra e corregge manualmente una presenza; non dimostra l’esecuzione del processo automatico.
 
 ### Attivare le presenze automatiche
 
-Per attivare questa funzionalità:
+<Note>Bozza in attesa di prova: i passaggi e le immagini previste devono essere verificati con una cattura del flusso reale prima della pubblicazione.</Note>
 
-<Steps>
-  <Step title="Vai nelle Impostazioni">
-    Accedi alla sezione **Impostazioni** del tuo account.
-  </Step>
-  <Step title="Abilita la funzione">
-    Attiva l'opzione **Segna Presenze Automaticamente**.
-  </Step>
-</Steps>
-
-<Warning>
-  Le presenze automatiche funzionano solo per i corsi con stato **Visibile** (attivo). I corsi nascosti o interni non vengono processati dal sistema automatico.
-</Warning>
+Il calendario della lezione e l’opzione **Segna Presenze Automaticamente** sono due impostazioni distinte. La pubblicazione del calendario, da sola, non dimostra che la registrazione automatica sia attiva. L’attivazione nelle impostazioni e il risultato del processo automatico richiedono un esempio dedicato.
 
 ## Interazione con i carnet
 
-Quando un atleta partecipa a un corso con carnet, il registro presenze si integra automaticamente con il sistema dei carnet. Ecco come funziona:
+<Note>Bozza in attesa di prova: i passaggi e le immagini previste devono essere verificati con una cattura del flusso reale prima della pubblicazione.</Note>
+
+<Steps>
+<Step title="Incassa il pagamento del carnet">
+Apri **Pagamenti** e trova il pagamento di **50,00 €** intestato a Giulia, creato dall'assegnazione.
+Premi il pulsante con il suggerimento **Segna come pagato**. In **Incassare il pagamento?**, indica **Data Incasso** e premi **Incassa**.
+Nell'esempio togliamo **Genera ricevuta** e lasciamo **Invia email** disattivato: il pagamento viene incassato senza produrre subito il PDF o inviare un messaggio.
+<Frame>![Incasso del pagamento del carnet senza PDF immediato o email](/images/registro-presenze/carnet-manuale/10.placeholder.svg)</Frame>
+<Note>Il pagamento della quota corso da 120,00 € resta separato e in attesa. Controlla importo e intestatario prima di confermare l'incasso del carnet.</Note>
+</Step>
+<Step title="Segna Giulia come presente">
+In **Modifica Presenze**, cerca l'atleta se la lista è lunga usando **Ricerca atleta**.
+Trova **Bianchi Giulia** e attiva il suo interruttore. Ogni cambio viene salvato subito; attendi la conferma prima di chiudere.
+<Frame>![Presenza di Giulia attiva nella lezione](/images/registro-presenze/carnet-manuale/13.placeholder.svg)</Frame>
+Premi **Chiudi**, poi apri **Carnet → Carnet ginnastica 5 lezioni → Utilizzo**.
+La riga di Giulia mostra **4/5**: la presenza ha consumato una sola lezione. Il conteggio rimane dopo il ricaricamento.
+<Frame>![Conteggio conservato di quattro lezioni disponibili su cinque](/images/registro-presenze/carnet-manuale/14.placeholder.svg)</Frame>
+</Step>
+<Step title="Correggi una presenza e controlla il carnet">
+Riapri **Ginnastica per tutti → Presenze** e la stessa lezione con il pulsante blu della lista.
+In **Modifica Presenze**, disattiva l'interruttore di **Bianchi Giulia**. Attendi il salvataggio e premi **Chiudi**.
+Torna al carnet nella scheda **Utilizzo**: la riga torna a **5/5** e rimane così anche dopo il ricaricamento.
+<Frame>![Cinque lezioni ripristinate dopo la rimozione della presenza](/images/registro-presenze/carnet-manuale/15.placeholder.svg)</Frame>
+<Note>Disattivare una presenza corregge la partecipazione alla lezione e restituisce la lezione usata. Eliminare un'intera data dal registro è un'altra operazione.</Note>
+</Step>
+</Steps>
 
 ### Scalamento alla presenza
 
-Quando segni un atleta come presente (manualmente o tramite il sistema automatico), il sistema:
+<Note>Bozza in attesa di prova: i passaggi e le immagini previste devono essere verificati con una cattura del flusso reale prima della pubblicazione.</Note>
 
-1. Verifica se l'atleta ha un carnet associato a quel corso
-2. Se l'atleta ha più carnet attivi, seleziona quello con il **minor numero di lezioni rimaste**
-3. Scala una lezione dal carnet selezionato
-4. Registra la lezione nello storico del carnet (data, corso e titolo della lezione)
+<Steps>
+<Step title="Segna Giulia come presente">
+In **Modifica Presenze**, cerca l'atleta se la lista è lunga usando **Ricerca atleta**.
+Trova **Bianchi Giulia** e attiva il suo interruttore. Ogni cambio viene salvato subito; attendi la conferma prima di chiudere.
+<Frame>![Presenza di Giulia attiva nella lezione](/images/registro-presenze/carnet-manuale/13.placeholder.svg)</Frame>
+Premi **Chiudi**, poi apri **Carnet → Carnet ginnastica 5 lezioni → Utilizzo**.
+La riga di Giulia mostra **4/5**: la presenza ha consumato una sola lezione. Il conteggio rimane dopo il ricaricamento.
+<Frame>![Conteggio conservato di quattro lezioni disponibili su cinque](/images/registro-presenze/carnet-manuale/14.placeholder.svg)</Frame>
+</Step>
+</Steps>
 
 ### Restituzione alla rimozione
 
-Se rimuovi una presenza (ad esempio perché segnata per errore), il sistema **restituisce** automaticamente la lezione al carnet. La lezione viene cercata nello storico del carnet e, una volta trovata, viene rimossa e il contatore delle lezioni rimaste viene incrementato.
+<Note>Bozza in attesa di prova: i passaggi e le immagini previste devono essere verificati con una cattura del flusso reale prima della pubblicazione.</Note>
 
-<Tip>
-  Se hai commesso un errore nel segnare le presenze, puoi correggerlo in qualsiasi momento. Il sistema aggiorna automaticamente i carnet di conseguenza.
-</Tip>
+<Steps>
+<Step title="Correggi una presenza e controlla il carnet">
+Riapri **Ginnastica per tutti → Presenze** e la stessa lezione con il pulsante blu della lista.
+In **Modifica Presenze**, disattiva l'interruttore di **Bianchi Giulia**. Attendi il salvataggio e premi **Chiudi**.
+Torna al carnet nella scheda **Utilizzo**: la riga torna a **5/5** e rimane così anche dopo il ricaricamento.
+<Frame>![Cinque lezioni ripristinate dopo la rimozione della presenza](/images/registro-presenze/carnet-manuale/15.placeholder.svg)</Frame>
+<Note>Disattivare una presenza corregge la partecipazione alla lezione e restituisce la lezione usata. Eliminare un'intera data dal registro è un'altra operazione.</Note>
+</Step>
+</Steps>
 
 ### Casi particolari con i carnet
 
-| Situazione | Comportamento |
-| --- | --- |
-| Il carnet ha 0 lezioni rimaste | L'atleta **non** viene segnato come presente automaticamente. Dovrai ricaricare il carnet. |
-| Il carnet non è stato pagato | L'atleta **non** viene segnato come presente automaticamente finché il pagamento non viene completato. |
-| L'atleta ha più carnet attivi | Viene scalata la lezione dal carnet con meno lezioni rimaste. |
-| L'atleta non ha carnet | La presenza viene registrata normalmente senza alcuno scalamento. |
+<Note>Bozza in attesa di prova: i passaggi e le immagini previste devono essere verificati con una cattura del flusso reale prima della pubblicazione.</Note>
+
+L’esempio usa un solo carnet pagato, non esaurito e collegato a un solo corso. Carnet non pagati, esauriti, disabilitati o concorrenti e presenze senza carnet richiedono prove separate. Se un’operazione è rifiutata, controlla pagamento e lezioni disponibili prima di riprovare.
 
 ## Eliminare una lezione dal registro
 
-Se una lezione non si è svolta (ad esempio per chiusura della struttura o maltempo), puoi eliminare quella data dal registro presenze:
+<Note>Bozza in attesa di prova: i passaggi e le immagini previste devono essere verificati con una cattura del flusso reale prima della pubblicazione.</Note>
 
-<Steps>
-  <Step title="Apri il registro presenze">
-    Vai nella pagina del corso e premi su `Mostra registro`.
-  </Step>
-  <Step title="Seleziona la lezione">
-    Clicca sui due puntini a destra della lezione da eliminare.
-  </Step>
-  <Step title="Elimina la data">
-    Premi su **Elimina data dal registro**. La lezione verrà rimossa dal registro.
-  </Step>
-</Steps>
-
-<Warning>
-  L'eliminazione di una data dal registro è un'operazione definitiva. Se avevi già segnato delle presenze per quella lezione, le presenze verranno perse. Nel caso di corsi con carnet, le lezioni eventualmente scalate non verranno restituite automaticamente: dovrai farlo manualmente.
-</Warning>
+Il registro dispone di un pulsante rosso con il cestino accanto alla lezione. La conferma **Elimina** rimuove la data e le assenze segnalate. La cancellazione non esegue la correzione delle presenze: prima di usarla su una lezione con carnet, controlla gli utilizzi. Questa cancellazione richiede ancora un esempio dedicato.
 
 ## Sincronizzazione con il calendario
 
-Il registro presenze e il calendario delle lezioni sono collegati. Quando aggiorni il calendario di un corso (aggiungendo, modificando o rimuovendo lezioni), le date del registro presenze vengono aggiornate di conseguenza.
+<Note>Bozza in attesa di prova: i passaggi e le immagini previste devono essere verificati con una cattura del flusso reale prima della pubblicazione.</Note>
+
+La creazione della lezione singola è illustrata nel calendario e nel registro. Lo spostamento di date, la cancellazione di eventi e la conservazione di presenze già registrate richiedono esempi separati; non applicare a queste operazioni le conclusioni dell’esempio di creazione.
 
 ### Come funziona la sincronizzazione
 
-- **Nuova lezione nel calendario**: viene creata automaticamente una nuova riga nel registro presenze
-- **Modifica di una lezione**: la data e il titolo vengono aggiornati anche nel registro
-- **Eliminazione di una lezione dal calendario**: la riga corrispondente viene rimossa dal registro
+<Note>Bozza in attesa di prova: i passaggi e le immagini previste devono essere verificati con una cattura del flusso reale prima della pubblicazione.</Note>
 
-Per applicare le modifiche al calendario, ricorda di premere **Salva e Aggiorna** dopo aver terminato le modifiche.
-
-<Note>
-  Le presenze già registrate per una data modificata vengono mantenute. Se ad esempio sposti una lezione dal lunedì al martedì, le presenze già segnate restano associate a quella lezione.
-</Note>
+La creazione della lezione singola è illustrata nel calendario e nel registro. Lo spostamento di date, la cancellazione di eventi e la conservazione di presenze già registrate richiedono esempi separati; non applicare a queste operazioni le conclusioni dell’esempio di creazione.
 
 ## Consultare lo storico presenze di un atleta
 
-Puoi consultare lo storico delle presenze di un singolo atleta dalla sua **Anagrafica Smart**. Vai nella sezione `Libro Soci`, clicca sul nome del socio e seleziona la tab **Registro Presenze**. Qui troverai l'elenco completo delle lezioni a cui l'atleta ha partecipato, con le statistiche degli ultimi 30 giorni.
+<Note>Bozza in attesa di prova: i passaggi e le immagini previste devono essere verificati con una cattura del flusso reale prima della pubblicazione.</Note>
+
+Lo storico personale delle presenze richiede una verifica nella scheda del tesserato. La procedura di questa pagina consulta il registro del corso e il conteggio del carnet; non illustra ancora la scheda personale o le statistiche degli ultimi 30 giorni.
 
 ## Risorse correlate
 
-<CardGroup cols={2}>
-  <Card title="Registro presenze e carnet" icon="clipboard-list" href="/tutorials/come-gestire-registro-presenze-carnet">
-    Tutorial su come gestire il registro presenze insieme ai carnet lezioni.
-  </Card>
-  <Card title="Carnet lezioni" icon="ticket" href="/docs/carnet">
-    Scopri come funzionano i carnet di lezioni prepagate e come si integrano con le presenze.
-  </Card>
-</CardGroup>
+<Note>Bozza in attesa di prova: i passaggi e le immagini previste devono essere verificati con una cattura del flusso reale prima della pubblicazione.</Note>
+
+<CardGroup cols={2}><Card title="Registro presenze e carnet" icon="clipboard-list" href="/tutorials/come-gestire-registro-presenze-carnet">Segui il tutorial per iscrivere l’atleta, assegnare il carnet, segnare e correggere una presenza.</Card><Card title="Carnet" icon="ticket" href="/docs/carnet">Consulta creazione, assegnazione e conteggio delle lezioni.</Card></CardGroup>
+

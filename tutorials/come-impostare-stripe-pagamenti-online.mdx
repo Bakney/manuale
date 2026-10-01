@@ -5,138 +5,175 @@ description: "Guida passo-passo per configurare Stripe e iniziare a ricevere pag
 
 # Indice
 
-In questa guida imparerai come:
+Questa guida riguarda i pagamenti dei tesserati nell’installazione **self-hosted**, con account Stripe diretto. Il precedente percorso **Configura Stripe** tramite Stripe Connect non è quello attivo qui.
 
-<Steps>
-  <Step title="Prerequisiti">
-    Cosa ti serve per iniziare a ricevere pagamenti online.
-  </Step>
-  <Step title="Collegare il tuo account Stripe">
-    Come collegare Stripe a Bakney passo dopo passo.
-  </Step>
-  <Step title="Attivare i pagamenti online">
-    Come abilitare i pagamenti online nelle impostazioni dell'associazione.
-  </Step>
-  <Step title="Metodi di pagamento disponibili">
-    Quali metodi di pagamento puoi offrire ai tuoi atleti.
-  </Step>
-  <Step title="Come pagano gli atleti">
-    Il flusso di pagamento dal punto di vista dell'atleta.
-  </Step>
-  <Step title="Monitorare i pagamenti Stripe">
-    Come controllare lo stato dei pagamenti online ricevuti.
-  </Step>
-</Steps>
+- [Prerequisiti](#prerequisiti): account corretto, autorizzazioni e ambiente di prova.
+- [Collegare il tuo account Stripe](#collegare-il-tuo-account-stripe): configurazione dell’istanza.
+- [Attivare i pagamenti online](#attivare-i-pagamenti-online): opzione dell’associazione.
+- [Come pagano gli atleti](#come-pagano-gli-atleti): percorso della quota e controlli dell’esito.
+- [Monitorare i pagamenti Stripe](#monitorare-i-pagamenti-stripe): confronto tra registrazioni applicative e servizio esterno.
+
+Le procedure restano da esercitare; il servizio esterno, le commissioni e gli accrediti richiedono verifiche separate.
 
 # Prerequisiti
 
-Prima di iniziare, assicurati di avere:
+<Warning>Questa sezione richiede verifiche esterne del servizio, delle condizioni applicabili o della consegna. Non documenta un’operazione esterna già eseguita.</Warning>
 
-- Un **account Stripe** attivo. Se non ne hai ancora uno, puoi crearlo gratuitamente su [stripe.com](https://stripe.com)
-- I **dati della tua associazione** (codice fiscale, indirizzo, dati del rappresentante legale) che verranno richiesti durante la configurazione di Stripe
+Per configurare l’integrazione servono il **proprietario dell’installazione o un amministratore autorizzato** e un account Stripe che il gestore può amministrare. Un collaboratore ordinario non deve ricevere le credenziali per svolgere la normale gestione delle quote.
 
-<Info>
-    La creazione dell'account Stripe e la verifica dei dati possono richiedere qualche giorno. Ti consigliamo di iniziare questo processo con anticipo rispetto a quando vorrai attivare i pagamenti online.
-</Info>
+| Prima di iniziare | Da verificare |
+| --- | --- |
+| Account e ambiente | Account dell’istanza e scelta tra prova e uso reale |
+| Credenziali | Chiave pubblica e segreta appartenenti allo stesso ambiente |
+| Aggiornamento degli incassi | Firma e destinazione del webhook dell’account corretto |
+| Quote applicative | Associazione, destinatario e importi di una prova controllata |
+| Condizioni del servizio | Abilitazione dell’account, metodi, commissioni e accrediti |
+
+Il codice dell’applicazione non dimostra che l’account esterno sia già operativo. Concorda con il gestore una prova senza usare quote reali e non condividere chiavi segrete o firma del webhook in chat, email e schermate.
 
 # Collegare il tuo account Stripe
 
-Per collegare Stripe a Bakney:
+<Note>Procedura ancora da verificare in browser, compresi risultato e riapertura. I comandi descritti sono presenti nell’applicazione.</Note>
 
-1. Vai in **Impostazioni > Pagamenti Online**
-2. Clicca su **Collega Stripe**
-3. Verrai reindirizzato alla pagina di configurazione di Stripe
-4. Se hai già un account Stripe, accedi con le tue credenziali. Altrimenti, segui la procedura guidata per crearne uno nuovo
-5. Completa tutti i passaggi richiesti da Stripe (dati dell'associazione, dati bancari per gli accrediti, ecc.)
-6. Al termine della configurazione, verrai reindirizzato a Bakney
+L’installazione usa **Stripe diretto**. Le vecchie funzioni di apertura e completamento dell’onboarding Connect risultano disabilitate; non seguire il precedente percorso come procedura per questa istanza.
 
-<Note>
-    Stripe richiede la tipologia di organizzazione **no-profit** per le associazioni sportive. Questo viene preimpostato automaticamente da Bakney durante la procedura di collegamento.
-</Note>
+<Steps>
+  <Step title="Apri la gestione dell’istanza">
+    Con l’account autorizzato vai in **Profilo > Self Instance**, poi **Integrazioni**. Apri la scheda **Stripe**.
+  </Step>
+  <Step title="Prepara le credenziali corrette">
+    Controlla l’origine della configurazione. La scheda offre **Chiave pubblica Stripe**, **Chiave segreta Stripe** e **Firma webhook Stripe**. Usa i valori dell’account e dell’ambiente concordati con il gestore.
+  </Step>
+  <Step title="Abilita e salva">
+    Attiva **Abilita Stripe** e premi **Salva Stripe**. Le chiavi pubblica e segreta devono appartenere allo stesso ambiente; per l’abilitazione servono anche gli altri campi richiesti. Se una credenziale è già configurata, lasciarla vuota può conservarla: la rimozione ha un comando distinto.
+  </Step>
+  <Step title="Riapri e controlla">
+    Dopo la conferma riapri la scheda e controlla stato, origine e presenza delle credenziali. Non inserire o mostrare valori reali nelle immagini della procedura.
+  </Step>
+</Steps>
+
+<Frame caption="Segnaposto FullHD: scheda Stripe nelle integrazioni dell’istanza, segreti nascosti. Procedura ancora da verificare.">
+  <img src="/images/course-payment-additional/stripe-instance-pending.svg" alt="Segnaposto FullHD: scheda Stripe nelle integrazioni dell’istanza, segreti nascosti" />
+</Frame>
+
+<Note>Salvare le impostazioni non esegue un pagamento e non prova l’operatività del webhook. Configurazione nel portale Stripe e prova della transazione richiedono verifiche esterne.</Note>
 
 ## Verificare il collegamento
 
-Dopo aver completato la procedura:
+<Warning>Questa sezione richiede verifiche esterne del servizio, delle condizioni applicabili o della consegna. Non documenta un’operazione esterna già eseguita.</Warning>
 
-1. Torna in **Impostazioni > Pagamenti Online**
-2. Vedrai lo stato del collegamento con Stripe
-3. Se tutto è andato a buon fine, lo stato sarà **Collegato**
+La scheda offre una verifica in lettura delle impostazioni salvate. Questo controllo è distinto da un incasso di prova e dal controllo della notifica di esito.
 
-Se il collegamento non è andato a buon fine, puoi ripetere la procedura cliccando nuovamente su **Collega Stripe**. Il sistema verificherà lo stato del tuo account Stripe e ti guiderà verso il completamento dei passaggi mancanti.
+<Steps>
+  <Step title="Salva prima della verifica">
+    In **Self Instance > Integrazioni > Stripe**, salva o annulla le modifiche aperte. La verifica richiede l’integrazione abilitata.
+  </Step>
+  <Step title="Esegui il controllo disponibile">
+    Premi **Verifica Stripe** e attendi il risultato mostrato. Se la configurazione cambia in un’altra sessione, ricarica prima di ripetere.
+  </Step>
+  <Step title="Verifica il percorso completo con il gestore">
+    Per confermare il funzionamento serve una transazione di prova nell’ambiente concordato, il suo esito sul servizio e l’aggiornamento del pagamento nell’applicazione. Non basta il controllo in lettura.
+  </Step>
+</Steps>
+
+La voce **Stripe Configurato** nella pagina **Pagamenti Stripe** riguarda la disponibilità della chiave pubblica nell’interfaccia: da sola non certifica chiave segreta, webhook, incasso o accredito. La prova esterna non è stata eseguita per questa guida.
 
 # Attivare i pagamenti online
 
-Una volta collegato Stripe, devi attivare i pagamenti online nelle impostazioni generali:
+<Note>Procedura ancora da verificare in browser, compresi risultato e riapertura. I comandi descritti sono presenti nell’applicazione.</Note>
 
-1. Vai in **Impostazioni > Generali**
-2. Scorri fino alla sezione **Pagamenti**
-3. Attiva l'opzione **Pagamenti online**
-4. Salva le impostazioni
+L’abilitazione dell’integrazione Stripe dell’istanza e l’opzione dell’associazione sono due condizioni distinte. Per proporre il pagamento online servono entrambe e credenziali valide.
 
-Da questo momento, gli atleti potranno pagare online le quote di iscrizione, le rate dei corsi e i carnet.
+<Steps>
+  <Step title="Controlla l’integrazione">
+    Chiedi al gestore di confermare la configurazione Stripe dell’istanza e l’ambiente da usare. Non distribuire le chiavi agli atleti.
+  </Step>
+  <Step title="Apri le impostazioni dell’associazione">
+    Vai in **Profilo > Impostazioni** e trova **Pagamenti Online**. Il comando richiede il permesso di modifica delle impostazioni.
+  </Step>
+  <Step title="Salva e controlla la quota di prova">
+    Abilita l’opzione, salva e riapri per controllare il valore. Dall’account del destinatario concordato verifica che una quota in attesa proponga **Paga Ora** quando il percorso è disponibile.
+  </Step>
+</Steps>
+
+L’interruttore non certifica un incasso e non rende operative credenziali mancanti. Attivazione, riapertura e comparsa del comando attendono la prova in browser.
 
 # Metodi di pagamento disponibili
 
-Con Stripe puoi offrire ai tuoi atleti i seguenti metodi di pagamento:
+<Warning>Questa sezione richiede verifiche esterne del servizio, delle condizioni applicabili o della consegna. Non documenta un’operazione esterna già eseguita.</Warning>
 
-| Metodo | Descrizione |
-|--------|-------------|
-| **Carta di credito/debito** | Visa, Mastercard, American Express e altre carte principali |
-| **Addebito diretto SEPA** | Addebito diretto sul conto corrente dell'atleta (area SEPA) |
+Il percorso Stripe usa i metodi configurati per l’associazione; il codice gestisce carte e addebito SEPA dove previsti dalla configurazione. La disponibilità effettiva nel modulo dipende anche da account, ambiente e condizioni del servizio.
 
-Puoi scegliere quali metodi di pagamento abilitare dalle impostazioni dei pagamenti online.
+**Bonifico SEPA** registrato manualmente nell’applicazione e **addebito SEPA** proposto dal provider sono operazioni differenti. Non promettere che tutti i metodi siano presenti o che ogni metodo abbia lo stesso tempo di esito.
 
-<Tip>
-    L'addebito diretto SEPA è particolarmente utile per i pagamenti ricorrenti, come gli abbonamenti mensili, poiché non richiede l'inserimento dei dati della carta ogni volta.
-</Tip>
+Nella pagina self-hosted **Pagamenti Stripe** non è documentato un selettore completo per cambiare questi metodi. Concorda con il gestore la configurazione effettiva e prova ciò che viene mostrato al destinatario, senza assumere la vecchia procedura Connect.
 
 # Come pagano gli atleti
 
-Ecco come funziona il flusso di pagamento dal punto di vista dell'atleta:
+<Note>Procedura ancora da verificare in browser, compresi risultato e riapertura. I comandi descritti sono presenti nell’applicazione.</Note>
 
-1. L'atleta accede al proprio profilo su Bakney
-2. Nella sezione **Pagamenti** vede l'elenco dei pagamenti in sospeso
-3. Seleziona il pagamento (o i pagamenti) da effettuare
-4. Clicca su **Paga online**
-5. Viene mostrata la pagina di checkout sicura di Stripe
-6. L'atleta inserisce i dati di pagamento e conferma
-7. Se il pagamento va a buon fine, viene automaticamente segnato come **pagato** nel sistema
-8. Viene generata automaticamente la **ricevuta**
+Il destinatario deve trovare una quota corretta e **In attesa**. Importo, associazione e intestazione vanno controllati prima di aprire il pagamento esterno.
 
-<Info>
-    L'atleta può pagare anche più pagamenti contemporaneamente in un'unica transazione, semplificando il processo.
-</Info>
+<Steps>
+  <Step title="Apri la quota">
+    Dall’area del destinatario apri **Pagamenti** e individua la quota. Se il servizio è disponibile compare **Paga Ora**; altrimenti la pagina indica di chiedere i dettagli all’associazione.
+  </Step>
+  <Step title="Rivedi il modulo di pagamento">
+    Premi **Paga Ora** e controlla importo e dati del modulo Stripe. Segui il percorso soltanto nell’ambiente concordato per la prova.
+  </Step>
+  <Step title="Controlla l’esito nell’applicazione">
+    Dopo il ritorno rivedi la quota. L’aggiornamento dell’incasso dipende dall’esito elaborato e dalla comunicazione del servizio: una pagina aperta o chiusa non è una prova di pagamento.
+  </Step>
+  <Step title="Gestisci un risultato incerto">
+    Se lo stato non è chiaro, chiedi all’associazione di confrontare pagamento e servizio prima di ripetere. Consulta la ricevuta quando il relativo incasso e documento risultano disponibili.
+  </Step>
+</Steps>
+
+<Warning>Pagamento reale, disponibilità dei metodi, tempi e notifica dell’esito non sono stati verificati per questa guida. Evita una seconda richiesta prima di chiarire un possibile incasso già avvenuto.</Warning>
 
 # Monitorare i pagamenti Stripe
 
-Per controllare lo stato dei pagamenti online ricevuti:
+<Note>Procedura ancora da verificare in browser, compresi risultato e riapertura. I comandi descritti sono presenti nell’applicazione.</Note>
 
-1. Vai nella sezione **Contabilità > Pagamenti**
-2. I pagamenti effettuati online tramite Stripe sono riconoscibili e vengono segnati automaticamente come pagati
-3. Per ogni pagamento puoi vedere i dettagli della transazione
+<Steps>
+  <Step title="Filtra le registrazioni">
+    Apri **Pagamenti** nell’account dell’associazione e scegli **Stripe** nel filtro **Metodo**. Rivedi stato e intervallo di date.
+  </Step>
+  <Step title="Controlla i singoli incassi">
+    Apri il pagamento e confronta destinatario, importo, data, stato e ricevuta. Una classificazione del metodo non dimostra da sola l’operazione esterna.
+  </Step>
+  <Step title="Confronta eventuali discrepanze">
+    Con il gestore consulta l’account Stripe corretto per transazione, rimborsi o accrediti. Non correggere il pagamento a mano soltanto per far coincidere un riepilogo senza chiarire l’esito.
+  </Step>
+</Steps>
+
+Il filtro e la consultazione attendono una prova in browser. I totali delle commissioni dipendono da dati recuperati dal servizio e non sostituiscono il confronto con il portale.
 
 ## Commissioni
 
-<Note>
-    Bakney **non trattiene nessuna commissione** sui pagamenti online. Le uniche commissioni applicate sono quelle standard di Stripe.
-    Per conoscere le commissioni aggiornate di Stripe, consulta la pagina [Stripe Pricing](https://stripe.com/it/pricing).
-</Note>
+<Warning>Questa sezione richiede verifiche esterne del servizio, delle condizioni applicabili o della consegna. Non documenta un’operazione esterna già eseguita.</Warning>
+
+Le commissioni dipendono dal contratto e dal tipo di transazione dell’account Stripe utilizzato. Questa guida non conferma una percentuale, un costo fisso, un’assenza generale di commissioni aggiuntive o tempi di accredito.
+
+L’applicazione può mostrare un riepilogo delle commissioni ottenuto dall’account Stripe diretto per il periodo scelto. Errori di collegamento, periodo e aggiornamento dei dati possono influire sul riepilogo: un valore nullo o zero non dimostra da solo assenza di costi.
+
+Prima di usare il servizio, chiedi al gestore quali condizioni si applicano ad account, metodo, rimborsi e accrediti. Per il costo effettivo confronta le transazioni del periodo nel portale dell’account corretto.
 
 ## Dashboard di Stripe
 
-Per un monitoraggio ancora più dettagliato delle transazioni, puoi accedere direttamente alla tua **dashboard di Stripe** su [dashboard.stripe.com](https://dashboard.stripe.com), dove troverai:
+<Warning>Questa sezione richiede verifiche esterne del servizio, delle condizioni applicabili o della consegna. Non documenta un’operazione esterna già eseguita.</Warning>
 
-- Elenco completo delle transazioni
-- Dettagli sui pagamenti e sugli accrediti
-- Report finanziari
-- Gestione dei rimborsi
+Il portale Stripe è separato dall’elenco dei pagamenti dell’applicazione. L’amministratore dell’account esterno può usarlo per controllare transazioni, condizioni e accrediti secondo le autorizzazioni del servizio.
 
-<Tip>
-    Controlla periodicamente la dashboard di Stripe per verificare che gli accrediti sul tuo conto corrente siano regolari e corrispondano ai pagamenti ricevuti.
-</Tip>
+Verifica di aprire l’account e l’ambiente corretti, soprattutto se esistono prove e pagamenti reali. Le vecchie istruzioni per il portale di un account Connect non vanno trasferite automaticamente all’account diretto dell’istanza.
+
+Accesso, funzioni presenti, movimenti bancari e tempi del portale non sono stati verificati qui. Non condividere credenziali o schermate contenenti dati personali e segreti per chiedere assistenza.
 
 # Conclusione
 
-In questa guida hai imparato come configurare Stripe per ricevere pagamenti online, quali metodi di pagamento sono disponibili e come monitorare le transazioni.
+Per questa installazione il percorso previsto è **Stripe diretto dell’istanza**, più l’opzione **Pagamenti Online** dell’associazione. Il precedente onboarding Connect è disabilitato.
 
-Se hai domande o suggerimenti, contattaci tramite il nostro [supporto](mailto:support@bakney.com).
+Una configurazione presente, un controllo in lettura e un pagamento effettivo sono verifiche differenti. Le procedure descritte restano da provare in browser; operatività, costi e accrediti richiedono il controllo del servizio esterno.
+
+Per registrazioni e ricevute consulta [Pagamenti](/docs/pagamenti) e [Ricevute](/docs/ricevute). La [FAQ sui pagamenti online](/faq/come-configurare-i-pagamenti-online) riepiloga i ruoli e le condizioni da chiarire.
+

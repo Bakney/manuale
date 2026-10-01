@@ -5,31 +5,35 @@ description: "Informazioni dettagliate sulla gestione, protezione e conservazion
 
 # La sicurezza dei tuoi dati è la nostra priorità
 
-In Bakney Sport, comprendiamo l'importanza della sicurezza dei dati personali e sensibili. Ecco come garantiamo la protezione delle tue informazioni:
+Assozeta controlla l'identità dell'account nelle richieste autenticate.
+L'accesso a due fattori e le autorizzazioni del ripristino sono controlli presenti nell'applicazione; i dettagli sono descritti nelle sezioni di questa guida.
+
+<Note>Il codice dell'applicazione non conferma da solo dove sono ospitati i dati, la frequenza dei backup o gli adempimenti del gestore. Verifica queste informazioni per la tua installazione.</Note>
 
 ## Conformità GDPR e gestione responsabile dei dati
 
-- **Piena conformità al GDPR**: Operiamo in totale conformità con il Regolamento Generale sulla Protezione dei Dati (GDPR - UE 2016/679).
-- **Nessuna vendita o uso improprio**: I tuoi dati non vengono mai venduti a terze parti né utilizzati per scopi pubblicitari.
-- **Conservazione in Italia**: Tutti i dati sono conservati esclusivamente in Italia, garantendo il rispetto delle normative europee sulla privacy.
+Chiedi al gestore dell'installazione l'informativa, i ruoli privacy, le finalità del trattamento e le eventuali condizioni di conservazione o trasferimento dei dati.
+Questa guida non conferma piena conformità al GDPR, conservazione esclusiva in Italia o pratiche commerciali di terze parti: servono informazioni sulla gestione effettiva.
+
+<Warning>Le garanzie del precedente manuale del servizio pubblico non vengono trasferite automaticamente all'installazione self-hosted.</Warning>
 
 ## Robusta politica di backup
 
-Per assicurare la continuità e l'integrità dei tuoi dati, abbiamo implementato una strategia di backup multi-livello:
+Verifica con il gestore **quali dati vengono copiati**, **con quale frequenza**, **per quanto tempo** e **come viene provato il ripristino**.
+Il ripristino dell'installazione self-hosted è riservato al proprietario dell'installazione o a un amministratore; un collaboratore ordinario non può avviarlo.
 
-1. **Backup a lungo termine**: Conservazione completa dei dati per 30 giorni.
-2. **Backup incrementali frequenti**: Ogni 4 ore, effettuiamo un backup incrementale conservato per 48 ore.
-
-Questa approccio ci permette di ripristinare rapidamente i dati in caso di necessità, minimizzando il rischio di perdita di informazioni.
+<Note>La presenza della funzione di ripristino non garantisce copie ogni quattro ore, conservazione per trenta giorni o una politica già attiva. Questa guida lascia tali condizioni da verificare.</Note>
 
 ## Misure di sicurezza avanzate
 
-- **Crittografia dei backup**: Tutti i backup sono criptati per garantire la massima sicurezza.
-- **Distribuzione geografica**: I backup sono conservati su server dislocati in diverse zone geografiche, aumentando la resilienza del sistema.
+Quando l'autenticazione a due fattori è attiva, l'accesso con email e password richiede anche un codice temporaneo valido.
+L'attivazione richiede la conferma di un codice temporaneo: conserva l'accesso alla tua applicazione di autenticazione.
+
+Il ripristino dell'installazione self-hosted richiede il proprietario dell'installazione o un amministratore.
+Per i dettagli operativi consulta la guida sull'autenticazione a due fattori e chiedi al gestore la procedura di recupero dell'installazione.
 
 ## Infrastruttura di archiviazione affidabile
 
-- **Partner di fiducia**: Ci affidiamo ai datacenter di Aruba Cloud, leader nel settore dell'hosting in Italia.
-- **Ridondanza**: Utilizziamo diversi datacenter Aruba Cloud sul territorio italiano per garantire la massima disponibilità e sicurezza dei dati.
+Il gestore della tua installazione deve indicare dove vengono conservati database, documenti e copie di backup, chi può accedervi e quali protezioni sono configurate.
+Questa pagina non conferma l'uso di Aruba Cloud, più datacenter in Italia, backup cifrati o distribuzione geografica. Tali condizioni richiedono evidenze dell'infrastruttura effettiva.
 
-La tua privacy e la sicurezza dei tuoi dati sono al centro del nostro impegno. Continueremo a investire in tecnologie e processi all'avanguardia per mantenere i più alti standard di protezione dei dati.

@@ -5,77 +5,57 @@ description: "Puoi sincronizzare i calendari dei tuoi corsi con Google Calendar 
 
 # Collegare Google Calendar
 
-Bakney Sport ti permette di esportare il calendario delle lezioni dei tuoi corsi
-su **Google Calendar**, in modo da averle sempre a portata di mano sul telefono
-o sul computer.
+<Note>Bozza in attesa di prova: questa sezione deve essere confermata dal flusso reale prima di essere considerata verificata.</Note>
+
+Il calendario dei corsi e il file **.ics** possono essere consultati localmente. Il collegamento a Google Calendar richiede invece una prova del servizio esterno: questa guida distingue i comandi disponibili dai risultati ancora da confermare.
+
+La funzione locale propone il collegamento in **Profilo → Integrazioni**, con **Connetti a Google** quando l'account non è collegato.
+Per un account collegato compare **Disconnetti**. La connessione richiede la configurazione Google dell'installazione e l'autorizzazione dell'account interessato.
+<Warning>Questa guida non conferma un collegamento Google: non sono state eseguite autorizzazione, gestione dei token, creazione di calendari o revoca presso Google. Se il servizio mostra un avviso di sicurezza o un'app non verificata, interrompi e verifica la configurazione con il responsabile dell'installazione.</Warning>
 
 ## Cosa serve per iniziare?
 
-Per utilizzare questa integrazione ti serve un **account Google** (Gmail, Google Workspace, ecc.).
+<Note>Bozza in attesa di prova: questa sezione deve essere confermata dal flusso reale prima di essere considerata verificata.</Note>
+
+Servono un account Google, la configurazione dell'integrazione nell'installazione e l'accesso ai comandi di **Profilo → Integrazioni**. Il collegamento può richiedere autorizzazioni e credenziali che dipendono dall'installazione.
+<Note>Questi requisiti non dimostrano che l'integrazione sia operativa. Prima dell'uso devono essere controllati autorizzazione, callback, token e permessi effettivi dell'account presso Google.</Note>
 
 ## Come collegare il tuo account Google
 
+<Note>Bozza in attesa di prova: questa sezione deve essere confermata dal flusso reale prima di essere considerata verificata.</Note>
+
 <Steps>
-  <Step title="Vai nelle Integrazioni">
-    Dalla barra laterale clicca sul tuo **Profilo** e poi su **Integrazioni**.
-  </Step>
-  <Step title="Collega Google Calendar">
-    Clicca su **Collega Google Calendar**. Si aprirà una finestra di Google
-    dove dovrai accedere con il tuo account e autorizzare Bakney ad accedere
-    ai tuoi calendari.
-  </Step>
-  <Step title="Autorizza l'accesso">
-    Segui le istruzioni di Google per concedere i permessi. Una volta completato,
-    la finestra si chiuderà automaticamente e il collegamento sarà attivo.
-  </Step>
+<Step title="Apri le Integrazioni">
+Dal menu laterale apri **Profilo**, poi **Integrazioni**. Cerca la sezione dedicata a Google Calendar.
+</Step>
+<Step title="Riconosci il comando di collegamento">
+Il comando locale si chiama **Connetti a Google**. La procedura può aprire il servizio esterno in una nuova scheda; questa prova non lo avvia.
+</Step>
 </Steps>
 
-<Note>
-  Durante l'autorizzazione potresti vedere un avviso di Google che dice
-  **"Questa app non è verificata"**. Questo accade perché Google sta ancora
-  verificando l'integrazione. Puoi procedere in sicurezza cliccando su
-  **Avanzate** e poi **Vai a Bakney**.
-</Note>
+La funzione locale propone il collegamento in **Profilo → Integrazioni**, con **Connetti a Google** quando l'account non è collegato.
+Per un account collegato compare **Disconnetti**. La connessione richiede la configurazione Google dell'installazione e l'autorizzazione dell'account interessato.
+<Warning>Questa guida non conferma un collegamento Google: non sono state eseguite autorizzazione, gestione dei token, creazione di calendari o revoca presso Google. Se il servizio mostra un avviso di sicurezza o un'app non verificata, interrompi e verifica la configurazione con il responsabile dell'installazione.</Warning>
 
 ## Come sincronizzare un corso
 
-Una volta collegato l'account Google, puoi esportare il calendario di ciascun corso.
+<Note>Bozza in attesa di prova: questa sezione deve essere confermata dal flusso reale prima di essere considerata verificata.</Note>
 
-<Steps>
-  <Step title="Vai nella sezione Corsi">
-    Dal menu laterale clicca su **Corsi** e seleziona il corso che vuoi sincronizzare.
-  </Step>
-  <Step title="Apri il calendario del corso">
-    Nella scheda del corso, vai alla sezione del **Calendario**.
-  </Step>
-  <Step title="Esporta su Google Calendar">
-    Clicca su **Esporta su Google Calendar**. Bakney creerà un nuovo calendario
-    in Google Calendar con tutte le lezioni del corso.
-  </Step>
-</Steps>
+Nel **Calendario delle lezioni** del corso il comando è **Sincronizza con Google**; un corso già collegato può mostrare **Sincronizzato** oppure **Sincronizzato in passato**.
+Il comando chiede una conferma e usa il collegamento Google dell'account.
+<Note>La presenza del pulsante non dimostra che le lezioni siano arrivate su Google. Una prova completa deve controllare l'esito nel servizio esterno, comprese le eventuali modifiche successive e gli errori. Questa verifica non è stata eseguita.</Note>
 
 ## Cosa viene sincronizzato
 
-Per ogni lezione esportata vengono sincronizzati:
+<Note>Bozza in attesa di prova: questa sezione deve essere confermata dal flusso reale prima di essere considerata verificata.</Note>
 
-- **Titolo** della lezione
-- **Data e orario** di inizio e fine
-- **Nome dell'istruttore** assegnato (se presente)
-
-Il calendario creato su Google Calendar avrà lo stesso nome del corso.
-
-<Info>
-  La sincronizzazione avviene al momento dell'esportazione. Se aggiungi nuove
-  lezioni al corso, dovrai esportare nuovamente il calendario per aggiornarle
-  su Google Calendar.
-</Info>
+L'esportazione locale verso Google prepara titolo, inizio e fine delle lezioni del registro del corso; i dettagli dell'istruttore dipendono dai dati assegnati alla lezione.
+<Note>Non è stata controllata la presenza di questi dati in un calendario Google reale. Non sono garantiti aggiornamento automatico, completezza degli istruttori, gestione degli errori o consegna dei promemoria del servizio esterno. Il download **.ics** resta una procedura distinta dal collegamento Google.</Note>
 
 ## Come disconnettere Google Calendar
 
-Per scollegare il tuo account Google, vai su **Profilo > Integrazioni** e clicca
-su **Disconnetti Google Calendar**.
+<Note>Bozza in attesa di prova: questa sezione deve essere confermata dal flusso reale prima di essere considerata verificata.</Note>
 
-<Warning>
-  La disconnessione non elimina i calendari già creati in Google Calendar.
-  Se vuoi rimuoverli, dovrai cancellarli manualmente dal tuo account Google.
-</Warning>
+Per un account collegato **Profilo → Integrazioni** propone **Disconnetti** e una conferma. La richiesta locale contatta Google per revocare il collegamento e aggiorna lo stato dell'account.
+<Warning>La revoca esterna, l'invalidazione dei token e lo stato dei calendari già creati non sono stati eseguiti o verificati. Controlla questi risultati con il responsabile dell'integrazione prima di considerare completa la disconnessione.</Warning>
+

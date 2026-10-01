@@ -1,222 +1,295 @@
 ---
-title: Come impostare le automazioni con i workflow
-description: "Guida su come creare automazioni per inviare email e SMS in base a eventi specifici."
+title: "Come impostare le automazioni con i workflow"
+description: "Configurare eventi, email e attese, salvare una regola spenta e controllarla prima dell'attivazione."
 ---
+
+<Note>Le procedure attendono una verifica completa in browser. Le immagini sono segnaposto FullHD. Invio, ricezione e rispetto degli orari richiedono inoltre una prova del servizio email e dell'esecuzione automatica della tua installazione.</Note>
 
 # Indice
 
-In questa guida imparerai come:
+Questa guida segue la preparazione di una regola fino al controllo dello stato:
 
-<Steps>
-  <Step title="Introduzione ai workflow">
-    Cosa sono i workflow e come possono automatizzare la comunicazione con i tuoi atleti.
-  </Step>
-  <Step title="Trigger disponibili">
-    Quali eventi possono attivare un workflow automatico.
-  </Step>
-  <Step title="Azioni disponibili">
-    Quali azioni puoi configurare all'interno di un workflow.
-  </Step>
-  <Step title="Creare un workflow passo dopo passo">
-    Come creare un workflow dall'inizio alla fine.
-  </Step>
-  <Step title="Esempi di workflow utili">
-    Esempi pratici di workflow per le esigenze più comuni.
-  </Step>
-  <Step title="Attivare, disattivare e modificare i workflow">
-    Come gestire i workflow già creati.
-  </Step>
-  <Step title="Limiti e informazioni utili">
-    Limiti di invio e altre informazioni importanti.
-  </Step>
-</Steps>
+- [Introduzione ai workflow](#introduzione-ai-workflow): cosa viene salvato e cosa significa attivare.
+- [Trigger disponibili](#trigger-disponibili): gli eventi effettivamente selezionabili.
+- [Azioni disponibili](#azioni-disponibili): messaggi email, attese e destinatari.
+- [Creare un workflow passo dopo passo](#creare-un-workflow-passo-dopo-passo): preparazione e riapertura.
+- [Esempi di workflow utili](#esempi-di-workflow-utili): esempi disponibili e limiti delle vecchie proposte.
+- [Attivare, disattivare e modificare i workflow](#attivare-disattivare-e-modificare-i-workflow): i comandi dell'elenco.
+- [Limiti e informazioni utili](#limiti-e-informazioni-utili): i controlli da concordare con il gestore.
 
 # Introduzione ai workflow
 
-I **workflow** sono automazioni che ti permettono di inviare comunicazioni automatiche (email e SMS) in base a eventi specifici che accadono nella tua associazione.
+Un **workflow** è una regola dell'associazione composta da un **Evento di attivazione** e dai passaggi che seguono. Nell'editor attuale puoi preparare email e attese tra i passaggi; l'invio SMS non è disponibile.
 
-Ad esempio, puoi configurare un workflow che invia automaticamente un'email di benvenuto a ogni nuovo iscritto, oppure un promemoria quando un certificato medico sta per scadere.
+Il workflow viene creato **spento**. Il nome e i blocchi salvati restano disponibili per la riapertura. L'attivazione è separata dal salvataggio e permette alla regola di rispondere agli eventi successivi o di programmare una data futura.
 
-I workflow sono composti da:
-- Un **trigger** (l'evento che attiva il workflow)
-- Una o più **azioni** (cosa fare quando il trigger si attiva)
-
-<Info>
-    I workflow sono disponibili per i piani **Pro** e **Teams**.
-</Info>
+La sequenza segue l'ordine dall'alto verso il basso. Un esempio semplice è **Nuova iscrizione → email di benvenuto**; un esempio con più passaggi aggiunge un'attesa e una seconda email. La preparazione della sequenza non conferma che un servizio email sia già configurato.
 
 # Trigger disponibili
 
-Un trigger è l'evento che fa partire il workflow. Ecco i trigger disponibili:
+Un trigger è l'evento iniziale della regola. Il selettore del blocco **Evento di attivazione** contiene:
 
-| Trigger | Descrizione |
-|---------|-------------|
-| **Nuova iscrizione** | Si attiva quando viene creata una nuova iscrizione |
-| **Iscrizione firmata** | Si attiva quando un'iscrizione viene firmata dall'atleta |
-| **Iscrizione approvata** | Si attiva quando un'iscrizione viene approvata dall'associazione |
-| **Nuova iscrizione a un corso** | Si attiva quando un atleta viene iscritto a un corso |
-| **Certificato medico in scadenza** | Si attiva quando un certificato medico sta per scadere |
-| **Certificato medico scaduto** | Si attiva quando un certificato medico è scaduto |
-| **Pagamento effettuato** | Si attiva quando un pagamento viene segnato come pagato |
-| **Data programmata** | Si attiva a una data e ora specifiche che scegli tu |
+| Nome nell'editor | Uso previsto |
+| --- | --- |
+| **Nuova iscrizione** | Comunicare dopo una nuova iscrizione all'associazione |
+| **Iscrizione firmata** | Comunicare dopo la firma dell'iscrizione |
+| **Iscrizione approvata** | Comunicare dopo l'approvazione dell'iscrizione |
+| **Data e ora specifica** | Preparare una comunicazione per un momento futuro, con un filtro sulle iscrizioni |
 
-<Tip>
-    Il trigger **Data programmata** è particolarmente utile per inviare comunicazioni di massa, come auguri di inizio stagione o promemoria prima della ripresa dei corsi.
-</Tip>
+**Nuova iscrizione a un corso**, **Certificato medico in scadenza**, **Certificato medico scaduto** e **Pagamento effettuato** non sono scelte presenti nell'editor. Gli esempi del precedente manuale basati su questi eventi non sono procedure utilizzabili qui.
 
 ## Destinatari nel trigger "Data programmata"
 
-Quando utilizzi il trigger "Data programmata", puoi scegliere a chi inviare la comunicazione:
+Il nome corrente del trigger è **Data e ora specifica**. I campi associati sono **Data e ora** e **Filtro**. Nel filtro compaiono le seguenti voci:
 
-- **Tutti** gli iscritti attivi
-- Solo gli iscritti con stato **Approvato**
-- Solo gli iscritti con stato **In attesa**
-- Solo gli iscritti con stato **Non firmato**
-- Solo gli iscritti con stato **Rifiutato**
-- Solo gli iscritti **Archiviati**
-- Solo gli iscritti con un **tag specifico**
+| Voce visibile | Selezione delle iscrizioni |
+| --- | --- |
+| **iscrizioni "Tutte"** | Iscrizioni con periodo valido alla data di esecuzione; il filtro non esclude da solo quelle archiviate |
+| **iscrizioni "Approvate"** | Approvate, non archiviate e con periodo valido |
+| **iscrizioni "Rifiutate"** | Rifiutate, non archiviate e con periodo valido |
+| **iscrizioni "In attesa"** | In attesa, non archiviate e con periodo valido |
+| **iscrizioni "Modulo da firmare"** | Da firmare, non archiviate e con periodo valido |
+| **iscrizioni "Archiviate"** | Archiviate con periodo valido |
+| **con tag "nome del tag"** | Iscrizioni con il tag scelto e periodo valido |
+
+Il filtro si applica al momento dell'esecuzione, non produce nel modulo una lista definitiva da approvare. La selezione per tag considera anche nomi di tag che contengono il nome scelto: se usi nomi simili, verifica il gruppo effettivo prima di un invio collettivo.
+
+<Warning>La data viene interpretata nel fuso **Europe/Rome**. Usa un momento futuro e conferma con il gestore il fuso e il funzionamento della programmazione. L'attivazione di una regola con data già trascorsa non è una procedura per recuperare automaticamente un invio mancato.</Warning>
 
 # Azioni disponibili
 
-Le azioni sono le operazioni che il workflow esegue quando il trigger si attiva. Puoi combinare più azioni in sequenza:
+Sotto **scegli il prossimo step** sono presenti due comandi. Puoi ripeterli per comporre una sequenza:
 
-| Azione | Descrizione |
-|--------|-------------|
-| **Attesa** | Attende un periodo di tempo specificato (minuti, ore o giorni) prima di eseguire l'azione successiva |
-| **Invio email** | Invia un'email personalizzata ai destinatari |
-| **Invio SMS** | Invia un SMS ai destinatari |
+| Comando | Risultato configurabile |
+| --- | --- |
+| **Azione Messaggio** | Un'email con destinatari, oggetto e contenuto |
+| **Rimani in Attesa** | Un intervallo in **Minuti**, **Ore** o **Giorni** prima del passaggio successivo |
+
+Nel pannello del messaggio è disponibile **Email**. **Notifica push (in arrivo)** è disabilitata; SMS non è presente. Un'attesa senza un passaggio successivo non aggiunge un nuovo invio.
 
 ## Destinatari delle azioni
 
-Per le azioni di invio email e SMS, puoi scegliere i destinatari:
+Il campo **Destinatari** del messaggio propone le seguenti etichette:
 
-- **Atleti**: l'email viene inviata all'atleta (e al tutore se minorenne)
-- **Associazione**: l'email viene inviata solo all'indirizzo dell'associazione
-- **Tutti**: l'email viene inviata sia all'atleta che all'associazione
+| Etichetta | Come interpretarla in questa versione |
+| --- | --- |
+| **Me stesso** | Usa la casella del proprietario dell'associazione, anche se la regola è preparata da un collaboratore |
+| **Atleti** | Può includere l'account collegato all'iscrizione, l'email dell'atleta, il tutore principale per un minorenne e il proprietario dell'associazione |
+| **Atleti e Me stesso** | Usa gli indirizzi collegati all'iscrizione e quello del proprietario dell'associazione, se presenti |
+
+Gli indirizzi duplicati nella singola richiesta vengono accorpati. La scelta **Atleti** non esclude con certezza il proprietario: nella versione esaminata anche questa opzione può aggiungere la sua email. Una regola applicata a più iscrizioni può comunque preparare più richieste per lo stesso indirizzo.
+
+Per i trigger legati all'iscrizione, il messaggio riguarda l'iscrizione che ha generato l'evento. Per **Data e ora specifica**, si applica alle iscrizioni selezionate dal filtro. Il contenuto va quindi scritto senza dati personali di altre persone.
 
 # Creare un workflow passo dopo passo
 
-Per creare un nuovo workflow:
+Prima di iniziare, controlla di poter aprire **Comunicazioni > Automazioni** e di avere i comandi di creazione e aggiornamento. Per preparare una regola di prova concorda una casella controllata dall'associazione e lascia la regola spenta fino alla revisione.
 
-1. Vai nella sezione **Comunicazioni > Workflow**
-2. Clicca su **+ Nuovo Workflow**
-3. Inserisci un **nome** per il workflow (ad esempio: "Benvenuto nuovo iscritto")
-4. Aggiungi una **descrizione** opzionale
+<Steps>
+  <Step title="Apri l'editor">
+    Vai in **Comunicazioni > Automazioni** e premi **Automazione**. Il nome iniziale è **Nuova Automazione**; un blocco **Evento di attivazione** è già presente.
+  </Step>
+  <Step title="Dai un nome alla regola">
+    Modifica il nome in alto con un testo riconoscibile, per esempio **Benvenuto nuova iscrizione - prova**. Nell'editor non serve compilare una descrizione separata.
+  </Step>
+  <Step title="Prepara i blocchi prima di attivare">
+    Segui i passaggi seguenti per evento, messaggio ed eventuale attesa. La chiusura dei pannelli di configurazione può già salvare la regola: controlla sempre il risultato nell'elenco.
+  </Step>
+</Steps>
+
+<Frame caption="Segnaposto FullHD: editor di una nuova automazione spenta. Creazione e riapertura ancora da verificare.">
+  <img src="/images/comunicazioni/workflow-editor-pending.svg" alt="Segnaposto FullHD dell'editor con nome della regola ed evento iniziale" />
+</Frame>
 
 ## Configurare il trigger
 
-5. Seleziona il **trigger** che attiverà il workflow
-6. Se scegli "Data programmata", imposta la data e l'ora desiderate e seleziona i destinatari
+<Steps>
+  <Step title="Apri la configurazione dell'evento">
+    Nel blocco **Evento di attivazione**, premi **Configura**. Seleziona una delle quattro voci disponibili.
+  </Step>
+  <Step title="Controlla l'eventuale programmazione">
+    Per **Data e ora specifica**, compila **Data e ora** con un momento futuro e scegli **Filtro**. Per una prova di benvenuto scegli invece **Nuova iscrizione**; non occorre una data.
+  </Step>
+  <Step title="Chiudi e controlla il blocco">
+    Chiudi il pannello e verifica l'etichetta dell'evento nel blocco. La chiusura richiede il salvataggio della configurazione; non è un comando di annullamento.
+  </Step>
+</Steps>
+
+<Frame caption="Segnaposto FullHD: pannello Evento di attivazione e scelte del trigger. Selezione e persistenza ancora da verificare.">
+  <img src="/images/comunicazioni/workflow-trigger-pending.svg" alt="Segnaposto della configurazione Evento di attivazione" />
+</Frame>
 
 ## Aggiungere le azioni
 
-7. Clicca su **Aggiungi azione** per aggiungere il primo blocco di azione
-8. Seleziona il tipo di azione (**Email**, **SMS** o **Attesa**)
+Sotto **scegli il prossimo step**, premi **Azione Messaggio** per un'email oppure **Rimani in Attesa** per una pausa. Il nuovo blocco viene aggiunto in fondo alla sequenza. Usa **Configura** nel blocco per completarlo.
+
+Per una prima prova prepara un solo messaggio. Per una seconda comunicazione a distanza, l'ordine è **messaggio → attesa → messaggio**. Prima di salvare, controlla l'ordine visibile e che ogni messaggio contenga destinatari, oggetto e contenuto.
+
+Il pulsante con l'icona del cestino rimuove il blocco dalla configurazione aperta; il successivo salvataggio conserva la sequenza aggiornata. Questa modifica e la riapertura del risultato devono ancora essere verificate in browser.
 
 ### Se scegli "Invio email":
-- Inserisci l'**oggetto** dell'email
-- Scrivi il **contenuto** dell'email
-- Seleziona i **destinatari**
+
+<Steps>
+  <Step title="Apri Azione Messaggio">
+    Premi **Azione Messaggio**, poi **Configura** nel nuovo blocco. Il pannello si intitola **Invia un messaggio**; lascia **Email** come tipo.
+  </Step>
+  <Step title="Imposta destinatari e oggetto">
+    Per una prova usa **Me stesso**, dopo aver controllato l'indirizzo del proprietario. Compila **Oggetto** con un titolo comprensibile, per esempio **Informazioni per la nuova iscrizione**.
+  </Step>
+  <Step title="Componi e salva il contenuto">
+    Premi **Crea email**. Il compositore si apre in una nuova scheda: prepara il testo e salva dal compositore. Attendi **Email salvata.**, torna all'editor e controlla che il contenuto sia presente. **Modifica** riapre un contenuto già creato.
+  </Step>
+  <Step title="Salva e riapri">
+    Chiudi il pannello, premi **Salva** nell'editor e torna all'elenco con **Chiudi**. Riapri la regola spenta e verifica nuovamente destinatari, oggetto e contenuto. L'apertura del compositore può già salvare la regola; non equivale all'invio.
+  </Step>
+</Steps>
+
+<Frame caption="Segnaposto FullHD: destinatari, oggetto e accesso al compositore email. Composizione e persistenza ancora da verificare.">
+  <img src="/images/comunicazioni/workflow-email-pending.svg" alt="Segnaposto del pannello Invia un messaggio nell'automazione" />
+</Frame>
 
 ### Se scegli "Invio SMS":
-- Scrivi il **testo** dell'SMS
-- Seleziona i **destinatari**
+
+Questa azione non è disponibile. Il pannello attuale permette **Email** e non offre un campo per testo SMS o numeri di telefono. Il salvataggio delle automazioni rifiuta messaggi di tipo diverso dall'email.
+
+Usa la procedura email se è adatta alla comunicazione. La presenza di vecchi esempi o crediti nel precedente manuale non abilita l'invio SMS.
 
 ### Se scegli "Attesa":
-- Specifica il **tempo di attesa** (ad esempio: 2 giorni, 4 ore, 30 minuti)
 
-9. Puoi aggiungere ulteriori azioni in sequenza cliccando nuovamente su **Aggiungi azione**
-10. Clicca su **Salva**
+<Steps>
+  <Step title="Aggiungi la pausa nel punto giusto">
+    Sotto **scegli il prossimo step**, premi **Rimani in Attesa** dopo il blocco che deve precedere la pausa.
+  </Step>
+  <Step title="Imposta durata e unità">
+    Premi **Configura** nel blocco. Inserisci un numero positivo e scegli **Minuti**, **Ore** o **Giorni**. Per esempio, **2** e **Giorni** prepara l'intervallo prima del passaggio successivo.
+  </Step>
+  <Step title="Aggiungi il passaggio successivo e salva">
+    Chiudi il pannello, aggiungi il messaggio successivo e completa la sua configurazione. Premi **Salva**, riapri la regola spenta e controlla durata, unità e ordine.
+  </Step>
+</Steps>
 
-<Note>
-    Le azioni vengono eseguite in **sequenza**, dall'alto verso il basso. L'azione di "Attesa" è utile per creare sequenze temporizzate, come inviare una prima email subito e una seconda dopo 3 giorni.
-</Note>
+<Frame caption="Segnaposto FullHD: blocco Rimani in attesa con durata e unità. Salvataggio ed esecuzione dell'attesa ancora da verificare.">
+  <img src="/images/comunicazioni/workflow-wait-pending.svg" alt="Segnaposto della durata del blocco Rimani in attesa" />
+</Frame>
+
+<Note>L'attesa programma il passaggio successivo. Non garantisce che l'email venga ricevuta esattamente allo scadere dell'intervallo: l'esecuzione dipende dai servizi dell'installazione.</Note>
 
 # Esempi di workflow utili
 
+Gli esempi seguenti distinguono ciò che puoi preparare nell'editor dagli eventi del precedente manuale che oggi non sono selezionabili. Per le regole disponibili, verifica prima salvataggio e destinatari con una prova controllata.
+
 ## Email di benvenuto
 
-- **Trigger**: Nuova iscrizione
-- **Azione 1**: Invio email di benvenuto con le informazioni utili per il nuovo iscritto
+Una configurazione semplice comprende **Nuova iscrizione** e **Azione Messaggio** con un'email di benvenuto. Nel testo puoi indicare i contatti della segreteria, dove trovare gli orari e quali documenti preparare.
+
+Per la prova usa **Me stesso**; per il gruppo reale rivedi il comportamento di **Atleti** e **Atleti e Me stesso**. Segui la [guida dedicata](/faq/come-inviare-email-nuovi-iscritti). Creazione, attivazione e successiva iscrizione di prova attendono la verifica in browser; il recapito richiede un controllo della casella.
 
 ## Promemoria pagamento dopo l'iscrizione
 
-- **Trigger**: Nuova iscrizione a un corso
-- **Azione 1**: Attesa di 3 giorni
-- **Azione 2**: Invio email di promemoria per il pagamento del corso
+L'esempio precedente usava **Nuova iscrizione a un corso**, che non è disponibile nel selettore corrente. Non presentarlo come una regola pronta da creare per le quote dei corsi.
+
+Puoi preparare una sequenza generica **Nuova iscrizione → attesa → email**, ma l'evento riguarda l'associazione e la sequenza non controlla se una quota risulta ancora da pagare. Potrebbe quindi scrivere anche a chi ha già pagato. Per solleciti specifici, controlla il singolo caso in [Pagamenti](/docs/pagamenti) e prepara un [messaggio manuale](/docs/comunicazioni).
 
 ## Promemoria certificato medico
 
-- **Trigger**: Certificato medico in scadenza
-- **Azione 1**: Invio email con le istruzioni per il rinnovo del certificato medico
+**Certificato medico in scadenza** e **Certificato medico scaduto** non sono eventi selezionabili nell'editor corrente. Questa guida non offre una procedura per inviare automaticamente il promemoria alla scadenza.
+
+Controlla lo stato del documento dalla [guida sui certificati medici](/tutorials/come-gestire-certificati-medici). Se serve una comunicazione, prepara un'email manuale ai destinatari verificati. Una data programmata generica non sostituisce il controllo della scadenza del certificato di ogni atleta.
 
 ## Conferma pagamento
 
-- **Trigger**: Pagamento effettuato
-- **Azione 1**: Invio email di conferma del pagamento ricevuto
+**Pagamento effettuato** non è un evento del selettore corrente. Non creare una conferma di incasso usando **Iscrizione approvata**: l'approvazione dell'iscrizione non certifica che una quota sia stata pagata.
+
+Per lo stato dell'incasso e i documenti collegati usa [Pagamenti](/docs/pagamenti). Un eventuale messaggio manuale va preparato dopo il controllo del pagamento effettivo.
 
 ## Comunicazione di inizio stagione
 
-- **Trigger**: Data programmata (ad esempio 1 settembre)
-- **Destinatari**: Tutti gli iscritti attivi
-- **Azione 1**: Invio email con le informazioni sulla nuova stagione sportiva
+Una comunicazione generale può essere preparata con **Data e ora specifica**, una data futura e **Azione Messaggio**. Nel **Filtro** scegli con attenzione le iscrizioni da coinvolgere; **iscrizioni "Tutte"** non equivale automaticamente a sole iscrizioni non archiviate.
+
+Il contenuto può riportare date di ripresa, recapiti e indicazioni della segreteria. Prima dell'attivazione verifica la casella usata da **Me stesso**, il fuso **Europe/Rome**, il gruppo reale e la disponibilità del servizio. La programmazione e il recapito di questo esempio richiedono una verifica esterna e non hanno una prova di esecuzione per questa guida.
 
 # Attivare, disattivare e modificare i workflow
 
+Nell'elenco **Automazioni**, la colonna **Stato** distingue **Spenta** e **Attiva**. Le icone della riga permettono di attivare, disattivare, modificare ed eliminare in base ai permessi del tuo account.
+
+Il salvataggio dell'editor e l'attivazione dall'elenco sono operazioni diverse. Controlla sempre lo stato nell'elenco dopo una modifica.
+
 ## Attivare un workflow
 
-Dopo aver creato un workflow, questo sarà in stato **disattivato**. Per attivarlo:
+<Steps>
+  <Step title="Rivedi la regola spenta">
+    Apri **Comunicazioni > Automazioni**, individua il nome e controlla lo stato **Spenta**. Riapri la configurazione per verificare evento, blocchi, indirizzi e contenuto.
+  </Step>
+  <Step title="Richiedi l'attivazione">
+    Torna all'elenco, premi l'icona **play** della riga e conferma **Attiva** nella richiesta **Vuoi attivare l'automazione?**.
+  </Step>
+  <Step title="Controlla lo stato e prepara la verifica">
+    Attendi la conferma e lo stato **Attiva**. Per gli eventi di iscrizione serve un evento successivo; per una data futura serve controllare la programmazione del servizio. Lo stato attivo non dimostra un invio riuscito.
+  </Step>
+</Steps>
 
-1. Vai nella sezione **Comunicazioni > Workflow**
-2. Trova il workflow che vuoi attivare
-3. Clicca sull'interruttore per **attivarlo**
-
-Da questo momento, il workflow si attiverà automaticamente ogni volta che si verifica il trigger configurato.
+Questi controlli di interfaccia e persistenza attendono la verifica in browser. Un workflow di benvenuto non invia automaticamente il messaggio a tutte le vecchie iscrizioni al momento dell'attivazione.
 
 ## Disattivare un workflow
 
-Per disattivare temporaneamente un workflow senza eliminarlo:
+<Steps>
+  <Step title="Apri la riga attiva">
+    In **Comunicazioni > Automazioni**, trova la regola con stato **Attiva** e premi l'icona **pausa**.
+  </Step>
+  <Step title="Conferma e controlla">
+    Nella richiesta **Vuoi disattivare l'automazione?**, premi **Disattiva**. Attendi lo stato **Spenta** nell'elenco; **Annulla** lascia la richiesta senza conferma.
+  </Step>
+</Steps>
 
-1. Vai nella sezione **Comunicazioni > Workflow**
-2. Clicca sull'interruttore del workflow per **disattivarlo**
-
-Il workflow non si attiverà più fino a quando non lo riattiverai.
+La regola resta nell'elenco. I passaggi ancora da iniziare ricontrollano che sia attiva, ma la disattivazione non ritira email già inviate o richieste di invio già affidate al servizio. Se devi fermare una comunicazione imminente, verifica l'esito con il gestore.
 
 ## Modificare un workflow
 
-Per modificare un workflow esistente:
+<Steps>
+  <Step title="Disattiva prima di cambiare la regola">
+    Se lo stato è **Attiva**, usa pausa e conferma **Disattiva**. Attendi **Spenta**, poi premi il comando di modifica nella riga.
+  </Step>
+  <Step title="Aggiorna i blocchi">
+    Modifica nome, evento, destinatari, contenuto o attese. I pannelli possono salvare alla chiusura. Per il contenuto dell'email usa **Modifica** e salva anche nel compositore.
+  </Step>
+  <Step title="Salva, riapri e valuta l'attivazione">
+    Premi **Salva**, torna all'elenco con **Chiudi** e riapri per controllare la configurazione conservata. Attiva nuovamente soltanto dopo il controllo dei destinatari e dell'eventuale data futura.
+  </Step>
+</Steps>
 
-1. Vai nella sezione **Comunicazioni > Workflow**
-2. Clicca sul workflow che vuoi modificare
-3. Apporta le modifiche desiderate (trigger, azioni, contenuto delle email/SMS)
-4. Clicca su **Salva**
-
-<Warning>
-    Ti consigliamo di **disattivare** il workflow prima di modificarlo, per evitare che venga eseguito con una configurazione parzialmente aggiornata.
-</Warning>
+L'editor di una regola attiva offre **Visualizza in sola lettura**. Questa modalità serve a consultare; non conserva le modifiche. Non usarla come percorso per aggiornare una regola senza disattivarla. Modifica, riapertura e cambi di stato attendono la verifica in browser.
 
 # Limiti e informazioni utili
 
+L'email e le automazioni dipendono dalla configurazione dell'associazione e dai servizi della tua installazione. Per un invio collettivo, verifica anche finalità della comunicazione, elenco dei destinatari e regole privacy con il responsabile.
+
 ## Limiti di invio
 
-| Tipo | Limite |
-|------|--------|
-| **Email** | Massimo **1.000 email al giorno** per associazione |
-| **SMS** | Inclusi **10 SMS gratuiti**; ulteriori SMS possono essere acquistati dalla sezione Comunicazioni |
+| Aspetto | Cosa puoi assumere dalla versione documentata |
+| --- | --- |
+| Limite email | È configurabile, con valore iniziale **1.000**; conteggio e azzeramento richiedono verifica nell'installazione |
+| Numero di destinatari | Il limite non va interpretato come una garanzia di 1.000 persone raggiunte al giorno |
+| SMS | Invio e acquisto di crediti non disponibili nel percorso attuale |
+| Consegna | Dipende dal servizio e dalla casella destinataria; controlla ricezione ed eventuale spam |
+
+La precedente promessa di dieci SMS gratuiti non si applica qui. Non ripetere un invio fallito prima di aver chiarito se il servizio ha già ricevuto la richiesta.
 
 ## Informazioni importanti
 
-- I workflow vengono eseguiti in modo **asincrono**: le azioni non vengono eseguite istantaneamente ma entro pochi minuti dall'attivazione del trigger
-- L'azione di "Attesa" programma l'esecuzione delle azioni successive al termine del periodo indicato
-- Se il workflow è disattivato nel momento in cui dovrebbe eseguire un'azione in coda, l'azione **non verrà eseguita**
-- Le email vengono inviate tramite il server SMTP configurato nelle impostazioni delle comunicazioni, oppure tramite il servizio email di Bakney se non hai configurato un server SMTP personalizzato
+I passaggi vengono eseguiti attraverso i servizi automatici dell'installazione. Non è documentato un tempo massimo di consegna e non è stata provata l'esecuzione di una data o di un'attesa per questa guida.
 
-<Tip>
-    Inizia con workflow semplici (ad esempio un'email di benvenuto) e aggiungi complessità man mano che prendi dimestichezza con il sistema.
-</Tip>
+- **Salva** conserva una configurazione; non certifica l'invio.
+- **Attiva** abilita la regola; non dimostra che tutti i passaggi siano stati eseguiti.
+- La chiusura di un pannello e l'apertura del compositore possono già salvare la regola.
+- Una data futura è interpretata nel fuso **Europe/Rome**; una data trascorsa non garantisce un recupero automatico.
+- Se un passaggio non trova la regola attiva, non prosegue; email già affidate al servizio possono comunque arrivare.
+- Il servizio può usare l'SMTP dell'associazione oppure quello dell'installazione: verifica il mittente effettivo e non presumere un servizio esterno già disponibile.
+- Lo storico email e una conferma dell'applicazione non dimostrano lettura o consegna nella posta in arrivo.
+
+<Warning>Programmazione, continuità del servizio, mittente, consegna e condizioni privacy richiedono verifiche esterne. Chiedi al gestore come controllare gli errori e come interrompere una comunicazione già in lavorazione.</Warning>
 
 # Conclusione
 
-In questa guida hai imparato come creare e gestire i workflow per automatizzare le comunicazioni con i tuoi atleti. I workflow ti permettono di risparmiare tempo e garantire che ogni atleta riceva le informazioni giuste al momento giusto.
+Una prima regola da preparare è **Nuova iscrizione → email**, inizialmente spenta e indirizzata a una casella di prova. Controlla nome, evento, destinatari e contenuto dopo la riapertura; poi concorda attivazione e verifica della ricezione.
 
-Se hai domande o suggerimenti, contattaci tramite il nostro [supporto](mailto:support@bakney.com).
+Per il benvenuto usa la [FAQ dedicata](/faq/come-inviare-email-nuovi-iscritti). Per un invio singolo consulta [Comunicazioni](/docs/comunicazioni). Per problemi di esecuzione rivolgiti al gestore della tua installazione con nome della regola, orario e messaggio di errore, senza condividere password o altri dati riservati.

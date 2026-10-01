@@ -5,73 +5,68 @@ description: "Bakney Sport può calcolare automaticamente il codice fiscale degl
 
 # Calcolo automatico del codice fiscale
 
-Bakney Sport è in grado di **calcolare automaticamente** il codice fiscale di un atleta
-a partire dai suoi dati anagrafici. Questo avviene durante la registrazione di un nuovo
-socio o tesserato.
+Accanto al campo **Codice Fiscale**, il pulsante con il suggerimento **Genera codice fiscale** calcola un valore dai dati anagrafici compilati. La funzione è presente durante l'inserimento della persona e nel modulo dell'anagrafica.
+
+Il risultato viene riportato nel campo: controllalo prima di proseguire e salva la scheda per conservarlo. Il messaggio **Codice fiscale generato con successo** conferma la risposta del calcolo, non una verifica presso un archivio fiscale esterno.
+
+<Warning>Confronta il valore con il documento della persona. Un codice calcolato a partire dai dati non dimostra quale codice sia stato effettivamente attribuito, soprattutto in presenza di omocodia o dati storici particolari.</Warning>
 
 ## Dati necessari per il calcolo
 
-Per generare il codice fiscale, il sistema ha bisogno di:
+Il calcolo richiede **nome**, **cognome**, **sesso**, **data di nascita** e **città di nascita**. Il servizio accetta per il calcolo i valori di sesso **M** e **F**. Per nome e cognome usa la grafia dei documenti; per la nascita controlla la data completa e il luogo effettivo, distinto dalla residenza.
 
-- **Nome**
-- **Cognome**
-- **Sesso** (M o F)
-- **Data di nascita**
-- **Comune di nascita** (o stato estero)
+Se uno di questi dati è vuoto, il servizio può rispondere **alcuni dati sono mancanti.**. Se il luogo non viene riconosciuto, mostra **Città non mappata.**; altri dati non utilizzabili possono produrre **alcuni dati non sono validi.**.
 
-<Info>
-  Tutti i campi sono obbligatori. Se anche uno solo manca o non è valido,
-  il sistema non potrà calcolare il codice fiscale.
-</Info>
+<Tip>Prima di riprovare, controlla ciascun campo. Aggiungere la residenza non corregge un luogo di nascita sbagliato: i due campi hanno funzioni diverse.</Tip>
 
 # Come funziona
 
 <Steps>
-  <Step title="Compila i dati anagrafici">
-    Durante la creazione di un nuovo socio o tesserato, compila tutti i campi
-    anagrafici richiesti (nome, cognome, sesso, data di nascita, comune di nascita).
+  <Step title="Compila i dati necessari">
+    Durante la creazione di un'iscrizione, raggiungi il passaggio **Inserisci le informazioni dell'Associato**.
+    Inserisci **Nome**, **Cognome**, **Sesso**, **Data di nascita** e **Città di nascita**.
+    Nell'esempio: **Marta Neri**, sesso **F**, nata il **01/01/2000** a **Roma**.
   </Step>
-  <Step title="Il codice fiscale viene calcolato">
-    Il sistema calcola automaticamente il codice fiscale e lo inserisce nel campo
-    corrispondente. Puoi verificarlo prima di proseguire.
+  <Step title="Genera e controlla">
+    Premi **Genera codice fiscale**, il pulsante accanto al campo **Codice Fiscale**.
+    Il risultato compare nel campo, dove puoi controllarlo prima di continuare la compilazione.
+    <Frame>![Codice fiscale generato nel modulo di creazione dell’iscrizione](/images/faq/creazione-socio/3.placeholder.svg)</Frame>
   </Step>
 </Steps>
+
+<Note>Il calcolo a partire dai dati anagrafici non conferma che il codice sia quello attribuito alla persona. Controllalo sul suo documento prima di salvare l'iscrizione.</Note>
+
+[Prosegui con la registrazione completa](/faq/come-si-crea-un-socio#creare-un-socio-socio-tesserato-o-tesserato).
 
 # Validazione del codice fiscale
 
-Se un atleta ha già un codice fiscale inserito, il sistema ne **verifica la validità**
-controllando che sia conforme al formato italiano. In caso di errori nel carattere
-di controllo (CIN), il sistema tenta di correggerlo automaticamente.
+I moduli controllati richiedono un codice fiscale nel formato previsto per **16 caratteri**, con lettere e cifre nelle posizioni attese. Durante l'inserimento, un codice che corrisponde a quel formato può anche essere usato per ricavare sesso, luogo e data di nascita quando disponibili.
+
+Questo controllo di formato è distinto dal pulsante **Genera codice fiscale**. Non risulta una correzione automatica garantita del carattere finale di un codice digitato né una verifica del suo titolare presso un servizio fiscale esterno.
+
+<Warning>Un controllo di formato superato non garantisce l'esattezza del dato. Ricontrolla i campi eventualmente ricavati dal codice, soprattutto la data di nascita e il luogo; non sovrascrivere un valore del documento solo per far coincidere il calcolo.</Warning>
 
 # Quando il calcolo automatico potrebbe non funzionare
 
-In alcuni casi il calcolo automatico del codice fiscale potrebbe non essere possibile:
+Un luogo di nascita non riconosciuto dal calcolatore produce **Città non mappata.**. Controlla la denominazione e la data prima di riprovare; per un luogo estero o una denominazione storica usa il documento della persona come riferimento.
 
-- **Cittadini nati all'estero**: se lo stato estero non è mappato nel sistema
-- **Comuni non riconosciuti**: se il nome del comune non corrisponde a quelli presenti
-  nell'archivio dei codici catastali
-- **Dati incompleti**: se mancano uno o più campi obbligatori
+Il calcolo può inoltre fallire per campi vuoti, sesso diverso dai valori supportati o una data non utilizzabile. In questi casi correggi il dato anagrafico effettivo, senza inventare una città o una data per ottenere un risultato.
 
-<Tip>
-  Se il calcolo automatico non funziona, puoi sempre inserire manualmente il codice
-  fiscale nel campo dedicato. Il sistema accetterà qualsiasi codice fiscale valido.
-</Tip>
+<Note>Il formato richiesto da alcuni moduli usa cifre in posizioni specifiche e può rifiutare codici con sostituzioni dovute all'omocodia. Le sorgenti non confermano l'accettazione di ogni caso speciale. Se il codice del documento viene rifiutato, conserva il messaggio mostrato e chiedi assistenza.</Note>
 
 # Inserire o correggere manualmente il codice fiscale
 
-Se hai bisogno di inserire o modificare il codice fiscale di un atleta:
-
 <Steps>
-  <Step title="Vai nell'anagrafica dell'atleta">
-    Dalla sezione **Libro Soci**, clicca sul nome dell'atleta.
+  <Step title="Apri i dati anagrafici">
+    Durante la creazione usa il campo **Codice Fiscale** del passaggio anagrafico. Per una persona già presente apri **Organizzazione → Anagrafiche** e la sua scheda. Per modificarla occorre l'autorizzazione sulle anagrafiche, distinta dai soli permessi di lettura delle iscrizioni.
   </Step>
-  <Step title="Modifica il codice fiscale">
-    Cerca il campo **Codice Fiscale** nei dati anagrafici e inserisci o correggi
-    il valore. Salva le modifiche.
+  <Step title="Confronta e correggi il dato">
+    Riporta il valore del documento nel campo **Codice Fiscale** e controlla nome, cognome, nascita e sesso. Se il modulo segnala un formato non valido, ricontrolla la trascrizione; per un codice particolare non alterare il documento di riferimento.
+  </Step>
+  <Step title="Salva e ricontrolla">
+    Premi **Salva** nell'anagrafica, attendi la conferma **Dati aggiornati con successo** e riapri la persona. Durante una nuova iscrizione, invece, completa il percorso di creazione: modificare il campo non equivale a salvare la domanda.
   </Step>
 </Steps>
 
-<Warning>
-  Assicurati che il codice fiscale inserito sia corretto: viene utilizzato per
-  l'identificazione univoca dell'atleta e per la generazione di documenti ufficiali.
-</Warning>
+<Note>La correzione riguarda l'anagrafica della persona. Controlla separatamente gli eventuali documenti già prodotti; non dare per scontato che una copia scaricata in precedenza venga aggiornata.</Note>
+

@@ -5,80 +5,118 @@ description: "In questa sezione troverai tutte le informazioni relative alle ric
 
 ## Come vengono emesse le ricevute?
 
-Le ricevute vengono emesse automaticamente quando un pagamento viene segnato come pagato.
-Se un atleta paga online non è necessario fare nulla. Se invece un atleta paga in contanti
-o con mezzi al di fuori della piattaforma, dovrai segnare il pagamento come pagato per emettere
-in automatico la ricevuta.
+Per un'entrata intestata a una persona, [conferma l'incasso dalla pagina Pagamenti](/docs/pagamenti#segna-un-pagamento-come-pagato).
+Mantieni **Genera ricevuta** selezionato per avviare anche la generazione del PDF.
+Nell'esempio incassiamo la quota associativa di **Sara Conti**, pari a **25,00**, lasciando **Invia email** disattivato.
+
+<Frame>![Incasso di una quota associativa con generazione del PDF](/images/ricevute/consultazione/1.placeholder.svg)</Frame>
+
+<Note>Se togli **Genera ricevuta**, la ricevuta viene comunque registrata senza il PDF immediato. Aprendo l'elenco **Ricevute**, il sistema avvia la generazione dei PDF mancanti.</Note>
 
 ## Numerazione progressiva
 
-Le ricevute vengono numerate con un **progressivo automatico all'interno dell'anno fiscale**.
-Ad ogni nuovo anno fiscale la numerazione riparte dal numero iniziale configurato.
+Alla conferma dell'incasso di un'entrata intestata a una persona, il sistema assegna un numero alla ricevuta.
+Nell'esempio, con numero iniziale pari a zero e senza altre ricevute nell'anno configurato, i due incassi producono le ricevute **1** e **2**.
+Trovi il progressivo nella colonna **Numero** dell'elenco **Ricevute**.
 
-Il sistema calcola il prossimo numero considerando:
-- Il numero più alto tra le ricevute già emesse nell'anno fiscale corrente
-- Il **numero iniziale** configurato nelle impostazioni
-
-Il numero assegnato sarà sempre il maggiore tra questi due valori, incrementato di uno.
-
-<Tip>
-  Puoi configurare il numero iniziale da **Impostazioni > Generali > Numero Iniziale Ricevute**.
-  Questo è utile, ad esempio, se durante l'anno hai già emesso ricevute con un altro sistema
-  e vuoi proseguire la numerazione senza sovrapposizioni.
-</Tip>
+<Frame>![Due ricevute registrate con progressivi 1 e 2](/images/ricevute/consultazione/2.placeholder.svg)</Frame>
 
 ## Come posso scaricare una ricevuta?
 
-Per scaricare una ricevuta, vai nella sezione **Documenti > Ricevute**.
-A questo punto, cliccando sull'icona del documento puoi scaricare la ricevuta in formato PDF.
+<Steps>
+  <Step title="Apri le ricevute">
+    Dal menu laterale apri **Documenti fiscali → Ricevute**. Trova la riga della persona e il numero della ricevuta.
+    <Frame>![Elenco delle ricevute dell'associazione](/images/ricevute/consultazione/2.placeholder.svg)</Frame>
+  </Step>
+  <Step title="Consulta il PDF">
+    Premi il pulsante con il suggerimento **Ricevuta n.2**, usando il numero della ricevuta che vuoi aprire.
+    Si apre l'anteprima del PDF. Premi **Chiudi** per tornare all'elenco.
+    <Frame>![Anteprima del PDF della ricevuta](/images/ricevute/consultazione/3.placeholder.svg)</Frame>
+  </Step>
+  <Step title="Scarica il documento">
+    Chiudi l'anteprima e premi **Condividi ricevuta** nella stessa riga.
+    Nella finestra **Condividi link ricevuta**, premi il pulsante accanto al link per copiarlo.
+    Apri il link copiato in una nuova scheda del browser: il PDF viene scaricato.
+    <Frame>![Pulsante per copiare il link di download; il link è oscurato nell'immagine](/images/ricevute/consultazione/4.placeholder.svg)</Frame>
+  </Step>
+</Steps>
+
+<Note>Un collaboratore con il permesso di lettura delle ricevute può consultarle. Il solo permesso di lettura non autorizza modifica, eliminazione o il comando di generazione manuale della ricevuta.</Note>
 
 ## Come posso inviare una ricevuta?
 
-Per condividere una ricevuta con un atleta, vai nella sezione **Documenti > Ricevute**. A questo
-punto, cliccando sull'icona dell'invio ti si aprirà un popup dove potrai:
+<Warning>Questa sezione richiede verifiche esterne del servizio, delle condizioni applicabili o della consegna. Non documenta un’operazione esterna già eseguita.</Warning>
 
-1. Condividere il link della ricevuta
-2. Inviare la ricevuta via email
-3. Inviare la ricevuta via WhatsApp
+Prima di condividere una ricevuta, controlla intestazione, importo e PDF. Il link di scaricamento consente l’accesso al documento: condividilo soltanto con il destinatario previsto e non pubblicarlo in schermate o gruppi aperti.
+
+<Steps>
+  <Step title="Apri la condivisione">
+    In **Ricevute**, individua il documento e usa il comando di condivisione disponibile nella riga. Si apre **Condividi link ricevuta**.
+  </Step>
+  <Step title="Scegli il canale">
+    Il comando di copia mette il link negli appunti. **WhatsApp** apre il servizio esterno; **Email** prepara un messaggio nel programma email. In entrambi i casi rivedi il destinatario prima della spedizione.
+  </Step>
+  <Step title="Distingui l’invio dell’applicazione">
+    Quando disponibile, **Invia** richiede invece la spedizione tramite l’applicazione. Il percorso cerca prima l’email del tesserato, poi quella dell’account collegato e del fornitore secondo i dati presenti; senza un indirizzo utilizzabile segnala l’assenza dell’email.
+  </Step>
+  <Step title="Controlla la ricezione">
+    Per la prova usa un destinatario concordato e verifica casella e apertura del documento. La conferma di richiesta non certifica consegna o lettura.
+  </Step>
+</Steps>
+
+<Frame caption="Segnaposto FullHD: condivisione ricevuta con link riservato completamente nascosto. Procedura ancora da verificare.">
+  <img src="/images/course-payment-additional/receipt-share-pending.svg" alt="Segnaposto FullHD: condivisione ricevuta con link riservato completamente nascosto" />
+</Frame>
+
+L’invio, l’apertura tramite programmi esterni e la ricezione non sono stati esercitati per questa guida. La richiesta non equivale a generazione di una nuova ricevuta o a nuovo incasso.
 
 ## Eliminare una ricevuta
 
-Se hai abilitato la funzione **Ricevute temporanee eliminabili** dalle impostazioni, puoi eliminare
-una ricevuta cliccando sull'icona del cestino fino a 7 giorni dalla sua creazione.
-Abilita subito l'impostazione per poter eliminare le ricevute.
+<Steps>
+  <Step title="Seleziona la ricevuta da eliminare">
+    Apri **Documenti fiscali → Ricevute** e trova la ricevuta. Premi il pulsante con il suggerimento **Elimina Ricevuta** nella sua riga.
+  </Step>
+  <Step title="Conferma l'eliminazione">
+    Nella finestra **Vuoi eliminare definitivamente la ricevuta?**, premi **Elimina**.
+    La ricevuta viene rimossa dall'elenco.
+    <Frame>![Conferma dell'eliminazione della ricevuta](/images/ricevute/modifica-eliminazione/4.placeholder.svg)</Frame>
+  </Step>
+  <Step title="Controlla il pagamento collegato">
+    Apri **Pagamenti**. Il pagamento rimane presente con lo stesso importo, torna **In attesa** e non è più collegato alla ricevuta eliminata.
+    <Frame>![Pagamento tornato in attesa dopo l'eliminazione della ricevuta](/images/ricevute/modifica-eliminazione/5.placeholder.svg)</Frame>
+  </Step>
+</Steps>
 
-<Warning>
-  **Finestra di eliminazione di 7 giorni**: una volta trascorsi 7 giorni dalla creazione,
-  la ricevuta non potrà più essere eliminata. Se hai necessità di correggere una ricevuta
-  dopo questo periodo, contatta il supporto.
-</Warning>
-
-<Info>
-  Quando elimini una ricevuta, il pagamento corrispondente torna automaticamente allo stato
-  **non pagato**, permettendoti di correggerlo e generare una nuova ricevuta.
-</Info>
+<Note>In questa versione non è applicato un limite di sette giorni per questa cancellazione. Nell'esempio la ricevuta ha 29 giorni. Serve comunque il permesso di eliminazione; il solo accesso in lettura non basta.</Note>
 
 ## Modifica del progressivo della ricevuta
 
-Per modificare il progressivo di una singola ricevuta, vai nella sezione **Documenti > Ricevute**.
-A questo punto cliccando sull'icona della matita puoi modificare il progressivo della ricevuta.
+<Steps>
+  <Step title="Trova la ricevuta">
+    Apri **Documenti fiscali → Ricevute**. Se vuoi includere anche anni diversi da quello corrente, scegli **Filtra Anno** nel campo **Anno ricevute**.
+    Nella riga della persona premi il pulsante con il suggerimento **Modifica**.
+    <Frame>![Ricevuta di Giulia Bianchi con numero 7](/images/ricevute/modifica-eliminazione/1.placeholder.svg)</Frame>
+  </Step>
+  <Step title="Cambia il numero">
+    Nel modulo **Modifica ricevuta**, cambia **Numero**, per esempio da **7** a **9**. Premi **Salva**.
+    <Frame>![Nuovo progressivo nel modulo della ricevuta](/images/ricevute/modifica-eliminazione/2.placeholder.svg)</Frame>
+  </Step>
+  <Step title="Controlla il risultato">
+    Il nuovo numero compare nell'elenco anche dopo il ricaricamento. Il PDF viene rigenerato con il progressivo aggiornato.
+    La modifica del numero non cambia l'importo del pagamento collegato.
+    <Frame>![Progressivo 9 conservato nell'elenco delle ricevute](/images/ricevute/modifica-eliminazione/3.placeholder.svg)</Frame>
+  </Step>
+</Steps>
+
+<Note>Per modificare una ricevuta serve il relativo permesso. Un collaboratore in sola lettura non può salvarne una modifica.</Note>
 
 ### Configurazioni possibili
 
-Dalle **Impostazioni > Generali** puoi configurare le seguenti opzioni:
+Le impostazioni delle ricevute comprendono:
 
-1. **Numera Ricevute** - Se abilitata, le ricevute verranno numerate in automatico in base al progressivo
-   impostato. Se disabilitata, il progressivo della ricevuta sarà impostato manualmente.
-2. **Numero Iniziale Ricevute** - Il numero iniziale del progressivo delle ricevute.
-3. **Ricevute temporanee eliminabili** - Se abilitata, le ricevute potranno essere eliminate fino a 7 giorni
-   dalla loro creazione. Se disabilitata, le ricevute non potranno essere eliminate.
-4. **Data uguale per ricevute e pagamenti** - Se abilitata, la data di emissione della ricevuta sarà uguale
-   alla data di pagamento. Se disabilitata, la data di emissione della ricevuta sarà uguale alla data di creazione
-   della ricevuta.
+1. **Numera Ricevute**: controlla la visualizzazione del progressivo nella testata del modello di ricevuta illustrato. Il numero del record viene assegnato all'incasso anche se questa opzione è disattivata.
+2. **Numero iniziale ricevute**: il prossimo progressivo parte dal maggiore tra questo valore e i numeri già presenti nell'intervallo considerato, incrementato di uno.
+3. **Data uguale per ricevute e pagamenti**: durante l'incasso, se attiva, imposta la data di creazione della ricevuta sulla data del pagamento.
 
-<Tip>
-  **Quando usare "Data uguale per ricevute e pagamenti"?** Questa opzione è utile quando registri
-  pagamenti avvenuti in una data diversa da quella in cui li inserisci nel sistema. Ad esempio,
-  se un atleta paga il 15 del mese ma tu registri il pagamento il 20, con questa opzione attiva
-  la ricevuta riporterà la data del 15 (data del pagamento effettivo).
-</Tip>
+<Note>La cancellazione descritta sopra non richiede l'attivazione di una finestra temporanea di sette giorni. Restano necessari i permessi dell'operazione.</Note>
+

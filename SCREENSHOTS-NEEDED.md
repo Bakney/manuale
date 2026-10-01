@@ -1,13 +1,13 @@
 # Screenshot Requirements Table
 
 This table lists all screenshots needed for the Bakney Sport documentation.
-A human should take these screenshots from the live application at https://app.bakney.com.
+Gli screenshot finali vengono acquisiti automaticamente da un’istanza Assozeta isolata con dati di esempio. Gli SVG sono soltanto segnaposto per la stesura.
 
 ## Naming Convention
 
 - Save screenshots in `images/<section-name>/` folders
 - Use sequential numbering: `1.png`, `2.png`, etc.
-- Use PNG format, minimum 1200px width for clarity
+- Stesura: SVG 1920 × 1080. Consegna: PNG reali con originale 1920 × 1080, scala 1; eventuali ritagli conservano originale e coordinate.
 
 ## Status Legend
 
@@ -90,7 +90,7 @@ A human should take these screenshots from the live application at https://app.b
 1. Use a clean browser window (no bookmarks bar, no extensions visible)
 2. Use the light theme (default) for consistency
 3. Populate the account with realistic sample data (Italian names, real-looking courses)
-4. Capture at 1200-1400px viewport width for optimal display
+4. Acquisire con viewport 1920 × 1080 e scala dispositivo 1; conservare sempre l’originale Full HD
 5. Crop to show only the relevant section, not the entire browser window
 6. If a step-by-step guide has 3+ steps, consider taking a screenshot for each key step
 7. Blur or redact any real personal data (email addresses, phone numbers, etc.)
