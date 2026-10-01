@@ -117,21 +117,26 @@ La scelta **No** conserva il collegamento all'account dell'associazione. Il perc
 
 #### Cosa succede se hai più tipologie di quote sociali?
 
-Le quote associative e le quote di tesseramento hanno elenchi separati. Con **Quote multiple** puoi proporre più piani, ciascuno con nome e importo. I piani con un periodo di disponibilità possono non comparire fuori dalle date configurate.
+Con **Quote multiple**, una stessa tipologia di iscrizione può offrire più piani con nomi e importi diversi. **Quota associativa** e **Quota Tesseramento** hanno configurazioni separate: selezionare un piano associativo non seleziona automaticamente quello di tesseramento.
+
+Nell’esempio creiamo **Ordinaria — 25,00 €** e **Sostenitore — 45,00 €** per la quota associativa. La quota di tesseramento rimane **0,00 €**. Occorrono i permessi per modificare il modulo e per creare iscrizioni; un collaboratore in sola lettura non può eseguire questi salvataggi.
 
 <Steps>
   <Step title="Controlla le quote configurate">
-    Apri **Organizzazione → Modulo Iscrizioni → Quote**. Controlla il nome e l'importo dei piani associativi e, se necessario, dei piani di tesseramento. Per modificare il modulo servono i relativi permessi; l'accesso può dipendere anche dal piano dell'associazione.
+    Apri **Organizzazione → Modulo Iscrizioni → Quote**. Controlla che **Associa quote iscrizione** sia attivo. Nella parte **Quota associativa** attiva **Quote multiple**, premi **Aggiungi quota** e compila **Nome quota** e **Quota**. Ripeti per il secondo piano. Se i piani esistono già, usa **Mostra quote** per controllarli e scegli nomi comprensibili anche a chi inserisce una persona.
   </Step>
-  <Step title="Scegli il piano durante l'inserimento">
-    Nel primo passaggio di **Aggiungi** scegli la tipologia della persona. Se è prevista la quota associativa, seleziona il suo piano; per un tesserato controlla anche il piano di tesseramento. Evita di confondere due piani con importi uguali ma nomi diversi.
+  <Step title="Salva il modulo e ricontrollalo">
+    Salva il modulo e attendi la conferma. Riapri **Quote → Mostra quote** e controlla che nomi e importi siano rimasti corretti. Compilare le quote senza salvare il modulo non le rende disponibili alle nuove iscrizioni.
   </Step>
-  <Step title="Verifica il risultato">
-    Prima di creare l'iscrizione, controlla il riepilogo. Dopo la creazione verifica i pagamenti collegati alla persona: la scelta di una quota non è, da sola, una conferma di incasso.
+  <Step title="Scegli il piano durante l’inserimento">
+    Torna in **Organizzazione → Iscrizioni** e premi **Aggiungi**. Mantieni **Socio e Tesserato** e, nell’elenco della **Quota associativa**, scegli **Sostenitore (€ 45,00)**. Controlla separatamente la quota di tesseramento. Nell’esempio scegli **No** alla creazione di un nuovo account e prosegui con i dati, la firma e il riepilogo della [procedura di creazione](/faq/come-si-crea-un-socio#creare-un-socio-socio-tesserato-o-tesserato).
+  </Step>
+  <Step title="Verifica il pagamento collegato">
+    Conferma la creazione solo dopo aver ricontrollato il riepilogo. Apri **Pagamenti** e cerca la persona appena inserita: per il piano dell’esempio il pagamento è **45,00 €**. Con l’incasso automatico disattivato rimane **In attesa**. La quota scelta stabilisce l’importo da richiedere; l’iscrizione, l’approvazione e l’incasso sono operazioni distinte.
   </Step>
 </Steps>
 
-<Note>La configurazione dei piani e la creazione dell'iscrizione sono due salvataggi distinti. Se non trovi un piano, controlla anche le sue date di disponibilità.</Note>
+<Note>I piani **Parziali**, le quote antecedenti e l’emissione delle quote successive hanno impostazioni proprie. Questo esempio riguarda due piani ordinari senza automatismi successivi. Controlla date e regole di un piano parziale prima di utilizzarlo.</Note>
 
 ### 2. Informazioni Anagrafiche
 
@@ -238,22 +243,24 @@ Per consultare la scheda serve il permesso di lettura delle iscrizioni; per salv
 
 ## Iscrizioni con QR code
 
-Il QR code evita di digitare l'indirizzo del modulo. La persona lo legge con il proprio dispositivo e prosegue sul modulo online dell'associazione.
+Il QR code e il link aprono lo stesso modulo online della tua associazione. Prima di mostrarlo alle persone controlla che il modulo abbia tipologie, quote, sezioni e testi corretti. Il collegamento apre la compilazione: non crea da solo una richiesta e non la approva.
 
 <Steps>
   <Step title="Apri la condivisione">
-    Apri **Organizzazione → Iscrizioni**, entra nel **Libro Soci** e premi il pulsante di condivisione. Si apre **Condividi link iscrizioni**, con il QR code e l'indirizzo del modulo della tua associazione.
-    <Frame>![Segnaposto della finestra di condivisione del modulo iscrizioni](/images/libro-soci/libro-soci-4.placeholder.svg)</Frame>
+    Apri **Organizzazione → Iscrizioni → Libro Soci** e premi **Condividi link iscrizioni**. La finestra mostra il QR code e l’indirizzo del modulo dell’associazione.
   </Step>
   <Step title="Controlla il modulo collegato">
-    Premi **Apri** per aprire il modulo in una nuova scheda. Controlla il nome dell'associazione e le opzioni proposte prima di distribuire l'indirizzo.
+    Premi **Apri**: il modulo si apre in una nuova scheda. Verifica il nome dell’associazione, la tipologia disponibile e le quote. Se devi correggere qualcosa, torna in **Organizzazione → Modulo Iscrizioni**, salva le modifiche e riapri il collegamento prima di distribuirlo.
   </Step>
   <Step title="Prepara il QR code">
-    Il pulsante **QR code** apre una finestra di stampa. Controlla l'anteprima e scegli la stampante o una destinazione disponibile nel tuo browser. Il QR code e il link puntano allo stesso modulo.
+    Torna nella finestra di condivisione e premi **QR code**. Si apre una pagina con il nome dell’associazione, il codice e l’indirizzo del modulo, seguita dalla richiesta di stampa del browser. Usa quella pagina per controllare che sia il codice giusto.
+  </Step>
+  <Step title="Completa la stampa e controlla la lettura">
+    Nel dialogo del tuo browser scegli la destinazione e conferma. Se usi un foglio stampato, prova a leggerlo con il dispositivo che verrà utilizzato: deve aprire il modulo della tua associazione, con un codice abbastanza nitido e leggibile. Scelta della stampante, produzione cartacea e scansione con la fotocamera dipendono dal browser e dal dispositivo.
   </Step>
 </Steps>
 
-<Note>Stampa e scansione dipendono dal browser e dal dispositivo. Verifica una copia stampata prima di esporla. L'apertura del modulo non crea un'iscrizione e non la approva.</Note>
+<Note>La pagina di stampa è generata dall’applicazione; la stampa o il salvataggio in PDF avvengono nel browser. Questa procedura deve ancora essere completata con una prova del dialogo nativo, della destinazione scelta e della scansione reale. Non confondere un’anteprima corretta con una stampa già riuscita.</Note>
 
 ## Importa Soci da file
 
@@ -284,21 +291,31 @@ L'importazione del file, invece, prepara una bozza per ciascuna riga: ripetere i
 
 ## Trasferimento dei Soci
 
-Nell'interfaccia attuale la funzione si chiama **Dai accesso**. Serve a collegare un'iscrizione gestita dall'associazione all'account della persona; non sposta il socio in un'altra associazione.
+La funzione **Dai accesso** collega un’iscrizione gestita dall’associazione all’account personale del destinatario. L’iscrizione resta nella stessa associazione: questa operazione non sposta la persona nel libro soci di un’altra organizzazione.
+
+Servono il permesso di modifica delle iscrizioni e la titolarità dell’iscrizione ancora gestita dall’account dell’associazione. L’esempio riguarda una persona adulta e un **account già esistente**, così puoi controllare il destinatario prima della conferma.
 
 <Steps>
   <Step title="Seleziona una sola iscrizione">
-    Nel **Libro Soci** o in **Tesserati**, seleziona la riga della persona. La funzione richiede una sola riga e controlla che l'iscrizione sia ancora collegata all'account che la gestisce.
+    Apri **Organizzazione → Iscrizioni → Tesserati** e seleziona soltanto la riga della persona interessata. Controlla nome e cognome; con zero righe o più righe la funzione non è disponibile. Premi **Dai accesso** nella barra delle azioni.
   </Step>
   <Step title="Controlla il destinatario">
-    Premi **Dai accesso**. Inserisci l'email o l'identificativo richiesto nella finestra. Se viene trovato un account esistente, controlla nome e cognome; altrimenti l'applicazione propone la creazione di un account dall'email.
+    Nella finestra **Dai accesso all’iscritto con un account**, inserisci l’email dell’account personale esistente. Attendi il risultato e ricontrolla il nome e il cognome mostrati. Il pulsante di conferma rimane disattivato finché il controllo non rende disponibile l’operazione. Se compare **Verrà creato un account**, sei nel percorso di creazione di un nuovo account, diverso da questo esempio.
+  </Step>
+  <Step title="Annulla se il destinatario non è corretto">
+    Premi **Annulla** se l’email o l’identità non sono quelle attese. L’annullamento lascia il collegamento precedente. Riapri **Dai accesso** e inserisci il destinatario corretto: non confermare una corrispondenza dubbia soltanto perché il pulsante è attivo.
   </Step>
   <Step title="Conferma consapevolmente">
-    Ricontrolla il destinatario prima di premere **Dai accesso**. Se i dati non sono corretti, premi **Annulla**. La conferma cambia il collegamento dell'iscrizione e dell'anagrafica; se viene creato un nuovo account è previsto anche un messaggio di benvenuto.
+    Ricontrolla l’account prima di premere **Dai accesso**. La conferma cambia subito il titolare dell’iscrizione e dell’anagrafica collegata. Il messaggio **Invito di accesso creato con successo** non significa che debba ancora arrivare un’approvazione del destinatario: il servizio registra già il trasferimento come accettato.
+  </Step>
+  <Step title="Ricontrolla il collegamento">
+    Ricarica l’elenco e apri la stessa persona. L’iscrizione rimane presente nell’associazione, con gli stessi dati e pagamenti. Se provi di nuovo **Dai accesso**, l’applicazione segnala **Non puoi dare accesso ad un iscritto che già ha accesso.**. Per un destinatario sbagliato chiedi assistenza: questa azione non offre un annullamento automatico che ripristini l’account precedente.
   </Step>
 </Steps>
 
-<Warning>La conferma attuale viene accettata direttamente dal servizio, senza attendere una successiva accettazione del destinatario. Il servizio controlla anche la titolarità dell'iscrizione: un permesso di modifica da solo non garantisce che ogni riga sia trasferibile.</Warning>
+<Warning>Confermare l’accesso è una modifica del collegamento personale. Un collaboratore con permessi di modifica può comunque non essere titolare dell’iscrizione; un collaboratore in sola lettura ha il comando disattivato e non può confermare il trasferimento.</Warning>
+
+<Note>La creazione di un nuovo account prevede un messaggio di benvenuto; la consegna del messaggio va controllata separatamente. Per un minore sono coinvolti anche i dati del tutore: l’esempio di questa procedura riguarda un adulto e non attesta il trasferimento di una famiglia.</Note>
 
 #### Scadenza delle richieste di trasferimento
 

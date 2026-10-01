@@ -201,23 +201,33 @@ Il filtro applicativo e la sua riapertura attendono una prova in browser. Commis
 
 ## Gestione delle causali
 
-<Note>Procedura ancora da verificare in browser, compresi risultato e riapertura. I comandi descritti sono presenti nell’applicazione.</Note>
+<Note>Procedura basata sulle sorgenti dell’applicazione; l’esecuzione completa e le schermate reali devono ancora essere verificate nell’istanza dimostrativa.</Note>
 
-Le causali classificano entrate e uscite e possono essere associate a una quota. La causale non sostituisce importo, conto e destinatario.
+Le causali classificano entrate e uscite. **Nome**, **Movimento**, **Tipologia** e gestione IVA descrivono la classificazione da associare al pagamento; non sostituiscono importo, destinatario o conto.
 
 <Steps>
-  <Step title="Apri le causali">
-    Dal gruppo **Pagamenti** apri **Causali**. Per una nuova voce usa il comando di creazione: si apre **Crea una causale**.
-  </Step>
-  <Step title="Compila la classificazione">
-    Indica **Nome** e **Movimento**, scegliendo **Entrata** o **Uscita**. Controlla **Tipologia**, **Tipo IVA** e **Tipo detrazione** secondo la classificazione concordata con il responsabile.
-  </Step>
-  <Step title="Salva e ricontrolla">
-    Salva la causale e ritrovala nell’elenco. Per correggerla usa il comando di modifica e controlla la riapertura. Nel modulo di pagamento scegli una causale coerente con il movimento.
-  </Step>
+<Step title="Apri le causali">
+Da **Pagamenti** apri **Causali**. L’elenco mostra sia voci comuni sia quelle dell’associazione. Per aggiungere una voce propria premi **Crea causale**: compare **Crea una causale**.
+</Step>
+<Step title="Compila la classificazione">
+Inserisci un **Nome** riconoscibile e scegli **Movimento**, Entrata oppure Uscita. Rivedi **Tipologia**, Istituzionale o Commerciale, **Tipo IVA** e **Tipo detrazione** secondo la classificazione approvata dal responsabile. Per un’entrata controlla anche **Detraibile fiscalmente**; non abilitarlo solo per completare il modulo. Nell’esempio si usa Quota laboratorio dimostrativa come Entrata, Istituzionale, IVA Esente e nessuna detrazione.
+<Frame>![Classificazione di una nuova causale prima di Salva](/images/pagamenti/causali-reali/2.placeholder.svg)</Frame>
+</Step>
+<Step title="Salva e ricontrolla">
+Premi **Salva**, ricarica l’elenco e ritrova la voce con nome e classificazione corretti. Nel modulo di pagamento scegli una causale coerente con il movimento. Salvare una nuova causale non modifica le quote già registrate.
+<Frame>![Nuova causale presente dopo il ricaricamento](/images/pagamenti/causali-reali/3.placeholder.svg)</Frame>
+</Step>
+<Step title="Modifica una causale propria">
+Usa **Modifica** sulla riga dell’associazione. Rivedi il nome e tutti i valori, poi **Salva** e ricarica. I comandi di modifica ed eliminazione non sono disponibili per le voci comuni. Un collaboratore in lettura consulta l’elenco, senza poter salvare cambiamenti.
+<Frame>![Causale modificata e riaperta nell’elenco](/images/pagamenti/causali-reali/5.placeholder.svg)</Frame>
+</Step>
+<Step title="Rimuovi una voce non più utilizzata">
+Premi **Elimina** sulla causale propria e rileggi **Vuoi eliminare la causale di pagamento?**. **Annulla** conserva la voce. Confermando **Elimina**, la causale è contrassegnata come **Eliminata** dopo il ricaricamento. Non presumere che vengano cancellati i pagamenti già registrati: controllali separatamente prima di cambiare una classificazione usata nei documenti.
+<Frame>![Causale contrassegnata come Eliminata](/images/pagamenti/causali-reali/8.placeholder.svg)</Frame>
+</Step>
 </Steps>
 
-<Note>Le impostazioni fiscali non costituiscono una verifica normativa. Prima di modificare una causale già utilizzata, controlla quali registrazioni e documenti dipendono da essa.</Note>
+<Note>Le scelte fiscali descrivono valori dell’applicazione; non attestano il diritto a una detrazione o la correttezza normativa. Le condizioni 730 richiedono una verifica esterna del caso concreto.</Note>
 
 ### Causali detraibili 730
 

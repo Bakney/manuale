@@ -186,9 +186,56 @@ Gli esempi seguenti distinguono ciò che puoi preparare nell'editor dagli eventi
 
 ## Email di benvenuto
 
-Una configurazione semplice comprende **Nuova iscrizione** e **Azione Messaggio** con un'email di benvenuto. Nel testo puoi indicare i contatti della segreteria, dove trovare gli orari e quali documenti preparare.
+Prepara un solo messaggio dopo **Nuova iscrizione** e controllalo da una regola **Spenta**. Per creare e modificare la regola servono i relativi permessi; nel percorso documentato opera il proprietario dell’associazione.
 
-Per la prova usa **Me stesso**; per il gruppo reale rivedi il comportamento di **Atleti** e **Atleti e Me stesso**. Segui la [guida dedicata](/faq/come-inviare-email-nuovi-iscritti). Creazione, attivazione e successiva iscrizione di prova attendono la verifica in browser; il recapito richiede un controllo della casella.
+<Steps>
+<Step title="Dai un nome alla regola">
+Apri **Comunicazioni → Automazioni**, premi **Automazione** e modifica il nome in alto, per esempio **Benvenuto nuova iscrizione**. Parti da una regola nuova, che viene creata spenta.
+
+<Frame caption="Nome della nuova automazione di benvenuto">
+![Nome della nuova automazione di benvenuto](/images/comunicazioni/benvenuto-stato/1.placeholder.svg)
+</Frame>
+</Step>
+<Step title="Configura l’evento di iscrizione">
+Nel primo blocco premi **Configura** e scegli **Nuova iscrizione**. Chiudi il pannello: la chiusura salva la configurazione, quindi non è un annullamento. L’evento riguarda l’iscrizione all’associazione, non l’aggiunta a un corso.
+
+<Frame caption="Evento Nuova iscrizione nel pannello di configurazione">
+![Evento Nuova iscrizione nel pannello di configurazione](/images/comunicazioni/benvenuto-stato/2.placeholder.svg)
+</Frame>
+</Step>
+<Step title="Prepara l’email di prova">
+Sotto **scegli il prossimo step** premi **Azione Messaggio**, quindi **Configura**. Lascia **Email**, scegli **Me stesso** e scrivi l’**Oggetto**. Questa scelta usa la casella del proprietario dell’associazione, anche se modifica la regola un collaboratore.
+
+<Frame caption="Destinatario Me stesso e oggetto del messaggio">
+![Destinatario Me stesso e oggetto del messaggio](/images/comunicazioni/benvenuto-stato/3.placeholder.svg)
+</Frame>
+</Step>
+<Step title="Scrivi nel compositore e salva">
+Premi **Crea email**. Nella nuova scheda aggiungi un blocco **Testo**, compila **Contenuto** con il benvenuto, i recapiti della segreteria e i prossimi passi. Premi **Salva** e attendi **Email salvata.**. Torna alla scheda dell’automazione e controlla che il testo sia presente prima di chiudere il pannello.
+
+<Frame caption="Contenuto di benvenuto salvato nel compositore">
+![Contenuto di benvenuto salvato nel compositore](/images/comunicazioni/benvenuto-stato/4.placeholder.svg)
+</Frame>
+</Step>
+<Step title="Conserva la regola spenta">
+Premi **Salva** nell’editor e **Chiudi** per tornare all’elenco. Controlla nome e stato **Spenta**; ricarica la pagina. Il salvataggio non richiede un invio.
+
+<Frame caption="Automazione di benvenuto nell’elenco con stato Spenta">
+![Automazione di benvenuto nell’elenco con stato Spenta](/images/comunicazioni/benvenuto-stato/5.placeholder.svg)
+</Frame>
+</Step>
+<Step title="Riapri e confronta i dati">
+Premi **Modifica** nella riga, controlla **Nuova iscrizione** e apri **Configura** nel messaggio. Verifica **Me stesso**, oggetto e contenuto, poi chiudi il pannello e torna all’elenco. Se qualcosa manca, correggi la regola prima di attivarla.
+
+<Frame caption="Email riaperta con destinatario oggetto e testo conservati">
+![Email riaperta con destinatario oggetto e testo conservati](/images/comunicazioni/benvenuto-stato/6.placeholder.svg)
+</Frame>
+</Step>
+</Steps>
+
+<Note>Questa preparazione non attiva la regola e non invia email. Per lo stato usa [Attivare un workflow](#attivare-un-workflow); per il servizio e la prova di ricezione consulta la [FAQ del benvenuto](/faq/come-inviare-email-nuovi-iscritti). L’attivazione non spedisce il benvenuto retroattivamente a tutte le iscrizioni già presenti.</Note>
+
+<Note>Procedura ancora da verificare in browser, compresi risultato e riapertura. I comandi descritti sono presenti nell’applicazione.</Note>
 
 ## Promemoria pagamento dopo l'iscrizione
 
@@ -222,32 +269,89 @@ Il salvataggio dell'editor e l'attivazione dall'elenco sono operazioni diverse. 
 
 ## Attivare un workflow
 
+Il comando richiede il permesso di aggiornamento delle automazioni. L’esempio parte da un benvenuto già salvato con **Nuova iscrizione**: non crea una data programmata né un nuovo evento di iscrizione.
+
 <Steps>
-  <Step title="Rivedi la regola spenta">
-    Apri **Comunicazioni > Automazioni**, individua il nome e controlla lo stato **Spenta**. Riapri la configurazione per verificare evento, blocchi, indirizzi e contenuto.
-  </Step>
-  <Step title="Richiedi l'attivazione">
-    Torna all'elenco, premi l'icona **play** della riga e conferma **Attiva** nella richiesta **Vuoi attivare l'automazione?**.
-  </Step>
-  <Step title="Controlla lo stato e prepara la verifica">
-    Attendi la conferma e lo stato **Attiva**. Per gli eventi di iscrizione serve un evento successivo; per una data futura serve controllare la programmazione del servizio. Lo stato attivo non dimostra un invio riuscito.
-  </Step>
+<Step title="Controlla la regola salvata">
+In **Comunicazioni → Automazioni** trova la regola con stato **Spenta**. Apri **Modifica**, rivedi evento, destinatari, oggetto e testo, poi torna all’elenco. Per l’esempio di benvenuto usa **Nuova iscrizione** e **Me stesso**.
+
+<Frame caption="Regola salvata spenta prima dell’attivazione">
+![Regola salvata spenta prima dell’attivazione](/images/comunicazioni/benvenuto-stato/5.placeholder.svg)
+</Frame>
+
+<Frame caption="Controllo del messaggio riaperto prima dell’attivazione">
+![Controllo del messaggio riaperto prima dell’attivazione](/images/comunicazioni/benvenuto-stato/6.placeholder.svg)
+</Frame>
+</Step>
+<Step title="Apri la conferma">
+Premi l’icona **play**, con suggerimento **Attiva**, nella riga corretta. Leggi **Vuoi attivare l’automazione?**. **Annulla** chiude la richiesta e mantiene la regola spenta.
+
+<Frame caption="Conferma di attivazione della regola">
+![Conferma di attivazione della regola](/images/comunicazioni/benvenuto-stato/7.placeholder.svg)
+</Frame>
+
+<Frame caption="Attivazione annullata e stato Spenta conservato">
+![Attivazione annullata e stato Spenta conservato](/images/comunicazioni/benvenuto-stato/8.placeholder.svg)
+</Frame>
+</Step>
+<Step title="Conferma Attiva">
+Premi di nuovo l’icona **play** e conferma **Attiva**. Attendi il messaggio di esito e lo stato **Attiva** nella riga. Se compare un errore, controlla lo stato prima di ripetere.
+
+<Frame caption="Regola presente con stato Attiva">
+![Regola presente con stato Attiva](/images/comunicazioni/benvenuto-stato/9.placeholder.svg)
+</Frame>
+</Step>
+<Step title="Ricarica e controlla">
+Ricarica la pagina e ritrova la stessa regola: lo stato deve essere **Attiva**. Questa è la conferma del cambio di stato; per una regola di iscrizione, l’esecuzione dipende da un successivo evento di iscrizione.
+
+<Frame caption="Stato Attiva dopo il ricaricamento">
+![Stato Attiva dopo il ricaricamento](/images/comunicazioni/benvenuto-stato/10.placeholder.svg)
+</Frame>
+</Step>
 </Steps>
 
-Questi controlli di interfaccia e persistenza attendono la verifica in browser. Un workflow di benvenuto non invia automaticamente il messaggio a tutte le vecchie iscrizioni al momento dell'attivazione.
+<Warning>Lo stato **Attiva** non dimostra che un’email sia stata inviata o consegnata. Concorda separatamente una successiva iscrizione di prova e il controllo dello storico e della casella. Per eventi a data e ora, occorre anche verificare la programmazione e il servizio dell’installazione.</Warning>
+
+<Note>Procedura ancora da verificare in browser, compresi risultato e riapertura. I comandi descritti sono presenti nell’applicazione.</Note>
 
 ## Disattivare un workflow
 
+Puoi fermare una regola dall’elenco senza eliminarla. Serve il permesso di aggiornamento delle automazioni.
+
 <Steps>
-  <Step title="Apri la riga attiva">
-    In **Comunicazioni > Automazioni**, trova la regola con stato **Attiva** e premi l'icona **pausa**.
-  </Step>
-  <Step title="Conferma e controlla">
-    Nella richiesta **Vuoi disattivare l'automazione?**, premi **Disattiva**. Attendi lo stato **Spenta** nell'elenco; **Annulla** lascia la richiesta senza conferma.
-  </Step>
+<Step title="Apri la richiesta dalla riga attiva">
+In **Comunicazioni → Automazioni** individua nome e stato **Attiva**. Premi l’icona **pausa**, con suggerimento **Stoppa**. Si apre **Vuoi disattivare l’automazione?**.
+
+<Frame caption="Conferma di disattivazione della regola attiva">
+![Conferma di disattivazione della regola attiva](/images/comunicazioni/benvenuto-stato/11.placeholder.svg)
+</Frame>
+</Step>
+<Step title="Scegli se annullare">
+Se vuoi lasciare la regola attiva, premi **Annulla** e verifica che lo stato sia ancora **Attiva**. Per proseguire, apri nuovamente la richiesta dalla stessa riga.
+
+<Frame caption="Disattivazione annullata e stato Attiva conservato">
+![Disattivazione annullata e stato Attiva conservato](/images/comunicazioni/benvenuto-stato/12.placeholder.svg)
+</Frame>
+</Step>
+<Step title="Conferma Disattiva">
+Premi **Disattiva** e attendi la conferma. La riga deve mostrare **Spenta**: la regola rimane nell’elenco e conserva la configurazione.
+
+<Frame caption="Regola disattivata e ancora presente nell’elenco">
+![Regola disattivata e ancora presente nell’elenco](/images/comunicazioni/benvenuto-stato/13.placeholder.svg)
+</Frame>
+</Step>
+<Step title="Controlla dopo il ricaricamento">
+Ricarica e verifica **Spenta**. Puoi riaprire con **Modifica** per controllare evento e messaggio o prepararne l’aggiornamento. Non serve ricreare la regola per conservarla spenta.
+
+<Frame caption="Stato Spenta conservato dopo il ricaricamento">
+![Stato Spenta conservato dopo il ricaricamento](/images/comunicazioni/benvenuto-stato/14.placeholder.svg)
+</Frame>
+</Step>
 </Steps>
 
-La regola resta nell'elenco. I passaggi ancora da iniziare ricontrollano che sia attiva, ma la disattivazione non ritira email già inviate o richieste di invio già affidate al servizio. Se devi fermare una comunicazione imminente, verifica l'esito con il gestore.
+<Warning>La disattivazione non ritira email già inviate o richieste già affidate al servizio. Il controllo dello stato descritto qui non prova l’interruzione di una consegna già in lavorazione: per un invio imminente verifica l’esito con il gestore.</Warning>
+
+<Note>Procedura ancora da verificare in browser, compresi risultato e riapertura. I comandi descritti sono presenti nell’applicazione.</Note>
 
 ## Modificare un workflow
 
@@ -294,6 +398,6 @@ I passaggi vengono eseguiti attraverso i servizi automatici dell'installazione. 
 
 # Conclusione
 
-Una prima regola da preparare è **Nuova iscrizione → email**, inizialmente spenta e indirizzata a una casella di prova. Controlla nome, evento, destinatari e contenuto dopo la riapertura; poi concorda attivazione e verifica della ricezione.
+Prepara una regola **Nuova iscrizione → email**, prima spenta e indirizzata a **Me stesso**. Dopo il salvataggio, riapri e confronta evento, oggetto, destinatario e testo. L’[email di benvenuto](#email-di-benvenuto) descrive tutta la preparazione, mentre [Attivare un workflow](#attivare-un-workflow) e [Disattivare un workflow](#disattivare-un-workflow) spiegano il cambio di stato, compreso **Annulla** e il controllo dopo il ricaricamento.
 
-Per il benvenuto usa la [FAQ dedicata](/faq/come-inviare-email-nuovi-iscritti). Per un invio singolo consulta [Comunicazioni](/docs/comunicazioni). Per problemi di esecuzione rivolgiti al gestore della tua installazione con nome della regola, orario e messaggio di errore, senza condividere password o altri dati riservati.
+La [FAQ dedicata](/faq/come-inviare-email-nuovi-iscritti) riunisce preparazione e attivazione. Il recapito resta un controllo separato: serve una successiva iscrizione concordata, l’esecuzione dei servizi e la verifica della casella di prova. Per un testo manuale usa [Comunicazioni](/docs/comunicazioni). In caso di errore, indica al gestore nome della regola, orario e messaggio visualizzato, senza condividere password o codici riservati.

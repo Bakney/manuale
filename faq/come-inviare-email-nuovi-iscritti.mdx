@@ -23,40 +23,81 @@ Per usare un SMTP dell'associazione, la pagina offre **SMTP Host**, **SMTP Port*
 
 # Creare un'automazione per inviare un'email ai nuovi iscritti
 
-Questa procedura descrive i comandi presenti nell'applicazione e attende una prova completa in browser. L'immagine è un segnaposto. Puoi preparare il workflow spento e rivederlo prima di richiedere invii.
+Crea un benvenuto con un solo messaggio, salvalo spento, riaprilo e abilitalo dopo il controllo. Per la prima configurazione usa **Me stesso** e i dati concordati con il proprietario dell’associazione. Il percorso richiede un account autorizzato a creare e aggiornare automazioni; i collaboratori con permessi personalizzati possono incontrare un limite di accesso in questa versione.
 
 <Steps>
-  <Step title="Apri Automazioni">
-    Vai in **Comunicazioni > Automazioni** e premi **Automazione**. Si apre l'editor, con il nome iniziale **Nuova Automazione** e un blocco **Evento di attivazione**.
-  </Step>
-  <Step title="Assegna un nome riconoscibile">
-    Modifica il nome in alto, per esempio **Benvenuto nuova iscrizione**. Il nome ti aiuterà a ritrovare la regola nell'elenco; il salvataggio non richiede una descrizione aggiuntiva nell'editor.
-  </Step>
-  <Step title="Scegli Nuova iscrizione">
-    Nel blocco **Evento di attivazione**, premi **Configura** e seleziona **Nuova iscrizione**. Chiudi il pannello. La chiusura può già salvare la configurazione: non considerare **Chiudi** come un annullamento.
-  </Step>
-  <Step title="Aggiungi il messaggio email">
-    Sotto **scegli il prossimo step**, premi **Azione Messaggio**. Nel nuovo blocco premi **Configura** e lascia **Email** come tipo.
-  </Step>
-  <Step title="Scegli destinatari e oggetto">
-    Per la prima prova scegli **Me stesso** e scrivi un **Oggetto**, per esempio **Benvenuto nella nostra associazione**. **Me stesso** usa la casella del proprietario dell'associazione; non quella del collaboratore che sta modificando il workflow.
-  </Step>
-  <Step title="Prepara il contenuto">
-    Premi **Crea email**: il compositore si apre in una nuova scheda. Scrivi il benvenuto, i contatti della segreteria e i prossimi passi. Salva nel compositore e attendi la conferma **Email salvata.**. Torna all'editor e controlla che il contenuto sia presente; per riaprirlo usa **Modifica**.
-  </Step>
-  <Step title="Salva e riapri la regola spenta">
-    Chiudi il pannello, premi **Salva**, poi **Chiudi** per tornare all'elenco. Controlla il nome e lo stato **Spenta**. Riapri con il comando di modifica e verifica evento, destinatari, oggetto e contenuto.
-  </Step>
-  <Step title="Attiva dopo il controllo">
-    Torna all'elenco, premi l'icona **play** della riga e conferma **Attiva**. Controlla che lo stato diventi **Attiva**. Per verificare l'esecuzione serve una successiva iscrizione di prova concordata con il responsabile, oltre al controllo dello storico e della casella destinataria.
-  </Step>
-</Steps>
+<Step title="Dai un nome alla regola">
+Apri **Comunicazioni → Automazioni**, premi **Automazione** e modifica il nome in alto, per esempio **Benvenuto nuova iscrizione**. Parti da una regola nuova, che viene creata spenta.
 
-<Frame caption="Segnaposto FullHD: evento Nuova iscrizione e configurazione dell'email di benvenuto. Creazione, riapertura e attivazione ancora da verificare.">
-  <img src="/images/comunicazioni/workflow-welcome-pending.svg" alt="Segnaposto dell'automazione di benvenuto con evento e messaggio email" />
+<Frame caption="Nome della nuova automazione di benvenuto">
+![Nome della nuova automazione di benvenuto](/images/comunicazioni/benvenuto-stato/1.placeholder.svg)
+</Frame>
+</Step>
+<Step title="Configura l’evento di iscrizione">
+Nel primo blocco premi **Configura** e scegli **Nuova iscrizione**. Chiudi il pannello: la chiusura salva la configurazione, quindi non è un annullamento. L’evento riguarda l’iscrizione all’associazione, non l’aggiunta a un corso.
+
+<Frame caption="Evento Nuova iscrizione nel pannello di configurazione">
+![Evento Nuova iscrizione nel pannello di configurazione](/images/comunicazioni/benvenuto-stato/2.placeholder.svg)
+</Frame>
+</Step>
+<Step title="Prepara l’email di prova">
+Sotto **scegli il prossimo step** premi **Azione Messaggio**, quindi **Configura**. Lascia **Email**, scegli **Me stesso** e scrivi l’**Oggetto**. Questa scelta usa la casella del proprietario dell’associazione, anche se modifica la regola un collaboratore.
+
+<Frame caption="Destinatario Me stesso e oggetto del messaggio">
+![Destinatario Me stesso e oggetto del messaggio](/images/comunicazioni/benvenuto-stato/3.placeholder.svg)
+</Frame>
+</Step>
+<Step title="Scrivi nel compositore e salva">
+Premi **Crea email**. Nella nuova scheda aggiungi un blocco **Testo**, compila **Contenuto** con il benvenuto, i recapiti della segreteria e i prossimi passi. Premi **Salva** e attendi **Email salvata.**. Torna alla scheda dell’automazione e controlla che il testo sia presente prima di chiudere il pannello.
+
+<Frame caption="Contenuto di benvenuto salvato nel compositore">
+![Contenuto di benvenuto salvato nel compositore](/images/comunicazioni/benvenuto-stato/4.placeholder.svg)
+</Frame>
+</Step>
+<Step title="Conserva la regola spenta">
+Premi **Salva** nell’editor e **Chiudi** per tornare all’elenco. Controlla nome e stato **Spenta**; ricarica la pagina. Il salvataggio non richiede un invio.
+
+<Frame caption="Automazione di benvenuto nell’elenco con stato Spenta">
+![Automazione di benvenuto nell’elenco con stato Spenta](/images/comunicazioni/benvenuto-stato/5.placeholder.svg)
+</Frame>
+</Step>
+<Step title="Riapri e confronta i dati">
+Premi **Modifica** nella riga, controlla **Nuova iscrizione** e apri **Configura** nel messaggio. Verifica **Me stesso**, oggetto e contenuto, poi chiudi il pannello e torna all’elenco. Se qualcosa manca, correggi la regola prima di attivarla.
+
+<Frame caption="Email riaperta con destinatario oggetto e testo conservati">
+![Email riaperta con destinatario oggetto e testo conservati](/images/comunicazioni/benvenuto-stato/6.placeholder.svg)
+</Frame>
+</Step>
+
+<Step title="Apri la richiesta di attivazione">
+Dall’elenco della regola **Spenta** premi l’icona **play** e leggi **Vuoi attivare l’automazione?**. **Annulla** lascia la regola spenta: usalo se non hai ancora controllato la casella di prova o il servizio.
+
+<Frame caption="Conferma di attivazione dell’automazione di benvenuto">
+![Conferma di attivazione dell’automazione di benvenuto](/images/comunicazioni/benvenuto-stato/7.placeholder.svg)
 </Frame>
 
-<Note>Il workflow viene creato spento. **Salva** conserva la regola; l'icona play richiede l'attivazione. Non attivare una seconda regola equivalente senza controllare quelle già presenti, per evitare email duplicate.</Note>
+<Frame caption="Regola ancora Spenta dopo Annulla">
+![Regola ancora Spenta dopo Annulla](/images/comunicazioni/benvenuto-stato/8.placeholder.svg)
+</Frame>
+</Step>
+<Step title="Attiva e ricontrolla lo stato">
+Quando la configurazione è pronta, riapri la richiesta e premi **Attiva**. Attendi **Attiva** nella riga, poi ricarica e verifica lo stesso stato.
+
+<Frame caption="Benvenuto con stato Attiva nell’elenco">
+![Benvenuto con stato Attiva nell’elenco](/images/comunicazioni/benvenuto-stato/9.placeholder.svg)
+</Frame>
+
+<Frame caption="Stato Attiva del benvenuto dopo il ricaricamento">
+![Stato Attiva del benvenuto dopo il ricaricamento](/images/comunicazioni/benvenuto-stato/10.placeholder.svg)
+</Frame>
+</Step>
+</Steps>
+
+<Note>Il risultato di questi passaggi è una regola salvata e attiva. La consegna è una verifica distinta: non è stata esercitata una successiva iscrizione, l’esecuzione dei servizi, lo storico di un invio o la casella destinataria. Concorda tali controlli con il gestore prima di usare **Atleti** o **Atleti e Me stesso**. Non attivare una seconda regola equivalente senza controllare quelle già presenti.</Note>
+
+Per spegnere la regola conservandola, consulta [Disattivare un workflow](/tutorials/come-impostare-automazioni-workflow#disattivare-un-workflow). Per date, attese e altri limiti usa il [tutorial completo](/tutorials/come-impostare-automazioni-workflow).
+
+<Note>Procedura ancora da verificare in browser, compresi risultato e riapertura. I comandi descritti sono presenti nell’applicazione.</Note>
 
 # Note e consigli
 

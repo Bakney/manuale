@@ -110,43 +110,55 @@ Questa opzione offre un importo alternativo al piano rate di un corso **Standard
 
 #### Corso con quote multiple
 
-<Note>Procedura basata sui comandi presenti nell’applicazione, ancora da verificare in browser e dopo la riapertura.</Note>
+<Note>Procedura basata sulle sorgenti dell’applicazione; l’esecuzione completa e le schermate reali devono ancora essere verificate nell’istanza dimostrativa.</Note>
 
-Usa **Quote Multiple** quando il tesserato deve avere una delle quote alternative, per esempio **Studenti**, **Ordinaria** o **Famiglia**. Non è una rateizzazione dello stesso totale.
+Le **Quote Multiple** sono alternative: ogni iscrizione sceglie una quota, per esempio **Ordinaria** oppure **Studenti**. Non dividono lo stesso totale in rate e non incassano automaticamente l’importo.
 
 <Steps>
-  <Step title="Scegli la tipologia">
-    Nel modulo del corso scegli **Quote Multiple**. Premi **Aggiungi Quota** per creare una riga.
-  </Step>
-  <Step title="Compila le alternative">
-    Per ogni riga indica **Titolo**, **Causale** e **Importo**. La causale deve essere adatta all’entrata; **Aggiungi Causale** apre la relativa pagina. Usa il cestino per togliere una scelta ancora in preparazione.
-  </Step>
-  <Step title="Salva e assegna una quota">
-    Salva il corso. Nel modulo **Iscrivi al corso**, scegli il tesserato e la voce **Quota**, poi **Aggiungi**. Controlla l’importo del pagamento assegnato.
-  </Step>
+<Step title="Scegli la tipologia">
+Apri **Attività → Corsi**, premi **Corso o Abbonamento** e compila titolo e descrizione. Seleziona **Quote Multiple** nella Tipologia. Per una nuova alternativa premi **Aggiungi Quota**.
+</Step>
+<Step title="Compila le alternative">
+Per ogni riga inserisci **Titolo**, **Causale** e **Importo**. Per esempio crea Ordinaria da 90 euro e Studenti da 65 euro, entrambe con una causale di entrata appropriata. Il cestino rimuove la riga ancora in preparazione. **Aggiungi Causale** apre una pagina diversa: prepara prima le causali per non interrompere la compilazione del corso.
+<Frame>![Quote alternative prima del salvataggio](/images/corsi/tipologie-condivisione-reali/1.placeholder.svg)</Frame>
+</Step>
+<Step title="Salva e assegna una quota">
+Premi **Salva**, riapri il corso e controlla titoli e importi. In **Iscritti al corso** premi **Aggiungi tesserato**, scegli la persona e poi la voce **Quota**. Premi **Aggiungi**. Ricarica la scheda e controlla l’iscrizione e il pagamento collegato: nell’esempio Studenti produce una quota da 65 euro ancora da incassare.
+<Frame>![Quota scelta per la singola iscrizione](/images/corsi/tipologie-condivisione-reali/3.placeholder.svg)</Frame>
+</Step>
+<Step title="Rivedi una quota già assegnata">
+Nella riga della persona apri **Modifica** e rileggi l’avviso: cambiare **Quota** non modifica i pagamenti. Scegliendo Ordinaria al posto di Studenti cambi la quota dell’iscrizione, mentre il pagamento già registrato conserva 65 euro. Dopo **Modifica**, riapri la scheda e confronta separatamente iscrizione e pagamento effettivo.
+<Frame>![Avviso prima di cambiare una quota già assegnata](/images/corsi/tipologie-condivisione-reali/5.placeholder.svg)</Frame>
+</Step>
 </Steps>
 
-<Note>Nel modulo di modifica dell’iscrizione, l’avviso precisa che cambiare **Quota** non modifica i pagamenti. Per correggere una somma già registrata consulta il pagamento effettivo; non basta cambiare l’etichetta della quota.</Note>
+<Info>Creazione del corso, assegnazione e modifica richiedono i rispettivi permessi sui corsi. Un collaboratore in lettura può consultare le righe; non può salvare queste operazioni. Per correggere una somma già registrata consulta [Pagamenti](/docs/pagamenti), controllando prima stato e documenti collegati.</Info>
 
 #### Corso di tipo Abbonamento
 
-<Note>Procedura basata sui comandi presenti nell’applicazione, ancora da verificare in browser e dopo la riapertura.</Note>
+<Note>Procedura basata sulle sorgenti dell’applicazione; l’esecuzione completa e le schermate reali devono ancora essere verificate nell’istanza dimostrativa.</Note>
 
-L’abbonamento del corso prepara quote per un periodo di attività. Non indica l’abbonamento alla piattaforma e non autorizza da solo un addebito su carta.
+Un corso **Abbonamento** registra quote riferite a un periodo di attività. La configurazione generale propone valori al singolo tesserato; puoi personalizzare quota e durata quando lo aggiungi. È distinto dal piano della piattaforma.
 
 <Steps>
-  <Step title="Imposta quota e durata">
-    Scegli **Abbonamento**, compila **Quota abbonamento** e decidi se usare **Dura tutta la stagione sportiva**. Altrimenti scegli **Durata abbonamento (mesi)**, da mensile ad annuale.
-  </Step>
-  <Step title="Decidi inizio e rinnovo">
-    Controlla **Inizia da data iscrizione** e **Rinnovo automatico**. Quando l’inizio non segue l’iscrizione, imposta **Si rinnova il giorno**, da 1 a 28. Leggi il riepilogo del periodo prima di salvare.
-  </Step>
-  <Step title="Controlla il singolo abbonamento">
-    Dopo il salvataggio aggiungi il tesserato al corso. Nella sua iscrizione verifica quota, periodo, **Abbonamento attivo** e rinnovo; le condizioni possono essere personalizzate per il singolo tesserato.
-  </Step>
+<Step title="Imposta quota e durata">
+Da **Attività → Corsi → Corso o Abbonamento** compila titolo e descrizione, poi scegli **Abbonamento**. Inserisci **Quota abbonamento**. Per una durata in mesi disattiva **Dura tutta la stagione sportiva** e scegli **Durata abbonamento (mesi)**, da 1 a 12. Per esempio imposta 40 euro e Mensile. Se usi la stagione sportiva, controlla invece le sue date nelle impostazioni.
+<Frame>![Quota e impostazioni generali dell’abbonamento](/images/corsi/tipologie-condivisione-reali/9.placeholder.svg)</Frame>
+</Step>
+<Step title="Decidi inizio e rinnovo">
+Con **Inizia da data iscrizione** il periodo parte dalla data di iscrizione. Se lo disattivi, scegli **Si rinnova il giorno**, da 1 a 28. Decidi separatamente **Rinnovo automatico** e leggi il riepilogo sotto i controlli. Premi **Salva**, riapri il corso e verifica che importo, durata e interruttori siano conservati.
+</Step>
+<Step title="Personalizza il singolo abbonamento">
+Nella scheda **Abbonamenti** premi **Aggiungi abbonamento**. Seleziona i **Tesserati** e rivedi **Quota di iscrizione (€)**, durata e **Data inizio**. Per durate in mesi la **Data fine** è calcolata; per la stagione sportiva è un campo da controllare. Nell’esempio puoi assegnare alla sola Giulia 35 euro per due mesi. Controlla **Abbonamento attivo** e **Rinnovo automatico**, quindi premi **Crea**.
+<Frame>![Quota e periodo del singolo abbonamento prima di Crea](/images/corsi/tipologie-condivisione-reali/11.placeholder.svg)</Frame>
+</Step>
+<Step title="Controlla periodo e pagamento">
+Ricarica la pagina e ritrova la persona corretta. Verifica data iniziale, data finale, quota e stato. Controlla i pagamenti dell’abbonamento: la creazione dell’esempio registra una quota da 35 euro non ancora incassata. Le condizioni generali del corso restano da 40 euro e mensili; non sono state sostituite dalla scelta individuale.
+<Frame>![Abbonamento individuale salvato e riaperto](/images/corsi/tipologie-condivisione-reali/12.placeholder.svg)</Frame>
+</Step>
 </Steps>
 
-<Note>Il rinnovo registra quote e dipende dai servizi automatici dell’installazione. Il corso deve essere visibile e l’abbonamento individuale attivo, con rinnovo abilitato e quota positiva. Questo non garantisce un incasso o un rinnovo eseguito entro un’ora precisa.</Note>
+<Note>Il rinnovo automatico dipende dai servizi periodici dell’installazione e richiede condizioni compatibili del corso e dell’iscrizione. Configurare l’interruttore non prova un rinnovo eseguito a una data precisa e non autorizza da solo un addebito su carta. Gli incassi vanno controllati nella pagina [Pagamenti](/docs/pagamenti).</Note>
 
 ## Validità dei corsi
 
@@ -309,23 +321,28 @@ Premi il pulsante blu con l'icona della lista nella riga della lezione per aprir
 
 #### Condivisione del calendario
 
-<Note>Procedura basata sui comandi presenti nell’applicazione, ancora da verificare in browser e dopo la riapertura.</Note>
+<Note>Procedura basata sulle sorgenti dell’applicazione; l’esecuzione completa e le schermate reali devono ancora essere verificate nell’istanza dimostrativa.</Note>
 
-Il calendario condiviso permette la consultazione del corso attraverso un link. Prima di diffonderlo controlla titoli, descrizioni e dati delle lezioni che saranno visibili.
+Puoi condividere la vista del calendario del singolo corso senza fornire accesso alla gestione dell’associazione. Il collegamento e il codice per incorporarlo riguardano il corso aperto.
 
 <Steps>
-  <Step title="Apri Condividi">
-    Dalla scheda del corso o del calendario premi **Condividi**. Si apre **Condividi calendario**.
-  </Step>
-  <Step title="Copia e prova il link">
-    Usa il comando di copia e apri il link in una nuova scheda per controllare il contenuto condiviso. Per il sito è disponibile **Codice HTML da incorporare nel tuo sito**.
-  </Step>
-  <Step title="Scegli come comunicarlo">
-    **Whatsapp** apre il servizio esterno; **Invia Email** prepara il messaggio nel programma email. L’apertura non conferma una spedizione: rivedi testo e destinatari nel servizio prima di inviare.
-  </Step>
+<Step title="Controlla il calendario del corso">
+Apri il corso corretto e premi **Calendario**. Rivedi nomi delle lezioni, date, orari e descrizioni prima di condividere: sono informazioni che compariranno nella vista raggiungibile dal collegamento.
+</Step>
+<Step title="Apri Condividi calendario">
+Premi **Condividi**. Nel riquadro **Condividi calendario** trovi il link e **Codice HTML da incorporare nel tuo sito**. Il pulsante con l’icona di copia trasferisce il collegamento negli appunti. Per il sito, copia invece il codice iframe e fai controllare la pagina in cui verrà inserito.
+<Frame>![Dialogo Condividi calendario con link e codice incorporabile mascherati](/images/corsi/tipologie-condivisione-reali/7.placeholder.svg)</Frame>
+</Step>
+<Step title="Controlla la vista senza sessione">
+Apri il collegamento in una nuova finestra senza accesso all’associazione. Controlla titolo del corso, lezioni e orari. Usa le viste mese, settimana o giorno secondo necessità. Questa pagina consulta il calendario: non offre i comandi per modificare lezioni, iscrizioni o pagamenti.
+<Frame>![Calendario condiviso aperto senza una sessione dell’associazione](/images/corsi/tipologie-condivisione-reali/8.placeholder.svg)</Frame>
+</Step>
+<Step title="Condividi dopo il controllo">
+Nel riquadro sono presenti i comandi per WhatsApp ed email, che aprono strumenti esterni con il collegamento preparato. Controlla destinatario e testo nel servizio scelto prima di inviare. L’applicazione non dimostra da questo riquadro che il messaggio sia stato consegnato.
+</Step>
 </Steps>
 
-<Note>Condividere il calendario del corso è distinto dal collegamento a Google Calendar. Il funzionamento del sito incorporato e la consegna via email o WhatsApp richiedono verifiche esterne.</Note>
+<Info>La vista è accessibile a chi possiede il collegamento. Le descrizioni delle lezioni possono comparire nella vista condivisa: evita di inserirvi recapiti o annotazioni personali. La condivisione tramite link è distinta dalla [sincronizzazione con Google Calendar](/faq/come-collegare-google-calendar), che richiede un collegamento esterno da verificare.</Info>
 
 ### Aggiungere o rimuovere atleti
 
