@@ -155,13 +155,13 @@ Usa il cestino della lista soltanto per rimuovere il profilo, dopo aver controll
 
 <Steps>
   <Step title="Identifica la persona">
-    Apri **Istruttori** e controlla nome ed email nella riga. Apri prima la scheda se devi verificare ore e compensi.
+    Dal menu **Corsi e Abbonamenti**, apri **Istruttori**. Riconosci la persona dal nome e dall’email: nell’esempio **Irene Ferri**, **irene@example.test**. Apri la sua scheda e controlla le registrazioni e i pagamenti collegati prima di tornare alla lista.
   </Step>
   <Step title="Valuta la rimozione">
     Premi il cestino. Nella conferma **Vuoi eliminare l’istruttore?**, **Annulla** interrompe l’operazione. **Elimina** procede; il comando richiede il relativo permesso.
   </Step>
   <Step title="Controlla il risultato">
-    Dopo la conferma controlla che la persona non sia più nella lista e ricarica la pagina. Verifica separatamente eventuali pagamenti o lezioni che avevi individuato prima.
+    Dopo **Elimina**, ricarica la lista e controlla che **Irene Ferri** sia assente e che gli altri istruttori, come **Davide Costa**, siano ancora presenti. Il pagamento dimostrativo da **20,00 €** resta nei pagamenti, con il collegamento all’istruttore rimosso. Le lezioni già salvate nel calendario restano: controlla le loro assegnazioni separatamente.
   </Step>
 </Steps>
 
@@ -397,13 +397,15 @@ L’eliminazione della singola registrazione è diversa dalla rimozione dell’i
 
 <Steps>
   <Step title="Apri la riga">
-    Nella scheda controlla data e importo, poi premi **Modifica**. Se la matita è disattivata, verifica il pagamento associato e i tuoi permessi: non creare una seconda riga per aggirare il blocco.
+    Apri **Corsi e Abbonamenti → Istruttori**, poi la scheda di **Irene Ferri**. Riconosci la registrazione dalla data e dalle note: nell’esempio **Ore da correggere**. Premi la matita **Modifica** della riga. Se è disattivata, verifica il pagamento associato e i tuoi permessi: non creare una seconda riga per aggirare il blocco.
   </Step>
   <Step title="Correggi i dati pertinenti">
-    Il modulo **Modifica Orario Istruttore** consente di aggiornare i dati della registrazione. Per **Orario**, ricontrolla ore e tariffa; per **Percentuale**, ricontrolla corsi, periodo e dettaglio. Il tipo di compenso resta bloccato.
+    Nel modulo **Modifica Orario Istruttore**, il tipo di compenso resta bloccato. Per **Orario**, nell’esempio impostiamo **3 ore** e una tariffa di **18,00 €**: controlla l’importo di **54,00 €** prima di salvare.
+
+Per una riga **Percentuale**, ricontrolla i corsi di riferimento e il periodo. Nell’esempio scegliamo **Questo mese**, premiamo **Applica**, impostiamo **25%** e premiamo **Calcola**. Con **120,00 €** di incassi del corso, il dettaglio dà **30,00 €**. Controlla gli incassi e il periodo che stai usando: cambiare soltanto la percentuale non sostituisce il controllo del dettaglio.
   </Step>
   <Step title="Salva e riapri">
-    Premi **Salva** e controlla la riga nella tabella. Ricarica la pagina, riapri la registrazione e verifica i valori cambiati. Il nome dell’istruttore e i dati del profilo si modificano invece dalla lista istruttori.
+    Premi **Salva** e controlla la riga nella tabella. Ricarica la pagina e riapri **Modifica**: nell’esempio devono restare **3 ore**, **18,00 €** e **54,00 €** per la registrazione oraria; **25%**, il periodo scelto, i corsi e **30,00 €** per quella percentuale. Controlla anche le note. Il nome e i recapiti dell’istruttore si modificano dalla lista istruttori, non da questo modulo.
   </Step>
 </Steps>
 
@@ -416,17 +418,17 @@ L’eliminazione della singola registrazione è diversa dalla rimozione dell’i
 
 <Steps>
   <Step title="Controlla la registrazione">
-    Apri la scheda e riconosci la riga per data, importo e note. Il cestino è disattivato quando esiste un pagamento associato o manca il permesso di eliminazione delle ore.
+    Apri la scheda dell’istruttore e riconosci la riga per data, importo e note. Nell’esempio eliminiamo soltanto **Registrazione da eliminare**, da **10,00 €**. Il cestino è disattivato quando esiste un pagamento associato o manca il permesso di eliminazione delle ore: il movimento collegato da **20,00 €** non è la riga da rimuovere.
   </Step>
   <Step title="Leggi la conferma nel suo contesto">
     Premi il cestino della singola riga. La finestra usa il testo **Vuoi eliminare l’istruttore?**, ma questo comando della scheda riguarda la registrazione selezionata. **Annulla** interrompe l’operazione.
   </Step>
   <Step title="Verifica la rimozione">
-    Se la riga è quella corretta, premi **Elimina**. Controlla che non compaia più nella tabella dopo il ricaricamento. Per aggiornare il riepilogo del periodo, riapri la scheda.
+    Se la riga è quella corretta, premi **Elimina**. Ricarica la pagina e riapri la scheda: **Registrazione da eliminare** non deve più comparire. Controlla che le altre righe siano rimaste e che **COMPENSO TOTALE** sia aggiornato; nell’esempio, dopo la rimozione dei **10,00 €**, il totale è **104,00 €**.
   </Step>
 </Steps>
 
-<Warning>L’eliminazione rimuove la registrazione e il suo eventuale documento collegato; non offre un ripristino della riga. La prova del flusso e dei riepiloghi dopo la rimozione è ancora da eseguire.</Warning>
+<Warning>L’eliminazione rimuove la registrazione e il suo eventuale documento collegato; non offre un ripristino della riga. </Warning>
 
 ## Generare un report
 
@@ -458,13 +460,15 @@ L’istruttore viene indicato nelle lezioni del calendario del corso. La configu
 
 <Steps>
   <Step title="Apri la lezione del corso">
-    Apri il corso e il suo **Calendario**. Per un evento esistente apri **Lezione**; per un nuovo evento usa **Crea lezione**.
+    Apri **Corsi e Abbonamenti → Corsi**, scegli il corso e passa a **Calendario**. Nell’esempio usiamo **Ginnastica manutenzione istruttori**. Seleziona il giorno per aprire **Crea lezione**, oppure apri una lezione già presente per modificarla.
   </Step>
   <Step title="Indica chi terrà la lezione">
-    Nel campo **Istruttore lezione** scegli uno o più istruttori già presenti nella lista. Controlla data, inizio e fine insieme all’assegnazione.
+    Compila titolo, data e orari. Nell’esempio la nuova lezione va dalle **08:00** alle **09:00**. Nel campo **Istruttore lezione** scegli **Irene Ferri** e **Davide Costa**, già presenti nella lista. Sono ammesse più selezioni.
+
+Per sostituire una persona in una lezione esistente, premi la **×** accanto a **Irene Ferri** e lascia **Davide Costa** selezionato. Aggiungere la seconda persona senza togliere la prima mantiene entrambe assegnate.
   </Step>
   <Step title="Salva e verifica">
-    Premi **Salva** per una lezione esistente oppure **Crea** per una nuova. Dopo la conferma del calendario riapri la lezione e controlla la selezione, anche dopo il ricaricamento.
+    Premi **Crea** per la nuova lezione o **Salva** per quella esistente. Attendi la conferma, riapri la lezione e ricarica la pagina: la nuova lezione deve conservare entrambi gli istruttori; dopo la sostituzione deve restare soltanto **Davide Costa**. Ricontrolla data e orari: la sostituzione dell’istruttore non richiede di cambiare la durata.
   </Step>
 </Steps>
 

@@ -741,7 +741,7 @@
       "draft_recipes": [
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "df23fcd09e430a66e638f3cd5f5eb6dd90c619150d255f5677cf97517b2c5ace",
+          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
           "section": "indice",
           "status": "pending-capture",
           "verified": false,
@@ -749,7 +749,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "df23fcd09e430a66e638f3cd5f5eb6dd90c619150d255f5677cf97517b2c5ace",
+          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
           "section": "esportare-il-libro-soci",
           "status": "pending-capture",
           "verified": false,
@@ -757,7 +757,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "df23fcd09e430a66e638f3cd5f5eb6dd90c619150d255f5677cf97517b2c5ace",
+          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
           "section": "esportare-i-pagamenti",
           "status": "pending-capture",
           "verified": false,
@@ -765,7 +765,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "df23fcd09e430a66e638f3cd5f5eb6dd90c619150d255f5677cf97517b2c5ace",
+          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
           "section": "esportare-il-registro-presenze",
           "status": "pending-capture",
           "verified": false,
@@ -773,7 +773,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "df23fcd09e430a66e638f3cd5f5eb6dd90c619150d255f5677cf97517b2c5ace",
+          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
           "section": "esportare-tutti-i-dati-dell-associazione",
           "status": "pending-capture",
           "verified": false,
@@ -781,7 +781,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "df23fcd09e430a66e638f3cd5f5eb6dd90c619150d255f5677cf97517b2c5ace",
+          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
           "section": "formati-disponibili-e-consigli",
           "status": "pending-capture",
           "verified": false,
@@ -789,7 +789,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "df23fcd09e430a66e638f3cd5f5eb6dd90c619150d255f5677cf97517b2c5ace",
+          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
           "section": "formato-dei-file",
           "status": "pending-capture",
           "verified": false,
@@ -797,7 +797,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "df23fcd09e430a66e638f3cd5f5eb6dd90c619150d255f5677cf97517b2c5ace",
+          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
           "section": "consigli-per-l-esportazione",
           "status": "pending-capture",
           "verified": false,
@@ -805,7 +805,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "df23fcd09e430a66e638f3cd5f5eb6dd90c619150d255f5677cf97517b2c5ace",
+          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
           "section": "conclusione",
           "status": "pending-capture",
           "verified": false,
@@ -1290,7 +1290,7 @@
       "title": "Come impostare e gestire gli istruttori",
       "status": "draft",
       "original_sha256": "094371288d2552995566fdf75e929d73e4e68e970c2b81b75a2e67347848c26d",
-      "draft_sha256": "0832b1ee12bb1d198e645ecef517d216603dfe845c42d3f8b7e1d4f7af5120d3",
+      "draft_sha256": "0790c9fb712f1e26cda9a3eaf66c7c9cc517ef0224186c8338b6c9d08eacc1eb",
       "sections": [
         {
           "id": "indice",
@@ -1441,7 +1441,7 @@
       "draft_recipes": [
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "df23fcd09e430a66e638f3cd5f5eb6dd90c619150d255f5677cf97517b2c5ace",
+          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
           "section": "indice",
           "status": "pending-capture",
           "verified": false,
@@ -1457,7 +1457,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "df23fcd09e430a66e638f3cd5f5eb6dd90c619150d255f5677cf97517b2c5ace",
+          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
           "section": "documenti-dell-istruttore",
           "status": "pending-capture",
           "verified": false,
@@ -1465,7 +1465,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "df23fcd09e430a66e638f3cd5f5eb6dd90c619150d255f5677cf97517b2c5ace",
+          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
           "section": "assegnare-un-istruttore-ai-corsi-e-alle-lezioni",
           "status": "pending-capture",
           "verified": false,
@@ -1473,7 +1473,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "df23fcd09e430a66e638f3cd5f5eb6dd90c619150d255f5677cf97517b2c5ace",
+          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
           "section": "assegnazione-al-corso",
           "status": "pending-capture",
           "verified": false,
@@ -1481,7 +1481,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "df23fcd09e430a66e638f3cd5f5eb6dd90c619150d255f5677cf97517b2c5ace",
+          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
           "section": "assegnazione-alle-lezioni",
           "status": "pending-capture",
           "verified": false,
@@ -1489,7 +1489,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "df23fcd09e430a66e638f3cd5f5eb6dd90c619150d255f5677cf97517b2c5ace",
+          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
           "section": "gestire-i-compensi",
           "status": "pending-capture",
           "verified": false,
@@ -1513,7 +1513,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "df23fcd09e430a66e638f3cd5f5eb6dd90c619150d255f5677cf97517b2c5ace",
+          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
           "section": "calcolare-i-compensi",
           "status": "pending-capture",
           "verified": false,
@@ -1521,7 +1521,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "df23fcd09e430a66e638f3cd5f5eb6dd90c619150d255f5677cf97517b2c5ace",
+          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
           "section": "creare-un-pagamento-per-il-compenso",
           "status": "pending-capture",
           "verified": false,
@@ -1529,7 +1529,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "df23fcd09e430a66e638f3cd5f5eb6dd90c619150d255f5677cf97517b2c5ace",
+          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
           "section": "visualizzare-ore-e-report",
           "status": "pending-capture",
           "verified": false,
@@ -1545,7 +1545,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "df23fcd09e430a66e638f3cd5f5eb6dd90c619150d255f5677cf97517b2c5ace",
+          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
           "section": "report-degli-istruttori",
           "status": "pending-capture",
           "verified": false,
@@ -1553,7 +1553,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "df23fcd09e430a66e638f3cd5f5eb6dd90c619150d255f5677cf97517b2c5ace",
+          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
           "section": "modificare-e-rimuovere-un-istruttore",
           "status": "pending-capture",
           "verified": false,
@@ -1569,7 +1569,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "df23fcd09e430a66e638f3cd5f5eb6dd90c619150d255f5677cf97517b2c5ace",
+          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
           "section": "rimuovere-un-istruttore",
           "status": "pending-capture",
           "verified": false,
@@ -1577,7 +1577,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "df23fcd09e430a66e638f3cd5f5eb6dd90c619150d255f5677cf97517b2c5ace",
+          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
           "section": "conclusione",
           "status": "pending-capture",
           "verified": false,
@@ -3406,7 +3406,7 @@
       "title": "Istruttori",
       "status": "draft",
       "original_sha256": "5ab3eb5e843be5147adb5318d5424f6a4b4c2286d22b366180c6177237c747a2",
-      "draft_sha256": "f0211bc056ae290810905e0e4238982626982c1fc5f47080f743e41cac6c6770",
+      "draft_sha256": "f51b43dbc4132abee805a192a3613223266d8daa24baac4f230c424861975649",
       "sections": [
         {
           "id": "introduzione",
@@ -3613,7 +3613,7 @@
       "draft_recipes": [
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "df23fcd09e430a66e638f3cd5f5eb6dd90c619150d255f5677cf97517b2c5ace",
+          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
           "section": "introduzione",
           "status": "pending-capture",
           "verified": false,
@@ -3677,7 +3677,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "df23fcd09e430a66e638f3cd5f5eb6dd90c619150d255f5677cf97517b2c5ace",
+          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
           "section": "eliminare-un-istruttore",
           "status": "pending-capture",
           "verified": false,
@@ -3725,7 +3725,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "df23fcd09e430a66e638f3cd5f5eb6dd90c619150d255f5677cf97517b2c5ace",
+          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
           "section": "compenso-a-percentuale",
           "status": "pending-capture",
           "verified": false,
@@ -3741,7 +3741,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "df23fcd09e430a66e638f3cd5f5eb6dd90c619150d255f5677cf97517b2c5ace",
+          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
           "section": "gestire-i-compensi",
           "status": "pending-capture",
           "verified": false,
@@ -3749,7 +3749,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "df23fcd09e430a66e638f3cd5f5eb6dd90c619150d255f5677cf97517b2c5ace",
+          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
           "section": "creare-un-compenso",
           "status": "pending-capture",
           "verified": false,
@@ -3765,7 +3765,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "df23fcd09e430a66e638f3cd5f5eb6dd90c619150d255f5677cf97517b2c5ace",
+          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
           "section": "documento-del-compenso",
           "status": "pending-capture",
           "verified": false,
@@ -3773,7 +3773,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "df23fcd09e430a66e638f3cd5f5eb6dd90c619150d255f5677cf97517b2c5ace",
+          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
           "section": "modificare-o-eliminare-le-ore-registrate",
           "status": "pending-capture",
           "verified": false,
@@ -3781,7 +3781,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "df23fcd09e430a66e638f3cd5f5eb6dd90c619150d255f5677cf97517b2c5ace",
+          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
           "section": "modificare-una-registrazione",
           "status": "pending-capture",
           "verified": false,
@@ -3789,7 +3789,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "df23fcd09e430a66e638f3cd5f5eb6dd90c619150d255f5677cf97517b2c5ace",
+          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
           "section": "eliminare-una-registrazione",
           "status": "pending-capture",
           "verified": false,
@@ -3797,7 +3797,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "df23fcd09e430a66e638f3cd5f5eb6dd90c619150d255f5677cf97517b2c5ace",
+          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
           "section": "generare-un-report",
           "status": "pending-capture",
           "verified": false,
@@ -3805,7 +3805,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "df23fcd09e430a66e638f3cd5f5eb6dd90c619150d255f5677cf97517b2c5ace",
+          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
           "section": "assegnare-un-istruttore-ai-corsi",
           "status": "pending-capture",
           "verified": false,
@@ -5889,7 +5889,7 @@
       "draft_recipes": [
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "df23fcd09e430a66e638f3cd5f5eb6dd90c619150d255f5677cf97517b2c5ace",
+          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
           "section": "introduzione",
           "status": "pending-capture",
           "verified": false,
@@ -6053,7 +6053,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "df23fcd09e430a66e638f3cd5f5eb6dd90c619150d255f5677cf97517b2c5ace",
+          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
           "section": "cosa-puoi-archiviare",
           "status": "pending-capture",
           "verified": false,
@@ -6061,7 +6061,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "df23fcd09e430a66e638f3cd5f5eb6dd90c619150d255f5677cf97517b2c5ace",
+          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
           "section": "come-archiviare-un-elemento",
           "status": "pending-capture",
           "verified": false,
@@ -6069,7 +6069,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "df23fcd09e430a66e638f3cd5f5eb6dd90c619150d255f5677cf97517b2c5ace",
+          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
           "section": "consultare-l-archivio",
           "status": "pending-capture",
           "verified": false,
@@ -6085,7 +6085,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "df23fcd09e430a66e638f3cd5f5eb6dd90c619150d255f5677cf97517b2c5ace",
+          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
           "section": "risorse-correlate",
           "status": "pending-capture",
           "verified": false,
@@ -6233,7 +6233,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "df23fcd09e430a66e638f3cd5f5eb6dd90c619150d255f5677cf97517b2c5ace",
+          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
           "section": "rimuovere-un-collaboratore",
           "status": "pending-capture",
           "verified": false,
@@ -6241,7 +6241,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "df23fcd09e430a66e638f3cd5f5eb6dd90c619150d255f5677cf97517b2c5ace",
+          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
           "section": "risorse-correlate",
           "status": "pending-capture",
           "verified": false,
@@ -6254,7 +6254,7 @@
       "title": "Impostazioni",
       "status": "draft",
       "original_sha256": "6632aa42a4640957a6843e250c4149740007eb34ec3f4863c5285782c251c7b0",
-      "draft_sha256": "dfa47ef6212c9123b0afcd479b6733d32604ec877fe1ad086a78eef01619c0bd",
+      "draft_sha256": "e3e9c196baa9697c0aeadab5ec59b046a0c39b00595b1f47cad025294ec791f7",
       "sections": [
         {
           "id": "introduzione",
@@ -6493,7 +6493,7 @@
       "draft_recipes": [
         {
           "path": "docs/manuale/settings-additional-reference-recipes.mjs",
-          "sha256": "b8cfd9e0b9db98cff7ee1175744223ea38bef27c78a388ca68b29a707fca50fc",
+          "sha256": "2f54fb41fec82513dfddc7769d98a92ba3b525cb6efb0928ad701ff25498c33b",
           "section": "introduzione",
           "status": "pending-capture",
           "verified": false,
@@ -6509,7 +6509,7 @@
         },
         {
           "path": "docs/manuale/settings-additional-reference-recipes.mjs",
-          "sha256": "b8cfd9e0b9db98cff7ee1175744223ea38bef27c78a388ca68b29a707fca50fc",
+          "sha256": "2f54fb41fec82513dfddc7769d98a92ba3b525cb6efb0928ad701ff25498c33b",
           "section": "firma-del-presidente-e-timbro",
           "status": "pending-capture",
           "verified": false,
@@ -6517,7 +6517,7 @@
         },
         {
           "path": "docs/manuale/settings-additional-reference-recipes.mjs",
-          "sha256": "b8cfd9e0b9db98cff7ee1175744223ea38bef27c78a388ca68b29a707fca50fc",
+          "sha256": "2f54fb41fec82513dfddc7769d98a92ba3b525cb6efb0928ad701ff25498c33b",
           "section": "intestazione-e-pie-di-pagina-stampe",
           "status": "pending-capture",
           "verified": false,
@@ -6549,7 +6549,7 @@
         },
         {
           "path": "docs/manuale/settings-additional-reference-recipes.mjs",
-          "sha256": "b8cfd9e0b9db98cff7ee1175744223ea38bef27c78a388ca68b29a707fca50fc",
+          "sha256": "2f54fb41fec82513dfddc7769d98a92ba3b525cb6efb0928ad701ff25498c33b",
           "section": "ricevute",
           "status": "pending-capture",
           "verified": false,
@@ -6557,7 +6557,7 @@
         },
         {
           "path": "docs/manuale/settings-additional-reference-recipes.mjs",
-          "sha256": "b8cfd9e0b9db98cff7ee1175744223ea38bef27c78a388ca68b29a707fca50fc",
+          "sha256": "2f54fb41fec82513dfddc7769d98a92ba3b525cb6efb0928ad701ff25498c33b",
           "section": "numera-ricevute",
           "status": "pending-capture",
           "verified": false,
@@ -6565,7 +6565,7 @@
         },
         {
           "path": "docs/manuale/settings-additional-reference-recipes.mjs",
-          "sha256": "b8cfd9e0b9db98cff7ee1175744223ea38bef27c78a388ca68b29a707fca50fc",
+          "sha256": "2f54fb41fec82513dfddc7769d98a92ba3b525cb6efb0928ad701ff25498c33b",
           "section": "data-uguale-per-ricevute-e-pagamenti",
           "status": "pending-capture",
           "verified": false,
@@ -6573,7 +6573,7 @@
         },
         {
           "path": "docs/manuale/settings-additional-reference-recipes.mjs",
-          "sha256": "b8cfd9e0b9db98cff7ee1175744223ea38bef27c78a388ca68b29a707fca50fc",
+          "sha256": "2f54fb41fec82513dfddc7769d98a92ba3b525cb6efb0928ad701ff25498c33b",
           "section": "nascondi-nome-causale",
           "status": "pending-capture",
           "verified": false,
@@ -6581,7 +6581,7 @@
         },
         {
           "path": "docs/manuale/settings-additional-reference-recipes.mjs",
-          "sha256": "b8cfd9e0b9db98cff7ee1175744223ea38bef27c78a388ca68b29a707fca50fc",
+          "sha256": "2f54fb41fec82513dfddc7769d98a92ba3b525cb6efb0928ad701ff25498c33b",
           "section": "causale-predefinita",
           "status": "pending-capture",
           "verified": false,
@@ -6589,7 +6589,7 @@
         },
         {
           "path": "docs/manuale/settings-additional-reference-recipes.mjs",
-          "sha256": "b8cfd9e0b9db98cff7ee1175744223ea38bef27c78a388ca68b29a707fca50fc",
+          "sha256": "2f54fb41fec82513dfddc7769d98a92ba3b525cb6efb0928ad701ff25498c33b",
           "section": "modelli-documenti",
           "status": "pending-capture",
           "verified": false,
@@ -6597,7 +6597,7 @@
         },
         {
           "path": "docs/manuale/settings-additional-reference-recipes.mjs",
-          "sha256": "b8cfd9e0b9db98cff7ee1175744223ea38bef27c78a388ca68b29a707fca50fc",
+          "sha256": "2f54fb41fec82513dfddc7769d98a92ba3b525cb6efb0928ad701ff25498c33b",
           "section": "testo-extra-ricevute",
           "status": "pending-capture",
           "verified": false,
@@ -6605,7 +6605,7 @@
         },
         {
           "path": "docs/manuale/settings-additional-reference-recipes.mjs",
-          "sha256": "b8cfd9e0b9db98cff7ee1175744223ea38bef27c78a388ca68b29a707fca50fc",
+          "sha256": "2f54fb41fec82513dfddc7769d98a92ba3b525cb6efb0928ad701ff25498c33b",
           "section": "personalizza-tessera",
           "status": "pending-capture",
           "verified": false,
@@ -6613,7 +6613,7 @@
         },
         {
           "path": "docs/manuale/settings-additional-reference-recipes.mjs",
-          "sha256": "b8cfd9e0b9db98cff7ee1175744223ea38bef27c78a388ca68b29a707fca50fc",
+          "sha256": "2f54fb41fec82513dfddc7769d98a92ba3b525cb6efb0928ad701ff25498c33b",
           "section": "moduli-d-iscrizione",
           "status": "pending-capture",
           "verified": false,
@@ -6621,7 +6621,7 @@
         },
         {
           "path": "docs/manuale/settings-additional-reference-recipes.mjs",
-          "sha256": "b8cfd9e0b9db98cff7ee1175744223ea38bef27c78a388ca68b29a707fca50fc",
+          "sha256": "2f54fb41fec82513dfddc7769d98a92ba3b525cb6efb0928ad701ff25498c33b",
           "section": "modulo-di-iscrizione-anonimo",
           "status": "pending-capture",
           "verified": false,
@@ -6629,7 +6629,7 @@
         },
         {
           "path": "docs/manuale/settings-additional-reference-recipes.mjs",
-          "sha256": "b8cfd9e0b9db98cff7ee1175744223ea38bef27c78a388ca68b29a707fca50fc",
+          "sha256": "2f54fb41fec82513dfddc7769d98a92ba3b525cb6efb0928ad701ff25498c33b",
           "section": "account-obbligatorio",
           "status": "pending-capture",
           "verified": false,
@@ -6637,7 +6637,7 @@
         },
         {
           "path": "docs/manuale/settings-additional-reference-recipes.mjs",
-          "sha256": "b8cfd9e0b9db98cff7ee1175744223ea38bef27c78a388ca68b29a707fca50fc",
+          "sha256": "2f54fb41fec82513dfddc7769d98a92ba3b525cb6efb0928ad701ff25498c33b",
           "section": "checkout",
           "status": "pending-capture",
           "verified": false,
@@ -6645,7 +6645,7 @@
         },
         {
           "path": "docs/manuale/settings-additional-reference-recipes.mjs",
-          "sha256": "b8cfd9e0b9db98cff7ee1175744223ea38bef27c78a388ca68b29a707fca50fc",
+          "sha256": "2f54fb41fec82513dfddc7769d98a92ba3b525cb6efb0928ad701ff25498c33b",
           "section": "altre-impostazioni",
           "status": "pending-capture",
           "verified": false,
@@ -6653,7 +6653,7 @@
         },
         {
           "path": "docs/manuale/settings-additional-reference-recipes.mjs",
-          "sha256": "b8cfd9e0b9db98cff7ee1175744223ea38bef27c78a388ca68b29a707fca50fc",
+          "sha256": "2f54fb41fec82513dfddc7769d98a92ba3b525cb6efb0928ad701ff25498c33b",
           "section": "pagamenti-online",
           "status": "pending-capture",
           "verified": false,
@@ -6661,7 +6661,7 @@
         },
         {
           "path": "docs/manuale/settings-additional-reference-recipes.mjs",
-          "sha256": "b8cfd9e0b9db98cff7ee1175744223ea38bef27c78a388ca68b29a707fca50fc",
+          "sha256": "2f54fb41fec82513dfddc7769d98a92ba3b525cb6efb0928ad701ff25498c33b",
           "section": "presenze-automatiche",
           "status": "pending-capture",
           "verified": false,
@@ -6669,7 +6669,7 @@
         },
         {
           "path": "docs/manuale/settings-additional-reference-recipes.mjs",
-          "sha256": "b8cfd9e0b9db98cff7ee1175744223ea38bef27c78a388ca68b29a707fca50fc",
+          "sha256": "2f54fb41fec82513dfddc7769d98a92ba3b525cb6efb0928ad701ff25498c33b",
           "section": "archiviazione-automatica",
           "status": "pending-capture",
           "verified": false,
@@ -6677,7 +6677,7 @@
         },
         {
           "path": "docs/manuale/settings-additional-reference-recipes.mjs",
-          "sha256": "b8cfd9e0b9db98cff7ee1175744223ea38bef27c78a388ca68b29a707fca50fc",
+          "sha256": "2f54fb41fec82513dfddc7769d98a92ba3b525cb6efb0928ad701ff25498c33b",
           "section": "pagamenti-segnati-come-pagati",
           "status": "pending-capture",
           "verified": false,
@@ -6685,7 +6685,7 @@
         },
         {
           "path": "docs/manuale/settings-additional-reference-recipes.mjs",
-          "sha256": "b8cfd9e0b9db98cff7ee1175744223ea38bef27c78a388ca68b29a707fca50fc",
+          "sha256": "2f54fb41fec82513dfddc7769d98a92ba3b525cb6efb0928ad701ff25498c33b",
           "section": "piano-rate-completo",
           "status": "pending-capture",
           "verified": false,
@@ -6693,7 +6693,7 @@
         },
         {
           "path": "docs/manuale/settings-additional-reference-recipes.mjs",
-          "sha256": "b8cfd9e0b9db98cff7ee1175744223ea38bef27c78a388ca68b29a707fca50fc",
+          "sha256": "2f54fb41fec82513dfddc7769d98a92ba3b525cb6efb0928ad701ff25498c33b",
           "section": "pagamenti-di-importo-zero",
           "status": "pending-capture",
           "verified": false,
@@ -6701,7 +6701,7 @@
         },
         {
           "path": "docs/manuale/settings-additional-reference-recipes.mjs",
-          "sha256": "b8cfd9e0b9db98cff7ee1175744223ea38bef27c78a388ca68b29a707fca50fc",
+          "sha256": "2f54fb41fec82513dfddc7769d98a92ba3b525cb6efb0928ad701ff25498c33b",
           "section": "modalita-scura",
           "status": "pending-capture",
           "verified": false,
@@ -6709,7 +6709,7 @@
         },
         {
           "path": "docs/manuale/settings-additional-reference-recipes.mjs",
-          "sha256": "b8cfd9e0b9db98cff7ee1175744223ea38bef27c78a388ca68b29a707fca50fc",
+          "sha256": "2f54fb41fec82513dfddc7769d98a92ba3b525cb6efb0928ad701ff25498c33b",
           "section": "stripe-pagamenti-online",
           "status": "pending-capture",
           "verified": false,
@@ -6717,7 +6717,7 @@
         },
         {
           "path": "docs/manuale/settings-additional-reference-recipes.mjs",
-          "sha256": "b8cfd9e0b9db98cff7ee1175744223ea38bef27c78a388ca68b29a707fca50fc",
+          "sha256": "2f54fb41fec82513dfddc7769d98a92ba3b525cb6efb0928ad701ff25498c33b",
           "section": "autenticazione-a-due-fattori-2fa",
           "status": "pending-capture",
           "verified": false,
@@ -7517,7 +7517,7 @@
       "draft_recipes": [
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "df23fcd09e430a66e638f3cd5f5eb6dd90c619150d255f5677cf97517b2c5ace",
+          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
           "section": "personalizzare-la-tessera",
           "status": "pending-capture",
           "verified": false,
@@ -7525,7 +7525,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "df23fcd09e430a66e638f3cd5f5eb6dd90c619150d255f5677cf97517b2c5ace",
+          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
           "section": "stampare-la-tessera-di-un-singolo-atleta",
           "status": "pending-capture",
           "verified": false,
@@ -7533,7 +7533,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "df23fcd09e430a66e638f3cd5f5eb6dd90c619150d255f5677cf97517b2c5ace",
+          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
           "section": "stampare-le-tessere-in-blocco",
           "status": "pending-capture",
           "verified": false,
@@ -7929,7 +7929,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "df23fcd09e430a66e638f3cd5f5eb6dd90c619150d255f5677cf97517b2c5ace",
+          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
           "section": "archiviazione-automatica",
           "status": "pending-capture",
           "verified": false,
@@ -7937,7 +7937,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "df23fcd09e430a66e638f3cd5f5eb6dd90c619150d255f5677cf97517b2c5ace",
+          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
           "section": "come-funziona",
           "status": "pending-capture",
           "verified": false,
@@ -7945,7 +7945,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "df23fcd09e430a66e638f3cd5f5eb6dd90c619150d255f5677cf97517b2c5ace",
+          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
           "section": "come-attivarla",
           "status": "pending-capture",
           "verified": false,
@@ -8185,7 +8185,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "df23fcd09e430a66e638f3cd5f5eb6dd90c619150d255f5677cf97517b2c5ace",
+          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
           "section": "rimuovere-un-collaboratore",
           "status": "pending-capture",
           "verified": false,
@@ -15408,12 +15408,588 @@
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
       "sha256": "825f2222b3de6845914cb09c82b64b8bb820ff4282a2f88169a1855c2fe54c83"
+    },
+    {
+      "original_path": "images/impostazioni/stampe-reali/1.png",
+      "placeholder_path": "images/impostazioni/stampe-reali/1.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/impostazioni.mdx"
+      ],
+      "caption": "Informazioni Account: firma del presidente e timbro prima della modifica.",
+      "workflow": "settings-print",
+      "checkpoint": "organization-print-fields-before-change",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "0ca4212f2a0c1ff9755ffe482f47bcf75660ef415eaa61e2aac813d21f6f303d"
+    },
+    {
+      "original_path": "images/impostazioni/stampe-reali/2.png",
+      "placeholder_path": "images/impostazioni/stampe-reali/2.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/impostazioni.mdx"
+      ],
+      "caption": "Firma e timbro dimostrativi distinti, caricati attraverso i rispettivi campi.",
+      "workflow": "settings-print",
+      "checkpoint": "uploaded-print-assets-before-save",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "fbb945c688c91743f1ec41d3b9f68b61a10be635a278b7086f3c6ab73a23b942"
+    },
+    {
+      "original_path": "images/impostazioni/stampe-reali/3.png",
+      "placeholder_path": "images/impostazioni/stampe-reali/3.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/impostazioni.mdx"
+      ],
+      "caption": "Immagini dimostrative salvate e presenti dopo la riapertura delle Informazioni Account.",
+      "workflow": "settings-print",
+      "checkpoint": "uploaded-print-assets-after-reload",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "579564a921ed68f6f3cdc0adf619dd105a209a115b417055464dff80f764c52a"
+    },
+    {
+      "original_path": "images/impostazioni/stampe-reali/4.png",
+      "placeholder_path": "images/impostazioni/stampe-reali/4.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/impostazioni.mdx"
+      ],
+      "caption": "Scrivi firma: tratto dimostrativo disegnato nel riquadro, prima di Firma.",
+      "workflow": "settings-print",
+      "checkpoint": "drawn-president-signature-before-accepting",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "74b7e6f4188a77a0bbfa7d0d011a31212e2e60062599f4c52a4e74f84cd44627"
+    },
+    {
+      "original_path": "images/impostazioni/stampe-reali/5.png",
+      "placeholder_path": "images/impostazioni/stampe-reali/5.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/impostazioni.mdx"
+      ],
+      "caption": "Firma disegnata salvata e riaperta; il timbro conserva la propria immagine.",
+      "workflow": "settings-print",
+      "checkpoint": "drawn-signature-after-reload",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "f1b71b6785fb9244b4da7f244e2e7bacf893123f3f35affb7c6f05d31c34da85"
+    },
+    {
+      "original_path": "images/impostazioni/stampe-reali/6.png",
+      "placeholder_path": "images/impostazioni/stampe-reali/6.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/impostazioni.mdx"
+      ],
+      "caption": "Intestazione stampe compilata nel proprio editor prima di Salva.",
+      "workflow": "settings-print",
+      "checkpoint": "print-header-before-save",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "804dc91a464eb3b08b861df9de9062e803ffabcd5ac96b11772baa955b5b1d67"
+    },
+    {
+      "original_path": "images/impostazioni/stampe-reali/7.png",
+      "placeholder_path": "images/impostazioni/stampe-reali/7.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/impostazioni.mdx"
+      ],
+      "caption": "Piè di pagina stampe compilato nel secondo editor, separato dal Testo Extra Ricevute.",
+      "workflow": "settings-print",
+      "checkpoint": "print-footer-before-save",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "d7d5f8c9857ba0a7a42345646a4362ad8df650b6fc2e13ada7912a8315f34618"
+    },
+    {
+      "original_path": "images/impostazioni/stampe-reali/8.png",
+      "placeholder_path": "images/impostazioni/stampe-reali/8.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/impostazioni.mdx"
+      ],
+      "caption": "Testo dell’intestazione salvato e riaperto.",
+      "workflow": "settings-print",
+      "checkpoint": "print-header-after-reload",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "f30b133c88089e488e15a77294f258c2034e33f7ca0a8c613b87c3f86015a1ef"
+    },
+    {
+      "original_path": "images/impostazioni/stampe-reali/9.png",
+      "placeholder_path": "images/impostazioni/stampe-reali/9.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/impostazioni.mdx"
+      ],
+      "caption": "Testo del piè di pagina salvato e riaperto.",
+      "workflow": "settings-print",
+      "checkpoint": "print-footer-after-reload",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "39ffa3ac769816d89173ed5063e3155975d76b1f683c86813ebb9edb1fc132ca"
+    },
+    {
+      "original_path": "images/impostazioni/stampe-reali/10.png",
+      "placeholder_path": "images/impostazioni/stampe-reali/10.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/impostazioni.mdx"
+      ],
+      "caption": "Pagamento dimostrativo: nuova ricevuta richiesta e invio email disattivato.",
+      "workflow": "settings-print",
+      "checkpoint": "owned-print-payment-email-disabled",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "0d1c508b023ba149a56fdc0848d5fb6b123612980a3760fc60ddf48521714093"
+    },
+    {
+      "original_path": "images/impostazioni/stampe-reali/11.png",
+      "placeholder_path": "images/impostazioni/stampe-reali/11.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/impostazioni.mdx"
+      ],
+      "caption": "Nuova stampa reale: intestazione e contenuto della ricevuta non si sovrappongono.",
+      "workflow": "settings-print",
+      "checkpoint": "new-receipt-header-content",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "9916a35c06a221c2eedcd642fca19936ddfccf972b93a7d187fb12d17cbf7d38"
+    },
+    {
+      "original_path": "images/impostazioni/stampe-reali/12.png",
+      "placeholder_path": "images/impostazioni/stampe-reali/12.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/impostazioni.mdx"
+      ],
+      "caption": "Piè di pagina della nuova stampa, dopo il contenuto della ricevuta.",
+      "workflow": "settings-print",
+      "checkpoint": "new-receipt-footer-content",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "7d16a0b76e688e6a61abdfed6c08c2d82b71d92fd3ba56acbfa6f726c16a6fc0"
+    },
+    {
+      "original_path": "images/impostazioni/stampe-reali/13.png",
+      "placeholder_path": "images/impostazioni/stampe-reali/13.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/impostazioni.mdx"
+      ],
+      "caption": "Anteprima del PDF reale appena generato, senza link o token di condivisione.",
+      "workflow": "settings-print",
+      "checkpoint": "real-new-receipt-pdf",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "7e96f3be12de2d002a55e456431932e7a3b93bf071b5249903660eff9f2bf582"
+    },
+    {
+      "original_path": "images/impostazioni/stampe-reali/14.png",
+      "placeholder_path": "images/impostazioni/stampe-reali/14.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/impostazioni.mdx"
+      ],
+      "caption": "Editor vuoti salvati e riaperti: i testi possono essere omessi dalle nuove stampe.",
+      "workflow": "settings-print",
+      "checkpoint": "blank-print-texts-after-reload",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "9312e3457c14eb2a8d080b7a39bf7c80dd1f39803a112c0d101433be2c57a6e7"
+    },
+    {
+      "original_path": "images/impostazioni/stampe-reali/15.png",
+      "placeholder_path": "images/impostazioni/stampe-reali/15.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/impostazioni.mdx"
+      ],
+      "caption": "Seconda nuova stampa: intestazione e piè di pagina vuoti non vengono visualizzati.",
+      "workflow": "settings-print",
+      "checkpoint": "blank-receipt-without-header-footer",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "c290efd36385147d4d2879e5615414e57ae2dd48b1e380022ce8ba4a30b1a27f"
+    },
+    {
+      "original_path": "images/impostazioni/stampe-reali/16.png",
+      "placeholder_path": "images/impostazioni/stampe-reali/16.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/impostazioni.mdx"
+      ],
+      "caption": "PDF reale della nuova ricevuta generata con i testi di stampa vuoti.",
+      "workflow": "settings-print",
+      "checkpoint": "blank-receipt-pdf",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "9165ba623a4acea740cb38a512e6cd18b2128ba314d26daeb59d77868929c054"
+    },
+    {
+      "original_path": "images/impostazioni/stampe-reali/17.png",
+      "placeholder_path": "images/impostazioni/stampe-reali/17.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/impostazioni.mdx"
+      ],
+      "caption": "Rimuovi firma e Rimuovi timbro: assenza delle immagini confermata dopo Salva e riapertura.",
+      "workflow": "settings-print",
+      "checkpoint": "print-assets-removed-after-reload",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "dd8fcb007374c34215cd6c9f6006268da7538c27d2f862887b3c4768c0a70038"
+    },
+    {
+      "original_path": "images/impostazioni/stampe-reali/18.png",
+      "placeholder_path": "images/impostazioni/stampe-reali/18.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/impostazioni.mdx"
+      ],
+      "caption": "Configurazione iniziale ripristinata dopo la prova, con modelli documenti conservati.",
+      "workflow": "settings-print",
+      "checkpoint": "original-print-settings-restored",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "72f504625ccf1475910bcdf49af20050679269784682d1998c25928cb47c6237"
+    },
+    {
+      "original_path": "images/istruttori/manutenzione-reale/1.png",
+      "placeholder_path": "images/istruttori/manutenzione-reale/1.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/istruttori.mdx",
+        "tutorials/come-impostare-gestire-istruttori.mdx"
+      ],
+      "caption": "Modifica Orario: tre ore a 18 euro, tipo bloccato.",
+      "workflow": "instructor-maintenance",
+      "checkpoint": "hourly-edit-with-fixed-type",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "9124cb9c2d22d1866a0baddc2cc32c8a5b1ed5fc5ee1065d11b79be73773b8b1"
+    },
+    {
+      "original_path": "images/istruttori/manutenzione-reale/2.png",
+      "placeholder_path": "images/istruttori/manutenzione-reale/2.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/istruttori.mdx",
+        "tutorials/come-impostare-gestire-istruttori.mdx"
+      ],
+      "caption": "Valori orari conservati dopo il salvataggio e la ricarica.",
+      "workflow": "instructor-maintenance",
+      "checkpoint": "hourly-edit-reopened",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "e2abf853cbacddcc2635d610bc43313a3399a4fe8536d9898acffd693abc5cf3"
+    },
+    {
+      "original_path": "images/istruttori/manutenzione-reale/3.png",
+      "placeholder_path": "images/istruttori/manutenzione-reale/3.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/istruttori.mdx",
+        "tutorials/come-impostare-gestire-istruttori.mdx"
+      ],
+      "caption": "Modifica Percentuale: corso, periodo e nuovo calcolo al 25%.",
+      "workflow": "instructor-maintenance",
+      "checkpoint": "percentage-edit-calculated-detail",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "86f272d03045b2dca875346d93ec9e288e8bb77dba38b71fa74e3baf848c928f"
+    },
+    {
+      "original_path": "images/istruttori/manutenzione-reale/4.png",
+      "placeholder_path": "images/istruttori/manutenzione-reale/4.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/istruttori.mdx",
+        "tutorials/come-impostare-gestire-istruttori.mdx"
+      ],
+      "caption": "Percentuale e dettaglio degli incassi conservati dopo la ricarica.",
+      "workflow": "instructor-maintenance",
+      "checkpoint": "percentage-edit-reopened",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "a4a9a32266c1783678230b81b66ed60f60f1983368a16535866dfca15774129e"
+    },
+    {
+      "original_path": "images/istruttori/manutenzione-reale/5.png",
+      "placeholder_path": "images/istruttori/manutenzione-reale/5.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/istruttori.mdx",
+        "tutorials/come-impostare-gestire-istruttori.mdx"
+      ],
+      "caption": "La registrazione con pagamento associato ha modifica ed eliminazione disabilitate.",
+      "workflow": "instructor-maintenance",
+      "checkpoint": "linked-payment-row-controls-disabled",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "e5da84dbb4c23986a47b4dfc14b5995bca2ccef136cc96184a9a8f34debe7a77"
+    },
+    {
+      "original_path": "images/istruttori/manutenzione-reale/6.png",
+      "placeholder_path": "images/istruttori/manutenzione-reale/6.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/istruttori.mdx",
+        "tutorials/come-impostare-gestire-istruttori.mdx"
+      ],
+      "caption": "Conferma del cestino della singola registrazione, distinta dalla rimozione del profilo.",
+      "workflow": "instructor-maintenance",
+      "checkpoint": "single-hours-delete-confirmation",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "46398b29c826e4de0bcc3931c8554e0e10b8ddb6e4ae032819a74a6e765fdf84"
+    },
+    {
+      "original_path": "images/istruttori/manutenzione-reale/7.png",
+      "placeholder_path": "images/istruttori/manutenzione-reale/7.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/istruttori.mdx",
+        "tutorials/come-impostare-gestire-istruttori.mdx"
+      ],
+      "caption": "La registrazione rimossa resta assente e il riepilogo è aggiornato riaprendo la scheda.",
+      "workflow": "instructor-maintenance",
+      "checkpoint": "single-hours-deleted-and-summary-reopened",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "2eacd9ee812a0495c9f31316f526046c6741993f350cd503acf794ad58c63203"
+    },
+    {
+      "original_path": "images/istruttori/manutenzione-reale/8.png",
+      "placeholder_path": "images/istruttori/manutenzione-reale/8.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/istruttori.mdx",
+        "tutorials/come-impostare-gestire-istruttori.mdx"
+      ],
+      "caption": "Crea lezione: orari e due istruttori selezionati.",
+      "workflow": "instructor-maintenance",
+      "checkpoint": "new-lesson-two-instructors",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "d68c9eb7bc6caeac377dc1964d68f2f961e401621a52b55b8c9640a9e8288b43"
+    },
+    {
+      "original_path": "images/istruttori/manutenzione-reale/9.png",
+      "placeholder_path": "images/istruttori/manutenzione-reale/9.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/istruttori.mdx",
+        "tutorials/come-impostare-gestire-istruttori.mdx"
+      ],
+      "caption": "Lezione riaperta dopo la ricarica: entrambe le assegnazioni conservate.",
+      "workflow": "instructor-maintenance",
+      "checkpoint": "new-lesson-assignment-reopened",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "46940972423fb561505f54446f2846e25f6161a97ffe700b372357fd3c23dee5"
+    },
+    {
+      "original_path": "images/istruttori/manutenzione-reale/10.png",
+      "placeholder_path": "images/istruttori/manutenzione-reale/10.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/istruttori.mdx",
+        "tutorials/come-impostare-gestire-istruttori.mdx"
+      ],
+      "caption": "Lezione esistente: rimosso il primo istruttore, conservata la sostituzione.",
+      "workflow": "instructor-maintenance",
+      "checkpoint": "existing-lesson-replacement-before-save",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "f14e20e1027ae2d48bb74d077bdce5474f3586abd9bddb3955a87942d2e2789f"
+    },
+    {
+      "original_path": "images/istruttori/manutenzione-reale/11.png",
+      "placeholder_path": "images/istruttori/manutenzione-reale/11.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/istruttori.mdx",
+        "tutorials/come-impostare-gestire-istruttori.mdx"
+      ],
+      "caption": "Sostituzione conservata dopo la ricarica, con orari invariati.",
+      "workflow": "instructor-maintenance",
+      "checkpoint": "existing-lesson-replacement-reopened",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "d10a48c2b7b317c1946de404abb10858cdc2e6d31b1c04fc145151a1f4b0f088"
+    },
+    {
+      "original_path": "images/istruttori/manutenzione-reale/12.png",
+      "placeholder_path": "images/istruttori/manutenzione-reale/12.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/istruttori.mdx",
+        "tutorials/come-impostare-gestire-istruttori.mdx"
+      ],
+      "caption": "Collaboratore in sola lettura: i comandi di modifica ed eliminazione non sono disponibili.",
+      "workflow": "instructor-maintenance",
+      "checkpoint": "reader-maintenance-controls-disabled",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "5764ef31a6615e6748580d5260650a6e592e6c0f496054c241cfb8727dc065d3"
+    },
+    {
+      "original_path": "images/istruttori/manutenzione-reale/13.png",
+      "placeholder_path": "images/istruttori/manutenzione-reale/13.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/istruttori.mdx",
+        "tutorials/come-impostare-gestire-istruttori.mdx"
+      ],
+      "caption": "Scheda e storico del profilo prima della rimozione, con pagamento ancora collegato.",
+      "workflow": "instructor-maintenance",
+      "checkpoint": "instructor-history-before-removal",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "8aa674d2998486c473e9769ab67366f3d969367285f135c190ee6000f622a525"
+    },
+    {
+      "original_path": "images/istruttori/manutenzione-reale/14.png",
+      "placeholder_path": "images/istruttori/manutenzione-reale/14.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/istruttori.mdx",
+        "tutorials/come-impostare-gestire-istruttori.mdx"
+      ],
+      "caption": "Conferma dalla lista istruttori: nome ed email già controllati.",
+      "workflow": "instructor-maintenance",
+      "checkpoint": "instructor-list-delete-confirmation",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "e2c8e038498f06ffe4f6af108835d0ee046ea66a22c44167301d03f7e7e3cd67"
+    },
+    {
+      "original_path": "images/istruttori/manutenzione-reale/15.png",
+      "placeholder_path": "images/istruttori/manutenzione-reale/15.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/istruttori.mdx",
+        "tutorials/come-impostare-gestire-istruttori.mdx"
+      ],
+      "caption": "Profilo rimosso dalla lista dopo la ricarica; il secondo istruttore resta presente.",
+      "workflow": "instructor-maintenance",
+      "checkpoint": "instructor-absent-after-reload",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "e9afb9b219f87a5b414cf1a8177ac611d500761e141dd7ae715d756985f3aefd"
     }
   ],
   "summary": {
     "navigation_pages": 43,
     "draft_sections": 507,
-    "svg_placeholders": 408,
+    "svg_placeholders": 441,
     "backlog_entries": 43,
     "backlog_screenshots_requested": 94,
     "referenced_placeholder_paths": 190,
