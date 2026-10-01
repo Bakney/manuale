@@ -33,30 +33,30 @@ Il codice dell’applicazione non dimostra che l’account esterno sia già oper
 
 # Collegare il tuo account Stripe
 
-<Note>Procedura ancora da verificare in browser, compresi risultato e riapertura. I comandi descritti sono presenti nell’applicazione.</Note>
+<Warning>Questa procedura richiede credenziali e configurazione di un account Stripe. Il collegamento completo e una transazione di prova non sono ancora stati esercitati per questa versione.</Warning>
 
-L’installazione usa **Stripe diretto**. Le vecchie funzioni di apertura e completamento dell’onboarding Connect risultano disabilitate; non seguire il precedente percorso come procedura per questa istanza.
+L’installazione usa un account **Stripe diretto**. La configurazione appartiene al proprietario dell’installazione o a un amministratore autorizzato; le credenziali non vanno distribuite agli atleti o ai collaboratori per la normale consultazione delle quote.
 
 <Steps>
-  <Step title="Apri la gestione dell’istanza">
-    Con l’account autorizzato vai in **Profilo > Self Instance**, poi **Integrazioni**. Apri la scheda **Stripe**.
+  <Step title="Apri la scheda dell’integrazione">
+    Vai in **Profilo > Self Instance > Integrazioni**, scheda **Stripe**. Leggi lo stato e l’origine della configurazione: le impostazioni salvate nell’istanza hanno precedenza sui valori iniziali del server.
   </Step>
-  <Step title="Prepara le credenziali corrette">
-    Controlla l’origine della configurazione. La scheda offre **Chiave pubblica Stripe**, **Chiave segreta Stripe** e **Firma webhook Stripe**. Usa i valori dell’account e dell’ambiente concordati con il gestore.
+  <Step title="Prepara i dati dell’account corretto">
+    Con il gestore individua l’ambiente di prova o di uso reale. La scheda richiede **Chiave pubblica Stripe**, **Chiave segreta Stripe** e **Firma webhook Stripe**. Le chiavi pubblica e segreta devono appartenere allo stesso ambiente. Non usare credenziali reali nelle immagini della guida o in chat.
   </Step>
-  <Step title="Abilita e salva">
-    Attiva **Abilita Stripe** e premi **Salva Stripe**. Le chiavi pubblica e segreta devono appartenere allo stesso ambiente; per l’abilitazione servono anche gli altri campi richiesti. Se una credenziale è già configurata, lasciarla vuota può conservarla: la rimozione ha un comando distinto.
+  <Step title="Salva e ricontrolla">
+    Attiva **Abilita Stripe** e premi **Salva Stripe**. Attendi la conferma, riapri la scheda e ricontrolla stato e origine. Una credenziale già configurata può essere conservata lasciando vuoto il suo campo: i comandi di rimozione sono distinti e vanno usati soltanto quando è necessario rimuoverla.
   </Step>
-  <Step title="Riapri e controlla">
-    Dopo la conferma riapri la scheda e controlla stato, origine e presenza delle credenziali. Non inserire o mostrare valori reali nelle immagini della procedura.
+  <Step title="Controlla prima del primo utilizzo">
+    Dopo il salvataggio **Verifica Stripe** esegue il controllo in lettura previsto dalla scheda. Non incassa una quota. Concorda una prova completa con il gestore, compreso l’aggiornamento del pagamento nell’applicazione, prima di usare il servizio con incassi reali.
   </Step>
 </Steps>
 
-<Frame caption="Segnaposto FullHD: scheda Stripe nelle integrazioni dell’istanza, segreti nascosti. Procedura ancora da verificare.">
-  <img src="/images/course-payment-additional/stripe-instance-pending.svg" alt="Segnaposto FullHD: scheda Stripe nelle integrazioni dell’istanza, segreti nascosti" />
-</Frame>
+La preferenza **Pagamenti Online** dell’associazione si trova invece in **Profilo > Generali**. Il suo salvataggio è distinto dall’integrazione dell’istanza. L’attivazione esterna, il webhook e gli esiti delle transazioni restano verifiche separate.
 
-<Note>Salvare le impostazioni non esegue un pagamento e non prova l’operatività del webhook. Configurazione nel portale Stripe e prova della transazione richiedono verifiche esterne.</Note>
+<Frame caption="Scheda Stripe da acquisire con segreti nascosti; collegamento esterno ancora da verificare.">
+  <img src="/images/course-payment-additional/stripe-instance-pending.svg" alt="Segnaposto della scheda Stripe nelle integrazioni dell’istanza" />
+</Frame>
 
 ## Verificare il collegamento
 
@@ -80,23 +80,29 @@ La voce **Stripe Configurato** nella pagina **Pagamenti Stripe** riguarda la dis
 
 # Attivare i pagamenti online
 
-<Note>Procedura ancora da verificare in browser, compresi risultato e riapertura. I comandi descritti sono presenti nell’applicazione.</Note>
-
-L’abilitazione dell’integrazione Stripe dell’istanza e l’opzione dell’associazione sono due condizioni distinte. Per proporre il pagamento online servono entrambe e credenziali valide.
+L’opzione **Pagamenti Online** appartiene all’associazione. Puoi salvarla e ricontrollarla senza effettuare un incasso. Per rendere disponibile il percorso agli atleti serve anche l’integrazione Stripe dell’istanza, configurata dal gestore.
 
 <Steps>
-  <Step title="Controlla l’integrazione">
-    Chiedi al gestore di confermare la configurazione Stripe dell’istanza e l’ambiente da usare. Non distribuire le chiavi agli atleti.
+  <Step title="Apri le impostazioni generali">
+    Apri **Profilo**, scegli **Generali** e raggiungi la voce **Pagamenti Online** nella parte inferiore della pagina. Verifica di poter modificare le impostazioni: con un account in sola lettura l’interruttore e il pulsante **Salva** sono disabilitati.
+  
+<Frame>![Apri le impostazioni generali](/images/pagamenti/stripe-controlli-locali/1.placeholder.svg)</Frame>
   </Step>
-  <Step title="Apri le impostazioni dell’associazione">
-    Vai in **Profilo > Impostazioni** e trova **Pagamenti Online**. Il comando richiede il permesso di modifica delle impostazioni.
+  <Step title="Attiva e salva">
+    Seleziona **Pagamenti Online**, poi premi **Salva** nella testata della pagina. Attendi la conferma **Impostazioni generali aggiornate**. Se il salvataggio fallisce, non considerare attiva l’opzione soltanto perché la casella è selezionata.
+  
+<Frame>![Attiva e salva](/images/pagamenti/stripe-controlli-locali/2.placeholder.svg)</Frame>
   </Step>
-  <Step title="Salva e controlla la quota di prova">
-    Abilita l’opzione, salva e riapri per controllare il valore. Dall’account del destinatario concordato verifica che una quota in attesa proponga **Paga Ora** quando il percorso è disponibile.
+  <Step title="Riapri e controlla">
+    Ricarica la pagina, torna a **Generali** se necessario e controlla che l’interruttore resti selezionato. Il controllo riguarda il valore salvato dell’associazione; la presenza di credenziali Stripe e l’esito di un pagamento richiedono verifiche separate.
+  
+<Frame>![Riapri e controlla](/images/pagamenti/stripe-controlli-locali/3.placeholder.svg)</Frame>
   </Step>
 </Steps>
 
-L’interruttore non certifica un incasso e non rende operative credenziali mancanti. Attivazione, riapertura e comparsa del comando attendono la prova in browser.
+<Note>Per tornare alla situazione precedente deseleziona l’interruttore e salva di nuovo. Il salvataggio non crea una quota, non incassa pagamenti e non certifica il collegamento del servizio esterno.</Note>
+
+<Note>Procedura ancora da verificare in browser, compresi risultato e riapertura. I comandi descritti sono presenti nell’applicazione.</Note>
 
 # Metodi di pagamento disponibili
 
@@ -135,21 +141,31 @@ Il destinatario deve trovare una quota corretta e **In attesa**. Importo, associ
 
 # Monitorare i pagamenti Stripe
 
-<Note>Procedura ancora da verificare in browser, compresi risultato e riapertura. I comandi descritti sono presenti nell’applicazione.</Note>
+La pagina **Pagamenti** serve a consultare le registrazioni dell’associazione. Mantieni separati il metodo registrato, lo stato della quota nell’applicazione e l’esito sul servizio Stripe.
 
 <Steps>
-  <Step title="Filtra le registrazioni">
-    Apri **Pagamenti** nell’account dell’associazione e scegli **Stripe** nel filtro **Metodo**. Rivedi stato e intervallo di date.
+  <Step title="Consulta le registrazioni">
+    Apri **Pagamenti**. Controlla periodo e filtri prima di cercare un importo o una persona: un ambito troppo ristretto può nascondere la quota che cerchi.
+  
+<Frame>![Consulta le registrazioni](/images/pagamenti/stripe-controlli-locali/7.placeholder.svg)</Frame>
   </Step>
-  <Step title="Controlla i singoli incassi">
-    Apri il pagamento e confronta destinatario, importo, data, stato e ricevuta. Una classificazione del metodo non dimostra da sola l’operazione esterna.
+  <Step title="Isola metodo e stato">
+    In **Metodo pagamento** scegli **Stripe**. In **Stato pagamento** scegli **Pagato** per le registrazioni incassate oppure **In attesa** per le quote aperte. Attendi il caricamento dopo ogni scelta e confronta le righe effettivamente mostrate.
+  
+<Frame>![Isola metodo e stato](/images/pagamenti/stripe-controlli-locali/10.placeholder.svg)</Frame>
   </Step>
-  <Step title="Confronta eventuali discrepanze">
-    Con il gestore consulta l’account Stripe corretto per transazione, rimborsi o accrediti. Non correggere il pagamento a mano soltanto per far coincidere un riepilogo senza chiarire l’esito.
+  <Step title="Controlla anche un risultato vuoto">
+    Se non compaiono righe, verifica prima periodo, stato e altri filtri. Rimuovi le selezioni scegliendo **Stato** e **Metodo**, poi ripeti la ricerca nell’ambito desiderato. La consultazione non cambia lo stato dei pagamenti.
+  
+<Frame>![Controlla anche un risultato vuoto](/images/pagamenti/stripe-controlli-locali/9.placeholder.svg)</Frame>
   </Step>
 </Steps>
 
-Il filtro e la consultazione attendono una prova in browser. I totali delle commissioni dipendono da dati recuperati dal servizio e non sostituiscono il confronto con il portale.
+Per una registrazione dubbia raccogli intestatario, importo e data e chiedi al gestore il confronto con il servizio. Non creare una seconda quota o segnarla manualmente come incassata soltanto per far sparire una differenza.
+
+<Note>La dimostrazione del filtro usa un periodo privo di registrazioni Stripe. Non rappresenta una transazione esterna eseguita. Commissioni, accrediti, rimborsi e aggiornamento tramite webhook richiedono verifiche proprie.</Note>
+
+<Note>Procedura ancora da verificare in browser, compresi risultato e riapertura. I comandi descritti sono presenti nell’applicazione.</Note>
 
 ## Commissioni
 

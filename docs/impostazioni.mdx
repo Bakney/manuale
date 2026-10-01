@@ -303,9 +303,9 @@ Consulta [Come stampare le tessere](/faq/come-stampare-tessere-atleti) per la st
 
 ## Moduli d'iscrizione
 
-<Note>Procedura basata sulle sorgenti dell’applicazione; l’esecuzione completa e le schermate reali devono ancora essere verificate nell’istanza dimostrativa.</Note>
+<Note>Procedura preparata dalle sorgenti dell’applicazione. Esecuzione completa, persistenza e schermate reali devono ancora essere verificate nell’istanza dimostrativa.</Note>
 
-In **Profilo → Informazioni Account → Moduli d’iscrizione** decidi quali recapiti e quale firma richiedere nel percorso autonomo. Queste regole sono distinte dalle quote, dai testi e dai campi aggiuntivi del modulo personalizzato.
+In **Profilo → Informazioni Account → Moduli d’iscrizione** scegli quali recapiti e quale firma richiedere nel percorso autonomo. Sono regole separate da quote, testi e campi aggiuntivi del modulo.
 
 | Opzione | Informazione richiesta |
 | --- | --- |
@@ -313,29 +313,37 @@ In **Profilo → Informazioni Account → Moduli d’iscrizione** decidi quali r
 | **Email atleta obbligatoria** | Email della persona iscritta |
 | **Telefono tutore obbligatorio** | Telefono del tutore nel percorso del minorenne |
 | **Email tutore obbligatoria** | Email del tutore nel percorso del minorenne |
-| **Firma obbligatoria alla compilazione** | Firma nel passaggio dedicato |
+| **Firma obbligatoria alla compilazione** | Tratto nel riquadro della firma prima di proseguire |
 
 <Steps>
 <Step title="Scegli gli obblighi necessari">
-Apri Informazioni Account e rivedi ciascun interruttore. Distinguere i recapiti dell’atleta da quelli del tutore evita di richiedere il dato alla persona sbagliata. Se abiliti la firma, controlla anche i testi che la persona dovrà leggere prima di firmare.
-<Frame>![Cinque regole dei campi obbligatori prima di Salva](/images/impostazioni/moduli-checkout-reali/1.placeholder.svg)</Frame>
+Apri Informazioni Account e controlla ciascun interruttore. Nell’esempio attiva i cinque obblighi; i recapiti del tutore saranno richiesti nel percorso del minorenne. Se richiedi la firma, rivedi anche regolamento, richiesta e clausole da leggere prima di firmare.
+<Frame>![Cinque obblighi dei moduli prima di Salva](/images/impostazioni/moduli-checkout-reali/1.placeholder.svg)</Frame>
 </Step>
 <Step title="Salva e riapri le impostazioni">
-Premi **Salva**, ricarica Informazioni Account e ricontrolla gli interruttori. Se il salvataggio non riesce o il comando è disabilitato, verifica il permesso di aggiornamento delle impostazioni prima di distribuire un nuovo modulo.
-<Frame>![Regole dei moduli autonome conservate dopo la riapertura](/images/impostazioni/moduli-checkout-reali/2.placeholder.svg)</Frame>
+Premi **Salva**, ricarica Informazioni Account e ricontrolla i valori. Un collaboratore in lettura può consultare la configurazione, ma non salvarla. La scelta dell’account nel modulo autonomo è regolata separatamente da **Modulo di iscrizione anonimo** e **Account obbligatorio**.
+<Frame>![Obblighi conservati dopo la riapertura](/images/impostazioni/moduli-checkout-reali/2.placeholder.svg)</Frame>
 </Step>
 <Step title="Prova il modulo condiviso">
-Apri il link del modulo senza una sessione già attiva e scegli il tipo d’iscrizione. Prova il percorso della persona adulta e quello del minorenne. Quando un recapito richiesto è vuoto, il modulo mostra l’errore e non passa al passaggio successivo. Nel percorso del minorenne controlla il telefono e l’email del tutore, oltre ai dati dell’atleta.
-<Frame>![Modulo pubblico con errori per recapiti obbligatori mancanti](/images/impostazioni/moduli-checkout-reali/4.placeholder.svg)</Frame>
+Apri il collegamento corrente dell’associazione senza una sessione già attiva. Prova a continuare lasciando vuoti telefono ed email: il modulo evidenzia gli errori. Controlla anche il percorso del minorenne, in cui compaiono i recapiti del tutore. Per l’esempio completo torna poi alla persona adulta e inserisci tutti i dati richiesti.
+<Frame>![Errori per recapiti dell’atleta mancanti](/images/impostazioni/moduli-checkout-reali/16.placeholder.svg)</Frame>
+<Frame>![Recapiti richiesti nel percorso del minorenne](/images/impostazioni/moduli-checkout-reali/17.placeholder.svg)</Frame>
 </Step>
-<Step title="Controlla la firma e la conclusione">
-Con firma obbligatoria abilitata, prosegui con dati dimostrativi validi fino al passaggio della firma e controlla il blocco quando manca. Prima di distribuire il modulo, esegui anche una compilazione completa e verifica l’iscrizione registrata. Questa conclusione e il passaggio della firma restano da verificare in browser; il solo salvataggio dei cinque interruttori non li dimostra.
+<Step title="Controlla il passaggio della firma">
+Dopo i dati anagrafici compare **Firma Modulo d’Iscrizione**. Leggi le clausole visibili. Con firma obbligatoria, **Continua** è disabilitato finché il riquadro è vuoto. Disegna il tratto con mouse o pennino; **Cancella firma** lo rimuove e disabilita nuovamente Continua. Inserisci di nuovo il tratto prima di proseguire.
+<Frame>![Clausole visibili e Continua disabilitato senza firma](/images/impostazioni/moduli-checkout-reali/20.placeholder.svg)</Frame>
+<Frame>![Tratto dimostrativo prima di proseguire](/images/impostazioni/moduli-checkout-reali/22.placeholder.svg)</Frame>
+</Step>
+<Step title="Concludi e verifica la richiesta">
+Completa i passaggi successivi e rivedi **Riepilogo Iscrizione**. **Completa iscrizione** invia i dati al server. Nell’associazione ritrova la nuova persona, ricarica e controlla richiesta **In attesa**, firma presente e quote effettive. Una richiesta firmata non equivale a una richiesta approvata o a una quota incassata.
+<Frame>![Riepilogo con firma prima di Completa iscrizione](/images/impostazioni/moduli-checkout-reali/23.placeholder.svg)</Frame>
+<Frame>![Richiesta firmata In attesa presente dopo la ricarica](/images/impostazioni/moduli-checkout-reali/24.placeholder.svg)</Frame>
 </Step>
 </Steps>
 
-<Info>Il normale modulo interno aperto dall’associazione non riceve queste regole del percorso autonomo. La compilazione interna e il modulo condiviso vanno comunque controllati separatamente. “Continua senza account” evita la creazione di un account di accesso; non elimina i dati anagrafici richiesti.</Info>
+<Info>Il normale modulo interno aperto dall’associazione non riceve questi obblighi del percorso autonomo. “Continua senza account” evita la creazione di un account di accesso; i dati anagrafici richiesti rimangono. Il riquadro raccoglie una firma disegnata: non documenta un servizio di firma crittografica.</Info>
 
-Per quote, regolamento e campi aggiuntivi consulta [Moduli di iscrizione personalizzati](/tutorials/come-creare-moduli-iscrizione-personalizzati).
+Per quote, sezioni e campi aggiuntivi consulta [Come configurare il modulo d’iscrizione](/tutorials/come-creare-moduli-iscrizione-personalizzati).
 
 ### Modulo di iscrizione anonimo
 

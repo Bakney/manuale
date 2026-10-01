@@ -181,23 +181,34 @@ Il sollecito non cambia da solo lo stato del pagamento e viene rifiutato dal per
 
 ## Come vedere i pagamenti avvenuti via Stripe
 
-<Note>Procedura ancora da verificare in browser, compresi risultato e riapertura. I comandi descritti sono presenti nell’applicazione.</Note>
-
-Per consultare le registrazioni Stripe, usa il dato **Metodo** insieme a stato, data e importo. La sola parola Stripe nel testo di una descrizione non certifica una transazione.
+Il filtro **Metodo pagamento** permette di cercare le registrazioni il cui metodo è **Stripe**. Usa il filtro della tabella, anziché digitare Stripe nella descrizione: una parola nel testo non identifica il metodo registrato.
 
 <Steps>
-  <Step title="Mostra Metodo">
-    In **Pagamenti**, controlla che la colonna **Metodo** sia visibile; se serve abilitala dalle scelte della tabella.
+  <Step title="Apri il filtro del metodo">
+    Apri **Pagamenti** e controlla il periodo visualizzato. Apri **Metodo pagamento** nell’area dei filtri: l’elenco contiene **Stripe**, oltre agli altri metodi disponibili.
+  
+<Frame>![Apri il filtro del metodo](/images/pagamenti/stripe-controlli-locali/8.placeholder.svg)</Frame>
   </Step>
-  <Step title="Applica il filtro corretto">
-    Nel filtro **Metodo** scegli **Stripe**. Rivedi anche **Stato** e il periodo, in modo da distinguere incassi da registrazioni ancora in attesa.
+  <Step title="Scegli Stripe">
+    Seleziona **Stripe** e attendi il caricamento. La tabella mostra soltanto le registrazioni corrispondenti al metodo e agli altri filtri attivi. Anche un elenco vuoto è un risultato valido: controlla periodo e filtri prima di concludere che manchi una registrazione.
+  
+<Frame>![Scegli Stripe](/images/pagamenti/stripe-controlli-locali/9.placeholder.svg)</Frame>
   </Step>
-  <Step title="Confronta i dettagli">
-    Apri la registrazione e controlla importo, data e ricevuta. Se devi verificare il trasferimento effettivo o una discrepanza, confronta con il portale dell’account Stripe corretto insieme al gestore.
+  <Step title="Distingui pagato e in attesa">
+    Apri **Stato pagamento** e scegli **Pagato** per cercare gli incassi registrati, oppure **In attesa** per le quote ancora aperte. Confronta intestatario, descrizione, importo e date dei risultati. Il filtro riguarda dati dell’applicazione e non prova un accredito sul conto.
+  
+<Frame>![Distingui pagato e in attesa](/images/pagamenti/stripe-controlli-locali/10.placeholder.svg)</Frame>
+  </Step>
+  <Step title="Ripristina la consultazione">
+    Scegli **Stato** nel filtro dello stato e **Metodo** nel filtro del metodo per togliere queste due selezioni. La tabella torna all’ambito definito dagli altri filtri. Cambiare filtro non modifica gli importi e non segna alcun pagamento come incassato.
+  
+<Frame>![Ripristina la consultazione](/images/pagamenti/stripe-controlli-locali/12.placeholder.svg)</Frame>
   </Step>
 </Steps>
 
-Il filtro applicativo e la sua riapertura attendono una prova in browser. Commissioni, accrediti e dati del portale esterno richiedono un controllo distinto.
+<Note>La consultazione è disponibile anche al collaboratore con accesso in lettura ai pagamenti. Per transazioni, commissioni, accrediti o discrepanze chiedi al gestore di confrontare i dati con l’account Stripe corretto.</Note>
+
+<Note>Procedura ancora da verificare in browser, compresi risultato e riapertura. I comandi descritti sono presenti nell’applicazione.</Note>
 
 ## Gestione delle causali
 

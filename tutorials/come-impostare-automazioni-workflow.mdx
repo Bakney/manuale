@@ -398,6 +398,46 @@ I passaggi vengono eseguiti attraverso i servizi automatici dell'installazione. 
 
 # Conclusione
 
-Prepara una regola **Nuova iscrizione → email**, prima spenta e indirizzata a **Me stesso**. Dopo il salvataggio, riapri e confronta evento, oggetto, destinatario e testo. L’[email di benvenuto](#email-di-benvenuto) descrive tutta la preparazione, mentre [Attivare un workflow](#attivare-un-workflow) e [Disattivare un workflow](#disattivare-un-workflow) spiegano il cambio di stato, compreso **Annulla** e il controllo dopo il ricaricamento.
+Prima di affidarti a una regola, controlla il messaggio salvato e il suo stato dopo il ricaricamento. Questo controllo parte da un benvenuto già preparato con **Nuova iscrizione**, una sola email e destinatario **Me stesso**. Per crearlo usa [Email di benvenuto](#email-di-benvenuto) oppure la [FAQ dedicata](/faq/come-inviare-email-nuovi-iscritti).
 
-La [FAQ dedicata](/faq/come-inviare-email-nuovi-iscritti) riunisce preparazione e attivazione. Il recapito resta un controllo separato: serve una successiva iscrizione concordata, l’esecuzione dei servizi e la verifica della casella di prova. Per un testo manuale usa [Comunicazioni](/docs/comunicazioni). In caso di errore, indica al gestore nome della regola, orario e messaggio visualizzato, senza condividere password o codici riservati.
+L’esempio percorre i cambi di stato e termina con la regola **Spenta**, mantenendo il messaggio. Richiede l’accesso alle automazioni e il permesso di aggiornamento; non comprende la creazione di una successiva iscrizione.
+
+<Steps>
+<Step title="Riapri il benvenuto salvato">
+In **Comunicazioni → Automazioni** trova il nome e lo stato **Spenta**. Premi **Modifica** e controlla **Nuova iscrizione** nel primo blocco. In **Azione Messaggio → Configura** confronta **Me stesso**, **Oggetto** e contenuto. Chiudi il pannello e torna all’elenco: la chiusura può già salvare la configurazione.
+
+<Frame caption="Destinatario oggetto e contenuto del benvenuto riaperto">
+![Destinatario oggetto e contenuto del benvenuto riaperto](/images/comunicazioni/benvenuto-stato/6.placeholder.svg)
+</Frame>
+</Step>
+<Step title="Controlla la richiesta prima di attivare">
+Dalla riga premi l’icona **play**, con suggerimento **Attiva**. Nella richiesta **Vuoi attivare l’automazione?**, **Annulla** lascia lo stato **Spenta**. Se il testo o il destinatario non sono pronti, usa **Annulla** e torna alla modifica. Per proseguire, riapri la richiesta dalla stessa riga e conferma **Attiva**.
+</Step>
+<Step title="Verifica lo stato Attiva dopo il ricaricamento">
+Attendi la conferma e **Attiva** nella colonna **Stato**, poi ricarica e ritrova la regola. Questo controllo dimostra il cambio di stato dell’elenco; non dimostra un invio riuscito.
+
+<Frame caption="Regola Attiva dopo il ricaricamento">
+![Regola Attiva dopo il ricaricamento](/images/comunicazioni/benvenuto-stato/10.placeholder.svg)
+</Frame>
+</Step>
+<Step title="Disattiva al termine del controllo">
+Premi l’icona **pausa**, con suggerimento **Stoppa**. Nella richiesta **Vuoi disattivare l’automazione?**, **Annulla** mantiene la regola attiva. Per concludere il controllo, riapri la richiesta e premi **Disattiva**: attendi **Spenta** nella riga.
+
+<Frame caption="Richiesta di disattivazione della regola attiva">
+![Richiesta di disattivazione della regola attiva](/images/comunicazioni/benvenuto-stato/11.placeholder.svg)
+</Frame>
+</Step>
+<Step title="Conserva il lavoro e verifica lo stato finale">
+Ricarica e controlla che la regola sia ancora nell’elenco con stato **Spenta**. La configurazione viene mantenuta: puoi tornare a **Modifica** per preparare un aggiornamento o un’attivazione successiva.
+
+<Frame caption="Regola conservata con stato Spenta dopo il ricaricamento">
+![Regola conservata con stato Spenta dopo il ricaricamento](/images/comunicazioni/benvenuto-stato/14.placeholder.svg)
+</Frame>
+</Step>
+</Steps>
+
+<Warning>**Salva** conserva la configurazione; **Attiva** cambia lo stato della regola. Consegna, esecuzione dei servizi e prova della casella richiedono controlli separati. La disattivazione non ritira un’email già affidata al servizio: per una comunicazione già in lavorazione chiedi al gestore di verificare l’esito.</Warning>
+
+Per date e attese consulta le sezioni del tutorial; per un testo singolo usa [Comunicazioni](/docs/comunicazioni). In caso di errore comunica nome della regola, orario e messaggio visualizzato, evitando password, codici e altri dati riservati.
+
+<Note>Procedura ancora da verificare in browser, compresi risultato e riapertura. I comandi descritti sono presenti nell’applicazione.</Note>
