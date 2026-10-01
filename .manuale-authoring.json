@@ -65,7 +65,7 @@
       "draft_recipes": [
         {
           "path": "docs/manuale/tag-recipes.mjs",
-          "sha256": "3a171d918c4830edafb73f14f7dd2f8e9b7bfea67fd22178b6c78e3667967104",
+          "sha256": "5112f2d792130939eb7b2c85d6c9db07d26ab08a37fb15afdacf253bf5aa99af",
           "section": "indice",
           "status": "pending-capture",
           "verified": false,
@@ -73,7 +73,7 @@
         },
         {
           "path": "docs/manuale/tag-recipes.mjs",
-          "sha256": "3a171d918c4830edafb73f14f7dd2f8e9b7bfea67fd22178b6c78e3667967104",
+          "sha256": "5112f2d792130939eb7b2c85d6c9db07d26ab08a37fb15afdacf253bf5aa99af",
           "section": "creare-un-nuovo-tag",
           "status": "pending-capture",
           "verified": false,
@@ -81,7 +81,7 @@
         },
         {
           "path": "docs/manuale/tag-recipes.mjs",
-          "sha256": "3a171d918c4830edafb73f14f7dd2f8e9b7bfea67fd22178b6c78e3667967104",
+          "sha256": "5112f2d792130939eb7b2c85d6c9db07d26ab08a37fb15afdacf253bf5aa99af",
           "section": "seleziona-gli-atleti",
           "status": "pending-capture",
           "verified": false,
@@ -89,7 +89,7 @@
         },
         {
           "path": "docs/manuale/tag-recipes.mjs",
-          "sha256": "3a171d918c4830edafb73f14f7dd2f8e9b7bfea67fd22178b6c78e3667967104",
+          "sha256": "5112f2d792130939eb7b2c85d6c9db07d26ab08a37fb15afdacf253bf5aa99af",
           "section": "assegna-tag",
           "status": "pending-capture",
           "verified": false,
@@ -97,7 +97,7 @@
         },
         {
           "path": "docs/manuale/tag-recipes.mjs",
-          "sha256": "3a171d918c4830edafb73f14f7dd2f8e9b7bfea67fd22178b6c78e3667967104",
+          "sha256": "5112f2d792130939eb7b2c85d6c9db07d26ab08a37fb15afdacf253bf5aa99af",
           "section": "modificare-e-o-eliminare-uno-o-piu-tag",
           "status": "pending-capture",
           "verified": false,
@@ -237,7 +237,7 @@
       "draft_recipes": [
         {
           "path": "docs/manuale/registration-forms-recipes.mjs",
-          "sha256": "ca285e6a1dc18385d9ec2915f838b8af8601e5f209a46737395362f4e2af0f55",
+          "sha256": "917934b635fa3996d144a89952fa7444b0f1e10e86bb85bf21905ced39592cb9",
           "section": "indice",
           "status": "pending-capture",
           "verified": false,
@@ -245,7 +245,7 @@
         },
         {
           "path": "docs/manuale/registration-forms-recipes.mjs",
-          "sha256": "ca285e6a1dc18385d9ec2915f838b8af8601e5f209a46737395362f4e2af0f55",
+          "sha256": "917934b635fa3996d144a89952fa7444b0f1e10e86bb85bf21905ced39592cb9",
           "section": "configurare-l-anno-sportivo-l-anno-fiscale-e-le-causali-per-i-pagamenti",
           "status": "pending-capture",
           "verified": false,
@@ -253,7 +253,7 @@
         },
         {
           "path": "docs/manuale/registration-forms-recipes.mjs",
-          "sha256": "ca285e6a1dc18385d9ec2915f838b8af8601e5f209a46737395362f4e2af0f55",
+          "sha256": "917934b635fa3996d144a89952fa7444b0f1e10e86bb85bf21905ced39592cb9",
           "section": "causali-predefinite",
           "status": "pending-capture",
           "verified": false,
@@ -261,7 +261,7 @@
         },
         {
           "path": "docs/manuale/registration-forms-recipes.mjs",
-          "sha256": "ca285e6a1dc18385d9ec2915f838b8af8601e5f209a46737395362f4e2af0f55",
+          "sha256": "917934b635fa3996d144a89952fa7444b0f1e10e86bb85bf21905ced39592cb9",
           "section": "durata-di-iscrizioni-e-tesseramenti",
           "status": "pending-capture",
           "verified": false,
@@ -269,7 +269,7 @@
         },
         {
           "path": "docs/manuale/registration-forms-recipes.mjs",
-          "sha256": "ca285e6a1dc18385d9ec2915f838b8af8601e5f209a46737395362f4e2af0f55",
+          "sha256": "917934b635fa3996d144a89952fa7444b0f1e10e86bb85bf21905ced39592cb9",
           "section": "configurare-il-modulo-d-iscrizione",
           "status": "pending-capture",
           "verified": false,
@@ -277,7 +277,7 @@
         },
         {
           "path": "docs/manuale/registration-forms-recipes.mjs",
-          "sha256": "ca285e6a1dc18385d9ec2915f838b8af8601e5f209a46737395362f4e2af0f55",
+          "sha256": "917934b635fa3996d144a89952fa7444b0f1e10e86bb85bf21905ced39592cb9",
           "section": "cosa-scegliere-per-le-iscrizioni",
           "status": "pending-capture",
           "verified": false,
@@ -285,7 +285,7 @@
         },
         {
           "path": "docs/manuale/registration-forms-recipes.mjs",
-          "sha256": "ca285e6a1dc18385d9ec2915f838b8af8601e5f209a46737395362f4e2af0f55",
+          "sha256": "917934b635fa3996d144a89952fa7444b0f1e10e86bb85bf21905ced39592cb9",
           "section": "impostare-le-quote",
           "status": "pending-capture",
           "verified": false,
@@ -293,7 +293,7 @@
         },
         {
           "path": "docs/manuale/registration-forms-recipes.mjs",
-          "sha256": "ca285e6a1dc18385d9ec2915f838b8af8601e5f209a46737395362f4e2af0f55",
+          "sha256": "917934b635fa3996d144a89952fa7444b0f1e10e86bb85bf21905ced39592cb9",
           "section": "impostare-quote-multiple",
           "status": "pending-capture",
           "verified": false,
@@ -301,7 +301,7 @@
         },
         {
           "path": "docs/manuale/registration-forms-recipes.mjs",
-          "sha256": "ca285e6a1dc18385d9ec2915f838b8af8601e5f209a46737395362f4e2af0f55",
+          "sha256": "917934b635fa3996d144a89952fa7444b0f1e10e86bb85bf21905ced39592cb9",
           "section": "visualizzare-un-anteprima-del-modulo-d-iscrizione-digitale",
           "status": "pending-capture",
           "verified": false,
@@ -309,7 +309,7 @@
         },
         {
           "path": "docs/manuale/registration-forms-recipes.mjs",
-          "sha256": "ca285e6a1dc18385d9ec2915f838b8af8601e5f209a46737395362f4e2af0f55",
+          "sha256": "917934b635fa3996d144a89952fa7444b0f1e10e86bb85bf21905ced39592cb9",
           "section": "personalizzare-il-modulo-d-iscrizione",
           "status": "pending-capture",
           "verified": false,
@@ -317,7 +317,7 @@
         },
         {
           "path": "docs/manuale/registration-forms-recipes.mjs",
-          "sha256": "ca285e6a1dc18385d9ec2915f838b8af8601e5f209a46737395362f4e2af0f55",
+          "sha256": "917934b635fa3996d144a89952fa7444b0f1e10e86bb85bf21905ced39592cb9",
           "section": "sezioni-del-modulo-d-iscrizione",
           "status": "pending-capture",
           "verified": false,
@@ -325,7 +325,7 @@
         },
         {
           "path": "docs/manuale/registration-forms-recipes.mjs",
-          "sha256": "ca285e6a1dc18385d9ec2915f838b8af8601e5f209a46737395362f4e2af0f55",
+          "sha256": "917934b635fa3996d144a89952fa7444b0f1e10e86bb85bf21905ced39592cb9",
           "section": "campi-aggiuntivi",
           "status": "pending-capture",
           "verified": false,
@@ -333,7 +333,7 @@
         },
         {
           "path": "docs/manuale/registration-forms-recipes.mjs",
-          "sha256": "ca285e6a1dc18385d9ec2915f838b8af8601e5f209a46737395362f4e2af0f55",
+          "sha256": "917934b635fa3996d144a89952fa7444b0f1e10e86bb85bf21905ced39592cb9",
           "section": "creare-un-modulo-completamente-personalizzato",
           "status": "pending-capture",
           "verified": false,
@@ -341,7 +341,7 @@
         },
         {
           "path": "docs/manuale/registration-forms-recipes.mjs",
-          "sha256": "ca285e6a1dc18385d9ec2915f838b8af8601e5f209a46737395362f4e2af0f55",
+          "sha256": "917934b635fa3996d144a89952fa7444b0f1e10e86bb85bf21905ced39592cb9",
           "section": "come-assegnare-un-modulo-personalizzato",
           "status": "pending-capture",
           "verified": false,
@@ -349,7 +349,7 @@
         },
         {
           "path": "docs/manuale/registration-forms-recipes.mjs",
-          "sha256": "ca285e6a1dc18385d9ec2915f838b8af8601e5f209a46737395362f4e2af0f55",
+          "sha256": "917934b635fa3996d144a89952fa7444b0f1e10e86bb85bf21905ced39592cb9",
           "section": "conclusione",
           "status": "pending-capture",
           "verified": false,
@@ -513,7 +513,7 @@
       "draft_recipes": [
         {
           "path": "docs/manuale/attendance-carnet-recipes.mjs",
-          "sha256": "cb9d1b8811eb72acb9ebfb8c2d5a817f90aedf9f64d5052517521eb7827361cf",
+          "sha256": "e5c8bc04f1533ef6223e3ea24b6a635b6832c47e8d592fc578470a2170b505ff",
           "section": "indice",
           "status": "pending-capture",
           "verified": false,
@@ -521,7 +521,7 @@
         },
         {
           "path": "docs/manuale/attendance-carnet-recipes.mjs",
-          "sha256": "cb9d1b8811eb72acb9ebfb8c2d5a817f90aedf9f64d5052517521eb7827361cf",
+          "sha256": "e5c8bc04f1533ef6223e3ea24b6a635b6832c47e8d592fc578470a2170b505ff",
           "section": "visualizzare-il-registro-presenze",
           "status": "pending-capture",
           "verified": false,
@@ -529,7 +529,7 @@
         },
         {
           "path": "docs/manuale/attendance-carnet-recipes.mjs",
-          "sha256": "cb9d1b8811eb72acb9ebfb8c2d5a817f90aedf9f64d5052517521eb7827361cf",
+          "sha256": "e5c8bc04f1533ef6223e3ea24b6a635b6832c47e8d592fc578470a2170b505ff",
           "section": "segnare-le-presenze-manualmente",
           "status": "pending-capture",
           "verified": false,
@@ -537,7 +537,7 @@
         },
         {
           "path": "docs/manuale/attendance-carnet-recipes.mjs",
-          "sha256": "cb9d1b8811eb72acb9ebfb8c2d5a817f90aedf9f64d5052517521eb7827361cf",
+          "sha256": "e5c8bc04f1533ef6223e3ea24b6a635b6832c47e8d592fc578470a2170b505ff",
           "section": "presenze-automatiche-pro-teams",
           "status": "pending-capture",
           "verified": false,
@@ -545,7 +545,7 @@
         },
         {
           "path": "docs/manuale/attendance-carnet-recipes.mjs",
-          "sha256": "cb9d1b8811eb72acb9ebfb8c2d5a817f90aedf9f64d5052517521eb7827361cf",
+          "sha256": "e5c8bc04f1533ef6223e3ea24b6a635b6832c47e8d592fc578470a2170b505ff",
           "section": "come-funziona",
           "status": "pending-capture",
           "verified": false,
@@ -553,7 +553,7 @@
         },
         {
           "path": "docs/manuale/attendance-carnet-recipes.mjs",
-          "sha256": "cb9d1b8811eb72acb9ebfb8c2d5a817f90aedf9f64d5052517521eb7827361cf",
+          "sha256": "e5c8bc04f1533ef6223e3ea24b6a635b6832c47e8d592fc578470a2170b505ff",
           "section": "come-si-attivano-le-presenze-automatiche",
           "status": "pending-capture",
           "verified": false,
@@ -561,7 +561,7 @@
         },
         {
           "path": "docs/manuale/attendance-carnet-recipes.mjs",
-          "sha256": "cb9d1b8811eb72acb9ebfb8c2d5a817f90aedf9f64d5052517521eb7827361cf",
+          "sha256": "e5c8bc04f1533ef6223e3ea24b6a635b6832c47e8d592fc578470a2170b505ff",
           "section": "come-funzionano-i-carnet-con-le-presenze",
           "status": "pending-capture",
           "verified": false,
@@ -569,7 +569,7 @@
         },
         {
           "path": "docs/manuale/attendance-carnet-recipes.mjs",
-          "sha256": "cb9d1b8811eb72acb9ebfb8c2d5a817f90aedf9f64d5052517521eb7827361cf",
+          "sha256": "e5c8bc04f1533ef6223e3ea24b6a635b6832c47e8d592fc578470a2170b505ff",
           "section": "scalamento-delle-lezioni",
           "status": "pending-capture",
           "verified": false,
@@ -577,7 +577,7 @@
         },
         {
           "path": "docs/manuale/attendance-carnet-recipes.mjs",
-          "sha256": "cb9d1b8811eb72acb9ebfb8c2d5a817f90aedf9f64d5052517521eb7827361cf",
+          "sha256": "e5c8bc04f1533ef6223e3ea24b6a635b6832c47e8d592fc578470a2170b505ff",
           "section": "ripristino-delle-lezioni",
           "status": "pending-capture",
           "verified": false,
@@ -585,7 +585,7 @@
         },
         {
           "path": "docs/manuale/attendance-carnet-recipes.mjs",
-          "sha256": "cb9d1b8811eb72acb9ebfb8c2d5a817f90aedf9f64d5052517521eb7827361cf",
+          "sha256": "e5c8bc04f1533ef6223e3ea24b6a635b6832c47e8d592fc578470a2170b505ff",
           "section": "registro-lezioni-nel-carnet",
           "status": "pending-capture",
           "verified": false,
@@ -593,7 +593,7 @@
         },
         {
           "path": "docs/manuale/attendance-carnet-recipes.mjs",
-          "sha256": "cb9d1b8811eb72acb9ebfb8c2d5a817f90aedf9f64d5052517521eb7827361cf",
+          "sha256": "e5c8bc04f1533ef6223e3ea24b6a635b6832c47e8d592fc578470a2170b505ff",
           "section": "gestire-le-lezioni-perse-e-le-correzioni",
           "status": "pending-capture",
           "verified": false,
@@ -601,7 +601,7 @@
         },
         {
           "path": "docs/manuale/attendance-carnet-recipes.mjs",
-          "sha256": "cb9d1b8811eb72acb9ebfb8c2d5a817f90aedf9f64d5052517521eb7827361cf",
+          "sha256": "e5c8bc04f1533ef6223e3ea24b6a635b6832c47e8d592fc578470a2170b505ff",
           "section": "correggere-una-presenza-errata",
           "status": "pending-capture",
           "verified": false,
@@ -609,7 +609,7 @@
         },
         {
           "path": "docs/manuale/attendance-carnet-recipes.mjs",
-          "sha256": "cb9d1b8811eb72acb9ebfb8c2d5a817f90aedf9f64d5052517521eb7827361cf",
+          "sha256": "e5c8bc04f1533ef6223e3ea24b6a635b6832c47e8d592fc578470a2170b505ff",
           "section": "aggiungere-una-presenza-mancante",
           "status": "pending-capture",
           "verified": false,
@@ -617,7 +617,7 @@
         },
         {
           "path": "docs/manuale/attendance-carnet-recipes.mjs",
-          "sha256": "cb9d1b8811eb72acb9ebfb8c2d5a817f90aedf9f64d5052517521eb7827361cf",
+          "sha256": "e5c8bc04f1533ef6223e3ea24b6a635b6832c47e8d592fc578470a2170b505ff",
           "section": "consigli-per-la-gestione-dei-carnet",
           "status": "pending-capture",
           "verified": false,
@@ -625,7 +625,7 @@
         },
         {
           "path": "docs/manuale/attendance-carnet-recipes.mjs",
-          "sha256": "cb9d1b8811eb72acb9ebfb8c2d5a817f90aedf9f64d5052517521eb7827361cf",
+          "sha256": "e5c8bc04f1533ef6223e3ea24b6a635b6832c47e8d592fc578470a2170b505ff",
           "section": "controllare-le-lezioni-rimanenti",
           "status": "pending-capture",
           "verified": false,
@@ -633,7 +633,7 @@
         },
         {
           "path": "docs/manuale/attendance-carnet-recipes.mjs",
-          "sha256": "cb9d1b8811eb72acb9ebfb8c2d5a817f90aedf9f64d5052517521eb7827361cf",
+          "sha256": "e5c8bc04f1533ef6223e3ea24b6a635b6832c47e8d592fc578470a2170b505ff",
           "section": "assegnare-un-nuovo-carnet",
           "status": "pending-capture",
           "verified": false,
@@ -641,7 +641,7 @@
         },
         {
           "path": "docs/manuale/attendance-carnet-recipes.mjs",
-          "sha256": "cb9d1b8811eb72acb9ebfb8c2d5a817f90aedf9f64d5052517521eb7827361cf",
+          "sha256": "e5c8bc04f1533ef6223e3ea24b6a635b6832c47e8d592fc578470a2170b505ff",
           "section": "modificare-le-lezioni-rimanenti",
           "status": "pending-capture",
           "verified": false,
@@ -649,7 +649,7 @@
         },
         {
           "path": "docs/manuale/attendance-carnet-recipes.mjs",
-          "sha256": "cb9d1b8811eb72acb9ebfb8c2d5a817f90aedf9f64d5052517521eb7827361cf",
+          "sha256": "e5c8bc04f1533ef6223e3ea24b6a635b6832c47e8d592fc578470a2170b505ff",
           "section": "conclusione",
           "status": "pending-capture",
           "verified": false,
@@ -1189,7 +1189,7 @@
         },
         {
           "path": "docs/manuale/profile-recipes.mjs",
-          "sha256": "00e62307d42f0a814585f979acfc6c042f0ef07af7cd2541830f9be145ef1ac9",
+          "sha256": "7f178c605ce388bbcf322a6681b12571519a11c876f698fb613366bb9e09cf3a",
           "section": "dal-profilo-dell-atleta",
           "status": "pending-capture",
           "verified": false,
@@ -1197,7 +1197,7 @@
         },
         {
           "path": "docs/manuale/profile-recipes.mjs",
-          "sha256": "00e62307d42f0a814585f979acfc6c042f0ef07af7cd2541830f9be145ef1ac9",
+          "sha256": "7f178c605ce388bbcf322a6681b12571519a11c876f698fb613366bb9e09cf3a",
           "section": "impostare-la-data-di-scadenza",
           "status": "pending-capture",
           "verified": false,
@@ -1237,7 +1237,7 @@
         },
         {
           "path": "docs/manuale/profile-recipes.mjs",
-          "sha256": "00e62307d42f0a814585f979acfc6c042f0ef07af7cd2541830f9be145ef1ac9",
+          "sha256": "7f178c605ce388bbcf322a6681b12571519a11c876f698fb613366bb9e09cf3a",
           "section": "consigli-per-una-gestione-efficiente",
           "status": "pending-capture",
           "verified": false,
@@ -1269,7 +1269,7 @@
         },
         {
           "path": "docs/manuale/profile-recipes.mjs",
-          "sha256": "00e62307d42f0a814585f979acfc6c042f0ef07af7cd2541830f9be145ef1ac9",
+          "sha256": "7f178c605ce388bbcf322a6681b12571519a11c876f698fb613366bb9e09cf3a",
           "section": "tieni-traccia-dei-certificati-agonistici",
           "status": "pending-capture",
           "verified": false,
@@ -1449,7 +1449,7 @@
         },
         {
           "path": "docs/manuale/instructor-recipes.mjs",
-          "sha256": "4da8dc7ed1d2958df8680fb8ae4ddfe7e64ed827e968e29408eacabeb5f15009",
+          "sha256": "55240d85efa47c8cd2f05fd1f6e37e19664efd6d051335dfec59fd20f5a54f0b",
           "section": "aggiungere-un-nuovo-istruttore",
           "status": "pending-capture",
           "verified": false,
@@ -1497,7 +1497,7 @@
         },
         {
           "path": "docs/manuale/instructor-recipes.mjs",
-          "sha256": "4da8dc7ed1d2958df8680fb8ae4ddfe7e64ed827e968e29408eacabeb5f15009",
+          "sha256": "55240d85efa47c8cd2f05fd1f6e37e19664efd6d051335dfec59fd20f5a54f0b",
           "section": "tipologie-di-compenso",
           "status": "pending-capture",
           "verified": false,
@@ -1505,7 +1505,7 @@
         },
         {
           "path": "docs/manuale/instructor-recipes.mjs",
-          "sha256": "4da8dc7ed1d2958df8680fb8ae4ddfe7e64ed827e968e29408eacabeb5f15009",
+          "sha256": "55240d85efa47c8cd2f05fd1f6e37e19664efd6d051335dfec59fd20f5a54f0b",
           "section": "registrare-le-ore-lavorate",
           "status": "pending-capture",
           "verified": false,
@@ -1537,7 +1537,7 @@
         },
         {
           "path": "docs/manuale/instructor-recipes.mjs",
-          "sha256": "4da8dc7ed1d2958df8680fb8ae4ddfe7e64ed827e968e29408eacabeb5f15009",
+          "sha256": "55240d85efa47c8cd2f05fd1f6e37e19664efd6d051335dfec59fd20f5a54f0b",
           "section": "riepilogo-ore",
           "status": "pending-capture",
           "verified": false,
@@ -1561,7 +1561,7 @@
         },
         {
           "path": "docs/manuale/instructor-recipes.mjs",
-          "sha256": "4da8dc7ed1d2958df8680fb8ae4ddfe7e64ed827e968e29408eacabeb5f15009",
+          "sha256": "55240d85efa47c8cd2f05fd1f6e37e19664efd6d051335dfec59fd20f5a54f0b",
           "section": "modificare-i-dati",
           "status": "pending-capture",
           "verified": false,
@@ -2237,7 +2237,7 @@
       "draft_recipes": [
         {
           "path": "docs/manuale/overview-recipes.mjs",
-          "sha256": "043a19ec45cfda8b94a707d31e0c61a25e4b68e563bd5fbd719e2115c207fdf8",
+          "sha256": "545f711b6f2b3dd1fc113c52b39898e8735c07c967c67944f52d8dc39ab257e9",
           "section": "cosa-desideri-approfondire",
           "status": "pending-capture",
           "verified": false,
@@ -2245,7 +2245,7 @@
         },
         {
           "path": "docs/manuale/overview-recipes.mjs",
-          "sha256": "043a19ec45cfda8b94a707d31e0c61a25e4b68e563bd5fbd719e2115c207fdf8",
+          "sha256": "545f711b6f2b3dd1fc113c52b39898e8735c07c967c67944f52d8dc39ab257e9",
           "section": "manuale",
           "status": "pending-capture",
           "verified": false,
@@ -2253,7 +2253,7 @@
         },
         {
           "path": "docs/manuale/overview-recipes.mjs",
-          "sha256": "043a19ec45cfda8b94a707d31e0c61a25e4b68e563bd5fbd719e2115c207fdf8",
+          "sha256": "545f711b6f2b3dd1fc113c52b39898e8735c07c967c67944f52d8dc39ab257e9",
           "section": "per-iniziare",
           "status": "pending-capture",
           "verified": false,
@@ -2433,7 +2433,7 @@
       "draft_recipes": [
         {
           "path": "docs/manuale/dashboard-recipes.mjs",
-          "sha256": "88240a37152037b621ae593832ab3a33067df6c5d34bfc94760be508527b7027",
+          "sha256": "77911e8a77924c4040a8fd905a476c4bcdf1d3c180e0cef3762d6f98785aa92a",
           "section": "introduzione",
           "status": "pending-capture",
           "verified": false,
@@ -2441,7 +2441,7 @@
         },
         {
           "path": "docs/manuale/dashboard-recipes.mjs",
-          "sha256": "88240a37152037b621ae593832ab3a33067df6c5d34bfc94760be508527b7027",
+          "sha256": "77911e8a77924c4040a8fd905a476c4bcdf1d3c180e0cef3762d6f98785aa92a",
           "section": "personalizzare-la-bacheca",
           "status": "pending-capture",
           "verified": false,
@@ -2449,7 +2449,7 @@
         },
         {
           "path": "docs/manuale/dashboard-recipes.mjs",
-          "sha256": "88240a37152037b621ae593832ab3a33067df6c5d34bfc94760be508527b7027",
+          "sha256": "77911e8a77924c4040a8fd905a476c4bcdf1d3c180e0cef3762d6f98785aa92a",
           "section": "riordinare-i-widget",
           "status": "pending-capture",
           "verified": false,
@@ -2457,7 +2457,7 @@
         },
         {
           "path": "docs/manuale/dashboard-recipes.mjs",
-          "sha256": "88240a37152037b621ae593832ab3a33067df6c5d34bfc94760be508527b7027",
+          "sha256": "77911e8a77924c4040a8fd905a476c4bcdf1d3c180e0cef3762d6f98785aa92a",
           "section": "ridimensionare-i-widget",
           "status": "pending-capture",
           "verified": false,
@@ -2465,7 +2465,7 @@
         },
         {
           "path": "docs/manuale/dashboard-recipes.mjs",
-          "sha256": "88240a37152037b621ae593832ab3a33067df6c5d34bfc94760be508527b7027",
+          "sha256": "77911e8a77924c4040a8fd905a476c4bcdf1d3c180e0cef3762d6f98785aa92a",
           "section": "aggiungere-un-widget",
           "status": "pending-capture",
           "verified": false,
@@ -2473,7 +2473,7 @@
         },
         {
           "path": "docs/manuale/dashboard-recipes.mjs",
-          "sha256": "88240a37152037b621ae593832ab3a33067df6c5d34bfc94760be508527b7027",
+          "sha256": "77911e8a77924c4040a8fd905a476c4bcdf1d3c180e0cef3762d6f98785aa92a",
           "section": "rimuovere-un-widget",
           "status": "pending-capture",
           "verified": false,
@@ -2481,7 +2481,7 @@
         },
         {
           "path": "docs/manuale/dashboard-recipes.mjs",
-          "sha256": "88240a37152037b621ae593832ab3a33067df6c5d34bfc94760be508527b7027",
+          "sha256": "77911e8a77924c4040a8fd905a476c4bcdf1d3c180e0cef3762d6f98785aa92a",
           "section": "ripristinare-il-layout-predefinito",
           "status": "pending-capture",
           "verified": false,
@@ -2489,7 +2489,7 @@
         },
         {
           "path": "docs/manuale/dashboard-recipes.mjs",
-          "sha256": "88240a37152037b621ae593832ab3a33067df6c5d34bfc94760be508527b7027",
+          "sha256": "77911e8a77924c4040a8fd905a476c4bcdf1d3c180e0cef3762d6f98785aa92a",
           "section": "widget-disponibili",
           "status": "pending-capture",
           "verified": false,
@@ -2497,7 +2497,7 @@
         },
         {
           "path": "docs/manuale/dashboard-recipes.mjs",
-          "sha256": "88240a37152037b621ae593832ab3a33067df6c5d34bfc94760be508527b7027",
+          "sha256": "77911e8a77924c4040a8fd905a476c4bcdf1d3c180e0cef3762d6f98785aa92a",
           "section": "soci",
           "status": "pending-capture",
           "verified": false,
@@ -2505,7 +2505,7 @@
         },
         {
           "path": "docs/manuale/dashboard-recipes.mjs",
-          "sha256": "88240a37152037b621ae593832ab3a33067df6c5d34bfc94760be508527b7027",
+          "sha256": "77911e8a77924c4040a8fd905a476c4bcdf1d3c180e0cef3762d6f98785aa92a",
           "section": "pagamenti-incassati",
           "status": "pending-capture",
           "verified": false,
@@ -2513,7 +2513,7 @@
         },
         {
           "path": "docs/manuale/dashboard-recipes.mjs",
-          "sha256": "88240a37152037b621ae593832ab3a33067df6c5d34bfc94760be508527b7027",
+          "sha256": "77911e8a77924c4040a8fd905a476c4bcdf1d3c180e0cef3762d6f98785aa92a",
           "section": "migliori-3-corsi-per-iscritti",
           "status": "pending-capture",
           "verified": false,
@@ -2521,7 +2521,7 @@
         },
         {
           "path": "docs/manuale/dashboard-recipes.mjs",
-          "sha256": "88240a37152037b621ae593832ab3a33067df6c5d34bfc94760be508527b7027",
+          "sha256": "77911e8a77924c4040a8fd905a476c4bcdf1d3c180e0cef3762d6f98785aa92a",
           "section": "iscrizioni-anno-corrente",
           "status": "pending-capture",
           "verified": false,
@@ -2529,7 +2529,7 @@
         },
         {
           "path": "docs/manuale/dashboard-recipes.mjs",
-          "sha256": "88240a37152037b621ae593832ab3a33067df6c5d34bfc94760be508527b7027",
+          "sha256": "77911e8a77924c4040a8fd905a476c4bcdf1d3c180e0cef3762d6f98785aa92a",
           "section": "lezioni-di-oggi",
           "status": "pending-capture",
           "verified": false,
@@ -2537,7 +2537,7 @@
         },
         {
           "path": "docs/manuale/dashboard-recipes.mjs",
-          "sha256": "88240a37152037b621ae593832ab3a33067df6c5d34bfc94760be508527b7027",
+          "sha256": "77911e8a77924c4040a8fd905a476c4bcdf1d3c180e0cef3762d6f98785aa92a",
           "section": "carnet-in-esaurimento",
           "status": "pending-capture",
           "verified": false,
@@ -2545,7 +2545,7 @@
         },
         {
           "path": "docs/manuale/dashboard-recipes.mjs",
-          "sha256": "88240a37152037b621ae593832ab3a33067df6c5d34bfc94760be508527b7027",
+          "sha256": "77911e8a77924c4040a8fd905a476c4bcdf1d3c180e0cef3762d6f98785aa92a",
           "section": "iscrizioni-da-approvare",
           "status": "pending-capture",
           "verified": false,
@@ -2553,7 +2553,7 @@
         },
         {
           "path": "docs/manuale/dashboard-recipes.mjs",
-          "sha256": "88240a37152037b621ae593832ab3a33067df6c5d34bfc94760be508527b7027",
+          "sha256": "77911e8a77924c4040a8fd905a476c4bcdf1d3c180e0cef3762d6f98785aa92a",
           "section": "certificati-medici-in-scadenza",
           "status": "pending-capture",
           "verified": false,
@@ -2561,7 +2561,7 @@
         },
         {
           "path": "docs/manuale/dashboard-recipes.mjs",
-          "sha256": "88240a37152037b621ae593832ab3a33067df6c5d34bfc94760be508527b7027",
+          "sha256": "77911e8a77924c4040a8fd905a476c4bcdf1d3c180e0cef3762d6f98785aa92a",
           "section": "entrate-e-uscite",
           "status": "pending-capture",
           "verified": false,
@@ -2569,7 +2569,7 @@
         },
         {
           "path": "docs/manuale/dashboard-recipes.mjs",
-          "sha256": "88240a37152037b621ae593832ab3a33067df6c5d34bfc94760be508527b7027",
+          "sha256": "77911e8a77924c4040a8fd905a476c4bcdf1d3c180e0cef3762d6f98785aa92a",
           "section": "pagamenti-scaduti",
           "status": "pending-capture",
           "verified": false,
@@ -2577,7 +2577,7 @@
         },
         {
           "path": "docs/manuale/dashboard-recipes.mjs",
-          "sha256": "88240a37152037b621ae593832ab3a33067df6c5d34bfc94760be508527b7027",
+          "sha256": "77911e8a77924c4040a8fd905a476c4bcdf1d3c180e0cef3762d6f98785aa92a",
           "section": "certificati-medici-scaduti",
           "status": "pending-capture",
           "verified": false,
@@ -2585,7 +2585,7 @@
         },
         {
           "path": "docs/manuale/dashboard-recipes.mjs",
-          "sha256": "88240a37152037b621ae593832ab3a33067df6c5d34bfc94760be508527b7027",
+          "sha256": "77911e8a77924c4040a8fd905a476c4bcdf1d3c180e0cef3762d6f98785aa92a",
           "section": "consigli-utili",
           "status": "pending-capture",
           "verified": false,
@@ -2797,7 +2797,7 @@
       "draft_recipes": [
         {
           "path": "docs/manuale/search-recipes.mjs",
-          "sha256": "4a41a78a48123d101b17e56c1fb56702e1d4be57990b15829fe1c78f84a8e983",
+          "sha256": "f0bed930484deb9152f974d78ea39f13a0dafd32c81620f239177e53c8a6d9a1",
           "section": "introduzione",
           "status": "pending-capture",
           "verified": false,
@@ -2813,7 +2813,7 @@
         },
         {
           "path": "docs/manuale/member-recipes.mjs",
-          "sha256": "50abc22576ccc8de5a91dcab9c032e9d0b577af6e3e71ad87b3966f33b3d895b",
+          "sha256": "67fa318c42f1a472edefc54208b8b9c045a3b919d03d51038b7e4974816cf71f",
           "section": "ciclo-di-vita-dell-iscrizione",
           "status": "pending-capture",
           "verified": false,
@@ -2845,7 +2845,7 @@
         },
         {
           "path": "docs/manuale/member-recipes.mjs",
-          "sha256": "50abc22576ccc8de5a91dcab9c032e9d0b577af6e3e71ad87b3966f33b3d895b",
+          "sha256": "67fa318c42f1a472edefc54208b8b9c045a3b919d03d51038b7e4974816cf71f",
           "section": "aggiungi-un-socio",
           "status": "pending-capture",
           "verified": false,
@@ -2853,7 +2853,7 @@
         },
         {
           "path": "docs/manuale/member-recipes.mjs",
-          "sha256": "50abc22576ccc8de5a91dcab9c032e9d0b577af6e3e71ad87b3966f33b3d895b",
+          "sha256": "67fa318c42f1a472edefc54208b8b9c045a3b919d03d51038b7e4974816cf71f",
           "section": "1-informazioni-profilo",
           "status": "pending-capture",
           "verified": false,
@@ -2869,7 +2869,7 @@
         },
         {
           "path": "docs/manuale/member-recipes.mjs",
-          "sha256": "50abc22576ccc8de5a91dcab9c032e9d0b577af6e3e71ad87b3966f33b3d895b",
+          "sha256": "67fa318c42f1a472edefc54208b8b9c045a3b919d03d51038b7e4974816cf71f",
           "section": "2-informazioni-anagrafiche",
           "status": "pending-capture",
           "verified": false,
@@ -2877,7 +2877,7 @@
         },
         {
           "path": "docs/manuale/member-recipes.mjs",
-          "sha256": "50abc22576ccc8de5a91dcab9c032e9d0b577af6e3e71ad87b3966f33b3d895b",
+          "sha256": "67fa318c42f1a472edefc54208b8b9c045a3b919d03d51038b7e4974816cf71f",
           "section": "3-firma-del-documento",
           "status": "pending-capture",
           "verified": false,
@@ -2885,7 +2885,7 @@
         },
         {
           "path": "docs/manuale/member-recipes.mjs",
-          "sha256": "50abc22576ccc8de5a91dcab9c032e9d0b577af6e3e71ad87b3966f33b3d895b",
+          "sha256": "67fa318c42f1a472edefc54208b8b9c045a3b919d03d51038b7e4974816cf71f",
           "section": "4-certificato-medico",
           "status": "pending-capture",
           "verified": false,
@@ -2909,7 +2909,7 @@
         },
         {
           "path": "docs/manuale/member-recipes.mjs",
-          "sha256": "50abc22576ccc8de5a91dcab9c032e9d0b577af6e3e71ad87b3966f33b3d895b",
+          "sha256": "67fa318c42f1a472edefc54208b8b9c045a3b919d03d51038b7e4974816cf71f",
           "section": "5-riepilogo-e-creazione",
           "status": "pending-capture",
           "verified": false,
@@ -2917,7 +2917,7 @@
         },
         {
           "path": "docs/manuale/profile-recipes.mjs",
-          "sha256": "00e62307d42f0a814585f979acfc6c042f0ef07af7cd2541830f9be145ef1ac9",
+          "sha256": "7f178c605ce388bbcf322a6681b12571519a11c876f698fb613366bb9e09cf3a",
           "section": "anagrafica-smart",
           "status": "pending-capture",
           "verified": false,
@@ -3201,7 +3201,7 @@
       "draft_recipes": [
         {
           "path": "docs/manuale/content-recipes.mjs",
-          "sha256": "198db71d482f656be83b3b29e69c8d617db9e59853a48942cd35506e6a6e1182",
+          "sha256": "c31ea86bd8262fcbf5303c71c79a3e9b7cd08ffa05e76765a1f714c521c07b85",
           "section": "creare-un-corso",
           "status": "pending-capture",
           "verified": false,
@@ -3217,7 +3217,7 @@
         },
         {
           "path": "docs/manuale/attendance-carnet-recipes.mjs",
-          "sha256": "cb9d1b8811eb72acb9ebfb8c2d5a817f90aedf9f64d5052517521eb7827361cf",
+          "sha256": "e5c8bc04f1533ef6223e3ea24b6a635b6832c47e8d592fc578470a2170b505ff",
           "section": "corso-con-pagamento-per-lezione",
           "status": "pending-capture",
           "verified": false,
@@ -3273,7 +3273,7 @@
         },
         {
           "path": "docs/manuale/content-recipes.mjs",
-          "sha256": "198db71d482f656be83b3b29e69c8d617db9e59853a48942cd35506e6a6e1182",
+          "sha256": "c31ea86bd8262fcbf5303c71c79a3e9b7cd08ffa05e76765a1f714c521c07b85",
           "section": "modificare-le-informazioni-del-corso",
           "status": "pending-capture",
           "verified": false,
@@ -3281,7 +3281,7 @@
         },
         {
           "path": "docs/manuale/attendance-carnet-recipes.mjs",
-          "sha256": "cb9d1b8811eb72acb9ebfb8c2d5a817f90aedf9f64d5052517521eb7827361cf",
+          "sha256": "e5c8bc04f1533ef6223e3ea24b6a635b6832c47e8d592fc578470a2170b505ff",
           "section": "calendario-delle-lezioni",
           "status": "pending-capture",
           "verified": false,
@@ -3289,7 +3289,7 @@
         },
         {
           "path": "docs/manuale/attendance-carnet-recipes.mjs",
-          "sha256": "cb9d1b8811eb72acb9ebfb8c2d5a817f90aedf9f64d5052517521eb7827361cf",
+          "sha256": "e5c8bc04f1533ef6223e3ea24b6a635b6832c47e8d592fc578470a2170b505ff",
           "section": "gestire-le-lezioni",
           "status": "pending-capture",
           "verified": false,
@@ -3297,7 +3297,7 @@
         },
         {
           "path": "docs/manuale/attendance-carnet-recipes.mjs",
-          "sha256": "cb9d1b8811eb72acb9ebfb8c2d5a817f90aedf9f64d5052517521eb7827361cf",
+          "sha256": "e5c8bc04f1533ef6223e3ea24b6a635b6832c47e8d592fc578470a2170b505ff",
           "section": "lezione-singola",
           "status": "pending-capture",
           "verified": false,
@@ -3321,7 +3321,7 @@
         },
         {
           "path": "docs/manuale/attendance-carnet-recipes.mjs",
-          "sha256": "cb9d1b8811eb72acb9ebfb8c2d5a817f90aedf9f64d5052517521eb7827361cf",
+          "sha256": "e5c8bc04f1533ef6223e3ea24b6a635b6832c47e8d592fc578470a2170b505ff",
           "section": "pubblicare-il-calendario",
           "status": "pending-capture",
           "verified": false,
@@ -3337,7 +3337,7 @@
         },
         {
           "path": "docs/manuale/attendance-carnet-recipes.mjs",
-          "sha256": "cb9d1b8811eb72acb9ebfb8c2d5a817f90aedf9f64d5052517521eb7827361cf",
+          "sha256": "e5c8bc04f1533ef6223e3ea24b6a635b6832c47e8d592fc578470a2170b505ff",
           "section": "aggiungere-o-rimuovere-atleti",
           "status": "pending-capture",
           "verified": false,
@@ -3621,7 +3621,7 @@
         },
         {
           "path": "docs/manuale/instructor-recipes.mjs",
-          "sha256": "4da8dc7ed1d2958df8680fb8ae4ddfe7e64ed827e968e29408eacabeb5f15009",
+          "sha256": "55240d85efa47c8cd2f05fd1f6e37e19664efd6d051335dfec59fd20f5a54f0b",
           "section": "aggiungere-un-istruttore",
           "status": "pending-capture",
           "verified": false,
@@ -3629,7 +3629,7 @@
         },
         {
           "path": "docs/manuale/instructor-recipes.mjs",
-          "sha256": "4da8dc7ed1d2958df8680fb8ae4ddfe7e64ed827e968e29408eacabeb5f15009",
+          "sha256": "55240d85efa47c8cd2f05fd1f6e37e19664efd6d051335dfec59fd20f5a54f0b",
           "section": "informazioni-obbligatorie",
           "status": "pending-capture",
           "verified": false,
@@ -3637,7 +3637,7 @@
         },
         {
           "path": "docs/manuale/instructor-recipes.mjs",
-          "sha256": "4da8dc7ed1d2958df8680fb8ae4ddfe7e64ed827e968e29408eacabeb5f15009",
+          "sha256": "55240d85efa47c8cd2f05fd1f6e37e19664efd6d051335dfec59fd20f5a54f0b",
           "section": "informazioni-anagrafiche",
           "status": "pending-capture",
           "verified": false,
@@ -3645,7 +3645,7 @@
         },
         {
           "path": "docs/manuale/instructor-recipes.mjs",
-          "sha256": "4da8dc7ed1d2958df8680fb8ae4ddfe7e64ed827e968e29408eacabeb5f15009",
+          "sha256": "55240d85efa47c8cd2f05fd1f6e37e19664efd6d051335dfec59fd20f5a54f0b",
           "section": "informazioni-contratto",
           "status": "pending-capture",
           "verified": false,
@@ -3653,7 +3653,7 @@
         },
         {
           "path": "docs/manuale/instructor-recipes.mjs",
-          "sha256": "4da8dc7ed1d2958df8680fb8ae4ddfe7e64ed827e968e29408eacabeb5f15009",
+          "sha256": "55240d85efa47c8cd2f05fd1f6e37e19664efd6d051335dfec59fd20f5a54f0b",
           "section": "tariffe-predefinite",
           "status": "pending-capture",
           "verified": false,
@@ -3661,7 +3661,7 @@
         },
         {
           "path": "docs/manuale/instructor-recipes.mjs",
-          "sha256": "4da8dc7ed1d2958df8680fb8ae4ddfe7e64ed827e968e29408eacabeb5f15009",
+          "sha256": "55240d85efa47c8cd2f05fd1f6e37e19664efd6d051335dfec59fd20f5a54f0b",
           "section": "account-collaboratore-associato",
           "status": "pending-capture",
           "verified": false,
@@ -3669,7 +3669,7 @@
         },
         {
           "path": "docs/manuale/instructor-recipes.mjs",
-          "sha256": "4da8dc7ed1d2958df8680fb8ae4ddfe7e64ed827e968e29408eacabeb5f15009",
+          "sha256": "55240d85efa47c8cd2f05fd1f6e37e19664efd6d051335dfec59fd20f5a54f0b",
           "section": "modificare-un-istruttore",
           "status": "pending-capture",
           "verified": false,
@@ -3685,7 +3685,7 @@
         },
         {
           "path": "docs/manuale/instructor-recipes.mjs",
-          "sha256": "4da8dc7ed1d2958df8680fb8ae4ddfe7e64ed827e968e29408eacabeb5f15009",
+          "sha256": "55240d85efa47c8cd2f05fd1f6e37e19664efd6d051335dfec59fd20f5a54f0b",
           "section": "la-scheda-dell-istruttore",
           "status": "pending-capture",
           "verified": false,
@@ -3693,7 +3693,7 @@
         },
         {
           "path": "docs/manuale/instructor-recipes.mjs",
-          "sha256": "4da8dc7ed1d2958df8680fb8ae4ddfe7e64ed827e968e29408eacabeb5f15009",
+          "sha256": "55240d85efa47c8cd2f05fd1f6e37e19664efd6d051335dfec59fd20f5a54f0b",
           "section": "registrare-le-ore-lavorate",
           "status": "pending-capture",
           "verified": false,
@@ -3701,7 +3701,7 @@
         },
         {
           "path": "docs/manuale/instructor-recipes.mjs",
-          "sha256": "4da8dc7ed1d2958df8680fb8ae4ddfe7e64ed827e968e29408eacabeb5f15009",
+          "sha256": "55240d85efa47c8cd2f05fd1f6e37e19664efd6d051335dfec59fd20f5a54f0b",
           "section": "campi-principali",
           "status": "pending-capture",
           "verified": false,
@@ -3709,7 +3709,7 @@
         },
         {
           "path": "docs/manuale/instructor-recipes.mjs",
-          "sha256": "4da8dc7ed1d2958df8680fb8ae4ddfe7e64ed827e968e29408eacabeb5f15009",
+          "sha256": "55240d85efa47c8cd2f05fd1f6e37e19664efd6d051335dfec59fd20f5a54f0b",
           "section": "tipi-di-compenso",
           "status": "pending-capture",
           "verified": false,
@@ -3717,7 +3717,7 @@
         },
         {
           "path": "docs/manuale/instructor-recipes.mjs",
-          "sha256": "4da8dc7ed1d2958df8680fb8ae4ddfe7e64ed827e968e29408eacabeb5f15009",
+          "sha256": "55240d85efa47c8cd2f05fd1f6e37e19664efd6d051335dfec59fd20f5a54f0b",
           "section": "compenso-orario",
           "status": "pending-capture",
           "verified": false,
@@ -3733,7 +3733,7 @@
         },
         {
           "path": "docs/manuale/instructor-recipes.mjs",
-          "sha256": "4da8dc7ed1d2958df8680fb8ae4ddfe7e64ed827e968e29408eacabeb5f15009",
+          "sha256": "55240d85efa47c8cd2f05fd1f6e37e19664efd6d051335dfec59fd20f5a54f0b",
           "section": "note-e-salvataggio",
           "status": "pending-capture",
           "verified": false,
@@ -3757,7 +3757,7 @@
         },
         {
           "path": "docs/manuale/instructor-recipes.mjs",
-          "sha256": "4da8dc7ed1d2958df8680fb8ae4ddfe7e64ed827e968e29408eacabeb5f15009",
+          "sha256": "55240d85efa47c8cd2f05fd1f6e37e19664efd6d051335dfec59fd20f5a54f0b",
           "section": "stato-dei-compensi",
           "status": "pending-capture",
           "verified": false,
@@ -3945,7 +3945,7 @@
       "draft_recipes": [
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "005dae9b0ab6e475f3fa4e7b4ed1217f13a1e477a22f5cae8033315fff237190",
+          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
           "section": "cos-e-un-camp-o-ritiro",
           "status": "pending-capture",
           "verified": false,
@@ -3953,7 +3953,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "005dae9b0ab6e475f3fa4e7b4ed1217f13a1e477a22f5cae8033315fff237190",
+          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
           "section": "creare-un-camp-o-ritiro",
           "status": "pending-capture",
           "verified": false,
@@ -3961,7 +3961,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "005dae9b0ab6e475f3fa4e7b4ed1217f13a1e477a22f5cae8033315fff237190",
+          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
           "section": "gestire-i-periodi",
           "status": "pending-capture",
           "verified": false,
@@ -3969,7 +3969,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "005dae9b0ab6e475f3fa4e7b4ed1217f13a1e477a22f5cae8033315fff237190",
+          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
           "section": "aggiungere-un-periodo",
           "status": "pending-capture",
           "verified": false,
@@ -3977,7 +3977,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "005dae9b0ab6e475f3fa4e7b4ed1217f13a1e477a22f5cae8033315fff237190",
+          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
           "section": "modificare-un-periodo",
           "status": "pending-capture",
           "verified": false,
@@ -3985,7 +3985,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "005dae9b0ab6e475f3fa4e7b4ed1217f13a1e477a22f5cae8033315fff237190",
+          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
           "section": "gestire-i-servizi",
           "status": "pending-capture",
           "verified": false,
@@ -3993,7 +3993,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "005dae9b0ab6e475f3fa4e7b4ed1217f13a1e477a22f5cae8033315fff237190",
+          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
           "section": "aggiungere-un-servizio",
           "status": "pending-capture",
           "verified": false,
@@ -4001,7 +4001,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "005dae9b0ab6e475f3fa4e7b4ed1217f13a1e477a22f5cae8033315fff237190",
+          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
           "section": "modificare-o-eliminare-un-servizio",
           "status": "pending-capture",
           "verified": false,
@@ -4009,7 +4009,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "005dae9b0ab6e475f3fa4e7b4ed1217f13a1e477a22f5cae8033315fff237190",
+          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
           "section": "iscrivere-gli-atleti",
           "status": "pending-capture",
           "verified": false,
@@ -4017,7 +4017,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "005dae9b0ab6e475f3fa4e7b4ed1217f13a1e477a22f5cae8033315fff237190",
+          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
           "section": "aggiungere-un-iscritto-manualmente",
           "status": "pending-capture",
           "verified": false,
@@ -4025,7 +4025,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "005dae9b0ab6e475f3fa4e7b4ed1217f13a1e477a22f5cae8033315fff237190",
+          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
           "section": "modulo-di-iscrizione-pubblico",
           "status": "pending-capture",
           "verified": false,
@@ -4033,7 +4033,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "005dae9b0ab6e475f3fa4e7b4ed1217f13a1e477a22f5cae8033315fff237190",
+          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
           "section": "modificare-un-iscrizione",
           "status": "pending-capture",
           "verified": false,
@@ -4041,7 +4041,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "005dae9b0ab6e475f3fa4e7b4ed1217f13a1e477a22f5cae8033315fff237190",
+          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
           "section": "rimuovere-un-iscrizione",
           "status": "pending-capture",
           "verified": false,
@@ -4049,7 +4049,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "005dae9b0ab6e475f3fa4e7b4ed1217f13a1e477a22f5cae8033315fff237190",
+          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
           "section": "gestire-i-pagamenti",
           "status": "pending-capture",
           "verified": false,
@@ -4057,7 +4057,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "005dae9b0ab6e475f3fa4e7b4ed1217f13a1e477a22f5cae8033315fff237190",
+          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
           "section": "flusso-di-lavoro-consigliato",
           "status": "pending-capture",
           "verified": false,
@@ -4253,7 +4253,7 @@
       "draft_recipes": [
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "005dae9b0ab6e475f3fa4e7b4ed1217f13a1e477a22f5cae8033315fff237190",
+          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
           "section": "il-calendario-generale",
           "status": "pending-capture",
           "verified": false,
@@ -4261,7 +4261,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "005dae9b0ab6e475f3fa4e7b4ed1217f13a1e477a22f5cae8033315fff237190",
+          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
           "section": "modalita-di-visualizzazione",
           "status": "pending-capture",
           "verified": false,
@@ -4269,7 +4269,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "005dae9b0ab6e475f3fa4e7b4ed1217f13a1e477a22f5cae8033315fff237190",
+          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
           "section": "vista-mese",
           "status": "pending-capture",
           "verified": false,
@@ -4277,7 +4277,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "005dae9b0ab6e475f3fa4e7b4ed1217f13a1e477a22f5cae8033315fff237190",
+          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
           "section": "vista-settimana",
           "status": "pending-capture",
           "verified": false,
@@ -4285,7 +4285,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "005dae9b0ab6e475f3fa4e7b4ed1217f13a1e477a22f5cae8033315fff237190",
+          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
           "section": "vista-giorno",
           "status": "pending-capture",
           "verified": false,
@@ -4293,7 +4293,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "005dae9b0ab6e475f3fa4e7b4ed1217f13a1e477a22f5cae8033315fff237190",
+          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
           "section": "vista-lista",
           "status": "pending-capture",
           "verified": false,
@@ -4301,7 +4301,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "005dae9b0ab6e475f3fa4e7b4ed1217f13a1e477a22f5cae8033315fff237190",
+          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
           "section": "navigare-nel-calendario",
           "status": "pending-capture",
           "verified": false,
@@ -4309,7 +4309,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "005dae9b0ab6e475f3fa4e7b4ed1217f13a1e477a22f5cae8033315fff237190",
+          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
           "section": "creare-un-evento-o-promemoria",
           "status": "pending-capture",
           "verified": false,
@@ -4317,7 +4317,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "005dae9b0ab6e475f3fa4e7b4ed1217f13a1e477a22f5cae8033315fff237190",
+          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
           "section": "modificare-o-eliminare-un-evento",
           "status": "pending-capture",
           "verified": false,
@@ -4325,7 +4325,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "005dae9b0ab6e475f3fa4e7b4ed1217f13a1e477a22f5cae8033315fff237190",
+          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
           "section": "gestire-le-presenze-dal-calendario",
           "status": "pending-capture",
           "verified": false,
@@ -4333,7 +4333,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "005dae9b0ab6e475f3fa4e7b4ed1217f13a1e477a22f5cae8033315fff237190",
+          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
           "section": "stampare-il-calendario",
           "status": "pending-capture",
           "verified": false,
@@ -4341,7 +4341,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "005dae9b0ab6e475f3fa4e7b4ed1217f13a1e477a22f5cae8033315fff237190",
+          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
           "section": "esportare-il-calendario",
           "status": "pending-capture",
           "verified": false,
@@ -4349,7 +4349,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "005dae9b0ab6e475f3fa4e7b4ed1217f13a1e477a22f5cae8033315fff237190",
+          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
           "section": "condivisione-del-calendario-con-gli-atleti",
           "status": "pending-capture",
           "verified": false,
@@ -4357,7 +4357,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "005dae9b0ab6e475f3fa4e7b4ed1217f13a1e477a22f5cae8033315fff237190",
+          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
           "section": "link-diretto",
           "status": "pending-capture",
           "verified": false,
@@ -4365,7 +4365,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "005dae9b0ab6e475f3fa4e7b4ed1217f13a1e477a22f5cae8033315fff237190",
+          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
           "section": "condivisione-tramite-whatsapp",
           "status": "pending-capture",
           "verified": false,
@@ -4373,7 +4373,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "005dae9b0ab6e475f3fa4e7b4ed1217f13a1e477a22f5cae8033315fff237190",
+          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
           "section": "condivisione-tramite-email",
           "status": "pending-capture",
           "verified": false,
@@ -4381,7 +4381,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "005dae9b0ab6e475f3fa4e7b4ed1217f13a1e477a22f5cae8033315fff237190",
+          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
           "section": "incorporare-il-calendario-nel-tuo-sito-web",
           "status": "pending-capture",
           "verified": false,
@@ -4389,7 +4389,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "005dae9b0ab6e475f3fa4e7b4ed1217f13a1e477a22f5cae8033315fff237190",
+          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
           "section": "integrazione-con-google-calendar",
           "status": "pending-capture",
           "verified": false,
@@ -4397,7 +4397,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "005dae9b0ab6e475f3fa4e7b4ed1217f13a1e477a22f5cae8033315fff237190",
+          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
           "section": "collegare-il-tuo-account-google",
           "status": "pending-capture",
           "verified": false,
@@ -4405,7 +4405,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "005dae9b0ab6e475f3fa4e7b4ed1217f13a1e477a22f5cae8033315fff237190",
+          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
           "section": "sincronizzare-un-corso-con-google-calendar",
           "status": "pending-capture",
           "verified": false,
@@ -4413,7 +4413,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "005dae9b0ab6e475f3fa4e7b4ed1217f13a1e477a22f5cae8033315fff237190",
+          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
           "section": "disconnettere-google-calendar",
           "status": "pending-capture",
           "verified": false,
@@ -4421,7 +4421,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "005dae9b0ab6e475f3fa4e7b4ed1217f13a1e477a22f5cae8033315fff237190",
+          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
           "section": "risorse-correlate",
           "status": "pending-capture",
           "verified": false,
@@ -4537,7 +4537,7 @@
       "draft_recipes": [
         {
           "path": "docs/manuale/attendance-carnet-recipes.mjs",
-          "sha256": "cb9d1b8811eb72acb9ebfb8c2d5a817f90aedf9f64d5052517521eb7827361cf",
+          "sha256": "e5c8bc04f1533ef6223e3ea24b6a635b6832c47e8d592fc578470a2170b505ff",
           "section": "cos-e-un-carnet",
           "status": "pending-capture",
           "verified": false,
@@ -4545,7 +4545,7 @@
         },
         {
           "path": "docs/manuale/attendance-carnet-recipes.mjs",
-          "sha256": "cb9d1b8811eb72acb9ebfb8c2d5a817f90aedf9f64d5052517521eb7827361cf",
+          "sha256": "e5c8bc04f1533ef6223e3ea24b6a635b6832c47e8d592fc578470a2170b505ff",
           "section": "come-funziona-un-carnet",
           "status": "pending-capture",
           "verified": false,
@@ -4553,7 +4553,7 @@
         },
         {
           "path": "docs/manuale/attendance-carnet-recipes.mjs",
-          "sha256": "cb9d1b8811eb72acb9ebfb8c2d5a817f90aedf9f64d5052517521eb7827361cf",
+          "sha256": "e5c8bc04f1533ef6223e3ea24b6a635b6832c47e8d592fc578470a2170b505ff",
           "section": "logica-di-scalamento-lezioni",
           "status": "pending-capture",
           "verified": false,
@@ -4561,7 +4561,7 @@
         },
         {
           "path": "docs/manuale/attendance-carnet-recipes.mjs",
-          "sha256": "cb9d1b8811eb72acb9ebfb8c2d5a817f90aedf9f64d5052517521eb7827361cf",
+          "sha256": "e5c8bc04f1533ef6223e3ea24b6a635b6832c47e8d592fc578470a2170b505ff",
           "section": "carnet-pubblici-e-privati",
           "status": "pending-capture",
           "verified": false,
@@ -4569,7 +4569,7 @@
         },
         {
           "path": "docs/manuale/attendance-carnet-recipes.mjs",
-          "sha256": "cb9d1b8811eb72acb9ebfb8c2d5a817f90aedf9f64d5052517521eb7827361cf",
+          "sha256": "e5c8bc04f1533ef6223e3ea24b6a635b6832c47e8d592fc578470a2170b505ff",
           "section": "registro-presenze-automatico-con-carnet",
           "status": "pending-capture",
           "verified": false,
@@ -4577,7 +4577,7 @@
         },
         {
           "path": "docs/manuale/attendance-carnet-recipes.mjs",
-          "sha256": "cb9d1b8811eb72acb9ebfb8c2d5a817f90aedf9f64d5052517521eb7827361cf",
+          "sha256": "e5c8bc04f1533ef6223e3ea24b6a635b6832c47e8d592fc578470a2170b505ff",
           "section": "blocco-per-assenza-prevista",
           "status": "pending-capture",
           "verified": false,
@@ -4585,7 +4585,7 @@
         },
         {
           "path": "docs/manuale/attendance-carnet-recipes.mjs",
-          "sha256": "cb9d1b8811eb72acb9ebfb8c2d5a817f90aedf9f64d5052517521eb7827361cf",
+          "sha256": "e5c8bc04f1533ef6223e3ea24b6a635b6832c47e8d592fc578470a2170b505ff",
           "section": "creare-e-gestire-un-carnet",
           "status": "pending-capture",
           "verified": false,
@@ -4593,7 +4593,7 @@
         },
         {
           "path": "docs/manuale/attendance-carnet-recipes.mjs",
-          "sha256": "cb9d1b8811eb72acb9ebfb8c2d5a817f90aedf9f64d5052517521eb7827361cf",
+          "sha256": "e5c8bc04f1533ef6223e3ea24b6a635b6832c47e8d592fc578470a2170b505ff",
           "section": "assegnare-un-carnet-ad-un-atleta",
           "status": "pending-capture",
           "verified": false,
@@ -4601,7 +4601,7 @@
         },
         {
           "path": "docs/manuale/attendance-carnet-recipes.mjs",
-          "sha256": "cb9d1b8811eb72acb9ebfb8c2d5a817f90aedf9f64d5052517521eb7827361cf",
+          "sha256": "e5c8bc04f1533ef6223e3ea24b6a635b6832c47e8d592fc578470a2170b505ff",
           "section": "assegnare-un-corso-ad-un-carnet",
           "status": "pending-capture",
           "verified": false,
@@ -4609,7 +4609,7 @@
         },
         {
           "path": "docs/manuale/attendance-carnet-recipes.mjs",
-          "sha256": "cb9d1b8811eb72acb9ebfb8c2d5a817f90aedf9f64d5052517521eb7827361cf",
+          "sha256": "e5c8bc04f1533ef6223e3ea24b6a635b6832c47e8d592fc578470a2170b505ff",
           "section": "ricaricare-un-carnet",
           "status": "pending-capture",
           "verified": false,
@@ -4617,7 +4617,7 @@
         },
         {
           "path": "docs/manuale/attendance-carnet-recipes.mjs",
-          "sha256": "cb9d1b8811eb72acb9ebfb8c2d5a817f90aedf9f64d5052517521eb7827361cf",
+          "sha256": "e5c8bc04f1533ef6223e3ea24b6a635b6832c47e8d592fc578470a2170b505ff",
           "section": "riepilogo-delle-regole-di-funzionamento",
           "status": "pending-capture",
           "verified": false,
@@ -4625,7 +4625,7 @@
         },
         {
           "path": "docs/manuale/attendance-carnet-recipes.mjs",
-          "sha256": "cb9d1b8811eb72acb9ebfb8c2d5a817f90aedf9f64d5052517521eb7827361cf",
+          "sha256": "e5c8bc04f1533ef6223e3ea24b6a635b6832c47e8d592fc578470a2170b505ff",
           "section": "risorse-correlate",
           "status": "pending-capture",
           "verified": false,
@@ -4765,7 +4765,7 @@
       "draft_recipes": [
         {
           "path": "docs/manuale/attendance-carnet-recipes.mjs",
-          "sha256": "cb9d1b8811eb72acb9ebfb8c2d5a817f90aedf9f64d5052517521eb7827361cf",
+          "sha256": "e5c8bc04f1533ef6223e3ea24b6a635b6832c47e8d592fc578470a2170b505ff",
           "section": "introduzione",
           "status": "pending-capture",
           "verified": false,
@@ -4773,7 +4773,7 @@
         },
         {
           "path": "docs/manuale/attendance-carnet-recipes.mjs",
-          "sha256": "cb9d1b8811eb72acb9ebfb8c2d5a817f90aedf9f64d5052517521eb7827361cf",
+          "sha256": "e5c8bc04f1533ef6223e3ea24b6a635b6832c47e8d592fc578470a2170b505ff",
           "section": "segnare-le-presenze-manualmente",
           "status": "pending-capture",
           "verified": false,
@@ -4781,7 +4781,7 @@
         },
         {
           "path": "docs/manuale/attendance-carnet-recipes.mjs",
-          "sha256": "cb9d1b8811eb72acb9ebfb8c2d5a817f90aedf9f64d5052517521eb7827361cf",
+          "sha256": "e5c8bc04f1533ef6223e3ea24b6a635b6832c47e8d592fc578470a2170b505ff",
           "section": "presenze-automatiche-pro-teams",
           "status": "pending-capture",
           "verified": false,
@@ -4789,7 +4789,7 @@
         },
         {
           "path": "docs/manuale/attendance-carnet-recipes.mjs",
-          "sha256": "cb9d1b8811eb72acb9ebfb8c2d5a817f90aedf9f64d5052517521eb7827361cf",
+          "sha256": "e5c8bc04f1533ef6223e3ea24b6a635b6832c47e8d592fc578470a2170b505ff",
           "section": "come-funziona",
           "status": "pending-capture",
           "verified": false,
@@ -4797,7 +4797,7 @@
         },
         {
           "path": "docs/manuale/attendance-carnet-recipes.mjs",
-          "sha256": "cb9d1b8811eb72acb9ebfb8c2d5a817f90aedf9f64d5052517521eb7827361cf",
+          "sha256": "e5c8bc04f1533ef6223e3ea24b6a635b6832c47e8d592fc578470a2170b505ff",
           "section": "segnalazione-assenze-da-parte-degli-atleti",
           "status": "pending-capture",
           "verified": false,
@@ -4805,7 +4805,7 @@
         },
         {
           "path": "docs/manuale/attendance-carnet-recipes.mjs",
-          "sha256": "cb9d1b8811eb72acb9ebfb8c2d5a817f90aedf9f64d5052517521eb7827361cf",
+          "sha256": "e5c8bc04f1533ef6223e3ea24b6a635b6832c47e8d592fc578470a2170b505ff",
           "section": "attivare-le-presenze-automatiche",
           "status": "pending-capture",
           "verified": false,
@@ -4813,7 +4813,7 @@
         },
         {
           "path": "docs/manuale/attendance-carnet-recipes.mjs",
-          "sha256": "cb9d1b8811eb72acb9ebfb8c2d5a817f90aedf9f64d5052517521eb7827361cf",
+          "sha256": "e5c8bc04f1533ef6223e3ea24b6a635b6832c47e8d592fc578470a2170b505ff",
           "section": "interazione-con-i-carnet",
           "status": "pending-capture",
           "verified": false,
@@ -4821,7 +4821,7 @@
         },
         {
           "path": "docs/manuale/attendance-carnet-recipes.mjs",
-          "sha256": "cb9d1b8811eb72acb9ebfb8c2d5a817f90aedf9f64d5052517521eb7827361cf",
+          "sha256": "e5c8bc04f1533ef6223e3ea24b6a635b6832c47e8d592fc578470a2170b505ff",
           "section": "scalamento-alla-presenza",
           "status": "pending-capture",
           "verified": false,
@@ -4829,7 +4829,7 @@
         },
         {
           "path": "docs/manuale/attendance-carnet-recipes.mjs",
-          "sha256": "cb9d1b8811eb72acb9ebfb8c2d5a817f90aedf9f64d5052517521eb7827361cf",
+          "sha256": "e5c8bc04f1533ef6223e3ea24b6a635b6832c47e8d592fc578470a2170b505ff",
           "section": "restituzione-alla-rimozione",
           "status": "pending-capture",
           "verified": false,
@@ -4837,7 +4837,7 @@
         },
         {
           "path": "docs/manuale/attendance-carnet-recipes.mjs",
-          "sha256": "cb9d1b8811eb72acb9ebfb8c2d5a817f90aedf9f64d5052517521eb7827361cf",
+          "sha256": "e5c8bc04f1533ef6223e3ea24b6a635b6832c47e8d592fc578470a2170b505ff",
           "section": "casi-particolari-con-i-carnet",
           "status": "pending-capture",
           "verified": false,
@@ -4845,7 +4845,7 @@
         },
         {
           "path": "docs/manuale/attendance-carnet-recipes.mjs",
-          "sha256": "cb9d1b8811eb72acb9ebfb8c2d5a817f90aedf9f64d5052517521eb7827361cf",
+          "sha256": "e5c8bc04f1533ef6223e3ea24b6a635b6832c47e8d592fc578470a2170b505ff",
           "section": "eliminare-una-lezione-dal-registro",
           "status": "pending-capture",
           "verified": false,
@@ -4853,7 +4853,7 @@
         },
         {
           "path": "docs/manuale/attendance-carnet-recipes.mjs",
-          "sha256": "cb9d1b8811eb72acb9ebfb8c2d5a817f90aedf9f64d5052517521eb7827361cf",
+          "sha256": "e5c8bc04f1533ef6223e3ea24b6a635b6832c47e8d592fc578470a2170b505ff",
           "section": "sincronizzazione-con-il-calendario",
           "status": "pending-capture",
           "verified": false,
@@ -4861,7 +4861,7 @@
         },
         {
           "path": "docs/manuale/attendance-carnet-recipes.mjs",
-          "sha256": "cb9d1b8811eb72acb9ebfb8c2d5a817f90aedf9f64d5052517521eb7827361cf",
+          "sha256": "e5c8bc04f1533ef6223e3ea24b6a635b6832c47e8d592fc578470a2170b505ff",
           "section": "come-funziona-la-sincronizzazione",
           "status": "pending-capture",
           "verified": false,
@@ -4869,7 +4869,7 @@
         },
         {
           "path": "docs/manuale/attendance-carnet-recipes.mjs",
-          "sha256": "cb9d1b8811eb72acb9ebfb8c2d5a817f90aedf9f64d5052517521eb7827361cf",
+          "sha256": "e5c8bc04f1533ef6223e3ea24b6a635b6832c47e8d592fc578470a2170b505ff",
           "section": "consultare-lo-storico-presenze-di-un-atleta",
           "status": "pending-capture",
           "verified": false,
@@ -4877,7 +4877,7 @@
         },
         {
           "path": "docs/manuale/attendance-carnet-recipes.mjs",
-          "sha256": "cb9d1b8811eb72acb9ebfb8c2d5a817f90aedf9f64d5052517521eb7827361cf",
+          "sha256": "e5c8bc04f1533ef6223e3ea24b6a635b6832c47e8d592fc578470a2170b505ff",
           "section": "risorse-correlate",
           "status": "pending-capture",
           "verified": false,
@@ -5025,7 +5025,7 @@
         },
         {
           "path": "docs/manuale/payment-recipes.mjs",
-          "sha256": "df00df5221d88ac3abad31527593e9f7dd31f6f872dfafc9a5a5b8a0ba5161c1",
+          "sha256": "7bd18d8a0ef06e626d6c82be3ba96c2acf19de415f3c8714f85c447825d1f840",
           "section": "creare-un-pagamento",
           "status": "pending-capture",
           "verified": false,
@@ -5033,7 +5033,7 @@
         },
         {
           "path": "docs/manuale/payment-recipes.mjs",
-          "sha256": "df00df5221d88ac3abad31527593e9f7dd31f6f872dfafc9a5a5b8a0ba5161c1",
+          "sha256": "7bd18d8a0ef06e626d6c82be3ba96c2acf19de415f3c8714f85c447825d1f840",
           "section": "segna-un-pagamento-come-pagato",
           "status": "pending-capture",
           "verified": false,
@@ -5057,7 +5057,7 @@
         },
         {
           "path": "docs/manuale/payment-recipes.mjs",
-          "sha256": "df00df5221d88ac3abad31527593e9f7dd31f6f872dfafc9a5a5b8a0ba5161c1",
+          "sha256": "7bd18d8a0ef06e626d6c82be3ba96c2acf19de415f3c8714f85c447825d1f840",
           "section": "modificare-un-pagamento",
           "status": "pending-capture",
           "verified": false,
@@ -5189,7 +5189,7 @@
       "draft_recipes": [
         {
           "path": "docs/manuale/payment-recipes.mjs",
-          "sha256": "df00df5221d88ac3abad31527593e9f7dd31f6f872dfafc9a5a5b8a0ba5161c1",
+          "sha256": "7bd18d8a0ef06e626d6c82be3ba96c2acf19de415f3c8714f85c447825d1f840",
           "section": "come-vengono-emesse-le-ricevute",
           "status": "pending-capture",
           "verified": false,
@@ -5197,7 +5197,7 @@
         },
         {
           "path": "docs/manuale/payment-recipes.mjs",
-          "sha256": "df00df5221d88ac3abad31527593e9f7dd31f6f872dfafc9a5a5b8a0ba5161c1",
+          "sha256": "7bd18d8a0ef06e626d6c82be3ba96c2acf19de415f3c8714f85c447825d1f840",
           "section": "numerazione-progressiva",
           "status": "pending-capture",
           "verified": false,
@@ -5205,7 +5205,7 @@
         },
         {
           "path": "docs/manuale/payment-recipes.mjs",
-          "sha256": "df00df5221d88ac3abad31527593e9f7dd31f6f872dfafc9a5a5b8a0ba5161c1",
+          "sha256": "7bd18d8a0ef06e626d6c82be3ba96c2acf19de415f3c8714f85c447825d1f840",
           "section": "come-posso-scaricare-una-ricevuta",
           "status": "pending-capture",
           "verified": false,
@@ -5221,7 +5221,7 @@
         },
         {
           "path": "docs/manuale/payment-recipes.mjs",
-          "sha256": "df00df5221d88ac3abad31527593e9f7dd31f6f872dfafc9a5a5b8a0ba5161c1",
+          "sha256": "7bd18d8a0ef06e626d6c82be3ba96c2acf19de415f3c8714f85c447825d1f840",
           "section": "eliminare-una-ricevuta",
           "status": "pending-capture",
           "verified": false,
@@ -5229,7 +5229,7 @@
         },
         {
           "path": "docs/manuale/payment-recipes.mjs",
-          "sha256": "df00df5221d88ac3abad31527593e9f7dd31f6f872dfafc9a5a5b8a0ba5161c1",
+          "sha256": "7bd18d8a0ef06e626d6c82be3ba96c2acf19de415f3c8714f85c447825d1f840",
           "section": "modifica-del-progressivo-della-ricevuta",
           "status": "pending-capture",
           "verified": false,
@@ -5237,7 +5237,7 @@
         },
         {
           "path": "docs/manuale/payment-recipes.mjs",
-          "sha256": "df00df5221d88ac3abad31527593e9f7dd31f6f872dfafc9a5a5b8a0ba5161c1",
+          "sha256": "7bd18d8a0ef06e626d6c82be3ba96c2acf19de415f3c8714f85c447825d1f840",
           "section": "configurazioni-possibili",
           "status": "pending-capture",
           "verified": false,
@@ -5465,7 +5465,7 @@
       "draft_recipes": [
         {
           "path": "docs/manuale/accounting-balance-recipes.mjs",
-          "sha256": "9bbe6e96b1e9c9addb3f76ee54e5c78bdd1423299fc7dd6b173c7f49b187af3d",
+          "sha256": "31fe8c6a714b9aeaa21cc05a591e476608452264d877c43238fc84df350d01ca",
           "section": "panoramica",
           "status": "pending-capture",
           "verified": false,
@@ -5473,7 +5473,7 @@
         },
         {
           "path": "docs/manuale/accounting-balance-recipes.mjs",
-          "sha256": "9bbe6e96b1e9c9addb3f76ee54e5c78bdd1423299fc7dd6b173c7f49b187af3d",
+          "sha256": "31fe8c6a714b9aeaa21cc05a591e476608452264d877c43238fc84df350d01ca",
           "section": "fatture-attive",
           "status": "pending-capture",
           "verified": false,
@@ -5481,7 +5481,7 @@
         },
         {
           "path": "docs/manuale/accounting-balance-recipes.mjs",
-          "sha256": "9bbe6e96b1e9c9addb3f76ee54e5c78bdd1423299fc7dd6b173c7f49b187af3d",
+          "sha256": "31fe8c6a714b9aeaa21cc05a591e476608452264d877c43238fc84df350d01ca",
           "section": "creare-una-fattura-attiva",
           "status": "pending-capture",
           "verified": false,
@@ -5489,7 +5489,7 @@
         },
         {
           "path": "docs/manuale/accounting-balance-recipes.mjs",
-          "sha256": "9bbe6e96b1e9c9addb3f76ee54e5c78bdd1423299fc7dd6b173c7f49b187af3d",
+          "sha256": "31fe8c6a714b9aeaa21cc05a591e476608452264d877c43238fc84df350d01ca",
           "section": "modificare-una-fattura-attiva",
           "status": "pending-capture",
           "verified": false,
@@ -5497,7 +5497,7 @@
         },
         {
           "path": "docs/manuale/accounting-balance-recipes.mjs",
-          "sha256": "9bbe6e96b1e9c9addb3f76ee54e5c78bdd1423299fc7dd6b173c7f49b187af3d",
+          "sha256": "31fe8c6a714b9aeaa21cc05a591e476608452264d877c43238fc84df350d01ca",
           "section": "segnare-una-fattura-come-pagata",
           "status": "pending-capture",
           "verified": false,
@@ -5505,7 +5505,7 @@
         },
         {
           "path": "docs/manuale/accounting-balance-recipes.mjs",
-          "sha256": "9bbe6e96b1e9c9addb3f76ee54e5c78bdd1423299fc7dd6b173c7f49b187af3d",
+          "sha256": "31fe8c6a714b9aeaa21cc05a591e476608452264d877c43238fc84df350d01ca",
           "section": "fatture-passive",
           "status": "pending-capture",
           "verified": false,
@@ -5513,7 +5513,7 @@
         },
         {
           "path": "docs/manuale/accounting-balance-recipes.mjs",
-          "sha256": "9bbe6e96b1e9c9addb3f76ee54e5c78bdd1423299fc7dd6b173c7f49b187af3d",
+          "sha256": "31fe8c6a714b9aeaa21cc05a591e476608452264d877c43238fc84df350d01ca",
           "section": "registrare-una-fattura-passiva",
           "status": "pending-capture",
           "verified": false,
@@ -5521,7 +5521,7 @@
         },
         {
           "path": "docs/manuale/accounting-balance-recipes.mjs",
-          "sha256": "9bbe6e96b1e9c9addb3f76ee54e5c78bdd1423299fc7dd6b173c7f49b187af3d",
+          "sha256": "31fe8c6a714b9aeaa21cc05a591e476608452264d877c43238fc84df350d01ca",
           "section": "modificare-una-fattura-passiva",
           "status": "pending-capture",
           "verified": false,
@@ -5529,7 +5529,7 @@
         },
         {
           "path": "docs/manuale/accounting-balance-recipes.mjs",
-          "sha256": "9bbe6e96b1e9c9addb3f76ee54e5c78bdd1423299fc7dd6b173c7f49b187af3d",
+          "sha256": "31fe8c6a714b9aeaa21cc05a591e476608452264d877c43238fc84df350d01ca",
           "section": "segnare-una-fattura-passiva-come-pagata",
           "status": "pending-capture",
           "verified": false,
@@ -5537,7 +5537,7 @@
         },
         {
           "path": "docs/manuale/accounting-balance-recipes.mjs",
-          "sha256": "9bbe6e96b1e9c9addb3f76ee54e5c78bdd1423299fc7dd6b173c7f49b187af3d",
+          "sha256": "31fe8c6a714b9aeaa21cc05a591e476608452264d877c43238fc84df350d01ca",
           "section": "fornitori-e-clienti",
           "status": "pending-capture",
           "verified": false,
@@ -5545,7 +5545,7 @@
         },
         {
           "path": "docs/manuale/accounting-balance-recipes.mjs",
-          "sha256": "9bbe6e96b1e9c9addb3f76ee54e5c78bdd1423299fc7dd6b173c7f49b187af3d",
+          "sha256": "31fe8c6a714b9aeaa21cc05a591e476608452264d877c43238fc84df350d01ca",
           "section": "aggiungere-un-fornitore-o-cliente",
           "status": "pending-capture",
           "verified": false,
@@ -5553,7 +5553,7 @@
         },
         {
           "path": "docs/manuale/accounting-balance-recipes.mjs",
-          "sha256": "9bbe6e96b1e9c9addb3f76ee54e5c78bdd1423299fc7dd6b173c7f49b187af3d",
+          "sha256": "31fe8c6a714b9aeaa21cc05a591e476608452264d877c43238fc84df350d01ca",
           "section": "modificare-un-fornitore-o-cliente",
           "status": "pending-capture",
           "verified": false,
@@ -5561,7 +5561,7 @@
         },
         {
           "path": "docs/manuale/accounting-balance-recipes.mjs",
-          "sha256": "9bbe6e96b1e9c9addb3f76ee54e5c78bdd1423299fc7dd6b173c7f49b187af3d",
+          "sha256": "31fe8c6a714b9aeaa21cc05a591e476608452264d877c43238fc84df350d01ca",
           "section": "eliminare-un-fornitore-o-cliente",
           "status": "pending-capture",
           "verified": false,
@@ -5569,7 +5569,7 @@
         },
         {
           "path": "docs/manuale/accounting-balance-recipes.mjs",
-          "sha256": "9bbe6e96b1e9c9addb3f76ee54e5c78bdd1423299fc7dd6b173c7f49b187af3d",
+          "sha256": "31fe8c6a714b9aeaa21cc05a591e476608452264d877c43238fc84df350d01ca",
           "section": "conti-finanziari",
           "status": "pending-capture",
           "verified": false,
@@ -5577,7 +5577,7 @@
         },
         {
           "path": "docs/manuale/accounting-balance-recipes.mjs",
-          "sha256": "9bbe6e96b1e9c9addb3f76ee54e5c78bdd1423299fc7dd6b173c7f49b187af3d",
+          "sha256": "31fe8c6a714b9aeaa21cc05a591e476608452264d877c43238fc84df350d01ca",
           "section": "tipologie-di-conto",
           "status": "pending-capture",
           "verified": false,
@@ -5585,7 +5585,7 @@
         },
         {
           "path": "docs/manuale/accounting-balance-recipes.mjs",
-          "sha256": "9bbe6e96b1e9c9addb3f76ee54e5c78bdd1423299fc7dd6b173c7f49b187af3d",
+          "sha256": "31fe8c6a714b9aeaa21cc05a591e476608452264d877c43238fc84df350d01ca",
           "section": "creare-un-nuovo-conto",
           "status": "pending-capture",
           "verified": false,
@@ -5593,7 +5593,7 @@
         },
         {
           "path": "docs/manuale/accounting-balance-recipes.mjs",
-          "sha256": "9bbe6e96b1e9c9addb3f76ee54e5c78bdd1423299fc7dd6b173c7f49b187af3d",
+          "sha256": "31fe8c6a714b9aeaa21cc05a591e476608452264d877c43238fc84df350d01ca",
           "section": "modificare-un-conto",
           "status": "pending-capture",
           "verified": false,
@@ -5601,7 +5601,7 @@
         },
         {
           "path": "docs/manuale/accounting-balance-recipes.mjs",
-          "sha256": "9bbe6e96b1e9c9addb3f76ee54e5c78bdd1423299fc7dd6b173c7f49b187af3d",
+          "sha256": "31fe8c6a714b9aeaa21cc05a591e476608452264d877c43238fc84df350d01ca",
           "section": "giroconti",
           "status": "pending-capture",
           "verified": false,
@@ -5609,7 +5609,7 @@
         },
         {
           "path": "docs/manuale/accounting-balance-recipes.mjs",
-          "sha256": "9bbe6e96b1e9c9addb3f76ee54e5c78bdd1423299fc7dd6b173c7f49b187af3d",
+          "sha256": "31fe8c6a714b9aeaa21cc05a591e476608452264d877c43238fc84df350d01ca",
           "section": "creare-un-giroconto",
           "status": "pending-capture",
           "verified": false,
@@ -5617,7 +5617,7 @@
         },
         {
           "path": "docs/manuale/accounting-balance-recipes.mjs",
-          "sha256": "9bbe6e96b1e9c9addb3f76ee54e5c78bdd1423299fc7dd6b173c7f49b187af3d",
+          "sha256": "31fe8c6a714b9aeaa21cc05a591e476608452264d877c43238fc84df350d01ca",
           "section": "eliminare-un-giroconto",
           "status": "pending-capture",
           "verified": false,
@@ -5625,7 +5625,7 @@
         },
         {
           "path": "docs/manuale/accounting-balance-recipes.mjs",
-          "sha256": "9bbe6e96b1e9c9addb3f76ee54e5c78bdd1423299fc7dd6b173c7f49b187af3d",
+          "sha256": "31fe8c6a714b9aeaa21cc05a591e476608452264d877c43238fc84df350d01ca",
           "section": "causali-di-pagamento",
           "status": "pending-capture",
           "verified": false,
@@ -5633,7 +5633,7 @@
         },
         {
           "path": "docs/manuale/accounting-balance-recipes.mjs",
-          "sha256": "9bbe6e96b1e9c9addb3f76ee54e5c78bdd1423299fc7dd6b173c7f49b187af3d",
+          "sha256": "31fe8c6a714b9aeaa21cc05a591e476608452264d877c43238fc84df350d01ca",
           "section": "tipologie-di-causali",
           "status": "pending-capture",
           "verified": false,
@@ -5641,7 +5641,7 @@
         },
         {
           "path": "docs/manuale/accounting-balance-recipes.mjs",
-          "sha256": "9bbe6e96b1e9c9addb3f76ee54e5c78bdd1423299fc7dd6b173c7f49b187af3d",
+          "sha256": "31fe8c6a714b9aeaa21cc05a591e476608452264d877c43238fc84df350d01ca",
           "section": "creare-una-causale",
           "status": "pending-capture",
           "verified": false,
@@ -5649,7 +5649,7 @@
         },
         {
           "path": "docs/manuale/accounting-balance-recipes.mjs",
-          "sha256": "9bbe6e96b1e9c9addb3f76ee54e5c78bdd1423299fc7dd6b173c7f49b187af3d",
+          "sha256": "31fe8c6a714b9aeaa21cc05a591e476608452264d877c43238fc84df350d01ca",
           "section": "modificare-una-causale",
           "status": "pending-capture",
           "verified": false,
@@ -5657,7 +5657,7 @@
         },
         {
           "path": "docs/manuale/accounting-balance-recipes.mjs",
-          "sha256": "9bbe6e96b1e9c9addb3f76ee54e5c78bdd1423299fc7dd6b173c7f49b187af3d",
+          "sha256": "31fe8c6a714b9aeaa21cc05a591e476608452264d877c43238fc84df350d01ca",
           "section": "causali-aggiuntive-nei-pagamenti",
           "status": "pending-capture",
           "verified": false,
@@ -5665,7 +5665,7 @@
         },
         {
           "path": "docs/manuale/accounting-balance-recipes.mjs",
-          "sha256": "9bbe6e96b1e9c9addb3f76ee54e5c78bdd1423299fc7dd6b173c7f49b187af3d",
+          "sha256": "31fe8c6a714b9aeaa21cc05a591e476608452264d877c43238fc84df350d01ca",
           "section": "causali-detraibili-730",
           "status": "pending-capture",
           "verified": false,
@@ -5733,7 +5733,7 @@
       "draft_recipes": [
         {
           "path": "docs/manuale/accounting-balance-recipes.mjs",
-          "sha256": "9bbe6e96b1e9c9addb3f76ee54e5c78bdd1423299fc7dd6b173c7f49b187af3d",
+          "sha256": "31fe8c6a714b9aeaa21cc05a591e476608452264d877c43238fc84df350d01ca",
           "section": "bilancio",
           "status": "pending-capture",
           "verified": false,
@@ -5741,7 +5741,7 @@
         },
         {
           "path": "docs/manuale/accounting-balance-recipes.mjs",
-          "sha256": "9bbe6e96b1e9c9addb3f76ee54e5c78bdd1423299fc7dd6b173c7f49b187af3d",
+          "sha256": "31fe8c6a714b9aeaa21cc05a591e476608452264d877c43238fc84df350d01ca",
           "section": "anno-fiscale",
           "status": "pending-capture",
           "verified": false,
@@ -5749,7 +5749,7 @@
         },
         {
           "path": "docs/manuale/accounting-balance-recipes.mjs",
-          "sha256": "9bbe6e96b1e9c9addb3f76ee54e5c78bdd1423299fc7dd6b173c7f49b187af3d",
+          "sha256": "31fe8c6a714b9aeaa21cc05a591e476608452264d877c43238fc84df350d01ca",
           "section": "conti-economici",
           "status": "pending-capture",
           "verified": false,
@@ -5757,7 +5757,7 @@
         },
         {
           "path": "docs/manuale/accounting-balance-recipes.mjs",
-          "sha256": "9bbe6e96b1e9c9addb3f76ee54e5c78bdd1423299fc7dd6b173c7f49b187af3d",
+          "sha256": "31fe8c6a714b9aeaa21cc05a591e476608452264d877c43238fc84df350d01ca",
           "section": "giroconti",
           "status": "pending-capture",
           "verified": false,
@@ -5765,7 +5765,7 @@
         },
         {
           "path": "docs/manuale/accounting-balance-recipes.mjs",
-          "sha256": "9bbe6e96b1e9c9addb3f76ee54e5c78bdd1423299fc7dd6b173c7f49b187af3d",
+          "sha256": "31fe8c6a714b9aeaa21cc05a591e476608452264d877c43238fc84df350d01ca",
           "section": "pubblicazione-del-bilancio",
           "status": "pending-capture",
           "verified": false,
@@ -5773,7 +5773,7 @@
         },
         {
           "path": "docs/manuale/accounting-balance-recipes.mjs",
-          "sha256": "9bbe6e96b1e9c9addb3f76ee54e5c78bdd1423299fc7dd6b173c7f49b187af3d",
+          "sha256": "31fe8c6a714b9aeaa21cc05a591e476608452264d877c43238fc84df350d01ca",
           "section": "risorse-correlate",
           "status": "pending-capture",
           "verified": false,
@@ -6045,7 +6045,7 @@
       "draft_recipes": [
         {
           "path": "docs/manuale/content-recipes.mjs",
-          "sha256": "198db71d482f656be83b3b29e69c8d617db9e59853a48942cd35506e6a6e1182",
+          "sha256": "c31ea86bd8262fcbf5303c71c79a3e9b7cd08ffa05e76765a1f714c521c07b85",
           "section": "introduzione",
           "status": "pending-capture",
           "verified": false,
@@ -6077,7 +6077,7 @@
         },
         {
           "path": "docs/manuale/content-recipes.mjs",
-          "sha256": "198db71d482f656be83b3b29e69c8d617db9e59853a48942cd35506e6a6e1182",
+          "sha256": "c31ea86bd8262fcbf5303c71c79a3e9b7cd08ffa05e76765a1f714c521c07b85",
           "section": "ripristinare-un-elemento-dall-archivio",
           "status": "pending-capture",
           "verified": false,
@@ -6177,7 +6177,7 @@
       "draft_recipes": [
         {
           "path": "docs/manuale/organization-access-recipes.mjs",
-          "sha256": "0ad2a354db7be450c7c2fa94b7a9fab902f975fb8cb9f554d588ed4845459352",
+          "sha256": "2ae2289f2973f248009ba1ca5b1f40d02d38995679758a3b84766bebe762a2f0",
           "section": "introduzione",
           "status": "pending-capture",
           "verified": false,
@@ -6185,7 +6185,7 @@
         },
         {
           "path": "docs/manuale/organization-access-recipes.mjs",
-          "sha256": "0ad2a354db7be450c7c2fa94b7a9fab902f975fb8cb9f554d588ed4845459352",
+          "sha256": "2ae2289f2973f248009ba1ca5b1f40d02d38995679758a3b84766bebe762a2f0",
           "section": "invitare-un-collaboratore",
           "status": "pending-capture",
           "verified": false,
@@ -6193,7 +6193,7 @@
         },
         {
           "path": "docs/manuale/organization-access-recipes.mjs",
-          "sha256": "0ad2a354db7be450c7c2fa94b7a9fab902f975fb8cb9f554d588ed4845459352",
+          "sha256": "2ae2289f2973f248009ba1ca5b1f40d02d38995679758a3b84766bebe762a2f0",
           "section": "livelli-di-permessi",
           "status": "pending-capture",
           "verified": false,
@@ -6201,7 +6201,7 @@
         },
         {
           "path": "docs/manuale/organization-access-recipes.mjs",
-          "sha256": "0ad2a354db7be450c7c2fa94b7a9fab902f975fb8cb9f554d588ed4845459352",
+          "sha256": "2ae2289f2973f248009ba1ca5b1f40d02d38995679758a3b84766bebe762a2f0",
           "section": "accesso-completo",
           "status": "pending-capture",
           "verified": false,
@@ -6209,7 +6209,7 @@
         },
         {
           "path": "docs/manuale/organization-access-recipes.mjs",
-          "sha256": "0ad2a354db7be450c7c2fa94b7a9fab902f975fb8cb9f554d588ed4845459352",
+          "sha256": "2ae2289f2973f248009ba1ca5b1f40d02d38995679758a3b84766bebe762a2f0",
           "section": "personalizzato",
           "status": "pending-capture",
           "verified": false,
@@ -6217,7 +6217,7 @@
         },
         {
           "path": "docs/manuale/organization-access-recipes.mjs",
-          "sha256": "0ad2a354db7be450c7c2fa94b7a9fab902f975fb8cb9f554d588ed4845459352",
+          "sha256": "2ae2289f2973f248009ba1ca5b1f40d02d38995679758a3b84766bebe762a2f0",
           "section": "stato-degli-inviti",
           "status": "pending-capture",
           "verified": false,
@@ -6225,7 +6225,7 @@
         },
         {
           "path": "docs/manuale/organization-access-recipes.mjs",
-          "sha256": "0ad2a354db7be450c7c2fa94b7a9fab902f975fb8cb9f554d588ed4845459352",
+          "sha256": "2ae2289f2973f248009ba1ca5b1f40d02d38995679758a3b84766bebe762a2f0",
           "section": "modificare-i-permessi-di-un-collaboratore",
           "status": "pending-capture",
           "verified": false,
@@ -6501,7 +6501,7 @@
         },
         {
           "path": "docs/manuale/organization-access-recipes.mjs",
-          "sha256": "0ad2a354db7be450c7c2fa94b7a9fab902f975fb8cb9f554d588ed4845459352",
+          "sha256": "2ae2289f2973f248009ba1ca5b1f40d02d38995679758a3b84766bebe762a2f0",
           "section": "informazioni-dell-organizzazione",
           "status": "pending-capture",
           "verified": false,
@@ -6525,7 +6525,7 @@
         },
         {
           "path": "docs/manuale/organization-access-recipes.mjs",
-          "sha256": "0ad2a354db7be450c7c2fa94b7a9fab902f975fb8cb9f554d588ed4845459352",
+          "sha256": "2ae2289f2973f248009ba1ca5b1f40d02d38995679758a3b84766bebe762a2f0",
           "section": "anno-fiscale",
           "status": "pending-capture",
           "verified": false,
@@ -6533,7 +6533,7 @@
         },
         {
           "path": "docs/manuale/organization-access-recipes.mjs",
-          "sha256": "0ad2a354db7be450c7c2fa94b7a9fab902f975fb8cb9f554d588ed4845459352",
+          "sha256": "2ae2289f2973f248009ba1ca5b1f40d02d38995679758a3b84766bebe762a2f0",
           "section": "stagione-sportiva",
           "status": "pending-capture",
           "verified": false,
@@ -6541,7 +6541,7 @@
         },
         {
           "path": "docs/manuale/organization-access-recipes.mjs",
-          "sha256": "0ad2a354db7be450c7c2fa94b7a9fab902f975fb8cb9f554d588ed4845459352",
+          "sha256": "2ae2289f2973f248009ba1ca5b1f40d02d38995679758a3b84766bebe762a2f0",
           "section": "durata-delle-iscrizioni-e-tesseramenti",
           "status": "pending-capture",
           "verified": false,
@@ -6809,7 +6809,7 @@
         },
         {
           "path": "docs/manuale/member-recipes.mjs",
-          "sha256": "50abc22576ccc8de5a91dcab9c032e9d0b577af6e3e71ad87b3966f33b3d895b",
+          "sha256": "67fa318c42f1a472edefc54208b8b9c045a3b919d03d51038b7e4974816cf71f",
           "section": "creare-un-socio-socio-tesserato-o-tesserato",
           "status": "pending-capture",
           "verified": false,
@@ -7069,7 +7069,7 @@
       "draft_recipes": [
         {
           "path": "docs/manuale/reference-recipes.mjs",
-          "sha256": "7f5d67050391b3e3b0d3f078743b100412ac8996e85adc8a865dfdf7b1531a90",
+          "sha256": "dec9f4f5e3a033a2c00775b920f31c024448b623536a90c55e5a4dc47c6ffa9c",
           "section": "la-sicurezza-dei-tuoi-dati-e-la-nostra-priorita",
           "status": "pending-capture",
           "verified": false,
@@ -7077,7 +7077,7 @@
         },
         {
           "path": "docs/manuale/reference-recipes.mjs",
-          "sha256": "7f5d67050391b3e3b0d3f078743b100412ac8996e85adc8a865dfdf7b1531a90",
+          "sha256": "dec9f4f5e3a033a2c00775b920f31c024448b623536a90c55e5a4dc47c6ffa9c",
           "section": "conformita-gdpr-e-gestione-responsabile-dei-dati",
           "status": "pending-capture",
           "verified": false,
@@ -7085,7 +7085,7 @@
         },
         {
           "path": "docs/manuale/reference-recipes.mjs",
-          "sha256": "7f5d67050391b3e3b0d3f078743b100412ac8996e85adc8a865dfdf7b1531a90",
+          "sha256": "dec9f4f5e3a033a2c00775b920f31c024448b623536a90c55e5a4dc47c6ffa9c",
           "section": "robusta-politica-di-backup",
           "status": "pending-capture",
           "verified": false,
@@ -7093,7 +7093,7 @@
         },
         {
           "path": "docs/manuale/reference-recipes.mjs",
-          "sha256": "7f5d67050391b3e3b0d3f078743b100412ac8996e85adc8a865dfdf7b1531a90",
+          "sha256": "dec9f4f5e3a033a2c00775b920f31c024448b623536a90c55e5a4dc47c6ffa9c",
           "section": "misure-di-sicurezza-avanzate",
           "status": "pending-capture",
           "verified": false,
@@ -7101,7 +7101,7 @@
         },
         {
           "path": "docs/manuale/reference-recipes.mjs",
-          "sha256": "7f5d67050391b3e3b0d3f078743b100412ac8996e85adc8a865dfdf7b1531a90",
+          "sha256": "dec9f4f5e3a033a2c00775b920f31c024448b623536a90c55e5a4dc47c6ffa9c",
           "section": "infrastruttura-di-archiviazione-affidabile",
           "status": "pending-capture",
           "verified": false,
@@ -7185,7 +7185,7 @@
       "draft_recipes": [
         {
           "path": "docs/manuale/registration-forms-recipes.mjs",
-          "sha256": "ca285e6a1dc18385d9ec2915f838b8af8601e5f209a46737395362f4e2af0f55",
+          "sha256": "917934b635fa3996d144a89952fa7444b0f1e10e86bb85bf21905ced39592cb9",
           "section": "condividere-il-link-per-le-iscrizioni",
           "status": "pending-capture",
           "verified": false,
@@ -7193,7 +7193,7 @@
         },
         {
           "path": "docs/manuale/registration-forms-recipes.mjs",
-          "sha256": "ca285e6a1dc18385d9ec2915f838b8af8601e5f209a46737395362f4e2af0f55",
+          "sha256": "917934b635fa3996d144a89952fa7444b0f1e10e86bb85bf21905ced39592cb9",
           "section": "dove-trovo-il-link-di-iscrizione",
           "status": "pending-capture",
           "verified": false,
@@ -7201,7 +7201,7 @@
         },
         {
           "path": "docs/manuale/registration-forms-recipes.mjs",
-          "sha256": "ca285e6a1dc18385d9ec2915f838b8af8601e5f209a46737395362f4e2af0f55",
+          "sha256": "917934b635fa3996d144a89952fa7444b0f1e10e86bb85bf21905ced39592cb9",
           "section": "modalita-di-condivisione",
           "status": "pending-capture",
           "verified": false,
@@ -7209,7 +7209,7 @@
         },
         {
           "path": "docs/manuale/registration-forms-recipes.mjs",
-          "sha256": "ca285e6a1dc18385d9ec2915f838b8af8601e5f209a46737395362f4e2af0f55",
+          "sha256": "917934b635fa3996d144a89952fa7444b0f1e10e86bb85bf21905ced39592cb9",
           "section": "1-copia-il-link",
           "status": "pending-capture",
           "verified": false,
@@ -7217,7 +7217,7 @@
         },
         {
           "path": "docs/manuale/registration-forms-recipes.mjs",
-          "sha256": "ca285e6a1dc18385d9ec2915f838b8af8601e5f209a46737395362f4e2af0f55",
+          "sha256": "917934b635fa3996d144a89952fa7444b0f1e10e86bb85bf21905ced39592cb9",
           "section": "2-whatsapp",
           "status": "pending-capture",
           "verified": false,
@@ -7225,7 +7225,7 @@
         },
         {
           "path": "docs/manuale/registration-forms-recipes.mjs",
-          "sha256": "ca285e6a1dc18385d9ec2915f838b8af8601e5f209a46737395362f4e2af0f55",
+          "sha256": "917934b635fa3996d144a89952fa7444b0f1e10e86bb85bf21905ced39592cb9",
           "section": "3-email",
           "status": "pending-capture",
           "verified": false,
@@ -7233,7 +7233,7 @@
         },
         {
           "path": "docs/manuale/registration-forms-recipes.mjs",
-          "sha256": "ca285e6a1dc18385d9ec2915f838b8af8601e5f209a46737395362f4e2af0f55",
+          "sha256": "917934b635fa3996d144a89952fa7444b0f1e10e86bb85bf21905ced39592cb9",
           "section": "4-qr-code",
           "status": "pending-capture",
           "verified": false,
@@ -7241,7 +7241,7 @@
         },
         {
           "path": "docs/manuale/registration-forms-recipes.mjs",
-          "sha256": "ca285e6a1dc18385d9ec2915f838b8af8601e5f209a46737395362f4e2af0f55",
+          "sha256": "917934b635fa3996d144a89952fa7444b0f1e10e86bb85bf21905ced39592cb9",
           "section": "cosa-vede-chi-apre-il-link",
           "status": "pending-capture",
           "verified": false,
@@ -7601,7 +7601,7 @@
       "draft_recipes": [
         {
           "path": "docs/manuale/accounting-balance-recipes.mjs",
-          "sha256": "9bbe6e96b1e9c9addb3f76ee54e5c78bdd1423299fc7dd6b173c7f49b187af3d",
+          "sha256": "31fe8c6a714b9aeaa21cc05a591e476608452264d877c43238fc84df350d01ca",
           "section": "cos-e-il-bilancio",
           "status": "pending-capture",
           "verified": false,
@@ -7609,7 +7609,7 @@
         },
         {
           "path": "docs/manuale/accounting-balance-recipes.mjs",
-          "sha256": "9bbe6e96b1e9c9addb3f76ee54e5c78bdd1423299fc7dd6b173c7f49b187af3d",
+          "sha256": "31fe8c6a714b9aeaa21cc05a591e476608452264d877c43238fc84df350d01ca",
           "section": "configurare-i-conti-economici",
           "status": "pending-capture",
           "verified": false,
@@ -7617,7 +7617,7 @@
         },
         {
           "path": "docs/manuale/accounting-balance-recipes.mjs",
-          "sha256": "9bbe6e96b1e9c9addb3f76ee54e5c78bdd1423299fc7dd6b173c7f49b187af3d",
+          "sha256": "31fe8c6a714b9aeaa21cc05a591e476608452264d877c43238fc84df350d01ca",
           "section": "i-giroconti-trasferimenti-tra-conti",
           "status": "pending-capture",
           "verified": false,
@@ -7625,7 +7625,7 @@
         },
         {
           "path": "docs/manuale/accounting-balance-recipes.mjs",
-          "sha256": "9bbe6e96b1e9c9addb3f76ee54e5c78bdd1423299fc7dd6b173c7f49b187af3d",
+          "sha256": "31fe8c6a714b9aeaa21cc05a591e476608452264d877c43238fc84df350d01ca",
           "section": "generare-e-consultare-il-bilancio",
           "status": "pending-capture",
           "verified": false,
@@ -7633,7 +7633,7 @@
         },
         {
           "path": "docs/manuale/accounting-balance-recipes.mjs",
-          "sha256": "9bbe6e96b1e9c9addb3f76ee54e5c78bdd1423299fc7dd6b173c7f49b187af3d",
+          "sha256": "31fe8c6a714b9aeaa21cc05a591e476608452264d877c43238fc84df350d01ca",
           "section": "allineamento-dell-anno-fiscale",
           "status": "pending-capture",
           "verified": false,
@@ -7641,7 +7641,7 @@
         },
         {
           "path": "docs/manuale/accounting-balance-recipes.mjs",
-          "sha256": "9bbe6e96b1e9c9addb3f76ee54e5c78bdd1423299fc7dd6b173c7f49b187af3d",
+          "sha256": "31fe8c6a714b9aeaa21cc05a591e476608452264d877c43238fc84df350d01ca",
           "section": "pubblicare-il-bilancio",
           "status": "pending-capture",
           "verified": false,
@@ -7749,7 +7749,7 @@
       "draft_recipes": [
         {
           "path": "docs/manuale/search-recipes.mjs",
-          "sha256": "4a41a78a48123d101b17e56c1fb56702e1d4be57990b15829fe1c78f84a8e983",
+          "sha256": "f0bed930484deb9152f974d78ea39f13a0dafd32c81620f239177e53c8a6d9a1",
           "section": "la-barra-di-ricerca",
           "status": "pending-capture",
           "verified": false,
@@ -7913,7 +7913,7 @@
       "draft_recipes": [
         {
           "path": "docs/manuale/content-recipes.mjs",
-          "sha256": "198db71d482f656be83b3b29e69c8d617db9e59853a48942cd35506e6a6e1182",
+          "sha256": "c31ea86bd8262fcbf5303c71c79a3e9b7cd08ffa05e76765a1f714c521c07b85",
           "section": "cosa-significa-archiviare",
           "status": "pending-capture",
           "verified": false,
@@ -7921,7 +7921,7 @@
         },
         {
           "path": "docs/manuale/content-recipes.mjs",
-          "sha256": "198db71d482f656be83b3b29e69c8d617db9e59853a48942cd35506e6a6e1182",
+          "sha256": "c31ea86bd8262fcbf5303c71c79a3e9b7cd08ffa05e76765a1f714c521c07b85",
           "section": "archiviazione-manuale",
           "status": "pending-capture",
           "verified": false,
@@ -7953,7 +7953,7 @@
         },
         {
           "path": "docs/manuale/content-recipes.mjs",
-          "sha256": "198db71d482f656be83b3b29e69c8d617db9e59853a48942cd35506e6a6e1182",
+          "sha256": "c31ea86bd8262fcbf5303c71c79a3e9b7cd08ffa05e76765a1f714c521c07b85",
           "section": "consultare-i-dati-archiviati",
           "status": "pending-capture",
           "verified": false,
@@ -7961,7 +7961,7 @@
         },
         {
           "path": "docs/manuale/content-recipes.mjs",
-          "sha256": "198db71d482f656be83b3b29e69c8d617db9e59853a48942cd35506e6a6e1182",
+          "sha256": "c31ea86bd8262fcbf5303c71c79a3e9b7cd08ffa05e76765a1f714c521c07b85",
           "section": "ripristinare-i-dati-archiviati",
           "status": "pending-capture",
           "verified": false,
@@ -7969,7 +7969,7 @@
         },
         {
           "path": "docs/manuale/content-recipes.mjs",
-          "sha256": "198db71d482f656be83b3b29e69c8d617db9e59853a48942cd35506e6a6e1182",
+          "sha256": "c31ea86bd8262fcbf5303c71c79a3e9b7cd08ffa05e76765a1f714c521c07b85",
           "section": "cosa-viene-archiviato",
           "status": "pending-capture",
           "verified": false,
@@ -8053,7 +8053,7 @@
         },
         {
           "path": "docs/manuale/member-recipes.mjs",
-          "sha256": "50abc22576ccc8de5a91dcab9c032e9d0b577af6e3e71ad87b3966f33b3d895b",
+          "sha256": "67fa318c42f1a472edefc54208b8b9c045a3b919d03d51038b7e4974816cf71f",
           "section": "come-funziona",
           "status": "pending-capture",
           "verified": false,
@@ -8145,7 +8145,7 @@
       "draft_recipes": [
         {
           "path": "docs/manuale/organization-access-recipes.mjs",
-          "sha256": "0ad2a354db7be450c7c2fa94b7a9fab902f975fb8cb9f554d588ed4845459352",
+          "sha256": "2ae2289f2973f248009ba1ca5b1f40d02d38995679758a3b84766bebe762a2f0",
           "section": "invitare-un-collaboratore",
           "status": "pending-capture",
           "verified": false,
@@ -8153,7 +8153,7 @@
         },
         {
           "path": "docs/manuale/organization-access-recipes.mjs",
-          "sha256": "0ad2a354db7be450c7c2fa94b7a9fab902f975fb8cb9f554d588ed4845459352",
+          "sha256": "2ae2289f2973f248009ba1ca5b1f40d02d38995679758a3b84766bebe762a2f0",
           "section": "come-inviare-un-invito",
           "status": "pending-capture",
           "verified": false,
@@ -8161,7 +8161,7 @@
         },
         {
           "path": "docs/manuale/organization-access-recipes.mjs",
-          "sha256": "0ad2a354db7be450c7c2fa94b7a9fab902f975fb8cb9f554d588ed4845459352",
+          "sha256": "2ae2289f2973f248009ba1ca5b1f40d02d38995679758a3b84766bebe762a2f0",
           "section": "livelli-di-accesso",
           "status": "pending-capture",
           "verified": false,
@@ -8169,7 +8169,7 @@
         },
         {
           "path": "docs/manuale/organization-access-recipes.mjs",
-          "sha256": "0ad2a354db7be450c7c2fa94b7a9fab902f975fb8cb9f554d588ed4845459352",
+          "sha256": "2ae2289f2973f248009ba1ca5b1f40d02d38995679758a3b84766bebe762a2f0",
           "section": "stato-degli-inviti",
           "status": "pending-capture",
           "verified": false,
@@ -8177,7 +8177,7 @@
         },
         {
           "path": "docs/manuale/organization-access-recipes.mjs",
-          "sha256": "0ad2a354db7be450c7c2fa94b7a9fab902f975fb8cb9f554d588ed4845459352",
+          "sha256": "2ae2289f2973f248009ba1ca5b1f40d02d38995679758a3b84766bebe762a2f0",
           "section": "modificare-i-permessi",
           "status": "pending-capture",
           "verified": false,
@@ -8253,7 +8253,7 @@
       "draft_recipes": [
         {
           "path": "docs/manuale/organization-access-recipes.mjs",
-          "sha256": "0ad2a354db7be450c7c2fa94b7a9fab902f975fb8cb9f554d588ed4845459352",
+          "sha256": "2ae2289f2973f248009ba1ca5b1f40d02d38995679758a3b84766bebe762a2f0",
           "section": "cambiare-l-anno-sportivo-e-fiscale",
           "status": "pending-capture",
           "verified": false,
@@ -8261,7 +8261,7 @@
         },
         {
           "path": "docs/manuale/organization-access-recipes.mjs",
-          "sha256": "0ad2a354db7be450c7c2fa94b7a9fab902f975fb8cb9f554d588ed4845459352",
+          "sha256": "2ae2289f2973f248009ba1ca5b1f40d02d38995679758a3b84766bebe762a2f0",
           "section": "qual-e-la-differenza",
           "status": "pending-capture",
           "verified": false,
@@ -8269,7 +8269,7 @@
         },
         {
           "path": "docs/manuale/organization-access-recipes.mjs",
-          "sha256": "0ad2a354db7be450c7c2fa94b7a9fab902f975fb8cb9f554d588ed4845459352",
+          "sha256": "2ae2289f2973f248009ba1ca5b1f40d02d38995679758a3b84766bebe762a2f0",
           "section": "opzioni-disponibili",
           "status": "pending-capture",
           "verified": false,
@@ -8277,7 +8277,7 @@
         },
         {
           "path": "docs/manuale/organization-access-recipes.mjs",
-          "sha256": "0ad2a354db7be450c7c2fa94b7a9fab902f975fb8cb9f554d588ed4845459352",
+          "sha256": "2ae2289f2973f248009ba1ca5b1f40d02d38995679758a3b84766bebe762a2f0",
           "section": "come-cambiare-l-anno-fiscale",
           "status": "pending-capture",
           "verified": false,
@@ -8285,7 +8285,7 @@
         },
         {
           "path": "docs/manuale/organization-access-recipes.mjs",
-          "sha256": "0ad2a354db7be450c7c2fa94b7a9fab902f975fb8cb9f554d588ed4845459352",
+          "sha256": "2ae2289f2973f248009ba1ca5b1f40d02d38995679758a3b84766bebe762a2f0",
           "section": "come-cambiare-la-stagione-sportiva",
           "status": "pending-capture",
           "verified": false,
@@ -8293,7 +8293,7 @@
         },
         {
           "path": "docs/manuale/organization-access-recipes.mjs",
-          "sha256": "0ad2a354db7be450c7c2fa94b7a9fab902f975fb8cb9f554d588ed4845459352",
+          "sha256": "2ae2289f2973f248009ba1ca5b1f40d02d38995679758a3b84766bebe762a2f0",
           "section": "cosa-cambia-dopo-la-modifica",
           "status": "pending-capture",
           "verified": false,
@@ -8361,7 +8361,7 @@
       "draft_recipes": [
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "005dae9b0ab6e475f3fa4e7b4ed1217f13a1e477a22f5cae8033315fff237190",
+          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
           "section": "collegare-google-calendar",
           "status": "pending-capture",
           "verified": false,
@@ -8369,7 +8369,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "005dae9b0ab6e475f3fa4e7b4ed1217f13a1e477a22f5cae8033315fff237190",
+          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
           "section": "cosa-serve-per-iniziare",
           "status": "pending-capture",
           "verified": false,
@@ -8377,7 +8377,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "005dae9b0ab6e475f3fa4e7b4ed1217f13a1e477a22f5cae8033315fff237190",
+          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
           "section": "come-collegare-il-tuo-account-google",
           "status": "pending-capture",
           "verified": false,
@@ -8385,7 +8385,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "005dae9b0ab6e475f3fa4e7b4ed1217f13a1e477a22f5cae8033315fff237190",
+          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
           "section": "come-sincronizzare-un-corso",
           "status": "pending-capture",
           "verified": false,
@@ -8393,7 +8393,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "005dae9b0ab6e475f3fa4e7b4ed1217f13a1e477a22f5cae8033315fff237190",
+          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
           "section": "cosa-viene-sincronizzato",
           "status": "pending-capture",
           "verified": false,
@@ -8401,7 +8401,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "005dae9b0ab6e475f3fa4e7b4ed1217f13a1e477a22f5cae8033315fff237190",
+          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
           "section": "come-disconnettere-google-calendar",
           "status": "pending-capture",
           "verified": false,
@@ -8593,7 +8593,7 @@
       "draft_recipes": [
         {
           "path": "docs/manuale/reference-recipes.mjs",
-          "sha256": "7f5d67050391b3e3b0d3f078743b100412ac8996e85adc8a865dfdf7b1531a90",
+          "sha256": "dec9f4f5e3a033a2c00775b920f31c024448b623536a90c55e5a4dc47c6ffa9c",
           "section": "piani-di-abbonamento",
           "status": "pending-capture",
           "verified": false,
@@ -8601,7 +8601,7 @@
         },
         {
           "path": "docs/manuale/reference-recipes.mjs",
-          "sha256": "7f5d67050391b3e3b0d3f078743b100412ac8996e85adc8a865dfdf7b1531a90",
+          "sha256": "dec9f4f5e3a033a2c00775b920f31c024448b623536a90c55e5a4dc47c6ffa9c",
           "section": "confronto-tra-i-piani",
           "status": "pending-capture",
           "verified": false,
@@ -8609,7 +8609,7 @@
         },
         {
           "path": "docs/manuale/reference-recipes.mjs",
-          "sha256": "7f5d67050391b3e3b0d3f078743b100412ac8996e85adc8a865dfdf7b1531a90",
+          "sha256": "dec9f4f5e3a033a2c00775b920f31c024448b623536a90c55e5a4dc47c6ffa9c",
           "section": "piano-base",
           "status": "pending-capture",
           "verified": false,
@@ -8617,7 +8617,7 @@
         },
         {
           "path": "docs/manuale/reference-recipes.mjs",
-          "sha256": "7f5d67050391b3e3b0d3f078743b100412ac8996e85adc8a865dfdf7b1531a90",
+          "sha256": "dec9f4f5e3a033a2c00775b920f31c024448b623536a90c55e5a4dc47c6ffa9c",
           "section": "piano-pro",
           "status": "pending-capture",
           "verified": false,
@@ -8625,7 +8625,7 @@
         },
         {
           "path": "docs/manuale/reference-recipes.mjs",
-          "sha256": "7f5d67050391b3e3b0d3f078743b100412ac8996e85adc8a865dfdf7b1531a90",
+          "sha256": "dec9f4f5e3a033a2c00775b920f31c024448b623536a90c55e5a4dc47c6ffa9c",
           "section": "piano-teams",
           "status": "pending-capture",
           "verified": false,
@@ -8633,7 +8633,7 @@
         },
         {
           "path": "docs/manuale/reference-recipes.mjs",
-          "sha256": "7f5d67050391b3e3b0d3f078743b100412ac8996e85adc8a865dfdf7b1531a90",
+          "sha256": "dec9f4f5e3a033a2c00775b920f31c024448b623536a90c55e5a4dc47c6ffa9c",
           "section": "come-cambiare-piano",
           "status": "pending-capture",
           "verified": false,
