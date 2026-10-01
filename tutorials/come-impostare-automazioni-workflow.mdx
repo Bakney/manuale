@@ -121,11 +121,17 @@ Prima di iniziare, controlla di poter aprire **Comunicazioni > Automazioni** e d
 
 ## Aggiungere le azioni
 
-Sotto **scegli il prossimo step**, premi **Azione Messaggio** per un'email oppure **Rimani in Attesa** per una pausa. Il nuovo blocco viene aggiunto in fondo alla sequenza. Usa **Configura** nel blocco per completarlo.
+Prepara la sequenza in una regola **Spenta**. Nell’esempio ci sono due email indirizzate a **Me stesso**, separate da un’attesa di **2 Giorni**.
 
-Per una prima prova prepara un solo messaggio. Per una seconda comunicazione a distanza, l'ordine è **messaggio → attesa → messaggio**. Prima di salvare, controlla l'ordine visibile e che ogni messaggio contenga destinatari, oggetto e contenuto.
+<Steps>
+<Step title="Aggiungi un messaggio">Sotto **scegli il prossimo step**, premi **Azione Messaggio**, poi **Configura** nel nuovo blocco. Scegli **Email**, destinatario **Me stesso** e inserisci un oggetto. Usa **Crea email** per preparare il contenuto; salva nel compositore e chiudi il pannello di configurazione.</Step>
+<Step title="Inserisci l’attesa e il secondo messaggio">Premi **Rimani in Attesa** e apri **Configura**. Inserisci **2** e scegli **Giorni**. Chiudi il pannello, poi aggiungi una seconda **Azione Messaggio** e completala come la prima.</Step>
+<Step title="Salva e controlla l’ordine">Premi **Salva** e **Chiudi**. Ricarica l’elenco e riapri la regola spenta con **Modifica**: la sequenza deve essere evento, messaggio, attesa, messaggio. Controlla oggetti, destinatari, contenuto e durata nei pannelli.</Step>
+</Steps>
 
-Il pulsante con l'icona del cestino rimuove il blocco dalla configurazione aperta; il successivo salvataggio conserva la sequenza aggiornata. Questa modifica e la riapertura del risultato devono ancora essere verificate in browser.
+<Note>Questa guida prepara e salva una configurazione spenta. Non attiva la regola e non conferma esecuzione dell’attesa o consegna delle email. Il cestino rimuove un blocco nell’editor, ma quel percorso richiede una prova separata.</Note>
+
+<Note>Procedura ancora da verificare in browser, compresi risultato e riapertura. I comandi descritti sono presenti nell’applicazione.</Note>
 
 ### Se scegli "Invio email":
 
@@ -245,19 +251,17 @@ La regola resta nell'elenco. I passaggi ancora da iniziare ricontrollano che sia
 
 ## Modificare un workflow
 
+Questa procedura aggiorna l’oggetto di un messaggio in una regola già salvata e **Spenta**, mantenendo gli altri blocchi. Per modificare le automazioni servono i relativi permessi.
+
 <Steps>
-  <Step title="Disattiva prima di cambiare la regola">
-    Se lo stato è **Attiva**, usa pausa e conferma **Disattiva**. Attendi **Spenta**, poi premi il comando di modifica nella riga.
-  </Step>
-  <Step title="Aggiorna i blocchi">
-    Modifica nome, evento, destinatari, contenuto o attese. I pannelli possono salvare alla chiusura. Per il contenuto dell'email usa **Modifica** e salva anche nel compositore.
-  </Step>
-  <Step title="Salva, riapri e valuta l'attivazione">
-    Premi **Salva**, torna all'elenco con **Chiudi** e riapri per controllare la configurazione conservata. Attiva nuovamente soltanto dopo il controllo dei destinatari e dell'eventuale data futura.
-  </Step>
+<Step title="Apri una regola spenta">Apri **Comunicazioni → Automazioni**, trova la regola e controlla **Spenta** nella riga. Premi **Modifica**. Se la regola è attiva, consulta prima le istruzioni di disattivazione: questo esempio parte da una regola già spenta.</Step>
+<Step title="Aggiorna l’oggetto del messaggio">Nel primo **Azione Messaggio** premi **Configura**. Cambia **Oggetto**, controlla che destinatari e contenuto siano quelli voluti, poi chiudi il pannello. Nell’esempio la regola resta indirizzata a **Me stesso**.</Step>
+<Step title="Salva, ricarica e riapri">Premi **Salva**, torna all’elenco con **Chiudi** e ricarica. Riapri con **Modifica**, poi **Configura** nel messaggio: verifica il nuovo oggetto. Controlla anche gli altri blocchi e lo stato **Spenta** prima di valutare un’attivazione separata.</Step>
 </Steps>
 
-L'editor di una regola attiva offre **Visualizza in sola lettura**. Questa modalità serve a consultare; non conserva le modifiche. Non usarla come percorso per aggiornare una regola senza disattivarla. Modifica, riapertura e cambi di stato attendono la verifica in browser.
+<Note>L’esempio non attiva o disattiva una regola, non modifica il contenuto nel compositore e non invia messaggi. La modalità **Visualizza in sola lettura** non è un percorso di modifica.</Note>
+
+<Note>Procedura ancora da verificare in browser, compresi risultato e riapertura. I comandi descritti sono presenti nell’applicazione.</Note>
 
 # Limiti e informazioni utili
 

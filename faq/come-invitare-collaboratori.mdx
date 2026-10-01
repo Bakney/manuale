@@ -127,21 +127,36 @@ Dopo aver riaperto l'applicazione, i controlli dell'organizzazione sono di nuovo
 ## Rimuovere un collaboratore
 
 
-<Note>Questa procedura è descritta dai comandi presenti, ma attende la prova completa nell’applicazione. Le immagini segnaposto devono essere sostituite con schermate reali prima della pubblicazione.</Note>
+<Note>Bozza in attesa di prova: i passaggi e le immagini previste richiedono la verifica del flusso reale prima della pubblicazione.</Note>
 
-Se vuoi soltanto cambiare l’accesso di una persona già collegata, modifica i permessi. Usa l’eliminazione per rimuovere l’account o annullare l’invito individuato nella lista.
+La rimozione di un account già collegato e quella di un invito **In attesa** sono due operazioni diverse. Nell’esempio usiamo **Paolo Testa** e **invito.temporaneo@aurora.example.test**, creati soltanto per la dimostrazione; **Marco Neri** rimane collegato.
 
 <Steps>
-  <Step title="Controlla email e stato">
-    Apri **Collaboratori** e identifica la riga da rimuovere. Una riga di invito e una di account collegato non rappresentano la stessa operazione.
-  </Step>
-  <Step title="Apri il cestino">
-    Premi il cestino della riga. Il comando richiede il permesso di eliminazione dei collaboratori. Nella finestra **Vuoi eliminare il collaboratore?** puoi ancora scegliere **Annulla**.
-  </Step>
-  <Step title="Conferma e verifica">
-    Premi **Elimina** quando sei certo della scelta. Ricarica la lista e controlla che la riga sia assente. La verifica dell’accesso con una sessione già aperta richiede una prova separata.
-  </Step>
+<Step title="Identifica account e invito nella lista">
+Apri **Collaboratori** e controlla nome, email e stato della riga. Paolo Testa ha stato **Accettato** ed email **temporaneo@aurora.example.test**. L’altra riga ha email **invito.temporaneo@aurora.example.test** e stato **In attesa**.
+Se vuoi soltanto ridurre le autorizzazioni di una persona già collegata, usa la matita **Modifica**. Non eliminare un account per togliere un singolo permesso.
+<Frame caption="Account Paolo Testa e invito temporaneo distinti nella lista">![Account Paolo Testa e invito temporaneo distinti nella lista](/images/collaboratori/rimozione/1.placeholder.svg)</Frame>
+</Step>
+<Step title="Apri la conferma e controlla prima di eliminare">
+Premi il cestino **Elimina** nella riga corretta. La finestra chiede **Vuoi eliminare il collaboratore?**, senza riepilogare l’email: controlla quindi la riga prima di aprirla.
+Con **Annulla** torni alla lista e la riga rimane presente. Per un account già collegato, l’annullamento conserva anche la sua sessione.
+<Frame caption="Conferma di eliminazione dell’account con Annulla">![Conferma di eliminazione dell’account con Annulla](/images/collaboratori/rimozione/3.placeholder.svg)</Frame>
+</Step>
+<Step title="Conferma la rimozione dell’account e controlla l’accesso">
+Premi **Elimina** per rimuovere Paolo Testa, poi ricarica la lista: la sua riga deve essere assente. Nell’esempio l’invito **In attesa** e Marco Neri rimangono presenti.
+L’operazione elimina l’account collegato. Le richieste successive al profilo e alle iscrizioni con la sessione già emessa di Paolo devono essere rifiutate; una pagina già aperta può ancora mostrare dati ricevuti in precedenza. La sessione di Marco continua a funzionare.
+<Frame caption="Paolo assente dopo il ricaricamento e invito conservato">![Paolo assente dopo il ricaricamento e invito conservato](/images/collaboratori/rimozione/4.placeholder.svg)</Frame>
+</Step>
+<Step title="Rimuovi separatamente un invito non accettato">
+Per annullare l’invito, premi il cestino sulla riga **In attesa**, controlla la scelta e conferma con **Elimina**. Anche qui puoi prima scegliere **Annulla** senza rimuovere la riga.
+Ricarica la lista: l’invito non deve comparire più, mentre Marco rimane collegato. Non viene inviato un nuovo invito da questa operazione.
+<Frame caption="Conferma di rimozione del solo invito In attesa">![Conferma di rimozione del solo invito In attesa](/images/collaboratori/rimozione/5.placeholder.svg)</Frame>
+<Frame caption="Invito assente dopo il ricaricamento e Marco Neri conservato">![Invito assente dopo il ricaricamento e Marco Neri conservato](/images/collaboratori/rimozione/6.placeholder.svg)</Frame>
+</Step>
 </Steps>
 
-<Warning>Per una persona già collegata, la rimozione elimina l’account. Eliminare un invito già accettato può coinvolgere l’account associato all’email. L’operazione non dispone di un ripristino dalla lista; inviare un nuovo invito non garantisce il recupero dei dati precedenti.</Warning>
+<Warning>Per una persona già collegata, la rimozione elimina l’account. Non esiste un ripristino dalla lista; inviare un nuovo invito non garantisce il recupero dei dati precedenti. La rimozione di una riga di invito già accettata segue un percorso distinto che può coinvolgere l’account associato all’email: non è compresa in questo esempio.</Warning>
+
+<Note>Il cestino richiede il permesso di eliminazione dei collaboratori. Un account in sola lettura vede i cestini disattivati e non può eliminare né l’account né l’invito. Questo esempio non verifica invio email, consegna o accettazione di un nuovo invito.</Note>
+<Frame caption="Eliminazione disattivata per il collaboratore in sola lettura">![Eliminazione disattivata per il collaboratore in sola lettura](/images/collaboratori/rimozione/2.placeholder.svg)</Frame>
 

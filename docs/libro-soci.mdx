@@ -310,36 +310,68 @@ Il servizio conserva anche il controllo di eventuali vecchie richieste in attesa
 
 ## Assegnazione di Tag ai Soci
 
-I tag sono etichette per organizzare e filtrare le iscrizioni. La selezione applicata può assegnare i tag spuntati e rimuovere quelli lasciati senza spunta dalle righe selezionate.
+I tag sono etichette per organizzare e [filtrare le iscrizioni](/faq/come-usare-ricerca-filtri-atleti#filtro-per-tag). Le modifiche riguardano **le iscrizioni selezionate**, non tutte le righe dell'elenco. Serve il permesso di modifica delle iscrizioni.
+
+Nell'esempio **Giulia Bianchi** e **Luca Verdi** hanno già **Gruppo A**; **Sara Conti** non ha tag. Vogliamo ottenere **Gruppo A** e **Laboratorio** sulle iscrizioni di Giulia e Sara, lasciando Luca con il solo **Gruppo A**. I due nomi sono già presenti nell'associazione. Se devi crearne uno nuovo, [segui la procedura di creazione](/tutorials/come-assegnare-i-tag-agli-atleti#creare-un-nuovo-tag) prima di applicarlo.
 
 <Steps>
-  <Step title="Seleziona le persone nell'elenco Tesserati">
-    Apri **Organizzazione → Iscrizioni → Tesserati**, cerca le persone e seleziona le righe. Per modificare i tag delle iscrizioni serve il permesso di modifica.
+  <Step title="Seleziona soltanto le iscrizioni da aggiornare">
+    Apri **Organizzazione → Iscrizioni → Tesserati**. Seleziona la casella nella riga di **Giulia Bianchi** e poi quella di **Sara Conti**. Lascia Luca senza selezione.
+    Controlla i nomi prima di aprire **Assegna Tag**: la stessa combinazione di etichette verrà applicata a entrambe le righe selezionate.
+    <Frame>![Giulia e Sara selezionate, Luca escluso dalla modifica](/images/libro-soci/tag-operazioni/1.placeholder.svg)</Frame>
   </Step>
-  <Step title="Prepara l'insieme di tag">
-    Apri **Assegna Tag**. Spunta tutte le etichette che le persone selezionate devono mantenere. Se vuoi aggiungere un tag senza perdere quelli già presenti, controlla anche le altre spunte.
+  <Step title="Ricostruisci tutti i tag da mantenere">
+    Premi **Assegna Tag**. Alla riapertura le caselle del menu partono disattivate: non rappresentano automaticamente i tag già salvati sulle persone.
+    <Frame>![Menu appena aperto: anche Gruppo A non è selezionato](/images/libro-soci/tag-operazioni/2.placeholder.svg)</Frame>
+    Spunta **Gruppo A** e **Laboratorio**. Devi selezionare anche **Gruppo A** per conservarlo su Giulia e assegnarlo a Sara. Selezionare soltanto Laboratorio toglierebbe Gruppo A dalle righe coinvolte.
+    Se usi **Nome tag...** per cercare un'etichetta, svuota il campo prima del controllo finale: la ricerca nasconde parte dell'elenco, ma non limita la modifica ai soli nomi visibili.
+    <Frame>![Combinazione completa di tag prima di APPLICA](/images/libro-soci/tag-operazioni/3.placeholder.svg)</Frame>
   </Step>
-  <Step title="Applica e ricontrolla">
-    Premi **APPLICA**. Controlla il risultato nelle righe e ricarica l'elenco per verificare le etichette salvate. Per gruppi con tag diversi, lavora su selezioni più piccole.
+  <Step title="Applica e verifica dopo il ricaricamento">
+    Premi **APPLICA** e attendi il completamento. Ricarica la pagina e controlla la colonna dei tag: Giulia e Sara devono avere **Gruppo A** e **Laboratorio**, Luca soltanto **Gruppo A**.
+    <Frame>![Etichette salvate nelle righe dopo il ricaricamento](/images/libro-soci/tag-operazioni/4.placeholder.svg)</Frame>
+    Un collaboratore di sola lettura può consultare queste etichette, ma **Assegna Tag** è disattivato. Per modificare i tag, chiedi a chi gestisce i permessi dell'associazione.
+    <Frame>![Assegna Tag disattivato per il collaboratore in lettura](/images/libro-soci/tag-operazioni/7.placeholder.svg)</Frame>
   </Step>
 </Steps>
+
+<Warning>**APPLICA** aggiunge i tag spuntati e rimuove i collegamenti ai tag non spuntati da ciascuna iscrizione selezionata. Se le persone devono conservare combinazioni diverse, lavora su gruppi separati o su una persona alla volta.</Warning>
 
 <Note>Un tag non iscrive automaticamente a un corso e non assegna permessi di accesso. È distinto dal ruolo del socio e dalla tipologia dell'iscrizione.</Note>
 
 ### Eliminare un Tag
 
-Puoi togliere un tag da alcune iscrizioni oppure eliminare l'etichetta dall'associazione. Scegli l'operazione in base al risultato desiderato.
+Puoi **rimuovere il collegamento da una persona** lasciando disponibile l'etichetta, oppure **eliminare il tag dell'associazione**, togliendolo anche da tutte le iscrizioni che lo usano. Entrambe le operazioni richiedono il permesso di modifica delle iscrizioni.
+
+Prosegui dall'esempio precedente: Giulia e Sara hanno **Gruppo A** e **Laboratorio**; Luca ha soltanto **Gruppo A**.
 
 <Steps>
-  <Step title="Togli il tag solo dalle persone selezionate">
-    In **Tesserati** seleziona le righe, apri **Assegna Tag** e togli la spunta al tag da rimuovere. Mantieni spuntati gli altri tag da conservare, quindi premi **APPLICA** e controlla le righe aggiornate.
+  <Step title="Togli il collegamento a una sola persona">
+    In **Tesserati**, seleziona soltanto **Giulia Bianchi** e apri **Assegna Tag**. Le caselle partono disattivate: spunta **Gruppo A** per conservarlo e lascia **Laboratorio** senza spunta.
+    <Frame>![Gruppo A da mantenere, Laboratorio da togliere soltanto a Giulia](/images/libro-soci/tag-operazioni/5.placeholder.svg)</Frame>
+    Premi **APPLICA**. Non premere il cestino: in questo passaggio vuoi soltanto cambiare i tag della persona selezionata.
   </Step>
-  <Step title="Elimina l'etichetta dall'associazione">
-    Nel menu dei tag, il pulsante di eliminazione accanto all'etichetta apre **Vuoi eliminare il tag?**. Premi **Elimina** soltanto se il tag non deve più essere disponibile; **Annulla** conserva l'etichetta.
+  <Step title="Controlla chi conserva il tag">
+    Ricarica la pagina: Giulia deve avere soltanto **Gruppo A**, mentre Sara conserva **Laboratorio**. Il nome Laboratorio rimane disponibile nel menu dei tag e può essere assegnato di nuovo.
+    <Frame>![Laboratorio tolto da Giulia e ancora presente su Sara](/images/libro-soci/tag-operazioni/6.placeholder.svg)</Frame>
+  </Step>
+  <Step title="Controlla la conferma prima di eliminare l'etichetta">
+    Se **Laboratorio non deve più essere usato da nessuno**, seleziona una riga per aprire **Assegna Tag**, trova Laboratorio e premi il cestino accanto al suo nome.
+    Si apre **Vuoi eliminare il tag?**. La selezione della riga serve ad aprire il menu: non limita l'eliminazione a quella persona.
+    <Frame>![Conferma dell'eliminazione del tag dell'associazione](/images/libro-soci/tag-operazioni/8.placeholder.svg)</Frame>
+    Premi **Annulla** se vuoi fermarti. Il tag e i suoi collegamenti restano presenti. Puoi riaprire il menu per ricontrollare.
+    <Frame>![Laboratorio ancora disponibile dopo Annulla](/images/libro-soci/tag-operazioni/9.placeholder.svg)</Frame>
+    Premi **Elimina** soltanto quando hai verificato che l'etichetta deve essere rimossa dall'associazione.
+  </Step>
+  <Step title="Verifica l'eliminazione in tutto l'elenco">
+    Dopo **Elimina**, ricarica la pagina. Laboratorio non deve comparire né su Giulia né su Sara; **Gruppo A** rimane sulle iscrizioni dell'esempio.
+    <Frame>![Laboratorio eliminato anche dalla riga di Sara](/images/libro-soci/tag-operazioni/10.placeholder.svg)</Frame>
+    Seleziona una riga e riapri **Assegna Tag**: Laboratorio non è più nell'elenco delle etichette disponibili. Gruppo A rimane disponibile.
+    <Frame>![Menu riaperto senza l'etichetta eliminata](/images/libro-soci/tag-operazioni/11.placeholder.svg)</Frame>
   </Step>
 </Steps>
 
-<Warning>L'eliminazione dell'etichetta ha un effetto diverso dalla rimozione su alcune righe. Se vuoi cambiare soltanto un gruppo di persone, usa le spunte e **APPLICA**.</Warning>
+<Warning>Il cestino elimina la definizione del tag e i suoi collegamenti da tutte le iscrizioni dell'associazione, anche dalle persone non selezionate. Per cambiare soltanto alcune righe, usa le spunte e **APPLICA**. Creare in seguito un tag con lo stesso nome non ripristina i precedenti collegamenti.</Warning>
 
 ## Risorse correlate
 
@@ -350,4 +382,3 @@ Puoi togliere un tag da alcune iscrizioni oppure eliminare l'etichetta dall'asso
 - [Gestire i certificati medici](/tutorials/come-gestire-certificati-medici): file, data di scadenza, promemoria e controlli nella bacheca.
 
 Le schede **Libro Soci**, **Tesserati**, **Bozze** e **Archivio** hanno scopi diversi. Se una persona non compare, controlla prima la scheda aperta e i filtri attivi.
-

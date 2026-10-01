@@ -1778,7 +1778,7 @@
       "title": "Come impostare le automazioni con i workflow",
       "status": "draft",
       "original_sha256": "b5e1a6824f5abf347bfe05a286119e3cd9d996bd4433bdc2217a7af8ac23a2f9",
-      "draft_sha256": "a9439bca3b5fb77628e99d72fa7aa9e05369605f0f6f8ec2170c71af8d89af46",
+      "draft_sha256": "a9fd1ae7fd4e98ba3cbf8e6b46a3d65268d8799fefa24492dd20e9d94cd72805",
       "sections": [
         {
           "id": "indice",
@@ -2598,7 +2598,7 @@
       "title": "Libro Soci",
       "status": "draft",
       "original_sha256": "22d036c28ec4390b5d0a54124f23c12c318dd79c09fb5893a08c980ee574cda9",
-      "draft_sha256": "c2c78c3eca4a9bb8d5e6efb1c57168df0673c3f16e6bd525857d83b9bbfe34a5",
+      "draft_sha256": "c393d1ed648f5c554394fc885eb7a0ae2bac7eac4bd17c84ab8968e8aa778f75",
       "sections": [
         {
           "id": "introduzione",
@@ -5990,7 +5990,7 @@
       "title": "Archivio",
       "status": "draft",
       "original_sha256": "2ff037ecf84389369a0f083f9076c51f81e5518952483e0f87d92ce45c424b2b",
-      "draft_sha256": "abcc7d723e1b49ef9e2b770e699a2d697480d173890a4e5695de03432f510559",
+      "draft_sha256": "2184dbff502c51e7885b4f022532bf4a85688ffd64c4737eaadecdc44daaac25",
       "sections": [
         {
           "id": "introduzione",
@@ -6098,7 +6098,7 @@
       "title": "Collaboratori",
       "status": "draft",
       "original_sha256": "9620b95a55d2f5ca269c65ad2576d2b8f18cb5d0e38a40fd814a9702e862c2b7",
-      "draft_sha256": "c1d767d15938da22fb6f62721d962c7256973cf233d7330654ff93f312b0cd55",
+      "draft_sha256": "c56c8c651ce1bc30ec418033115ef729fea72eaa9c747f0df9f2e474179422d9",
       "sections": [
         {
           "id": "introduzione",
@@ -7842,7 +7842,7 @@
       "title": "Come archiviare i dati?",
       "status": "draft",
       "original_sha256": "4b2d978dc79ccbec9c8cc76c3e7ab27eb123973e8d7764744d6dc61cbf13ca50",
-      "draft_sha256": "5ca75b79cad42de4383cbeb7bc078c1dbb4acfee390190aa396e3b12da3667f7",
+      "draft_sha256": "5a9a8d47db9c66838b46da56be6bc111fb9d877c5fd554392fab3ffcedb80fb8",
       "sections": [
         {
           "id": "cosa-significa-archiviare",
@@ -8090,7 +8090,7 @@
       "title": "Come invitare i collaboratori?",
       "status": "draft",
       "original_sha256": "9c5c350240677820203001a8e80c02f97ae49995d41b101d3f9fee749683f8a5",
-      "draft_sha256": "a1ead4cc7df05dcc3e7777ff505209dd9d4324846828ce6f20d2778ffd3b5099",
+      "draft_sha256": "ea1af6ae5cd47b9e7f956e8a9e151621ea8eab5a48d050d3af69caabe857d7fd",
       "sections": [
         {
           "id": "invitare-un-collaboratore",
@@ -8414,7 +8414,7 @@
       "title": "Come abilitare l'autenticazione a due fattori?",
       "status": "draft",
       "original_sha256": "6750ba81ad3c4587adbf69ef874d1770204c5614e7f0e3837800f62938f79336",
-      "draft_sha256": "8271fd5ae52b486649cf7df81b1a578afdec34ef283cf7f57732973086e96c26",
+      "draft_sha256": "a6655a2542bf176162a91e382224fdf7a6deccfb474895d65889963a36e978a7",
       "sections": [
         {
           "id": "abilitare-l-autenticazione-a-due-fattori-2fa",
@@ -17123,15 +17123,737 @@
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
       "sha256": "e7ad5738777a989571a2a5a7b4a6426073675df3369b37075d7099302c1e71e8"
+    },
+    {
+      "original_path": "images/libro-soci/tag-operazioni/1.png",
+      "placeholder_path": "images/libro-soci/tag-operazioni/1.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/libro-soci.mdx"
+      ],
+      "caption": "Giulia e Sara selezionate; Luca escluso dalla modifica.",
+      "workflow": "member-tags",
+      "checkpoint": "tag-assignment-selected-people",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "84212b3075997c532563a7b5df6e9c690f73a8b8181ea259824137811d9b63b3"
+    },
+    {
+      "original_path": "images/libro-soci/tag-operazioni/2.png",
+      "placeholder_path": "images/libro-soci/tag-operazioni/2.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/libro-soci.mdx"
+      ],
+      "caption": "Menu riaperto con caselle disattivate anche per il tag già assegnato.",
+      "workflow": "member-tags",
+      "checkpoint": "tag-menu-initially-unchecked",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "461a2353331c5b9999f38379fa3231001c741f1f27d13d699beb02335be0d9e9"
+    },
+    {
+      "original_path": "images/libro-soci/tag-operazioni/3.png",
+      "placeholder_path": "images/libro-soci/tag-operazioni/3.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/libro-soci.mdx"
+      ],
+      "caption": "Gruppo A e Laboratorio selezionati prima di APPLICA.",
+      "workflow": "member-tags",
+      "checkpoint": "tag-complete-set-before-apply",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "a09b50de4a5ccef6bee65238cf3b35ba6306de0e973e96285281d02cb15c8aa7"
+    },
+    {
+      "original_path": "images/libro-soci/tag-operazioni/4.png",
+      "placeholder_path": "images/libro-soci/tag-operazioni/4.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/libro-soci.mdx"
+      ],
+      "caption": "Entrambi i tag su Giulia e Sara dopo il ricaricamento.",
+      "workflow": "member-tags",
+      "checkpoint": "tag-batch-assignment-after-reload",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "50160e422f8280b54f93402d38a1e77ae6316ddc6c5c2b091ef24840c1617f10"
+    },
+    {
+      "original_path": "images/libro-soci/tag-operazioni/5.png",
+      "placeholder_path": "images/libro-soci/tag-operazioni/5.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/libro-soci.mdx"
+      ],
+      "caption": "Solo Gruppo A selezionato per conservare il tag di Giulia.",
+      "workflow": "member-tags",
+      "checkpoint": "tag-personal-removal-preserves-other-tag",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "9191a899fe245b836344a58f4afc91a44f3bd9155724a162406fe763ba96c3cb"
+    },
+    {
+      "original_path": "images/libro-soci/tag-operazioni/6.png",
+      "placeholder_path": "images/libro-soci/tag-operazioni/6.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/libro-soci.mdx"
+      ],
+      "caption": "Laboratorio tolto da Giulia, ancora assegnato a Sara.",
+      "workflow": "member-tags",
+      "checkpoint": "tag-personal-removal-after-reload",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "b76e307c38c1841a3ae520826d5ccaa71a9ad5ecb179ba513897fd88856847e9"
+    },
+    {
+      "original_path": "images/libro-soci/tag-operazioni/7.png",
+      "placeholder_path": "images/libro-soci/tag-operazioni/7.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/libro-soci.mdx"
+      ],
+      "caption": "Collaboratore in lettura con Assegna Tag disattivato.",
+      "workflow": "member-tags",
+      "checkpoint": "tag-reader-write-action-disabled",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "21de373bd86f0f5bbc03d10743b40844e12a08f25207b0cc689250d2a8019736"
+    },
+    {
+      "original_path": "images/libro-soci/tag-operazioni/8.png",
+      "placeholder_path": "images/libro-soci/tag-operazioni/8.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/libro-soci.mdx"
+      ],
+      "caption": "Vuoi eliminare il tag? prima della scelta Annulla o Elimina.",
+      "workflow": "member-tags",
+      "checkpoint": "tag-global-delete-confirmation",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "6badc81f0e400d0b6d52be32fd8203259ebc1b79d8d8a192e8a0f47aa408b8ac"
+    },
+    {
+      "original_path": "images/libro-soci/tag-operazioni/9.png",
+      "placeholder_path": "images/libro-soci/tag-operazioni/9.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/libro-soci.mdx"
+      ],
+      "caption": "Laboratorio ancora disponibile dopo Annulla.",
+      "workflow": "member-tags",
+      "checkpoint": "tag-cancelled-delete-preserves-definition",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "ff8bf5f2f43c07ccb0eb58bd719894ce152923f9d4fdde3b9245b2cb6e16b65e"
+    },
+    {
+      "original_path": "images/libro-soci/tag-operazioni/10.png",
+      "placeholder_path": "images/libro-soci/tag-operazioni/10.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/libro-soci.mdx"
+      ],
+      "caption": "Eliminazione confermata: Laboratorio assente anche dalla riga di Sara.",
+      "workflow": "member-tags",
+      "checkpoint": "tag-global-delete-clears-remaining-assignment",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "d111ef2b96f2205ad8f239976f8ca3c96feccebbd1ce120dc0115f6447e780a3"
+    },
+    {
+      "original_path": "images/libro-soci/tag-operazioni/11.png",
+      "placeholder_path": "images/libro-soci/tag-operazioni/11.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/libro-soci.mdx"
+      ],
+      "caption": "Menu riaperto: Gruppo A conservato, Laboratorio non più disponibile.",
+      "workflow": "member-tags",
+      "checkpoint": "tag-global-delete-unavailable-after-reopen",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "7ffa5f8d495fe31060a71b932832a3cee6ab292ad48eca1da74840aa91b3a116"
+    },
+    {
+      "original_path": "images/archivio/manutenzione/1.png",
+      "placeholder_path": "images/archivio/manutenzione/1.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/archivio.mdx"
+      ],
+      "caption": "Iscrizione di Sara Conti selezionata prima di Archivia.",
+      "workflow": "archive-maintenance",
+      "checkpoint": "selected-unpaid-member-before-archiving",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "c2b173acc6932be6e8d32307bbca1c1de43ac02c80b6489c0c79f5fffe463dcb"
+    },
+    {
+      "original_path": "images/archivio/manutenzione/2.png",
+      "placeholder_path": "images/archivio/manutenzione/2.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/archivio.mdx"
+      ],
+      "caption": "Conferma Archivia selezionati e possibilità di Annulla.",
+      "workflow": "archive-maintenance",
+      "checkpoint": "member-archive-confirmation-and-cancel",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "f05c410e54445d7a6869afa2a1bb32690e0944cafb3b8cfdd4ca90fa43c8e15e"
+    },
+    {
+      "original_path": "images/archivio/manutenzione/3.png",
+      "placeholder_path": "images/archivio/manutenzione/3.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/archivio.mdx"
+      ],
+      "caption": "Tesserati dopo l’archiviazione e il ricaricamento: Sara assente.",
+      "workflow": "archive-maintenance",
+      "checkpoint": "active-members-after-archive-and-reload",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "ab378065d1a685b38019d56ff4781e9713ab089ce4d649cd65d8e517d6fdd3f8"
+    },
+    {
+      "original_path": "images/archivio/manutenzione/4.png",
+      "placeholder_path": "images/archivio/manutenzione/4.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/archivio.mdx"
+      ],
+      "caption": "Sara presente nell’Archivio delle iscrizioni dopo il ricaricamento.",
+      "workflow": "archive-maintenance",
+      "checkpoint": "archived-member-and-restore-action-after-reload",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "d187d6c57f085e0153401ce2c7f0199fb7159730cc5621fb02121c8129f77809"
+    },
+    {
+      "original_path": "images/archivio/manutenzione/5.png",
+      "placeholder_path": "images/archivio/manutenzione/5.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/archivio.mdx"
+      ],
+      "caption": "Ricerca Sara nell’Archivio delle iscrizioni.",
+      "workflow": "archive-maintenance",
+      "checkpoint": "archive-search-finds-selected-registration",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "1ce7479b481eb89640ac588d0b833a3a088a3e73b52fa947832e9bf6f4017c94"
+    },
+    {
+      "original_path": "images/archivio/manutenzione/6.png",
+      "placeholder_path": "images/archivio/manutenzione/6.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/archivio.mdx"
+      ],
+      "caption": "Quota non saldata di Sara nel distinto Archivio dei pagamenti.",
+      "workflow": "archive-maintenance",
+      "checkpoint": "unpaid-member-payment-in-separate-payment-archive",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "173cf6a62fba414371f3a3a1168a3a87de50d55e8b386380e2fc5be28cdf305f"
+    },
+    {
+      "original_path": "images/archivio/manutenzione/7.png",
+      "placeholder_path": "images/archivio/manutenzione/7.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/archivio.mdx"
+      ],
+      "caption": "Collaboratore in sola lettura: iscrizione consultabile e ripristino disattivato.",
+      "workflow": "archive-maintenance",
+      "checkpoint": "reader-consults-archive-with-disabled-restore",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "61ce749541aba3812a90a415dfc6583a81019cedca0f76430bf36c726f3c950c"
+    },
+    {
+      "original_path": "images/archivio/manutenzione/8.png",
+      "placeholder_path": "images/archivio/manutenzione/8.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/archivio.mdx",
+        "faq/come-archiviare-dati.mdx"
+      ],
+      "caption": "Conferma Sposta nel libro soci dalla riga archiviata.",
+      "workflow": "archive-maintenance",
+      "checkpoint": "member-restore-confirmation",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "b2ecfcc23ed98949418859e064e2955e04d6176e453c8abccc6eacad8a8475fd"
+    },
+    {
+      "original_path": "images/archivio/manutenzione/9.png",
+      "placeholder_path": "images/archivio/manutenzione/9.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/archivio.mdx",
+        "faq/come-archiviare-dati.mdx"
+      ],
+      "caption": "Iscrizione ripristinata dopo ricaricamento; pagamento da controllare separatamente.",
+      "workflow": "archive-maintenance",
+      "checkpoint": "restored-member-and-payment-still-archived",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "5879f631bdf27858ff6c90fa59fd87b13eb6cc6eb84c6232651b33ef4db1e230"
+    },
+    {
+      "original_path": "images/archivio/manutenzione/10.png",
+      "placeholder_path": "images/archivio/manutenzione/10.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "faq/come-archiviare-dati.mdx"
+      ],
+      "caption": "Anno fiscale controllato prima dell’opzione automatica.",
+      "workflow": "archive-maintenance",
+      "checkpoint": "fiscal-start-before-automatic-archive-preference",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "a28db675b8714d8df8cae9fef4dd3cb3d44d7b8ac314dfa29c8266cd08ae3d33"
+    },
+    {
+      "original_path": "images/archivio/manutenzione/11.png",
+      "placeholder_path": "images/archivio/manutenzione/11.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "faq/come-archiviare-dati.mdx"
+      ],
+      "caption": "Archivia Iscrizioni Automaticamente attivato prima di Salva.",
+      "workflow": "archive-maintenance",
+      "checkpoint": "automatic-archive-enabled-before-save",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "037ca8a64c798b06bdb71e76fdef75e01ab5ec3aefab259cca679e3755a1e81a"
+    },
+    {
+      "original_path": "images/archivio/manutenzione/12.png",
+      "placeholder_path": "images/archivio/manutenzione/12.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "faq/come-archiviare-dati.mdx"
+      ],
+      "caption": "Interruttore conservato dopo il salvataggio e il ricaricamento.",
+      "workflow": "archive-maintenance",
+      "checkpoint": "automatic-archive-preference-persists-after-reload",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "50191e9e1ccae0ca2c7f64e1e3b784ce1791c59845c9181560b69edefdbb686c"
+    },
+    {
+      "original_path": "images/archivio/manutenzione/13.png",
+      "placeholder_path": "images/archivio/manutenzione/13.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "faq/come-archiviare-dati.mdx"
+      ],
+      "caption": "Collaboratore in sola lettura: preferenza visibile e controllo disattivato.",
+      "workflow": "archive-maintenance",
+      "checkpoint": "reader-can-consult-automatic-preference-without-changing-it",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "2d66ac4d05129e3a19a8f9862f41833a21ed8dd8f2ce0d7fed288ae3b7365d31"
+    },
+    {
+      "original_path": "images/archivio/manutenzione/14.png",
+      "placeholder_path": "images/archivio/manutenzione/14.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "faq/come-archiviare-dati.mdx"
+      ],
+      "caption": "Opzione dimostrativa disattivata di nuovo e preferenze iniziali ripristinate.",
+      "workflow": "archive-maintenance",
+      "checkpoint": "automatic-archive-preference-restored-and-baseline-preserved",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "0793e582e3e07a6904794573b0bf1b19a9c67a8aa2bfff82b7ee01780f199513"
+    },
+    {
+      "original_path": "images/collaboratori/rimozione/1.png",
+      "placeholder_path": "images/collaboratori/rimozione/1.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/collaboratori.mdx",
+        "faq/come-invitare-collaboratori.mdx"
+      ],
+      "caption": "Paolo Testa Accettato e invito temporaneo In attesa nella lista Collaboratori.",
+      "workflow": "collaborator-removal",
+      "checkpoint": "removable-accepted-account-and-separate-pending-invite",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "5d1bd5676e8692c9a282270065106066ab37cee114ffc9f01d991e1bf0ab474f"
+    },
+    {
+      "original_path": "images/collaboratori/rimozione/2.png",
+      "placeholder_path": "images/collaboratori/rimozione/2.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/collaboratori.mdx",
+        "faq/come-invitare-collaboratori.mdx"
+      ],
+      "caption": "Cestini disattivati per il collaboratore in sola lettura.",
+      "workflow": "collaborator-removal",
+      "checkpoint": "reader-cannot-delete-account-or-invite",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "5a43f9918cf8ce2cd68d605cbfb9655fc19c8aa479d54c602d6a4e50ee6ac143"
+    },
+    {
+      "original_path": "images/collaboratori/rimozione/3.png",
+      "placeholder_path": "images/collaboratori/rimozione/3.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/collaboratori.mdx",
+        "faq/come-invitare-collaboratori.mdx"
+      ],
+      "caption": "Vuoi eliminare il collaboratore? con Annulla ed Elimina.",
+      "workflow": "collaborator-removal",
+      "checkpoint": "account-removal-confirmation-and-cancel",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "fbc853d62dd72b6acffc997c8d4ca0d14c92a5c8e56ce55ea88df55fe45d94ea"
+    },
+    {
+      "original_path": "images/collaboratori/rimozione/4.png",
+      "placeholder_path": "images/collaboratori/rimozione/4.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/collaboratori.mdx",
+        "faq/come-invitare-collaboratori.mdx"
+      ],
+      "caption": "Account Paolo Testa assente dopo il ricaricamento; invito separato conservato.",
+      "workflow": "collaborator-removal",
+      "checkpoint": "removed-account-absent-after-reload-invite-preserved",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "c626fef52d4dd730132245c9bcff47c58d9441482fb988563dc153bb6e06e24b"
+    },
+    {
+      "original_path": "images/collaboratori/rimozione/5.png",
+      "placeholder_path": "images/collaboratori/rimozione/5.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/collaboratori.mdx",
+        "faq/come-invitare-collaboratori.mdx"
+      ],
+      "caption": "Conferma di eliminazione per la riga dell’invito non accettato.",
+      "workflow": "collaborator-removal",
+      "checkpoint": "pending-invite-removal-confirmation",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "e15e12f47edff4cf4df1f4277c84556f1c3bbfb74f5f461a5ffb1ad00484f94b"
+    },
+    {
+      "original_path": "images/collaboratori/rimozione/6.png",
+      "placeholder_path": "images/collaboratori/rimozione/6.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/collaboratori.mdx",
+        "faq/come-invitare-collaboratori.mdx"
+      ],
+      "caption": "Invito temporaneo assente dopo il ricaricamento; Marco Neri conservato.",
+      "workflow": "collaborator-removal",
+      "checkpoint": "pending-invite-absent-after-reload-baseline-reader-preserved",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "b88c891d1fde3b38ecd03d15b3d417c95f4862f5af3327c8f4a7817c3f65892c"
+    },
+    {
+      "original_path": "images/autenticazione/attivazione-accesso/1.png",
+      "placeholder_path": "images/autenticazione/attivazione-accesso/1.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "faq/come-abilitare-autenticazione-due-fattori.mdx"
+      ],
+      "caption": "Profilo: doppio fattore disattivato prima della configurazione.",
+      "workflow": "account-two-factor-login",
+      "checkpoint": "twofa-original-disabled",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "113c92c4c08f7a9a8ed1d6a6e6969d5a0ec02ea4682a0df2e3e05bbc96aee023"
+    },
+    {
+      "original_path": "images/autenticazione/attivazione-accesso/2.png",
+      "placeholder_path": "images/autenticazione/attivazione-accesso/2.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "faq/come-abilitare-autenticazione-due-fattori.mdx"
+      ],
+      "caption": "Configurazione preparata ma non salvata, QR e chiave interamente nascosti.",
+      "workflow": "account-two-factor-login",
+      "checkpoint": "twofa-setup-secret-and-qr-masked",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "6d375427b209d7405f03ecf1d756d6b78fe875fe6fb7ab0055b81150950dbcf0"
+    },
+    {
+      "original_path": "images/autenticazione/attivazione-accesso/3.png",
+      "placeholder_path": "images/autenticazione/attivazione-accesso/3.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "faq/come-abilitare-autenticazione-due-fattori.mdx"
+      ],
+      "caption": "Codice OTP inserito e nascosto prima del salvataggio.",
+      "workflow": "account-two-factor-login",
+      "checkpoint": "twofa-code-before-save-masked",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "dd915f324ed65e11a13c5121eef961338d11f94c76fb3e0d6043bbb7e4a3f642"
+    },
+    {
+      "original_path": "images/autenticazione/attivazione-accesso/4.png",
+      "placeholder_path": "images/autenticazione/attivazione-accesso/4.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "faq/come-abilitare-autenticazione-due-fattori.mdx"
+      ],
+      "caption": "Doppio fattore salvato e ancora attivo dopo il ricaricamento.",
+      "workflow": "account-two-factor-login",
+      "checkpoint": "twofa-enabled-after-reload",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "b763cff24fd54b7d8e1c7ca10dfdb000db5a34573e7d3a2194d6e45bb5f83d72"
+    },
+    {
+      "original_path": "images/autenticazione/attivazione-accesso/5.png",
+      "placeholder_path": "images/autenticazione/attivazione-accesso/5.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "faq/come-abilitare-autenticazione-due-fattori.mdx"
+      ],
+      "caption": "Nuovo accesso con identificativo e password nascosti.",
+      "workflow": "account-two-factor-login",
+      "checkpoint": "twofa-fresh-login-credentials-masked",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "f33e7a9d4ccfe239195aeb40c4c8d0d4406fed18fa573b2a3b5e1be8d03ab968"
+    },
+    {
+      "original_path": "images/autenticazione/attivazione-accesso/6.png",
+      "placeholder_path": "images/autenticazione/attivazione-accesso/6.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "faq/come-abilitare-autenticazione-due-fattori.mdx"
+      ],
+      "caption": "Richiesta del secondo fattore prima di concedere una sessione.",
+      "workflow": "account-two-factor-login",
+      "checkpoint": "twofa-fresh-login-otp-masked",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "8dfbb56b444fa20bc0ac1e005938ff6ecf3f4a90d192458dcc8448cff60f1578"
+    },
+    {
+      "original_path": "images/autenticazione/attivazione-accesso/7.png",
+      "placeholder_path": "images/autenticazione/attivazione-accesso/7.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "faq/come-abilitare-autenticazione-due-fattori.mdx"
+      ],
+      "caption": "Accesso alla bacheca completato con credenziali e codice reali.",
+      "workflow": "account-two-factor-login",
+      "checkpoint": "twofa-fresh-login-authenticated",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "dbc09689e89f92b75b03f624a30c406e8eabe9006a3f0d0a4e62a108e2334f35"
+    },
+    {
+      "original_path": "images/autenticazione/attivazione-accesso/8.png",
+      "placeholder_path": "images/autenticazione/attivazione-accesso/8.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "faq/come-abilitare-autenticazione-due-fattori.mdx"
+      ],
+      "caption": "Profilo riaperto nella nuova sessione: doppio fattore ancora attivo.",
+      "workflow": "account-two-factor-login",
+      "checkpoint": "twofa-fresh-login-reloaded",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "3096526263172ce97cc71ea78257d33d9bd42cb2423990da808299572afd6a51"
+    },
+    {
+      "original_path": "images/autenticazione/attivazione-accesso/9.png",
+      "placeholder_path": "images/autenticazione/attivazione-accesso/9.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "faq/come-abilitare-autenticazione-due-fattori.mdx"
+      ],
+      "caption": "Disattivazione dell’account dimostrativo salvata dopo la prova.",
+      "workflow": "account-two-factor-login",
+      "checkpoint": "twofa-disabled-after-reload",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "d8fb8657bc41b88c5d09c21e051fd15cc54409b9716c09eb6d7c391e5f774184"
+    },
+    {
+      "original_path": "images/comunicazioni/automazione-locale/12.png",
+      "placeholder_path": "images/comunicazioni/automazione-locale/12.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "tutorials/come-impostare-automazioni-workflow.mdx"
+      ],
+      "caption": "Oggetto aggiornato in una regola già salvata e ancora spenta.",
+      "workflow": "communication-workflow-manage",
+      "checkpoint": "workflow-existing-message-edited",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "ec8ad7692543a40de09c7f19625faca03d815f614a9a6c6a6eb430fb1ba627b4"
+    },
+    {
+      "original_path": "images/comunicazioni/automazione-locale/13.png",
+      "placeholder_path": "images/comunicazioni/automazione-locale/13.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "tutorials/come-impostare-automazioni-workflow.mdx"
+      ],
+      "caption": "Nuovo oggetto conservato dopo salvataggio e ricaricamento.",
+      "workflow": "communication-workflow-manage",
+      "checkpoint": "workflow-existing-message-edit-persists",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "c76c44b7e23415d53feb50f81eb3a11102a7dbf9afdfa91a89f55814e4485861"
     }
   ],
   "summary": {
     "navigation_pages": 43,
     "draft_sections": 507,
-    "svg_placeholders": 505,
+    "svg_placeholders": 547,
     "backlog_entries": 43,
     "backlog_screenshots_requested": 94,
-    "referenced_placeholder_paths": 190,
+    "referenced_placeholder_paths": 219,
     "rewritten_sections": 507
   },
   "screenshot_backlog": [

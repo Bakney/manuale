@@ -1201,7 +1201,7 @@
     },
     "faq/come-abilitare-autenticazione-due-fattori.mdx#come-attivare-il-2fa": {
       "title": "Come attivare il 2FA",
-      "content_sha256": "fd2cef9f1b851b6e7d9a879cb0c5924743ca76e42a00c9c00f321c4bd47b15bb",
+      "content_sha256": "70cc4dfc30a83592a613b194377168a6d2c8965e4ff4480627bcd947d92eb072",
       "recipe_module": "docs/manuale/communication-auth-reference-recipes.mjs",
       "recipe_sha256": "f8a670a83cb304321101e8252c74852e502e8bc2cc87795e878a04b16d7cfb2e",
       "content_source": "authored-mdx",
@@ -1225,7 +1225,7 @@
     },
     "faq/come-abilitare-autenticazione-due-fattori.mdx#come-funziona-il-login-con-il-2fa": {
       "title": "Come funziona il login con il 2FA",
-      "content_sha256": "ab793f1045494f658f6c3b7ca5cedb3d6407a0e08ba4fea7f28cc7c45b008b01",
+      "content_sha256": "7b3bb23c8c1702e6292ab610bc7ce62f3978e5a7a728c17faa9c0256bb70f77e",
       "recipe_module": "docs/manuale/communication-auth-reference-recipes.mjs",
       "recipe_sha256": "f8a670a83cb304321101e8252c74852e502e8bc2cc87795e878a04b16d7cfb2e",
       "content_source": "authored-mdx",
@@ -1853,7 +1853,7 @@
     },
     "tutorials/come-impostare-automazioni-workflow.mdx#aggiungere-le-azioni": {
       "title": "Aggiungere le azioni",
-      "content_sha256": "eb6ce0eb76d895815a8e90f0c8ad8cc1f55eb8ae5eb6dcb6571cbb8c07ab7b49",
+      "content_sha256": "ad5472c93c5be263632aefcf0c9f6a2353a0154e6967bb52932a839a31c436af",
       "recipe_module": "docs/manuale/communication-auth-reference-recipes.mjs",
       "recipe_sha256": "f8a670a83cb304321101e8252c74852e502e8bc2cc87795e878a04b16d7cfb2e",
       "content_source": "authored-mdx",
@@ -2081,7 +2081,7 @@
     },
     "tutorials/come-impostare-automazioni-workflow.mdx#modificare-un-workflow": {
       "title": "Modificare un workflow",
-      "content_sha256": "0924bb1d5b374ba72f9d5f29ef7f49c69617a2deb483442eb6e99a2d4b456106",
+      "content_sha256": "8c42424712227e609dce451b77e553ac9430174613a3323206700e649e22e343",
       "recipe_module": "docs/manuale/communication-auth-reference-recipes.mjs",
       "recipe_sha256": "f8a670a83cb304321101e8252c74852e502e8bc2cc87795e878a04b16d7cfb2e",
       "content_source": "authored-mdx",
@@ -2339,7 +2339,7 @@
     },
     "docs/libro-soci.mdx#assegnazione-di-tag-ai-soci": {
       "title": "Assegnazione di Tag ai Soci",
-      "content_sha256": "e81f6c9815ef4422b8df22f1c9d0ef184fee734e63aaec7b5aedd45b290b0db7",
+      "content_sha256": "354613c4b07d9ea45570eafbe85dcbff68983e71522a982282c8308b2de4744c",
       "recipe_module": "docs/manuale/member-additional-reference-recipes.mjs",
       "recipe_sha256": "f710e95bceec8824914c81bb56f29d36416d0d79cd01c770bc3b7a8d2772bb9f",
       "content_source": "authored-mdx",
@@ -2351,7 +2351,7 @@
     },
     "docs/libro-soci.mdx#eliminare-un-tag": {
       "title": "Eliminare un Tag",
-      "content_sha256": "4c5ff0913904695ea5247ee17c4be480a0a96f4d91ab02636551c54f5cca62fe",
+      "content_sha256": "6c96233b40736054efe14a13c9784e4b771a11fc2c89e95f59a74e837eb482ec",
       "recipe_module": "docs/manuale/member-additional-reference-recipes.mjs",
       "recipe_sha256": "f710e95bceec8824914c81bb56f29d36416d0d79cd01c770bc3b7a8d2772bb9f",
       "content_source": "authored-mdx",
@@ -4031,7 +4031,7 @@
     },
     "docs/archivio.mdx#come-archiviare-un-elemento": {
       "title": "Come archiviare un elemento",
-      "content_sha256": "8b7ecadeb044cfbc8b45d316cc3e250eb10c6295cd7860dbbf7340980754f5eb",
+      "content_sha256": "16f2662c8516329e783b3874e829382dfb6140b243f7e5dcb6c0e7e44817a411",
       "recipe_module": "docs/manuale/organization-additional-reference-recipes.mjs",
       "recipe_sha256": "70762758060c8d99e40fc21029da091322ac3d6cd66cb3bbbdf643951116bd15",
       "content_source": "authored-mdx",
@@ -4043,7 +4043,7 @@
     },
     "docs/archivio.mdx#consultare-l-archivio": {
       "title": "Consultare l'archivio",
-      "content_sha256": "ae7df888ec700cc084c844a327834a5ea6dfb6334e3439acaf1bc45ea52fc24b",
+      "content_sha256": "7dbf007f4a0f51d20993edfc530e3c82b29a5394e8536a1f7d1ecaabeb96e5cb",
       "recipe_module": "docs/manuale/organization-additional-reference-recipes.mjs",
       "recipe_sha256": "70762758060c8d99e40fc21029da091322ac3d6cd66cb3bbbdf643951116bd15",
       "content_source": "authored-mdx",
@@ -4091,7 +4091,7 @@
     },
     "faq/come-archiviare-dati.mdx#come-attivarla": {
       "title": "Come attivarla",
-      "content_sha256": "ce2d3d021ec5983c101f49126fbfb390f5c983087f2954556dfd395085016805",
+      "content_sha256": "fb50283611cce54325a0f87b6967dcee86fa7a70c3aa89a5d593f42376d11db1",
       "recipe_module": "docs/manuale/organization-additional-reference-recipes.mjs",
       "recipe_sha256": "70762758060c8d99e40fc21029da091322ac3d6cd66cb3bbbdf643951116bd15",
       "content_source": "authored-mdx",
@@ -4103,7 +4103,7 @@
     },
     "docs/collaboratori.mdx#rimuovere-un-collaboratore": {
       "title": "Rimuovere un collaboratore",
-      "content_sha256": "0ba4965fb9de0ddcb3a8897bad1486214653d99ec006fa3e7ebf82f16e90673e",
+      "content_sha256": "d691b9d99be6f830dad9cacb2e7955c281b6bc7ddcab50b2d7fc22d88272ace4",
       "recipe_module": "docs/manuale/organization-additional-reference-recipes.mjs",
       "recipe_sha256": "70762758060c8d99e40fc21029da091322ac3d6cd66cb3bbbdf643951116bd15",
       "content_source": "authored-mdx",
@@ -4127,7 +4127,7 @@
     },
     "faq/come-invitare-collaboratori.mdx#rimuovere-un-collaboratore": {
       "title": "Rimuovere un collaboratore",
-      "content_sha256": "cc2a44527826894d016894fccfde6ef76e8515083c56ea81b4a8f647df8230d0",
+      "content_sha256": "d691b9d99be6f830dad9cacb2e7955c281b6bc7ddcab50b2d7fc22d88272ace4",
       "recipe_module": "docs/manuale/organization-additional-reference-recipes.mjs",
       "recipe_sha256": "70762758060c8d99e40fc21029da091322ac3d6cd66cb3bbbdf643951116bd15",
       "content_source": "authored-mdx",
