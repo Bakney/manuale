@@ -176,7 +176,7 @@ La scheda del corso raccoglie le informazioni generali e gli elenchi collegati. 
     Usa **Iscritti al corso**, **Calendario** o **Presenze** secondo l’operazione. **Modifica** riguarda le informazioni generali del corso.
   </Step>
   <Step title="Riapri dopo un cambiamento">
-    Dopo il salvataggio torna alla scheda e ricontrolla il dato. Per una modifica economica consulta anche i pagamenti del tesserato: aggiornare il corso non riscrive indistintamente tutte le quote esistenti.
+    Dopo **Salva**, ricarica la scheda e ricontrolla il dato. Nell’esempio Standard modifichiamo il piano generale da due rate di **60 € + 60 €** a **70 € + 50 €**. Il totale resta **120 €**, ma le rate individuali già assegnate conservano i loro importi. Apri **Pagamenti** nella riga della persona per controllarli: la modifica generale non applica automaticamente il nuovo piano agli iscritti già presenti.
   </Step>
 </Steps>
 
@@ -253,16 +253,14 @@ Puoi creare una serie di lezioni per giorni della settimana. La serie parte dal 
     Nella scheda **Calendario**, usa **Crea lezioni periodiche**. Compila **Nome** e **Ripeti nei giorni**.
   </Step>
   <Step title="Indica fine e orari">
-    Compila **Ripeti fino al giorno (escluso)**: quella data non viene inclusa. Indica inizio e fine oppure **Tutto il giorno**; l’istruttore è facoltativo. Per una prova usa un intervallo breve e controlla i giorni scelti.
+    Compila **Ripeti fino al giorno (escluso)**: quella data non viene inclusa. La serie parte da oggi anche se stai visualizzando un altro mese. Nell’esempio scegliamo un intervallo breve con cinque lezioni dalle **09:00** alle **10:00** e un istruttore; una seconda serie distinta usa **Tutto il giorno** senza istruttore. Controlla giorni, fine e orari prima del salvataggio: selezionare Tutto il giorno cambia la modalità delle lezioni, non il gruppo a cui appartengono.
   </Step>
   <Step title="Crea e controlla la serie">
     Premi il comando di creazione e attendi il salvataggio. Controlla le lezioni generate e riapri il calendario per verificarne la presenza. Se compare l’avviso sulla data finale o sui giorni, correggi la scelta prima di ripetere.
   </Step>
 </Steps>
 
-<Frame caption="Segnaposto FullHD: creazione di lezioni periodiche con giorni e fine esclusa. Procedura ancora da verificare.">
-  <img src="/images/course-payment-additional/course-series-pending.svg" alt="Segnaposto FullHD: creazione di lezioni periodiche con giorni e fine esclusa" />
-</Frame>
+<Frame>![Creazione di lezioni periodiche con giorni, orari e fine esclusa](/images/course-payment-additional/course-series-pending.svg)</Frame>
 
 <Warning>Ripetere la creazione della stessa serie può aggiungere nuove lezioni. Prima di riprovare dopo un errore, verifica ciò che è già presente.</Warning>
 
@@ -275,10 +273,10 @@ Puoi creare una serie di lezioni per giorni della settimana. La serie parte dal 
     Nel **Calendario** premi la lezione. Controlla data, orario e contenuto del modulo di modifica.
   </Step>
   <Step title="Salva una modifica">
-    Aggiorna i campi disponibili e premi **Salva**. Il calendario viene salvato direttamente: riapri la lezione per controllare il risultato.
+    Aggiorna **Nome** e **Descrizione**, quindi premi **Salva**. Nell’esempio rinominiamo una sola lezione in **Lezione corretta di ginnastica**. Ricarica il calendario e riaprila per controllare testo, data e orario; controlla anche un’altra lezione della serie. I campi di data e orario di questa finestra sono consultabili: non presumere che la modifica del nome riscriva tutta la serie.
   </Step>
   <Step title="Scegli l’ambito dell’eliminazione">
-    Per una sola lezione usa **Elimina**. Per una serie associata, il modulo offre **Questo e successivi** oppure **Questo e precedenti**. Controlla l’ambito prima della conferma.
+    Per una sola lezione usa **Elimina**. In una serie associata, **Questo e successivi** riguarda la lezione selezionata e quelle successive dello stesso gruppo; **Questo e precedenti** riguarda la selezionata e quelle precedenti del gruppo. Controlla la data e l’ambito prima della conferma. Una serie distinta, anche nello stesso corso, va controllata separatamente.
   </Step>
   <Step title="Conferma e ricontrolla">
     La conferma avverte che vengono eliminate anche le presenze collegate. Premi **Elimina** soltanto dopo il controllo; **Annulla** evita la conferma. Ricontrolla calendario e registro.
@@ -406,7 +404,7 @@ Nascondere un corso ed eliminarlo sono operazioni diverse. Il comando di elimina
     Nell’elenco un corso visibile non propone la stessa disponibilità del comando **Elimina Corso**. Nascondilo se richiesto dal percorso dell’interfaccia e ritrovalo nell’archivio dei corsi.
   </Step>
   <Step title="Valuta la conferma e verifica">
-    Conferma l’eliminazione soltanto dopo il controllo dei collegamenti. Riapri l’elenco e controlla separatamente i dati contabili che devono restare disponibili.
+    Leggi la finestra di conferma: **Annulla** interrompe l’operazione, mentre **Elimina** conferma la cancellazione del corso indicato. Dopo la conferma ricarica l’archivio e cerca il titolo. Nell’esempio Standard senza ricevute emesse, le quote non pagate ancora collegate al corso vengono rimosse e l’incasso di **60 €** resta consultabile. Riapri **Contabilità → Pagamenti** per verificare persona, importo e stato. Questo esempio non attesta gli effetti sulle altre modalità di corso o su ricevute, carnet e rinnovi.
   </Step>
 </Steps>
 
@@ -426,7 +424,7 @@ Rimuovere l’iscrizione al corso non elimina automaticamente il tesserato dall�
     Usa il comando di eliminazione nella riga. La conferma avverte sulle rate non pagate e sull’irreversibilità; annulla se il tesserato o l’ambito non sono corretti.
   </Step>
   <Step title="Rivedi gli effetti">
-    Dopo la conferma controlla che l’iscrizione al corso non compaia più, poi consulta pagamenti e ricevute. Le rate rimosse non equivalgono a un rimborso delle somme già incassate.
+    Dopo la conferma ricarica **Iscritti al corso** e controlla che la persona rimossa non compaia più e che gli altri iscritti siano ancora presenti. Nell’esempio Standard Giulia ha una rata di **60 € incassata** e una di **60 € non pagata**: la rimozione elimina la rata in attesa, mentre l’incasso resta consultabile in **Contabilità → Pagamenti**. La persona rimane nell’associazione. Nessun rimborso viene registrato da questa operazione; ricevute già emesse, carnet e rinnovi richiedono un controllo distinto dall’esempio.
   </Step>
 </Steps>
 

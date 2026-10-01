@@ -741,7 +741,7 @@
       "draft_recipes": [
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
+          "sha256": "e5eae821e530dd01fbd93346d0c22e4721ed666be24477fe9bc26b8257340b8f",
           "section": "indice",
           "status": "pending-capture",
           "verified": false,
@@ -749,7 +749,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
+          "sha256": "e5eae821e530dd01fbd93346d0c22e4721ed666be24477fe9bc26b8257340b8f",
           "section": "esportare-il-libro-soci",
           "status": "pending-capture",
           "verified": false,
@@ -757,7 +757,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
+          "sha256": "e5eae821e530dd01fbd93346d0c22e4721ed666be24477fe9bc26b8257340b8f",
           "section": "esportare-i-pagamenti",
           "status": "pending-capture",
           "verified": false,
@@ -765,7 +765,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
+          "sha256": "e5eae821e530dd01fbd93346d0c22e4721ed666be24477fe9bc26b8257340b8f",
           "section": "esportare-il-registro-presenze",
           "status": "pending-capture",
           "verified": false,
@@ -773,7 +773,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
+          "sha256": "e5eae821e530dd01fbd93346d0c22e4721ed666be24477fe9bc26b8257340b8f",
           "section": "esportare-tutti-i-dati-dell-associazione",
           "status": "pending-capture",
           "verified": false,
@@ -781,7 +781,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
+          "sha256": "e5eae821e530dd01fbd93346d0c22e4721ed666be24477fe9bc26b8257340b8f",
           "section": "formati-disponibili-e-consigli",
           "status": "pending-capture",
           "verified": false,
@@ -789,7 +789,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
+          "sha256": "e5eae821e530dd01fbd93346d0c22e4721ed666be24477fe9bc26b8257340b8f",
           "section": "formato-dei-file",
           "status": "pending-capture",
           "verified": false,
@@ -797,7 +797,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
+          "sha256": "e5eae821e530dd01fbd93346d0c22e4721ed666be24477fe9bc26b8257340b8f",
           "section": "consigli-per-l-esportazione",
           "status": "pending-capture",
           "verified": false,
@@ -805,7 +805,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
+          "sha256": "e5eae821e530dd01fbd93346d0c22e4721ed666be24477fe9bc26b8257340b8f",
           "section": "conclusione",
           "status": "pending-capture",
           "verified": false,
@@ -1038,7 +1038,7 @@
       "title": "Come gestire i certificati medici",
       "status": "draft",
       "original_sha256": "d787cb8ace6bb3bf355cc09d7388a93a751ac1146be1cc24ffe271295758b736",
-      "draft_sha256": "b191c4d30c1feb51b4cb038d75f05f5bf1c245d7b2d7e2baff29188f2efb8eda",
+      "draft_sha256": "9f6aac375e0df6c985a1b15daecdb15f4d0a9d69c2cdedda7cf455688bd7c9e8",
       "sections": [
         {
           "id": "indice",
@@ -1165,7 +1165,7 @@
       "draft_recipes": [
         {
           "path": "docs/manuale/member-additional-reference-recipes.mjs",
-          "sha256": "78ba85595fdabab3815b5833dc7b6f11e7585b2b66efa201d62c118f0f58ac65",
+          "sha256": "9a09b99e4fbcf3900dffa90a11c8d4c1c3fb4ade40c7a47bfa829f4d6d598721",
           "section": "indice",
           "status": "pending-capture",
           "verified": false,
@@ -1173,7 +1173,7 @@
         },
         {
           "path": "docs/manuale/member-additional-reference-recipes.mjs",
-          "sha256": "78ba85595fdabab3815b5833dc7b6f11e7585b2b66efa201d62c118f0f58ac65",
+          "sha256": "9a09b99e4fbcf3900dffa90a11c8d4c1c3fb4ade40c7a47bfa829f4d6d598721",
           "section": "caricare-un-certificato-medico",
           "status": "pending-capture",
           "verified": false,
@@ -1181,7 +1181,7 @@
         },
         {
           "path": "docs/manuale/member-additional-reference-recipes.mjs",
-          "sha256": "78ba85595fdabab3815b5833dc7b6f11e7585b2b66efa201d62c118f0f58ac65",
+          "sha256": "9a09b99e4fbcf3900dffa90a11c8d4c1c3fb4ade40c7a47bfa829f4d6d598721",
           "section": "durante-l-iscrizione",
           "status": "pending-capture",
           "verified": false,
@@ -1205,7 +1205,7 @@
         },
         {
           "path": "docs/manuale/member-additional-reference-recipes.mjs",
-          "sha256": "78ba85595fdabab3815b5833dc7b6f11e7585b2b66efa201d62c118f0f58ac65",
+          "sha256": "9a09b99e4fbcf3900dffa90a11c8d4c1c3fb4ade40c7a47bfa829f4d6d598721",
           "section": "notifiche-automatiche-di-scadenza",
           "status": "pending-capture",
           "verified": false,
@@ -1213,7 +1213,7 @@
         },
         {
           "path": "docs/manuale/member-additional-reference-recipes.mjs",
-          "sha256": "78ba85595fdabab3815b5833dc7b6f11e7585b2b66efa201d62c118f0f58ac65",
+          "sha256": "9a09b99e4fbcf3900dffa90a11c8d4c1c3fb4ade40c7a47bfa829f4d6d598721",
           "section": "disattivare-le-notifiche",
           "status": "pending-capture",
           "verified": false,
@@ -1221,7 +1221,7 @@
         },
         {
           "path": "docs/manuale/member-additional-reference-recipes.mjs",
-          "sha256": "78ba85595fdabab3815b5833dc7b6f11e7585b2b66efa201d62c118f0f58ac65",
+          "sha256": "9a09b99e4fbcf3900dffa90a11c8d4c1c3fb4ade40c7a47bfa829f4d6d598721",
           "section": "esenzione-per-bambini-sotto-i-6-anni",
           "status": "pending-capture",
           "verified": false,
@@ -1229,7 +1229,7 @@
         },
         {
           "path": "docs/manuale/member-additional-reference-recipes.mjs",
-          "sha256": "78ba85595fdabab3815b5833dc7b6f11e7585b2b66efa201d62c118f0f58ac65",
+          "sha256": "9a09b99e4fbcf3900dffa90a11c8d4c1c3fb4ade40c7a47bfa829f4d6d598721",
           "section": "visualizzare-i-certificati-in-scadenza",
           "status": "pending-capture",
           "verified": false,
@@ -1245,7 +1245,7 @@
         },
         {
           "path": "docs/manuale/member-additional-reference-recipes.mjs",
-          "sha256": "78ba85595fdabab3815b5833dc7b6f11e7585b2b66efa201d62c118f0f58ac65",
+          "sha256": "9a09b99e4fbcf3900dffa90a11c8d4c1c3fb4ade40c7a47bfa829f4d6d598721",
           "section": "richiedi-il-certificato-all-iscrizione",
           "status": "pending-capture",
           "verified": false,
@@ -1253,7 +1253,7 @@
         },
         {
           "path": "docs/manuale/member-additional-reference-recipes.mjs",
-          "sha256": "78ba85595fdabab3815b5833dc7b6f11e7585b2b66efa201d62c118f0f58ac65",
+          "sha256": "9a09b99e4fbcf3900dffa90a11c8d4c1c3fb4ade40c7a47bfa829f4d6d598721",
           "section": "controlla-regolarmente-la-bacheca",
           "status": "pending-capture",
           "verified": false,
@@ -1261,7 +1261,7 @@
         },
         {
           "path": "docs/manuale/member-additional-reference-recipes.mjs",
-          "sha256": "78ba85595fdabab3815b5833dc7b6f11e7585b2b66efa201d62c118f0f58ac65",
+          "sha256": "9a09b99e4fbcf3900dffa90a11c8d4c1c3fb4ade40c7a47bfa829f4d6d598721",
           "section": "invia-comunicazioni-personalizzate",
           "status": "pending-capture",
           "verified": false,
@@ -1277,7 +1277,7 @@
         },
         {
           "path": "docs/manuale/member-additional-reference-recipes.mjs",
-          "sha256": "78ba85595fdabab3815b5833dc7b6f11e7585b2b66efa201d62c118f0f58ac65",
+          "sha256": "9a09b99e4fbcf3900dffa90a11c8d4c1c3fb4ade40c7a47bfa829f4d6d598721",
           "section": "conclusione",
           "status": "pending-capture",
           "verified": false,
@@ -1441,7 +1441,7 @@
       "draft_recipes": [
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
+          "sha256": "e5eae821e530dd01fbd93346d0c22e4721ed666be24477fe9bc26b8257340b8f",
           "section": "indice",
           "status": "pending-capture",
           "verified": false,
@@ -1457,7 +1457,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
+          "sha256": "e5eae821e530dd01fbd93346d0c22e4721ed666be24477fe9bc26b8257340b8f",
           "section": "documenti-dell-istruttore",
           "status": "pending-capture",
           "verified": false,
@@ -1465,7 +1465,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
+          "sha256": "e5eae821e530dd01fbd93346d0c22e4721ed666be24477fe9bc26b8257340b8f",
           "section": "assegnare-un-istruttore-ai-corsi-e-alle-lezioni",
           "status": "pending-capture",
           "verified": false,
@@ -1473,7 +1473,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
+          "sha256": "e5eae821e530dd01fbd93346d0c22e4721ed666be24477fe9bc26b8257340b8f",
           "section": "assegnazione-al-corso",
           "status": "pending-capture",
           "verified": false,
@@ -1481,7 +1481,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
+          "sha256": "e5eae821e530dd01fbd93346d0c22e4721ed666be24477fe9bc26b8257340b8f",
           "section": "assegnazione-alle-lezioni",
           "status": "pending-capture",
           "verified": false,
@@ -1489,7 +1489,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
+          "sha256": "e5eae821e530dd01fbd93346d0c22e4721ed666be24477fe9bc26b8257340b8f",
           "section": "gestire-i-compensi",
           "status": "pending-capture",
           "verified": false,
@@ -1513,7 +1513,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
+          "sha256": "e5eae821e530dd01fbd93346d0c22e4721ed666be24477fe9bc26b8257340b8f",
           "section": "calcolare-i-compensi",
           "status": "pending-capture",
           "verified": false,
@@ -1521,7 +1521,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
+          "sha256": "e5eae821e530dd01fbd93346d0c22e4721ed666be24477fe9bc26b8257340b8f",
           "section": "creare-un-pagamento-per-il-compenso",
           "status": "pending-capture",
           "verified": false,
@@ -1529,7 +1529,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
+          "sha256": "e5eae821e530dd01fbd93346d0c22e4721ed666be24477fe9bc26b8257340b8f",
           "section": "visualizzare-ore-e-report",
           "status": "pending-capture",
           "verified": false,
@@ -1545,7 +1545,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
+          "sha256": "e5eae821e530dd01fbd93346d0c22e4721ed666be24477fe9bc26b8257340b8f",
           "section": "report-degli-istruttori",
           "status": "pending-capture",
           "verified": false,
@@ -1553,7 +1553,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
+          "sha256": "e5eae821e530dd01fbd93346d0c22e4721ed666be24477fe9bc26b8257340b8f",
           "section": "modificare-e-rimuovere-un-istruttore",
           "status": "pending-capture",
           "verified": false,
@@ -1569,7 +1569,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
+          "sha256": "e5eae821e530dd01fbd93346d0c22e4721ed666be24477fe9bc26b8257340b8f",
           "section": "rimuovere-un-istruttore",
           "status": "pending-capture",
           "verified": false,
@@ -1577,7 +1577,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
+          "sha256": "e5eae821e530dd01fbd93346d0c22e4721ed666be24477fe9bc26b8257340b8f",
           "section": "conclusione",
           "status": "pending-capture",
           "verified": false,
@@ -2805,7 +2805,7 @@
         },
         {
           "path": "docs/manuale/member-additional-reference-recipes.mjs",
-          "sha256": "78ba85595fdabab3815b5833dc7b6f11e7585b2b66efa201d62c118f0f58ac65",
+          "sha256": "9a09b99e4fbcf3900dffa90a11c8d4c1c3fb4ade40c7a47bfa829f4d6d598721",
           "section": "come-funziona-il-libro-soci",
           "status": "pending-capture",
           "verified": false,
@@ -2821,7 +2821,7 @@
         },
         {
           "path": "docs/manuale/member-additional-reference-recipes.mjs",
-          "sha256": "78ba85595fdabab3815b5833dc7b6f11e7585b2b66efa201d62c118f0f58ac65",
+          "sha256": "9a09b99e4fbcf3900dffa90a11c8d4c1c3fb4ade40c7a47bfa829f4d6d598721",
           "section": "tipologie-di-iscrizione",
           "status": "pending-capture",
           "verified": false,
@@ -2829,7 +2829,7 @@
         },
         {
           "path": "docs/manuale/member-additional-reference-recipes.mjs",
-          "sha256": "78ba85595fdabab3815b5833dc7b6f11e7585b2b66efa201d62c118f0f58ac65",
+          "sha256": "9a09b99e4fbcf3900dffa90a11c8d4c1c3fb4ade40c7a47bfa829f4d6d598721",
           "section": "ruoli-del-socio",
           "status": "pending-capture",
           "verified": false,
@@ -2837,7 +2837,7 @@
         },
         {
           "path": "docs/manuale/member-additional-reference-recipes.mjs",
-          "sha256": "78ba85595fdabab3815b5833dc7b6f11e7585b2b66efa201d62c118f0f58ac65",
+          "sha256": "9a09b99e4fbcf3900dffa90a11c8d4c1c3fb4ade40c7a47bfa829f4d6d598721",
           "section": "durata-delle-iscrizioni",
           "status": "pending-capture",
           "verified": false,
@@ -2861,7 +2861,7 @@
         },
         {
           "path": "docs/manuale/member-additional-reference-recipes.mjs",
-          "sha256": "78ba85595fdabab3815b5833dc7b6f11e7585b2b66efa201d62c118f0f58ac65",
+          "sha256": "9a09b99e4fbcf3900dffa90a11c8d4c1c3fb4ade40c7a47bfa829f4d6d598721",
           "section": "cosa-succede-se-hai-piu-tipologie-di-quote-sociali",
           "status": "pending-capture",
           "verified": false,
@@ -2893,7 +2893,7 @@
         },
         {
           "path": "docs/manuale/member-additional-reference-recipes.mjs",
-          "sha256": "78ba85595fdabab3815b5833dc7b6f11e7585b2b66efa201d62c118f0f58ac65",
+          "sha256": "9a09b99e4fbcf3900dffa90a11c8d4c1c3fb4ade40c7a47bfa829f4d6d598721",
           "section": "esenzione-certificato-medico-per-minori-di-6-anni",
           "status": "pending-capture",
           "verified": false,
@@ -2901,7 +2901,7 @@
         },
         {
           "path": "docs/manuale/member-additional-reference-recipes.mjs",
-          "sha256": "78ba85595fdabab3815b5833dc7b6f11e7585b2b66efa201d62c118f0f58ac65",
+          "sha256": "9a09b99e4fbcf3900dffa90a11c8d4c1c3fb4ade40c7a47bfa829f4d6d598721",
           "section": "scadenza-dei-certificati-medici",
           "status": "pending-capture",
           "verified": false,
@@ -2925,7 +2925,7 @@
         },
         {
           "path": "docs/manuale/member-additional-reference-recipes.mjs",
-          "sha256": "78ba85595fdabab3815b5833dc7b6f11e7585b2b66efa201d62c118f0f58ac65",
+          "sha256": "9a09b99e4fbcf3900dffa90a11c8d4c1c3fb4ade40c7a47bfa829f4d6d598721",
           "section": "iscrizioni-con-qr-code",
           "status": "pending-capture",
           "verified": false,
@@ -2933,7 +2933,7 @@
         },
         {
           "path": "docs/manuale/member-additional-reference-recipes.mjs",
-          "sha256": "78ba85595fdabab3815b5833dc7b6f11e7585b2b66efa201d62c118f0f58ac65",
+          "sha256": "9a09b99e4fbcf3900dffa90a11c8d4c1c3fb4ade40c7a47bfa829f4d6d598721",
           "section": "importa-soci-da-file",
           "status": "pending-capture",
           "verified": false,
@@ -2941,7 +2941,7 @@
         },
         {
           "path": "docs/manuale/member-additional-reference-recipes.mjs",
-          "sha256": "78ba85595fdabab3815b5833dc7b6f11e7585b2b66efa201d62c118f0f58ac65",
+          "sha256": "9a09b99e4fbcf3900dffa90a11c8d4c1c3fb4ade40c7a47bfa829f4d6d598721",
           "section": "deduplicazione-automatica-durante-l-importazione",
           "status": "pending-capture",
           "verified": false,
@@ -2949,7 +2949,7 @@
         },
         {
           "path": "docs/manuale/member-additional-reference-recipes.mjs",
-          "sha256": "78ba85595fdabab3815b5833dc7b6f11e7585b2b66efa201d62c118f0f58ac65",
+          "sha256": "9a09b99e4fbcf3900dffa90a11c8d4c1c3fb4ade40c7a47bfa829f4d6d598721",
           "section": "trasferimento-dei-soci",
           "status": "pending-capture",
           "verified": false,
@@ -2957,7 +2957,7 @@
         },
         {
           "path": "docs/manuale/member-additional-reference-recipes.mjs",
-          "sha256": "78ba85595fdabab3815b5833dc7b6f11e7585b2b66efa201d62c118f0f58ac65",
+          "sha256": "9a09b99e4fbcf3900dffa90a11c8d4c1c3fb4ade40c7a47bfa829f4d6d598721",
           "section": "scadenza-delle-richieste-di-trasferimento",
           "status": "pending-capture",
           "verified": false,
@@ -2965,7 +2965,7 @@
         },
         {
           "path": "docs/manuale/member-additional-reference-recipes.mjs",
-          "sha256": "78ba85595fdabab3815b5833dc7b6f11e7585b2b66efa201d62c118f0f58ac65",
+          "sha256": "9a09b99e4fbcf3900dffa90a11c8d4c1c3fb4ade40c7a47bfa829f4d6d598721",
           "section": "assegnazione-di-tag-ai-soci",
           "status": "pending-capture",
           "verified": false,
@@ -2973,7 +2973,7 @@
         },
         {
           "path": "docs/manuale/member-additional-reference-recipes.mjs",
-          "sha256": "78ba85595fdabab3815b5833dc7b6f11e7585b2b66efa201d62c118f0f58ac65",
+          "sha256": "9a09b99e4fbcf3900dffa90a11c8d4c1c3fb4ade40c7a47bfa829f4d6d598721",
           "section": "eliminare-un-tag",
           "status": "pending-capture",
           "verified": false,
@@ -2981,7 +2981,7 @@
         },
         {
           "path": "docs/manuale/member-additional-reference-recipes.mjs",
-          "sha256": "78ba85595fdabab3815b5833dc7b6f11e7585b2b66efa201d62c118f0f58ac65",
+          "sha256": "9a09b99e4fbcf3900dffa90a11c8d4c1c3fb4ade40c7a47bfa829f4d6d598721",
           "section": "risorse-correlate",
           "status": "pending-capture",
           "verified": false,
@@ -2994,7 +2994,7 @@
       "title": "Corsi",
       "status": "draft",
       "original_sha256": "770a97cfe906ca8463a51c2082eebacfe9ce5982f0e92fb110e99a9bd3e9b4ea",
-      "draft_sha256": "e6423da53a2342d8cdea746f8384685c41141c3be76e6696895237ea08c2d3ef",
+      "draft_sha256": "7ef3cf9982715087e215aaecf86dd8d7ecac99b04f391b923ab788bf92a1bda7",
       "sections": [
         {
           "id": "creare-un-corso",
@@ -3613,7 +3613,7 @@
       "draft_recipes": [
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
+          "sha256": "e5eae821e530dd01fbd93346d0c22e4721ed666be24477fe9bc26b8257340b8f",
           "section": "introduzione",
           "status": "pending-capture",
           "verified": false,
@@ -3677,7 +3677,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
+          "sha256": "e5eae821e530dd01fbd93346d0c22e4721ed666be24477fe9bc26b8257340b8f",
           "section": "eliminare-un-istruttore",
           "status": "pending-capture",
           "verified": false,
@@ -3725,7 +3725,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
+          "sha256": "e5eae821e530dd01fbd93346d0c22e4721ed666be24477fe9bc26b8257340b8f",
           "section": "compenso-a-percentuale",
           "status": "pending-capture",
           "verified": false,
@@ -3741,7 +3741,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
+          "sha256": "e5eae821e530dd01fbd93346d0c22e4721ed666be24477fe9bc26b8257340b8f",
           "section": "gestire-i-compensi",
           "status": "pending-capture",
           "verified": false,
@@ -3749,7 +3749,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
+          "sha256": "e5eae821e530dd01fbd93346d0c22e4721ed666be24477fe9bc26b8257340b8f",
           "section": "creare-un-compenso",
           "status": "pending-capture",
           "verified": false,
@@ -3765,7 +3765,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
+          "sha256": "e5eae821e530dd01fbd93346d0c22e4721ed666be24477fe9bc26b8257340b8f",
           "section": "documento-del-compenso",
           "status": "pending-capture",
           "verified": false,
@@ -3773,7 +3773,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
+          "sha256": "e5eae821e530dd01fbd93346d0c22e4721ed666be24477fe9bc26b8257340b8f",
           "section": "modificare-o-eliminare-le-ore-registrate",
           "status": "pending-capture",
           "verified": false,
@@ -3781,7 +3781,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
+          "sha256": "e5eae821e530dd01fbd93346d0c22e4721ed666be24477fe9bc26b8257340b8f",
           "section": "modificare-una-registrazione",
           "status": "pending-capture",
           "verified": false,
@@ -3789,7 +3789,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
+          "sha256": "e5eae821e530dd01fbd93346d0c22e4721ed666be24477fe9bc26b8257340b8f",
           "section": "eliminare-una-registrazione",
           "status": "pending-capture",
           "verified": false,
@@ -3797,7 +3797,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
+          "sha256": "e5eae821e530dd01fbd93346d0c22e4721ed666be24477fe9bc26b8257340b8f",
           "section": "generare-un-report",
           "status": "pending-capture",
           "verified": false,
@@ -3805,7 +3805,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
+          "sha256": "e5eae821e530dd01fbd93346d0c22e4721ed666be24477fe9bc26b8257340b8f",
           "section": "assegnare-un-istruttore-ai-corsi",
           "status": "pending-capture",
           "verified": false,
@@ -5889,7 +5889,7 @@
       "draft_recipes": [
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
+          "sha256": "e5eae821e530dd01fbd93346d0c22e4721ed666be24477fe9bc26b8257340b8f",
           "section": "introduzione",
           "status": "pending-capture",
           "verified": false,
@@ -6053,7 +6053,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
+          "sha256": "e5eae821e530dd01fbd93346d0c22e4721ed666be24477fe9bc26b8257340b8f",
           "section": "cosa-puoi-archiviare",
           "status": "pending-capture",
           "verified": false,
@@ -6061,7 +6061,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
+          "sha256": "e5eae821e530dd01fbd93346d0c22e4721ed666be24477fe9bc26b8257340b8f",
           "section": "come-archiviare-un-elemento",
           "status": "pending-capture",
           "verified": false,
@@ -6069,7 +6069,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
+          "sha256": "e5eae821e530dd01fbd93346d0c22e4721ed666be24477fe9bc26b8257340b8f",
           "section": "consultare-l-archivio",
           "status": "pending-capture",
           "verified": false,
@@ -6085,7 +6085,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
+          "sha256": "e5eae821e530dd01fbd93346d0c22e4721ed666be24477fe9bc26b8257340b8f",
           "section": "risorse-correlate",
           "status": "pending-capture",
           "verified": false,
@@ -6233,7 +6233,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
+          "sha256": "e5eae821e530dd01fbd93346d0c22e4721ed666be24477fe9bc26b8257340b8f",
           "section": "rimuovere-un-collaboratore",
           "status": "pending-capture",
           "verified": false,
@@ -6241,7 +6241,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
+          "sha256": "e5eae821e530dd01fbd93346d0c22e4721ed666be24477fe9bc26b8257340b8f",
           "section": "risorse-correlate",
           "status": "pending-capture",
           "verified": false,
@@ -6801,7 +6801,7 @@
       "draft_recipes": [
         {
           "path": "docs/manuale/member-additional-reference-recipes.mjs",
-          "sha256": "78ba85595fdabab3815b5833dc7b6f11e7585b2b66efa201d62c118f0f58ac65",
+          "sha256": "9a09b99e4fbcf3900dffa90a11c8d4c1c3fb4ade40c7a47bfa829f4d6d598721",
           "section": "prima-di-iniziare",
           "status": "pending-capture",
           "verified": false,
@@ -6817,7 +6817,7 @@
         },
         {
           "path": "docs/manuale/member-additional-reference-recipes.mjs",
-          "sha256": "78ba85595fdabab3815b5833dc7b6f11e7585b2b66efa201d62c118f0f58ac65",
+          "sha256": "9a09b99e4fbcf3900dffa90a11c8d4c1c3fb4ade40c7a47bfa829f4d6d598721",
           "section": "raccolta-soci-tramite-qr-code-e-link",
           "status": "pending-capture",
           "verified": false,
@@ -6825,7 +6825,7 @@
         },
         {
           "path": "docs/manuale/member-additional-reference-recipes.mjs",
-          "sha256": "78ba85595fdabab3815b5833dc7b6f11e7585b2b66efa201d62c118f0f58ac65",
+          "sha256": "9a09b99e4fbcf3900dffa90a11c8d4c1c3fb4ade40c7a47bfa829f4d6d598721",
           "section": "generazione-del-qr-code-e-del-link",
           "status": "pending-capture",
           "verified": false,
@@ -6833,7 +6833,7 @@
         },
         {
           "path": "docs/manuale/member-additional-reference-recipes.mjs",
-          "sha256": "78ba85595fdabab3815b5833dc7b6f11e7585b2b66efa201d62c118f0f58ac65",
+          "sha256": "9a09b99e4fbcf3900dffa90a11c8d4c1c3fb4ade40c7a47bfa829f4d6d598721",
           "section": "utilizzo-del-qr-code",
           "status": "pending-capture",
           "verified": false,
@@ -6841,7 +6841,7 @@
         },
         {
           "path": "docs/manuale/member-additional-reference-recipes.mjs",
-          "sha256": "78ba85595fdabab3815b5833dc7b6f11e7585b2b66efa201d62c118f0f58ac65",
+          "sha256": "9a09b99e4fbcf3900dffa90a11c8d4c1c3fb4ade40c7a47bfa829f4d6d598721",
           "section": "condivisione-del-link",
           "status": "pending-capture",
           "verified": false,
@@ -6849,7 +6849,7 @@
         },
         {
           "path": "docs/manuale/member-additional-reference-recipes.mjs",
-          "sha256": "78ba85595fdabab3815b5833dc7b6f11e7585b2b66efa201d62c118f0f58ac65",
+          "sha256": "9a09b99e4fbcf3900dffa90a11c8d4c1c3fb4ade40c7a47bfa829f4d6d598721",
           "section": "processo-di-iscrizione-per-il-socio",
           "status": "pending-capture",
           "verified": false,
@@ -6857,7 +6857,7 @@
         },
         {
           "path": "docs/manuale/member-additional-reference-recipes.mjs",
-          "sha256": "78ba85595fdabab3815b5833dc7b6f11e7585b2b66efa201d62c118f0f58ac65",
+          "sha256": "9a09b99e4fbcf3900dffa90a11c8d4c1c3fb4ade40c7a47bfa829f4d6d598721",
           "section": "gestione-delle-richieste",
           "status": "pending-capture",
           "verified": false,
@@ -6977,7 +6977,7 @@
       "draft_recipes": [
         {
           "path": "docs/manuale/member-additional-reference-recipes.mjs",
-          "sha256": "78ba85595fdabab3815b5833dc7b6f11e7585b2b66efa201d62c118f0f58ac65",
+          "sha256": "9a09b99e4fbcf3900dffa90a11c8d4c1c3fb4ade40c7a47bfa829f4d6d598721",
           "section": "cos-e-l-importazione-dei-soci",
           "status": "pending-capture",
           "verified": false,
@@ -6985,7 +6985,7 @@
         },
         {
           "path": "docs/manuale/member-additional-reference-recipes.mjs",
-          "sha256": "78ba85595fdabab3815b5833dc7b6f11e7585b2b66efa201d62c118f0f58ac65",
+          "sha256": "9a09b99e4fbcf3900dffa90a11c8d4c1c3fb4ade40c7a47bfa829f4d6d598721",
           "section": "preparazione-del-file",
           "status": "pending-capture",
           "verified": false,
@@ -6993,7 +6993,7 @@
         },
         {
           "path": "docs/manuale/member-additional-reference-recipes.mjs",
-          "sha256": "78ba85595fdabab3815b5833dc7b6f11e7585b2b66efa201d62c118f0f58ac65",
+          "sha256": "9a09b99e4fbcf3900dffa90a11c8d4c1c3fb4ade40c7a47bfa829f4d6d598721",
           "section": "processo-di-importazione",
           "status": "pending-capture",
           "verified": false,
@@ -7001,7 +7001,7 @@
         },
         {
           "path": "docs/manuale/member-additional-reference-recipes.mjs",
-          "sha256": "78ba85595fdabab3815b5833dc7b6f11e7585b2b66efa201d62c118f0f58ac65",
+          "sha256": "9a09b99e4fbcf3900dffa90a11c8d4c1c3fb4ade40c7a47bfa829f4d6d598721",
           "section": "gestione-dei-soci-importati",
           "status": "pending-capture",
           "verified": false,
@@ -7009,7 +7009,7 @@
         },
         {
           "path": "docs/manuale/member-additional-reference-recipes.mjs",
-          "sha256": "78ba85595fdabab3815b5833dc7b6f11e7585b2b66efa201d62c118f0f58ac65",
+          "sha256": "9a09b99e4fbcf3900dffa90a11c8d4c1c3fb4ade40c7a47bfa829f4d6d598721",
           "section": "consigli-utili",
           "status": "pending-capture",
           "verified": false,
@@ -7254,7 +7254,7 @@
       "title": "Come gestire i certificati medici?",
       "status": "draft",
       "original_sha256": "5fe8a6624dcfb1e74e2a89fd894fe2162ac1562fcacf93aa90bcb0dec0a0b92a",
-      "draft_sha256": "038790d0c6276415dd4579d736a031c82b68df7ee3a3ff24cded7e54a0d31193",
+      "draft_sha256": "2897684f7f66e770c955de25e5d5681629f3a905d03415ae9b63fc8a6e50ee08",
       "sections": [
         {
           "id": "gestire-i-certificati-medici",
@@ -7301,7 +7301,7 @@
       "draft_recipes": [
         {
           "path": "docs/manuale/member-additional-reference-recipes.mjs",
-          "sha256": "78ba85595fdabab3815b5833dc7b6f11e7585b2b66efa201d62c118f0f58ac65",
+          "sha256": "9a09b99e4fbcf3900dffa90a11c8d4c1c3fb4ade40c7a47bfa829f4d6d598721",
           "section": "gestire-i-certificati-medici",
           "status": "pending-capture",
           "verified": false,
@@ -7309,7 +7309,7 @@
         },
         {
           "path": "docs/manuale/member-additional-reference-recipes.mjs",
-          "sha256": "78ba85595fdabab3815b5833dc7b6f11e7585b2b66efa201d62c118f0f58ac65",
+          "sha256": "9a09b99e4fbcf3900dffa90a11c8d4c1c3fb4ade40c7a47bfa829f4d6d598721",
           "section": "caricare-un-certificato-medico",
           "status": "pending-capture",
           "verified": false,
@@ -7317,7 +7317,7 @@
         },
         {
           "path": "docs/manuale/member-additional-reference-recipes.mjs",
-          "sha256": "78ba85595fdabab3815b5833dc7b6f11e7585b2b66efa201d62c118f0f58ac65",
+          "sha256": "9a09b99e4fbcf3900dffa90a11c8d4c1c3fb4ade40c7a47bfa829f4d6d598721",
           "section": "notifiche-automatiche-di-scadenza",
           "status": "pending-capture",
           "verified": false,
@@ -7325,7 +7325,7 @@
         },
         {
           "path": "docs/manuale/member-additional-reference-recipes.mjs",
-          "sha256": "78ba85595fdabab3815b5833dc7b6f11e7585b2b66efa201d62c118f0f58ac65",
+          "sha256": "9a09b99e4fbcf3900dffa90a11c8d4c1c3fb4ade40c7a47bfa829f4d6d598721",
           "section": "controllare-lo-stato-dei-certificati",
           "status": "pending-capture",
           "verified": false,
@@ -7333,7 +7333,7 @@
         },
         {
           "path": "docs/manuale/member-additional-reference-recipes.mjs",
-          "sha256": "78ba85595fdabab3815b5833dc7b6f11e7585b2b66efa201d62c118f0f58ac65",
+          "sha256": "9a09b99e4fbcf3900dffa90a11c8d4c1c3fb4ade40c7a47bfa829f4d6d598721",
           "section": "aggiornare-un-certificato-medico",
           "status": "pending-capture",
           "verified": false,
@@ -7517,7 +7517,7 @@
       "draft_recipes": [
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
+          "sha256": "e5eae821e530dd01fbd93346d0c22e4721ed666be24477fe9bc26b8257340b8f",
           "section": "personalizzare-la-tessera",
           "status": "pending-capture",
           "verified": false,
@@ -7525,7 +7525,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
+          "sha256": "e5eae821e530dd01fbd93346d0c22e4721ed666be24477fe9bc26b8257340b8f",
           "section": "stampare-la-tessera-di-un-singolo-atleta",
           "status": "pending-capture",
           "verified": false,
@@ -7533,7 +7533,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
+          "sha256": "e5eae821e530dd01fbd93346d0c22e4721ed666be24477fe9bc26b8257340b8f",
           "section": "stampare-le-tessere-in-blocco",
           "status": "pending-capture",
           "verified": false,
@@ -7757,7 +7757,7 @@
         },
         {
           "path": "docs/manuale/member-additional-reference-recipes.mjs",
-          "sha256": "78ba85595fdabab3815b5833dc7b6f11e7585b2b66efa201d62c118f0f58ac65",
+          "sha256": "9a09b99e4fbcf3900dffa90a11c8d4c1c3fb4ade40c7a47bfa829f4d6d598721",
           "section": "i-filtri-disponibili",
           "status": "pending-capture",
           "verified": false,
@@ -7765,7 +7765,7 @@
         },
         {
           "path": "docs/manuale/member-additional-reference-recipes.mjs",
-          "sha256": "78ba85595fdabab3815b5833dc7b6f11e7585b2b66efa201d62c118f0f58ac65",
+          "sha256": "9a09b99e4fbcf3900dffa90a11c8d4c1c3fb4ade40c7a47bfa829f4d6d598721",
           "section": "filtro-per-periodo",
           "status": "pending-capture",
           "verified": false,
@@ -7773,7 +7773,7 @@
         },
         {
           "path": "docs/manuale/member-additional-reference-recipes.mjs",
-          "sha256": "78ba85595fdabab3815b5833dc7b6f11e7585b2b66efa201d62c118f0f58ac65",
+          "sha256": "9a09b99e4fbcf3900dffa90a11c8d4c1c3fb4ade40c7a47bfa829f4d6d598721",
           "section": "filtro-per-stato",
           "status": "pending-capture",
           "verified": false,
@@ -7781,7 +7781,7 @@
         },
         {
           "path": "docs/manuale/member-additional-reference-recipes.mjs",
-          "sha256": "78ba85595fdabab3815b5833dc7b6f11e7585b2b66efa201d62c118f0f58ac65",
+          "sha256": "9a09b99e4fbcf3900dffa90a11c8d4c1c3fb4ade40c7a47bfa829f4d6d598721",
           "section": "filtro-per-tag",
           "status": "pending-capture",
           "verified": false,
@@ -7789,7 +7789,7 @@
         },
         {
           "path": "docs/manuale/member-additional-reference-recipes.mjs",
-          "sha256": "78ba85595fdabab3815b5833dc7b6f11e7585b2b66efa201d62c118f0f58ac65",
+          "sha256": "9a09b99e4fbcf3900dffa90a11c8d4c1c3fb4ade40c7a47bfa829f4d6d598721",
           "section": "filtro-per-eta",
           "status": "pending-capture",
           "verified": false,
@@ -7797,7 +7797,7 @@
         },
         {
           "path": "docs/manuale/member-additional-reference-recipes.mjs",
-          "sha256": "78ba85595fdabab3815b5833dc7b6f11e7585b2b66efa201d62c118f0f58ac65",
+          "sha256": "9a09b99e4fbcf3900dffa90a11c8d4c1c3fb4ade40c7a47bfa829f4d6d598721",
           "section": "filtro-per-tipo",
           "status": "pending-capture",
           "verified": false,
@@ -7805,7 +7805,7 @@
         },
         {
           "path": "docs/manuale/member-additional-reference-recipes.mjs",
-          "sha256": "78ba85595fdabab3815b5833dc7b6f11e7585b2b66efa201d62c118f0f58ac65",
+          "sha256": "9a09b99e4fbcf3900dffa90a11c8d4c1c3fb4ade40c7a47bfa829f4d6d598721",
           "section": "altri-filtri-rapidi",
           "status": "pending-capture",
           "verified": false,
@@ -7813,7 +7813,7 @@
         },
         {
           "path": "docs/manuale/member-additional-reference-recipes.mjs",
-          "sha256": "78ba85595fdabab3815b5833dc7b6f11e7585b2b66efa201d62c118f0f58ac65",
+          "sha256": "9a09b99e4fbcf3900dffa90a11c8d4c1c3fb4ade40c7a47bfa829f4d6d598721",
           "section": "combinare-i-filtri",
           "status": "pending-capture",
           "verified": false,
@@ -7821,7 +7821,7 @@
         },
         {
           "path": "docs/manuale/member-additional-reference-recipes.mjs",
-          "sha256": "78ba85595fdabab3815b5833dc7b6f11e7585b2b66efa201d62c118f0f58ac65",
+          "sha256": "9a09b99e4fbcf3900dffa90a11c8d4c1c3fb4ade40c7a47bfa829f4d6d598721",
           "section": "azioni-in-blocco-sui-risultati-filtrati",
           "status": "pending-capture",
           "verified": false,
@@ -7829,7 +7829,7 @@
         },
         {
           "path": "docs/manuale/member-additional-reference-recipes.mjs",
-          "sha256": "78ba85595fdabab3815b5833dc7b6f11e7585b2b66efa201d62c118f0f58ac65",
+          "sha256": "9a09b99e4fbcf3900dffa90a11c8d4c1c3fb4ade40c7a47bfa829f4d6d598721",
           "section": "personalizzare-le-colonne-della-tabella",
           "status": "pending-capture",
           "verified": false,
@@ -7929,7 +7929,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
+          "sha256": "e5eae821e530dd01fbd93346d0c22e4721ed666be24477fe9bc26b8257340b8f",
           "section": "archiviazione-automatica",
           "status": "pending-capture",
           "verified": false,
@@ -7937,7 +7937,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
+          "sha256": "e5eae821e530dd01fbd93346d0c22e4721ed666be24477fe9bc26b8257340b8f",
           "section": "come-funziona",
           "status": "pending-capture",
           "verified": false,
@@ -7945,7 +7945,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
+          "sha256": "e5eae821e530dd01fbd93346d0c22e4721ed666be24477fe9bc26b8257340b8f",
           "section": "come-attivarla",
           "status": "pending-capture",
           "verified": false,
@@ -8037,7 +8037,7 @@
       "draft_recipes": [
         {
           "path": "docs/manuale/member-additional-reference-recipes.mjs",
-          "sha256": "78ba85595fdabab3815b5833dc7b6f11e7585b2b66efa201d62c118f0f58ac65",
+          "sha256": "9a09b99e4fbcf3900dffa90a11c8d4c1c3fb4ade40c7a47bfa829f4d6d598721",
           "section": "calcolo-automatico-del-codice-fiscale",
           "status": "pending-capture",
           "verified": false,
@@ -8045,7 +8045,7 @@
         },
         {
           "path": "docs/manuale/member-additional-reference-recipes.mjs",
-          "sha256": "78ba85595fdabab3815b5833dc7b6f11e7585b2b66efa201d62c118f0f58ac65",
+          "sha256": "9a09b99e4fbcf3900dffa90a11c8d4c1c3fb4ade40c7a47bfa829f4d6d598721",
           "section": "dati-necessari-per-il-calcolo",
           "status": "pending-capture",
           "verified": false,
@@ -8061,7 +8061,7 @@
         },
         {
           "path": "docs/manuale/member-additional-reference-recipes.mjs",
-          "sha256": "78ba85595fdabab3815b5833dc7b6f11e7585b2b66efa201d62c118f0f58ac65",
+          "sha256": "9a09b99e4fbcf3900dffa90a11c8d4c1c3fb4ade40c7a47bfa829f4d6d598721",
           "section": "validazione-del-codice-fiscale",
           "status": "pending-capture",
           "verified": false,
@@ -8069,7 +8069,7 @@
         },
         {
           "path": "docs/manuale/member-additional-reference-recipes.mjs",
-          "sha256": "78ba85595fdabab3815b5833dc7b6f11e7585b2b66efa201d62c118f0f58ac65",
+          "sha256": "9a09b99e4fbcf3900dffa90a11c8d4c1c3fb4ade40c7a47bfa829f4d6d598721",
           "section": "quando-il-calcolo-automatico-potrebbe-non-funzionare",
           "status": "pending-capture",
           "verified": false,
@@ -8077,7 +8077,7 @@
         },
         {
           "path": "docs/manuale/member-additional-reference-recipes.mjs",
-          "sha256": "78ba85595fdabab3815b5833dc7b6f11e7585b2b66efa201d62c118f0f58ac65",
+          "sha256": "9a09b99e4fbcf3900dffa90a11c8d4c1c3fb4ade40c7a47bfa829f4d6d598721",
           "section": "inserire-o-correggere-manualmente-il-codice-fiscale",
           "status": "pending-capture",
           "verified": false,
@@ -8185,7 +8185,7 @@
         },
         {
           "path": "docs/manuale/organization-additional-reference-recipes.mjs",
-          "sha256": "36d98e70478f6c6d171135df9407a9f80274c577c73f477cb8a0fb6fcab929ff",
+          "sha256": "e5eae821e530dd01fbd93346d0c22e4721ed666be24477fe9bc26b8257340b8f",
           "section": "rimuovere-un-collaboratore",
           "status": "pending-capture",
           "verified": false,
@@ -15984,12 +15984,1151 @@
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
       "sha256": "e9afb9b219f87a5b414cf1a8177ac611d500761e141dd7ae715d756985f3aefd"
+    },
+    {
+      "original_path": "images/certificati/controlli-reali/1.png",
+      "placeholder_path": "images/certificati/controlli-reali/1.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "tutorials/come-gestire-certificati-medici.mdx",
+        "faq/come-gestire-i-certificati-medici.mdx"
+      ],
+      "caption": "Nuova domanda dimostrativa: passaggio Certificato Medico.",
+      "workflow": "medical-followups",
+      "checkpoint": "wizard-medical-step-correct-person",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "c5e916d80d5dec07a884bfde04825dc665fc3b22e24da282706027b736fd3ab1"
+    },
+    {
+      "original_path": "images/certificati/controlli-reali/2.png",
+      "placeholder_path": "images/certificati/controlli-reali/2.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "tutorials/come-gestire-certificati-medici.mdx",
+        "faq/come-gestire-i-certificati-medici.mdx"
+      ],
+      "caption": "File non ammesso respinto senza inviare un caricamento.",
+      "workflow": "medical-followups",
+      "checkpoint": "wizard-invalid-file-rejected",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "af3ba5cfb4a9897b3378070ab84a30d678628c83e9e41e10294d74f323a8389b"
+    },
+    {
+      "original_path": "images/certificati/controlli-reali/3.png",
+      "placeholder_path": "images/certificati/controlli-reali/3.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "tutorials/come-gestire-certificati-medici.mdx",
+        "faq/come-gestire-i-certificati-medici.mdx"
+      ],
+      "caption": "PDF dimostrativo caricato realmente e scadenza manuale prima del riepilogo.",
+      "workflow": "medical-followups",
+      "checkpoint": "wizard-real-upload-and-expiration",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "f13e0a586f8a095a41ff88b96e64df62df0bdfd37d89166c00cdebd3fc32a83f"
+    },
+    {
+      "original_path": "images/certificati/controlli-reali/4.png",
+      "placeholder_path": "images/certificati/controlli-reali/4.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "tutorials/come-gestire-certificati-medici.mdx",
+        "faq/come-gestire-i-certificati-medici.mdx"
+      ],
+      "caption": "Allegato selezionato rimosso: data conservata, nessun documento da inviare.",
+      "workflow": "medical-followups",
+      "checkpoint": "wizard-removed-file-preserves-expiration",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "4ae9405b7c28f73fa39beebc98c3391fc9aef2f0bd8aaaea4be3e93ef3cc06b2"
+    },
+    {
+      "original_path": "images/certificati/controlli-reali/5.png",
+      "placeholder_path": "images/certificati/controlli-reali/5.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "tutorials/come-gestire-certificati-medici.mdx",
+        "faq/come-gestire-i-certificati-medici.mdx"
+      ],
+      "caption": "Riepilogo della nuova domanda prima della conferma.",
+      "workflow": "medical-followups",
+      "checkpoint": "wizard-summary-before-submission",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "823c2d853ae7a7ddf4ea2857efaf24e6acf1dadcf21cae506fa0ce941cebedaf"
+    },
+    {
+      "original_path": "images/certificati/controlli-reali/6.png",
+      "placeholder_path": "images/certificati/controlli-reali/6.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "tutorials/come-gestire-certificati-medici.mdx",
+        "faq/come-gestire-i-certificati-medici.mdx"
+      ],
+      "caption": "Documento e scadenza presenti nella domanda creata, dopo riapertura.",
+      "workflow": "medical-followups",
+      "checkpoint": "wizard-certificate-after-reload",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "a608d395798dc3812db1cf6b1d14cbbc8f5666c12c572c6e7c21984221f3cce8"
+    },
+    {
+      "original_path": "images/certificati/controlli-reali/7.png",
+      "placeholder_path": "images/certificati/controlli-reali/7.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "tutorials/come-gestire-certificati-medici.mdx",
+        "faq/come-gestire-i-certificati-medici.mdx"
+      ],
+      "caption": "Scheda della persona: Nuovo Certificato prima del caricamento.",
+      "workflow": "medical-followups",
+      "checkpoint": "profile-medical-empty-before-upload",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "0e48e2c418e3fba936f73dc1b177f1fa937db08d49d3fce390afb3036ac0cb2b"
+    },
+    {
+      "original_path": "images/certificati/controlli-reali/8.png",
+      "placeholder_path": "images/certificati/controlli-reali/8.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "tutorials/come-gestire-certificati-medici.mdx",
+        "faq/come-gestire-i-certificati-medici.mdx"
+      ],
+      "caption": "File allegato immediatamente; data controllata prima di Salva.",
+      "workflow": "medical-followups",
+      "checkpoint": "profile-upload-confirmation-before-save",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "427e957a00515de3df66760ad454731a0fb323fe3f0d9f41db8124740b042027"
+    },
+    {
+      "original_path": "images/certificati/controlli-reali/9.png",
+      "placeholder_path": "images/certificati/controlli-reali/9.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "tutorials/come-gestire-certificati-medici.mdx",
+        "faq/come-gestire-i-certificati-medici.mdx"
+      ],
+      "caption": "Allegato e scadenza persistiti dopo Salva e ricaricamento.",
+      "workflow": "medical-followups",
+      "checkpoint": "profile-saved-certificate-after-reload",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "e5bb4704112a9502967fa8c1f3e6596af553c76bdb8238c9cdcd741943342261"
+    },
+    {
+      "original_path": "images/certificati/controlli-reali/10.png",
+      "placeholder_path": "images/certificati/controlli-reali/10.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "tutorials/come-gestire-certificati-medici.mdx",
+        "faq/come-gestire-i-certificati-medici.mdx"
+      ],
+      "caption": "Nuovo PDF dimostrativo caricato tramite Sostituisci certificato.",
+      "workflow": "medical-followups",
+      "checkpoint": "replacement-real-file-before-save",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "346bb073cf1628739727d68f04ea417b5d21856a7aa4956d0a63798559f0b075"
+    },
+    {
+      "original_path": "images/certificati/controlli-reali/11.png",
+      "placeholder_path": "images/certificati/controlli-reali/11.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "tutorials/come-gestire-certificati-medici.mdx",
+        "faq/come-gestire-i-certificati-medici.mdx"
+      ],
+      "caption": "Nuovo documento e scadenza dopo la riapertura della scheda.",
+      "workflow": "medical-followups",
+      "checkpoint": "replacement-saved-after-reload",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "cf6c79350e1f118e0229f5bcc379ecaa4ca8558a1d42a3b8d9dc194835aea061"
+    },
+    {
+      "original_path": "images/certificati/controlli-reali/12.png",
+      "placeholder_path": "images/certificati/controlli-reali/12.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "tutorials/come-gestire-certificati-medici.mdx",
+        "faq/come-gestire-i-certificati-medici.mdx"
+      ],
+      "caption": "Modifica scadenza: data salvata proposta, senza campo di caricamento.",
+      "workflow": "medical-followups",
+      "checkpoint": "date-only-editor-preserves-existing-date",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "4437c569001613c2d868357bbbbe20975e8fd1fa8c1f64ddfdd965187708d460"
+    },
+    {
+      "original_path": "images/certificati/controlli-reali/13.png",
+      "placeholder_path": "images/certificati/controlli-reali/13.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "tutorials/come-gestire-certificati-medici.mdx",
+        "faq/come-gestire-i-certificati-medici.mdx"
+      ],
+      "caption": "Data modificata e riaperta, con lo stesso documento allegato.",
+      "workflow": "medical-followups",
+      "checkpoint": "date-only-saved-same-document",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "846dee1bb1abc2619002059170ae468498df50b70dce70afb0a8833c82fd508d"
+    },
+    {
+      "original_path": "images/certificati/controlli-reali/14.png",
+      "placeholder_path": "images/certificati/controlli-reali/14.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "tutorials/come-gestire-certificati-medici.mdx",
+        "faq/come-gestire-i-certificati-medici.mdx"
+      ],
+      "caption": "File, scadenza e classificazione agonistica conservati insieme.",
+      "workflow": "medical-followups",
+      "checkpoint": "competitive-classification-after-reload",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "b38f1e5faad581afa880a36c74f5ac7e38e80acf1afb28dc59e5e7d8888bf4cb"
+    },
+    {
+      "original_path": "images/certificati/controlli-reali/15.png",
+      "placeholder_path": "images/certificati/controlli-reali/15.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "tutorials/come-gestire-certificati-medici.mdx",
+        "faq/come-gestire-i-certificati-medici.mdx"
+      ],
+      "caption": "Collaboratore di sola lettura: nessuna sostituzione o modifica della scadenza.",
+      "workflow": "medical-followups",
+      "checkpoint": "reader-medical-write-controls-absent",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "7d749cf4939038fd4336a65e1263b95b5592851f64652b1bad5e37090f8980a4"
+    },
+    {
+      "original_path": "images/certificati/controlli-reali/16.png",
+      "placeholder_path": "images/certificati/controlli-reali/16.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "tutorials/come-gestire-certificati-medici.mdx",
+        "faq/come-gestire-i-certificati-medici.mdx"
+      ],
+      "caption": "Profilo, Generali, Altro: interruttore delle notifiche prima della modifica.",
+      "workflow": "medical-followups",
+      "checkpoint": "medical-notifications-before-disable",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "e51c3d0ff43091a45752921c269d258412f49142de01b6f23cb420a716add0fa"
+    },
+    {
+      "original_path": "images/certificati/controlli-reali/17.png",
+      "placeholder_path": "images/certificati/controlli-reali/17.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "tutorials/come-gestire-certificati-medici.mdx",
+        "faq/come-gestire-i-certificati-medici.mdx"
+      ],
+      "caption": "Invia notifiche certificati medici disattivato e salvato dopo la riapertura.",
+      "workflow": "medical-followups",
+      "checkpoint": "medical-notifications-disabled-after-reload",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "6c7899cd142d07c8a7198038fc58141c4570bbf2a13c297a40452372122ea0ac"
+    },
+    {
+      "original_path": "images/certificati/controlli-reali/18.png",
+      "placeholder_path": "images/certificati/controlli-reali/18.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "tutorials/come-gestire-certificati-medici.mdx",
+        "faq/come-gestire-i-certificati-medici.mdx"
+      ],
+      "caption": "Collaboratore di sola lettura: configurazione delle notifiche non modificabile.",
+      "workflow": "medical-followups",
+      "checkpoint": "reader-medical-notifications-disabled-control",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "1a4598c842b43a2bd130e7a0b95424f6a292aeba8e6821b2cca4e6b7d8cdc27a"
+    },
+    {
+      "original_path": "images/certificati/controlli-reali/19.png",
+      "placeholder_path": "images/certificati/controlli-reali/19.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "tutorials/come-gestire-certificati-medici.mdx",
+        "faq/come-gestire-i-certificati-medici.mdx"
+      ],
+      "caption": "Tesserati: certificato valido della persona e dati mancanti delle altre iscrizioni.",
+      "workflow": "medical-followups",
+      "checkpoint": "members-certificate-column-current-state",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "a393970daddd1d69b46485a771b3d676c610e0a991c9912aecc1637090ed5ccb"
+    },
+    {
+      "original_path": "images/certificati/controlli-reali/20.png",
+      "placeholder_path": "images/certificati/controlli-reali/20.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "tutorials/come-gestire-certificati-medici.mdx",
+        "faq/come-gestire-i-certificati-medici.mdx"
+      ],
+      "caption": "Gestione widget: Certificati medici scaduti selezionato.",
+      "workflow": "medical-followups",
+      "checkpoint": "medical-dashboard-add-expired-widget",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "056ec58388a17a9c2782655e7ae88d459660c03666e291e2bd165c330326a2c5"
+    },
+    {
+      "original_path": "images/certificati/controlli-reali/21.png",
+      "placeholder_path": "images/certificati/controlli-reali/21.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "tutorials/come-gestire-certificati-medici.mdx",
+        "faq/come-gestire-i-certificati-medici.mdx"
+      ],
+      "caption": "Bacheca salvata con entrambi i gruppi sanitari.",
+      "workflow": "medical-followups",
+      "checkpoint": "medical-dashboard-both-widgets-saved",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "b44d952b9a0a22813b322dd46a772ee79357e9a5892e1847fe101115096984fd"
+    },
+    {
+      "original_path": "images/certificati/controlli-reali/22.png",
+      "placeholder_path": "images/certificati/controlli-reali/22.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "tutorials/come-gestire-certificati-medici.mdx",
+        "faq/come-gestire-i-certificati-medici.mdx"
+      ],
+      "caption": "Modifica dal widget in scadenza apre la persona e la stessa data salvata.",
+      "workflow": "medical-followups",
+      "checkpoint": "expiring-widget-opened-person-date",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "b53a2f31189d9b02a7e61c23f41289a38fde5f24744cc459db0d15e1ccf4eede"
+    },
+    {
+      "original_path": "images/certificati/controlli-reali/23.png",
+      "placeholder_path": "images/certificati/controlli-reali/23.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "tutorials/come-gestire-certificati-medici.mdx",
+        "faq/come-gestire-i-certificati-medici.mdx"
+      ],
+      "caption": "Certificato non presente: le iscrizioni prive di certificato, senza la persona con documento.",
+      "workflow": "medical-followups",
+      "checkpoint": "missing-certificate-filter-results",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "8b2dd7d94a1c9edbf68d073808333b27d7a44d62a1f7507c2eb16238c26eced3"
+    },
+    {
+      "original_path": "images/certificati/controlli-reali/24.png",
+      "placeholder_path": "images/certificati/controlli-reali/24.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "tutorials/come-gestire-certificati-medici.mdx",
+        "faq/come-gestire-i-certificati-medici.mdx"
+      ],
+      "caption": "Certificato scaduto: documento della persona con data precedente a oggi.",
+      "workflow": "medical-followups",
+      "checkpoint": "expired-certificate-filter-results",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "0000d89e5dc50c4b26503ca21501d3eb9ecf2c04286479a3686a5632c0c976d0"
+    },
+    {
+      "original_path": "images/certificati/controlli-reali/25.png",
+      "placeholder_path": "images/certificati/controlli-reali/25.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "tutorials/come-gestire-certificati-medici.mdx",
+        "faq/come-gestire-i-certificati-medici.mdx"
+      ],
+      "caption": "Certificati medici scaduti: persona con documento e scadenza di ieri.",
+      "workflow": "medical-followups",
+      "checkpoint": "expired-widget-current-owned-person",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "8aeb12962fcb1126a23110d5b0e08ff7f3e81bce7c16adfba11fd3d1144526d5"
+    },
+    {
+      "original_path": "images/certificati/controlli-reali/26.png",
+      "placeholder_path": "images/certificati/controlli-reali/26.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "tutorials/come-gestire-certificati-medici.mdx",
+        "faq/come-gestire-i-certificati-medici.mdx"
+      ],
+      "caption": "Scadenza di oggi: filtro elenco scaduto e widget in scadenza selezionano diversamente.",
+      "workflow": "medical-followups",
+      "checkpoint": "today-list-versus-widget-boundary",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "a3361814443d231efb7eb0ce900637c96bee42cff3f4a1717ff3da54c31c4a9d"
+    },
+    {
+      "original_path": "images/certificati/controlli-reali/27.png",
+      "placeholder_path": "images/certificati/controlli-reali/27.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "tutorials/come-gestire-certificati-medici.mdx",
+        "faq/come-gestire-i-certificati-medici.mdx"
+      ],
+      "caption": "Stampa reale in scadenza: anteprima PDF e controllo del gruppo.",
+      "workflow": "medical-followups",
+      "checkpoint": "expiring-report-real-pdf-preview",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "3d4a41d703db68d1419deeb9f4f1e678f313af57cd7722873482f57f4ec2c72a"
+    },
+    {
+      "original_path": "images/certificati/controlli-reali/28.png",
+      "placeholder_path": "images/certificati/controlli-reali/28.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "tutorials/come-gestire-certificati-medici.mdx",
+        "faq/come-gestire-i-certificati-medici.mdx"
+      ],
+      "caption": "Stampa in scadenza: foglio reale scaricato e righe controllate.",
+      "workflow": "medical-followups",
+      "checkpoint": "expiring-report-real-excel-download",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "595f99dff73003afd75c6b0f0c8da8f528c55913560a334bd1755d5a6920dd82"
+    },
+    {
+      "original_path": "images/certificati/controlli-reali/29.png",
+      "placeholder_path": "images/certificati/controlli-reali/29.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "tutorials/come-gestire-certificati-medici.mdx",
+        "faq/come-gestire-i-certificati-medici.mdx"
+      ],
+      "caption": "Stampa reale dei certificati scaduti: anteprima PDF.",
+      "workflow": "medical-followups",
+      "checkpoint": "expired-report-real-pdf-preview",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "25e4ff4aaa4595454d745a2f54881c71fdab382681fe9ffd02cb1bad97675316"
+    },
+    {
+      "original_path": "images/certificati/controlli-reali/30.png",
+      "placeholder_path": "images/certificati/controlli-reali/30.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "tutorials/come-gestire-certificati-medici.mdx",
+        "faq/come-gestire-i-certificati-medici.mdx"
+      ],
+      "caption": "Stampa scaduti: foglio reale scaricato e righe controllate.",
+      "workflow": "medical-followups",
+      "checkpoint": "expired-report-real-excel-download",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "e5a9500fdb9937b57d56ee9e8eb6677afb36398230b349c1ae6d42e34a5066f6"
+    },
+    {
+      "original_path": "images/certificati/controlli-reali/31.png",
+      "placeholder_path": "images/certificati/controlli-reali/31.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "tutorials/come-gestire-certificati-medici.mdx",
+        "faq/come-gestire-i-certificati-medici.mdx"
+      ],
+      "caption": "Impostazioni e widget iniziali ripristinati dopo la procedura.",
+      "workflow": "medical-followups",
+      "checkpoint": "medical-configuration-restored",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "6a4746151f1ebdd6ca22b4c6a7e625024c15ca91c4438f1a0cdd0fd2df28ace4"
+    },
+    {
+      "original_path": "images/libro-soci/link-tessera-reali/1.png",
+      "placeholder_path": "images/libro-soci/link-tessera-reali/1.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/libro-soci.mdx",
+        "faq/come-si-crea-un-socio.mdx",
+        "faq/come-stampare-tessere-atleti.mdx"
+      ],
+      "caption": "Condividi link iscrizioni: codice reale e indirizzo oscurati nella cattura.",
+      "workflow": "membership-links-cards",
+      "checkpoint": "membership-share-dialog-real-qr",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "335f3d5e9247cfc5a28171a38e827ae1f061e5ec75047070ffc47bd86eabbdff"
+    },
+    {
+      "original_path": "images/libro-soci/link-tessera-reali/2.png",
+      "placeholder_path": "images/libro-soci/link-tessera-reali/2.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/libro-soci.mdx",
+        "faq/come-si-crea-un-socio.mdx",
+        "faq/come-stampare-tessere-atleti.mdx"
+      ],
+      "caption": "Conferma della copia: gli appunti contengono esattamente l’indirizzo mostrato.",
+      "workflow": "membership-links-cards",
+      "checkpoint": "membership-link-clipboard-confirmation",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "99aaf4c554589135ea9e18de96177a3f381309cff09fc9301fc3d4b5e5e0cade"
+    },
+    {
+      "original_path": "images/libro-soci/link-tessera-reali/3.png",
+      "placeholder_path": "images/libro-soci/link-tessera-reali/3.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/libro-soci.mdx",
+        "faq/come-si-crea-un-socio.mdx",
+        "faq/come-stampare-tessere-atleti.mdx"
+      ],
+      "caption": "Apri apre il modulo reale dell’associazione in una nuova scheda autenticata.",
+      "workflow": "membership-links-cards",
+      "checkpoint": "membership-authenticated-module-opened",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "4612c723e61d2f469da6a193b0579441706e142452d59faeadbd75b7d290e027"
+    },
+    {
+      "original_path": "images/libro-soci/link-tessera-reali/4.png",
+      "placeholder_path": "images/libro-soci/link-tessera-reali/4.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/libro-soci.mdx",
+        "faq/come-si-crea-un-socio.mdx",
+        "faq/come-stampare-tessere-atleti.mdx"
+      ],
+      "caption": "Lo stesso collegamento apre il modulo senza sessione, con le tipologie configurate.",
+      "workflow": "membership-links-cards",
+      "checkpoint": "membership-anonymous-module-options",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "3664c67dfca6edf38d7dd71db99201935e359fd74490a34509cba37e966eb021"
+    },
+    {
+      "original_path": "images/libro-soci/link-tessera-reali/5.png",
+      "placeholder_path": "images/libro-soci/link-tessera-reali/5.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/libro-soci.mdx",
+        "faq/come-si-crea-un-socio.mdx",
+        "faq/come-stampare-tessere-atleti.mdx"
+      ],
+      "caption": "Pagina di stampa realmente prodotta dal comando QR code, prima della scelta di una stampante.",
+      "workflow": "membership-links-cards",
+      "checkpoint": "membership-qr-printable-popup",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "4aefecef9cbc5a01c0f2654a617e71eddd3a6ef0f19db6325bedd79bb022cac8"
+    },
+    {
+      "original_path": "images/libro-soci/link-tessera-reali/6.png",
+      "placeholder_path": "images/libro-soci/link-tessera-reali/6.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/libro-soci.mdx",
+        "faq/come-si-crea-un-socio.mdx",
+        "faq/come-stampare-tessere-atleti.mdx"
+      ],
+      "caption": "Scheda della persona e periodo dell’iscrizione prima di Mostra Tessera.",
+      "workflow": "membership-links-cards",
+      "checkpoint": "membership-card-correct-subscription",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "20fe6b3864626c096ef002133c7b2d2ea073734737521564b66e23787ea1653b"
+    },
+    {
+      "original_path": "images/libro-soci/link-tessera-reali/7.png",
+      "placeholder_path": "images/libro-soci/link-tessera-reali/7.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/libro-soci.mdx",
+        "faq/come-si-crea-un-socio.mdx",
+        "faq/come-stampare-tessere-atleti.mdx"
+      ],
+      "caption": "Tessera reale: nome, associazione, numero e scadenza verificati; identificativo QR oscurato.",
+      "workflow": "membership-links-cards",
+      "checkpoint": "membership-card-visible",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "6828007c7e2265b12ae0392abab64fba50453b638beff8e9ae97a39cf547ce50"
+    },
+    {
+      "original_path": "images/libro-soci/link-tessera-reali/8.png",
+      "placeholder_path": "images/libro-soci/link-tessera-reali/8.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/libro-soci.mdx",
+        "faq/come-si-crea-un-socio.mdx",
+        "faq/come-stampare-tessere-atleti.mdx"
+      ],
+      "caption": "Tessera dopo il download reale tessera.png, verificato come immagine PNG.",
+      "workflow": "membership-links-cards",
+      "checkpoint": "membership-card-png-downloaded",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "a4793bd9b80407db5deac3ac198db1103ce4d76d1ef364d15be45dcce80430b5"
+    },
+    {
+      "original_path": "images/libro-soci/link-tessera-reali/9.png",
+      "placeholder_path": "images/libro-soci/link-tessera-reali/9.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/libro-soci.mdx",
+        "faq/come-si-crea-un-socio.mdx",
+        "faq/come-stampare-tessere-atleti.mdx"
+      ],
+      "caption": "Pagina temporanea realmente aperta da Stampa, con contenuti della tessera verificati.",
+      "workflow": "membership-links-cards",
+      "checkpoint": "membership-card-real-print-page",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "00be54080207c7eaaab633e6ba236badc38b449bb5d60ab234bd2bb27ac6612b"
+    },
+    {
+      "original_path": "images/libro-soci/link-tessera-reali/10.png",
+      "placeholder_path": "images/libro-soci/link-tessera-reali/10.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/libro-soci.mdx",
+        "faq/come-si-crea-un-socio.mdx",
+        "faq/come-stampare-tessere-atleti.mdx"
+      ],
+      "caption": "Il lettore consulta la tessera; la generazione del link viene negata dall’API.",
+      "workflow": "membership-links-cards",
+      "checkpoint": "membership-reader-card-controls",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "409bce31a835cd96f73313422839bc69a8b3786be85981f94413d238c7b56fad"
+    },
+    {
+      "original_path": "images/corsi/manutenzione-calendario/1.png",
+      "placeholder_path": "images/corsi/manutenzione-calendario/1.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/corsi.mdx"
+      ],
+      "caption": "Scheda del corso dedicato e due iscrizioni con piano rate.",
+      "workflow": "course-calendar-maintenance",
+      "checkpoint": "course-card-and-owned-enrollments",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "95ada635eae2657752ccd62764834fc64bf0fb752dba977f4b2e84d33598817a"
+    },
+    {
+      "original_path": "images/corsi/manutenzione-calendario/2.png",
+      "placeholder_path": "images/corsi/manutenzione-calendario/2.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/corsi.mdx"
+      ],
+      "caption": "Modifica del piano generale da 60 e 60 euro a 70 e 50 euro.",
+      "workflow": "course-calendar-maintenance",
+      "checkpoint": "general-plan-edit",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "38e1f6be475e22fadcbdfa0ca913a81f3adcd8845071bb54e44be019051cf8db"
+    },
+    {
+      "original_path": "images/corsi/manutenzione-calendario/3.png",
+      "placeholder_path": "images/corsi/manutenzione-calendario/3.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/corsi.mdx"
+      ],
+      "caption": "Piano generale riaperto; le rate individuali conservano 60 euro.",
+      "workflow": "course-calendar-maintenance",
+      "checkpoint": "general-plan-reopened-individual-payments-unchanged",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "453b7b7155876d1319d8331081ebb15d66beb8d1416cbaf9fc1208f98acda165"
+    },
+    {
+      "original_path": "images/corsi/manutenzione-calendario/4.png",
+      "placeholder_path": "images/corsi/manutenzione-calendario/4.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/corsi.mdx"
+      ],
+      "caption": "Creazione periodica: nome e giorni selezionati, anche con un altro mese visualizzato.",
+      "workflow": "course-calendar-maintenance",
+      "checkpoint": "periodic-name-and-weekdays",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "015dc76cc44711cee03206b67c45d3602cd61a7b2428eddb61e871072e4bb861"
+    },
+    {
+      "original_path": "images/corsi/manutenzione-calendario/5.png",
+      "placeholder_path": "images/corsi/manutenzione-calendario/5.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/corsi.mdx"
+      ],
+      "caption": "Fine esclusa e lezioni dalle 09:00 alle 10:00 con istruttore facoltativo.",
+      "workflow": "course-calendar-maintenance",
+      "checkpoint": "periodic-exclusive-end-and-times",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "d89d23452b4bb531366adad97886116904fa4d7a9966707657935f154e6e79fd"
+    },
+    {
+      "original_path": "images/corsi/manutenzione-calendario/6.png",
+      "placeholder_path": "images/corsi/manutenzione-calendario/6.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/corsi.mdx"
+      ],
+      "caption": "Cinque lezioni periodiche salvate e riaperte nel calendario.",
+      "workflow": "course-calendar-maintenance",
+      "checkpoint": "periodic-series-reopened",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "1f0bf037716b6c55c667e1788f02db675c14ea6a6020a299f252eb2b6e37f436"
+    },
+    {
+      "original_path": "images/corsi/manutenzione-calendario/7.png",
+      "placeholder_path": "images/corsi/manutenzione-calendario/7.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/corsi.mdx"
+      ],
+      "caption": "Seconda serie distinta: Tutto il giorno, senza istruttore.",
+      "workflow": "course-calendar-maintenance",
+      "checkpoint": "all-day-periodic-before-save",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "e1baf5c8764cb6a6e61d4dc778f7e2c75717404c8d1fe469812418658e8d4904"
+    },
+    {
+      "original_path": "images/corsi/manutenzione-calendario/8.png",
+      "placeholder_path": "images/corsi/manutenzione-calendario/8.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/corsi.mdx"
+      ],
+      "caption": "Una lezione della serie: nome e descrizione modificabili, data e orario consultabili.",
+      "workflow": "course-calendar-maintenance",
+      "checkpoint": "lesson-edit-before-save",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "d30f6c80126db9232733e83f7260a8a8e007e5363716768d699fef5994d7247e"
+    },
+    {
+      "original_path": "images/corsi/manutenzione-calendario/9.png",
+      "placeholder_path": "images/corsi/manutenzione-calendario/9.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/corsi.mdx"
+      ],
+      "caption": "La singola lezione modificata conserva identità, orario e gruppo dopo la riapertura.",
+      "workflow": "course-calendar-maintenance",
+      "checkpoint": "lesson-edit-reopened",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "4240f809371eabc367301299b282e922599e81ccfec5a31f1976701f0ebea09f"
+    },
+    {
+      "original_path": "images/corsi/manutenzione-calendario/10.png",
+      "placeholder_path": "images/corsi/manutenzione-calendario/10.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/corsi.mdx"
+      ],
+      "caption": "Eliminazione della sola lezione: avviso sulle presenze e possibilità di annullare.",
+      "workflow": "course-calendar-maintenance",
+      "checkpoint": "lesson-single-delete-confirmation",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "c737fda22a42ced33f49911b1ab1513c11fd79d93ce17326b48df5d8b5b00a9c"
+    },
+    {
+      "original_path": "images/corsi/manutenzione-calendario/11.png",
+      "placeholder_path": "images/corsi/manutenzione-calendario/11.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/corsi.mdx"
+      ],
+      "caption": "Ambito Questo e successivi nella serie associata.",
+      "workflow": "course-calendar-maintenance",
+      "checkpoint": "lesson-following-scope",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "bb849986ce6ee8020ff5e0d5613f818d0dc6e5a8978a87a644f073226266928c"
+    },
+    {
+      "original_path": "images/corsi/manutenzione-calendario/12.png",
+      "placeholder_path": "images/corsi/manutenzione-calendario/12.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/corsi.mdx"
+      ],
+      "caption": "Ambito Questo e precedenti nella serie associata.",
+      "workflow": "course-calendar-maintenance",
+      "checkpoint": "lesson-preceding-scope",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "de1c0227df1f5f4cb4b80caf934fd01d6ea71c94c89882502eab8708cb62616c"
+    },
+    {
+      "original_path": "images/corsi/manutenzione-calendario/13.png",
+      "placeholder_path": "images/corsi/manutenzione-calendario/13.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/corsi.mdx"
+      ],
+      "caption": "Registro riaperto: rimangono soltanto le tre lezioni della seconda serie.",
+      "workflow": "course-calendar-maintenance",
+      "checkpoint": "calendar-and-register-after-scoped-deletions",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "3e86d6f68fe9b27552ced23a6f39b6612448101460398b8000eae62138492b0d"
+    },
+    {
+      "original_path": "images/corsi/manutenzione-calendario/14.png",
+      "placeholder_path": "images/corsi/manutenzione-calendario/14.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/corsi.mdx"
+      ],
+      "caption": "Consultazione della lezione senza autorizzazione a salvare o eliminare.",
+      "workflow": "course-calendar-maintenance",
+      "checkpoint": "reader-calendar-controls-disabled",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "6cf5e27fffabbc02afb40ee20e46dc3f210ce223ec8e2fda1638ad8a929ff2d8"
+    },
+    {
+      "original_path": "images/corsi/manutenzione-calendario/15.png",
+      "placeholder_path": "images/corsi/manutenzione-calendario/15.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/corsi.mdx"
+      ],
+      "caption": "Giulia: una rata incassata e una in attesa prima della rimozione dal corso.",
+      "workflow": "course-calendar-maintenance",
+      "checkpoint": "athlete-installments-and-payments-before-removal",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "a2e18aa71235f3b509dcfd68e1e0a78b878ee9374f93daa869264714eccf58a4"
+    },
+    {
+      "original_path": "images/corsi/manutenzione-calendario/16.png",
+      "placeholder_path": "images/corsi/manutenzione-calendario/16.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/corsi.mdx"
+      ],
+      "caption": "Conferma della rimozione della singola iscrizione; annullamento disponibile.",
+      "workflow": "course-calendar-maintenance",
+      "checkpoint": "athlete-removal-confirmation",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "819c4fe1d9999ad1bf09a11f44247415bdf1b714f32f11ccc300d06e8d7b1786"
+    },
+    {
+      "original_path": "images/corsi/manutenzione-calendario/17.png",
+      "placeholder_path": "images/corsi/manutenzione-calendario/17.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/corsi.mdx"
+      ],
+      "caption": "Iscrizione di Giulia assente dopo la ricarica; Luca rimane iscritto.",
+      "workflow": "course-calendar-maintenance",
+      "checkpoint": "athlete-removed-control-enrollment-preserved",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "83395ce82c94989fcbe68a596565d9b11c6b57b7d3d3de5970821935198ac6c6"
+    },
+    {
+      "original_path": "images/corsi/manutenzione-calendario/18.png",
+      "placeholder_path": "images/corsi/manutenzione-calendario/18.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/corsi.mdx"
+      ],
+      "caption": "Pagamento incassato ancora consultabile; la rata non pagata è stata rimossa.",
+      "workflow": "course-calendar-maintenance",
+      "checkpoint": "paid-payment-after-athlete-removal",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "77a8987ad415ec5e12e40a75c62561dbb66f52ebf23188b0307c7141b430d3ff"
+    },
+    {
+      "original_path": "images/corsi/manutenzione-calendario/19.png",
+      "placeholder_path": "images/corsi/manutenzione-calendario/19.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/corsi.mdx"
+      ],
+      "caption": "Archiviazione distinta dalla cancellazione definitiva del corso.",
+      "workflow": "course-calendar-maintenance",
+      "checkpoint": "archive-course-confirmation",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "69dcdef3619688478ff9040d329789064fac868c3610059b632b0be26b14b4e7"
+    },
+    {
+      "original_path": "images/corsi/manutenzione-calendario/20.png",
+      "placeholder_path": "images/corsi/manutenzione-calendario/20.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/corsi.mdx"
+      ],
+      "caption": "Corso non visibile nell’Archivio, con il comando Elimina Corso disponibile.",
+      "workflow": "course-calendar-maintenance",
+      "checkpoint": "archived-course-before-deletion",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "5b759d6af308a2114e50c2c668602041442bd52d7546d7dbfaee1e34a98c0c70"
+    },
+    {
+      "original_path": "images/corsi/manutenzione-calendario/21.png",
+      "placeholder_path": "images/corsi/manutenzione-calendario/21.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/corsi.mdx"
+      ],
+      "caption": "Conferma della cancellazione definitiva del solo corso dedicato.",
+      "workflow": "course-calendar-maintenance",
+      "checkpoint": "course-delete-confirmation",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "cc0ed887562ef4f6580e2891b2363afca16a20724c30053f1074255a120a6377"
+    },
+    {
+      "original_path": "images/corsi/manutenzione-calendario/22.png",
+      "placeholder_path": "images/corsi/manutenzione-calendario/22.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/corsi.mdx"
+      ],
+      "caption": "Corso assente dall’Archivio dopo la ricarica.",
+      "workflow": "course-calendar-maintenance",
+      "checkpoint": "course-absent-after-reload",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "f1115d56adc7405138903e0eaf6e9f9d14c49a8b0ff106d6b795ba5739bb6a52"
+    },
+    {
+      "original_path": "images/corsi/manutenzione-calendario/23.png",
+      "placeholder_path": "images/corsi/manutenzione-calendario/23.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/corsi.mdx"
+      ],
+      "caption": "Incasso ancora consultabile dopo la cancellazione; quote non pagate del corso assenti.",
+      "workflow": "course-calendar-maintenance",
+      "checkpoint": "paid-payment-after-course-deletion",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "e7ad5738777a989571a2a5a7b4a6426073675df3369b37075d7099302c1e71e8"
     }
   ],
   "summary": {
     "navigation_pages": 43,
     "draft_sections": 507,
-    "svg_placeholders": 441,
+    "svg_placeholders": 505,
     "backlog_entries": 43,
     "backlog_screenshots_requested": 94,
     "referenced_placeholder_paths": 190,
