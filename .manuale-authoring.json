@@ -929,7 +929,7 @@
       "draft_recipes": [
         {
           "path": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-          "sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+          "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
           "section": "indice",
           "status": "pending-capture",
           "verified": false,
@@ -937,7 +937,7 @@
         },
         {
           "path": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-          "sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+          "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
           "section": "attivare-i-pagamenti-a-rate",
           "status": "pending-capture",
           "verified": false,
@@ -945,7 +945,7 @@
         },
         {
           "path": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-          "sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+          "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
           "section": "configurare-le-rate",
           "status": "pending-capture",
           "verified": false,
@@ -953,7 +953,7 @@
         },
         {
           "path": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-          "sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+          "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
           "section": "numero-di-rate",
           "status": "pending-capture",
           "verified": false,
@@ -961,7 +961,7 @@
         },
         {
           "path": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-          "sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+          "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
           "section": "come-configurare-le-rate",
           "status": "pending-capture",
           "verified": false,
@@ -969,7 +969,7 @@
         },
         {
           "path": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-          "sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+          "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
           "section": "esempio-di-configurazione",
           "status": "pending-capture",
           "verified": false,
@@ -977,7 +977,7 @@
         },
         {
           "path": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-          "sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+          "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
           "section": "generazione-automatica-dei-pagamenti",
           "status": "pending-capture",
           "verified": false,
@@ -985,7 +985,7 @@
         },
         {
           "path": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-          "sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+          "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
           "section": "atleta-che-si-iscrive-dopo-le-prime-scadenze",
           "status": "pending-capture",
           "verified": false,
@@ -993,7 +993,7 @@
         },
         {
           "path": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-          "sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+          "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
           "section": "comportamento-predefinito",
           "status": "pending-capture",
           "verified": false,
@@ -1001,7 +1001,7 @@
         },
         {
           "path": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-          "sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+          "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
           "section": "opzione-piano-rate-completo",
           "status": "pending-capture",
           "verified": false,
@@ -1009,7 +1009,7 @@
         },
         {
           "path": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-          "sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+          "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
           "section": "offrire-anche-il-pagamento-in-un-unica-soluzione",
           "status": "pending-capture",
           "verified": false,
@@ -1017,7 +1017,7 @@
         },
         {
           "path": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-          "sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+          "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
           "section": "modificare-il-piano-rate-per-un-singolo-atleta",
           "status": "pending-capture",
           "verified": false,
@@ -1025,7 +1025,7 @@
         },
         {
           "path": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-          "sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+          "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
           "section": "conclusione",
           "status": "pending-capture",
           "verified": false,
@@ -1685,7 +1685,7 @@
       "draft_recipes": [
         {
           "path": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-          "sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+          "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
           "section": "indice",
           "status": "pending-capture",
           "verified": false,
@@ -1693,7 +1693,7 @@
         },
         {
           "path": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-          "sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+          "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
           "section": "prerequisiti",
           "status": "pending-capture",
           "verified": false,
@@ -1701,7 +1701,7 @@
         },
         {
           "path": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-          "sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+          "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
           "section": "collegare-il-tuo-account-stripe",
           "status": "pending-capture",
           "verified": false,
@@ -1709,7 +1709,7 @@
         },
         {
           "path": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-          "sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+          "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
           "section": "verificare-il-collegamento",
           "status": "pending-capture",
           "verified": false,
@@ -1717,7 +1717,7 @@
         },
         {
           "path": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-          "sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+          "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
           "section": "attivare-i-pagamenti-online",
           "status": "pending-capture",
           "verified": false,
@@ -1725,7 +1725,7 @@
         },
         {
           "path": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-          "sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+          "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
           "section": "metodi-di-pagamento-disponibili",
           "status": "pending-capture",
           "verified": false,
@@ -1733,7 +1733,7 @@
         },
         {
           "path": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-          "sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+          "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
           "section": "come-pagano-gli-atleti",
           "status": "pending-capture",
           "verified": false,
@@ -1741,7 +1741,7 @@
         },
         {
           "path": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-          "sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+          "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
           "section": "monitorare-i-pagamenti-stripe",
           "status": "pending-capture",
           "verified": false,
@@ -1749,7 +1749,7 @@
         },
         {
           "path": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-          "sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+          "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
           "section": "commissioni",
           "status": "pending-capture",
           "verified": false,
@@ -1757,7 +1757,7 @@
         },
         {
           "path": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-          "sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+          "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
           "section": "dashboard-di-stripe",
           "status": "pending-capture",
           "verified": false,
@@ -1765,7 +1765,7 @@
         },
         {
           "path": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-          "sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+          "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
           "section": "conclusione",
           "status": "pending-capture",
           "verified": false,
@@ -3209,7 +3209,7 @@
         },
         {
           "path": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-          "sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+          "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
           "section": "funzionamento-dei-corsi-e-personalizzazione",
           "status": "pending-capture",
           "verified": false,
@@ -3225,7 +3225,7 @@
         },
         {
           "path": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-          "sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+          "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
           "section": "corso-con-le-rate",
           "status": "pending-capture",
           "verified": false,
@@ -3233,7 +3233,7 @@
         },
         {
           "path": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-          "sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+          "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
           "section": "corso-con-le-rate-e-pagamento-in-unica-soluzione",
           "status": "pending-capture",
           "verified": false,
@@ -3241,7 +3241,7 @@
         },
         {
           "path": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-          "sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+          "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
           "section": "corso-con-quote-multiple",
           "status": "pending-capture",
           "verified": false,
@@ -3249,7 +3249,7 @@
         },
         {
           "path": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-          "sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+          "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
           "section": "corso-di-tipo-abbonamento",
           "status": "pending-capture",
           "verified": false,
@@ -3257,7 +3257,7 @@
         },
         {
           "path": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-          "sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+          "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
           "section": "validita-dei-corsi",
           "status": "pending-capture",
           "verified": false,
@@ -3265,7 +3265,7 @@
         },
         {
           "path": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-          "sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+          "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
           "section": "gestire-i-corsi",
           "status": "pending-capture",
           "verified": false,
@@ -3305,7 +3305,7 @@
         },
         {
           "path": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-          "sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+          "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
           "section": "lezione-periodica",
           "status": "pending-capture",
           "verified": false,
@@ -3313,7 +3313,7 @@
         },
         {
           "path": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-          "sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+          "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
           "section": "modificare-o-rimuovere-le-lezioni",
           "status": "pending-capture",
           "verified": false,
@@ -3329,7 +3329,7 @@
         },
         {
           "path": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-          "sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+          "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
           "section": "condivisione-del-calendario",
           "status": "pending-capture",
           "verified": false,
@@ -3345,7 +3345,7 @@
         },
         {
           "path": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-          "sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+          "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
           "section": "gestire-i-pagamenti-del-corso",
           "status": "pending-capture",
           "verified": false,
@@ -3353,7 +3353,7 @@
         },
         {
           "path": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-          "sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+          "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
           "section": "dettagli-tecnici-e-casi-particolari",
           "status": "pending-capture",
           "verified": false,
@@ -3361,7 +3361,7 @@
         },
         {
           "path": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-          "sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+          "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
           "section": "giorno-di-addebito-per-gli-abbonamenti",
           "status": "pending-capture",
           "verified": false,
@@ -3369,7 +3369,7 @@
         },
         {
           "path": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-          "sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+          "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
           "section": "prevenzione-pagamenti-duplicati",
           "status": "pending-capture",
           "verified": false,
@@ -3377,7 +3377,7 @@
         },
         {
           "path": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-          "sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+          "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
           "section": "eliminazione-di-un-corso",
           "status": "pending-capture",
           "verified": false,
@@ -3385,7 +3385,7 @@
         },
         {
           "path": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-          "sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+          "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
           "section": "eliminazione-di-un-atleta-dal-corso",
           "status": "pending-capture",
           "verified": false,
@@ -3393,7 +3393,7 @@
         },
         {
           "path": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-          "sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+          "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
           "section": "risorse-correlate",
           "status": "pending-capture",
           "verified": false,
@@ -5009,7 +5009,7 @@
       "draft_recipes": [
         {
           "path": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-          "sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+          "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
           "section": "metodi-di-pagamento",
           "status": "pending-capture",
           "verified": false,
@@ -5017,7 +5017,7 @@
         },
         {
           "path": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-          "sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+          "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
           "section": "tipologie-di-pagamento",
           "status": "pending-capture",
           "verified": false,
@@ -5041,7 +5041,7 @@
         },
         {
           "path": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-          "sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+          "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
           "section": "vincolo-sull-importo",
           "status": "pending-capture",
           "verified": false,
@@ -5049,7 +5049,7 @@
         },
         {
           "path": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-          "sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+          "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
           "section": "eliminare-un-pagamento",
           "status": "pending-capture",
           "verified": false,
@@ -5065,7 +5065,7 @@
         },
         {
           "path": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-          "sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+          "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
           "section": "esportare-i-pagamenti",
           "status": "pending-capture",
           "verified": false,
@@ -5073,7 +5073,7 @@
         },
         {
           "path": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-          "sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+          "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
           "section": "personalizzare-le-colonne-della-tabella",
           "status": "pending-capture",
           "verified": false,
@@ -5081,7 +5081,7 @@
         },
         {
           "path": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-          "sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+          "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
           "section": "come-sollecitare-un-pagamento",
           "status": "pending-capture",
           "verified": false,
@@ -5089,7 +5089,7 @@
         },
         {
           "path": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-          "sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+          "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
           "section": "come-vedere-i-pagamenti-avvenuti-via-stripe",
           "status": "pending-capture",
           "verified": false,
@@ -5097,7 +5097,7 @@
         },
         {
           "path": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-          "sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+          "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
           "section": "gestione-delle-causali",
           "status": "pending-capture",
           "verified": false,
@@ -5105,7 +5105,7 @@
         },
         {
           "path": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-          "sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+          "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
           "section": "causali-detraibili-730",
           "status": "pending-capture",
           "verified": false,
@@ -5113,7 +5113,7 @@
         },
         {
           "path": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-          "sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+          "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
           "section": "risorse-correlate",
           "status": "pending-capture",
           "verified": false,
@@ -5213,7 +5213,7 @@
         },
         {
           "path": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-          "sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+          "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
           "section": "come-posso-inviare-una-ricevuta",
           "status": "pending-capture",
           "verified": false,
@@ -7417,7 +7417,7 @@
       "draft_recipes": [
         {
           "path": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-          "sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+          "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
           "section": "configurare-i-pagamenti-online-con-stripe",
           "status": "pending-capture",
           "verified": false,
@@ -7425,7 +7425,7 @@
         },
         {
           "path": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-          "sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+          "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
           "section": "cosa-serve-per-iniziare",
           "status": "pending-capture",
           "verified": false,
@@ -7433,7 +7433,7 @@
         },
         {
           "path": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-          "sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+          "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
           "section": "come-attivare-stripe",
           "status": "pending-capture",
           "verified": false,
@@ -7441,7 +7441,7 @@
         },
         {
           "path": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-          "sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+          "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
           "section": "come-funziona-per-i-tuoi-atleti",
           "status": "pending-capture",
           "verified": false,
@@ -7449,7 +7449,7 @@
         },
         {
           "path": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-          "sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+          "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
           "section": "domande-frequenti",
           "status": "pending-capture",
           "verified": false,
@@ -7457,7 +7457,7 @@
         },
         {
           "path": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-          "sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+          "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
           "section": "quanto-costa-stripe",
           "status": "pending-capture",
           "verified": false,
@@ -7465,7 +7465,7 @@
         },
         {
           "path": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-          "sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+          "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
           "section": "i-pagamenti-sono-sicuri",
           "status": "pending-capture",
           "verified": false,
@@ -7473,7 +7473,7 @@
         },
         {
           "path": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-          "sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+          "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
           "section": "posso-disattivare-i-pagamenti-online",
           "status": "pending-capture",
           "verified": false,
@@ -13787,16 +13787,70 @@
         "docs/corsi.mdx",
         "tutorials/come-impostare-pagamenti-rateizzati.mdx"
       ],
+      "caption": "Generatore in creazione: tre importi differenti e scadenze corrette, totale 300 euro.",
+      "workflow": "course-installments-manage",
+      "checkpoint": "different-amounts-in-creation-generator",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "012405efc474ed16fa0e0ad5924c713bbafa81e956d770c980f0ecb62568901d"
+    },
+    {
+      "original_path": "images/corsi/piano-rate-reale/4.png",
+      "placeholder_path": "images/corsi/piano-rate-reale/4.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/corsi.mdx",
+        "tutorials/come-impostare-pagamenti-rateizzati.mdx"
+      ],
+      "caption": "Rimozione della terza riga prima di salvare: due rate e totale ricalcolato a 250 euro.",
+      "workflow": "course-installments-manage",
+      "checkpoint": "preparatory-rate-removal-updates-total",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "24dfafd7f30c4ddd61be86eab400b49ddc50b91e0328ee0eb046a7906ab6da92"
+    },
+    {
+      "original_path": "images/corsi/piano-rate-reale/5.png",
+      "placeholder_path": "images/corsi/piano-rate-reale/5.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/corsi.mdx",
+        "tutorials/come-impostare-pagamenti-rateizzati.mdx"
+      ],
+      "caption": "Nuovo piano da 150 e 100 euro con date conservate dopo salvataggio e riapertura.",
+      "workflow": "course-installments-manage",
+      "checkpoint": "creation-alternative-persists-after-reload",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "4bc43291c1ae78dfae2bc3f6bcb524a337a98e65438572886a2f8ed8de061214"
+    },
+    {
+      "original_path": "images/corsi/piano-rate-reale/6.png",
+      "placeholder_path": "images/corsi/piano-rate-reale/6.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/corsi.mdx",
+        "tutorials/come-impostare-pagamenti-rateizzati.mdx"
+      ],
       "caption": "Editor della scheda corso: importi distinti 150, 100 e 50 euro.",
       "workflow": "course-installments-manage",
       "checkpoint": "distinct-amounts-in-course-editor",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "bcef419a230ed1dc38dccff5939b5e1710fd17141a939be85fe50beaf89af48f"
+      "sha256": "2b0d030e5bb81c6dd272f1c202add071751e1be5c93876bbd688d7747c04d05c"
     },
     {
-      "original_path": "images/corsi/piano-rate-reale/4.png",
-      "placeholder_path": "images/corsi/piano-rate-reale/4.placeholder.svg",
+      "original_path": "images/corsi/piano-rate-reale/7.png",
+      "placeholder_path": "images/corsi/piano-rate-reale/7.placeholder.svg",
       "status": "placeholder",
       "verified": false,
       "width": 1920,
@@ -13810,11 +13864,11 @@
       "checkpoint": "distinct-course-plan-persists-after-reload",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "08fc7b3a2917d93a8719078d144406c9b746441263d72af926a12483e196a2e5"
+      "sha256": "e15e4f1fb3cca4d17f0a6d7f9009ba783b0988d299edb4816ffe3fb6e92dd757"
     },
     {
-      "original_path": "images/corsi/piano-rate-reale/5.png",
-      "placeholder_path": "images/corsi/piano-rate-reale/5.placeholder.svg",
+      "original_path": "images/corsi/piano-rate-reale/8.png",
+      "placeholder_path": "images/corsi/piano-rate-reale/8.placeholder.svg",
       "status": "placeholder",
       "verified": false,
       "width": 1920,
@@ -13828,11 +13882,11 @@
       "checkpoint": "explicit-selection-includes-historical-installment",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "666461b536547ea404907e12ff8db7565ff66b5a9b1ed807afd48cf7178d8ad1"
+      "sha256": "ea758ceedc4a8aa5abdf530b47d45d431b2d638e7e7d462e1d6f690f33c40c2c"
     },
     {
-      "original_path": "images/corsi/piano-rate-reale/6.png",
-      "placeholder_path": "images/corsi/piano-rate-reale/6.placeholder.svg",
+      "original_path": "images/corsi/piano-rate-reale/9.png",
+      "placeholder_path": "images/corsi/piano-rate-reale/9.placeholder.svg",
       "status": "placeholder",
       "verified": false,
       "width": 1920,
@@ -13846,11 +13900,29 @@
       "checkpoint": "assigned-installments-and-course-payments",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "334b82f4ada8381fce476fbeaa8a28721a12c993f3fbe613e62bfa021c6935eb"
+      "sha256": "ffccecaf8cd4d7829ac6370eabb74c21e80211092330bd0d73bd26e89f9eedca"
     },
     {
-      "original_path": "images/corsi/piano-rate-reale/7.png",
-      "placeholder_path": "images/corsi/piano-rate-reale/7.placeholder.svg",
+      "original_path": "images/corsi/piano-rate-reale/10.png",
+      "placeholder_path": "images/corsi/piano-rate-reale/10.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/corsi.mdx",
+        "tutorials/come-impostare-pagamenti-rateizzati.mdx"
+      ],
+      "caption": "Iscrizione di Giulia riaperta: tre rate assegnate con scadenze e importi corretti.",
+      "workflow": "course-installments-manage",
+      "checkpoint": "assigned-plan-reopened-for-correct-athlete",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "07b39a7d14b65efb4e71d582cbf8589e48d4eac74951b951bb9a463631edea43"
+    },
+    {
+      "original_path": "images/corsi/piano-rate-reale/11.png",
+      "placeholder_path": "images/corsi/piano-rate-reale/11.placeholder.svg",
       "status": "placeholder",
       "verified": false,
       "width": 1920,
@@ -13864,11 +13936,11 @@
       "checkpoint": "individual-selection-before-update",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "1ac0ca85e4ad195ff472d1d15b63bc3d122a731a2830d4f45782435d2c2d75bf"
+      "sha256": "413e440da72153c32eb20af2ddb6e1a3a48537a698a05e26ed01bdecd7e07ba6"
     },
     {
-      "original_path": "images/corsi/piano-rate-reale/8.png",
-      "placeholder_path": "images/corsi/piano-rate-reale/8.placeholder.svg",
+      "original_path": "images/corsi/piano-rate-reale/12.png",
+      "placeholder_path": "images/corsi/piano-rate-reale/12.placeholder.svg",
       "status": "placeholder",
       "verified": false,
       "width": 1920,
@@ -13882,79 +13954,7 @@
       "checkpoint": "individual-selection-persists-after-reload",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "a68e4253caae20108f71ac2c86f44f054297be1f17e65004186ba820711c325f"
-    },
-    {
-      "original_path": "images/corsi/piano-rate-reale/9.png",
-      "placeholder_path": "images/corsi/piano-rate-reale/9.placeholder.svg",
-      "status": "placeholder",
-      "verified": false,
-      "width": 1920,
-      "height": 1080,
-      "pages": [
-        "docs/corsi.mdx",
-        "tutorials/come-impostare-pagamenti-rateizzati.mdx"
-      ],
-      "caption": "Conferma Assegna piano rate per una sola iscrizione.",
-      "workflow": "course-installments-manage",
-      "checkpoint": "future-plan-operation-confirmation",
-      "planned_from": "docs/manuale/screenshot-plan.json",
-      "placement": "assigned by the workflow authoring recipe",
-      "sha256": "43c03f466b87c6a78d42704c849c5a8a9d8c29520ff9ecfdb69aa79223bfaf80"
-    },
-    {
-      "original_path": "images/corsi/piano-rate-reale/10.png",
-      "placeholder_path": "images/corsi/piano-rate-reale/10.placeholder.svg",
-      "status": "placeholder",
-      "verified": false,
-      "width": 1920,
-      "height": 1080,
-      "pages": [
-        "docs/corsi.mdx",
-        "tutorials/come-impostare-pagamenti-rateizzati.mdx"
-      ],
-      "caption": "Riassegnazione ordinaria: due rate non precedenti all’iscrizione.",
-      "workflow": "course-installments-manage",
-      "checkpoint": "future-plan-persists-after-reload",
-      "planned_from": "docs/manuale/screenshot-plan.json",
-      "placement": "assigned by the workflow authoring recipe",
-      "sha256": "8099ae7f3d7fc8040f1e9fe91b69e88b75435cedc33846f7198d87b6852f441c"
-    },
-    {
-      "original_path": "images/corsi/piano-rate-reale/11.png",
-      "placeholder_path": "images/corsi/piano-rate-reale/11.placeholder.svg",
-      "status": "placeholder",
-      "verified": false,
-      "width": 1920,
-      "height": 1080,
-      "pages": [
-        "docs/corsi.mdx",
-        "tutorials/come-impostare-pagamenti-rateizzati.mdx"
-      ],
-      "caption": "Conferma Assegna piano rate completo per una sola iscrizione.",
-      "workflow": "course-installments-manage",
-      "checkpoint": "full-plan-operation-confirmation",
-      "planned_from": "docs/manuale/screenshot-plan.json",
-      "placement": "assigned by the workflow authoring recipe",
-      "sha256": "79306abec9169adde8c96234cfde9c4245614a2c1763e605c2baceff51b5e89a"
-    },
-    {
-      "original_path": "images/corsi/piano-rate-reale/12.png",
-      "placeholder_path": "images/corsi/piano-rate-reale/12.placeholder.svg",
-      "status": "placeholder",
-      "verified": false,
-      "width": 1920,
-      "height": 1080,
-      "pages": [
-        "docs/corsi.mdx",
-        "tutorials/come-impostare-pagamenti-rateizzati.mdx"
-      ],
-      "caption": "Piano completo: tre rate, compresa quella passata, dopo la ricarica.",
-      "workflow": "course-installments-manage",
-      "checkpoint": "full-plan-persists-after-reload",
-      "planned_from": "docs/manuale/screenshot-plan.json",
-      "placement": "assigned by the workflow authoring recipe",
-      "sha256": "ae2f4c4d8e445af1564d701592560783fe996ab95ea81277bd5f7fe701aa497d"
+      "sha256": "f7ed8338f94513a46c4c595a92de60ee52692ce8bc33a6b0fc36a98e109946f7"
     },
     {
       "original_path": "images/corsi/piano-rate-reale/13.png",
@@ -13967,12 +13967,12 @@
         "docs/corsi.mdx",
         "tutorials/come-impostare-pagamenti-rateizzati.mdx"
       ],
-      "caption": "Conferma del cambio in unica soluzione, senza incasso o addebito online.",
+      "caption": "Aggiunta della rata mancante alla sola iscrizione di Giulia, con data e importo del piano generale.",
       "workflow": "course-installments-manage",
-      "checkpoint": "single-fee-operation-confirmation",
+      "checkpoint": "individual-missing-rate-selected",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "2fafd9534db75efbbbd4b02e896cc3a00d4f9ab5f509ef7c3bd3a9278265a021"
+      "sha256": "b1b27c622e514fa29af09de6106ec9acebc76f1cba5fca673ee6baca57519206"
     },
     {
       "original_path": "images/corsi/piano-rate-reale/14.png",
@@ -13985,12 +13985,12 @@
         "docs/corsi.mdx",
         "tutorials/come-impostare-pagamenti-rateizzati.mdx"
       ],
-      "caption": "Giulia ha la quota unica da 280 euro; Luca mantiene le sue tre rate.",
+      "caption": "Tre rate nella singola iscrizione dopo la riapertura; importi già registrati conservati.",
       "workflow": "course-installments-manage",
-      "checkpoint": "single-fee-and-other-athlete-preserved",
+      "checkpoint": "individual-added-rate-persists-after-reload",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "a04a8a551ed448f80b5531e24fe37bd77fb1377dc75d2d863d7ce9babe58eb29"
+      "sha256": "dcf328963b01310a7cb2b9ba0e5481d4e9a58d7a746f9af364351c28b8180281"
     },
     {
       "original_path": "images/impostazioni/ricevute-tessera-reali/1.png",
@@ -14495,15 +14495,928 @@
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
       "sha256": "5d8e54aa47a959d2fa899dc7fd006cb3e185639983f0d82a8c0a29053c96cdbb"
+    },
+    {
+      "original_path": "images/corsi/piano-rate-reale/15.png",
+      "placeholder_path": "images/corsi/piano-rate-reale/15.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/corsi.mdx",
+        "tutorials/come-impostare-pagamenti-rateizzati.mdx"
+      ],
+      "caption": "Nuovo pagamento della rata aggiunta e quote già collegate da 100 e 50 euro.",
+      "workflow": "course-installments-manage",
+      "checkpoint": "individual-added-rate-and-existing-payment-amounts",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "fdea6be661b0a298e473c4e92852c18b9f411cfa5c1ae3dcf944ccc7c70cccd8"
+    },
+    {
+      "original_path": "images/corsi/piano-rate-reale/16.png",
+      "placeholder_path": "images/corsi/piano-rate-reale/16.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/corsi.mdx",
+        "tutorials/come-impostare-pagamenti-rateizzati.mdx"
+      ],
+      "caption": "Il pagamento individuale conserva 100 euro anche se il modello generale indica 110 euro.",
+      "workflow": "course-installments-manage",
+      "checkpoint": "individual-payment-keeps-recorded-amount",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "d57b405fe86b0a35f24c66eb79d8145c5607709dedbc5e698b0684bf2f29b0ac"
+    },
+    {
+      "original_path": "images/corsi/piano-rate-reale/17.png",
+      "placeholder_path": "images/corsi/piano-rate-reale/17.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/corsi.mdx",
+        "tutorials/come-impostare-pagamenti-rateizzati.mdx"
+      ],
+      "caption": "Conferma Assegna piano rate per una sola iscrizione.",
+      "workflow": "course-installments-manage",
+      "checkpoint": "future-plan-operation-confirmation",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "df7f252d03a29f23e0f4d018b09077718f00da7950281d258d337b57473179e2"
+    },
+    {
+      "original_path": "images/corsi/piano-rate-reale/18.png",
+      "placeholder_path": "images/corsi/piano-rate-reale/18.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/corsi.mdx",
+        "tutorials/come-impostare-pagamenti-rateizzati.mdx"
+      ],
+      "caption": "Riassegnazione ordinaria: due rate non precedenti all’iscrizione.",
+      "workflow": "course-installments-manage",
+      "checkpoint": "future-plan-persists-after-reload",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "937feb5e13cc3cabcc5a6f15b2cd6883b1b0876807df48dc598526b3f4666cc2"
+    },
+    {
+      "original_path": "images/corsi/piano-rate-reale/19.png",
+      "placeholder_path": "images/corsi/piano-rate-reale/19.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/corsi.mdx",
+        "tutorials/come-impostare-pagamenti-rateizzati.mdx"
+      ],
+      "caption": "Conferma Assegna piano rate completo per una sola iscrizione.",
+      "workflow": "course-installments-manage",
+      "checkpoint": "full-plan-operation-confirmation",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "01b02e80db5062aec00f4de4eaa6de63a33483c0e653a8c019f1c50ac0ed80aa"
+    },
+    {
+      "original_path": "images/corsi/piano-rate-reale/20.png",
+      "placeholder_path": "images/corsi/piano-rate-reale/20.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/corsi.mdx",
+        "tutorials/come-impostare-pagamenti-rateizzati.mdx"
+      ],
+      "caption": "Piano completo: tre rate, compresa quella passata, dopo la ricarica.",
+      "workflow": "course-installments-manage",
+      "checkpoint": "full-plan-persists-after-reload",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "0e14f8ce78f4642514b9d46835f94084a752a2c7829bd98f762fdb41c294d71c"
+    },
+    {
+      "original_path": "images/corsi/piano-rate-reale/21.png",
+      "placeholder_path": "images/corsi/piano-rate-reale/21.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/corsi.mdx",
+        "tutorials/come-impostare-pagamenti-rateizzati.mdx"
+      ],
+      "caption": "Conferma del cambio in unica soluzione, senza incasso o addebito online.",
+      "workflow": "course-installments-manage",
+      "checkpoint": "single-fee-operation-confirmation",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "ee372dabe44a4d655d92c3b8cb7108c563e10ac9c3efe529038a992454b9da53"
+    },
+    {
+      "original_path": "images/corsi/piano-rate-reale/22.png",
+      "placeholder_path": "images/corsi/piano-rate-reale/22.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/corsi.mdx",
+        "tutorials/come-impostare-pagamenti-rateizzati.mdx"
+      ],
+      "caption": "Giulia ha la quota unica da 280 euro; Luca mantiene le sue tre rate.",
+      "workflow": "course-installments-manage",
+      "checkpoint": "single-fee-and-other-athlete-preserved",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "6b40efe3927e5346ac859933f8b94f08e4ef9218f70d81784787a3dacb3edd61"
+    },
+    {
+      "original_path": "images/corsi/piano-rate-reale/23.png",
+      "placeholder_path": "images/corsi/piano-rate-reale/23.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/corsi.mdx",
+        "tutorials/come-impostare-pagamenti-rateizzati.mdx"
+      ],
+      "caption": "Nuova iscrizione di prova senza rate esplicitamente selezionate, con piano completo predefinito disattivato.",
+      "workflow": "course-installments-manage",
+      "checkpoint": "ordinary-default-with-no-explicit-rates",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "98e2399ab520ff78465ad7f6800adef360a846db5836c9ea469991ce728218cd"
+    },
+    {
+      "original_path": "images/corsi/piano-rate-reale/24.png",
+      "placeholder_path": "images/corsi/piano-rate-reale/24.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/corsi.mdx",
+        "tutorials/come-impostare-pagamenti-rateizzati.mdx"
+      ],
+      "caption": "Piano predefinito ordinario: le due scadenze future salvate e riaperte.",
+      "workflow": "course-installments-manage",
+      "checkpoint": "ordinary-default-plan-persists-after-reload",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "abb0216e6b094ced191fd1e3df888d8ea9c009880fd91216633494bf89b44ac9"
+    },
+    {
+      "original_path": "images/corsi/piano-rate-reale/25.png",
+      "placeholder_path": "images/corsi/piano-rate-reale/25.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/corsi.mdx",
+        "tutorials/come-impostare-pagamenti-rateizzati.mdx"
+      ],
+      "caption": "Profilo, Generali: impostazione del piano rate completo prima della modifica.",
+      "workflow": "course-installments-manage",
+      "checkpoint": "complete-plan-default-before-change",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "b7c3c6366e302e9afdd2b05b97dbfc30c97323c2cd4502bbfcaf0528bb997a13"
+    },
+    {
+      "original_path": "images/corsi/piano-rate-reale/26.png",
+      "placeholder_path": "images/corsi/piano-rate-reale/26.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/corsi.mdx",
+        "tutorials/come-impostare-pagamenti-rateizzati.mdx"
+      ],
+      "caption": "Assegna piano rate completo di default abilitato, prima di Salva.",
+      "workflow": "course-installments-manage",
+      "checkpoint": "complete-plan-default-before-save",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "325426082e7beaede8a4be0ffa32b6f7d4fed24e06cf4e1ab3353189e4d9de7c"
+    },
+    {
+      "original_path": "images/corsi/piano-rate-reale/27.png",
+      "placeholder_path": "images/corsi/piano-rate-reale/27.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/corsi.mdx",
+        "tutorials/come-impostare-pagamenti-rateizzati.mdx"
+      ],
+      "caption": "Impostazione del piano completo salvata e riaperta; iscrizioni esistenti conservate.",
+      "workflow": "course-installments-manage",
+      "checkpoint": "complete-plan-default-persists-after-reload",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "90a6ffbe1ae0a9cf1838bfa0486e5b73394c20778b595f3b792eac6d85642d0d"
+    },
+    {
+      "original_path": "images/corsi/piano-rate-reale/28.png",
+      "placeholder_path": "images/corsi/piano-rate-reale/28.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/corsi.mdx",
+        "tutorials/come-impostare-pagamenti-rateizzati.mdx"
+      ],
+      "caption": "Nuova iscrizione di prova senza selezione esplicita, con piano completo predefinito abilitato.",
+      "workflow": "course-installments-manage",
+      "checkpoint": "complete-default-with-no-explicit-rates",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "4481ddf0841e87025d87d93bfb49b110f2f5cf87864d0afbd5df1676a70fcb94"
+    },
+    {
+      "original_path": "images/corsi/piano-rate-reale/29.png",
+      "placeholder_path": "images/corsi/piano-rate-reale/29.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/corsi.mdx",
+        "tutorials/come-impostare-pagamenti-rateizzati.mdx"
+      ],
+      "caption": "Piano completo predefinito: tre rate conservate, compresa la scadenza precedente all’iscrizione.",
+      "workflow": "course-installments-manage",
+      "checkpoint": "complete-default-plan-persists-after-reload",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "437a820dcf27659b0025f0480c6370a5598bdc9189d8a7fe86b2c56c7a791ac6"
+    },
+    {
+      "original_path": "images/corsi/piano-rate-reale/30.png",
+      "placeholder_path": "images/corsi/piano-rate-reale/30.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/corsi.mdx",
+        "tutorials/come-impostare-pagamenti-rateizzati.mdx"
+      ],
+      "caption": "Tre pagamenti reali della nuova iscrizione di prova, ancora da incassare.",
+      "workflow": "course-installments-manage",
+      "checkpoint": "complete-default-assignment-and-real-payments",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "3477b9394045779a79472e8df9ddbbec807b6c616423dd678648aba7abe86e68"
+    },
+    {
+      "original_path": "images/corsi/piano-rate-reale/31.png",
+      "placeholder_path": "images/corsi/piano-rate-reale/31.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/corsi.mdx",
+        "tutorials/come-impostare-pagamenti-rateizzati.mdx"
+      ],
+      "caption": "Impostazione originale ripristinata; i piani già assegnati mantengono le proprie rate.",
+      "workflow": "course-installments-manage",
+      "checkpoint": "restored-default-preserves-existing-plans",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "863d26210290e01384d2a5302bef93409842fd6f02d38bef80180a726181798d"
+    },
+    {
+      "original_path": "images/pagamenti/manutenzione-reale/1.png",
+      "placeholder_path": "images/pagamenti/manutenzione-reale/1.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/pagamenti.mdx"
+      ],
+      "caption": "Tre quote associative: importi, stati e date prima delle esportazioni.",
+      "workflow": "payments-maintenance",
+      "checkpoint": "export-baseline-payments",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "ce8f5637055d1edbd0d15eb37a4bbee98b13b8cb5039b8e1376d8feb840e8ac5"
+    },
+    {
+      "original_path": "images/pagamenti/manutenzione-reale/2.png",
+      "placeholder_path": "images/pagamenti/manutenzione-reale/2.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/pagamenti.mdx"
+      ],
+      "caption": "CSV e Excel dall’inizio, distinti dalla ricerca corrente.",
+      "workflow": "payments-maintenance",
+      "checkpoint": "general-export-options",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "43d261bfd84bd41f6617a7eebc136134cb33012255fccd325bef27ef8f7db0e8"
+    },
+    {
+      "original_path": "images/pagamenti/manutenzione-reale/3.png",
+      "placeholder_path": "images/pagamenti/manutenzione-reale/3.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/pagamenti.mdx"
+      ],
+      "caption": "Ricerca di Sara Conti: una sola quota nell’ambito corrente.",
+      "workflow": "payments-maintenance",
+      "checkpoint": "filtered-payment-export",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "04e48d44f60e2eb2c99b5c0a0bcc3f8ed6d0565c5ee5f2edc2aa4786a3bc4db3"
+    },
+    {
+      "original_path": "images/pagamenti/manutenzione-reale/4.png",
+      "placeholder_path": "images/pagamenti/manutenzione-reale/4.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/pagamenti.mdx"
+      ],
+      "caption": "Prima nota: dall’inizio, mese corrente, mese scorso e periodo selezionato.",
+      "workflow": "payments-maintenance",
+      "checkpoint": "petty-cash-period-options",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "cca6cacf22067a1a15c9071c19e71a4827c036ea12dda4a6885bd4829a0b2bd9"
+    },
+    {
+      "original_path": "images/pagamenti/manutenzione-reale/5.png",
+      "placeholder_path": "images/pagamenti/manutenzione-reale/5.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/pagamenti.mdx"
+      ],
+      "caption": "Download reali completati: la ricerca resta visibile e le quote sono invariate.",
+      "workflow": "payments-maintenance",
+      "checkpoint": "downloaded-exports-state-preserved",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "bdbd7a36dd8eacece12a60729263bf4b3cbe48350d9c89bbaa8a7ac851695eb1"
+    },
+    {
+      "original_path": "images/pagamenti/manutenzione-reale/6.png",
+      "placeholder_path": "images/pagamenti/manutenzione-reale/6.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/pagamenti.mdx"
+      ],
+      "caption": "Collaboratore in lettura: ricerca di Sara ed esportazione corrente autorizzata.",
+      "workflow": "payments-maintenance",
+      "checkpoint": "reader-filtered-export",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "8da4f383f78784ddf277996f5ebcfa6124c56e4d270a0e1646ae7664002ccf00"
+    },
+    {
+      "original_path": "images/pagamenti/manutenzione-reale/7.png",
+      "placeholder_path": "images/pagamenti/manutenzione-reale/7.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/pagamenti.mdx"
+      ],
+      "caption": "Scelte delle colonne Pagamenti prima della modifica di Metodo.",
+      "workflow": "payments-maintenance",
+      "checkpoint": "payment-columns-picker",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "a950316dde18a4f40cc4d44f042cd6ee0617f6fb840fc0164b317b271ea3b3d8"
+    },
+    {
+      "original_path": "images/pagamenti/manutenzione-reale/8.png",
+      "placeholder_path": "images/pagamenti/manutenzione-reale/8.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/pagamenti.mdx"
+      ],
+      "caption": "Metodo nascosto nella tabella, con le quote ancora presenti.",
+      "workflow": "payments-maintenance",
+      "checkpoint": "payment-method-column-hidden",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "73373ce71168b718717252e2e817664d69d437b5698d0711c0793ab9c1c79cd5"
+    },
+    {
+      "original_path": "images/pagamenti/manutenzione-reale/9.png",
+      "placeholder_path": "images/pagamenti/manutenzione-reale/9.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/pagamenti.mdx"
+      ],
+      "caption": "Metodo rimane nascosto dopo riapertura e ricaricamento della pagina.",
+      "workflow": "payments-maintenance",
+      "checkpoint": "payment-column-reopened",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "469980a7980148e495c18726d6f543c6e6ef9a7584d92699496d594c4154453c"
+    },
+    {
+      "original_path": "images/pagamenti/manutenzione-reale/10.png",
+      "placeholder_path": "images/pagamenti/manutenzione-reale/10.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/pagamenti.mdx"
+      ],
+      "caption": "Le preferenze del collaboratore restano indipendenti dalla modifica del proprietario.",
+      "workflow": "payments-maintenance",
+      "checkpoint": "reader-columns-preserved",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "de2194512f51fd914bb4d0e96241162f73a60b796c9b279e2806aa9e788090db"
+    },
+    {
+      "original_path": "images/pagamenti/manutenzione-reale/11.png",
+      "placeholder_path": "images/pagamenti/manutenzione-reale/11.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/pagamenti.mdx"
+      ],
+      "caption": "Rata dimostrativa incassata, con ricevuta reale collegata, prima dell’eliminazione.",
+      "workflow": "payments-maintenance",
+      "checkpoint": "owned-linked-payment-before-deletion",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "a202a787c85ac0703c8aa5dd3541cde7bbb63ba8d5f2834e1cf8aca97144dc41"
+    },
+    {
+      "original_path": "images/pagamenti/manutenzione-reale/12.png",
+      "placeholder_path": "images/pagamenti/manutenzione-reale/12.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/pagamenti.mdx"
+      ],
+      "caption": "Conferma dell’eliminazione singola, prima di scegliere Annulla.",
+      "workflow": "payments-maintenance",
+      "checkpoint": "payment-deletion-cancel-confirmation",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "fd9aa6172cbd7beb94dee1281220c2462f0b6b2df8712e3d5a548f8b37c5b98c"
+    },
+    {
+      "original_path": "images/pagamenti/manutenzione-reale/13.png",
+      "placeholder_path": "images/pagamenti/manutenzione-reale/13.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/pagamenti.mdx"
+      ],
+      "caption": "Seconda conferma della rata corretta, prima di scegliere Elimina.",
+      "workflow": "payments-maintenance",
+      "checkpoint": "payment-deletion-confirmation",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "bb7892274cc630e3f363c5bc3c0d2a0d987966c3d2a0277beb1053998fb7a20a"
+    },
+    {
+      "original_path": "images/pagamenti/manutenzione-reale/14.png",
+      "placeholder_path": "images/pagamenti/manutenzione-reale/14.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/pagamenti.mdx"
+      ],
+      "caption": "La quota eliminata non compare dopo il ricaricamento; le altre quote sono conservate.",
+      "workflow": "payments-maintenance",
+      "checkpoint": "deleted-payment-absent-after-reload",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "70e30ec7cff25d71d41516aeed018e7deb50fd7aae450dd56bdc93f7c12a561a"
+    },
+    {
+      "original_path": "images/pagamenti/manutenzione-reale/15.png",
+      "placeholder_path": "images/pagamenti/manutenzione-reale/15.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/pagamenti.mdx"
+      ],
+      "caption": "Ricevuta della rata eliminata indicata come annullata nell’elenco.",
+      "workflow": "payments-maintenance",
+      "checkpoint": "linked-receipt-cancelled",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "1eca7159b9042323a4d0c67755009a60f91bb606b57c652e08cffa00caf1325c"
+    },
+    {
+      "original_path": "images/pagamenti/manutenzione-reale/16.png",
+      "placeholder_path": "images/pagamenti/manutenzione-reale/16.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/pagamenti.mdx"
+      ],
+      "caption": "PDF reale rigenerato dopo l’annullamento, senza collegamenti o token di condivisione.",
+      "workflow": "payments-maintenance",
+      "checkpoint": "regenerated-cancelled-receipt-pdf",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "ce1c8f027f22f7aba7d9f1bf4b6db426a09f27498bca333b8d9f6ae7f010afaa"
+    },
+    {
+      "original_path": "images/pagamenti/manutenzione-reale/17.png",
+      "placeholder_path": "images/pagamenti/manutenzione-reale/17.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/pagamenti.mdx"
+      ],
+      "caption": "Piano della singola iscrizione dopo l’eliminazione: rate, importi e scadenze da controllare separatamente.",
+      "workflow": "payments-maintenance",
+      "checkpoint": "installment-plan-after-payment-deletion",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "4f437b92ef17b2eabf8e0b8b2024f3341d0a912dcb00ab518f4ea5838ea64a9a"
+    },
+    {
+      "original_path": "images/tutorials/esportazioni-reali/1.png",
+      "placeholder_path": "images/tutorials/esportazioni-reali/1.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "tutorials/come-esportare-dati-associazione.mdx"
+      ],
+      "caption": "Libro Soci: esportazione completa in Excel o CSV.",
+      "workflow": "organization-exports",
+      "checkpoint": "book-full-export-menu",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "727386021ab57cbda4d95a1ab9145c4ae0025db8fb5d4f4b4dd7e3cdc04618d6"
+    },
+    {
+      "original_path": "images/tutorials/esportazioni-reali/2.png",
+      "placeholder_path": "images/tutorials/esportazioni-reali/2.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "tutorials/come-esportare-dati-associazione.mdx"
+      ],
+      "caption": "Vista corrente: Excel pronto della ricerca di Sara.",
+      "workflow": "organization-exports",
+      "checkpoint": "book-filtered-excel-ready",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "14cf8646f0ae384f82a9a7fc51cf713563559d9c5103149110d143d565dfc03a"
+    },
+    {
+      "original_path": "images/tutorials/esportazioni-reali/3.png",
+      "placeholder_path": "images/tutorials/esportazioni-reali/3.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "tutorials/come-esportare-dati-associazione.mdx"
+      ],
+      "caption": "Ricerca corrente: pagamento del mese, escluso quello del mese precedente.",
+      "workflow": "organization-exports",
+      "checkpoint": "payment-monthly-search",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "eb11255250236e5e4f761a201997b945ade65e9f8c428b183a463bd6ec9b16c9"
+    },
+    {
+      "original_path": "images/tutorials/esportazioni-reali/4.png",
+      "placeholder_path": "images/tutorials/esportazioni-reali/4.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "tutorials/come-esportare-dati-associazione.mdx"
+      ],
+      "caption": "Esporta pagamenti: voci CSV ed Excel dall’inizio.",
+      "workflow": "organization-exports",
+      "checkpoint": "payment-general-export-menu",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "b3fc9ec5bec2208e02982400d5746910ad31571c5127eea15bfae577c9d8ec37"
+    },
+    {
+      "original_path": "images/tutorials/esportazioni-reali/5.png",
+      "placeholder_path": "images/tutorials/esportazioni-reali/5.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "tutorials/come-esportare-dati-associazione.mdx"
+      ],
+      "caption": "Gestione Dati: elenco disponibile e avvio di un nuovo ZIP.",
+      "workflow": "organization-exports",
+      "checkpoint": "export-management-before-start",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "a319ed185c6312f681429b2a39f63aa391bf3556789ce2918c197a0dc4b7dadc"
+    },
+    {
+      "original_path": "images/tutorials/esportazioni-reali/6.png",
+      "placeholder_path": "images/tutorials/esportazioni-reali/6.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "tutorials/come-esportare-dati-associazione.mdx"
+      ],
+      "caption": "Export completato e ritrovato dopo la ricarica.",
+      "workflow": "organization-exports",
+      "checkpoint": "export-completed-after-reload",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "fbd1a33d78cf360d0f6e8f194998c5069773b9c863045a8b1d6f75e7b6f43dce"
+    },
+    {
+      "original_path": "images/istruttori/compensi-report-reali/1.png",
+      "placeholder_path": "images/istruttori/compensi-report-reali/1.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/istruttori.mdx",
+        "tutorials/come-impostare-gestire-istruttori.mdx"
+      ],
+      "caption": "Compenso Percentuale: corso, 20% e periodo del mese.",
+      "workflow": "instructor-compensation",
+      "checkpoint": "percentage-course-period-selection",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "82417995d3becf698f050a7e22fef9b4d3bfdc9698c707245291f59d618e8d09"
+    },
+    {
+      "original_path": "images/istruttori/compensi-report-reali/2.png",
+      "placeholder_path": "images/istruttori/compensi-report-reali/2.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/istruttori.mdx",
+        "tutorials/come-impostare-gestire-istruttori.mdx"
+      ],
+      "caption": "Calcolo reale sugli incassi saldati del corso.",
+      "workflow": "instructor-compensation",
+      "checkpoint": "percentage-paid-course-calculation",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "5354362163342ece05e9218fcc8fa74dc4da6b2467f1fa363040029c80b6ebb2"
+    },
+    {
+      "original_path": "images/istruttori/compensi-report-reali/3.png",
+      "placeholder_path": "images/istruttori/compensi-report-reali/3.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/istruttori.mdx",
+        "tutorials/come-impostare-gestire-istruttori.mdx"
+      ],
+      "caption": "Esclusa una riga dal compenso, conservando l’incasso originale.",
+      "workflow": "instructor-compensation",
+      "checkpoint": "percentage-exclusion-and-total",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "2aa909f45bf0727231faa1455a2f4df8ff3f029c94ffe9f0a1b2fd19e85b8c53"
+    },
+    {
+      "original_path": "images/istruttori/compensi-report-reali/4.png",
+      "placeholder_path": "images/istruttori/compensi-report-reali/4.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/istruttori.mdx",
+        "tutorials/come-impostare-gestire-istruttori.mdx"
+      ],
+      "caption": "Registrazione percentuale da 24 euro conservata dopo la ricarica.",
+      "workflow": "instructor-compensation",
+      "checkpoint": "percentage-persists-after-reload",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "f527b6a99bdf73477126bab49b4233f4953a24c62a1b79af2b77d4993205d404"
+    },
+    {
+      "original_path": "images/istruttori/compensi-report-reali/5.png",
+      "placeholder_path": "images/istruttori/compensi-report-reali/5.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/istruttori.mdx",
+        "tutorials/come-impostare-gestire-istruttori.mdx"
+      ],
+      "caption": "Righe selezionate per il compenso; esclusa la registrazione già pagata.",
+      "workflow": "instructor-compensation",
+      "checkpoint": "eligible-hours-selected",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "2e6245b333375cf1e5900638ceb5b340081930100d3dad3572f53bbe7379bcbc"
+    },
+    {
+      "original_path": "images/istruttori/compensi-report-reali/6.png",
+      "placeholder_path": "images/istruttori/compensi-report-reali/6.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/istruttori.mdx",
+        "tutorials/come-impostare-gestire-istruttori.mdx"
+      ],
+      "caption": "Conferma dei requisiti prima di creare un’uscita.",
+      "workflow": "instructor-compensation",
+      "checkpoint": "compensation-confirmation",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "55f7062ed85f3de7dc3fa5d0dc7f9ddda0547f751cb952c503fbd2870ada7146"
+    },
+    {
+      "original_path": "images/istruttori/compensi-report-reali/7.png",
+      "placeholder_path": "images/istruttori/compensi-report-reali/7.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/istruttori.mdx",
+        "tutorials/come-impostare-gestire-istruttori.mdx"
+      ],
+      "caption": "Uscita collegata alle due registrazioni non pagate.",
+      "workflow": "instructor-compensation",
+      "checkpoint": "compensation-payment-links-persist",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "5b80c4a73fe05fd43e1e872115c02e95fdf82f868efd8d3370d3e892ef3661d2"
+    },
+    {
+      "original_path": "images/istruttori/compensi-report-reali/8.png",
+      "placeholder_path": "images/istruttori/compensi-report-reali/8.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/istruttori.mdx",
+        "tutorials/come-impostare-gestire-istruttori.mdx"
+      ],
+      "caption": "Pagamenti: uscita di 54 euro per l’istruttore.",
+      "workflow": "instructor-compensation",
+      "checkpoint": "compensation-payment-in-accounting",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "b01e9b3631e18b67f6c49dfc470dfa1df176a818709eebeb142d89f0933b8642"
+    },
+    {
+      "original_path": "images/istruttori/compensi-report-reali/9.png",
+      "placeholder_path": "images/istruttori/compensi-report-reali/9.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/istruttori.mdx",
+        "tutorials/come-impostare-gestire-istruttori.mdx"
+      ],
+      "caption": "Anteprima del PDF reale del compenso, senza collegamenti privati.",
+      "workflow": "instructor-compensation",
+      "checkpoint": "actual-compensation-document",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "d472a23cbf21e3d64598b0618b95c3e80af4fcaa0b9a55de93b63408c4ace687"
+    },
+    {
+      "original_path": "images/istruttori/compensi-report-reali/10.png",
+      "placeholder_path": "images/istruttori/compensi-report-reali/10.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/istruttori.mdx",
+        "tutorials/come-impostare-gestire-istruttori.mdx"
+      ],
+      "caption": "Lezione nota con istruttore e una presenza registrata.",
+      "workflow": "instructor-compensation",
+      "checkpoint": "report-known-attendance-day",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "44ac803c02b825f38a89fb3b5d665879d56ed78e77e2e1e583fb63251ed7018e"
+    },
+    {
+      "original_path": "images/istruttori/compensi-report-reali/11.png",
+      "placeholder_path": "images/istruttori/compensi-report-reali/11.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/istruttori.mdx",
+        "tutorials/come-impostare-gestire-istruttori.mdx"
+      ],
+      "caption": "Stampa Report: periodo del mese scelto prima del download Excel.",
+      "workflow": "instructor-compensation",
+      "checkpoint": "report-period-and-generate",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "6ce07ec1ad55aedd81cd5477a36962813a4c2c5517bf0c374ac5d03fc9461a4a"
+    },
+    {
+      "original_path": "images/istruttori/compensi-report-reali/12.png",
+      "placeholder_path": "images/istruttori/compensi-report-reali/12.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/istruttori.mdx",
+        "tutorials/come-impostare-gestire-istruttori.mdx"
+      ],
+      "caption": "Collaboratore in sola lettura: creazione compenso e modifica disabilitate.",
+      "workflow": "instructor-compensation",
+      "checkpoint": "reader-compensation-controls",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "825f2222b3de6845914cb09c82b64b8bb820ff4282a2f88169a1855c2fe54c83"
     }
   ],
   "summary": {
     "navigation_pages": 43,
     "draft_sections": 507,
-    "svg_placeholders": 356,
+    "svg_placeholders": 408,
     "backlog_entries": 43,
     "backlog_screenshots_requested": 94,
-    "referenced_placeholder_paths": 177,
+    "referenced_placeholder_paths": 190,
     "rewritten_sections": 507
   },
   "screenshot_backlog": [

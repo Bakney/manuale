@@ -2356,428 +2356,733 @@
       "title": "Funzionamento dei corsi e personalizzazione",
       "content_sha256": "2e0edad0a3f6f8cfe888a4979b0e655d5ba159867660e9231e864f4ca4533ad4",
       "recipe_module": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-      "recipe_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
-      "content_source": "authored-mdx"
+      "recipe_sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+      "content_source": "authored-mdx",
+      "recipe_review": {
+        "previous_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+        "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+        "purpose": "editorial-review-only"
+      }
     },
     "docs/corsi.mdx#corso-con-le-rate": {
       "title": "Corso con le rate",
       "content_sha256": "34784f582223a279f7481bad8eb0893ee1a52ab0257bc4f5f382927f816e23de",
       "recipe_module": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-      "recipe_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
-      "content_source": "authored-mdx"
+      "recipe_sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+      "content_source": "authored-mdx",
+      "recipe_review": {
+        "previous_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+        "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+        "purpose": "editorial-review-only"
+      }
     },
     "docs/corsi.mdx#corso-con-le-rate-e-pagamento-in-unica-soluzione": {
       "title": "Corso con le rate e pagamento in unica soluzione",
       "content_sha256": "d7f90260aeb1f28a66838135426c02523fe2efe2bc5df729f711700114d1d8d3",
       "recipe_module": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-      "recipe_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
-      "content_source": "authored-mdx"
+      "recipe_sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+      "content_source": "authored-mdx",
+      "recipe_review": {
+        "previous_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+        "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+        "purpose": "editorial-review-only"
+      }
     },
     "docs/corsi.mdx#corso-con-quote-multiple": {
       "title": "Corso con quote multiple",
       "content_sha256": "c3a75e757d9debe3b752cac7549f7ad792e9ce0725b4521de8692dbf5cd3b4af",
       "recipe_module": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-      "recipe_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
-      "content_source": "authored-mdx"
+      "recipe_sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+      "content_source": "authored-mdx",
+      "recipe_review": {
+        "previous_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+        "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+        "purpose": "editorial-review-only"
+      }
     },
     "docs/corsi.mdx#corso-di-tipo-abbonamento": {
       "title": "Corso di tipo Abbonamento",
       "content_sha256": "f9494c834abda2d9d1deed3008bc338e5bea3832d2f18f0be8bef8d4b7231b24",
       "recipe_module": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-      "recipe_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
-      "content_source": "authored-mdx"
+      "recipe_sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+      "content_source": "authored-mdx",
+      "recipe_review": {
+        "previous_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+        "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+        "purpose": "editorial-review-only"
+      }
     },
     "docs/corsi.mdx#validita-dei-corsi": {
       "title": "Validità dei corsi",
       "content_sha256": "b8b74057e637671ac669889109fe78f1f8ecb481ddb3051fe02a664ee23b1b1b",
       "recipe_module": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-      "recipe_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
-      "content_source": "authored-mdx"
+      "recipe_sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+      "content_source": "authored-mdx",
+      "recipe_review": {
+        "previous_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+        "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+        "purpose": "editorial-review-only"
+      }
     },
     "docs/corsi.mdx#gestire-i-corsi": {
       "title": "Gestire i corsi",
       "content_sha256": "895321ce3356778eac01ec9fc2d11299533a4fbfa12b651a2b781aa475b120a4",
       "recipe_module": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-      "recipe_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
-      "content_source": "authored-mdx"
+      "recipe_sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+      "content_source": "authored-mdx",
+      "recipe_review": {
+        "previous_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+        "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+        "purpose": "editorial-review-only"
+      }
     },
     "docs/corsi.mdx#lezione-periodica": {
       "title": "Lezione periodica",
       "content_sha256": "0089f199eb5edaaa72c21ce82e20958edafcfeba42de614f7f3cfcfe032227a2",
       "recipe_module": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-      "recipe_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
-      "content_source": "authored-mdx"
+      "recipe_sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+      "content_source": "authored-mdx",
+      "recipe_review": {
+        "previous_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+        "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+        "purpose": "editorial-review-only"
+      }
     },
     "docs/corsi.mdx#modificare-o-rimuovere-le-lezioni": {
       "title": "Modificare o rimuovere le lezioni",
       "content_sha256": "bb42e48bc68e717588af72989dad0c996b4e435b4bdae258c52d9f56dbcbdd06",
       "recipe_module": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-      "recipe_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
-      "content_source": "authored-mdx"
+      "recipe_sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+      "content_source": "authored-mdx",
+      "recipe_review": {
+        "previous_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+        "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+        "purpose": "editorial-review-only"
+      }
     },
     "docs/corsi.mdx#condivisione-del-calendario": {
       "title": "Condivisione del calendario",
       "content_sha256": "19a034068edf4e90e740958f20821821b21a57d7b18ccbf387001bdc07ec60ec",
       "recipe_module": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-      "recipe_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
-      "content_source": "authored-mdx"
+      "recipe_sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+      "content_source": "authored-mdx",
+      "recipe_review": {
+        "previous_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+        "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+        "purpose": "editorial-review-only"
+      }
     },
     "docs/corsi.mdx#gestire-i-pagamenti-del-corso": {
       "title": "Gestire i pagamenti del corso",
       "content_sha256": "29582b0e3a29a74bffac962cf99fcbc662c0caf2f9615bfaabb140fb28bc4186",
       "recipe_module": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-      "recipe_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
-      "content_source": "authored-mdx"
+      "recipe_sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+      "content_source": "authored-mdx",
+      "recipe_review": {
+        "previous_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+        "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+        "purpose": "editorial-review-only"
+      }
     },
     "docs/corsi.mdx#dettagli-tecnici-e-casi-particolari": {
       "title": "Dettagli tecnici e casi particolari",
       "content_sha256": "23da5e6a966562a0dfcf9dfd9abf44124943b0829231933c4659c94990210e83",
       "recipe_module": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-      "recipe_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
-      "content_source": "authored-mdx"
+      "recipe_sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+      "content_source": "authored-mdx",
+      "recipe_review": {
+        "previous_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+        "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+        "purpose": "editorial-review-only"
+      }
     },
     "docs/corsi.mdx#giorno-di-addebito-per-gli-abbonamenti": {
       "title": "Giorno di addebito per gli abbonamenti",
       "content_sha256": "16275da532bab1094a2560311ee7ea4caef81e4da268f3e958c7be120536f73a",
       "recipe_module": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-      "recipe_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
-      "content_source": "authored-mdx"
+      "recipe_sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+      "content_source": "authored-mdx",
+      "recipe_review": {
+        "previous_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+        "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+        "purpose": "editorial-review-only"
+      }
     },
     "docs/corsi.mdx#prevenzione-pagamenti-duplicati": {
       "title": "Prevenzione pagamenti duplicati",
       "content_sha256": "63ed242afe4d720d7f723554e166139d8dc7b708bf74c9d021a7c118f0a08018",
       "recipe_module": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-      "recipe_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
-      "content_source": "authored-mdx"
+      "recipe_sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+      "content_source": "authored-mdx",
+      "recipe_review": {
+        "previous_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+        "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+        "purpose": "editorial-review-only"
+      }
     },
     "docs/corsi.mdx#eliminazione-di-un-corso": {
       "title": "Eliminazione di un corso",
       "content_sha256": "8ff946d9311c04f682a52a75c58040ade6359bc67d09f229de548096d4858add",
       "recipe_module": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-      "recipe_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
-      "content_source": "authored-mdx"
+      "recipe_sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+      "content_source": "authored-mdx",
+      "recipe_review": {
+        "previous_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+        "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+        "purpose": "editorial-review-only"
+      }
     },
     "docs/corsi.mdx#eliminazione-di-un-atleta-dal-corso": {
       "title": "Eliminazione di un atleta dal corso",
       "content_sha256": "84f6cd52309f45b971eac17971ce4e6961001c82401efd7edc3571c010c0f40e",
       "recipe_module": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-      "recipe_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
-      "content_source": "authored-mdx"
+      "recipe_sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+      "content_source": "authored-mdx",
+      "recipe_review": {
+        "previous_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+        "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+        "purpose": "editorial-review-only"
+      }
     },
     "docs/corsi.mdx#risorse-correlate": {
       "title": "Risorse correlate",
       "content_sha256": "fd415a82286435f1a446951d485d484f96b6ddca78bd51cd9545affc2961c65d",
       "recipe_module": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-      "recipe_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
-      "content_source": "authored-mdx"
+      "recipe_sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+      "content_source": "authored-mdx",
+      "recipe_review": {
+        "previous_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+        "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+        "purpose": "editorial-review-only"
+      }
     },
     "tutorials/come-impostare-pagamenti-rateizzati.mdx#indice": {
       "title": "Indice",
       "content_sha256": "0efc6c8c01d1c3dc2c757fd46c5a9155b1e7876c0461737dbb3e624c69502dae",
       "recipe_module": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-      "recipe_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
-      "content_source": "authored-mdx"
+      "recipe_sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+      "content_source": "authored-mdx",
+      "recipe_review": {
+        "previous_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+        "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+        "purpose": "editorial-review-only"
+      }
     },
     "tutorials/come-impostare-pagamenti-rateizzati.mdx#attivare-i-pagamenti-a-rate": {
       "title": "Attivare i pagamenti a rate",
       "content_sha256": "2b59f8afaa8d2c4023ac60353eb820f23bbd3faa525ed6a00e411fbdd9093d6a",
       "recipe_module": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-      "recipe_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
-      "content_source": "authored-mdx"
+      "recipe_sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+      "content_source": "authored-mdx",
+      "recipe_review": {
+        "previous_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+        "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+        "purpose": "editorial-review-only"
+      }
     },
     "tutorials/come-impostare-pagamenti-rateizzati.mdx#configurare-le-rate": {
       "title": "Configurare le rate",
       "content_sha256": "b25cedfb7c3fcbf0e7f3515fd4237126ab7244ebc2e679260cb2206f099d1fc2",
       "recipe_module": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-      "recipe_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
-      "content_source": "authored-mdx"
+      "recipe_sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+      "content_source": "authored-mdx",
+      "recipe_review": {
+        "previous_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+        "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+        "purpose": "editorial-review-only"
+      }
     },
     "tutorials/come-impostare-pagamenti-rateizzati.mdx#numero-di-rate": {
       "title": "Numero di rate",
       "content_sha256": "30552239249d3811d7fc80621959b460a9ca0cb77371707b3a3b37d71eeb4517",
       "recipe_module": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-      "recipe_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
-      "content_source": "authored-mdx"
+      "recipe_sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+      "content_source": "authored-mdx",
+      "recipe_review": {
+        "previous_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+        "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+        "purpose": "editorial-review-only"
+      }
     },
     "tutorials/come-impostare-pagamenti-rateizzati.mdx#come-configurare-le-rate": {
       "title": "Come configurare le rate",
       "content_sha256": "2910d0fa0e4c41cf67843ba23bc732eff23a00849a72bbd6023f66105936e477",
       "recipe_module": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-      "recipe_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
-      "content_source": "authored-mdx"
+      "recipe_sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+      "content_source": "authored-mdx",
+      "recipe_review": {
+        "previous_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+        "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+        "purpose": "editorial-review-only"
+      }
     },
     "tutorials/come-impostare-pagamenti-rateizzati.mdx#esempio-di-configurazione": {
       "title": "Esempio di configurazione",
       "content_sha256": "64975c0abebe820abc5b82046fb4e512239fa19e10d4f4da27125035f4341b48",
       "recipe_module": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-      "recipe_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
-      "content_source": "authored-mdx"
+      "recipe_sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+      "content_source": "authored-mdx",
+      "recipe_review": {
+        "previous_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+        "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+        "purpose": "editorial-review-only"
+      }
     },
     "tutorials/come-impostare-pagamenti-rateizzati.mdx#generazione-automatica-dei-pagamenti": {
       "title": "Generazione automatica dei pagamenti",
       "content_sha256": "15e0366f7e7dffaf428e48e7a2dcc020a98bd556c1647853334f1521f7522170",
       "recipe_module": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-      "recipe_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
-      "content_source": "authored-mdx"
+      "recipe_sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+      "content_source": "authored-mdx",
+      "recipe_review": {
+        "previous_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+        "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+        "purpose": "editorial-review-only"
+      }
     },
     "tutorials/come-impostare-pagamenti-rateizzati.mdx#atleta-che-si-iscrive-dopo-le-prime-scadenze": {
       "title": "Atleta che si iscrive dopo le prime scadenze",
       "content_sha256": "79b656c1c2307a7a891fd114251aba174f78271f14ae06ac0a411afcccd0ce12",
       "recipe_module": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-      "recipe_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
-      "content_source": "authored-mdx"
+      "recipe_sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+      "content_source": "authored-mdx",
+      "recipe_review": {
+        "previous_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+        "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+        "purpose": "editorial-review-only"
+      }
     },
     "tutorials/come-impostare-pagamenti-rateizzati.mdx#comportamento-predefinito": {
       "title": "Comportamento predefinito",
       "content_sha256": "47e3424256f63e56897a346fb182174e6c3b3d429c13daa1ee1f574eda526eee",
       "recipe_module": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-      "recipe_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
-      "content_source": "authored-mdx"
+      "recipe_sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+      "content_source": "authored-mdx",
+      "recipe_review": {
+        "previous_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+        "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+        "purpose": "editorial-review-only"
+      }
     },
     "tutorials/come-impostare-pagamenti-rateizzati.mdx#opzione-piano-rate-completo": {
       "title": "Opzione \"Piano rate completo\"",
       "content_sha256": "1f0da4c0fdbb2d666822b0508f18b6f1c40784e6ba11f99264cc32000c79a73f",
       "recipe_module": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-      "recipe_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
-      "content_source": "authored-mdx"
+      "recipe_sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+      "content_source": "authored-mdx",
+      "recipe_review": {
+        "previous_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+        "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+        "purpose": "editorial-review-only"
+      }
     },
     "tutorials/come-impostare-pagamenti-rateizzati.mdx#offrire-anche-il-pagamento-in-un-unica-soluzione": {
       "title": "Offrire anche il pagamento in un'unica soluzione",
       "content_sha256": "48fb7c46da83605f2b32a9db89ccf6cb01d1714f8bea198f8b05b9be52fb2cdf",
       "recipe_module": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-      "recipe_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
-      "content_source": "authored-mdx"
+      "recipe_sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+      "content_source": "authored-mdx",
+      "recipe_review": {
+        "previous_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+        "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+        "purpose": "editorial-review-only"
+      }
     },
     "tutorials/come-impostare-pagamenti-rateizzati.mdx#modificare-il-piano-rate-per-un-singolo-atleta": {
       "title": "Modificare il piano rate per un singolo atleta",
       "content_sha256": "690c1d0bcb49ea918c752fd8b9d12e06db4601f2315a2fcce0215ec08e812b6f",
       "recipe_module": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-      "recipe_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
-      "content_source": "authored-mdx"
+      "recipe_sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+      "content_source": "authored-mdx",
+      "recipe_review": {
+        "previous_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+        "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+        "purpose": "editorial-review-only"
+      }
     },
     "tutorials/come-impostare-pagamenti-rateizzati.mdx#conclusione": {
       "title": "Conclusione",
       "content_sha256": "35fc8c2e1d87f24b89e38bd24c6a45a50b5a1008d2e36d808d6dfb75c60692ee",
       "recipe_module": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-      "recipe_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
-      "content_source": "authored-mdx"
+      "recipe_sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+      "content_source": "authored-mdx",
+      "recipe_review": {
+        "previous_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+        "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+        "purpose": "editorial-review-only"
+      }
     },
     "docs/pagamenti.mdx#metodi-di-pagamento": {
       "title": "Metodi di pagamento",
       "content_sha256": "1720edc67e933980485f2702ba08b214001eba269b377a527c64d00664b48014",
       "recipe_module": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-      "recipe_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
-      "content_source": "authored-mdx"
+      "recipe_sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+      "content_source": "authored-mdx",
+      "recipe_review": {
+        "previous_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+        "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+        "purpose": "editorial-review-only"
+      }
     },
     "docs/pagamenti.mdx#tipologie-di-pagamento": {
       "title": "Tipologie di pagamento",
       "content_sha256": "de2298e4a4668ad456b3b6bdcfc10b22bf48ae2db3befb79af02a6d2cc21fcdd",
       "recipe_module": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-      "recipe_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
-      "content_source": "authored-mdx"
+      "recipe_sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+      "content_source": "authored-mdx",
+      "recipe_review": {
+        "previous_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+        "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+        "purpose": "editorial-review-only"
+      }
     },
     "docs/pagamenti.mdx#vincolo-sull-importo": {
       "title": "Vincolo sull'importo",
       "content_sha256": "bee313952d49ecc99533bd67330e0ad5c86335a5e4fedc8bdfe8ffe8b0efe857",
       "recipe_module": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-      "recipe_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
-      "content_source": "authored-mdx"
+      "recipe_sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+      "content_source": "authored-mdx",
+      "recipe_review": {
+        "previous_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+        "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+        "purpose": "editorial-review-only"
+      }
     },
     "docs/pagamenti.mdx#eliminare-un-pagamento": {
       "title": "Eliminare un pagamento",
       "content_sha256": "879d0af83d4eaae0341019987dcff14529cf7e584fd211a053a7dbf82ee1060b",
       "recipe_module": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-      "recipe_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
-      "content_source": "authored-mdx"
+      "recipe_sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+      "content_source": "authored-mdx",
+      "recipe_review": {
+        "previous_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+        "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+        "purpose": "editorial-review-only"
+      }
     },
     "docs/pagamenti.mdx#esportare-i-pagamenti": {
       "title": "Esportare i pagamenti",
       "content_sha256": "d7d8f571f4cd7f0bbaee580044b2f46ed57d50e5c327b4501bd815f9fafbbb2b",
       "recipe_module": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-      "recipe_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
-      "content_source": "authored-mdx"
+      "recipe_sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+      "content_source": "authored-mdx",
+      "recipe_review": {
+        "previous_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+        "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+        "purpose": "editorial-review-only"
+      }
     },
     "docs/pagamenti.mdx#personalizzare-le-colonne-della-tabella": {
       "title": "Personalizzare le colonne della tabella",
       "content_sha256": "83044a2378d9acfef40809e9c20a38a79423b85368fbce6eb7be4a13897b739e",
       "recipe_module": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-      "recipe_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
-      "content_source": "authored-mdx"
+      "recipe_sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+      "content_source": "authored-mdx",
+      "recipe_review": {
+        "previous_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+        "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+        "purpose": "editorial-review-only"
+      }
     },
     "docs/pagamenti.mdx#come-sollecitare-un-pagamento": {
       "title": "Come sollecitare un pagamento",
       "content_sha256": "0ca4be1c3ef08e85591d30b4afc0f2216e85f48fb9567c13a34c091ee6490339",
       "recipe_module": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-      "recipe_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
-      "content_source": "authored-mdx"
+      "recipe_sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+      "content_source": "authored-mdx",
+      "recipe_review": {
+        "previous_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+        "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+        "purpose": "editorial-review-only"
+      }
     },
     "docs/pagamenti.mdx#come-vedere-i-pagamenti-avvenuti-via-stripe": {
       "title": "Come vedere i pagamenti avvenuti via Stripe",
       "content_sha256": "5393d653d43059fc74d3d3e1f12f10bf34a707b59c2fb8c8ce1adb08c09cf5d5",
       "recipe_module": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-      "recipe_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
-      "content_source": "authored-mdx"
+      "recipe_sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+      "content_source": "authored-mdx",
+      "recipe_review": {
+        "previous_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+        "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+        "purpose": "editorial-review-only"
+      }
     },
     "docs/pagamenti.mdx#gestione-delle-causali": {
       "title": "Gestione delle causali",
       "content_sha256": "c414d3685f7cab816a3f9ab11a06ecf264ec8a83440063a4d6277124628fec59",
       "recipe_module": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-      "recipe_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
-      "content_source": "authored-mdx"
+      "recipe_sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+      "content_source": "authored-mdx",
+      "recipe_review": {
+        "previous_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+        "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+        "purpose": "editorial-review-only"
+      }
     },
     "docs/pagamenti.mdx#causali-detraibili-730": {
       "title": "Causali detraibili 730",
       "content_sha256": "e6625c1e7987b220c1fd9fba2593b9a760bd818e6e1f24ccc8ced9fe2bfc7297",
       "recipe_module": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-      "recipe_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
-      "content_source": "authored-mdx"
+      "recipe_sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+      "content_source": "authored-mdx",
+      "recipe_review": {
+        "previous_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+        "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+        "purpose": "editorial-review-only"
+      }
     },
     "docs/pagamenti.mdx#risorse-correlate": {
       "title": "Risorse correlate",
       "content_sha256": "07f8e3a580811c85f56d804102ea9d76ad0f3a586d6d0ee997bba839c66c039c",
       "recipe_module": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-      "recipe_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
-      "content_source": "authored-mdx"
+      "recipe_sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+      "content_source": "authored-mdx",
+      "recipe_review": {
+        "previous_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+        "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+        "purpose": "editorial-review-only"
+      }
     },
     "docs/ricevute.mdx#come-posso-inviare-una-ricevuta": {
       "title": "Come posso inviare una ricevuta?",
       "content_sha256": "65d544f53c43834d353c557fa7f94d47eb6fc8294117410dd4b16e1713cd9d0f",
       "recipe_module": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-      "recipe_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
-      "content_source": "authored-mdx"
+      "recipe_sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+      "content_source": "authored-mdx",
+      "recipe_review": {
+        "previous_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+        "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+        "purpose": "editorial-review-only"
+      }
     },
     "tutorials/come-impostare-stripe-pagamenti-online.mdx#indice": {
       "title": "Indice",
       "content_sha256": "fbdffe3f8283ddce9f203628af95aab89035711275fa2644f3b1365e06d01c1a",
       "recipe_module": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-      "recipe_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
-      "content_source": "authored-mdx"
+      "recipe_sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+      "content_source": "authored-mdx",
+      "recipe_review": {
+        "previous_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+        "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+        "purpose": "editorial-review-only"
+      }
     },
     "tutorials/come-impostare-stripe-pagamenti-online.mdx#prerequisiti": {
       "title": "Prerequisiti",
       "content_sha256": "1ff0c22a9d12c280158506775d526a06eb73784f1e03bab0942c2af8fe739f24",
       "recipe_module": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-      "recipe_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
-      "content_source": "authored-mdx"
+      "recipe_sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+      "content_source": "authored-mdx",
+      "recipe_review": {
+        "previous_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+        "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+        "purpose": "editorial-review-only"
+      }
     },
     "tutorials/come-impostare-stripe-pagamenti-online.mdx#collegare-il-tuo-account-stripe": {
       "title": "Collegare il tuo account Stripe",
       "content_sha256": "9969c30674f4dc63e7cae3f8fcf23c1a88e52bec3f201ca96c3e0b5c983cbf5f",
       "recipe_module": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-      "recipe_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
-      "content_source": "authored-mdx"
+      "recipe_sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+      "content_source": "authored-mdx",
+      "recipe_review": {
+        "previous_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+        "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+        "purpose": "editorial-review-only"
+      }
     },
     "tutorials/come-impostare-stripe-pagamenti-online.mdx#verificare-il-collegamento": {
       "title": "Verificare il collegamento",
       "content_sha256": "7e6afaa41b567c9a32ba0aca5c852cf4af137aaafc6ca7f35d338d100bf119d8",
       "recipe_module": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-      "recipe_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
-      "content_source": "authored-mdx"
+      "recipe_sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+      "content_source": "authored-mdx",
+      "recipe_review": {
+        "previous_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+        "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+        "purpose": "editorial-review-only"
+      }
     },
     "tutorials/come-impostare-stripe-pagamenti-online.mdx#attivare-i-pagamenti-online": {
       "title": "Attivare i pagamenti online",
       "content_sha256": "9b57b0db5c07d6912f7c1928fffb8d44663d2014e146c431a6cf01b095c32508",
       "recipe_module": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-      "recipe_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
-      "content_source": "authored-mdx"
+      "recipe_sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+      "content_source": "authored-mdx",
+      "recipe_review": {
+        "previous_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+        "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+        "purpose": "editorial-review-only"
+      }
     },
     "tutorials/come-impostare-stripe-pagamenti-online.mdx#metodi-di-pagamento-disponibili": {
       "title": "Metodi di pagamento disponibili",
       "content_sha256": "623667565fbf50eeffe61cf9d27749989a333e26b1f4d18965f34d49af3302a5",
       "recipe_module": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-      "recipe_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
-      "content_source": "authored-mdx"
+      "recipe_sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+      "content_source": "authored-mdx",
+      "recipe_review": {
+        "previous_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+        "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+        "purpose": "editorial-review-only"
+      }
     },
     "tutorials/come-impostare-stripe-pagamenti-online.mdx#come-pagano-gli-atleti": {
       "title": "Come pagano gli atleti",
       "content_sha256": "78b20a221c300b74e72c8986964916b5fdd5cf71fb8898de0e264dff448c8db3",
       "recipe_module": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-      "recipe_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
-      "content_source": "authored-mdx"
+      "recipe_sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+      "content_source": "authored-mdx",
+      "recipe_review": {
+        "previous_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+        "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+        "purpose": "editorial-review-only"
+      }
     },
     "tutorials/come-impostare-stripe-pagamenti-online.mdx#monitorare-i-pagamenti-stripe": {
       "title": "Monitorare i pagamenti Stripe",
       "content_sha256": "c7f31acd332a433ecfde6a4c218d43d15246cb452d6f0566a21f5304fd815fc4",
       "recipe_module": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-      "recipe_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
-      "content_source": "authored-mdx"
+      "recipe_sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+      "content_source": "authored-mdx",
+      "recipe_review": {
+        "previous_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+        "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+        "purpose": "editorial-review-only"
+      }
     },
     "tutorials/come-impostare-stripe-pagamenti-online.mdx#commissioni": {
       "title": "Commissioni",
       "content_sha256": "8fe8bf40a8996705a4620b59afa0191b4264489b3cc344b9e38a5495966851af",
       "recipe_module": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-      "recipe_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
-      "content_source": "authored-mdx"
+      "recipe_sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+      "content_source": "authored-mdx",
+      "recipe_review": {
+        "previous_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+        "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+        "purpose": "editorial-review-only"
+      }
     },
     "tutorials/come-impostare-stripe-pagamenti-online.mdx#dashboard-di-stripe": {
       "title": "Dashboard di Stripe",
       "content_sha256": "a9b7235ec95c54c74a1c35c0373a7970efb36fdf77c0414ce03a01ab35bd71a6",
       "recipe_module": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-      "recipe_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
-      "content_source": "authored-mdx"
+      "recipe_sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+      "content_source": "authored-mdx",
+      "recipe_review": {
+        "previous_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+        "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+        "purpose": "editorial-review-only"
+      }
     },
     "tutorials/come-impostare-stripe-pagamenti-online.mdx#conclusione": {
       "title": "Conclusione",
       "content_sha256": "ef1b86f5385a2162b5f4bfe7d607c59cc66e1e4911261da461fb7f3135a94112",
       "recipe_module": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-      "recipe_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
-      "content_source": "authored-mdx"
+      "recipe_sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+      "content_source": "authored-mdx",
+      "recipe_review": {
+        "previous_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+        "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+        "purpose": "editorial-review-only"
+      }
     },
     "faq/come-configurare-i-pagamenti-online.mdx#configurare-i-pagamenti-online-con-stripe": {
       "title": "Configurare i pagamenti online con Stripe",
       "content_sha256": "1dff9ff8b61dfce155c7e51f91bba4834fbd6650292935fe9b1a4712e834f071",
       "recipe_module": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-      "recipe_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
-      "content_source": "authored-mdx"
+      "recipe_sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+      "content_source": "authored-mdx",
+      "recipe_review": {
+        "previous_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+        "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+        "purpose": "editorial-review-only"
+      }
     },
     "faq/come-configurare-i-pagamenti-online.mdx#cosa-serve-per-iniziare": {
       "title": "Cosa serve per iniziare?",
       "content_sha256": "2a22c3faa3ab9d39e5c4d2cf3bad8360bd078063069ce52f77128c5496d39d42",
       "recipe_module": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-      "recipe_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
-      "content_source": "authored-mdx"
+      "recipe_sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+      "content_source": "authored-mdx",
+      "recipe_review": {
+        "previous_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+        "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+        "purpose": "editorial-review-only"
+      }
     },
     "faq/come-configurare-i-pagamenti-online.mdx#come-attivare-stripe": {
       "title": "Come attivare Stripe",
       "content_sha256": "c378405efb563a39a9b8fcb10b2cadff5c8c63171fd800bdf92544220faadf5f",
       "recipe_module": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-      "recipe_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
-      "content_source": "authored-mdx"
+      "recipe_sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+      "content_source": "authored-mdx",
+      "recipe_review": {
+        "previous_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+        "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+        "purpose": "editorial-review-only"
+      }
     },
     "faq/come-configurare-i-pagamenti-online.mdx#come-funziona-per-i-tuoi-atleti": {
       "title": "Come funziona per i tuoi atleti?",
       "content_sha256": "345fcc25d9fa2b9c5e5dfc5c22b7febae1ef7fec674f80d70c3448e6218cef75",
       "recipe_module": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-      "recipe_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
-      "content_source": "authored-mdx"
+      "recipe_sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+      "content_source": "authored-mdx",
+      "recipe_review": {
+        "previous_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+        "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+        "purpose": "editorial-review-only"
+      }
     },
     "faq/come-configurare-i-pagamenti-online.mdx#domande-frequenti": {
       "title": "Domande frequenti",
       "content_sha256": "7cf2aea3c07f75fcb5369a99527346c7cb031148f26d92e3b844558507e62ade",
       "recipe_module": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-      "recipe_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
-      "content_source": "authored-mdx"
+      "recipe_sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+      "content_source": "authored-mdx",
+      "recipe_review": {
+        "previous_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+        "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+        "purpose": "editorial-review-only"
+      }
     },
     "faq/come-configurare-i-pagamenti-online.mdx#quanto-costa-stripe": {
       "title": "Quanto costa Stripe?",
       "content_sha256": "77cde0e78b3b78a2ff875c41818b4d546e5a3321c41d69fe789c56564be0eb67",
       "recipe_module": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-      "recipe_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
-      "content_source": "authored-mdx"
+      "recipe_sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+      "content_source": "authored-mdx",
+      "recipe_review": {
+        "previous_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+        "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+        "purpose": "editorial-review-only"
+      }
     },
     "faq/come-configurare-i-pagamenti-online.mdx#i-pagamenti-sono-sicuri": {
       "title": "I pagamenti sono sicuri?",
       "content_sha256": "c5755aa6b736278d337b07936c486bb24d2835d1c2718c77ef01af3820cd3477",
       "recipe_module": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-      "recipe_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
-      "content_source": "authored-mdx"
+      "recipe_sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+      "content_source": "authored-mdx",
+      "recipe_review": {
+        "previous_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+        "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+        "purpose": "editorial-review-only"
+      }
     },
     "faq/come-configurare-i-pagamenti-online.mdx#posso-disattivare-i-pagamenti-online": {
       "title": "Posso disattivare i pagamenti online?",
       "content_sha256": "0414f57a64f88937027ecdc2c59dcce866599982d5530a5b179beb7629dddc0b",
       "recipe_module": "docs/manuale/course-payment-additional-reference-recipes.mjs",
-      "recipe_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
-      "content_source": "authored-mdx"
+      "recipe_sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+      "content_source": "authored-mdx",
+      "recipe_review": {
+        "previous_sha256": "9de720a488d5b4c9e726d5445181721d99c4c31ba5f0853334a3a3208f7401ba",
+        "sha256": "7884a682295ae4becc01b4e3114148ee00b5f671db175af32fe74f4b04fa26bd",
+        "purpose": "editorial-review-only"
+      }
     },
     "tutorials/come-esportare-dati-associazione.mdx#indice": {
       "title": "Indice",
