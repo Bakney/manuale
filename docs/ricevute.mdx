@@ -132,11 +132,15 @@ L’invio, l’apertura tramite programmi esterni e la ricezione non sono stati 
 
 ### Configurazioni possibili
 
-Le impostazioni delle ricevute comprendono:
+Le preferenze si trovano in **Profilo > Generali**, nel gruppo **Ricevute**. La modifica richiede il permesso sulle impostazioni.
 
-1. **Numera Ricevute**: controlla la visualizzazione del progressivo nella testata del modello di ricevuta illustrato. Il numero del record viene assegnato all'incasso anche se questa opzione è disattivata.
-2. **Numero iniziale ricevute**: il prossimo progressivo parte dal maggiore tra questo valore e i numeri già presenti nell'intervallo considerato, incrementato di uno.
-3. **Data uguale per ricevute e pagamenti**: durante l'incasso, se attiva, imposta la data di creazione della ricevuta sulla data del pagamento.
+| Preferenza | Effetto | Cosa controllare |
+| --- | --- | --- |
+| **Numera Ricevute** | Nel modello di ricevuta previsto, rende visibile il progressivo nella testata. | Il record riceve comunque un numero all’incasso; nascondere il numero sul documento non interrompe la numerazione. |
+| **Numero iniziale ricevute** | Il prossimo progressivo è il maggiore tra il valore iniziale e i numeri già presenti nell’intervallo considerato, più uno. | Con valore iniziale 200 e nessun numero superiore, il successivo è 201. Un numero già più alto prevale. |
+| **Data uguale per ricevute e pagamenti** | All’incasso, assegna alla ricevuta la data del pagamento. | La data del pagamento e quella di creazione della ricevuta possono altrimenti essere diverse. |
 
-<Note>La cancellazione descritta sopra non richiede l'attivazione di una finestra temporanea di sette giorni. Restano necessari i permessi dell'operazione.</Note>
+L’intervallo usato per il progressivo dipende dall’inizio dell’anno fiscale. Per i passaggi delle preferenze consulta [Impostazioni](/docs/impostazioni); per correggere un record esistente consulta [Modifica del progressivo](#modifica-del-progressivo-della-ricevuta).
+
+<Note>Per modificare le preferenze segui la guida alle impostazioni e controlla i valori dopo il ricaricamento. La rigenerazione di documenti già emessi richiede una procedura distinta. La cancellazione richiede il proprio permesso e non dipende da una finestra temporanea di sette giorni.</Note>
 

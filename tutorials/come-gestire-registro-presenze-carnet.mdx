@@ -63,53 +63,88 @@ Apri **Attività → Carnet → Carnet ginnastica 5 lezioni → Utilizzo**. La r
 
 # Presenze automatiche (Pro/Teams)
 
-Le presenze automatiche sono previste per le associazioni con piano **Pro** o **Teams** e con l’opzione **Segna Presenze Automaticamente** attiva. La pubblicazione delle lezioni e l’attivazione dell’opzione sono operazioni distinte.
+Le presenze automatiche calcolano l’elenco della lezione a partire dagli iscritti al corso. Saltano le assenze previste e applicano i vincoli dei carnet. Per predisporle segui [Attivare le presenze automatiche](/docs/registro-presenze#attivare-le-presenze-automatiche); per le registrazioni effettive controlla sempre la partecipazione con l’istruttore.
 
-Il processo automatico prende in esame i corsi attivi e le lezioni già trascorse nelle ultime 24 ore, ancora da elaborare. Non segna immediatamente tutti gli iscritti quando crei la lezione. Se una lezione non è stata elaborata, controlla prima piano, impostazione e calendario, poi verifica il risultato nel registro.
+<Steps>
+<Step title="Verifica l’opzione salvata">
+Apri **Profilo → Generali** e controlla **Segna Presenze Automaticamente**. Prima del percorso prepara corso attivo, iscrizioni e calendario pubblicato. Nell’esempio l’opzione viene salvata e ricontrollata dopo la riapertura.
+<Frame>![Opzione automatica salvata nelle impostazioni Generali](/images/registro-presenze/automatiche/3.placeholder.svg)</Frame>
+</Step>
+<Step title="Controlla le assenze segnalate prima della lezione">
+Nell’area personale dell’atleta, **Prossime lezioni** mostra persona e data. Sara sceglie **ASSENTE** e conferma **Sarò assente**; Giulia corregge la propria scelta con **PRESENTE**. Ricontrolla le schede prima dell’elaborazione.
+<Frame>![Assenza prevista di Sara dopo la riapertura](/images/registro-presenze/automatiche/7.placeholder.svg)</Frame>
+<Frame>![Presenza di Giulia dopo la correzione della scelta](/images/registro-presenze/automatiche/8.placeholder.svg)</Frame>
+</Step>
+<Step title="Controlla il registro dopo l’elaborazione">
+Dopo la lezione apri il corso e **Presenze**. Il processo prende in esame le date già trascorse nelle ultime 24 ore e ancora da elaborare: non segna tutti presenti appena crei la lezione. Nell’esempio sono salvate quattro presenze fra otto iscritti; la segnalazione di Sara e i vincoli dei carnet spiegano gli esclusi.
+<Frame>![Quattro presenze nel registro dopo il processo applicativo](/images/registro-presenze/automatiche/9.placeholder.svg)</Frame>
+</Step>
+<Step title="Controlla il saldo delle persone coinvolte">
+Apri **Attività → Carnet**, scegli il pacchetto e **Utilizzo**. Giulia passa da cinque a quattro lezioni residue; Sara conserva cinque lezioni grazie all’assenza prevista. Una seconda invocazione sulla data già elaborata lascia invariati presenti e saldi.
+<Frame>![Carnet di Giulia con saldo 4/5](/images/registro-presenze/automatiche/10.placeholder.svg)</Frame>
+<Frame>![Carnet di Sara con saldo 5/5 invariato](/images/registro-presenze/automatiche/11.placeholder.svg)</Frame>
+</Step>
+</Steps>
 
-<Note>Procedura da completare con una sessione atleta e il processo automatico della versione in uso. I controlli descritti sono ricavati dal codice; questa guida non attesta un’esecuzione del processo automatico.</Note>
+<Warning>Il processo salva l’elenco calcolato, non una semplice aggiunta ai presenti già inseriti. La data viene contrassegnata come elaborata. Non trattare l’impostazione attiva come prova che la persona abbia partecipato realmente.</Warning>
+
+<Warning>La segnalazione dall’area atleta aggiorna assenze previste e presenti della data. Non ricalcola né restituisce una lezione del carnet già consumata. Per una correzione successiva all’elaborazione controlla il registro con l’associazione e verifica separatamente il saldo.</Warning>
+
+<Note>L’esempio richiede l’esecuzione del vero processo applicativo in un ambiente isolato. L’invocazione controllata prova il suo risultato salvato; non prova la consegna periodica di Celery, il funzionamento del broker o sincronizzazioni esterne. Le immagini sono pianificate finché il flusso reale non viene eseguito.</Note>
 
 ## Come funziona
 
-Il processo automatico esamina le iscrizioni al corso, salta le assenze previste e applica le regole dei carnet prima di salvare i presenti. È previsto un controllo periodico: il risultato non coincide necessariamente con l’istante iniziale della lezione.
+Le presenze automatiche calcolano l’elenco della lezione a partire dagli iscritti al corso. Saltano le assenze previste e applicano i vincoli dei carnet. Per predisporle segui [Attivare le presenze automatiche](/docs/registro-presenze#attivare-le-presenze-automatiche); per le registrazioni effettive controlla sempre la partecipazione con l’istruttore.
 
 <Steps>
-<Step title="Prepara il registro del corso">
-Apri **Attività → Corsi**, scegli il corso e verifica che sia attivo. In **Calendario** pubblica le lezioni necessarie e controlla che compaiano in **Presenze**. Un calendario in bozza non crea le stesse date operative del calendario pubblicato.
+<Step title="Verifica l’opzione salvata">
+Apri **Profilo → Generali** e controlla **Segna Presenze Automaticamente**. Prima del percorso prepara corso attivo, iscrizioni e calendario pubblicato. Nell’esempio l’opzione viene salvata e ricontrollata dopo la riapertura.
+<Frame>![Opzione automatica salvata nelle impostazioni Generali](/images/registro-presenze/automatiche/3.placeholder.svg)</Frame>
 </Step>
-<Step title="Controlla iscrizioni, assenze e carnet">
-Controlla gli iscritti al corso e le assenze segnalate. Se usano carnet, verifica collegamento al corso, saldo positivo e pagamento. Un carnet disabilitato non viene scelto; un carnet selezionato ma non pagato impedisce la registrazione automatica di quella persona.
+<Step title="Controlla le assenze segnalate prima della lezione">
+Nell’area personale dell’atleta, **Prossime lezioni** mostra persona e data. Sara sceglie **ASSENTE** e conferma **Sarò assente**; Giulia corregge la propria scelta con **PRESENTE**. Ricontrolla le schede prima dell’elaborazione.
+<Frame>![Assenza prevista di Sara dopo la riapertura](/images/registro-presenze/automatiche/7.placeholder.svg)</Frame>
+<Frame>![Presenza di Giulia dopo la correzione della scelta](/images/registro-presenze/automatiche/8.placeholder.svg)</Frame>
 </Step>
-<Step title="Ricontrolla la lezione dopo l’elaborazione">
-Apri **Presenze** dopo lo svolgimento della lezione e confronta i presenti con la partecipazione effettiva. Il processo salva l’elenco calcolato e contrassegna la data come elaborata: non trattarlo come una semplice aggiunta ai presenti già segnati. Controlla anche il saldo del carnet e correggi dal registro quando necessario.
+<Step title="Controlla il registro dopo l’elaborazione">
+Dopo la lezione apri il corso e **Presenze**. Il processo prende in esame le date già trascorse nelle ultime 24 ore e ancora da elaborare: non segna tutti presenti appena crei la lezione. Nell’esempio sono salvate quattro presenze fra otto iscritti; la segnalazione di Sara e i vincoli dei carnet spiegano gli esclusi.
+<Frame>![Quattro presenze nel registro dopo il processo applicativo](/images/registro-presenze/automatiche/9.placeholder.svg)</Frame>
+</Step>
+<Step title="Controlla il saldo delle persone coinvolte">
+Apri **Attività → Carnet**, scegli il pacchetto e **Utilizzo**. Giulia passa da cinque a quattro lezioni residue; Sara conserva cinque lezioni grazie all’assenza prevista. Una seconda invocazione sulla data già elaborata lascia invariati presenti e saldi.
+<Frame>![Carnet di Giulia con saldo 4/5](/images/registro-presenze/automatiche/10.placeholder.svg)</Frame>
+<Frame>![Carnet di Sara con saldo 5/5 invariato](/images/registro-presenze/automatiche/11.placeholder.svg)</Frame>
 </Step>
 </Steps>
 
-<Warning>Il processo automatico non sostituisce il controllo dell’istruttore. Non usarlo come prova che l’atleta abbia partecipato realmente. L’elaborazione di una data già contrassegnata non viene ripetuta nello stesso modo.</Warning>
+<Warning>Il processo salva l’elenco calcolato, non una semplice aggiunta ai presenti già inseriti. La data viene contrassegnata come elaborata. Non trattare l’impostazione attiva come prova che la persona abbia partecipato realmente.</Warning>
 
-<Note>Procedura da completare con una sessione atleta e il processo automatico della versione in uso. I controlli descritti sono ricavati dal codice; questa guida non attesta un’esecuzione del processo automatico.</Note>
+<Warning>La segnalazione dall’area atleta aggiorna assenze previste e presenti della data. Non ricalcola né restituisce una lezione del carnet già consumata. Per una correzione successiva all’elaborazione controlla il registro con l’associazione e verifica separatamente il saldo.</Warning>
+
+<Note>L’esempio richiede l’esecuzione del vero processo applicativo in un ambiente isolato. L’invocazione controllata prova il suo risultato salvato; non prova la consegna periodica di Celery, il funzionamento del broker o sincronizzazioni esterne. Le immagini sono pianificate finché il flusso reale non viene eseguito.</Note>
 
 ## Come si attivano le presenze automatiche
 
-Per attivare l’opzione usa un account autorizzato a modificare le impostazioni. Prima verifica che l’associazione abbia il piano richiesto; un calendario pubblicato da solo non attiva l’automazione.
+L’opzione è distinta dalla pubblicazione del calendario ed è prevista dal codice per i piani **Pro/Teams**. Parti da un calendario pubblicato e da iscrizioni al corso già preparate; il solo salvataggio di una lezione non attiva l’automazione.
 
 <Steps>
-<Step title="Apri le impostazioni dell’associazione">
-Apri il tuo **Profilo**, scegli **Generali** e individua **Segna Presenze Automaticamente**. Se il comando è disattivato per il collaboratore, usa un account con il permesso di modifica delle impostazioni.
+<Step title="Apri Generali e attiva l’opzione">
+Apri il **Profilo** e scegli **Generali**. Individua **Segna Presenze Automaticamente**, attiva l’interruttore e controlla la scelta. Finché non premi Salva, la modifica non è conservata.
+<Frame>![Segna Presenze Automaticamente attivo prima del salvataggio](/images/registro-presenze/automatiche/2.placeholder.svg)</Frame>
 </Step>
-<Step title="Abilita e salva l’opzione">
-Attiva **Segna Presenze Automaticamente** e premi **Salva** nella barra inferiore. Riapri la pagina e verifica che l’interruttore sia ancora attivo. Per sospendere l’automazione, disattivalo e salva nuovamente.
+<Step title="Salva e controlla dopo la riapertura">
+Premi **Salva**, attendi **Impostazioni generali aggiornate.** e riapri la pagina. L’interruttore deve essere ancora attivo. Il calendario del corso deve essere pubblicato e il corso attivo per essere elaborato.
+<Frame>![Impostazione automatica conservata dopo la riapertura](/images/registro-presenze/automatiche/3.placeholder.svg)</Frame>
 </Step>
-<Step title="Controlla un corso e il risultato">
-Controlla corso attivo, iscritti e calendario pubblicato. Dopo una lezione, apri **Presenze** e verifica l’elenco e i carnet: il salvataggio dell’interruttore conferma soltanto l’impostazione, non l’esecuzione del processo.
+<Step title="Sospendi l’automazione quando necessario">
+Per sospendere le registrazioni successive, disattiva lo stesso interruttore e premi **Salva**. Riapri Generali e controlla che sia spento. La disattivazione non cancella le presenze o i consumi già salvati.
+<Frame>![Automazione disattivata e scelta conservata dopo la riapertura](/images/registro-presenze/automatiche/12.placeholder.svg)</Frame>
 </Step>
 </Steps>
 
-<Note>Per modificare le impostazioni serve il permesso di modifica delle impostazioni. Per aggiornare le presenze servono i permessi del registro. Un collaboratore che può consultare la bacheca non riceve automaticamente questi permessi.</Note>
+Un collaboratore con il solo permesso di lettura delle impostazioni vede il comando disattivato: per modificarlo serve il permesso di modifica delle impostazioni. Il rifiuto conserva la scelta del titolare.
 
-<Note>Procedura da completare con una sessione atleta e il processo automatico della versione in uso. I controlli descritti sono ricavati dal codice; questa guida non attesta un’esecuzione del processo automatico.</Note>
-
-<Frame>![Screenshot pianificato: Generali, opzione Segna Presenze Automaticamente](/images/registro-presenze/automatiche-pianificate/1.placeholder.svg)</Frame>
+<Note>L’esempio richiede l’esecuzione del vero processo applicativo in un ambiente isolato. L’invocazione controllata prova il suo risultato salvato; non prova la consegna periodica di Celery, il funzionamento del broker o sincronizzazioni esterne. Le immagini sono pianificate finché il flusso reale non viene eseguito.</Note>
 
 # Come funzionano i carnet con le presenze
 

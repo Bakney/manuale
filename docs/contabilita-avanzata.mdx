@@ -5,95 +5,112 @@ description: "In questa sezione troverai tutte le informazioni relative alle fun
 
 ## Panoramica
 
-<Note>Bozza in attesa di prova: questa sezione deve essere confermata con una procedura reale prima della pubblicazione.</Note>
+La contabilità comprende **Pagamenti**, **Documenti fiscali** e **Gestione**. Gli account con i relativi permessi trovano:
 
-La sezione **Contabilità** raccoglie pagamenti, documenti fiscali e strumenti di gestione.
-Apri **Documenti fiscali** per le **Fatture Attive** e le **Fatture Passive**; apri **Gestione** per **Fornitori e Clienti**, **Conti Finanziari**, **Giroconti** e **Bilancio**.
-Le **Causali** si gestiscono dalla pagina dei **Pagamenti**.
-<Info>Il titolare dell'associazione usa i comandi descritti nell'esempio. Per un collaboratore servono i permessi delle singole sezioni e delle operazioni: il solo accesso ai pagamenti non autorizza a leggere o modificare conti, giroconti e bilancio.</Info>
-<Note>Questo percorso verifica conti, giroconti e rendiconto. Le procedure sulle fatture, sulle anagrafiche e sulle causali sono descritte nelle bozze seguenti e restano da provare.</Note>
+| Sezione | Contenuto |
+| --- | --- |
+| **Pagamenti** | Entrate, uscite, incassi e causali. |
+| **Documenti fiscali > Fatture Attive** | Documenti emessi verso i clienti. La pagina non espone un comando per modificare la fattura o cambiarne lo stato Pagata. |
+| **Documenti fiscali > Fatture Passive** | Documenti ricevuti dai fornitori e pagamento di spesa collegato. |
+| **Gestione > Fornitori e Clienti** | Anagrafiche dei destinatari e fornitori. |
+| **Gestione > Conti Finanziari e Giroconti** | Conti e trasferimenti tra conti. |
+| **Gestione > Bilancio** | Rendiconto, bozza e pubblicazione. |
+
+Le **Causali** si trovano nella pagina **Pagamenti**. Le sezioni successive descrivono anagrafiche e fatture passive; per incassi e rendiconto consulta anche [Pagamenti](/docs/pagamenti) e [Bilancio](/docs/bilancio).
+
+<Info>Per un collaboratore, accesso e modifica dipendono dai permessi della singola sezione. Il solo accesso ai pagamenti non autorizza conti, giroconti, fatture o bilancio.</Info>
+<Warning>Preparare un documento nell’applicazione non attesta la conformità fiscale o la consegna tramite servizi esterni. Le relative lacune sono indicate nelle guide.</Warning>
 
 ## Fatture attive
 
 <Note>Bozza in attesa di prova: questa sezione deve essere confermata con una procedura reale prima della pubblicazione.</Note>
 
-Le **Fatture Attive** riguardano i documenti emessi verso i clienti.
-Preparare e registrare un documento, contrassegnarlo come pagato o inviato e trasmetterlo al destinatario sono operazioni diverse.
-Prima prepara i dati dell'associazione, quelli del cliente e le righe della fattura.
-<Note>Creazione, generazione del documento e file XML non sono esercitate in questa procedura. La conformità fiscale e la consegna tramite servizi esterni richiedono una verifica separata.</Note>
+Le **Fatture Attive** riguardano i documenti emessi verso i clienti. La voce si trova in **Contabilità > Documenti fiscali > Fatture Attive**; la pagina presenta l’elenco **Fatture Clienti**.
+Nel codice attuale sono disponibili creazione, scaricamento PDF/XML quando il documento è pronto ed eliminazione con i permessi previsti. La finestra di modifica degli stati è esclusa dal montaggio dell’elenco: non è un comando utilizzabile da questa pagina.
+<Warning>Il ciclo di creazione e preparazione del documento attivo non è esercitato dalla prova locale sulle fatture passive. Generazione XML, PDF e trasmissione fiscale conservano una verifica separata. La presenza di una riga o di un pulsante di download non attesta la consegna né l’accettazione del documento.</Warning>
 
 ### Creare una fattura attiva
 
 <Note>Bozza in attesa di prova: questa sezione deve essere confermata con una procedura reale prima della pubblicazione.</Note>
 
 <Steps>
-<Step title="Apri Fatture Attive">
-Scegli **Contabilità > Documenti fiscali > Fatture Attive** e apri il comando per una nuova fattura. Occorre il permesso per creare fatture attive.
+<Step title="Prepara i dati prima del documento">
+Controlla i dati dell’associazione e del cliente: denominazione, identificativi fiscali, sede e recapiti. Prepara le righe con descrizione, quantità, prezzo, aliquota IVA e unità di misura. La creazione richiede il relativo permesso.
 </Step>
-<Step title="Controlla i dati generali e la numerazione">
-Verifica paese, formato, tipo documento, valuta, destinatario SDI e **Data Fattura**. Compila **Prefisso**, **Numero** e **Anno**: il modulo contiene questi campi, quindi non presumere una numerazione completamente automatica.
+<Step title="Compila il modulo disponibile">
+Da **Documenti fiscali > Fatture Attive** apri il comando della nuova fattura. Controlla dati generali, tipo di documento, valuta, dati di trasmissione e destinatario. Compila **Prefisso**, **Numero**, **Anno** e **Data Fattura**: sono campi del modulo, quindi non presumere che la numerazione sia completata automaticamente.
 </Step>
-<Step title="Completa cedente, cliente e righe">
-Compila denominazione, dati fiscali e sede del cedente e del cliente. Verifica i recapiti del destinatario.
-Per ogni riga indica descrizione, quantità, prezzo unitario, aliquota IVA e unità di misura. Controlla i totali e le condizioni di pagamento prima di salvare.
+<Step title="Controlla righe e condizioni di pagamento">
+Verifica cliente, cedente, righe, importi e scadenza. Usa valori coerenti con il documento da emettere. Le opzioni fiscali del modulo non confermano da sole la correttezza del documento.
 </Step>
-<Step title="Salva e verifica il documento">
-Dopo **Salva**, torna all’elenco, cerca il numero appena inserito e controlla che il documento sia presente anche dopo il ricaricamento. Un messaggio di errore durante la preparazione del file non dimostra che la fattura sia pronta per l’invio.
+<Step title="Controlla l’esito completo del salvataggio">
+Dopo **Salva**, controlla messaggi di errore, riga nell’elenco e disponibilità effettiva del documento. Se la preparazione XML o PDF fallisce, non trattare la sola presenza della riga come un’emissione completa.
 </Step>
 </Steps>
 
-<Warning>Generazione, scaricamento XML e trasmissione al Sistema di Interscambio restano da verificare. Questa bozza non attesta che un documento sia stato accettato o consegnato.</Warning>
+<Warning>Questa è una descrizione del modulo presente nel codice, ancora priva di prova completa di creazione, riapertura, XML, PDF e permessi. Non è pubblicabile come procedura verificata. Consegna, trasmissione e accettazione fiscale restano da esercitare separatamente.</Warning>
 
 ### Modificare una fattura attiva
 
 <Note>Bozza in attesa di prova: questa sezione deve essere confermata con una procedura reale prima della pubblicazione.</Note>
 
-<Steps>
-<Step title="Apri la matita della fattura">
-In **Fatture Attive** individua il documento e premi **Modifica**. Il modulo di aggiornamento riguarda gli stati **Pagata** e **Inviata**.
-</Step>
-<Step title="Salva gli stati e ricontrolla">
-Seleziona gli stati corretti, premi **Salva**, ricarica l’elenco e verifica il risultato sul documento scelto. Non usare questa finestra come procedura per riscrivere date, importi, righe o numero: tali modifiche non sono confermate da questo modulo.
-</Step>
-</Steps>
+<Warning>La versione attuale dell’elenco **Fatture Clienti** non monta il pulsante **Modifica** né la relativa finestra: non è disponibile una procedura da questa pagina per aggiornare una fattura attiva.</Warning>
+Non cercare una matita per cambiare numero, righe, importi o stati: la precedente istruzione non corrispondeva all’interfaccia presente. Il backend contiene un aggiornamento dei soli stati, ma questo non equivale a un comando visibile utilizzabile nel manuale.
+Se il documento richiede una correzione, conserva il documento e segnala il caso al referente dell’associazione. Questo capitolo non prescrive eliminazione e ricreazione come sostituto di una rettifica fiscale.
 
 ### Segnare una fattura come pagata
 
 <Note>Bozza in attesa di prova: questa sezione deve essere confermata con una procedura reale prima della pubblicazione.</Note>
 
-<Steps>
-<Step title="Controlla l’incasso">
-Verifica che l’importo sia stato effettivamente incassato e individua la fattura in **Fatture Attive**.
-</Step>
-<Step title="Aggiorna lo stato Pagata">
-Apri **Modifica**, scegli lo stato pagato e premi **Salva**. Ricarica l’elenco per controllare la stessa fattura.
-</Step>
-</Steps>
-
-<Note>Il solo cambio di stato della fattura attiva aggiorna il documento e non crea automaticamente un pagamento. Le entrate del rendiconto derivano dai pagamenti saldati: controlla la registrazione del relativo incasso senza duplicarla.</Note>
+<Warning>Nella pagina **Fatture Clienti** non è disponibile un comando per impostare **Pagata** su una fattura attiva. La finestra degli stati non viene montata nell’elenco attuale.</Warning>
+Il pagamento effettivo e il documento sono registrazioni distinte. Se devi controllare un incasso, consulta la corrispondente registrazione in **Pagamenti** e verifica importo, conto e stato, evitando una seconda entrata per lo stesso incasso.
+Non usare l’assenza di uno stato nella fattura come motivo per duplicare il pagamento. Il presente capitolo non attesta l’aggiornamento automatico della fattura attiva né il collegamento di quell’incasso al documento.
 
 ## Fatture passive
 
 <Note>Bozza in attesa di prova: questa sezione deve essere confermata con una procedura reale prima della pubblicazione.</Note>
 
-Le **Fatture Passive** registrano i documenti ricevuti dai fornitori, con importo, scadenza, conto e stato di pagamento.
-Prepara l'anagrafica del fornitore e il conto da usare prima della registrazione.
-<Note>Questa procedura non crea né paga una fattura passiva. Il collegamento con il pagamento deve essere controllato con una prova dedicata.</Note>
+Le **Fatture Passive** registrano localmente le fatture ricevute dai fornitori. Nel menu la voce è **Fatture Passive** e la pagina aperta si intitola **Fatture fornitori**.
+La registrazione collega identificativo, importo, fornitore e conto a un pagamento di tipo **Uscita**. Lo stato **Pagata** distingue la spesa saldata da quella ancora da pagare: registrare una fattura non dispone un bonifico.
+<Steps>
+<Step title="Prepara fornitore e conto">
+Prima di iniziare, crea l’anagrafica del fornitore in **Gestione > Fornitori e Clienti** e controlla il conto in **Gestione > Conti Finanziari**. Occorrono i permessi per leggere queste sezioni e per l’operazione sulle fatture passive.
+</Step>
+<Step title="Consulta il documento registrato">
+Apri **Documenti fiscali > Fatture Passive**. Nell’esempio trovi **MANUALE-PASSIVA-12**, importo **12,00 €**, fornitore **Fornitore fattura manuale**, conto **Cassa Aurora**, inizialmente **Non pagata**.
+<Frame>![Fattura passiva salvata e conservata nell’elenco](/images/contabilita/fatture-passive-locali/2.placeholder.svg)</Frame>
+</Step>
+<Step title="Controlla i dettagli con Modifica">
+Premi la matita **Modifica** della riga per rileggere i dati. **Importo**, **Conto** e **Fornitore** sono disabilitati; identificativo, date, stato e note sono disponibili nel modulo.
+<Frame>![Dati riletti e campi non modificabili della fattura passiva](/images/contabilita/fatture-passive-locali/3.placeholder.svg)</Frame>
+</Step>
+</Steps>
+
+<Note>Questo percorso registra metadati e spesa collegata. Non carica il PDF originale, non importa XML, non emette il documento del fornitore e non esegue pagamenti bancari.</Note>
 
 ### Registrare una fattura passiva
 
 <Note>Bozza in attesa di prova: questa sezione deve essere confermata con una procedura reale prima della pubblicazione.</Note>
 
 <Steps>
-<Step title="Apri Fatture Passive">
-Scegli **Contabilità > Documenti fiscali > Fatture Passive** e premi **Fattura** con il simbolo **+**.
+<Step title="Verifica i dati preliminari">
+Tieni a disposizione identificativo e importo del documento ricevuto. Il **Fornitore** e il **Conto** devono essere già presenti. La registrazione usa la causale attiva **Pagamento Fornitore** dell’associazione oppure una causale comune con questo nome; se manca, il salvataggio restituisce un errore e occorre farla configurare.
 </Step>
-<Step title="Inserisci il documento del fornitore">
-Compila **Identificativo**, **Importo**, **Data pagamento**, **Data scadenza**, **Conto**, **Fornitore** e **Pagata**; aggiungi le **Note** se servono.
-Usa il numero del documento ricevuto. Il conto e il fornitore devono essere già disponibili. Tieni separata la scadenza dalla data dell'effettivo pagamento.
+<Step title="Apri Nuova Fattura">
+In **Contabilità > Documenti fiscali > Fatture Passive**, premi **Fattura** con il simbolo **+**. Si apre **Nuova Fattura**. Occorre il permesso per creare fatture passive.
 </Step>
-<Step title="Salva e controlla dopo il ricaricamento">
-Premi **Salva**. Ricarica l’elenco e verifica identificativo, importo, fornitore, conto e stato. Controlla anche il pagamento collegato prima di registrare un’altra spesa per lo stesso documento.
+<Step title="Compila il documento e scegli lo stato">
+Nell’esempio inserisci **Identificativo: MANUALE-PASSIVA-12**, **Importo: 12**, **Data pagamento: 30/09/2026**, **Data scadenza: 15/10/2026**, **Conto: Cassa Aurora** e **Fornitore: Fornitore fattura manuale**. Scegli **Pagata: Non pagata** e aggiungi una nota se serve.
+Per una fattura non saldata, l’esempio compila comunque il campo obbligatorio Data pagamento: questa data del modulo non dimostra che sia avvenuto un pagamento. La spesa collegata resta non pagata.
+<Frame>![Nuova fattura passiva completa prima di Salva](/images/contabilita/fatture-passive-locali/1.placeholder.svg)</Frame>
+</Step>
+<Step title="Salva e controlla la stessa riga">
+Premi **Salva**, attendi la conferma e ricarica la pagina. Controlla identificativo, importo, fornitore e stato.
+<Frame>![Fattura conservata dopo il ricaricamento](/images/contabilita/fatture-passive-locali/2.placeholder.svg)</Frame>
+</Step>
+<Step title="Riapri prima di proseguire">
+Premi **Modifica** e controlla il documento salvato, inclusi conto e importo. La registrazione crea già la spesa collegata: evita di aggiungere un secondo pagamento per lo stesso documento.
+<Frame>![Fattura riaperta con importo conto e fornitore conservati](/images/contabilita/fatture-passive-locali/3.placeholder.svg)</Frame>
 </Step>
 </Steps>
 
@@ -102,52 +119,90 @@ Premi **Salva**. Ricarica l’elenco e verifica identificativo, importo, fornito
 <Note>Bozza in attesa di prova: questa sezione deve essere confermata con una procedura reale prima della pubblicazione.</Note>
 
 <Steps>
-<Step title="Apri la fattura da correggere">
-In **Fatture Passive** premi la matita **Modifica** nella riga del documento.
+<Step title="Apri la matita della riga corretta">
+In **Fatture Passive**, identifica numero e fornitore e premi **Modifica**. Serve il permesso per aggiornare fatture passive. Controlla i campi non modificabili: **Importo**, **Conto** e **Fornitore** restano quelli della registrazione.
+<Frame>![Campi bloccati nella finestra Modifica fattura](/images/contabilita/fatture-passive-locali/3.placeholder.svg)</Frame>
 </Step>
-<Step title="Correggi e salva">
-Ricontrolla identificativo, importo, date, conto, fornitore, stato e note. Premi **Salva**, poi ricarica la pagina e verifica sia il documento sia il pagamento collegato. La verifica del mantenimento di tale collegamento è ancora da eseguire.
+<Step title="Correggi identificativo e note">
+Nell’esempio aggiorna **Identificativo** in **MANUALE-PASSIVA-12-AGGIORNATA** e le **Note**. Ricontrolla **Data pagamento**, **Data scadenza** e **Pagata**: il modulo richiede anche questi valori. Mantieni **Non pagata** se l’uscita non è stata saldata.
+<Frame>![Identificativo e note corretti prima del salvataggio](/images/contabilita/fatture-passive-locali/4.placeholder.svg)</Frame>
+</Step>
+<Step title="Salva e rileggi i dati">
+Premi **Salva**, ricarica la pagina e riapri **Modifica**. Controlla l’identificativo e le note aggiornate. L’importo dell’esempio rimane **12,00 €** e il pagamento collegato resta lo stesso.
+<Frame>![Identificativo e note riaperti dopo il ricaricamento](/images/contabilita/fatture-passive-locali/5.placeholder.svg)</Frame>
 </Step>
 </Steps>
+
+<Note>La modifica aggiorna anche lo stato del pagamento collegato. La data memorizzata su quel pagamento è impostata al momento dell’aggiornamento, mentre la fattura conserva la data compilata nel modulo: non presumere che i due campi rappresentino la stessa data.</Note>
 
 ### Segnare una fattura passiva come pagata
 
 <Note>Bozza in attesa di prova: questa sezione deve essere confermata con una procedura reale prima della pubblicazione.</Note>
 
 <Steps>
-<Step title="Verifica il pagamento al fornitore">
-Controlla conto, importo e data effettiva dell’uscita.
+<Step title="Verifica che l’uscita sia avvenuta">
+Controlla il pagamento reale al fornitore, l’importo e il conto. Apri **Fatture Passive** e premi **Modifica** nella riga interessata. Cambiare lo stato non invia denaro al fornitore.
 </Step>
-<Step title="Salva lo stato della fattura">
-Apri **Modifica**, imposta **Pagata**, controlla **Data pagamento** e premi **Salva**. Ricarica l’elenco e controlla la registrazione della spesa collegata.
+<Step title="Imposta Pagata e ricontrolla le date">
+Nel campo **Pagata** seleziona **Pagata**. Ricontrolla le due date richieste e conserva identificativo e note corretti. Nell’esempio l’importo resta **12,00 €**, sul conto **Cassa Aurora**.
+<Frame>![Stato Pagata selezionato prima di Salva](/images/contabilita/fatture-passive-locali/6.placeholder.svg)</Frame>
+</Step>
+<Step title="Salva e ricarica">
+Premi **Salva**, attendi la conferma e ricarica l’elenco. Il documento e la sua spesa collegata devono risultare pagati.
+<Frame>![Fattura pagata conservata nell’elenco](/images/contabilita/fatture-passive-locali/7.placeholder.svg)</Frame>
+</Step>
+<Step title="Riapri per controllare lo stato">
+Apri di nuovo **Modifica**: il selettore deve mostrare **Pagata** e importo, conto e fornitore devono restare quelli originali.
+<Frame>![Stato Pagata riletto nella fattura riaperta](/images/contabilita/fatture-passive-locali/8.placeholder.svg)</Frame>
 </Step>
 </Steps>
 
-<Warning>Non registrare due volte la stessa uscita. Lo stato e la data devono corrispondere al pagamento effettivo; il loro effetto sul rendiconto non è verificato da questo percorso sui giroconti.</Warning>
+<Warning>Il backend imposta la data del pagamento collegato al momento del salvataggio. La data scritta nel modulo appartiene alla fattura e non garantisce una data storica identica sulla spesa. Se serve contabilizzare un pagamento retrodatato, verifica separatamente la registrazione in Pagamenti. Non aggiungere una seconda uscita per correggere questa differenza.</Warning>
 
 ## Fornitori e clienti
 
 <Note>Bozza in attesa di prova: questa sezione deve essere confermata con una procedura reale prima della pubblicazione.</Note>
 
-In **Contabilità > Gestione > Fornitori e Clienti** raccogli le anagrafiche dei soggetti con cui l'associazione ha rapporti economici.
-Ogni anagrafica ha un tipo **Fornitore** oppure **Cliente**. Prima di crearne una, cerca il nome per evitare duplicati.
-Occorrono i permessi per consultare e gestire queste anagrafiche. Creazione, modifica e rimozione sono ancora da provare in una procedura dedicata.
+In **Contabilità > Gestione > Fornitori e Clienti** conserva le anagrafiche usate nei rapporti economici dell’associazione. Il campo **Tipo** distingue **Fornitore** da **Cliente**: non sono due elenchi da compilare separatamente.
+Il nome identifica la riga; indirizzo, dati fiscali e recapiti completano la scheda. Prima di aggiungere una persona o un’impresa, controlla che non sia già presente.
+<Steps>
+<Step title="Apri l’elenco">
+Espandi **Gestione** e scegli **Fornitori e Clienti**. Serve il permesso per leggere le anagrafiche.
+<Frame>![Elenco delle anagrafiche prima dell’esempio](/images/contabilita/anagrafiche-reali/1.placeholder.svg)</Frame>
+</Step>
+<Step title="Distingui fornitore e cliente">
+Nell’esempio **Fornitore manuale locale** è di tipo **Fornitore** e **Cliente manuale locale** è di tipo **Cliente**. La creazione si avvia per entrambi con **Anagrafica**.
+<Frame>![Anagrafica del fornitore conservata nell’elenco](/images/contabilita/anagrafiche-reali/3.placeholder.svg)</Frame>
+<Frame>![Anagrafica del cliente nello stesso elenco](/images/contabilita/anagrafiche-reali/5.placeholder.svg)</Frame>
+</Step>
+<Step title="Apri la scheda interessata">
+Premi il nome nella riga per aprire il pannello dei dati. Per aggiungere, aggiornare o eliminare servono anche i permessi della relativa operazione; il solo accesso all’elenco non li concede.
+</Step>
+</Steps>
+
+<Note>La scheda anagrafica non emette una fattura e non registra un pagamento. L’esempio usa soggetti fittizi senza documenti collegati.</Note>
 
 ### Aggiungere un fornitore o cliente
 
 <Note>Bozza in attesa di prova: questa sezione deve essere confermata con una procedura reale prima della pubblicazione.</Note>
 
 <Steps>
-<Step title="Apri una nuova anagrafica">
-Da **Gestione > Fornitori e Clienti** apri il comando per una nuova anagrafica.
+<Step title="Apri Nuova anagrafica">
+Da **Gestione > Fornitori e Clienti**, premi **Anagrafica** con il simbolo **+**. Si apre il pannello **Nuova anagrafica**. Occorre il permesso per creare anagrafiche.
 </Step>
-<Step title="Compila i dati del soggetto">
-Inserisci **Nome** e scegli **Tipo** fra **Fornitore** e **Cliente**.
-Completa quando disponibili codice fiscale, partita IVA, indirizzo, email, telefono, città, CAP, provincia, paese, nazionalità e note.
-Il nome è richiesto. Un indirizzo email inserito deve essere valido; lascia vuoti i dati che non conosci anziché inventarli.
+<Step title="Compila nome, tipo e recapiti">
+Inserisci il **Nome** e seleziona **Tipo: Fornitore** oppure **Cliente**. Nell’esempio scegli **Fornitore**, nome **Fornitore manuale locale**, indirizzo **Via del Manuale 12**, email **fornitore@example.invalid** e telefono **0000000000**. Gli indirizzi dell’esempio sono fittizi.
+Puoi completare i campi disponibili per codice fiscale, partita IVA, città, CAP, provincia, paese, nazionalità e note. Il nome e il tipo sono richiesti; un’email compilata deve avere un formato valido.
+<Frame>![Nuovo fornitore compilato prima di Salva](/images/contabilita/anagrafiche-reali/2.placeholder.svg)</Frame>
 </Step>
-<Step title="Salva e cerca il risultato">
-Premi **Salva**, torna all’elenco e cerca il nome. Ricarica e riapri la scheda per verificare tipo, recapiti e dati fiscali.
+<Step title="Salva e ricarica l’elenco">
+Premi **Salva** nella barra del pannello. Dopo la conferma di creazione il pannello si chiude e la tabella si aggiorna. Ricarica la pagina e controlla il nome del fornitore.
+<Frame>![Fornitore presente anche dopo il ricaricamento](/images/contabilita/anagrafiche-reali/3.placeholder.svg)</Frame>
+</Step>
+<Step title="Crea il cliente con lo stesso percorso">
+Premi nuovamente **Anagrafica**, inserisci **Cliente manuale locale** e scegli **Tipo: Cliente**. Nell’esempio l’email è **cliente@example.invalid**. Premi **Salva**, poi ricarica e controlla che entrambe le anagrafiche siano presenti.
+<Frame>![Nuova anagrafica di tipo Cliente](/images/contabilita/anagrafiche-reali/4.placeholder.svg)</Frame>
+<Frame>![Cliente conservato dopo il ricaricamento](/images/contabilita/anagrafiche-reali/5.placeholder.svg)</Frame>
 </Step>
 </Steps>
 
@@ -156,28 +211,44 @@ Premi **Salva**, torna all’elenco e cerca il nome. Ricarica e riapri la scheda
 <Note>Bozza in attesa di prova: questa sezione deve essere confermata con una procedura reale prima della pubblicazione.</Note>
 
 <Steps>
-<Step title="Apri la scheda corretta">
-Cerca il soggetto in **Fornitori e Clienti** e apri la sua scheda. Controlla nome e dati fiscali prima di correggere un omonimo.
+<Step title="Apri il nome dell’anagrafica">
+In **Fornitori e Clienti** premi il nome nella riga. Il pannello carica i dati salvati; non usare il pulsante **Anagrafica**, che crea una nuova scheda. Occorre il permesso per aggiornare anagrafiche.
 </Step>
-<Step title="Salva le correzioni">
-Aggiorna i campi e premi **Salva**. Dopo la conferma riapri la scheda e controlla i dati conservati. Non presumere che cambino anche i documenti già emessi: questa variante resta da verificare.
+<Step title="Correggi i recapiti">
+Nell’esempio mantieni **Fornitore manuale locale** e aggiorna l’indirizzo in **Via del Manuale 24** e l’email in **recapiti@example.invalid**. Controlla il tipo prima di salvare, evitando di cambiare per errore un fornitore in cliente.
+<Frame>![Indirizzo ed email corretti nel pannello](/images/contabilita/anagrafiche-reali/6.placeholder.svg)</Frame>
+</Step>
+<Step title="Salva, chiudi e riapri">
+Premi **Salva** e attendi **Anagrafica aggiornata con successo**. Chiudi il pannello con la **X**, ricarica l’elenco e premi di nuovo il nome. Controlla che indirizzo ed email siano rimasti quelli aggiornati.
+<Frame>![Recapiti riletti nella scheda dopo il ricaricamento](/images/contabilita/anagrafiche-reali/7.placeholder.svg)</Frame>
 </Step>
 </Steps>
+
+<Note>L’esempio corregge dati di contatto. Non attesta la riscrittura di dati già riportati in documenti fiscali o pagamenti precedenti.</Note>
 
 ### Eliminare un fornitore o cliente
 
 <Note>Bozza in attesa di prova: questa sezione deve essere confermata con una procedura reale prima della pubblicazione.</Note>
 
 <Steps>
-<Step title="Controlla i documenti collegati">
-Prima della rimozione verifica se il soggetto è utilizzato in fatture o pagamenti. Conservalo se serve a ricostruire documenti o movimenti esistenti.
+<Step title="Individua la sola anagrafica da rimuovere">
+In **Fornitori e Clienti** controlla il nome e premi il cestino **Elimina** nella sua riga. Nell’esempio scegli **Fornitore manuale locale**, mantenendo **Cliente manuale locale**. Serve il permesso per eliminare anagrafiche.
 </Step>
-<Step title="Conferma solo il soggetto corretto">
-Usa il cestino **Elimina**, controlla il nome nella richiesta di conferma e conferma solo dopo la verifica. Ricarica l’elenco e controlla l’assenza della voce.
+<Step title="Annulla se il soggetto è sbagliato">
+La richiesta **Vuoi eliminare l’anagrafica?** permette **Annulla** ed **Elimina**. Premi **Annulla** per interrompere: la scheda deve restare nell’elenco.
+<Frame>![Richiesta di eliminazione prima di Annulla](/images/contabilita/anagrafiche-reali/8.placeholder.svg)</Frame>
+</Step>
+<Step title="Conferma solo dopo il controllo">
+Se la riga è corretta, riapri il cestino e premi **Elimina**. L’anagrafica viene rimossa, senza un archivio di recupero in questo percorso.
+<Frame>![Conferma per eliminare il solo fornitore dell’esempio](/images/contabilita/anagrafiche-reali/9.placeholder.svg)</Frame>
+</Step>
+<Step title="Controlla il risultato dopo il ricaricamento">
+Ricarica la pagina. Il fornitore eliminato non deve comparire; il cliente di controllo deve essere ancora presente.
+<Frame>![Fornitore rimosso e cliente conservato](/images/contabilita/anagrafiche-reali/10.placeholder.svg)</Frame>
 </Step>
 </Steps>
 
-<Warning>La rimozione e i suoi effetti sui collegamenti non sono esercitati. Questa bozza non promette che il programma impedisca ogni eliminazione di un soggetto già utilizzato.</Warning>
+<Warning>L’esempio elimina una scheda senza fatture o movimenti collegati. Non usarlo come prova degli effetti su una scheda con storico contabile; conserva i documenti necessari prima di rimuovere un soggetto.</Warning>
 
 ## Conti finanziari
 
@@ -342,47 +413,92 @@ Ricarica l'elenco e controlla che la riga sia assente. In **Conti Finanziari** i
 
 <Note>Bozza in attesa di prova: questa sezione deve essere confermata con una procedura reale prima della pubblicazione.</Note>
 
-Le causali classificano entrate e spese e ne determinano il raggruppamento nel rendiconto.
-Apri **Pagamenti** e **Gestisci Causali** per consultarle. Prima di aggiungerne una, controlla quelle esistenti.
-<Note>Le operazioni di creazione, modifica, ripartizione fra più causali e riepilogo delle detrazioni restano da provare. Il flusso di bilancio usa soltanto la causale già presente sulle quote dimostrative.</Note>
+Le causali classificano i pagamenti. Una causale stabilisce la direzione **Entrata** o **Uscita**, la tipologia **Istituzionale** o **Commerciale** e le opzioni disponibili per IVA e detraibilità.
+Questa gestione cambia le causali; non crea un incasso o una spesa.
+<Steps>
+<Step title="Apri la gestione delle causali">
+Da **Pagamenti** scegli **Gestisci Causali**. Si apre **Causali dei pagamenti**. Controlla le voci già presenti prima di aggiungerne una.
+<Frame>![Elenco delle causali prima dell’esempio](/images/pagamenti/causali-reali/1.placeholder.svg)</Frame>
+</Step>
+<Step title="Riconosci la nuova voce">
+Nell’esempio si crea **Quota laboratorio dimostrativa** come **Entrata**, **Istituzionale**, **IVA Esente**, **Tipo detrazione: No**, senza selezionare **Detraibile fiscalmente**. Dopo il ricaricamento i valori sono conservati.
+<Frame>![Causale dell’esempio salvata e riletta](/images/pagamenti/causali-reali/3.placeholder.svg)</Frame>
+</Step>
+<Step title="Gestisci le sole causali personali">
+La causale dell’esempio può essere aggiornata e rimossa con i relativi permessi. Le causali comuni del sistema non sono modificabili da questo percorso. L’eliminazione di una causale personale la contrassegna **Eliminata**.
+<Frame>![Causale personale contrassegnata Eliminata](/images/pagamenti/causali-reali/8.placeholder.svg)</Frame>
+</Step>
+</Steps>
+
+<Note>L’esempio non applica la nuova causale a un pagamento. Ripartizione degli importi, effetti sui rendiconti precedenti e riepilogo 730 richiedono prove dedicate.</Note>
 
 ### Tipologie di causali
 
 <Note>Bozza in attesa di prova: questa sezione deve essere confermata con una procedura reale prima della pubblicazione.</Note>
 
-Ogni causale distingue **Entrata** oppure **Uscita** e **Istituzionale** oppure **Commerciale**.
-Queste scelte hanno scopi diversi: il movimento stabilisce la direzione, la tipologia stabilisce la colonna del rendiconto.
-Per le entrate può essere presente **Detraibile fiscalmente**.
-<Note>La scelta fiscale dipende dalla situazione dell'associazione e del pagamento; il programma registra la classificazione scelta, senza attestare che ogni spesa dia diritto a una detrazione.</Note>
+I campi **Movimento** e **Tipologia** rispondono a due domande distinte: il denaro entra o esce? La voce è classificata come istituzionale o commerciale?
+
+| Campo | Scelta | Significato nel programma |
+| --- | --- | --- |
+| **Movimento** | **Entrata** o **Uscita** | Direzione del pagamento |
+| **Tipologia** | **Istituzionale** o **Commerciale** | Classificazione della causale |
+| **Tipo IVA** | Opzione della gestione IVA | Valore IVA registrato sulla causale |
+| **Tipo detrazione** | Opzione della gestione IVA | Valore di detrazione registrato |
+| **Detraibile fiscalmente** | Casella disponibile per le entrate | Contrassegno della causale |
+
+<Steps>
+<Step title="Leggi la classificazione iniziale">
+Nell’esempio la causale **Quota laboratorio dimostrativa** è un’**Entrata** **Istituzionale**, con **IVA Esente**, **Tipo detrazione: No** e casella di detraibilità non selezionata.
+<Frame>![Classificazione della causale prima della creazione](/images/pagamenti/causali-reali/2.placeholder.svg)</Frame>
+</Step>
+<Step title="Distingui modifica del nome e della tipologia">
+La modifica rinomina la voce **Quota laboratorio serale** e imposta **Commerciale**, mantenendo Entrata e le altre scelte dell’esempio. Dopo il ricaricamento controlla nome e tipologia.
+<Frame>![Tipologia Commerciale scelta nel modulo di modifica](/images/pagamenti/causali-reali/4.placeholder.svg)</Frame>
+<Frame>![Nuovo nome e tipologia conservati](/images/pagamenti/causali-reali/5.placeholder.svg)</Frame>
+</Step>
+</Steps>
+
+<Note>Le opzioni registrano la classificazione scelta. L’esempio non dimostra che una determinata operazione sia fiscalmente istituzionale, commerciale o detraibile, né prova tutte le combinazioni dei selettori.</Note>
 
 ### Creare una causale
 
 <Note>Bozza in attesa di prova: questa sezione deve essere confermata con una procedura reale prima della pubblicazione.</Note>
 
 <Steps>
-<Step title="Apri Gestisci Causali">
-Dalla pagina **Pagamenti** scegli **Gestisci Causali**, poi **Causale** con il simbolo **+**.
+<Step title="Apri Crea causale">
+Da **Pagamenti > Gestisci Causali**, premi **Crea causale**. Occorre il permesso per creare causali di pagamento.
 </Step>
-<Step title="Classifica la voce">
-Compila **Nome**, **Movimento** e **Tipologia**. Per un’entrata controlla **Detraibile fiscalmente**. In **Gestione IVA** verifica **Tipo IVA** e **Tipo detrazione** secondo la classificazione concordata per la tua associazione.
+<Step title="Compila il nome e la classificazione">
+Inserisci **Nome: Quota laboratorio dimostrativa**, **Movimento: Entrata** e **Tipologia: Istituzionale**. In gestione IVA scegli **Tipo IVA: IVA Esente** e **Tipo detrazione: No**. Nell’esempio lascia **Detraibile fiscalmente** non selezionata.
+<Frame>![Nuova causale con le opzioni dell’esempio](/images/pagamenti/causali-reali/2.placeholder.svg)</Frame>
 </Step>
-<Step title="Salva e ricontrolla la scelta">
-Premi **Salva**, ricarica l’elenco e controlla nome, direzione, tipologia e opzioni. Prima di usare la causale su molti pagamenti, verifica il risultato su una singola registrazione.
+<Step title="Salva e controlla dopo il ricaricamento">
+Premi **Salva**, attendi la conferma e ricarica la pagina. Controlla nome, movimento e tipologia nell’elenco. La causale creata è personale dell’associazione e può essere aperta con **Modifica**.
+<Frame>![Nuova causale conservata nell’elenco](/images/pagamenti/causali-reali/3.placeholder.svg)</Frame>
 </Step>
 </Steps>
+
+<Note>Queste scelte servono all’esempio locale. Prima di usarle nei pagamenti dell’associazione, controlla la classificazione adatta al caso concreto. La creazione non registra un pagamento.</Note>
 
 ### Modificare una causale
 
 <Note>Bozza in attesa di prova: questa sezione deve essere confermata con una procedura reale prima della pubblicazione.</Note>
 
 <Steps>
-<Step title="Apri la matita della causale personale">
-In **Gestisci Causali** individua la voce e premi **Modifica**. Le causali comuni fornite dal sistema hanno i comandi di modifica e rimozione disabilitati.
+<Step title="Apri una causale personale">
+In **Gestisci Causali**, individua **Quota laboratorio dimostrativa** e premi **Modifica** nella sua riga. Occorre il permesso per aggiornare causali. Le voci comuni del sistema hanno modifica ed eliminazione disabilitate.
 </Step>
-<Step title="Salva e controlla il rendiconto">
-Correggi i campi disponibili, premi **Salva** e ricontrolla dopo il ricaricamento. Le classificazioni sono utilizzate nel calcolo dei pagamenti: l’effetto su registrazioni precedenti e rendiconti già pubblicati resta da esercitare.
+<Step title="Aggiorna nome e tipologia">
+Nell’esempio cambia **Nome** in **Quota laboratorio serale** e **Tipologia** in **Commerciale**. Mantieni **Entrata**, **IVA Esente**, **Tipo detrazione: No** e detraibilità non selezionata.
+<Frame>![Modifica del nome e della tipologia della causale](/images/pagamenti/causali-reali/4.placeholder.svg)</Frame>
+</Step>
+<Step title="Salva e ricarica">
+Premi **Salva** e ricarica l’elenco. Verifica il nome **Quota laboratorio serale** e la nuova tipologia.
+<Frame>![Modifica conservata dopo il ricaricamento](/images/pagamenti/causali-reali/5.placeholder.svg)</Frame>
 </Step>
 </Steps>
+
+<Warning>La classificazione della causale viene utilizzata dai pagamenti che la richiamano. Questa prova usa una voce nuova senza movimenti collegati; gli effetti sui pagamenti precedenti e sui rendiconti già pubblicati restano da verificare.</Warning>
 
 ### Causali aggiuntive nei pagamenti
 

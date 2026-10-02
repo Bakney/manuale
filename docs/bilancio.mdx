@@ -43,11 +43,29 @@ Evita di aggiungere manualmente un importo già conteggiato da un pagamento. I v
 
 <Note>Bozza in attesa di prova: questa sezione deve essere confermata con una procedura reale prima della pubblicazione.</Note>
 
-L'esercizio del rendiconto segue il **giorno e mese d'inizio dell'anno fiscale**.
-Apri **Profilo > Generali**, trova **Anno fiscale** e controlla la scelta: **Anno solare**, **Anno sportivo (1)**, **Anno sportivo (2)** oppure **Altro periodo**.
-L'anno solare comincia il 1° gennaio; le due scelte sportive cominciano rispettivamente il 1° settembre e il 1° giugno. Per un altro periodo indica giorno e mese.
-<Warning>La stagione sportiva e l'anno fiscale sono impostazioni distinte. Ricontrolla l'intervallo del rendiconto dopo ogni modifica; non presumere che cambino insieme.</Warning>
-<Note>Questa procedura consulta il rendiconto con inizio al 1° gennaio e non cambia le impostazioni dell'anno fiscale. Il cambio di periodo e gli esercizi precedenti richiedono la guida e la prova dedicate.</Note>
+L’anno fiscale determina l’inizio dell’esercizio usato per il rendiconto. La stagione sportiva e la durata delle iscrizioni hanno preferenze separate.
+
+<Steps>
+<Step title="Apri le preferenze generali">
+Come titolare dell’associazione, apri **Profilo**, quindi **Generali** e il gruppo **Anno fiscale**. Annota la scelta e il giorno e mese iniziali prima di modificarli. Un account di sola lettura non può salvare queste preferenze; questa procedura non verifica il salvataggio con un ruolo personalizzato.
+<Frame>![Quattro tipi di anno fiscale nelle preferenze generali](/images/impostazioni/anno-fiscale/1.placeholder.svg)</Frame>
+</Step>
+<Step title="Scegli il periodo adatto">
+Le opzioni sono **Anno solare (Gennaio-Dicembre)**, **Anno Sportivo 1 (Settembre-Agosto)**, **Anno Sportivo 2 (Giugno-Maggio)** e **Altro Periodo (personalizzato)**. Le prime tre iniziano rispettivamente il 1° gennaio, il 1° settembre e il 1° giugno.
+<Frame>![Scelta dell’anno solare prima del salvataggio](/images/impostazioni/anno-fiscale/6.placeholder.svg)</Frame>
+Con **Altro Periodo** compila anche mese e giorno: nell’esempio scegli **Luglio** e **15**. Controlla entrambi i valori dopo aver cambiato il mese.
+<Frame>![Esempio di esercizio personalizzato dal 15 luglio](/images/impostazioni/anno-fiscale/8.placeholder.svg)</Frame>
+</Step>
+<Step title="Salva e ricontrolla le preferenze">
+Premi **Salva**, attendi l’esito e ricarica la pagina. Torna a **Generali**: tipo di periodo, giorno e mese devono corrispondere alla scelta. Verifica separatamente le preferenze della durata delle iscrizioni; cambiare l’anno fiscale non le allinea automaticamente.
+</Step>
+<Step title="Controlla il periodo del rendiconto">
+Apri **Gestione > Bilancio**. Controlla l’inizio riportato in **Periodo anno sociale dal** e l’anno del rendiconto prima di confrontare gli importi. Se la data corrente precede il giorno iniziale scelto, l’esercizio comincia nell’anno precedente. Per il periodo dal 15 luglio, una data di giugno appartiene ancora all’esercizio iniziato il luglio precedente.
+<Frame>![Periodo del rendiconto coerente con le preferenze salvate](/images/impostazioni/anno-fiscale/9.placeholder.svg)</Frame>
+</Step>
+</Steps>
+
+<Warning>Questa procedura cambia le preferenze e consulta una bozza del rendiconto. Non verifica la conversione di esercizi già approvati, la rinumerazione di ricevute o l’adeguatezza fiscale della scelta: concorda l’esercizio corretto con chi gestisce la contabilità.</Warning>
 
 ## Conti economici
 
@@ -151,12 +169,12 @@ La riga **Contributo dimostrativo direttivo** conserva i suoi importi **15,00 �
 
 ## Risorse correlate
 
-<Note>Bozza in attesa di prova: questa sezione deve essere confermata con una procedura reale prima della pubblicazione.</Note>
-
 <CardGroup cols={2}>
-<Card title="Come generare il bilancio" icon="file-invoice-dollar" href="/faq/come-generare-bilancio">Consulta il rendiconto, configura i conti e verifica pubblicazione e ritorno alla bozza.</Card>
+<Card title="Come generare il bilancio" icon="file-invoice-dollar" href="/faq/come-generare-bilancio">Rendiconto, conti, salvataggio e pubblicazione.</Card>
+<Card title="Contabilità avanzata" icon="calculator" href="/docs/contabilita-avanzata">Conti finanziari, giroconti, fornitori e documenti contabili.</Card>
+<Card title="Pagamenti" icon="wallet" href="/docs/pagamenti">Entrate, uscite e stato dell’incasso.</Card>
+<Card title="Impostazioni" icon="gear" href="/docs/impostazioni">Configurazione dell’organizzazione e dell’anno fiscale.</Card>
 </CardGroup>
 
-
-<Note>Il pulsante **Esporta PDF/Excel** è presente nel rendiconto. Scaricamento e contenuto dei file richiedono una prova separata prima di usare una guida all'esportazione.</Note>
+<Note>Il rendiconto espone **Esporta PDF/Excel**. La presenza del comando non verifica il contenuto dei file: scaricamento e contenuti richiedono le rispettive prove.</Note>
 

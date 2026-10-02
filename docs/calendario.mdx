@@ -180,19 +180,43 @@ Per vedere anche gli appuntamenti generali servono sia la lettura del calendario
 
 ## Gestire le presenze dal calendario
 
-<Note>Bozza in attesa di prova: questa sezione deve essere confermata dal flusso reale prima di essere considerata verificata.</Note>
+<Steps>
+<Step title="Apri una lezione del corso">
+Apri **Calendario**, nella pagina **Eventi e Promemoria**, e raggiungi il giorno della lezione già salvata nel corso. Premi la lezione, poi controlla **Nome**, data e orario. Nel dettaglio compare **Gestisci Presenze** soltanto se esiste il registro collegato.
+<Frame>![Lezione nel calendario generale con il comando Gestisci Presenze.](/images/corsi/iscritti-calendario-reali/6.placeholder.svg)</Frame>
+</Step>
+<Step title="Seleziona la persona presente">
+Premi **Gestisci Presenze**. In **Modifica Presenze** controlla l’elenco degli iscritti a quel corso; nell’esempio è **Bianchi Giulia**. Attiva il suo selettore: la variazione viene salvata subito, senza un altro pulsante Salva.
+<Frame>![Modifica Presenze: Giulia selezionata e salvata.](/images/corsi/iscritti-calendario-reali/7.placeholder.svg)</Frame>
+</Step>
+<Step title="Chiudi e controlla dopo la riapertura">
+Premi **Chiudi**, ricarica il calendario e apri nuovamente la stessa lezione e **Gestisci Presenze**. Il selettore di Giulia rimane attivo e la stessa presenza compare nel registro del corso.
+<Frame>![La medesima presenza riappare riaprendo la lezione dal calendario.](/images/corsi/iscritti-calendario-reali/8.placeholder.svg)</Frame>
+</Step>
+<Step title="Distingui consultazione e modifica">
+Un collaboratore con permesso di lettura può aprire la lezione e consultare le presenze, ma i selettori sono disabilitati senza il permesso di modifica delle presenze. Gli appuntamenti generali privi di corso non offrono questo registro.
+<Frame>![Registro consultabile in sola lettura con selettore disabilitato.](/images/corsi/iscritti-calendario-reali/9.placeholder.svg)</Frame>
+</Step>
+</Steps>
 
-Quando l'evento è una lezione e ha un registro collegato, la finestra può mostrare **Gestisci Presenze**. Gli appuntamenti senza corso non hanno le presenze degli atleti.
-<Note>Questa procedura non apre né salva un registro presenze dal calendario generale. Serve una prova dedicata per verificare la lezione corretta, i partecipanti, i permessi e la conservazione delle presenze.</Note>
+<Note>Questa procedura riguarda la presenza manuale di un’iscrizione Standard. Carnet, presenze automatiche e correzioni economiche hanno [procedure dedicate](/docs/registro-presenze).</Note>
 
 ## Stampare il calendario
 
-<Note>Bozza in attesa di prova: questa sezione deve essere confermata dal flusso reale prima di essere considerata verificata.</Note>
+<Steps>
+<Step title="Prepara la vista corrente">
+Apri **Calendario → Eventi e Promemoria**, scegli il periodo e una vista adatta: **mese**, **settimana**, **giorno** o **lista**. Controlla le lezioni visibili prima di avviare la stampa.
+<Frame>![Vista corrente del calendario generale e comando Stampa.](/images/corsi/iscritti-calendario-reali/10.placeholder.svg)</Frame>
+</Step>
+<Step title="Avvia la stampa del browser">
+Premi **Stampa** in alto. L’applicazione richiama la stampa nativa del browser e prepara la pagina in **A3 orizzontale**, nascondendo menu e comandi del calendario. La stampa riguarda la vista corrente.
+</Step>
+<Step title="Controlla la destinazione e l’anteprima">
+Nella finestra del browser scegli stampante o **Salva come PDF**, quindi controlla orientamento, tagli, pagine e leggibilità delle lezioni. Completa soltanto quando l’anteprima corrisponde al periodo che vuoi conservare.
+</Step>
+</Steps>
 
-Il pulsante **Stampa** è in alto nella pagina **Eventi e Promemoria** e apre la funzione di stampa del browser per la vista corrente.
-Scegli prima **mese** o **settimana**, poi controlla l'anteprima prima di stampare o salvare un PDF.
-<Frame>![Pulsante Stampa nel calendario generale](/images/camp-calendario/gestione/14.placeholder.svg)</Frame>
-<Note>La finestra di stampa e il documento prodotto non sono stati verificati in questa prova. Controlla tagli, orientamento e numero di pagine nella tua anteprima.</Note>
+<Note>È predisposta la verifica dell’avvio locale della stampa e del formato A3 orizzontale. Scelta della destinazione, anteprima nativa e risultato cartaceo o PDF selezionato richiedono ancora una verifica esterna: questa sezione non certifica quell’esito.</Note>
 
 ## Esportare il calendario
 
@@ -227,20 +251,21 @@ Sono presenti anche **Whatsapp**, **Invia Email** e **Chiudi**.
 
 ### Link diretto
 
-<Note>Bozza in attesa di prova: questa sezione deve essere confermata dal flusso reale prima di essere considerata verificata.</Note>
-
 <Steps>
 <Step title="Apri le opzioni di condivisione del corso">
-Apri **Corsi**, scegli **Ginnastica per tutti** e raggiungi **Calendario delle lezioni**.
-Premi **Condividi**. La finestra **Condividi calendario** mostra il collegamento del singolo corso e **Codice HTML da incorporare nel tuo sito**.
-Sono presenti anche **Whatsapp**, **Invia Email** e **Chiudi**.
-<Frame>![Finestra Condividi calendario con collegamento e codice per il sito](/images/camp-calendario/gestione/26.placeholder.svg)</Frame>
+Da **Attività → Corsi e Abbonamenti**, apri il corso e raggiungi **Calendario**. Premi **Condividi**: la finestra **Condividi calendario** mostra il collegamento del corso e il codice HTML per il sito.
+<Frame>![Condividi calendario con collegamento del corso e codice incorporabile.](/images/corsi/tipologie-condivisione-reali/7.placeholder.svg)</Frame>
 </Step>
 <Step title="Copia il collegamento del corso">
-Premi l'icona con i fogli accanto al collegamento. Il destinatario può consultare il calendario del corso senza autenticarsi.
-Nell'esempio la lettura senza accesso restituisce la stessa lezione salvata nel calendario del corso. Condividi il collegamento soltanto con le persone a cui vuoi mostrare queste lezioni.
+Premi l’icona degli appunti accanto al collegamento. Incolla il risultato dove devi distribuirlo e confrontalo con l’indirizzo mostrato: si tratta del calendario di **quel corso**.
+</Step>
+<Step title="Controlla il collegamento prima di distribuirlo">
+Apri l’indirizzo in una scheda senza sessione. Il calendario mostra la lezione salvata nel corso e permette la consultazione senza autenticazione. Controlla nome, giorno e orario prima di inviare il link.
+<Frame>![Calendario del corso consultato senza autenticazione.](/images/corsi/tipologie-condivisione-reali/8.placeholder.svg)</Frame>
 </Step>
 </Steps>
+
+<Info>Il collegamento non comprende gli appuntamenti generali dell’associazione. Una nuova apertura legge le lezioni salvate; qui non viene verificata una notifica immediata a una pagina già aperta. Copiare non invia il link: consegna via email o WhatsApp resta separata.</Info>
 
 ### Condivisione tramite WhatsApp
 
@@ -315,9 +340,10 @@ La disconnessione coinvolge anche la revoca presso Google.
 
 ## Risorse correlate
 
-<Note>Bozza in attesa di prova: questa sezione deve essere confermata dal flusso reale prima di essere considerata verificata.</Note>
-
 <CardGroup cols={2}>
-<Card title="Collegare Google Calendar" icon="calendar-plus" href="/faq/come-collegare-google-calendar">Consulta i comandi locali e i passaggi che richiedono una verifica presso Google.</Card>
+<Card title="Corsi" icon="calendar-days" href="/docs/corsi">Calendario delle lezioni e persone iscritte al corso.</Card>
+<Card title="Registro presenze" icon="list-check" href="/docs/registro-presenze">Presenze, correzioni e collegamento con i carnet.</Card>
+<Card title="Carnet" icon="ticket" href="/docs/carnet">Pacchetti di lezioni, assegnazioni e ricariche.</Card>
+<Card title="Google Calendar" icon="calendar-plus" href="/faq/come-collegare-google-calendar">Comandi dell’applicazione e passaggi che richiedono una verifica presso Google.</Card>
 </CardGroup>
 
