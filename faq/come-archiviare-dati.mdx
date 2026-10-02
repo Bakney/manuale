@@ -5,24 +5,35 @@ description: "Scopri come funziona l'archiviazione manuale e automatica dei dati
 
 # Cosa significa archiviare
 
-In Assozeta, archiviare un'iscrizione la sposta dall'elenco **Tesserati** alla scheda **Archivio** delle iscrizioni. Puoi consultarla e riportarla nell'elenco attivo con l'azione di ripristino.
+Archiviare un’iscrizione significa spostarla dall’elenco attivo all’archivio della stessa sezione. Non equivale a eliminarla: il ripristino conserva la stessa iscrizione.
 
-Il comportamento dei pagamenti collegati è descritto nella sezione **Cosa viene archiviato**.
+<Steps>
+<Step title="Confronta elenco attivo e archivio">
+Dopo **Archivia selezionati**, ricarica l’elenco: Sara Conti scompare dalle iscrizioni attive e compare nell’**Archivio**. Il passaggio viene conservato alla riapertura.
+<Frame>![Confronta elenco attivo e archivio](/images/archivio/manutenzione/4.placeholder.svg)</Frame>
+</Step>
+</Steps>
+
+<Note>La quota non pagata dell’esempio passa anche nel distinto archivio dei pagamenti. La successiva riattivazione dell’iscrizione lascia quel pagamento archiviato.</Note>
 
 # Archiviazione manuale
 
 <Steps>
-  <Step title="Seleziona l'iscrizione">
-    Apri **Organizzazione → Iscrizioni** e seleziona la casella accanto alla persona da archiviare.
-    <Frame>![Iscrizione selezionata per l'archiviazione](/images/faq/archiviazione/1.placeholder.svg)</Frame>
-  </Step>
-  <Step title="Conferma l'archiviazione">
-    Premi **Archivia** nella barra delle azioni, poi **Archivia selezionati** nella finestra di conferma. L'iscrizione viene tolta dall'elenco attivo.
-    <Frame>![Conferma dell'archiviazione](/images/faq/archiviazione/2.placeholder.svg)</Frame>
-  </Step>
+<Step title="Seleziona l’iscrizione corretta">
+Apri le iscrizioni attive e seleziona la casella della riga da archiviare. Nell’esempio scegliamo soltanto Sara Conti, con quota non saldata.
+<Frame>![Seleziona l’iscrizione corretta](/images/archivio/manutenzione/1.placeholder.svg)</Frame>
+</Step>
+<Step title="Leggi e conferma">
+Premi **Archivia** e controlla la conferma **Archivia selezionati**. **Annulla** lascia la situazione invariata; conferma solo dopo aver verificato la selezione.
+<Frame>![Leggi e conferma](/images/archivio/manutenzione/2.placeholder.svg)</Frame>
+</Step>
+<Step title="Controlla gli effetti persistiti">
+Ricarica l’elenco e apri **Archivio**. Verifica l’iscrizione selezionata e controlla separatamente l’archivio dei pagamenti per la quota non pagata.
+<Frame>![Controlla gli effetti persistiti](/images/archivio/manutenzione/4.placeholder.svg)</Frame>
+</Step>
 </Steps>
 
-<Note>Un collaboratore in sola lettura può consultare le iscrizioni, ma non archiviarle. Per l'archiviazione servono i relativi permessi.</Note>
+<Note>L’esempio non comprende iscrizioni ai corsi o ricevute collegate. I loro eventuali effetti non sono dimostrati da questa archiviazione: controlla i collegamenti prima di lavorare su una persona con quelle risorse.</Note>
 
 # Archiviazione automatica
 
@@ -77,30 +88,52 @@ Se stai soltanto provando la preferenza, puoi disattivare di nuovo l’interrutt
 
 # Consultare i dati archiviati
 
-Per consultare le iscrizioni archiviate apri **Organizzazione → Iscrizioni** e scegli la scheda **Archivio**.
+<Steps>
+<Step title="Apri l’archivio dedicato">
+Per una persona apri **Organizzazione → Iscrizioni → Archivio**. Cerca il nome o cognome e controlla la riga; azzera la ricerca per tornare all’elenco completo.
+<Frame>![Apri l’archivio dedicato](/images/archivio/manutenzione/5.placeholder.svg)</Frame>
+</Step>
+<Step title="Controlla gli elementi collegati separatamente">
+Per la quota non saldata apri **Contabilità → Pagamenti → Archivio**. Il pagamento è distinto dalla riga dell’iscrizione e può restare archiviato dopo il suo ripristino.
+<Frame>![Controlla gli elementi collegati separatamente](/images/archivio/manutenzione/6.placeholder.svg)</Frame>
+</Step>
+</Steps>
 
-<Frame>![Archivio delle iscrizioni](/images/faq/archiviazione/3.placeholder.svg)</Frame>
+<Note>La sola lettura consente la consultazione dell’archivio ma non il ripristino. **Archivio** nel menu laterale riguarda invece documenti e cartelle.</Note>
 
 # Ripristinare i dati archiviati
 
 <Steps>
-  <Step title="Apri l'archivio delle iscrizioni">
-    Apri **Organizzazione → Iscrizioni**, quindi la scheda **Archivio**. Nella riga della persona premi il pulsante con il suggerimento **Rimuovi dall'archivio**.
-    <Frame>![Iscrizione archiviata e pulsante di ripristino](/images/faq/archiviazione/3.placeholder.svg)</Frame>
-  </Step>
-  <Step title="Conferma lo spostamento">
-    Nella finestra di conferma premi **Sposta nel libro soci**.
-    <Frame>![Conferma del ritorno nell'elenco attivo](/images/faq/archiviazione/4.placeholder.svg)</Frame>
-  </Step>
-  <Step title="Controlla l'elenco attivo">
-    Torna alla scheda **Tesserati**. L'iscrizione compare di nuovo e rimane visibile dopo il ricaricamento.
-    <Frame>![Iscrizione ripristinata nell'elenco attivo](/images/faq/archiviazione/5.placeholder.svg)</Frame>
-  </Step>
+<Step title="Trova l’iscrizione archiviata">
+Apri **Organizzazione → Iscrizioni → Archivio** e cerca nome o cognome. Nell’esempio l’iscrizione di **Sara Conti** è presente nell’archivio dopo la ricarica; controlla la riga prima di agire.
+<Frame>![Trova l’iscrizione archiviata](/images/archivio/manutenzione/4.placeholder.svg)</Frame>
+</Step>
+<Step title="Conferma il ripristino">
+Premi **Rimuovi dall’archivio** nella riga e controlla la conferma. Usa **Annulla** se hai scelto la persona sbagliata; altrimenti premi **Sposta nel libro soci**.
+<Frame>![Conferma il ripristino](/images/archivio/manutenzione/8.placeholder.svg)</Frame>
+</Step>
+<Step title="Ricontrolla l’elenco e i pagamenti">
+Ricarica l’elenco attivo: la stessa iscrizione torna consultabile. La sua quota non saldata rimane nell’archivio dei pagamenti e va controllata separatamente da **Contabilità → Pagamenti → Archivio**. Ripristinare l’iscrizione non ripristina automaticamente quel pagamento.
+<Frame>![Ricontrolla l’elenco e i pagamenti](/images/archivio/manutenzione/9.placeholder.svg)</Frame>
+</Step>
 </Steps>
 
 # Cosa viene archiviato
 
-L'operazione archivia l'iscrizione. Archivia anche il suo pagamento collegato quando non è saldato e gli altri pagamenti non saldati della persona che rientrano nel periodo dell'iscrizione.
+Il dato da archiviare dipende dalla sezione in cui lavori. Questa procedura mostra una singola iscrizione e la sua quota non saldata, non un archivio unico di tutta l’associazione.
 
-<Warning>Ripristinare l'iscrizione non ripristina automaticamente i pagamenti archiviati. Nell'esempio di Sara Conti, la quota non saldata resta nell'archivio dei pagamenti anche dopo il ritorno della persona nell'elenco attivo.</Warning>
+| Elemento nell’esempio | Risultato |
+| --- | --- |
+| Iscrizione di Sara Conti | Fuori dall’elenco attivo, visibile nell’Archivio delle iscrizioni |
+| Quota non saldata collegata | Visibile nel distinto Archivio dei pagamenti |
+| Altri pagamenti già saldati | Restano invariati |
+
+<Steps>
+<Step title="Controlla la quota collegata">
+Dopo l’archiviazione cerca anche il pagamento nel suo archivio. Dopo il ripristino dell’iscrizione controllalo ancora: rimane archiviato finché non lo ripristini separatamente.
+<Frame>![Controlla la quota collegata](/images/archivio/manutenzione/6.placeholder.svg)</Frame>
+</Step>
+</Steps>
+
+<Note>L’applicazione prevede inoltre archivi per corsi e documenti contabili. L’esempio di Sara non include iscrizioni ai corsi o ricevute collegate: i possibili effetti su quelle risorse e il passaggio automatico a fine periodo richiedono prove dedicate.</Note>
 

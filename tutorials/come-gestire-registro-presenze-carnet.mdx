@@ -5,11 +5,25 @@ description: "Guida completa per gestire le presenze degli atleti e i carnet lez
 
 # Indice
 
-<Note>Bozza in attesa di prova: i passaggi e le immagini previste devono essere verificati con una cattura del flusso reale prima della pubblicazione.</Note>
+Questo percorso parte da una persona già iscritta all’associazione. Prepara corso e carnet, registra una lezione e controlla come la presenza aggiorna il saldo. I passaggi manuali sono distinti dalle presenze automatiche e dalle assenze dell’area atleta.
 
-<Steps><Step title="Prepara corso e carnet">Iscrivi il tesserato al corso e assegna il carnet con il relativo pagamento.</Step><Step title="Registra una presenza">Crea la lezione e apri la scheda Presenze per segnare l'atleta.</Step><Step title="Controlla e correggi">Controlla il conteggio in Utilizzo e rimuovi la presenza per restituire la lezione.</Step></Steps>
+<Steps>
+<Step title="Prepara corso e carnet">
+[Iscrivi la persona al corso](/docs/corsi#aggiungere-o-rimuovere-atleti), [assegna il carnet](/docs/carnet#assegnare-un-carnet-ad-un-atleta), collega il corso e incassa il relativo pagamento. Nell’esempio Giulia dispone di cinque lezioni.
+<Frame>![Carnet assegnato prima della registrazione delle presenze](/images/registro-presenze/carnet-manuale/7.placeholder.svg)</Frame>
+</Step>
+<Step title="Registra una presenza">
+[Crea e pubblica la lezione](/docs/corsi#calendario-delle-lezioni), apri **Presenze**, seleziona la persona e salva. [Controlla il carnet](/docs/carnet#come-funziona-un-carnet): il conteggio passa da **5/5** a **4/5**.
+<Frame>![Presenza salvata per Giulia](/images/registro-presenze/carnet-manuale/13.placeholder.svg)</Frame>
+<Frame>![Saldo del carnet dopo la presenza](/images/registro-presenze/carnet-manuale/14.placeholder.svg)</Frame>
+</Step>
+<Step title="Controlla e correggi">
+Per annullare la partecipazione, torna nella stessa lezione, togli la presenza e salva. Controlla **Utilizzo**: il saldo deve tornare a **5/5**. Per ricariche e variazioni amministrative segui le sezioni specifiche più avanti.
+<Frame>![Saldo ripristinato dopo la rimozione della presenza](/images/registro-presenze/carnet-manuale/15.placeholder.svg)</Frame>
+</Step>
+</Steps>
 
-<Note>Le presenze automatiche, le assenze previste, la ricarica e la modifica manuale del saldo sono ancora da verificare con esempi dedicati.</Note>
+Le sezioni [Presenze automatiche](#presenze-automatiche-pro-teams) richiedono ancora una sessione atleta e l’esecuzione del processo automatico per completare le catture della versione in uso.
 
 # Visualizzare il registro presenze
 
@@ -49,21 +63,53 @@ Apri **Attività → Carnet → Carnet ginnastica 5 lezioni → Utilizzo**. La r
 
 # Presenze automatiche (Pro/Teams)
 
-<Note>Bozza in attesa di prova: i passaggi e le immagini previste devono essere verificati con una cattura del flusso reale prima della pubblicazione.</Note>
+Le presenze automatiche sono previste per le associazioni con piano **Pro** o **Teams** e con l’opzione **Segna Presenze Automaticamente** attiva. La pubblicazione delle lezioni e l’attivazione dell’opzione sono operazioni distinte.
 
-Le presenze automatiche e le assenze previste dell’area atleta richiedono una prova dedicata. La procedura qui illustrata registra e corregge manualmente una presenza; non dimostra l’esecuzione del processo automatico.
+Il processo automatico prende in esame i corsi attivi e le lezioni già trascorse nelle ultime 24 ore, ancora da elaborare. Non segna immediatamente tutti gli iscritti quando crei la lezione. Se una lezione non è stata elaborata, controlla prima piano, impostazione e calendario, poi verifica il risultato nel registro.
+
+<Note>Procedura da completare con una sessione atleta e il processo automatico della versione in uso. I controlli descritti sono ricavati dal codice; questa guida non attesta un’esecuzione del processo automatico.</Note>
 
 ## Come funziona
 
-<Note>Bozza in attesa di prova: i passaggi e le immagini previste devono essere verificati con una cattura del flusso reale prima della pubblicazione.</Note>
+Il processo automatico esamina le iscrizioni al corso, salta le assenze previste e applica le regole dei carnet prima di salvare i presenti. È previsto un controllo periodico: il risultato non coincide necessariamente con l’istante iniziale della lezione.
 
-Le presenze automatiche e le assenze previste dell’area atleta richiedono una prova dedicata. La procedura qui illustrata registra e corregge manualmente una presenza; non dimostra l’esecuzione del processo automatico.
+<Steps>
+<Step title="Prepara il registro del corso">
+Apri **Attività → Corsi**, scegli il corso e verifica che sia attivo. In **Calendario** pubblica le lezioni necessarie e controlla che compaiano in **Presenze**. Un calendario in bozza non crea le stesse date operative del calendario pubblicato.
+</Step>
+<Step title="Controlla iscrizioni, assenze e carnet">
+Controlla gli iscritti al corso e le assenze segnalate. Se usano carnet, verifica collegamento al corso, saldo positivo e pagamento. Un carnet disabilitato non viene scelto; un carnet selezionato ma non pagato impedisce la registrazione automatica di quella persona.
+</Step>
+<Step title="Ricontrolla la lezione dopo l’elaborazione">
+Apri **Presenze** dopo lo svolgimento della lezione e confronta i presenti con la partecipazione effettiva. Il processo salva l’elenco calcolato e contrassegna la data come elaborata: non trattarlo come una semplice aggiunta ai presenti già segnati. Controlla anche il saldo del carnet e correggi dal registro quando necessario.
+</Step>
+</Steps>
+
+<Warning>Il processo automatico non sostituisce il controllo dell’istruttore. Non usarlo come prova che l’atleta abbia partecipato realmente. L’elaborazione di una data già contrassegnata non viene ripetuta nello stesso modo.</Warning>
+
+<Note>Procedura da completare con una sessione atleta e il processo automatico della versione in uso. I controlli descritti sono ricavati dal codice; questa guida non attesta un’esecuzione del processo automatico.</Note>
 
 ## Come si attivano le presenze automatiche
 
-<Note>Bozza in attesa di prova: i passaggi e le immagini previste devono essere verificati con una cattura del flusso reale prima della pubblicazione.</Note>
+Per attivare l’opzione usa un account autorizzato a modificare le impostazioni. Prima verifica che l’associazione abbia il piano richiesto; un calendario pubblicato da solo non attiva l’automazione.
 
-Pubblicare il calendario rende disponibili le date. L’opzione delle presenze automatiche è distinta e deve essere verificata nelle impostazioni: non dare per attiva l’automazione soltanto perché hai creato una lezione.
+<Steps>
+<Step title="Apri le impostazioni dell’associazione">
+Apri il tuo **Profilo**, scegli **Generali** e individua **Segna Presenze Automaticamente**. Se il comando è disattivato per il collaboratore, usa un account con il permesso di modifica delle impostazioni.
+</Step>
+<Step title="Abilita e salva l’opzione">
+Attiva **Segna Presenze Automaticamente** e premi **Salva** nella barra inferiore. Riapri la pagina e verifica che l’interruttore sia ancora attivo. Per sospendere l’automazione, disattivalo e salva nuovamente.
+</Step>
+<Step title="Controlla un corso e il risultato">
+Controlla corso attivo, iscritti e calendario pubblicato. Dopo una lezione, apri **Presenze** e verifica l’elenco e i carnet: il salvataggio dell’interruttore conferma soltanto l’impostazione, non l’esecuzione del processo.
+</Step>
+</Steps>
+
+<Note>Per modificare le impostazioni serve il permesso di modifica delle impostazioni. Per aggiornare le presenze servono i permessi del registro. Un collaboratore che può consultare la bacheca non riceve automaticamente questi permessi.</Note>
+
+<Note>Procedura da completare con una sessione atleta e il processo automatico della versione in uso. I controlli descritti sono ricavati dal codice; questa guida non attesta un’esecuzione del processo automatico.</Note>
+
+<Frame>![Screenshot pianificato: Generali, opzione Segna Presenze Automaticamente](/images/registro-presenze/automatiche-pianificate/1.placeholder.svg)</Frame>
 
 # Come funzionano i carnet con le presenze
 
@@ -138,9 +184,14 @@ Riapri il carnet in **Utilizzo** e ricarica la pagina: il saldo torna da **4/5**
 
 ## Registro lezioni nel carnet
 
-Il sistema conserva per ogni consumo data, corso, titolo della lezione e riferimento alla data del registro. Nell’interfaccia **Utilizzo del Carnet** puoi controllare il saldo nella colonna **Lezioni**; questa pagina non espone un elenco completo di quei record interni.
+Ogni consumo generato dal registro manuale conserva data, corso, titolo della lezione e riferimento alla data del registro. Nella scheda **Utilizzo** del pacchetto, la colonna **Lezioni** mostra il saldo e il totale: nell’esempio **4/5** significa quattro lezioni residue su cinque assegnate.
 
-Per ricostruire la partecipazione della persona consulta [lo storico presenze](/docs/registro-presenze#consultare-lo-storico-presenze-di-un-atleta). Quando correggi l’interruttore di una presenza, viene rimosso il relativo consumo e restituita la lezione; modificare soltanto il saldo non riscrive quello storico.
+Apri **Attività → Carnet**, scegli il pacchetto e **Utilizzo**, individua la persona e confronta il saldo con il registro del corso. Quando rimuovi la presenza dalla stessa lezione, il consumo corrispondente viene rimosso e la lezione restituita.
+
+<Frame>![Saldo dopo il consumo della presenza manuale](/images/registro-presenze/carnet-manuale/14.placeholder.svg)</Frame>
+<Frame>![Saldo dopo la correzione della presenza](/images/registro-presenze/carnet-manuale/15.placeholder.svg)</Frame>
+
+<Note>La tabella Utilizzo non mostra una riga dettagliata per ogni consumo. Non descriviamo qui una schermata di storico del carnet che il percorso non apre. Per leggere le presenze della persona usa la sezione **Registro Presenze** della sua scheda.</Note>
 
 # Gestire le lezioni perse e le correzioni
 
@@ -193,35 +244,26 @@ Apri **Attività → Carnet → Carnet ginnastica 5 lezioni → Utilizzo**. La r
 
 # Consigli per la gestione dei carnet
 
-<Note>Bozza in attesa di prova: i passaggi e le immagini previste devono essere verificati con una cattura del flusso reale prima della pubblicazione.</Note>
+Mantieni separati iscrizione al corso, assegnazione del carnet e incasso. Il pagamento del corso non paga automaticamente il carnet; collegare un corso al carnet non elimina quote già create. Un controllo iniziale evita di scoprire durante la lezione che il pacchetto non è pronto.
 
 <Steps>
-<Step title="Assegna un nuovo carnet a Giulia">
-Apri il carnet e scegli **Utilizzo**.
-Premi **Assegna carnet**. Nel modulo **Assegna un carnet**, cerca Giulia in **Associa carnet a**, seleziona **Giulia Bianchi** e premi **Assegna**.
-<Frame>![Giulia selezionata per l’assegnazione del carnet](/images/registro-presenze/carnet-manuale/6.placeholder.svg)</Frame>
-Nell'elenco **Utilizzo del Carnet** compare una nuova riga con **5/5** lezioni. L'assegnazione genera un pagamento di **50,00 €**, inizialmente in attesa.
-<Frame>![Carnet assegnato a Giulia con cinque lezioni disponibili](/images/registro-presenze/carnet-manuale/7.placeholder.svg)</Frame>
-<Note>Una riga senza collegamenti mostra **Valido per tutti i corsi**. Il carnet può essere usato per le presenze nei corsi a cui il tesserato è iscritto; il collegamento permette di limitarlo al corso scelto.</Note>
+<Step title="Assegna e controlla il pacchetto">
+Apri **Attività → Carnet**, scegli il pacchetto e **Utilizzo**, poi **Assegna carnet**. Seleziona la persona e conferma; controlla che la nuova assegnazione mostri **5/5** e il proprio pagamento di **50,00 €** ancora da saldare. L’assegnazione non sostituisce la quota del corso.
+<Frame>![Selezione della persona per il nuovo carnet](/images/registro-presenze/carnet-manuale/6.placeholder.svg)</Frame>
+<Frame>![Nuova assegnazione e relativo pagamento](/images/registro-presenze/carnet-manuale/7.placeholder.svg)</Frame>
 </Step>
-<Step title="Collega il carnet al corso">
-Nella riga di Giulia, premi **collega corso**.
-In **Assegna carnet ad un corso**, seleziona **Ginnastica per tutti** e premi **Assegna carnet**.
-<Frame>![Corso già frequentato da Giulia selezionato per il collegamento](/images/registro-presenze/carnet-manuale/8.placeholder.svg)</Frame>
-Il titolo del corso compare nella colonna **Corsi** e il conteggio rimane **5/5** anche dopo il ricaricamento.
-<Frame>![Collegamento al corso conservato nella riga del carnet](/images/registro-presenze/carnet-manuale/9.placeholder.svg)</Frame>
-<Warning>La lista propone i corsi a cui il tesserato è già iscritto. Se manca il corso desiderato, esegui prima l'iscrizione al corso. Il collegamento dell'assegnazione esistente non genera un secondo pagamento.</Warning>
+<Step title="Collega il corso desiderato">
+Nella stessa riga usa **Assegna corso**, seleziona il corso al quale la persona è già iscritta e salva. Riapri **Utilizzo**: il collegamento deve essere ancora presente e il saldo deve rimanere **5/5**, senza creare un secondo pagamento per questo collegamento.
+<Frame>![Scelta del corso già frequentato](/images/registro-presenze/carnet-manuale/8.placeholder.svg)</Frame>
+<Frame>![Collegamento conservato dopo la riapertura](/images/registro-presenze/carnet-manuale/9.placeholder.svg)</Frame>
 </Step>
-<Step title="Incassa il pagamento del carnet">
-Apri **Pagamenti** e trova il pagamento di **50,00 €** intestato a Giulia, creato dall'assegnazione.
-Premi il pulsante con il suggerimento **Segna come pagato**. In **Incassare il pagamento?**, indica **Data Incasso** e premi **Incassa**.
-Nell'esempio togliamo **Genera ricevuta** e lasciamo **Invia email** disattivato: il pagamento viene incassato senza produrre subito il PDF o inviare un messaggio.
-<Frame>![Incasso del pagamento del carnet senza PDF immediato o email](/images/registro-presenze/carnet-manuale/10.placeholder.svg)</Frame>
-<Note>Il pagamento della quota corso da 120,00 € resta separato e in attesa. Controlla importo e intestatario prima di confermare l'incasso del carnet.</Note>
+<Step title="Incassa e ricontrolla prima della presenza">
+Apri il pagamento del carnet, controlla importo e modalità e conferma l’incasso. Nell’esempio non richiediamo PDF o email. Prima di segnare una presenza, verifica che il pagamento risulti saldato e che le lezioni residue siano sufficienti.
+<Frame>![Conferma dell’incasso del carnet](/images/registro-presenze/carnet-manuale/10.placeholder.svg)</Frame>
 </Step>
 </Steps>
 
-<Note>Un collaboratore con il solo accesso in lettura può consultare corso, carnet e presenze. Per iscrivere un tesserato, creare o assegnare un carnet, modificare il calendario o segnare presenze servono i permessi delle singole operazioni.</Note>
+Per correggere una partecipazione usa il registro della stessa lezione. Per una correzione amministrativa del numero di lezioni usa la procedura **Modificare le lezioni rimanenti** e ricontrolla il totale: cambiare il saldo non ricostruisce lo storico delle partecipazioni.
 
 ## Controllare le lezioni rimanenti
 
@@ -287,7 +329,9 @@ Premi **Salva** e attendi **Modificato con successo.**. Chiudi e riapri la perso
 
 # Conclusione
 
-<Note>Bozza in attesa di prova: i passaggi e le immagini previste devono essere verificati con una cattura del flusso reale prima della pubblicazione.</Note>
+Dopo ogni lezione controlla il registro e il saldo della persona. Per una presenza registrata per errore correggi quella stessa data; per un nuovo pacchetto usa l’assegnazione o la ricarica; per una variazione amministrativa usa la modifica delle lezioni residue e ricontrolla il totale.
 
-Il percorso illustrato collega iscrizione al corso, assegnazione del carnet, incasso e presenza manuale. Controlla il saldo dopo ogni correzione. Le altre operazioni indicate nelle sezioni in attesa di verifica richiedono esempi aggiuntivi.
+Le presenze automatiche richiedono piano, opzione attiva e calendario pubblicato. Le segnalazioni dell’atleta e l’elaborazione del processo automatico sono passaggi distinti: le rispettive sezioni indicano i controlli e le parti ancora da eseguire nella versione in uso.
+
+Puoi riprendere dalle guide [Carnet](/docs/carnet), [Registro presenze](/docs/registro-presenze) e [Corsi](/docs/corsi) per approfondire l’operazione necessaria.
 

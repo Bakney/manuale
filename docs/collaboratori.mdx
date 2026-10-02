@@ -5,8 +5,6 @@ description: "In questa sezione è spiegato come gestire i collaboratori della t
 
 ## Introduzione
 
-<Note>Bozza in attesa di prova: i passaggi e le immagini previste richiedono la verifica del flusso reale prima della pubblicazione.</Note>
-
 I collaboratori lavorano sui dati della stessa associazione con le autorizzazioni assegnate dal responsabile. Questa procedura modifica un collaboratore già collegato.
 
 <Steps>
@@ -42,8 +40,6 @@ Nell'esempio usiamo l'indirizzo fittizio **nuovo.collaboratore@example.test**, s
 
 ## Livelli di permessi
 
-<Note>Bozza in attesa di prova: i passaggi e le immagini previste richiedono la verifica del flusso reale prima della pubblicazione.</Note>
-
 | Livello | Scelta nel modulo |
 | --- | --- |
 | **Accesso Completo** | Permessi ordinari completi sulle funzioni dell’associazione |
@@ -60,26 +56,33 @@ Lascia **Personalizzato** se vuoi scegliere le singole autorizzazioni.
 
 <Note>**Accesso Completo** concede i permessi ordinari dell'associazione. Non assegna il ruolo di proprietario dell'installazione: operazioni quali il ripristino dei dati mantengono controlli separati sul proprietario o sull'amministratore.</Note>
 
-### Accesso Completo
-
-<Note>Bozza in attesa di prova: i passaggi e le immagini previste richiedono la verifica del flusso reale prima della pubblicazione.</Note>
-
-Il menu propone **Accesso Completo**. Valuta questa scelta solo se la persona deve usare tutte le funzioni ordinarie dell’associazione.
-
 <Steps>
-<Step title="Apri la modifica del collaboratore">
-Premi la matita **Modifica** nella riga del collaboratore.
-Si apre **Modifica collaboratore**. Il menu **Permessi** propone **Accesso Completo** e **Personalizzato**.
-Lascia **Personalizzato** se vuoi scegliere le singole autorizzazioni.
-<Frame>![Finestra di modifica dei permessi del collaboratore esistente](/images/collaboratori/permessi/3.placeholder.svg)</Frame>
+<Step title="Controlla anche un accesso completo salvato">
+Il passaggio a **Accesso Completo** è distinto dalla selezione di singole caselle. Dopo **Salva** e riapertura, il collaboratore dell’esempio può aggiornare il proprio profilo. Per tornare alla consultazione scegli nuovamente **Personalizzato** e conserva soltanto i permessi necessari.
+<Frame>![Controlla anche un accesso completo salvato](/images/collaboratori/permessi/8.placeholder.svg)</Frame>
 </Step>
 </Steps>
 
-<Note>**Accesso Completo** concede i permessi ordinari dell'associazione. Non assegna il ruolo di proprietario dell'installazione: operazioni quali il ripristino dei dati mantengono controlli separati sul proprietario o sull'amministratore.</Note>
+### Accesso Completo
+
+Assegna **Accesso Completo** quando la persona deve operare sulle funzioni ordinarie dell’associazione. Questa scelta concede le autorizzazioni del ruolo, ma non trasferisce la proprietà dell’organizzazione né rende amministratore dell’installazione.
+
+<Steps>
+<Step title="Scegli Accesso Completo nella persona corretta">
+Apri **Collaboratori**, riconosci l’email e lo stato **Accettato**, premi la matita **Modifica**, seleziona **Accesso Completo** in **Permessi** e premi **Salva**.
+<Frame>![Scegli Accesso Completo nella persona corretta](/images/collaboratori/permessi/1.placeholder.svg)</Frame>
+</Step>
+<Step title="Verifica il ruolo salvato e una funzione autorizzata">
+Ricarica la lista e fai riaprire l’applicazione al collaboratore. Nell’esempio, l’account collegato modifica il proprio Nome in **Profilo → Informazioni Account**, salva e lo ritrova alla riapertura. I dati dell’organizzazione e del proprietario restano invariati.
+<Frame>![Verifica il ruolo salvato e una funzione autorizzata](/images/collaboratori/permessi/8.placeholder.svg)</Frame>
+</Step>
+<Step title="Riduci l’accesso quando serve">
+Per tornare a un accesso limitato seleziona **Personalizzato**, ricontrolla tutte le caselle e salva. Nell’esempio torniamo alle autorizzazioni iniziali dopo aver ripristinato il Nome personale.
+<Frame>![Riduci l’accesso quando serve](/images/collaboratori/permessi/9.placeholder.svg)</Frame>
+</Step>
+</Steps>
 
 ### Personalizzato
-
-<Note>Bozza in attesa di prova: i passaggi e le immagini previste richiedono la verifica del flusso reale prima della pubblicazione.</Note>
 
 Scegli le autorizzazioni necessarie per ciascuna area. **Seleziona tutto** e **Rimuovi tutto** agiscono sulla selezione: prima di salvare ricontrolla le caselle.
 
@@ -100,24 +103,18 @@ Dopo aver riaperto l'applicazione, i controlli dell'organizzazione sono di nuovo
 
 ## Stato degli inviti
 
-<Note>Bozza in attesa di prova: i passaggi e le immagini previste richiedono la verifica del flusso reale prima della pubblicazione.</Note>
-
-La colonna **Invito** della riga di Marco Neri mostra **Accettato**, perché il suo account è già collegato all’associazione.
+La colonna **Invito** distingue un account già collegato, **Accettato**, da un invito **In attesa**. Un invito in attesa non è ancora un collaboratore che opera sui dati dell’associazione.
 
 <Steps>
-<Step title="Apri i collaboratori">
-Dal menu laterale apri **Collaboratori**.
-La riga del collaboratore già collegato, **MARCO NERI**, mostra l'email **lettura@aurora.example.test**, lo stato **Accettato** e il ruolo **Personalizzato**.
-Usa l'email per riconoscere la persona prima di modificare i permessi.
-<Frame>![Collaboratore Marco Neri già collegato con accesso Personalizzato](/images/collaboratori/permessi/1.placeholder.svg)</Frame>
+<Step title="Confronta le due righe nella lista">
+Apri **Collaboratori** e riconosci la persona dall’email. L’esempio mostra un account collegato e un invito in attesa su righe separate; non confondere la rimozione dell’account con la cancellazione dell’invito.
+<Frame>![Confronta le due righe nella lista](/images/collaboratori/rimozione/1.placeholder.svg)</Frame>
 </Step>
 </Steps>
 
-<Note>La creazione di inviti **In attesa**, la scadenza e l’accettazione tramite email non sono state eseguite in questa prova. Per questi passaggi serve la verifica del servizio email dell’installazione.</Note>
+<Note>Questo confronto legge stati già preparati nell’associazione dimostrativa. Invio dell’email, scadenza del link e accettazione da parte del destinatario dipendono dal relativo servizio e non sono provati dalla sola lista. Per modificare l’accesso di un account già collegato segui la procedura sui permessi.</Note>
 
 ## Modificare i permessi di un collaboratore
-
-<Note>Bozza in attesa di prova: i passaggi e le immagini previste richiedono la verifica del flusso reale prima della pubblicazione.</Note>
 
 <Steps>
 <Step title="Apri i collaboratori">

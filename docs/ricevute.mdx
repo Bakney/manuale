@@ -5,21 +5,41 @@ description: "In questa sezione troverai tutte le informazioni relative alle ric
 
 ## Come vengono emesse le ricevute?
 
-Per un'entrata intestata a una persona, [conferma l'incasso dalla pagina Pagamenti](/docs/pagamenti#segna-un-pagamento-come-pagato).
-Mantieni **Genera ricevuta** selezionato per avviare anche la generazione del PDF.
-Nell'esempio incassiamo la quota associativa di **Sara Conti**, pari a **25,00**, lasciando **Invia email** disattivato.
+La ricevuta accompagna l’incasso di un’entrata intestata a una persona. Nell’esempio incassiamo la **Quota associativa Sara Conti** di **25,00 €**; la creazione del pagamento e la registrazione dell’incasso restano due operazioni distinte.
 
-<Frame>![Incasso di una quota associativa con generazione del PDF](/images/ricevute/consultazione/1.placeholder.svg)</Frame>
+<Steps>
+<Step title="Trova l’entrata da incassare">
+Apri **Pagamenti**, trova la riga di Sara e controlla intestazione, descrizione, importo e stato **In attesa**. Premi **Segna come pagato**. Nella finestra **Incassare il pagamento?** controlla la **Data Incasso** prima di confermare.
+</Step>
+<Step title="Scegli la generazione del documento">
+Mantieni **Genera ricevuta** selezionato: il comando registra l’incasso e avvia la generazione del PDF. Nell’esempio **Invia email** rimane disattivato. Premi **Incassa** soltanto dopo avere confrontato l’entrata con l’incasso effettivo.
+<Frame>![Incasso di Sara Conti con generazione del PDF e invio email disattivato](/images/ricevute/consultazione/1.placeholder.svg)</Frame>
+</Step>
+<Step title="Ritrova e controlla la ricevuta">
+Chiudi **Dettagli Pagamento** e apri **Documenti fiscali → Ricevute**. Attendi che il PDF sia disponibile. Nell’esempio Sara ha il progressivo **2**; la precedente ricevuta di Luca ha il progressivo **1**. Ricarica l’elenco e trova di nuovo la riga prima di [aprire e scaricare il documento](#come-posso-scaricare-una-ricevuta).
+<Frame>![Ricevute dell’esempio con i PDF disponibili e i progressivi salvati](/images/ricevute/consultazione/2.placeholder.svg)</Frame>
+</Step>
+</Steps>
 
-<Note>Se togli **Genera ricevuta**, la ricevuta viene comunque registrata senza il PDF immediato. Aprendo l'elenco **Ricevute**, il sistema avvia la generazione dei PDF mancanti.</Note>
+<Note>Se togli **Genera ricevuta**, l’incasso registra comunque la ricevuta, ma senza il PDF immediato. Aprendo l’elenco **Ricevute**, il sistema avvia la generazione dei PDF mancanti. La disponibilità del PDF dipende dai servizi di generazione dell’installazione; la conferma dell’incasso non attesta una consegna email.</Note>
+
+<Info>Serve il permesso di modifica dei pagamenti per confermare l’incasso. La sola lettura delle ricevute permette di consultare i documenti già presenti.</Info>
 
 ## Numerazione progressiva
 
-Alla conferma dell'incasso di un'entrata intestata a una persona, il sistema assegna un numero alla ricevuta.
-Nell'esempio, con numero iniziale pari a zero e senza altre ricevute nell'anno configurato, i due incassi producono le ricevute **1** e **2**.
-Trovi il progressivo nella colonna **Numero** dell'elenco **Ricevute**.
+Alla conferma dell’incasso di un’entrata intestata a una persona, il sistema assegna un numero al record della ricevuta. Il numero non è la prova che il PDF sia già disponibile o che sia stato inviato al destinatario.
 
-<Frame>![Due ricevute registrate con progressivi 1 e 2](/images/ricevute/consultazione/2.placeholder.svg)</Frame>
+<Steps>
+<Step title="Controlla l’elenco dopo l’incasso">
+Apri **Documenti fiscali → Ricevute** e guarda la colonna **Numero**. Nell’esempio il numero iniziale è **0** e non ci sono altre ricevute nell’anno configurato: l’incasso di Luca produce **1**, quello di Sara produce **2**.
+<Frame>![Progressivi 1 e 2 nelle ricevute salvate dell’esempio](/images/ricevute/consultazione/2.placeholder.svg)</Frame>
+</Step>
+<Step title="Ricontrolla la stessa persona dopo il ricaricamento">
+Ricarica l’elenco e confronta persona, importo e progressivo con il documento che intendi consultare. La ricevuta di Sara resta **2**. Usa la guida [Scaricare una ricevuta](#come-posso-scaricare-una-ricevuta) per aprire il PDF corretto.
+</Step>
+</Steps>
+
+Per i valori iniziali e la visualizzazione del numero consulta [Configurazioni possibili](#configurazioni-possibili). Per correggere un record esistente usa [Modifica del progressivo](#modifica-del-progressivo-della-ricevuta), con il relativo permesso. Non cambiare il numero soltanto per rendere uguali due documenti appartenenti a persone diverse.
 
 ## Come posso scaricare una ricevuta?
 

@@ -181,27 +181,48 @@ Usa il cestino **Elimina**, controlla il nome nella richiesta di conferma e conf
 
 ## Conti finanziari
 
-<Note>Bozza in attesa di prova: questa sezione deve essere confermata con una procedura reale prima della pubblicazione.</Note>
+I **Conti Finanziari** rappresentano cassa, banca e altri strumenti usati dall’associazione. Nell’elenco distingui **Saldo Iniziale** e **Saldo Attuale**: il primo è la base del conto, il secondo riflette anche incassi, spese e giroconti.
 
-I conti rappresentano cassa, banca e altri strumenti finanziari.
-Apri **Contabilità > Gestione > Conti Finanziari** per leggere **Saldo iniziale**, **Saldo attuale**, **Tipo** e **Stato**.
-Il saldo attuale parte da quello iniziale, aggiunge le entrate saldate e i giroconti ricevuti, e sottrae le spese saldate e i giroconti inviati.
-<Frame>![Elenco conti con i saldi dopo il trasferimento](/images/contabilita/bilancio/8.placeholder.svg)</Frame>
-<Note>L'elenco dei conti mostra il saldo complessivo dei movimenti; la liquidità del rendiconto considera la fine dell'esercizio selezionato. Le condizioni sui pagamenti archiviati e sulle date non coincidono in tutti i prospetti: controlla i movimenti se trovi una differenza.</Note>
+<Steps>
+<Step title="Apri l’elenco dei conti">
+Vai in **Contabilità → Gestione → Conti Finanziari**. Cerca il nome del conto e controlla tipologia e saldi. Nell’esempio **Cassa Aurora** ha saldo iniziale **0,00 €** e saldo attuale **50,00 €**, perché contiene due quote incassate.
+<Frame>![Cassa Aurora e i saldi iniziale e attuale](/images/contabilita/bilancio/1.placeholder.svg)</Frame>
+</Step>
+<Step title="Riconosci un conto senza movimenti">
+Dopo la [creazione](#creare-un-nuovo-conto), ricarica e cerca **Banca Aurora**: con saldo iniziale **100,00 €** e nessun movimento, il saldo attuale è **100,00 €**.
+<Frame>![Conto bancario salvato e riletto nell’elenco](/images/contabilita/bilancio/3.placeholder.svg)</Frame>
+</Step>
+<Step title="Controlla una correzione del saldo iniziale">
+Per correggere la base usa [Modificare un conto](#modificare-un-conto), poi ricarica e confronta il valore. Nell’esempio la banca passa a **125,00 €** prima di ricevere un giroconto. Una nuova entrata o spesa va registrata come pagamento, non come correzione del saldo iniziale.
+<Frame>![Saldo iniziale corretto del conto bancario](/images/contabilita/bilancio/5.placeholder.svg)</Frame>
+</Step>
+</Steps>
+
+<Note>La cassa dell’esempio contiene pagamenti e ha Elimina disabilitato; la banca senza movimenti può essere eliminata. Il comando disponibile non è una prova degli effetti su conti già utilizzati: per questi casi occorre una verifica specifica.</Note>
+
+<Note>Procedura ancora da verificare in browser, compresi risultato e riapertura. I comandi descritti sono presenti nell’applicazione.</Note>
 
 ### Tipologie di conto
 
-<Note>Bozza in attesa di prova: questa sezione deve essere confermata con una procedura reale prima della pubblicazione.</Note>
+Il selettore **Tipologia** della creazione propone queste tre scelte:
 
-| Tipologia | Uso del conto |
+| Tipologia | Come riconoscerla |
 | --- | --- |
-| **Cassa** | Contanti dell'associazione |
-| **Banca** | Conto corrente bancario |
-| **Altro** | Altri strumenti di incasso o pagamento |
+| **Cassa** | Contanti dell’associazione |
+| **Banca** | Conto bancario |
+| **Altro** | Altri strumenti distinti da cassa e banca |
 
-La tipologia stabilisce se il conto viene riepilogato in **Cassa**, **Banca** o **Altro** nella liquidità.
-Nell'esempio vengono usate cassa e banca. Un conto di tipo **Altro** resta una variante da esercitare.
-<Frame>![Tipologia Banca nel modulo di creazione](/images/contabilita/bilancio/2.placeholder.svg)</Frame>
+<Steps>
+<Step title="Leggi il tipo nel modulo di creazione">
+In **Contabilità → Gestione → Conti Finanziari**, premi **Conto**. Apri **Tipologia** e scegli il tipo coerente con lo strumento reale. L’esempio seleziona **Banca** per **Banca Aurora**; non crea automaticamente un conto per ogni tipo.
+<Frame>![Tipo Banca selezionato nel nuovo conto](/images/contabilita/bilancio/2.placeholder.svg)</Frame>
+</Step>
+<Step title="Completa e verifica il conto">
+Il tipo da solo non crea il conto: compila nome, saldo iniziale e codice e segui [Creare un nuovo conto](#creare-un-nuovo-conto). Dopo il salvataggio controlla la tipologia nella riga. Il percorso documentato salva una banca; non prova tre creazioni distinte.
+</Step>
+</Steps>
+
+<Note>Procedura ancora da verificare in browser, compresi risultato e riapertura. I comandi descritti sono presenti nell’applicazione.</Note>
 
 ### Creare un nuovo conto
 
@@ -253,13 +274,26 @@ La rimozione richiede conferma; dopo il ricaricamento rimane la sola cassa dimos
 
 ## Giroconti
 
-<Note>Bozza in attesa di prova: questa sezione deve essere confermata con una procedura reale prima della pubblicazione.</Note>
+Un giroconto registra lo spostamento tra due conti dell’associazione. Non è un nuovo incasso o una nuova spesa: l’importo diminuisce il conto di origine e aumenta quello di destinazione.
 
-I giroconti spostano denaro fra i conti dell'associazione e si consultano in **Contabilità > Gestione > Giroconti**.
-Un trasferimento dalla cassa alla banca riduce la cassa e aumenta la banca dello stesso importo.
-Nell'esempio **20,00 €** passano da **Cassa Aurora** a **Banca Aurora**: il totale della liquidità resta **175,00 €**.
-<Frame>![Effetto del giroconto sui due saldi senza variazione del totale](/images/contabilita/bilancio/8.placeholder.svg)</Frame>
-<Tip>Per un incasso da un socio o una spesa verso un fornitore usa il pagamento corrispondente. Il giroconto serve allo spostamento interno.</Tip>
+<Steps>
+<Step title="Prepara il trasferimento">
+Apri **Contabilità → Gestione → Giroconti**, premi **Giroconto** e scegli data, conto di origine, conto di destinazione e importo. Nell’esempio **20,00 €** passano da **Cassa Aurora** a **Banca Aurora**; le due scelte devono essere diverse.
+<Frame>![Giroconto con origine e destinazione distinte](/images/contabilita/bilancio/6.placeholder.svg)</Frame>
+</Step>
+<Step title="Salva e ritrova la registrazione">
+Premi **Salva**, attendi la conferma e ricarica l’elenco. Riconosci la riga dalla data e dai conti, quindi controlla l’importo.
+<Frame>![Giroconto conservato dopo il ricaricamento](/images/contabilita/bilancio/7.placeholder.svg)</Frame>
+</Step>
+<Step title="Confronta i saldi dei due conti">
+Riapri **Conti Finanziari**. La cassa passa da **50,00 €** a **30,00 €** e la banca da **125,00 €** a **145,00 €**; il totale rimane **175,00 €**. Se i saldi non corrispondono al trasferimento reale, controlla la registrazione prima di ripeterla.
+<Frame>![Saldi dopo lo spostamento di 20 euro](/images/contabilita/bilancio/8.placeholder.svg)</Frame>
+</Step>
+</Steps>
+
+Per i singoli campi usa [Creare un giroconto](#creare-un-giroconto); per una registrazione errata consulta [Eliminare un giroconto](#eliminare-un-giroconto).
+
+<Note>Procedura ancora da verificare in browser, compresi risultato e riapertura. I comandi descritti sono presenti nell’applicazione.</Note>
 
 ### Creare un giroconto
 

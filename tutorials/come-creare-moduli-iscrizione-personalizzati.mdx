@@ -5,37 +5,82 @@ description: "Dalla sezione Organizzazione > Modulo Iscrizioni puoi configurare 
 
 # Indice
 
-<Note>Bozza in attesa di prova: i passaggi e le immagini previste richiedono la verifica del flusso reale prima della pubblicazione.</Note>
+La guida segue la configurazione usata dall’associazione prima di raccogliere richieste: periodi, causali, categorie, quote, testi e campi. Il modello di documento dell’Archivio è un percorso successivo distinto.
 
-Il tutorial distingue configurazione dei periodi, tipologie di iscrizione, quote, sezioni e campi aggiuntivi.
-La procedura dimostrativa configura una sola tipologia, una quota associativa semplice, una sezione di testo e il campo facoltativo **Taglia maglietta**, poi controlla il modulo tramite il link.
-<Note>Periodi fiscali, quote multiple, modelli dell'Archivio e invio di una nuova iscrizione hanno verifiche separate. L'esempio di personalizzazione non certifica tutte queste varianti.</Note>
+1. Controlla **Anno fiscale**, **Stagione sportiva** e le durate in **Profilo → Generali**.
+2. Scegli la **Causale predefinita iscrizioni**.
+3. In **Modulo Iscrizioni**, abilita le categorie e configura quote semplici o alternative.
+4. Aggiungi testi e campi, quindi salva.
+5. Apri il link dal **Libro Soci** e prova una domanda fino a firma, riepilogo e registrazione.
+6. Per un documento personalizzato, crea un modello in **Archivio → Modulistica** e generarlo dalla scheda della persona.
+
+<Steps>
+<Step title="Controlla il risultato dal link corrente">
+Dopo il salvataggio usa **Condividi link iscrizioni → Apri**. Il modulo dell’esempio raccoglie **Socio e Tesserato**, la taglia obbligatoria e la firma; la domanda genera una quota semplice non pagata.
+<Frame>![Controlla il risultato dal link corrente](/images/impostazioni/moduli-checkout-reali/13.placeholder.svg)</Frame>
+</Step>
+</Steps>
+
+<Note>La guida conserva i limiti delle varianti: rate e quote successive, inviti o messaggi esterni, Google e checkout del provider richiedono i loro servizi e percorsi dedicati.</Note>
 
 # Configurare l'anno sportivo, l'anno fiscale e le causali per i pagamenti
 
-<Note>Bozza in attesa di prova: i passaggi e le immagini previste richiedono la verifica del flusso reale prima della pubblicazione.</Note>
+Prima di distribuire il modulo configura i periodi dell’associazione in **Profilo → Generali**. **Anno fiscale**, **Stagione sportiva** e le regole di durata sono impostazioni distinte.
 
-Prima di raccogliere iscrizioni controlla **Profilo → Generali**.
-**Anno fiscale** e **Stagione sportiva** sono due configurazioni distinte: il primo offre periodi predefiniti e **Altro Periodo (personalizzato)**, la seconda indica mese e giorno iniziale e, con **Dura meno di un anno**, la fine.
-Consulta [Come cambiare anno sportivo e fiscale](/faq/come-cambiare-anno-sportivo-fiscale) per la procedura dedicata.
-<Note>Questa sequenza non modifica i periodi. La scelta dell'anno fiscale non equivale all'impostazione automatica della stagione sportiva.</Note>
+<Steps>
+<Step title="Controlla e salva il periodo fiscale">
+Nel riquadro **Anno fiscale** scegli un periodo predefinito oppure **Altro Periodo (personalizzato)**. Nell’esempio il periodo personalizzato inizia il **15 Ottobre**. Premi **Salva** e ricontrolla dopo la ricarica.
+<Frame>![Controlla e salva il periodo fiscale](/images/impostazioni/organizzazione-anno/5.placeholder.svg)</Frame>
+</Step>
+<Step title="Controlla stagione e durate">
+Nel riquadro **Stagione sportiva** imposta mese e giorno iniziale. Per una stagione breve attiva **Dura meno di un anno** e indica anche la fine: l’esempio usa **1 Settembre–30 Giugno**. Scegli poi la durata delle iscrizioni e dei tesseramenti, salva e verifica la configurazione conservata.
+<Frame>![Controlla stagione e durate](/images/impostazioni/organizzazione-anno/7.placeholder.svg)</Frame>
+</Step>
+</Steps>
+
+Per la classificazione delle nuove quote prosegui con **Causali predefinite** qui sotto. Per nomi e importi del modulo usa la scheda **Quote**. Una modifica dei periodi non cambia automaticamente i campi delle iscrizioni già presenti nell’esempio.
 
 ## Causali predefinite
 
-<Note>Bozza in attesa di prova: i passaggi e le immagini previste richiedono la verifica del flusso reale prima della pubblicazione.</Note>
+La **Causale predefinita iscrizioni** viene usata per le nuove quote quando non è specificata un’altra causale. È distinta dal conto di cassa e dalla **Causale predefinita corsi**. L’esempio cambia soltanto quella delle iscrizioni.
 
-Prima di collegare quote e pagamenti, controlla le causali dell'associazione in **Contabilità → Pagamenti** e le impostazioni contabili.
-La causale descrive il motivo del pagamento; il conto indica dove viene registrato il denaro.
-<Note>Creazione di una causale e scelta della causale predefinita per le nuove iscrizioni richiedono una procedura dedicata. La modifica del modulo dimostrata qui non cambia causali o conti.</Note>
+<Steps>
+<Step title="Apri le impostazioni generali">
+Apri **Profilo → Generali** e trova **Causale predefinita iscrizioni**. Il menu mostra nome, Entrata/Spesa e tipologia delle causali disponibili.
+<Frame>![Apri le impostazioni generali](/images/impostazioni/causale-iscrizioni/1.placeholder.svg)</Frame>
+</Step>
+<Step title="Seleziona e salva la causale corretta">
+Scegli la causale già presente e appropriata per le quote dell’associazione, poi premi **Salva**. Ricarica **Generali** e verifica la selezione conservata.
+<Frame>![Seleziona e salva la causale corretta](/images/impostazioni/causale-iscrizioni/3.placeholder.svg)</Frame>
+</Step>
+<Step title="Controlla l’applicazione a una nuova quota">
+Nell’esempio una nuova iscrizione crea una quota di **25,00 €** ancora da pagare, con la causale salvata. I pagamenti precedenti non cambiano. Controlla la nuova riga in **Contabilità → Pagamenti** prima di registrare un incasso.
+<Frame>![Controlla l’applicazione a una nuova quota](/images/impostazioni/causale-iscrizioni/5.placeholder.svg)</Frame>
+</Step>
+</Steps>
+
+<Note>La scelta non incassa una quota e non riclassifica retroattivamente i pagamenti. La variante dei corsi e gli effetti fiscali richiedono controlli propri; per creare o modificare le causali usa [Gestione delle causali](/docs/pagamenti#gestione-delle-causali).</Note>
 
 ## Durata di iscrizioni e Tesseramenti
 
-<Note>Bozza in attesa di prova: i passaggi e le immagini previste richiedono la verifica del flusso reale prima della pubblicazione.</Note>
+I menu **Durata delle iscrizioni** e **Durata dei tesseramenti** sono separati dalle categorie Socio/Tesserato abilitate nel modulo. Scegli prima il periodo della stagione, poi la regola applicabile alle nuove richieste.
 
-In **Profilo → Generali** trovi i menu separati **Durata delle iscrizioni** e **Durata dei tesseramenti**.
-Le scelte comprendono **Un anno solare dalla data di iscrizione**, **Da inizio stagione sportiva** e **Dall'iscrizione al termine della stagione sportiva**.
-Controlla prima le date della stagione e poi il criterio di durata. Il tipo **Socio e Tesserato** nel modulo è una scelta diversa dalla durata.
-<Note>Le durate non vengono cambiate in questo esempio; consultare la procedura sui periodi per il salvataggio e i limiti delle nuove iscrizioni.</Note>
+| Regola | Decorrenza |
+| --- | --- |
+| Un anno solare dalla data di iscrizione | Un anno dalla data della singola iscrizione |
+| Da inizio stagione sportiva | Dall’inizio alla fine della stagione configurata |
+| Dall’iscrizione al termine della stagione sportiva | Dalla data della richiesta alla fine della stagione |
+
+<Steps>
+<Step title="Scegli i due criteri in Generali">
+Apri **Profilo → Generali**, trova **Durata delle iscrizioni** e **Durata dei tesseramenti** e seleziona la voce desiderata in ciascun menu. Nell’esempio entrambi usano **Dall’iscrizione al termine della stagione sportiva**, con stagione **1 Settembre–30 Giugno**.
+<Frame>![Scegli i due criteri in Generali](/images/impostazioni/organizzazione-anno/6.placeholder.svg)</Frame>
+</Step>
+<Step title="Salva e verifica i valori">
+Premi **Salva** e ricarica **Generali**. Controlla entrambe le selezioni e le date della stagione. Le iscrizioni già presenti conservano le proprie date: la modifica non equivale a un rinnovo o a una riscrittura dei loro termini.
+<Frame>![Salva e verifica i valori](/images/impostazioni/organizzazione-anno/7.placeholder.svg)</Frame>
+</Step>
+</Steps>
 
 # Configurare il modulo d'iscrizione
 
@@ -113,11 +158,28 @@ Nell’esempio la richiesta firmata crea una quota da **30 euro non incassata**.
 
 ## Impostare quote multiple
 
-<Note>Bozza in attesa di prova: i passaggi e le immagini previste richiedono la verifica del flusso reale prima della pubblicazione.</Note>
+Le **Quote multiple** permettono di offrire piani associativi con nomi e importi distinti. L’esempio crea due quote alternative semplici; non configura rate, periodi parziali o assegnazioni automatiche di quote successive.
 
-La scheda **Quote** offre **Quote multiple** separatamente per **Quota associativa** e **Quota Tesseramento**.
-L'editor delle quote associative include **Aggiungi quota**, **Nome quota**, **Quota** e **Parziale**, con opzioni per collegare una quota antecedente e rateizzare.
-<Note>La configurazione di quote multiple o parziali e l'assegnazione delle quote successive richiedono una prova dedicata. L'esempio mantiene entrambe le opzioni multiple disattivate e non dimostra una scadenza a sei mesi o un pagamento automatico.</Note>
+<Steps>
+<Step title="Crea le quote del modulo">
+Apri **Organizzazione → Modulo Iscrizioni → Quote**. In **Quota associativa** attiva **Quote multiple**, premi **Aggiungi quota** e inserisci **Ordinaria — 25,00 €** e **Sostenitore — 45,00 €**. Lascia disattivate le opzioni parziali.
+<Frame>![Crea le quote del modulo](/images/libro-soci/quote-multiple/1.placeholder.svg)</Frame>
+</Step>
+<Step title="Salva e ricontrolla i piani">
+Premi **Salva**, ricarica il modulo e torna in **Quote**; con **Mostra quote** controlla che nomi e importi siano conservati.
+<Frame>![Salva e ricontrolla i piani](/images/libro-soci/quote-multiple/2.placeholder.svg)</Frame>
+</Step>
+<Step title="Scegli la quota per una nuova iscrizione">
+Nella creazione di una nuova persona scegli **Sostenitore (45,00 €)** nel campo della quota e completa la procedura. Controlla il riepilogo prima della conferma.
+<Frame>![Scegli la quota per una nuova iscrizione](/images/libro-soci/quote-multiple/3.placeholder.svg)</Frame>
+</Step>
+<Step title="Verifica la quota creata">
+La nuova iscrizione conserva il piano scelto e genera un pagamento di **45,00 €** ancora da saldare. Controlla la riga in **Contabilità → Pagamenti**: scegliere il piano non registra un incasso.
+<Frame>![Verifica la quota creata](/images/libro-soci/quote-multiple/6.placeholder.svg)</Frame>
+</Step>
+</Steps>
+
+<Note>La variante **Quota Tesseramento**, **Parziale**, **Quota antecedente**, **Emetti in automatico** e la rateizzazione hanno effetti diversi e richiedono prove proprie. Non usare il risultato di questi due piani semplici come verifica delle varianti avanzate.</Note>
 
 ### Visualizzare un'anteprima del modulo d'iscrizione digitale
 
@@ -231,29 +293,47 @@ Apri il modulo senza sessione, prosegui fino all’anagrafica e ritrova etichett
 
 # Creare un modulo completamente personalizzato
 
-<Note>Bozza in attesa di prova: i passaggi e le immagini previste richiedono la verifica del flusso reale prima della pubblicazione.</Note>
+**Archivio → Modulistica** conserva modelli di documenti da generare. Questo editor è distinto dal modulo online che raccoglie iscrizioni: il modello non sostituisce il percorso di compilazione e firma del link pubblico.
 
-Il modello dell'**Archivio → Modulistica** è un documento da generare, distinto dal modulo online che raccoglie iscrizioni.
 <Steps>
-<Step title="Prepara un modello nell’Archivio">
-In **Modulistica** il comando con il simbolo più è **Modello** e apre **Aggiungi Modello**. Compila **Nome del modello** e **Contenuto del documento**.
+<Step title="Apri e crea il modello">
+Apri **Archivio**, scegli **Modulistica** e premi **Modello**. In **Aggiungi Modello**, **Nome del modello** e **Contenuto del documento** sono obbligatori: lasciare entrambi vuoti impedisce la creazione.
+<Frame>![Apri e crea il modello](/images/archivio/modelli-reali/1.placeholder.svg)</Frame>
 </Step>
-<Step title="Scegli intestazione, piè di pagina e dati dinamici">
-Controlla **Includi intestazione nel documento**, **Includi piè di pagina nel documento** e **Personalizza Intestazione e Piè di Pagina**. Nell’editor il simbolo **@** propone dati dinamici da inserire durante la generazione.
+<Step title="Componi il documento e la sua impaginazione">
+Nell’esempio usiamo **Attestazione attività dimostrativa**. Lasciamo **Includi intestazione nel documento** e **Includi piè di pagina nel documento** attivi, quindi attiviamo **Personalizza Intestazione e Piè di Pagina** e compiliamo i due editor. Nel contenuto scriviamo “Partecipante:” e inseriamo con **@ → Associato → Nome** il dato dinamico della persona, poi il testo dell’attività.
+<Frame>![Componi il documento e la sua impaginazione](/images/archivio/modelli-reali/3.placeholder.svg)</Frame>
 </Step>
-<Step title="Controlla prima di salvare">
-Il nome e il contenuto sono obbligatori. Usa **Salva** e ricontrolla il modello nell’elenco prima di generare un documento.
+<Step title="Salva e riapri il modello">
+Premi **Salva** nella barra in basso. Dopo la conferma ricarica **Modulistica** e apri il nome del modello: controlla nome, contenuto, dato dinamico e opzioni di intestazione. Il dato della persona viene sostituito quando generi il documento da una scheda.
+<Frame>![Salva e riapri il modello](/images/archivio/modelli-reali/5.placeholder.svg)</Frame>
 </Step>
 </Steps>
-<Note>Questi controlli sono presenti nell'editor del modello; creazione, modifica, sostituzione dei dati dinamici e PDF finale non sono eseguiti dalla procedura di personalizzazione del modulo online.</Note>
+
+<Note>Nell’esempio il dato dinamico Nome viene risolto nel documento generato della persona scelta. Altri dati, firme del documento, invio e stampa su carta hanno requisiti propri: controlla il risultato prima di distribuirlo.</Note>
 
 ## Come assegnare un modulo personalizzato?
 
-<Note>Bozza in attesa di prova: i passaggi e le immagini previste richiedono la verifica del flusso reale prima della pubblicazione.</Note>
+<Steps>
+<Step title="Apri i Documenti della persona corretta">
+Apri **Organizzazione → Iscrizioni → Tesserati**, cerca la persona, premi il suo nome e seleziona **Documenti**. Nell’esempio lavoriamo sulla scheda di **Giulia Bianchi**. Controlla l’identità prima di generare.
+<Frame>![Apri i Documenti della persona corretta](/images/archivio/modelli-reali/6.placeholder.svg)</Frame>
+</Step>
+<Step title="Scegli il modello da generare">
+Premi **Genera da Modello**. In **Genera Documento**, seleziona il modello salvato e premi **Genera Documento**. La generazione crea un file collegato a questa iscrizione: non modifica il modulo online condiviso con tutte le persone.
+<Frame>![Scegli il modello da generare](/images/archivio/modelli-reali/7.placeholder.svg)</Frame>
+</Step>
+<Step title="Verifica il file e i dati sostituiti">
+Ricarica e riapri **Documenti**. Il nuovo PDF deve comparire in **File Caricati**. Nell’esempio il contenuto contiene il Nome **Giulia**, l’attività e intestazione/piè di pagina personalizzati; controlla questi dati nel risultato.
+<Frame>![Verifica il file e i dati sostituiti](/images/archivio/modelli-reali/8.placeholder.svg)</Frame>
+</Step>
+<Step title="Scarica il documento">
+Premi il nome del file per scaricare il PDF generato. Conserva la copia nel percorso adatto dell’associazione e controllala prima della consegna. Un collaboratore in sola lettura non vede **Genera da Modello**.
+<Frame>![Scarica il documento](/images/archivio/modelli-reali/10.placeholder.svg)</Frame>
+</Step>
+</Steps>
 
-Nella scheda della persona, la sezione **Documenti** offre **Genera da Modello**.
-La finestra **Genera Documento** contiene **Seleziona il modello**, **Annulla** e **Genera Documento**.
-<Note>La generazione del PDF e il collegamento del documento alla persona richiedono una verifica dedicata. Questa funzione crea un documento; non configura le quote del modulo online e non sostituisce da sola la procedura standard d'iscrizione.</Note>
+<Note>La generazione e il download locale del PDF sono distinti dall’invio al destinatario e dal comando di stampa del sistema operativo. La creazione del documento non ne certifica consegna, firma o stampa cartacea.</Note>
 
 # Conclusione
 

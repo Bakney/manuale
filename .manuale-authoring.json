@@ -110,7 +110,7 @@
       "title": "Come configurare il modulo d'iscrizione",
       "status": "draft",
       "original_sha256": "620705c25c5635777e90c37b05c17737bc7fd988a0984a86deef940555892ff5",
-      "draft_sha256": "1d3c2585759dab76d95480287bb2a2bdfc6c17215c13ef0c52b9b49b33e11f11",
+      "draft_sha256": "fe4cfe9905e13be7f2fb08c25f17edcae8e93046ee1919065cc2d93af0574533",
       "sections": [
         {
           "id": "indice",
@@ -362,7 +362,7 @@
       "title": "Come gestire il registro presenze e i carnet",
       "status": "draft",
       "original_sha256": "0603351ea17a2a94b71aad9038e7c03f9adf23ebd075d75a8c9dee22be9bfba7",
-      "draft_sha256": "42bad00b9511b5ef6014772849c6c3747fcb3d18950b67daadeb9a6042d9b12b",
+      "draft_sha256": "8448c66e3a603dce89c67294cc619a12e5379eaa715ae2202fe7c7ecce3a9c25",
       "sections": [
         {
           "id": "indice",
@@ -1038,7 +1038,7 @@
       "title": "Come gestire i certificati medici",
       "status": "draft",
       "original_sha256": "d787cb8ace6bb3bf355cc09d7388a93a751ac1146be1cc24ffe271295758b736",
-      "draft_sha256": "9f6aac375e0df6c985a1b15daecdb15f4d0a9d69c2cdedda7cf455688bd7c9e8",
+      "draft_sha256": "8acc5feeffc903f44e0303b464037632ce976a0d94cb38033a572dad8f7367b1",
       "sections": [
         {
           "id": "indice",
@@ -1290,7 +1290,7 @@
       "title": "Come impostare e gestire gli istruttori",
       "status": "draft",
       "original_sha256": "094371288d2552995566fdf75e929d73e4e68e970c2b81b75a2e67347848c26d",
-      "draft_sha256": "0790c9fb712f1e26cda9a3eaf66c7c9cc517ef0224186c8338b6c9d08eacc1eb",
+      "draft_sha256": "6979875d00e1916ba8fe1c5f9fef463844fa70b4c7519d7d5d0aff93315c7064",
       "sections": [
         {
           "id": "indice",
@@ -2266,7 +2266,7 @@
       "title": "Bacheca",
       "status": "draft",
       "original_sha256": "93e9fbbed3d7dfba0de5565a6d9fe756baf3e50bdf94e71f85b6a8f8696bfa96",
-      "draft_sha256": "c523d359fcd727dfe7e2ebee86f62a2a707e4c71fb8777bc85d7f559ca958b98",
+      "draft_sha256": "20ed06d8bab00011aefafd6237e7bf786c4b42185da476d0021bcba09b9d0b2e",
       "sections": [
         {
           "id": "introduzione",
@@ -2994,7 +2994,7 @@
       "title": "Corsi",
       "status": "draft",
       "original_sha256": "770a97cfe906ca8463a51c2082eebacfe9ce5982f0e92fb110e99a9bd3e9b4ea",
-      "draft_sha256": "aac9b3d51a2a34582a31107d74b3d7e6e4f659797554d9eaeb1910e3d452ccd8",
+      "draft_sha256": "bf480e1c2a5822034d959516da5e1b30786dd505be6de2a947567a96e5744b9a",
       "sections": [
         {
           "id": "creare-un-corso",
@@ -3406,7 +3406,7 @@
       "title": "Istruttori",
       "status": "draft",
       "original_sha256": "5ab3eb5e843be5147adb5318d5424f6a4b4c2286d22b366180c6177237c747a2",
-      "draft_sha256": "f51b43dbc4132abee805a192a3613223266d8daa24baac4f230c424861975649",
+      "draft_sha256": "093ae5c7d2894381717fb24f09a9b01ad2da6f14e8e208c354f666411636e52e",
       "sections": [
         {
           "id": "introduzione",
@@ -3945,7 +3945,7 @@
       "draft_recipes": [
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
+          "sha256": "e4d1ba3bed2fb7464a32b07b63decce48e9d38f2db0c7ece54cac579e3ef9d53",
           "section": "cos-e-un-camp-o-ritiro",
           "status": "pending-capture",
           "verified": false,
@@ -3953,7 +3953,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
+          "sha256": "e4d1ba3bed2fb7464a32b07b63decce48e9d38f2db0c7ece54cac579e3ef9d53",
           "section": "creare-un-camp-o-ritiro",
           "status": "pending-capture",
           "verified": false,
@@ -3961,7 +3961,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
+          "sha256": "e4d1ba3bed2fb7464a32b07b63decce48e9d38f2db0c7ece54cac579e3ef9d53",
           "section": "gestire-i-periodi",
           "status": "pending-capture",
           "verified": false,
@@ -3969,7 +3969,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
+          "sha256": "e4d1ba3bed2fb7464a32b07b63decce48e9d38f2db0c7ece54cac579e3ef9d53",
           "section": "aggiungere-un-periodo",
           "status": "pending-capture",
           "verified": false,
@@ -3977,7 +3977,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
+          "sha256": "e4d1ba3bed2fb7464a32b07b63decce48e9d38f2db0c7ece54cac579e3ef9d53",
           "section": "modificare-un-periodo",
           "status": "pending-capture",
           "verified": false,
@@ -3985,7 +3985,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
+          "sha256": "e4d1ba3bed2fb7464a32b07b63decce48e9d38f2db0c7ece54cac579e3ef9d53",
           "section": "gestire-i-servizi",
           "status": "pending-capture",
           "verified": false,
@@ -3993,7 +3993,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
+          "sha256": "e4d1ba3bed2fb7464a32b07b63decce48e9d38f2db0c7ece54cac579e3ef9d53",
           "section": "aggiungere-un-servizio",
           "status": "pending-capture",
           "verified": false,
@@ -4001,7 +4001,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
+          "sha256": "e4d1ba3bed2fb7464a32b07b63decce48e9d38f2db0c7ece54cac579e3ef9d53",
           "section": "modificare-o-eliminare-un-servizio",
           "status": "pending-capture",
           "verified": false,
@@ -4009,7 +4009,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
+          "sha256": "e4d1ba3bed2fb7464a32b07b63decce48e9d38f2db0c7ece54cac579e3ef9d53",
           "section": "iscrivere-gli-atleti",
           "status": "pending-capture",
           "verified": false,
@@ -4017,7 +4017,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
+          "sha256": "e4d1ba3bed2fb7464a32b07b63decce48e9d38f2db0c7ece54cac579e3ef9d53",
           "section": "aggiungere-un-iscritto-manualmente",
           "status": "pending-capture",
           "verified": false,
@@ -4025,7 +4025,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
+          "sha256": "e4d1ba3bed2fb7464a32b07b63decce48e9d38f2db0c7ece54cac579e3ef9d53",
           "section": "modulo-di-iscrizione-pubblico",
           "status": "pending-capture",
           "verified": false,
@@ -4033,7 +4033,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
+          "sha256": "e4d1ba3bed2fb7464a32b07b63decce48e9d38f2db0c7ece54cac579e3ef9d53",
           "section": "modificare-un-iscrizione",
           "status": "pending-capture",
           "verified": false,
@@ -4041,7 +4041,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
+          "sha256": "e4d1ba3bed2fb7464a32b07b63decce48e9d38f2db0c7ece54cac579e3ef9d53",
           "section": "rimuovere-un-iscrizione",
           "status": "pending-capture",
           "verified": false,
@@ -4049,7 +4049,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
+          "sha256": "e4d1ba3bed2fb7464a32b07b63decce48e9d38f2db0c7ece54cac579e3ef9d53",
           "section": "gestire-i-pagamenti",
           "status": "pending-capture",
           "verified": false,
@@ -4057,7 +4057,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
+          "sha256": "e4d1ba3bed2fb7464a32b07b63decce48e9d38f2db0c7ece54cac579e3ef9d53",
           "section": "flusso-di-lavoro-consigliato",
           "status": "pending-capture",
           "verified": false,
@@ -4070,7 +4070,7 @@
       "title": "Calendario",
       "status": "draft",
       "original_sha256": "558fac4424764273fcb72fadde16a8978ac73084c63c13c8262fed6b968055a3",
-      "draft_sha256": "d0c95383b4e3c3ba535d2bf0db1ff36db616306f4b267fb5d84dd57de9b17a2d",
+      "draft_sha256": "29a83680e1e8ba7740c31f2e595f7bcc1975dae6f191af2b14b621e53f46d700",
       "sections": [
         {
           "id": "il-calendario-generale",
@@ -4253,7 +4253,7 @@
       "draft_recipes": [
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
+          "sha256": "e4d1ba3bed2fb7464a32b07b63decce48e9d38f2db0c7ece54cac579e3ef9d53",
           "section": "il-calendario-generale",
           "status": "pending-capture",
           "verified": false,
@@ -4261,7 +4261,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
+          "sha256": "e4d1ba3bed2fb7464a32b07b63decce48e9d38f2db0c7ece54cac579e3ef9d53",
           "section": "modalita-di-visualizzazione",
           "status": "pending-capture",
           "verified": false,
@@ -4269,7 +4269,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
+          "sha256": "e4d1ba3bed2fb7464a32b07b63decce48e9d38f2db0c7ece54cac579e3ef9d53",
           "section": "vista-mese",
           "status": "pending-capture",
           "verified": false,
@@ -4277,7 +4277,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
+          "sha256": "e4d1ba3bed2fb7464a32b07b63decce48e9d38f2db0c7ece54cac579e3ef9d53",
           "section": "vista-settimana",
           "status": "pending-capture",
           "verified": false,
@@ -4285,7 +4285,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
+          "sha256": "e4d1ba3bed2fb7464a32b07b63decce48e9d38f2db0c7ece54cac579e3ef9d53",
           "section": "vista-giorno",
           "status": "pending-capture",
           "verified": false,
@@ -4293,7 +4293,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
+          "sha256": "e4d1ba3bed2fb7464a32b07b63decce48e9d38f2db0c7ece54cac579e3ef9d53",
           "section": "vista-lista",
           "status": "pending-capture",
           "verified": false,
@@ -4301,7 +4301,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
+          "sha256": "e4d1ba3bed2fb7464a32b07b63decce48e9d38f2db0c7ece54cac579e3ef9d53",
           "section": "navigare-nel-calendario",
           "status": "pending-capture",
           "verified": false,
@@ -4309,7 +4309,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
+          "sha256": "e4d1ba3bed2fb7464a32b07b63decce48e9d38f2db0c7ece54cac579e3ef9d53",
           "section": "creare-un-evento-o-promemoria",
           "status": "pending-capture",
           "verified": false,
@@ -4317,7 +4317,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
+          "sha256": "e4d1ba3bed2fb7464a32b07b63decce48e9d38f2db0c7ece54cac579e3ef9d53",
           "section": "modificare-o-eliminare-un-evento",
           "status": "pending-capture",
           "verified": false,
@@ -4325,7 +4325,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
+          "sha256": "e4d1ba3bed2fb7464a32b07b63decce48e9d38f2db0c7ece54cac579e3ef9d53",
           "section": "gestire-le-presenze-dal-calendario",
           "status": "pending-capture",
           "verified": false,
@@ -4333,7 +4333,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
+          "sha256": "e4d1ba3bed2fb7464a32b07b63decce48e9d38f2db0c7ece54cac579e3ef9d53",
           "section": "stampare-il-calendario",
           "status": "pending-capture",
           "verified": false,
@@ -4341,7 +4341,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
+          "sha256": "e4d1ba3bed2fb7464a32b07b63decce48e9d38f2db0c7ece54cac579e3ef9d53",
           "section": "esportare-il-calendario",
           "status": "pending-capture",
           "verified": false,
@@ -4349,7 +4349,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
+          "sha256": "e4d1ba3bed2fb7464a32b07b63decce48e9d38f2db0c7ece54cac579e3ef9d53",
           "section": "condivisione-del-calendario-con-gli-atleti",
           "status": "pending-capture",
           "verified": false,
@@ -4357,7 +4357,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
+          "sha256": "e4d1ba3bed2fb7464a32b07b63decce48e9d38f2db0c7ece54cac579e3ef9d53",
           "section": "link-diretto",
           "status": "pending-capture",
           "verified": false,
@@ -4365,7 +4365,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
+          "sha256": "e4d1ba3bed2fb7464a32b07b63decce48e9d38f2db0c7ece54cac579e3ef9d53",
           "section": "condivisione-tramite-whatsapp",
           "status": "pending-capture",
           "verified": false,
@@ -4373,7 +4373,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
+          "sha256": "e4d1ba3bed2fb7464a32b07b63decce48e9d38f2db0c7ece54cac579e3ef9d53",
           "section": "condivisione-tramite-email",
           "status": "pending-capture",
           "verified": false,
@@ -4381,7 +4381,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
+          "sha256": "e4d1ba3bed2fb7464a32b07b63decce48e9d38f2db0c7ece54cac579e3ef9d53",
           "section": "incorporare-il-calendario-nel-tuo-sito-web",
           "status": "pending-capture",
           "verified": false,
@@ -4389,7 +4389,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
+          "sha256": "e4d1ba3bed2fb7464a32b07b63decce48e9d38f2db0c7ece54cac579e3ef9d53",
           "section": "integrazione-con-google-calendar",
           "status": "pending-capture",
           "verified": false,
@@ -4397,7 +4397,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
+          "sha256": "e4d1ba3bed2fb7464a32b07b63decce48e9d38f2db0c7ece54cac579e3ef9d53",
           "section": "collegare-il-tuo-account-google",
           "status": "pending-capture",
           "verified": false,
@@ -4405,7 +4405,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
+          "sha256": "e4d1ba3bed2fb7464a32b07b63decce48e9d38f2db0c7ece54cac579e3ef9d53",
           "section": "sincronizzare-un-corso-con-google-calendar",
           "status": "pending-capture",
           "verified": false,
@@ -4413,7 +4413,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
+          "sha256": "e4d1ba3bed2fb7464a32b07b63decce48e9d38f2db0c7ece54cac579e3ef9d53",
           "section": "disconnettere-google-calendar",
           "status": "pending-capture",
           "verified": false,
@@ -4421,7 +4421,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
+          "sha256": "e4d1ba3bed2fb7464a32b07b63decce48e9d38f2db0c7ece54cac579e3ef9d53",
           "section": "risorse-correlate",
           "status": "pending-capture",
           "verified": false,
@@ -4434,7 +4434,7 @@
       "title": "Carnet",
       "status": "draft",
       "original_sha256": "8f24178a7e7e29783d37d9d7006b667639db7659e5eb1646575fdedab9f867c9",
-      "draft_sha256": "05589858ff000977d43d9963cd1b4b7a29334c6539b086eed938906df9bf3728",
+      "draft_sha256": "7b4403b2b475300b270b70abd2a139c935f85dceaf03b4d7f54c016aa72b5ec3",
       "sections": [
         {
           "id": "cos-e-un-carnet",
@@ -4638,7 +4638,7 @@
       "title": "Registro Presenze",
       "status": "draft",
       "original_sha256": "60ba1a937d458984dc2f077cd2fbd5eb3b3ead21b665a0980e30c9fb53292e5d",
-      "draft_sha256": "cad69c987c5c00eac054f6dfeadda82a178fd4a0378569fa8e9ce03344531a0e",
+      "draft_sha256": "b364896a29c55adc2b3ca030062dafa87408820c636125e23e17c92b6cd79a97",
       "sections": [
         {
           "id": "introduzione",
@@ -4890,7 +4890,7 @@
       "title": "Pagamenti",
       "status": "draft",
       "original_sha256": "64a61a2368071b8b10a8e5073e631f05d5c71711db9b8f3153fb27be94084be0",
-      "draft_sha256": "56364b38c1354287df847c7db29ad9f4919de670d7b31e8031e071bd374a88fa",
+      "draft_sha256": "7f8ef160d4df23de3574abaa3439d128f0e54bb9754e5455d51f309b0d5e76ba",
       "sections": [
         {
           "id": "metodi-di-pagamento",
@@ -5126,7 +5126,7 @@
       "title": "Ricevute",
       "status": "draft",
       "original_sha256": "a9fe9036ba38fc19ad1b074c9ac5ce8f6e27031668e8034cb1b1827a3a216b57",
-      "draft_sha256": "186ea1faf66920aaadf6ae079d80b6b73b774f279dd5e923564ffc3670d10054",
+      "draft_sha256": "1012ed5a1c8fb83a11020bad6be940a23aa377ab6182eb5eb8242f4a1bc4b4e9",
       "sections": [
         {
           "id": "come-vengono-emesse-le-ricevute",
@@ -5250,7 +5250,7 @@
       "title": "Contabilità avanzata",
       "status": "draft",
       "original_sha256": "e9e8ae81f347085390d77710bea9e307a8d0b812be7ed54e6a443ffee00b9785",
-      "draft_sha256": "011591d04b00aba6e9ed75765d42613b23e4cb36068bfdba2d7c1e9db663d36e",
+      "draft_sha256": "dac061dd9d99c7ff85df0496dd38f3bb2e136b58ad9ab6195241e8a721e19ff2",
       "sections": [
         {
           "id": "panoramica",
@@ -5678,7 +5678,7 @@
       "title": "Bilancio",
       "status": "draft",
       "original_sha256": "f910098554217667042067df416caf7d0084c9d2a5540d0ded501e93b292b52a",
-      "draft_sha256": "7573d94f47f0d97b9484a4c028eda5b1bf4fc12654beb0623c699f43c9868a4f",
+      "draft_sha256": "bfdc8ae97b62215668cc080f7b5cf8661cb237a52c49b9f9a7b34abef073e586",
       "sections": [
         {
           "id": "bilancio",
@@ -5990,7 +5990,7 @@
       "title": "Archivio",
       "status": "draft",
       "original_sha256": "2ff037ecf84389369a0f083f9076c51f81e5518952483e0f87d92ce45c424b2b",
-      "draft_sha256": "2184dbff502c51e7885b4f022532bf4a85688ffd64c4737eaadecdc44daaac25",
+      "draft_sha256": "be5870ebe0865a6851e2de632bf8531580d3bd8b893be7897c4f4265bcced68c",
       "sections": [
         {
           "id": "introduzione",
@@ -6098,7 +6098,7 @@
       "title": "Collaboratori",
       "status": "draft",
       "original_sha256": "9620b95a55d2f5ca269c65ad2576d2b8f18cb5d0e38a40fd814a9702e862c2b7",
-      "draft_sha256": "c56c8c651ce1bc30ec418033115ef729fea72eaa9c747f0df9f2e474179422d9",
+      "draft_sha256": "375b10cf6339736e7dcdde8b98dde22b2e975729aefbf3213d57848e03947bcd",
       "sections": [
         {
           "id": "introduzione",
@@ -6177,7 +6177,7 @@
       "draft_recipes": [
         {
           "path": "docs/manuale/organization-access-recipes.mjs",
-          "sha256": "2ae2289f2973f248009ba1ca5b1f40d02d38995679758a3b84766bebe762a2f0",
+          "sha256": "785a34d72eb5c9acc3f8c6ad6752790d8430c18f3fa3da13fcf81df76482df2b",
           "section": "introduzione",
           "status": "pending-capture",
           "verified": false,
@@ -6185,7 +6185,7 @@
         },
         {
           "path": "docs/manuale/organization-access-recipes.mjs",
-          "sha256": "2ae2289f2973f248009ba1ca5b1f40d02d38995679758a3b84766bebe762a2f0",
+          "sha256": "785a34d72eb5c9acc3f8c6ad6752790d8430c18f3fa3da13fcf81df76482df2b",
           "section": "invitare-un-collaboratore",
           "status": "pending-capture",
           "verified": false,
@@ -6193,7 +6193,7 @@
         },
         {
           "path": "docs/manuale/organization-access-recipes.mjs",
-          "sha256": "2ae2289f2973f248009ba1ca5b1f40d02d38995679758a3b84766bebe762a2f0",
+          "sha256": "785a34d72eb5c9acc3f8c6ad6752790d8430c18f3fa3da13fcf81df76482df2b",
           "section": "livelli-di-permessi",
           "status": "pending-capture",
           "verified": false,
@@ -6201,7 +6201,7 @@
         },
         {
           "path": "docs/manuale/organization-access-recipes.mjs",
-          "sha256": "2ae2289f2973f248009ba1ca5b1f40d02d38995679758a3b84766bebe762a2f0",
+          "sha256": "785a34d72eb5c9acc3f8c6ad6752790d8430c18f3fa3da13fcf81df76482df2b",
           "section": "accesso-completo",
           "status": "pending-capture",
           "verified": false,
@@ -6209,7 +6209,7 @@
         },
         {
           "path": "docs/manuale/organization-access-recipes.mjs",
-          "sha256": "2ae2289f2973f248009ba1ca5b1f40d02d38995679758a3b84766bebe762a2f0",
+          "sha256": "785a34d72eb5c9acc3f8c6ad6752790d8430c18f3fa3da13fcf81df76482df2b",
           "section": "personalizzato",
           "status": "pending-capture",
           "verified": false,
@@ -6217,7 +6217,7 @@
         },
         {
           "path": "docs/manuale/organization-access-recipes.mjs",
-          "sha256": "2ae2289f2973f248009ba1ca5b1f40d02d38995679758a3b84766bebe762a2f0",
+          "sha256": "785a34d72eb5c9acc3f8c6ad6752790d8430c18f3fa3da13fcf81df76482df2b",
           "section": "stato-degli-inviti",
           "status": "pending-capture",
           "verified": false,
@@ -6225,7 +6225,7 @@
         },
         {
           "path": "docs/manuale/organization-access-recipes.mjs",
-          "sha256": "2ae2289f2973f248009ba1ca5b1f40d02d38995679758a3b84766bebe762a2f0",
+          "sha256": "785a34d72eb5c9acc3f8c6ad6752790d8430c18f3fa3da13fcf81df76482df2b",
           "section": "modificare-i-permessi-di-un-collaboratore",
           "status": "pending-capture",
           "verified": false,
@@ -6254,7 +6254,7 @@
       "title": "Impostazioni",
       "status": "draft",
       "original_sha256": "6632aa42a4640957a6843e250c4149740007eb34ec3f4863c5285782c251c7b0",
-      "draft_sha256": "d34c701a82a7a97a74f33ef7d43c9b6dcbb5a721f08070af188aa5069f2375cd",
+      "draft_sha256": "b988839e2661566fef37bf6724a073384746983259326d0b94cefb3b36647313",
       "sections": [
         {
           "id": "introduzione",
@@ -6501,7 +6501,7 @@
         },
         {
           "path": "docs/manuale/organization-access-recipes.mjs",
-          "sha256": "2ae2289f2973f248009ba1ca5b1f40d02d38995679758a3b84766bebe762a2f0",
+          "sha256": "785a34d72eb5c9acc3f8c6ad6752790d8430c18f3fa3da13fcf81df76482df2b",
           "section": "informazioni-dell-organizzazione",
           "status": "pending-capture",
           "verified": false,
@@ -6525,7 +6525,7 @@
         },
         {
           "path": "docs/manuale/organization-access-recipes.mjs",
-          "sha256": "2ae2289f2973f248009ba1ca5b1f40d02d38995679758a3b84766bebe762a2f0",
+          "sha256": "785a34d72eb5c9acc3f8c6ad6752790d8430c18f3fa3da13fcf81df76482df2b",
           "section": "anno-fiscale",
           "status": "pending-capture",
           "verified": false,
@@ -6533,7 +6533,7 @@
         },
         {
           "path": "docs/manuale/organization-access-recipes.mjs",
-          "sha256": "2ae2289f2973f248009ba1ca5b1f40d02d38995679758a3b84766bebe762a2f0",
+          "sha256": "785a34d72eb5c9acc3f8c6ad6752790d8430c18f3fa3da13fcf81df76482df2b",
           "section": "stagione-sportiva",
           "status": "pending-capture",
           "verified": false,
@@ -6541,7 +6541,7 @@
         },
         {
           "path": "docs/manuale/organization-access-recipes.mjs",
-          "sha256": "2ae2289f2973f248009ba1ca5b1f40d02d38995679758a3b84766bebe762a2f0",
+          "sha256": "785a34d72eb5c9acc3f8c6ad6752790d8430c18f3fa3da13fcf81df76482df2b",
           "section": "durata-delle-iscrizioni-e-tesseramenti",
           "status": "pending-capture",
           "verified": false,
@@ -7114,7 +7114,7 @@
       "title": "Come condividere il link per le iscrizioni?",
       "status": "draft",
       "original_sha256": "5377644d2e71ae1d8da6dd263564bbc6220e06b1d463334c71917411d955c3bd",
-      "draft_sha256": "543cd4dbc1ccabe6acf56c89b318580b14d98335503a4fcb32fb90483815aafc",
+      "draft_sha256": "fb9165613c8b89caeaeccd13452b0fdcd6d8b8cdbd840143b6c17e9ea07c9931",
       "sections": [
         {
           "id": "condividere-il-link-per-le-iscrizioni",
@@ -7546,7 +7546,7 @@
       "title": "Come generare il bilancio?",
       "status": "draft",
       "original_sha256": "7d5d6aaccabfe5fd55475e08eb5d0ad4c5b297d6042fd3088fe41723bd46ef21",
-      "draft_sha256": "4fc0551ede35246c520cb86f3dd2685b3e5d1bc24abf70ab5b9474c60f75f42c",
+      "draft_sha256": "9306ee5d6d484c2170ce6b8cf3f24e019ddb8fe942f966a7f2bc1a89c9bc12bc",
       "sections": [
         {
           "id": "cos-e-il-bilancio",
@@ -7842,7 +7842,7 @@
       "title": "Come archiviare i dati?",
       "status": "draft",
       "original_sha256": "4b2d978dc79ccbec9c8cc76c3e7ab27eb123973e8d7764744d6dc61cbf13ca50",
-      "draft_sha256": "5a9a8d47db9c66838b46da56be6bc111fb9d877c5fd554392fab3ffcedb80fb8",
+      "draft_sha256": "2f10b015f9bfcc767fca82ecf52bee848e5b698597887228f6edcae3cb463945",
       "sections": [
         {
           "id": "cosa-significa-archiviare",
@@ -8090,7 +8090,7 @@
       "title": "Come invitare i collaboratori?",
       "status": "draft",
       "original_sha256": "9c5c350240677820203001a8e80c02f97ae49995d41b101d3f9fee749683f8a5",
-      "draft_sha256": "ea1af6ae5cd47b9e7f956e8a9e151621ea8eab5a48d050d3af69caabe857d7fd",
+      "draft_sha256": "6eeeec762c5db9b86eed8e197b2e1b3a9b77603b31dff8635c6c5d50be88ebfa",
       "sections": [
         {
           "id": "invitare-un-collaboratore",
@@ -8145,7 +8145,7 @@
       "draft_recipes": [
         {
           "path": "docs/manuale/organization-access-recipes.mjs",
-          "sha256": "2ae2289f2973f248009ba1ca5b1f40d02d38995679758a3b84766bebe762a2f0",
+          "sha256": "785a34d72eb5c9acc3f8c6ad6752790d8430c18f3fa3da13fcf81df76482df2b",
           "section": "invitare-un-collaboratore",
           "status": "pending-capture",
           "verified": false,
@@ -8153,7 +8153,7 @@
         },
         {
           "path": "docs/manuale/organization-access-recipes.mjs",
-          "sha256": "2ae2289f2973f248009ba1ca5b1f40d02d38995679758a3b84766bebe762a2f0",
+          "sha256": "785a34d72eb5c9acc3f8c6ad6752790d8430c18f3fa3da13fcf81df76482df2b",
           "section": "come-inviare-un-invito",
           "status": "pending-capture",
           "verified": false,
@@ -8161,7 +8161,7 @@
         },
         {
           "path": "docs/manuale/organization-access-recipes.mjs",
-          "sha256": "2ae2289f2973f248009ba1ca5b1f40d02d38995679758a3b84766bebe762a2f0",
+          "sha256": "785a34d72eb5c9acc3f8c6ad6752790d8430c18f3fa3da13fcf81df76482df2b",
           "section": "livelli-di-accesso",
           "status": "pending-capture",
           "verified": false,
@@ -8169,7 +8169,7 @@
         },
         {
           "path": "docs/manuale/organization-access-recipes.mjs",
-          "sha256": "2ae2289f2973f248009ba1ca5b1f40d02d38995679758a3b84766bebe762a2f0",
+          "sha256": "785a34d72eb5c9acc3f8c6ad6752790d8430c18f3fa3da13fcf81df76482df2b",
           "section": "stato-degli-inviti",
           "status": "pending-capture",
           "verified": false,
@@ -8177,7 +8177,7 @@
         },
         {
           "path": "docs/manuale/organization-access-recipes.mjs",
-          "sha256": "2ae2289f2973f248009ba1ca5b1f40d02d38995679758a3b84766bebe762a2f0",
+          "sha256": "785a34d72eb5c9acc3f8c6ad6752790d8430c18f3fa3da13fcf81df76482df2b",
           "section": "modificare-i-permessi",
           "status": "pending-capture",
           "verified": false,
@@ -8198,7 +8198,7 @@
       "title": "Come cambiare l'anno sportivo e fiscale?",
       "status": "draft",
       "original_sha256": "e5edfd7b7c17967f274c2fc07a377b7d438563ea8bcfe51b57cb1fef6a9a89f6",
-      "draft_sha256": "f6e409742211394d27ed66d9b4869ff48c3f672ed8e341603dbcc64581dad08e",
+      "draft_sha256": "b8fec935b64ff023eb31b27cfb8b35f638d9d37b5a4b1792543a418064d24467",
       "sections": [
         {
           "id": "cambiare-l-anno-sportivo-e-fiscale",
@@ -8253,7 +8253,7 @@
       "draft_recipes": [
         {
           "path": "docs/manuale/organization-access-recipes.mjs",
-          "sha256": "2ae2289f2973f248009ba1ca5b1f40d02d38995679758a3b84766bebe762a2f0",
+          "sha256": "785a34d72eb5c9acc3f8c6ad6752790d8430c18f3fa3da13fcf81df76482df2b",
           "section": "cambiare-l-anno-sportivo-e-fiscale",
           "status": "pending-capture",
           "verified": false,
@@ -8261,7 +8261,7 @@
         },
         {
           "path": "docs/manuale/organization-access-recipes.mjs",
-          "sha256": "2ae2289f2973f248009ba1ca5b1f40d02d38995679758a3b84766bebe762a2f0",
+          "sha256": "785a34d72eb5c9acc3f8c6ad6752790d8430c18f3fa3da13fcf81df76482df2b",
           "section": "qual-e-la-differenza",
           "status": "pending-capture",
           "verified": false,
@@ -8269,7 +8269,7 @@
         },
         {
           "path": "docs/manuale/organization-access-recipes.mjs",
-          "sha256": "2ae2289f2973f248009ba1ca5b1f40d02d38995679758a3b84766bebe762a2f0",
+          "sha256": "785a34d72eb5c9acc3f8c6ad6752790d8430c18f3fa3da13fcf81df76482df2b",
           "section": "opzioni-disponibili",
           "status": "pending-capture",
           "verified": false,
@@ -8277,7 +8277,7 @@
         },
         {
           "path": "docs/manuale/organization-access-recipes.mjs",
-          "sha256": "2ae2289f2973f248009ba1ca5b1f40d02d38995679758a3b84766bebe762a2f0",
+          "sha256": "785a34d72eb5c9acc3f8c6ad6752790d8430c18f3fa3da13fcf81df76482df2b",
           "section": "come-cambiare-l-anno-fiscale",
           "status": "pending-capture",
           "verified": false,
@@ -8285,7 +8285,7 @@
         },
         {
           "path": "docs/manuale/organization-access-recipes.mjs",
-          "sha256": "2ae2289f2973f248009ba1ca5b1f40d02d38995679758a3b84766bebe762a2f0",
+          "sha256": "785a34d72eb5c9acc3f8c6ad6752790d8430c18f3fa3da13fcf81df76482df2b",
           "section": "come-cambiare-la-stagione-sportiva",
           "status": "pending-capture",
           "verified": false,
@@ -8293,7 +8293,7 @@
         },
         {
           "path": "docs/manuale/organization-access-recipes.mjs",
-          "sha256": "2ae2289f2973f248009ba1ca5b1f40d02d38995679758a3b84766bebe762a2f0",
+          "sha256": "785a34d72eb5c9acc3f8c6ad6752790d8430c18f3fa3da13fcf81df76482df2b",
           "section": "cosa-cambia-dopo-la-modifica",
           "status": "pending-capture",
           "verified": false,
@@ -8361,7 +8361,7 @@
       "draft_recipes": [
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
+          "sha256": "e4d1ba3bed2fb7464a32b07b63decce48e9d38f2db0c7ece54cac579e3ef9d53",
           "section": "collegare-google-calendar",
           "status": "pending-capture",
           "verified": false,
@@ -8369,7 +8369,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
+          "sha256": "e4d1ba3bed2fb7464a32b07b63decce48e9d38f2db0c7ece54cac579e3ef9d53",
           "section": "cosa-serve-per-iniziare",
           "status": "pending-capture",
           "verified": false,
@@ -8377,7 +8377,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
+          "sha256": "e4d1ba3bed2fb7464a32b07b63decce48e9d38f2db0c7ece54cac579e3ef9d53",
           "section": "come-collegare-il-tuo-account-google",
           "status": "pending-capture",
           "verified": false,
@@ -8385,7 +8385,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
+          "sha256": "e4d1ba3bed2fb7464a32b07b63decce48e9d38f2db0c7ece54cac579e3ef9d53",
           "section": "come-sincronizzare-un-corso",
           "status": "pending-capture",
           "verified": false,
@@ -8393,7 +8393,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
+          "sha256": "e4d1ba3bed2fb7464a32b07b63decce48e9d38f2db0c7ece54cac579e3ef9d53",
           "section": "cosa-viene-sincronizzato",
           "status": "pending-capture",
           "verified": false,
@@ -8401,7 +8401,7 @@
         },
         {
           "path": "docs/manuale/camps-calendar-recipes.mjs",
-          "sha256": "e3bb4497b72f8242bac4c67a5108648ca4b5829cf86e0fa544e136ad581ed53f",
+          "sha256": "e4d1ba3bed2fb7464a32b07b63decce48e9d38f2db0c7ece54cac579e3ef9d53",
           "section": "come-disconnettere-google-calendar",
           "status": "pending-capture",
           "verified": false,
@@ -10467,14 +10467,16 @@
         "docs/libro-soci.mdx",
         "faq/come-usare-ricerca-filtri-atleti.mdx"
       ],
-      "planned_from": "docs/scripts/manuale-generate.mjs",
+      "planned_from": "docs/manuale/screenshot-plan.json",
       "status": "placeholder",
       "verified": false,
-      "placement": "assigned by the real workflow recipe",
+      "placement": "assigned by the workflow authoring recipe",
       "width": 1920,
       "height": 1080,
-      "sha256": "446e99169d12d68baf3fb3e4e14b864b731724c0142c1912a36b5cb79d57ee5c",
-      "caption": "Screenshot da acquisire: Manuale d’uso"
+      "sha256": "a98231f32160e22c8209f2063c72138a17e72ca408129350a961d644df68d8eb",
+      "caption": "Elenco delle iscrizioni dell'associazione",
+      "workflow": "members-search",
+      "checkpoint": "all-fixture-members"
     },
     {
       "original_path": "images/faq/ricerca-filtri/2.png",
@@ -10482,14 +10484,16 @@
       "pages": [
         "faq/come-usare-ricerca-filtri-atleti.mdx"
       ],
-      "planned_from": "docs/scripts/manuale-generate.mjs",
+      "planned_from": "docs/manuale/screenshot-plan.json",
       "status": "placeholder",
       "verified": false,
-      "placement": "assigned by the real workflow recipe",
+      "placement": "assigned by the workflow authoring recipe",
       "width": 1920,
       "height": 1080,
-      "sha256": "ccb8ed05905b767457970d16be544a1f563a8b99a76a34c7e1b52e17abb6af83",
-      "caption": "Screenshot da acquisire: Manuale d’uso"
+      "sha256": "07e3b2ccfa3faaae6b02d12d0800ef5b8be9354e5e39b5de7a5e97b159b97753",
+      "caption": "Risultato della ricerca per nome",
+      "workflow": "members-search",
+      "checkpoint": "name-search-result"
     },
     {
       "original_path": "images/faq/ricerca-filtri/3.png",
@@ -10497,14 +10501,16 @@
       "pages": [
         "faq/come-usare-ricerca-filtri-atleti.mdx"
       ],
-      "planned_from": "docs/scripts/manuale-generate.mjs",
+      "planned_from": "docs/manuale/screenshot-plan.json",
       "status": "placeholder",
       "verified": false,
-      "placement": "assigned by the real workflow recipe",
+      "placement": "assigned by the workflow authoring recipe",
       "width": 1920,
       "height": 1080,
-      "sha256": "1d9e30e7a21985461d574faf10a5e63055ce0bee69c76c1ed22bd36bd83bab7f",
-      "caption": "Screenshot da acquisire: Manuale d’uso"
+      "sha256": "cc013499df0331542894ac66df4604c62f9c02e4d47695ec2ab3f286eb900eee",
+      "caption": "Ricerca senza corrispondenze",
+      "workflow": "members-search",
+      "checkpoint": "no-matching-member"
     },
     {
       "original_path": "images/faq/ricerca-filtri/4.png",
@@ -10512,14 +10518,16 @@
       "pages": [
         "faq/come-usare-ricerca-filtri-atleti.mdx"
       ],
-      "planned_from": "docs/scripts/manuale-generate.mjs",
+      "planned_from": "docs/manuale/screenshot-plan.json",
       "status": "placeholder",
       "verified": false,
-      "placement": "assigned by the real workflow recipe",
+      "placement": "assigned by the workflow authoring recipe",
       "width": 1920,
       "height": 1080,
-      "sha256": "8499ac7972792ac5976f9e09ecd87cc08af15a93d5b5de48b326ecb95a3fcc90",
-      "caption": "Screenshot da acquisire: Manuale d’uso"
+      "sha256": "9ed4effe4e7889637faba34f922b9242eab2297d1fc68c2db81fb58fe6856d6f",
+      "caption": "Elenco ripristinato dopo la ricerca",
+      "workflow": "members-search",
+      "checkpoint": "search-cleared"
     },
     {
       "original_path": "images/corsi/creazione-modifica/1.png",
@@ -10527,14 +10535,16 @@
       "pages": [
         "docs/corsi.mdx"
       ],
-      "planned_from": "docs/manuale/content-recipes.mjs",
+      "planned_from": "docs/manuale/screenshot-plan.json",
       "status": "placeholder",
       "verified": false,
-      "placement": "assigned by the real workflow recipe",
+      "placement": "assigned by the workflow authoring recipe",
       "width": 1920,
       "height": 1080,
-      "sha256": "eab1b93f2bd7cc06bae36d5a22a44853e04a487f735030263845ea5b81b79c51",
-      "caption": "Screenshot da acquisire: Manuale d’uso"
+      "sha256": "236fa5e1ebf2207e5abcff749bb510072676967ae313a922ae7c8351a5e1ee43",
+      "caption": "Dati di un nuovo corso Standard",
+      "workflow": "courses-create-edit",
+      "checkpoint": "filled-standard-course"
     },
     {
       "original_path": "images/corsi/creazione-modifica/2.png",
@@ -10542,14 +10552,16 @@
       "pages": [
         "docs/corsi.mdx"
       ],
-      "planned_from": "docs/manuale/content-recipes.mjs",
+      "planned_from": "docs/manuale/screenshot-plan.json",
       "status": "placeholder",
       "verified": false,
-      "placement": "assigned by the real workflow recipe",
+      "placement": "assigned by the workflow authoring recipe",
       "width": 1920,
       "height": 1080,
-      "sha256": "6867716f19415beb5a2ede7619bb0c58b7e021f127de51b37cf325d0ccb9e6f6",
-      "caption": "Screenshot da acquisire: Manuale d’uso"
+      "sha256": "d4862789243b0acdfa9c20fdf1019572ad649b87c180ba15ab3ce200868b0a33",
+      "caption": "Nuovo corso nell'elenco",
+      "workflow": "courses-create-edit",
+      "checkpoint": "saved-course-in-list"
     },
     {
       "original_path": "images/corsi/creazione-modifica/3.png",
@@ -10557,14 +10569,16 @@
       "pages": [
         "docs/corsi.mdx"
       ],
-      "planned_from": "docs/manuale/content-recipes.mjs",
+      "planned_from": "docs/manuale/screenshot-plan.json",
       "status": "placeholder",
       "verified": false,
-      "placement": "assigned by the real workflow recipe",
+      "placement": "assigned by the workflow authoring recipe",
       "width": 1920,
       "height": 1080,
-      "sha256": "22dc4c5f636c129ee13842c2c8b98ecec1e3205f8fd0714885fdcdaab9515d9e",
-      "caption": "Screenshot da acquisire: Manuale d’uso"
+      "sha256": "b7caefd06ab373d9e451eb22da3c2d1c562815688f625eb4957aa058c0f4cdd0",
+      "caption": "Modifica del titolo di un corso",
+      "workflow": "courses-create-edit",
+      "checkpoint": "edit-course-title"
     },
     {
       "original_path": "images/corsi/creazione-modifica/4.png",
@@ -10572,14 +10586,16 @@
       "pages": [
         "docs/corsi.mdx"
       ],
-      "planned_from": "docs/manuale/content-recipes.mjs",
+      "planned_from": "docs/manuale/screenshot-plan.json",
       "status": "placeholder",
       "verified": false,
-      "placement": "assigned by the real workflow recipe",
+      "placement": "assigned by the workflow authoring recipe",
       "width": 1920,
       "height": 1080,
-      "sha256": "782c85a17c67cf27403ea5d084a7dc693bf4bd345c60b5338a9ca25f9c4aa753",
-      "caption": "Screenshot da acquisire: Manuale d’uso"
+      "sha256": "b3e9c3aca42267b7d0e74b6bf02fbdc4123b75724885eb4e82e7878a19f210e1",
+      "caption": "Titolo modificato dopo il ricaricamento",
+      "workflow": "courses-create-edit",
+      "checkpoint": "edited-course-persists-after-reload"
     },
     {
       "original_path": "images/faq/archiviazione/1.png",
@@ -10665,14 +10681,16 @@
       "pages": [
         "docs/pagamenti.mdx"
       ],
-      "planned_from": "docs/manuale/payment-recipes.mjs",
+      "planned_from": "docs/manuale/screenshot-plan.json",
       "status": "placeholder",
       "verified": false,
-      "placement": "assigned by the real workflow recipe",
+      "placement": "assigned by the workflow authoring recipe",
       "width": 1920,
       "height": 1080,
-      "sha256": "0f2a7a9c37ed4f6b3ee6553e70fba6a3470121ffe25a8c10eefe94e5617d0432",
-      "caption": "Screenshot da acquisire: Manuale d’uso"
+      "sha256": "9feaf9ce9ff694c9359df4f53a2ae09d61cf38e0d6de3451892dbf5125601030",
+      "caption": "Modulo compilato per una nuova entrata in contanti",
+      "workflow": "payments-create-edit-approve",
+      "checkpoint": "filled-incoming-cash-payment"
     },
     {
       "original_path": "images/pagamenti/registrazione/2.png",
@@ -10680,14 +10698,16 @@
       "pages": [
         "docs/pagamenti.mdx"
       ],
-      "planned_from": "docs/manuale/payment-recipes.mjs",
+      "planned_from": "docs/manuale/screenshot-plan.json",
       "status": "placeholder",
       "verified": false,
-      "placement": "assigned by the real workflow recipe",
+      "placement": "assigned by the workflow authoring recipe",
       "width": 1920,
       "height": 1080,
-      "sha256": "49f226df0c109ad5e4c1b7cb8d8c9a0022f4c414b715d0d8ddc67364bad6d6df",
-      "caption": "Screenshot da acquisire: Manuale d’uso"
+      "sha256": "63bbad8120f888b2adc2a001078477565eef18611f2b29bb94d78181000e19c3",
+      "caption": "Pagamento creato nell'elenco",
+      "workflow": "payments-create-edit-approve",
+      "checkpoint": "created-payment-in-list"
     },
     {
       "original_path": "images/pagamenti/registrazione/3.png",
@@ -10695,14 +10715,16 @@
       "pages": [
         "docs/pagamenti.mdx"
       ],
-      "planned_from": "docs/manuale/payment-recipes.mjs",
+      "planned_from": "docs/manuale/screenshot-plan.json",
       "status": "placeholder",
       "verified": false,
-      "placement": "assigned by the real workflow recipe",
+      "placement": "assigned by the workflow authoring recipe",
       "width": 1920,
       "height": 1080,
-      "sha256": "772fae005c5c45bb7e5c7f5c40adf24f2bba4988f70ec6133b782fda623eeebe",
-      "caption": "Screenshot da acquisire: Manuale d’uso"
+      "sha256": "c392881dd46643f6ac3bb11662e0c534245cda6652f776236a4d0d5f1f0f4c6a",
+      "caption": "Modifica dell'importo prima dell'incasso",
+      "workflow": "payments-create-edit-approve",
+      "checkpoint": "edited-payment-amount"
     },
     {
       "original_path": "images/pagamenti/registrazione/4.png",
@@ -10710,14 +10732,16 @@
       "pages": [
         "docs/pagamenti.mdx"
       ],
-      "planned_from": "docs/manuale/payment-recipes.mjs",
+      "planned_from": "docs/manuale/screenshot-plan.json",
       "status": "placeholder",
       "verified": false,
-      "placement": "assigned by the real workflow recipe",
+      "placement": "assigned by the workflow authoring recipe",
       "width": 1920,
       "height": 1080,
-      "sha256": "a95bf706bd04490be980871f7813829567b106a5b75aa64b32a3e5e8cac547f6",
-      "caption": "Screenshot da acquisire: Manuale d’uso"
+      "sha256": "f36b29d0f41760175be20c3c41b848bbd8ef6d7ac5d05c4624270ec0b536d6b1",
+      "caption": "Importo modificato e conservato dopo il ricaricamento",
+      "workflow": "payments-create-edit-approve",
+      "checkpoint": "edited-payment-persists-after-reload"
     },
     {
       "original_path": "images/pagamenti/registrazione/5.png",
@@ -10725,14 +10749,16 @@
       "pages": [
         "docs/pagamenti.mdx"
       ],
-      "planned_from": "docs/manuale/payment-recipes.mjs",
+      "planned_from": "docs/manuale/screenshot-plan.json",
       "status": "placeholder",
       "verified": false,
-      "placement": "assigned by the real workflow recipe",
+      "placement": "assigned by the workflow authoring recipe",
       "width": 1920,
       "height": 1080,
-      "sha256": "556f2396b46bd9e5d7061813072b10ea6c40a9705a4c2fb6c8320a7325d95198",
-      "caption": "Screenshot da acquisire: Manuale d’uso"
+      "sha256": "fdf51866b34c899e8f04c10e5d7d80ec2080e3226c99ef0bc3d41e633e639ebc",
+      "caption": "Conferma dell'incasso senza generazione immediata del PDF",
+      "workflow": "payments-create-edit-approve",
+      "checkpoint": "approval-without-immediate-pdf"
     },
     {
       "original_path": "images/pagamenti/registrazione/6.png",
@@ -10740,14 +10766,16 @@
       "pages": [
         "docs/pagamenti.mdx"
       ],
-      "planned_from": "docs/manuale/payment-recipes.mjs",
+      "planned_from": "docs/manuale/screenshot-plan.json",
       "status": "placeholder",
       "verified": false,
-      "placement": "assigned by the real workflow recipe",
+      "placement": "assigned by the workflow authoring recipe",
       "width": 1920,
       "height": 1080,
-      "sha256": "10ecd375e37b5de7fafe0632f88a4cfc31364f7a5343352886e3fe961430ea7e",
-      "caption": "Screenshot da acquisire: Manuale d’uso"
+      "sha256": "fb2becf19db1a2a27a152158a08b6666068e775be7e47091e0f2f53785b95572",
+      "caption": "Pagamento incassato e conservato nell'elenco",
+      "workflow": "payments-create-edit-approve",
+      "checkpoint": "approved-payment-persists-with-receipt-record"
     },
     {
       "original_path": "images/ricevute/consultazione/1.png",
@@ -10755,14 +10783,16 @@
       "pages": [
         "docs/ricevute.mdx"
       ],
-      "planned_from": "docs/manuale/payment-recipes.mjs",
+      "planned_from": "docs/manuale/screenshot-plan.json",
       "status": "placeholder",
       "verified": false,
-      "placement": "assigned by the real workflow recipe",
+      "placement": "assigned by the workflow authoring recipe",
       "width": 1920,
       "height": 1080,
-      "sha256": "19140b0a6274fc1c31f03d755ddbdb823805c3355f7fd38c9d455dfb405fd797",
-      "caption": "Screenshot da acquisire: Manuale d’uso"
+      "sha256": "826cfaed7522f82af1ef1c1ea379caa1070f3574383a1c4544677b7dfb18e81f",
+      "caption": "Incasso di una quota associativa con generazione del PDF",
+      "workflow": "receipts-approve-download",
+      "checkpoint": "approval-with-pdf-and-no-email"
     },
     {
       "original_path": "images/ricevute/consultazione/2.png",
@@ -10770,14 +10800,16 @@
       "pages": [
         "docs/ricevute.mdx"
       ],
-      "planned_from": "docs/manuale/payment-recipes.mjs",
+      "planned_from": "docs/manuale/screenshot-plan.json",
       "status": "placeholder",
       "verified": false,
-      "placement": "assigned by the real workflow recipe",
+      "placement": "assigned by the workflow authoring recipe",
       "width": 1920,
       "height": 1080,
-      "sha256": "7f8b8aa2ccd8d366cf376580cc5918cbf60bc709fe790bdde12e7a9c5986424c",
-      "caption": "Screenshot da acquisire: Manuale d’uso"
+      "sha256": "41dd868f514200e420ae991273b386ce2ac0acb768846cd4b7cfed744aa83ba5",
+      "caption": "Due ricevute registrate con progressivi 1 e 2",
+      "workflow": "receipts-approve-download",
+      "checkpoint": "receipt-list-with-generated-pdfs-and-progressives"
     },
     {
       "original_path": "images/ricevute/consultazione/3.png",
@@ -10785,14 +10817,16 @@
       "pages": [
         "docs/ricevute.mdx"
       ],
-      "planned_from": "docs/manuale/payment-recipes.mjs",
+      "planned_from": "docs/manuale/screenshot-plan.json",
       "status": "placeholder",
       "verified": false,
-      "placement": "assigned by the real workflow recipe",
+      "placement": "assigned by the workflow authoring recipe",
       "width": 1920,
       "height": 1080,
-      "sha256": "8611f2f9947fe65a616af51b27b8960b54d858172e352c8d10bcc413e2931213",
-      "caption": "Screenshot da acquisire: Manuale d’uso"
+      "sha256": "03f63d64e184375cc896c5d5d14fbd72277e3a9adbac01cf253d4bc218c2f614",
+      "caption": "Anteprima del PDF della ricevuta",
+      "workflow": "receipts-approve-download",
+      "checkpoint": "receipt-pdf-preview-without-share-token"
     },
     {
       "original_path": "images/ricevute/consultazione/4.png",
@@ -10800,14 +10834,16 @@
       "pages": [
         "docs/ricevute.mdx"
       ],
-      "planned_from": "docs/manuale/payment-recipes.mjs",
+      "planned_from": "docs/manuale/screenshot-plan.json",
       "status": "placeholder",
       "verified": false,
-      "placement": "assigned by the real workflow recipe",
+      "placement": "assigned by the workflow authoring recipe",
       "width": 1920,
       "height": 1080,
-      "sha256": "55859dee8f9d2f1a5e7d6bbd1803831e8e96b5adeb45161bf8c747beff8dad6f",
-      "caption": "Screenshot da acquisire: Manuale d’uso"
+      "sha256": "7fe07b5a11dda03aa267de8ed342563b2ba953f1ab7a593d26c4e8465ec1d8cf",
+      "caption": "Pulsante per copiare il link di download; il link è oscurato nell'immagine",
+      "workflow": "receipts-approve-download",
+      "checkpoint": "copy-download-link-with-token-redacted"
     },
     {
       "original_path": "images/ricevute/modifica-eliminazione/1.png",
@@ -10815,14 +10851,16 @@
       "pages": [
         "docs/ricevute.mdx"
       ],
-      "planned_from": "docs/manuale/payment-recipes.mjs",
+      "planned_from": "docs/manuale/screenshot-plan.json",
       "status": "placeholder",
       "verified": false,
-      "placement": "assigned by the real workflow recipe",
+      "placement": "assigned by the workflow authoring recipe",
       "width": 1920,
       "height": 1080,
-      "sha256": "9252f0f9cd0127dea284232b659b1beb5b812f5c892394498fb12a9516d1d448",
-      "caption": "Screenshot da acquisire: Manuale d’uso"
+      "sha256": "7405d9cf78f3b35be2d54a4fee80d327a59034986825da881c3a5492cc1e58e8",
+      "caption": "Ricevuta di Giulia Bianchi con numero 7",
+      "workflow": "receipts-edit-delete",
+      "checkpoint": "older-receipt-with-progressive-seven"
     },
     {
       "original_path": "images/ricevute/modifica-eliminazione/2.png",
@@ -10830,14 +10868,16 @@
       "pages": [
         "docs/ricevute.mdx"
       ],
-      "planned_from": "docs/manuale/payment-recipes.mjs",
+      "planned_from": "docs/manuale/screenshot-plan.json",
       "status": "placeholder",
       "verified": false,
-      "placement": "assigned by the real workflow recipe",
+      "placement": "assigned by the workflow authoring recipe",
       "width": 1920,
       "height": 1080,
-      "sha256": "6d5776a350afd029c79a7df0aaa7df6bf02c64d8e2a1decb1df24ad745e2a914",
-      "caption": "Screenshot da acquisire: Manuale d’uso"
+      "sha256": "9e8dc138392f4e4ba1d2b9a7043beca7276797c95a6bf8932bd0c45e90c315d9",
+      "caption": "Nuovo progressivo nel modulo della ricevuta",
+      "workflow": "receipts-edit-delete",
+      "checkpoint": "edit-receipt-progressive-to-nine"
     },
     {
       "original_path": "images/ricevute/modifica-eliminazione/3.png",
@@ -10845,14 +10885,16 @@
       "pages": [
         "docs/ricevute.mdx"
       ],
-      "planned_from": "docs/manuale/payment-recipes.mjs",
+      "planned_from": "docs/manuale/screenshot-plan.json",
       "status": "placeholder",
       "verified": false,
-      "placement": "assigned by the real workflow recipe",
+      "placement": "assigned by the workflow authoring recipe",
       "width": 1920,
       "height": 1080,
-      "sha256": "f8e446d8890218bb518ba7b4350c28c808d03002b6b6e374c14408e4835162dd",
-      "caption": "Screenshot da acquisire: Manuale d’uso"
+      "sha256": "a5e2adaf59544c3bd664a1a78b0b7709a8d9fb0b94134f9fc43d1c3eaf0a3202",
+      "caption": "Progressivo 9 conservato nell'elenco delle ricevute",
+      "workflow": "receipts-edit-delete",
+      "checkpoint": "edited-receipt-persists-after-reload"
     },
     {
       "original_path": "images/ricevute/modifica-eliminazione/4.png",
@@ -10860,14 +10902,16 @@
       "pages": [
         "docs/ricevute.mdx"
       ],
-      "planned_from": "docs/manuale/payment-recipes.mjs",
+      "planned_from": "docs/manuale/screenshot-plan.json",
       "status": "placeholder",
       "verified": false,
-      "placement": "assigned by the real workflow recipe",
+      "placement": "assigned by the workflow authoring recipe",
       "width": 1920,
       "height": 1080,
-      "sha256": "e69c58a0bea325cf3fd922a12c8c3352a59419a00259e9d5d69c24212e34ef22",
-      "caption": "Screenshot da acquisire: Manuale d’uso"
+      "sha256": "dc8a6a2c9dbb0113b106e3f13d69b5bd96b56af4e127091672848c6591ae9a75",
+      "caption": "Conferma dell'eliminazione della ricevuta",
+      "workflow": "receipts-edit-delete",
+      "checkpoint": "confirm-deletion-of-older-receipt"
     },
     {
       "original_path": "images/ricevute/modifica-eliminazione/5.png",
@@ -10875,14 +10919,16 @@
       "pages": [
         "docs/ricevute.mdx"
       ],
-      "planned_from": "docs/manuale/payment-recipes.mjs",
+      "planned_from": "docs/manuale/screenshot-plan.json",
       "status": "placeholder",
       "verified": false,
-      "placement": "assigned by the real workflow recipe",
+      "placement": "assigned by the workflow authoring recipe",
       "width": 1920,
       "height": 1080,
-      "sha256": "a3a2e35ed14aac676994da8f96ee116e5bc20d94bb8c75623c5cfd568f67c85a",
-      "caption": "Screenshot da acquisire: Manuale d’uso"
+      "sha256": "599c2fca8c80b1ff65ac1454f679d880148095edbac4882c416a83d886ac5846",
+      "caption": "Pagamento tornato in attesa dopo l'eliminazione della ricevuta",
+      "workflow": "receipts-edit-delete",
+      "checkpoint": "payment-unpaid-after-receipt-deletion"
     },
     {
       "original_path": "images/faq/creazione-socio/1.png",
@@ -10892,15 +10938,15 @@
       "width": 1920,
       "height": 1080,
       "pages": [
-        "faq/come-si-crea-un-socio.mdx",
-        "docs/libro-soci.mdx"
+        "docs/libro-soci.mdx",
+        "faq/come-si-crea-un-socio.mdx"
       ],
       "caption": "Elenco delle iscrizioni e pulsante Aggiungi",
       "workflow": "members-create",
       "checkpoint": "members-list-and-add-action",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "1237f64f5ec38bb4060c72a87fa8f72c5decc577166c599826502f3302758b1c"
+      "sha256": "7fb07e9620b054b82e9912864c2a67fc9e19dda3de5ef3c177b71c4cf321db10"
     },
     {
       "original_path": "images/faq/creazione-socio/2.png",
@@ -10910,15 +10956,15 @@
       "width": 1920,
       "height": 1080,
       "pages": [
-        "faq/come-si-crea-un-socio.mdx",
-        "docs/libro-soci.mdx"
+        "docs/libro-soci.mdx",
+        "faq/come-si-crea-un-socio.mdx"
       ],
       "caption": "Tipo di iscrizione, quote e scelta dell’account",
       "workflow": "members-create",
       "checkpoint": "registration-type-and-no-new-account",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "7b03d255ab1b99076a04ae62ab13c94edc5d3faa11ade38139bc2c825f37aa71"
+      "sha256": "d2277ee73bca8e89deb6ba07331a8711054e88de257e1e3c7cba183a7a465b4c"
     },
     {
       "original_path": "images/faq/creazione-socio/3.png",
@@ -10928,16 +10974,16 @@
       "width": 1920,
       "height": 1080,
       "pages": [
-        "faq/come-si-crea-un-socio.mdx",
         "docs/libro-soci.mdx",
-        "faq/come-calcolare-generare-codici-fiscali.mdx"
+        "faq/come-calcolare-generare-codici-fiscali.mdx",
+        "faq/come-si-crea-un-socio.mdx"
       ],
       "caption": "Dati anagrafici e codice fiscale generato",
       "workflow": "members-create",
       "checkpoint": "personal-data-and-fiscal-code",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "43597a95572c1e69df73861f230d85dbbb8e6b4e1e479c2158d793f05a22da9d"
+      "sha256": "c6ffef9eb85f4dbd02c6cc5c3a94e6ae6b3e771e2e8e2d167be28f15e3810ccb"
     },
     {
       "original_path": "images/faq/creazione-socio/4.png",
@@ -10947,15 +10993,15 @@
       "width": 1920,
       "height": 1080,
       "pages": [
-        "faq/come-si-crea-un-socio.mdx",
-        "docs/libro-soci.mdx"
+        "docs/libro-soci.mdx",
+        "faq/come-si-crea-un-socio.mdx"
       ],
       "caption": "Residenza e recapiti della persona",
       "workflow": "members-create",
       "checkpoint": "residence-and-contact-data",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "184a6fdbbdeb482e03b748f8815622e8b273a1cad096d1f78b114fc1c505e1b2"
+      "sha256": "8e92a490a7be79e30b7169550d024a6cb5384fe97227167d32b5bcee88f5f8f1"
     },
     {
       "original_path": "images/faq/creazione-socio/5.png",
@@ -10965,15 +11011,15 @@
       "width": 1920,
       "height": 1080,
       "pages": [
-        "faq/come-si-crea-un-socio.mdx",
-        "docs/libro-soci.mdx"
+        "docs/libro-soci.mdx",
+        "faq/come-si-crea-un-socio.mdx"
       ],
       "caption": "Firma dimostrativa nel modulo di iscrizione",
       "workflow": "members-create",
       "checkpoint": "fictional-signature-entered",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "83306b48058f331fc4d712d4ed7e54c626e04d79291922d3227eb9a40a20d9ac"
+      "sha256": "52bcddd396c1f935e35bcf7714e26f9d5024627a8f893bde0842080cd42b2cec"
     },
     {
       "original_path": "images/faq/creazione-socio/6.png",
@@ -10983,15 +11029,15 @@
       "width": 1920,
       "height": 1080,
       "pages": [
-        "faq/come-si-crea-un-socio.mdx",
-        "docs/libro-soci.mdx"
+        "docs/libro-soci.mdx",
+        "faq/come-si-crea-un-socio.mdx"
       ],
       "caption": "Passaggio del certificato medico senza allegato",
       "workflow": "members-create",
       "checkpoint": "medical-certificate-step-with-no-attachment",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "500543ef43bd7416093c4cb36ec12cb88b81ebdd9ae00652190e441de8090301"
+      "sha256": "9bcbd7e65b7f18db057526f558d6b5c69b5cd475313b101723f635d5ba8e6907"
     },
     {
       "original_path": "images/faq/creazione-socio/7.png",
@@ -11001,15 +11047,15 @@
       "width": 1920,
       "height": 1080,
       "pages": [
-        "faq/come-si-crea-un-socio.mdx",
-        "docs/libro-soci.mdx"
+        "docs/libro-soci.mdx",
+        "faq/come-si-crea-un-socio.mdx"
       ],
       "caption": "Riepilogo della richiesta prima del salvataggio",
       "workflow": "members-create",
       "checkpoint": "registration-summary-before-saving",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "2ace8e1d76a3224abc5a850af2bad0c4c13bd51ef829a442c1ebc944ea813f80"
+      "sha256": "d47cb4241d5ab9561e0815f7b44ef4fdf0223f9112ddd518e63693ea505159ab"
     },
     {
       "original_path": "images/faq/creazione-socio/8.png",
@@ -11019,15 +11065,15 @@
       "width": 1920,
       "height": 1080,
       "pages": [
-        "faq/come-si-crea-un-socio.mdx",
-        "docs/libro-soci.mdx"
+        "docs/libro-soci.mdx",
+        "faq/come-si-crea-un-socio.mdx"
       ],
       "caption": "Nuova iscrizione in attesa, presente dopo il ricaricamento",
       "workflow": "members-create",
       "checkpoint": "created-pending-registration-persists-after-reload",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "c5f2a32d9595e52b7f770a183bdba11f0f3626839614e1bf9eacaa953bc33ab9"
+      "sha256": "353601be74253bbdddfb15440e6c2cec8a63d04d2e93a96d917e7cb7a2f3a9df"
     },
     {
       "original_path": "images/libro-soci/approvazione/1.png",
@@ -11037,6 +11083,7 @@
       "width": 1920,
       "height": 1080,
       "pages": [
+        "docs/libro-soci.mdx",
         "faq/come-si-crea-un-socio.mdx"
       ],
       "caption": "Domanda firmata ancora in attesa di approvazione.",
@@ -11044,7 +11091,7 @@
       "checkpoint": "signed-pending-request-before-approval",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "c3f2ffdf31633ff86d10df56b6b522e7e8a2f001a36bd717b229dbc89bb86c0e"
+      "sha256": "62ec178cae5600d095406d5e58adc792bcc375eefb9ab0039e2febc7047f5178"
     },
     {
       "original_path": "images/libro-soci/approvazione/2.png",
@@ -11054,6 +11101,7 @@
       "width": 1920,
       "height": 1080,
       "pages": [
+        "docs/libro-soci.mdx",
         "faq/come-si-crea-un-socio.mdx"
       ],
       "caption": "Conferma di approvazione della singola iscrizione.",
@@ -11061,7 +11109,7 @@
       "checkpoint": "confirm-single-registration-approval",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "3cbf31fd5f430373dcd36ed73d409942c06ddb192ed274fac192ec5d337cf67d"
+      "sha256": "a4f425ebf4fc44b698f0af7c137f55375540ba31f666293712150c184edaa5b9"
     },
     {
       "original_path": "images/libro-soci/approvazione/3.png",
@@ -11071,6 +11119,7 @@
       "width": 1920,
       "height": 1080,
       "pages": [
+        "docs/libro-soci.mdx",
         "faq/come-si-crea-un-socio.mdx"
       ],
       "caption": "Stato accettato conservato dopo il ricaricamento.",
@@ -11078,7 +11127,7 @@
       "checkpoint": "accepted-registration-persists-after-reload",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "18b64744760073831652b936b9d70b48d01c820202bd601be65249617edd2dda"
+      "sha256": "6e1682a3012e0bc50916e7d6cffdf2d129108e9ea0feaf6e47a052b66211484c"
     },
     {
       "original_path": "images/libro-soci/approvazione/4.png",
@@ -11088,6 +11137,7 @@
       "width": 1920,
       "height": 1080,
       "pages": [
+        "docs/libro-soci.mdx",
         "faq/come-si-crea-un-socio.mdx"
       ],
       "caption": "Quota ancora da incassare dopo l’approvazione.",
@@ -11095,7 +11145,7 @@
       "checkpoint": "registration-fee-remains-unpaid-after-approval",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "41a27d84055899944fef78d54b539196c8071d5a080005438216f8ad0a6b91ac"
+      "sha256": "d3ec915ff4eaed2097dbd27f90865d0079d4ff6f2f4def4a1631f89b134d04d6"
     },
     {
       "original_path": "images/libro-soci/scheda/1.png",
@@ -11261,12 +11311,12 @@
         "docs/istruttori.mdx",
         "tutorials/come-impostare-gestire-istruttori.mdx"
       ],
-      "caption": "Lista istruttori inizialmente vuota e pulsante Istruttore",
+      "caption": "Empty instructor list and create action.",
       "workflow": "instructors-create-edit-hours",
       "checkpoint": "empty-instructor-list-and-create-action",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "210de409541606911d9eaf7d40013414c776df1a32fbb62d1eb32872924fd52d"
+      "sha256": "be17f0695e1e050b1342830397b27e24767dabad24f37cb87546d12f1520c3dc"
     },
     {
       "original_path": "images/istruttori/creazione-ore/2.png",
@@ -11279,12 +11329,12 @@
         "docs/istruttori.mdx",
         "tutorials/come-impostare-gestire-istruttori.mdx"
       ],
-      "caption": "Nome, cognome, email e dati anagrafici di Paolo Riva",
+      "caption": "Instructor required and personal data.",
       "workflow": "instructors-create-edit-hours",
       "checkpoint": "instructor-required-and-personal-data",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "c165d0ca36b391521c7e45f024a6fe62e920ad8ce387129f9fe4658f8899bd21"
+      "sha256": "e2bbd167c35300d9bb5c088b1f4c21a50cb92e5b27bfe89752c9ac96fdfeba04"
     },
     {
       "original_path": "images/istruttori/creazione-ore/3.png",
@@ -11297,12 +11347,12 @@
         "docs/istruttori.mdx",
         "tutorials/come-impostare-gestire-istruttori.mdx"
       ],
-      "caption": "Tariffa oraria di 15 euro e percentuale predefinita di 20",
+      "caption": "Instructor contract default rates and unlinked account.",
       "workflow": "instructors-create-edit-hours",
       "checkpoint": "instructor-contract-default-rates-and-unlinked-account",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "8144977517e2759ec6cf29eb5a9572c89ff17fbc81dac40300b640a470a52dd6"
+      "sha256": "89fefc4cecbd00c9bcd1f1a753e334dbe94878e73930d6e5a05aa18e9feada13"
     },
     {
       "original_path": "images/istruttori/creazione-ore/4.png",
@@ -11315,12 +11365,12 @@
         "docs/istruttori.mdx",
         "tutorials/come-impostare-gestire-istruttori.mdx"
       ],
-      "caption": "Profilo di Paolo Riva salvato nella lista dopo il ricaricamento",
+      "caption": "Created instructor persists after reload.",
       "workflow": "instructors-create-edit-hours",
       "checkpoint": "created-instructor-persists-after-reload",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "9f6ea8a4ef98349b556296ee75d964a26fa402e8e55f36e0b0cde305ccaff3c7"
+      "sha256": "c8ce526590df821befd1c6752a8bdb7094665ba1103e6f6e4c95af74f2bd6987"
     },
     {
       "original_path": "images/istruttori/creazione-ore/5.png",
@@ -11333,12 +11383,12 @@
         "docs/istruttori.mdx",
         "tutorials/come-impostare-gestire-istruttori.mdx"
       ],
-      "caption": "Finestra Modifica Istruttore con tariffa aggiornata a 18 euro",
+      "caption": "Edit instructor default hourly rate.",
       "workflow": "instructors-create-edit-hours",
       "checkpoint": "edit-instructor-default-hourly-rate",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "e61489e50bc32ac1fac3a7a6e126a93caa0131664e45ad4310441faa6d09e0d6"
+      "sha256": "cf90a92053a31b47d940e339972be37dca84fcaf2e017600ac4f4b596abe5d86"
     },
     {
       "original_path": "images/istruttori/creazione-ore/6.png",
@@ -11351,12 +11401,12 @@
         "docs/istruttori.mdx",
         "tutorials/come-impostare-gestire-istruttori.mdx"
       ],
-      "caption": "Scheda compensi prima della registrazione di ore",
+      "caption": "Instructor compensation card before hours.",
       "workflow": "instructors-create-edit-hours",
       "checkpoint": "instructor-compensation-card-before-hours",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "9dc754a7b7a4e811f8eaa9bdd14cba34cb2b50603c6e096e6b2b57151f14118a"
+      "sha256": "d5666d545510bb038d0f618eade57f8268c97c14f6ae146657d7c45c8c13fa65"
     },
     {
       "original_path": "images/istruttori/creazione-ore/7.png",
@@ -11369,12 +11419,12 @@
         "docs/istruttori.mdx",
         "tutorials/come-impostare-gestire-istruttori.mdx"
       ],
-      "caption": "Data, stato Da Pagare e tipo di compenso Orario",
+      "caption": "Hourly hours default rate unpaid and calculated total.",
       "workflow": "instructors-create-edit-hours",
       "checkpoint": "hourly-hours-default-rate-unpaid-and-calculated-total",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "3d054e687e8fa379f4ee5af41c0e2ba08730694cf93c36be352c43bc7a5c29d1"
+      "sha256": "c4085d3fa199547faf68e5356449a9de2c0b322485ea07266c5bd7132aefda39"
     },
     {
       "original_path": "images/istruttori/creazione-ore/8.png",
@@ -11387,12 +11437,12 @@
         "docs/istruttori.mdx",
         "tutorials/come-impostare-gestire-istruttori.mdx"
       ],
-      "caption": "Ore salvate, stato Da pagare e riepilogo dopo il ricaricamento",
+      "caption": "Saved hours unpaid and summary persist after reload.",
       "workflow": "instructors-create-edit-hours",
       "checkpoint": "saved-hours-unpaid-and-summary-persist-after-reload",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "baa3f84d5ceb2ed4d815144b2111326512fbad0ec0631752999d1995569cbca9"
+      "sha256": "515b08b9741f3da18fa0d1d118f5cbae5b99749a68c7600ea208d0944397a651"
     },
     {
       "original_path": "images/bacheca/personalizzazione/1.png",
@@ -11404,12 +11454,12 @@
       "pages": [
         "docs/bacheca.mdx"
       ],
-      "caption": "Bacheca iniziale dell’Associazione Sportiva Aurora con otto widget",
+      "caption": "Bacheca iniziale con otto riquadri.",
       "workflow": "dashboard-personalize",
       "checkpoint": "default-dashboard-eight-widgets",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "ab299d70044ba23bf72e64a82bd29d3bd4eb79b6dce3ec953ec4d7eb686ea3e1"
+      "sha256": "aa07dcc1c9acdc79496d4b2ad12a664a6ad1cfae710a03e73a42981e6ccf0e4c"
     },
     {
       "original_path": "images/bacheca/personalizzazione/2.png",
@@ -11421,12 +11471,12 @@
       "pages": [
         "docs/bacheca.mdx"
       ],
-      "caption": "Modalità modifica e controlli per larghezza, rimozione e salvataggio",
+      "caption": "Controlli per larghezza, rimozione e salvataggio.",
       "workflow": "dashboard-personalize",
       "checkpoint": "edit-mode-size-remove-and-save-controls",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "98302e594f63ce0621091cc919d1423f0b8ba29a65bfe83de1f66cb3807d1ebd"
+      "sha256": "d41e0504e8349a100b55758bc074f6013904cdead0f51b281f56eb15f8c57962"
     },
     {
       "original_path": "images/bacheca/personalizzazione/3.png",
@@ -11438,12 +11488,12 @@
       "pages": [
         "docs/bacheca.mdx"
       ],
-      "caption": "Finestra Aggiungi widget con Certificati medici scaduti selezionato",
+      "caption": "Scelta del widget Certificati medici scaduti.",
       "workflow": "dashboard-personalize",
       "checkpoint": "add-widget-modal-expired-certificates-selected",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "70be327cec5957c73a9182760b214d3ab102068419cd049e49df99f7b1638fd4"
+      "sha256": "f5806ebb1e30f482c58fa630f9017df51eb1581c742d82ea33202f33b5944be5"
     },
     {
       "original_path": "images/bacheca/personalizzazione/4.png",
@@ -11455,12 +11505,12 @@
       "pages": [
         "docs/bacheca.mdx"
       ],
-      "caption": "Widget Certificati medici scaduti alla larghezza massima",
+      "caption": "Widget aggiunto alla larghezza massima.",
       "workflow": "dashboard-personalize",
       "checkpoint": "added-widget-resized-to-full-width",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "ecf849d254136acf74c7a2f22d9265f0cba8d68828517353652565bedae18494"
+      "sha256": "3d4bbd0be572f1963ee86198b04ad345765cac33ec3a986a884cd8decf340d3e"
     },
     {
       "original_path": "images/bacheca/personalizzazione/5.png",
@@ -11472,12 +11522,12 @@
       "pages": [
         "docs/bacheca.mdx"
       ],
-      "caption": "Widget aggiunto e larghezza conservati dopo il ricaricamento",
+      "caption": "Widget e larghezza conservati dopo la ricarica.",
       "workflow": "dashboard-personalize",
       "checkpoint": "added-widget-and-width-persist-after-reload",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "0c3b205b2fe83f63714156f7d45a81ff6b14183ad8f0005a3fde42b52e4bbcdd"
+      "sha256": "a8415722788d43876c48beff6e34a467ae103d99ab92e1e6fc644a8337962622"
     },
     {
       "original_path": "images/bacheca/personalizzazione/6.png",
@@ -11489,12 +11539,12 @@
       "pages": [
         "docs/bacheca.mdx"
       ],
-      "caption": "Cestino sopra il widget da rimuovere",
+      "caption": "Cestino per rimuovere il riquadro dalla bacheca.",
       "workflow": "dashboard-personalize",
       "checkpoint": "remove-added-widget-with-trash-control",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "9528a5eb2830f8f9a27f0a727ac23a44761be48b2a5536400d9fe62cbe1e4a4f"
+      "sha256": "5d2329dd59f5581748b8a11a449a6d07ef39b923565c690455bdf70f8bc23880"
     },
     {
       "original_path": "images/bacheca/personalizzazione/7.png",
@@ -11506,12 +11556,12 @@
       "pages": [
         "docs/bacheca.mdx"
       ],
-      "caption": "Bacheca dopo la rimozione salvata e il ricaricamento",
+      "caption": "Bacheca dopo la rimozione salvata.",
       "workflow": "dashboard-personalize",
       "checkpoint": "removed-widget-absent-after-reload",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "6c3e2e63fdb4ddc6456dea212a4e51b972c9a630bfc2f83b4d45d873f2089945"
+      "sha256": "8d974243f8eeeb5bd3c95b1c8094b28af9c04dcaadcf33f4cdcc54fbc20bd3ce"
     },
     {
       "original_path": "images/bacheca/personalizzazione/8.png",
@@ -11523,12 +11573,12 @@
       "pages": [
         "docs/bacheca.mdx"
       ],
-      "caption": "Disposizione iniziale ripristinata prima del salvataggio",
+      "caption": "Disposizione iniziale ripristinata prima del salvataggio.",
       "workflow": "dashboard-personalize",
       "checkpoint": "default-restored-before-save",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "443c51a5797961dc8c27ad6b94da1a98f3f68bef87724932453c4dfba1eaf294"
+      "sha256": "eef78ec8dced79f1e0c0984506543397fec85a0a202b1daaa0d2b30b7fefb3ed"
     },
     {
       "original_path": "images/bacheca/personalizzazione/9.png",
@@ -11540,12 +11590,12 @@
       "pages": [
         "docs/bacheca.mdx"
       ],
-      "caption": "Disposizione iniziale conservata dopo il ricaricamento",
+      "caption": "Disposizione iniziale conservata dopo la ricarica.",
       "workflow": "dashboard-personalize",
       "checkpoint": "default-layout-persists-after-reload",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "9caaadbb3c2d1a8a520891e672ec062fb09206f59545420f03563c8b5d84f942"
+      "sha256": "7ccf4404af9a9fe750c30951b3d013fca11cb093b613c834a6aa295ac8161e22"
     },
     {
       "original_path": "images/bacheca/personalizzazione/10.png",
@@ -11557,12 +11607,12 @@
       "pages": [
         "docs/bacheca.mdx"
       ],
-      "caption": "Bacheca del collaboratore con limite di lettura dei messaggi dello staff",
+      "caption": "Bacheca del collaboratore con limite sui messaggi dello staff.",
       "workflow": "dashboard-personalize",
       "checkpoint": "reader-dashboard-staff-permission-limit",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "3e09bc8a91b5365c61d988b980c6aec44dcc6b75fe357aab1d26ccc4a6e8a47e"
+      "sha256": "3967953324154782126707600d007b6531d9baef08b4246855b3754a70d33cdc"
     },
     {
       "original_path": "images/bacheca/personalizzazione/11.png",
@@ -11574,12 +11624,12 @@
       "pages": [
         "docs/bacheca.mdx"
       ],
-      "caption": "Larghezza personale del collaboratore conservata senza cambiare la bacheca del titolare",
+      "caption": "Larghezza personale del collaboratore, distinta da quella del titolare.",
       "workflow": "dashboard-personalize",
       "checkpoint": "reader-personal-width-persists-owner-layout-unchanged",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "30652cd4e29194358f8fcef8c48e041ac7557c7af5beafeb9ea28b66ef4dfece"
+      "sha256": "86e76f387efb355d28398ce5296b9029b49da7831521502bc290696bf3e7c991"
     },
     {
       "original_path": "images/registro-presenze/carnet-manuale/1.png",
@@ -11589,14 +11639,15 @@
       "width": 1920,
       "height": 1080,
       "pages": [
-        "docs/carnet.mdx"
+        "docs/carnet.mdx",
+        "docs/corsi.mdx"
       ],
-      "caption": "course-enrollment-selected-current-member",
+      "caption": "Selezione di Giulia per l’iscrizione al corso.",
       "workflow": "attendance-carnet-manual",
       "checkpoint": "course-enrollment-selected-current-member",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "66b4b724653b6641cef821bf0cdf7d48ce0c1d8c301c3c88c09ef5601aeae7bc"
+      "sha256": "216c2cc823060c7740ce1990be100afa5810b7f777369c6c60f77bf9ad4c59c7"
     },
     {
       "original_path": "images/registro-presenze/carnet-manuale/2.png",
@@ -11606,14 +11657,15 @@
       "width": 1920,
       "height": 1080,
       "pages": [
-        "docs/carnet.mdx"
+        "docs/carnet.mdx",
+        "docs/corsi.mdx"
       ],
-      "caption": "course-enrollment-persists-and-course-fee-created",
+      "caption": "Iscrizione conservata e quota corso creata.",
       "workflow": "attendance-carnet-manual",
       "checkpoint": "course-enrollment-persists-and-course-fee-created",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "c26f42983a77f88dad5a6bd96386bc18d5bbf95cfc02ab81e9d8918c1dfb2a89"
+      "sha256": "2e364afe70f46f226cd6091c2309f9a1a137ea882ee5fb9d5cdec77ee792784f"
     },
     {
       "original_path": "images/registro-presenze/carnet-manuale/3.png",
@@ -11625,12 +11677,12 @@
       "pages": [
         "docs/carnet.mdx"
       ],
-      "caption": "filled-five-lesson-carnet-wizard",
+      "caption": "Nuovo carnet di cinque lezioni.",
       "workflow": "attendance-carnet-manual",
       "checkpoint": "filled-five-lesson-carnet-wizard",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "9ee7777d1f73adaf483065241965674aba179d09bb0466357e0fa83bf89b112f"
+      "sha256": "b089a6d7e9354a3de05d418597c7e5bcc0347131000db1769b1c0cd47dfba215"
     },
     {
       "original_path": "images/registro-presenze/carnet-manuale/4.png",
@@ -11642,12 +11694,12 @@
       "pages": [
         "docs/carnet.mdx"
       ],
-      "caption": "created-public-carnet-without-assignment-payment",
+      "caption": "Carnet creato prima dell’assegnazione.",
       "workflow": "attendance-carnet-manual",
       "checkpoint": "created-public-carnet-without-assignment-payment",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "7f3b2f46d731f37ade24325c6a1cae9f66de99f48c0f54f53b6427b2805fe468"
+      "sha256": "40812c5bd12cf02d05fd63895472c3eb90def6a7670530b68581b3a33f785ec1"
     },
     {
       "original_path": "images/registro-presenze/carnet-manuale/5.png",
@@ -11659,12 +11711,12 @@
       "pages": [
         "docs/carnet.mdx"
       ],
-      "caption": "make-carnet-private-in-details",
+      "caption": "Visibilità privata del carnet salvata.",
       "workflow": "attendance-carnet-manual",
       "checkpoint": "make-carnet-private-in-details",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "e9f4e234acdad0db2af0ea24f7691f3531c7f669d4f1b2fa8a5d9e0af7b67ca3"
+      "sha256": "765c0612c0a74a0d412448bbd641b6f126247bfe0e2c011a0700ea9ba5316806"
     },
     {
       "original_path": "images/registro-presenze/carnet-manuale/6.png",
@@ -11675,14 +11727,15 @@
       "height": 1080,
       "pages": [
         "docs/carnet.mdx",
+        "docs/corsi.mdx",
         "tutorials/come-gestire-registro-presenze-carnet.mdx"
       ],
-      "caption": "select-member-for-new-carnet-assignment",
+      "caption": "Selezione della persona per l’assegnazione.",
       "workflow": "attendance-carnet-manual",
       "checkpoint": "select-member-for-new-carnet-assignment",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "db61d98f77a7e0f73095eafd978f82d113e624c921e768002f8103d0b831e83f"
+      "sha256": "532ea42e4cf48bf021f819fdfc059112ca4d041196e17bb00d18cd4c77c16430"
     },
     {
       "original_path": "images/registro-presenze/carnet-manuale/7.png",
@@ -11692,14 +11745,16 @@
       "width": 1920,
       "height": 1080,
       "pages": [
-        "docs/carnet.mdx"
+        "docs/carnet.mdx",
+        "docs/corsi.mdx",
+        "tutorials/come-gestire-registro-presenze-carnet.mdx"
       ],
-      "caption": "assigned-carnet-five-of-five-with-unpaid-payment",
+      "caption": "Cinque lezioni disponibili e pagamento del carnet in attesa.",
       "workflow": "attendance-carnet-manual",
       "checkpoint": "assigned-carnet-five-of-five-with-unpaid-payment",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "9ad4379925472942f74c176e8c517c5428587897ede944bd8a613fd8771c1cef"
+      "sha256": "7ed7f03bfac428b06dbf4e837581ae640779276231b6509a28dd780ab8850970"
     },
     {
       "original_path": "images/registro-presenze/carnet-manuale/8.png",
@@ -11710,14 +11765,15 @@
       "height": 1080,
       "pages": [
         "docs/carnet.mdx",
+        "docs/corsi.mdx",
         "tutorials/come-gestire-registro-presenze-carnet.mdx"
       ],
-      "caption": "select-enrolled-course-for-carnet",
+      "caption": "Scelta del corso già frequentato.",
       "workflow": "attendance-carnet-manual",
       "checkpoint": "select-enrolled-course-for-carnet",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "b6377c52bac6742b7c90faffd525d3fe0cbe2cad70b74297b988e4b616760c1d"
+      "sha256": "b045232d2a7c37a8822cabcf8bf53af5a606425fc389132d1faf6f184455583c"
     },
     {
       "original_path": "images/registro-presenze/carnet-manuale/9.png",
@@ -11727,14 +11783,16 @@
       "width": 1920,
       "height": 1080,
       "pages": [
-        "docs/carnet.mdx"
+        "docs/carnet.mdx",
+        "docs/corsi.mdx",
+        "tutorials/come-gestire-registro-presenze-carnet.mdx"
       ],
-      "caption": "linked-course-and-five-lessons-persist",
+      "caption": "Collegamento e saldo conservati dopo la riapertura.",
       "workflow": "attendance-carnet-manual",
       "checkpoint": "linked-course-and-five-lessons-persist",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "50472719dfcd53d6d212b6707685e1a9294bbdb0ef81cb29e3ab51e988326363"
+      "sha256": "939bbecd137e9a084a4a6a5a59173b48d4f8a3896c83221d430ebb8d717368c0"
     },
     {
       "original_path": "images/registro-presenze/carnet-manuale/10.png",
@@ -11748,12 +11806,12 @@
         "docs/registro-presenze.mdx",
         "tutorials/come-gestire-registro-presenze-carnet.mdx"
       ],
-      "caption": "approve-carnet-payment-without-pdf-or-email",
+      "caption": "Conferma dell’incasso del carnet.",
       "workflow": "attendance-carnet-manual",
       "checkpoint": "approve-carnet-payment-without-pdf-or-email",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "4f1a66b4d1695a007442547f5acd6f2faa7b32294097798ddfed2907fd0da719"
+      "sha256": "57b794075bcdabaf15e231b8fe92f2001760d9dc346a4d55baeb7df254b517cf"
     },
     {
       "original_path": "images/registro-presenze/carnet-manuale/11.png",
@@ -11763,15 +11821,16 @@
       "width": 1920,
       "height": 1080,
       "pages": [
+        "docs/corsi.mdx",
         "docs/registro-presenze.mdx",
         "tutorials/come-gestire-registro-presenze-carnet.mdx"
       ],
-      "caption": "create-single-lesson-with-date-and-time",
+      "caption": "Lezione singola con nome, data e orario.",
       "workflow": "attendance-carnet-manual",
       "checkpoint": "create-single-lesson-with-date-and-time",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "cacf76b4b5d8804f54a69c24409fc12fb651da8a3ed7b43976978e180e5cc326"
+      "sha256": "2e106e100286cea42d92bcc5e28095e1eff3517dfbcb09a00d51fe6cb2b9d928"
     },
     {
       "original_path": "images/registro-presenze/carnet-manuale/12.png",
@@ -11781,15 +11840,16 @@
       "width": 1920,
       "height": 1080,
       "pages": [
+        "docs/corsi.mdx",
         "docs/registro-presenze.mdx",
         "tutorials/come-gestire-registro-presenze-carnet.mdx"
       ],
-      "caption": "published-single-lesson-in-attendance-register",
+      "caption": "Lezione pubblicata e disponibile nel registro.",
       "workflow": "attendance-carnet-manual",
       "checkpoint": "published-single-lesson-in-attendance-register",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "231f230e371df0dabfd3bf80ab1b37fbb2c469b20ffbdab60f7817730c19f538"
+      "sha256": "2191820986e33737d8204b82f30c1b3b8fea0e1235e722cbba56704bb983ea6a"
     },
     {
       "original_path": "images/registro-presenze/carnet-manuale/13.png",
@@ -11803,12 +11863,12 @@
         "docs/registro-presenze.mdx",
         "tutorials/come-gestire-registro-presenze-carnet.mdx"
       ],
-      "caption": "manual-attendance-saved-for-giulia",
+      "caption": "Presenza di Giulia salvata nella lezione.",
       "workflow": "attendance-carnet-manual",
       "checkpoint": "manual-attendance-saved-for-giulia",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "0f760d17c0d6ba9242a1937a25cd151d978cecfcebb05495b46241369288e502"
+      "sha256": "db412f0cdaeb057e9fe525315a17266e9d767f71891d61f8c0f412788a027e90"
     },
     {
       "original_path": "images/registro-presenze/carnet-manuale/14.png",
@@ -11822,12 +11882,12 @@
         "docs/registro-presenze.mdx",
         "tutorials/come-gestire-registro-presenze-carnet.mdx"
       ],
-      "caption": "carnet-consumed-four-of-five-persists-after-reload",
+      "caption": "Saldo 4/5 conservato dopo la ricarica.",
       "workflow": "attendance-carnet-manual",
       "checkpoint": "carnet-consumed-four-of-five-persists-after-reload",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "a2a11eb211ba2d91f7407d87cb840e8db3ae204b72f7d4b392af8d419d224d63"
+      "sha256": "6fca5ebf3e9cca51ce6612ceafb7a4cb0b0bba19ec0c61ec0d82046a4b86a930"
     },
     {
       "original_path": "images/registro-presenze/carnet-manuale/15.png",
@@ -11840,12 +11900,12 @@
         "docs/registro-presenze.mdx",
         "tutorials/come-gestire-registro-presenze-carnet.mdx"
       ],
-      "caption": "removed-attendance-restores-five-lessons-and-clears-usage",
+      "caption": "Saldo 5/5 dopo la rimozione della presenza.",
       "workflow": "attendance-carnet-manual",
       "checkpoint": "removed-attendance-restores-five-lessons-and-clears-usage",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "c3533160e5884e86bbd27b484cef23c37ab6a39cbc9a64762ff6c1b7b900f70a"
+      "sha256": "656623f9bee2f03c585b1ed14759170d8a04442fe3c3ad060981792b00f8bdbb"
     },
     {
       "original_path": "images/impostazioni/organizzazione-anno/1.png",
@@ -11857,12 +11917,12 @@
       "pages": [
         "docs/impostazioni.mdx"
       ],
-      "caption": "Dati originali dell’organizzazione Aurora e controlli del proprietario",
+      "caption": "Organization info original address and owner controls.",
       "workflow": "organization-settings",
       "checkpoint": "organization-info-original-address-and-owner-controls",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "f2f0059a8952b6daa0016407f317371ba6e12cffa70e02c2aa9fa0c185eea5ee"
+      "sha256": "316bb85f95d8cd27edce36326ba3e946996850f3f0fe243911ce3a7a53da8578"
     },
     {
       "original_path": "images/impostazioni/organizzazione-anno/2.png",
@@ -11874,12 +11934,12 @@
       "pages": [
         "docs/impostazioni.mdx"
       ],
-      "caption": "Indirizzo, sito web, nome abbreviato e sport prima del salvataggio",
+      "caption": "Organization address website abbreviation and sport before save.",
       "workflow": "organization-settings",
       "checkpoint": "organization-address-website-abbreviation-and-sport-before-save",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "0f613251adc0a6279aa446cd46f26f682ac26e4cf2bf740db1017a056773a111"
+      "sha256": "b758bc90dc9d1ebca51c0faea732d0b20936054c616472033cf3cab7c90f3068"
     },
     {
       "original_path": "images/impostazioni/organizzazione-anno/3.png",
@@ -11891,12 +11951,12 @@
       "pages": [
         "docs/impostazioni.mdx"
       ],
-      "caption": "Informazioni dell’organizzazione salvate e presenti dopo il ricaricamento",
+      "caption": "Organization info persists after authenticated reload.",
       "workflow": "organization-settings",
       "checkpoint": "organization-info-persists-after-authenticated-reload",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "74a0137b65c867406ef4dca206793710d239c3269cc9939d42e0974fc392829a"
+      "sha256": "4c64835a3ca4d9623a7ce3422aee1d274b93be2d0952b33cfd15a4422494afab"
     },
     {
       "original_path": "images/impostazioni/organizzazione-anno/4.png",
@@ -11909,12 +11969,12 @@
         "docs/impostazioni.mdx",
         "faq/come-cambiare-anno-sportivo-fiscale.mdx"
       ],
-      "caption": "Anno fiscale e stagione sportiva sono configurati separatamente",
+      "caption": "General settings fiscal presets and separate season.",
       "workflow": "organization-settings",
       "checkpoint": "general-settings-fiscal-presets-and-separate-season",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "6aa91920d5b87dbe8497095e4de9cd984942b5a8e60a57ba6d2e491f4658e50f"
+      "sha256": "0f6b4e852d5a8681cedbeddd66de4ad1bb44d74c407bc6723a190d5129c84c2a"
     },
     {
       "original_path": "images/impostazioni/organizzazione-anno/5.png",
@@ -11925,14 +11985,15 @@
       "height": 1080,
       "pages": [
         "docs/impostazioni.mdx",
-        "faq/come-cambiare-anno-sportivo-fiscale.mdx"
+        "faq/come-cambiare-anno-sportivo-fiscale.mdx",
+        "tutorials/come-creare-moduli-iscrizione-personalizzati.mdx"
       ],
-      "caption": "Periodo fiscale personalizzato con inizio il 15 Ottobre",
+      "caption": "Custom fiscal year starts october fifteen.",
       "workflow": "organization-settings",
       "checkpoint": "custom-fiscal-year-starts-october-fifteen",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "862caae26c0f8e8a77c321030db94475ea6422becf8a60418a9dd6d5d7097955"
+      "sha256": "833e1afcf779a861e6bb5b3fdec1911c12239e367b9a44e45f2b09c0cd510e2f"
     },
     {
       "original_path": "images/impostazioni/organizzazione-anno/6.png",
@@ -11943,14 +12004,15 @@
       "height": 1080,
       "pages": [
         "docs/impostazioni.mdx",
-        "faq/come-cambiare-anno-sportivo-fiscale.mdx"
+        "faq/come-cambiare-anno-sportivo-fiscale.mdx",
+        "tutorials/come-creare-moduli-iscrizione-personalizzati.mdx"
       ],
-      "caption": "Stagione dal 1 Settembre al 30 Giugno e durata delle iscrizioni",
+      "caption": "Short sport season and registration duration before save.",
       "workflow": "organization-settings",
       "checkpoint": "short-sport-season-and-registration-duration-before-save",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "6d28425bda7c3902e2c933957c0f764f4a3d5af82d875fd9e54e22309d63c30a"
+      "sha256": "f17518a693728098d42baa85e5eeab4090255ac24e50f9b1774f6d55c18c54b7"
     },
     {
       "original_path": "images/impostazioni/organizzazione-anno/7.png",
@@ -11961,14 +12023,15 @@
       "height": 1080,
       "pages": [
         "docs/impostazioni.mdx",
-        "faq/come-cambiare-anno-sportivo-fiscale.mdx"
+        "faq/come-cambiare-anno-sportivo-fiscale.mdx",
+        "tutorials/come-creare-moduli-iscrizione-personalizzati.mdx"
       ],
-      "caption": "Periodo fiscale e stagione salvati e riletti dal server",
+      "caption": "Saved fiscal and season settings persist after reload.",
       "workflow": "organization-settings",
       "checkpoint": "saved-fiscal-and-season-settings-persist-after-reload",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "b1aa258774205bfa8491dfa5854ca2b289d00334c79c8cc26f7081b93b1f57c8"
+      "sha256": "fcfcfd5549b271b2df389ef1a552c5561be6d8794f5f8ead43ab38a6a6d7c49b"
     },
     {
       "original_path": "images/impostazioni/organizzazione-anno/8.png",
@@ -11981,12 +12044,12 @@
         "docs/impostazioni.mdx",
         "faq/come-cambiare-anno-sportivo-fiscale.mdx"
       ],
-      "caption": "Collaboratore in sola lettura con controlli delle impostazioni disattivati",
+      "caption": "Reader can consult fiscal season settings with disabled writes.",
       "workflow": "organization-settings",
       "checkpoint": "reader-can-consult-fiscal-season-settings-with-disabled-writes",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "0b8be93eb8f2633d9b4cfa0b57948e466b2d2fc2d9c933119e93e44430d52390"
+      "sha256": "e56ad6521fa48b9a83668421a2a8a60cfec1627b3bc028cb267dbc496f740c79"
     },
     {
       "original_path": "images/collaboratori/permessi/1.png",
@@ -11999,12 +12062,12 @@
         "docs/collaboratori.mdx",
         "faq/come-invitare-collaboratori.mdx"
       ],
-      "caption": "Collaboratore Marco Neri già collegato con accesso Personalizzato",
+      "caption": "Existing accepted custom collaborator and edit action.",
       "workflow": "collaborator-permissions",
       "checkpoint": "existing-accepted-custom-collaborator-and-edit-action",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "cd77339c0c39628f545cd028e007c20636ce25d047fc5e6c2cd47dbd2e3b82f1"
+      "sha256": "dbd72ab94c24d1c6865d04aa80c0aeba9d72692ed8ee0be7497ae53a51106242"
     },
     {
       "original_path": "images/collaboratori/permessi/2.png",
@@ -12013,13 +12076,16 @@
       "verified": false,
       "width": 1920,
       "height": 1080,
-      "pages": [],
-      "caption": "Verifica del passaggio 2",
+      "pages": [
+        "docs/collaboratori.mdx",
+        "faq/come-invitare-collaboratori.mdx"
+      ],
+      "caption": "Custom reader profile shows disabled organization fields.",
       "workflow": "collaborator-permissions",
       "checkpoint": "custom-reader-profile-shows-disabled-organization-fields",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "7df228ab5a204702d5d498fc5420140ff63547e8512eebaf37c6a6907333a6fb"
+      "sha256": "93cb5f2ede3c58589d9bf81c1a2d19e031b5fcd10827aa779cd06132c3142dac"
     },
     {
       "original_path": "images/collaboratori/permessi/3.png",
@@ -12032,12 +12098,12 @@
         "docs/collaboratori.mdx",
         "faq/come-invitare-collaboratori.mdx"
       ],
-      "caption": "Finestra di modifica dei permessi del collaboratore esistente",
+      "caption": "Owner adds only update settings to existing custom permissions.",
       "workflow": "collaborator-permissions",
       "checkpoint": "owner-adds-only-update-settings-to-existing-custom-permissions",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "1031aa18858c15f6306fe0404109e9533e1bdf3847f6307872aa3a299de952b6"
+      "sha256": "4b021873af2bf46372f1932350de22699f9f111a0470142264307b20f9485469"
     },
     {
       "original_path": "images/collaboratori/permessi/4.png",
@@ -12050,12 +12116,12 @@
         "docs/collaboratori.mdx",
         "faq/come-invitare-collaboratori.mdx"
       ],
-      "caption": "Collaboratore autorizzato che prepara la modifica del proprio nome",
+      "caption": "Collaborator current profile after grant and own name edit.",
       "workflow": "collaborator-permissions",
       "checkpoint": "collaborator-current-profile-after-grant-and-own-name-edit",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "3137902bd695a90e744aee03bd400658bb5aac38f219c3933da0b056d0e340ec"
+      "sha256": "523fad07c2ec82f78f1750b5a25b44a99c49ecc1ed8dac6b0da9fa4fc9398301"
     },
     {
       "original_path": "images/collaboratori/permessi/5.png",
@@ -12068,12 +12134,12 @@
         "docs/collaboratori.mdx",
         "faq/come-invitare-collaboratori.mdx"
       ],
-      "caption": "Nome Matteo salvato nel solo account collaboratore",
+      "caption": "Authorized own profile write persists and owner organization is preserved.",
       "workflow": "collaborator-permissions",
       "checkpoint": "authorized-own-profile-write-persists-and-owner-organization-is-preserved",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "cb84350fdd290c01f436e6ead48d22da8f5547f9fbe0fcd1157e66c9796bbc35"
+      "sha256": "c42857098e81dac7d623651f3195248d8372836de7a18fdb8b02506e3ccbba3d"
     },
     {
       "original_path": "images/collaboratori/permessi/6.png",
@@ -12086,12 +12152,12 @@
         "docs/collaboratori.mdx",
         "faq/come-invitare-collaboratori.mdx"
       ],
-      "caption": "Permesso di aggiornamento rimosso e accesso in sola lettura ripristinato",
+      "caption": "Revoked update permission restores reader disabled organization controls.",
       "workflow": "collaborator-permissions",
       "checkpoint": "revoked-update-permission-restores-reader-disabled-organization-controls",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "26fdfac87475b80f9c590e0f257791ce37462c30e94cccd5fbbfaac4096206f7"
+      "sha256": "2b8a2a18ea2b69f0a60e3d42632369a54b8e46010d1496db9617d913d164db8d"
     },
     {
       "original_path": "images/collaboratori/permessi/7.png",
@@ -12104,12 +12170,12 @@
         "docs/collaboratori.mdx",
         "faq/come-invitare-collaboratori.mdx"
       ],
-      "caption": "Modulo di invito preparato con email fittizia e permessi personalizzati",
+      "caption": "Invitation form prepared with fictitious email without dispatch.",
       "workflow": "collaborator-permissions",
       "checkpoint": "invitation-form-prepared-with-fictitious-email-without-dispatch",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "94a9763eb9ba901bd838f245d06e40b9ac77e0c958778b4dd9e259fe696cceba"
+      "sha256": "acd79dd26f793b050320117d97d4c9cc437444fccf81ad02fac7f27fc59e7318"
     },
     {
       "original_path": "images/contabilita/bilancio/1.png",
@@ -12119,16 +12185,16 @@
       "width": 1920,
       "height": 1080,
       "pages": [
-        "docs/contabilita-avanzata.mdx",
         "docs/bilancio.mdx",
+        "docs/contabilita-avanzata.mdx",
         "faq/come-generare-bilancio.mdx"
       ],
-      "caption": "Conti finanziari e saldo attuale della Cassa Aurora",
+      "caption": "Cassa Aurora e i saldi iniziale e attuale",
       "workflow": "accounting-balance-manage",
       "checkpoint": "baseline-cash-account-and-current-balance",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "49f30fa7b6f7411798f527815e5987aeb034dd6559a343a188013829ffa7ffb0"
+      "sha256": "d344245327b59d6570c458d6aea1094da9c51b5618555307c37483be1a0bbc1f"
     },
     {
       "original_path": "images/contabilita/bilancio/2.png",
@@ -12138,16 +12204,16 @@
       "width": 1920,
       "height": 1080,
       "pages": [
-        "docs/contabilita-avanzata.mdx",
         "docs/bilancio.mdx",
+        "docs/contabilita-avanzata.mdx",
         "faq/come-generare-bilancio.mdx"
       ],
-      "caption": "Tipologia Banca nel modulo di creazione",
+      "caption": "Tipo Banca selezionato nel nuovo conto",
       "workflow": "accounting-balance-manage",
       "checkpoint": "new-bank-account-filled-before-save",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "db4c31baa8da0b9adcf6417a2c54327d501c6b2c8d7561a13229c09b16a425b9"
+      "sha256": "787beeb430118a5a2560efda5c5d98718bff9e344022f489850e452e47b6db86"
     },
     {
       "original_path": "images/contabilita/bilancio/3.png",
@@ -12157,16 +12223,16 @@
       "width": 1920,
       "height": 1080,
       "pages": [
-        "docs/contabilita-avanzata.mdx",
         "docs/bilancio.mdx",
+        "docs/contabilita-avanzata.mdx",
         "faq/come-generare-bilancio.mdx"
       ],
-      "caption": "Conto Banca Aurora conservato dopo il ricaricamento",
+      "caption": "Conto bancario salvato e riletto nell’elenco",
       "workflow": "accounting-balance-manage",
       "checkpoint": "bank-account-created-and-persisted-after-reload",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "e8b43d3fa851deed836493e0745577f5ae76c802f61836e2f0c0ef1c57d61d80"
+      "sha256": "39f10da823479e5efd7f50379c607ac5a8d6bda64264549c501dd93e8b23ce17"
     },
     {
       "original_path": "images/contabilita/bilancio/4.png",
@@ -12197,12 +12263,12 @@
         "docs/contabilita-avanzata.mdx",
         "faq/come-generare-bilancio.mdx"
       ],
-      "caption": "Saldo iniziale corretto conservato dopo il ricaricamento",
+      "caption": "Saldo iniziale corretto del conto bancario",
       "workflow": "accounting-balance-manage",
       "checkpoint": "edited-bank-account-persists-after-reload",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "ecd52eaf8ee6b3c6164ac8d3c8216408f9f4c29325388f5b47b8544fba1375cd"
+      "sha256": "57d2d85a2446eff282752b266959077e9b0d4cc60d1e663606d8d74f1bab6a83"
     },
     {
       "original_path": "images/contabilita/bilancio/6.png",
@@ -12212,16 +12278,16 @@
       "width": 1920,
       "height": 1080,
       "pages": [
-        "docs/contabilita-avanzata.mdx",
         "docs/bilancio.mdx",
+        "docs/contabilita-avanzata.mdx",
         "faq/come-generare-bilancio.mdx"
       ],
-      "caption": "Giroconto compilato con origine e destinazione diverse",
+      "caption": "Giroconto con origine e destinazione distinte",
       "workflow": "accounting-balance-manage",
       "checkpoint": "transfer-filled-with-distinct-accounts",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "23f83b204dd596f6e9d440f6980c66a08014e3ed4a4794ca4c307c66f1e7ed54"
+      "sha256": "e16ff9f98f3f24331904fcc431c88af2bb73d9e850f03f42db308de94d82247f"
     },
     {
       "original_path": "images/contabilita/bilancio/7.png",
@@ -12231,8 +12297,8 @@
       "width": 1920,
       "height": 1080,
       "pages": [
-        "docs/contabilita-avanzata.mdx",
         "docs/bilancio.mdx",
+        "docs/contabilita-avanzata.mdx",
         "faq/come-generare-bilancio.mdx"
       ],
       "caption": "Giroconto conservato dopo il ricaricamento",
@@ -12240,7 +12306,7 @@
       "checkpoint": "transfer-persists-after-reload",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "cae782276622722a16478581de96514c4cb706b422f405ec91742d2cbae4c89d"
+      "sha256": "2801bc984433f9a53ce302ec1d5ce06cae8049431e4256ed580fa86308752f61"
     },
     {
       "original_path": "images/contabilita/bilancio/8.png",
@@ -12250,16 +12316,16 @@
       "width": 1920,
       "height": 1080,
       "pages": [
-        "docs/contabilita-avanzata.mdx",
         "docs/bilancio.mdx",
+        "docs/contabilita-avanzata.mdx",
         "faq/come-generare-bilancio.mdx"
       ],
-      "caption": "Elenco conti con i saldi dopo il trasferimento",
+      "caption": "Saldi dopo lo spostamento di 20 euro",
       "workflow": "accounting-balance-manage",
       "checkpoint": "cash-bank-balances-reflect-internal-transfer",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "ac00ccf8e4a1f66f8c29b64db648e6685612eb9efd85bed7388243a9fd7f5280"
+      "sha256": "a277c94e030ae5605f7ebec0caed0547d780c7ec5b67aac53d826e2645bc25ef"
     },
     {
       "original_path": "images/contabilita/bilancio/9.png",
@@ -12395,8 +12461,8 @@
       "width": 1920,
       "height": 1080,
       "pages": [
-        "docs/contabilita-avanzata.mdx",
         "docs/bilancio.mdx",
+        "docs/contabilita-avanzata.mdx",
         "faq/come-generare-bilancio.mdx"
       ],
       "caption": "Conferma per eliminare il giroconto",
@@ -12404,7 +12470,7 @@
       "checkpoint": "transfer-delete-confirmation",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "248f8f1fe6e005578b3cb43c65ed9b344609182b70a4109b3b13a3bd62c09c88"
+      "sha256": "7e6adc4b29328905197e6a31752a4e46a8900b9b749a3669499fdfcc347c4497"
     },
     {
       "original_path": "images/contabilita/bilancio/17.png",
@@ -12414,8 +12480,8 @@
       "width": 1920,
       "height": 1080,
       "pages": [
-        "docs/contabilita-avanzata.mdx",
         "docs/bilancio.mdx",
+        "docs/contabilita-avanzata.mdx",
         "faq/come-generare-bilancio.mdx"
       ],
       "caption": "Giroconto eliminato e saldi ripristinati",
@@ -12423,7 +12489,7 @@
       "checkpoint": "deleted-transfer-absent-and-balances-restored",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "08fa3b85c3e9f9b1c78249dc1d4765fc38d7d586826e1e02a0cbcbbed5cb1908"
+      "sha256": "9c0771997ad207ca750dfb396b2e697d304050e75805384c90085328cbe0a154"
     },
     {
       "original_path": "images/contabilita/bilancio/18.png",
@@ -12690,12 +12756,12 @@
       "pages": [
         "docs/calendario.mdx"
       ],
-      "caption": "Vista mensile del calendario generale",
+      "caption": "Griglia mensile",
       "workflow": "camps-calendar-manage",
       "checkpoint": "general-calendar-month-view-and-navigation",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "7e48a368d8f508f4af44188e78954fd3c396d3d8ca36443c8bd959b36d427520"
+      "sha256": "06320bf4eafad68011b589d3cecaadfb3ac52bff65f605d154289812a35d59a0"
     },
     {
       "original_path": "images/camp-calendario/gestione/16.png",
@@ -12707,12 +12773,12 @@
       "pages": [
         "docs/calendario.mdx"
       ],
-      "caption": "Vista settimanale per fasce orarie",
+      "caption": "Griglia settimanale per orari",
       "workflow": "camps-calendar-manage",
       "checkpoint": "general-calendar-week-view",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "ef15dae0e3e8ad218913b0a1a67bcdc77ddd1a5be9b6acd72a6ffa62d28b3982"
+      "sha256": "4ebab6bcf208518f58c87102ef2bc931a0de2058718499b62fdd83bda6b91b66"
     },
     {
       "original_path": "images/camp-calendario/gestione/17.png",
@@ -12724,12 +12790,12 @@
       "pages": [
         "docs/calendario.mdx"
       ],
-      "caption": "Vista del giorno con le fasce orarie",
+      "caption": "Griglia del giorno",
       "workflow": "camps-calendar-manage",
       "checkpoint": "general-calendar-day-view",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "02683365ce5b145d58b8e0f5f6b8bb284fd5f86f54f4f2228ab3c27838ecec87"
+      "sha256": "df13df3458f78a1fdeef31e7fd4ffda1779bec99af1eb904d4ee82ede9989c74"
     },
     {
       "original_path": "images/camp-calendario/gestione/18.png",
@@ -12741,12 +12807,12 @@
       "pages": [
         "docs/calendario.mdx"
       ],
-      "caption": "Lista settimana del calendario generale",
+      "caption": "Lista della settimana",
       "workflow": "camps-calendar-manage",
       "checkpoint": "general-calendar-week-list-view",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "16316210c38781f8e3630c220ddf20cea067dd5e06191129579ec1fd00b401f9"
+      "sha256": "027bdc12ad3610b151f249c47644fdf95cb843a458596874a832c7d222883a65"
     },
     {
       "original_path": "images/camp-calendario/gestione/19.png",
@@ -16045,7 +16111,8 @@
       "width": 1920,
       "height": 1080,
       "pages": [
-        "faq/come-gestire-i-certificati-medici.mdx"
+        "faq/come-gestire-i-certificati-medici.mdx",
+        "tutorials/come-gestire-certificati-medici.mdx"
       ],
       "caption": "Scheda della persona: Nuovo Certificato prima del caricamento.",
       "workflow": "medical-followups",
@@ -16062,7 +16129,8 @@
       "width": 1920,
       "height": 1080,
       "pages": [
-        "faq/come-gestire-i-certificati-medici.mdx"
+        "faq/come-gestire-i-certificati-medici.mdx",
+        "tutorials/come-gestire-certificati-medici.mdx"
       ],
       "caption": "File allegato immediatamente; data controllata prima di Salva.",
       "workflow": "medical-followups",
@@ -16079,7 +16147,8 @@
       "width": 1920,
       "height": 1080,
       "pages": [
-        "faq/come-gestire-i-certificati-medici.mdx"
+        "faq/come-gestire-i-certificati-medici.mdx",
+        "tutorials/come-gestire-certificati-medici.mdx"
       ],
       "caption": "Allegato e scadenza persistiti dopo Salva e ricaricamento.",
       "workflow": "medical-followups",
@@ -16130,7 +16199,8 @@
       "width": 1920,
       "height": 1080,
       "pages": [
-        "faq/come-gestire-i-certificati-medici.mdx"
+        "faq/come-gestire-i-certificati-medici.mdx",
+        "tutorials/come-gestire-certificati-medici.mdx"
       ],
       "caption": "Modifica scadenza: data salvata proposta, senza campo di caricamento.",
       "workflow": "medical-followups",
@@ -16147,7 +16217,8 @@
       "width": 1920,
       "height": 1080,
       "pages": [
-        "faq/come-gestire-i-certificati-medici.mdx"
+        "faq/come-gestire-i-certificati-medici.mdx",
+        "tutorials/come-gestire-certificati-medici.mdx"
       ],
       "caption": "Data modificata e riaperta, con lo stesso documento allegato.",
       "workflow": "medical-followups",
@@ -16164,7 +16235,8 @@
       "width": 1920,
       "height": 1080,
       "pages": [
-        "faq/come-gestire-i-certificati-medici.mdx"
+        "faq/come-gestire-i-certificati-medici.mdx",
+        "tutorials/come-gestire-certificati-medici.mdx"
       ],
       "caption": "File, scadenza e classificazione agonistica conservati insieme.",
       "workflow": "medical-followups",
@@ -16318,7 +16390,8 @@
       "width": 1920,
       "height": 1080,
       "pages": [
-        "faq/come-gestire-i-certificati-medici.mdx"
+        "faq/come-gestire-i-certificati-medici.mdx",
+        "tutorials/come-gestire-certificati-medici.mdx"
       ],
       "caption": "Certificato non presente: le iscrizioni prive di certificato, senza la persona con documento.",
       "workflow": "medical-followups",
@@ -16370,7 +16443,8 @@
       "width": 1920,
       "height": 1080,
       "pages": [
-        "faq/come-gestire-i-certificati-medici.mdx"
+        "faq/come-gestire-i-certificati-medici.mdx",
+        "tutorials/come-gestire-certificati-medici.mdx"
       ],
       "caption": "Scadenza di oggi: filtro elenco scaduto e widget in scadenza selezionano diversamente.",
       "workflow": "medical-followups",
@@ -16782,7 +16856,8 @@
       "width": 1920,
       "height": 1080,
       "pages": [
-        "docs/corsi.mdx"
+        "docs/corsi.mdx",
+        "docs/registro-presenze.mdx"
       ],
       "caption": "Una lezione della serie: nome e descrizione modificabili, data e orario consultabili.",
       "workflow": "course-calendar-maintenance",
@@ -16799,7 +16874,8 @@
       "width": 1920,
       "height": 1080,
       "pages": [
-        "docs/corsi.mdx"
+        "docs/corsi.mdx",
+        "docs/registro-presenze.mdx"
       ],
       "caption": "La singola lezione modificata conserva identità, orario e gruppo dopo la riapertura.",
       "workflow": "course-calendar-maintenance",
@@ -16816,7 +16892,8 @@
       "width": 1920,
       "height": 1080,
       "pages": [
-        "docs/corsi.mdx"
+        "docs/corsi.mdx",
+        "docs/registro-presenze.mdx"
       ],
       "caption": "Eliminazione della sola lezione: avviso sulle presenze e possibilità di annullare.",
       "workflow": "course-calendar-maintenance",
@@ -16867,7 +16944,8 @@
       "width": 1920,
       "height": 1080,
       "pages": [
-        "docs/corsi.mdx"
+        "docs/corsi.mdx",
+        "docs/registro-presenze.mdx"
       ],
       "caption": "Registro riaperto: rimangono soltanto le tre lezioni della seconda serie.",
       "workflow": "course-calendar-maintenance",
@@ -16884,7 +16962,8 @@
       "width": 1920,
       "height": 1080,
       "pages": [
-        "docs/corsi.mdx"
+        "docs/corsi.mdx",
+        "docs/registro-presenze.mdx"
       ],
       "caption": "Consultazione della lezione senza autorizzazione a salvare o eliminare.",
       "workflow": "course-calendar-maintenance",
@@ -17241,7 +17320,8 @@
       "width": 1920,
       "height": 1080,
       "pages": [
-        "docs/archivio.mdx"
+        "docs/archivio.mdx",
+        "faq/come-archiviare-dati.mdx"
       ],
       "caption": "Iscrizione di Sara Conti selezionata prima di Archivia.",
       "workflow": "archive-maintenance",
@@ -17258,7 +17338,8 @@
       "width": 1920,
       "height": 1080,
       "pages": [
-        "docs/archivio.mdx"
+        "docs/archivio.mdx",
+        "faq/come-archiviare-dati.mdx"
       ],
       "caption": "Conferma Archivia selezionati e possibilità di Annulla.",
       "workflow": "archive-maintenance",
@@ -17292,7 +17373,8 @@
       "width": 1920,
       "height": 1080,
       "pages": [
-        "docs/archivio.mdx"
+        "docs/archivio.mdx",
+        "faq/come-archiviare-dati.mdx"
       ],
       "caption": "Sara presente nell’Archivio delle iscrizioni dopo il ricaricamento.",
       "workflow": "archive-maintenance",
@@ -17309,7 +17391,8 @@
       "width": 1920,
       "height": 1080,
       "pages": [
-        "docs/archivio.mdx"
+        "docs/archivio.mdx",
+        "faq/come-archiviare-dati.mdx"
       ],
       "caption": "Ricerca Sara nell’Archivio delle iscrizioni.",
       "workflow": "archive-maintenance",
@@ -17326,7 +17409,8 @@
       "width": 1920,
       "height": 1080,
       "pages": [
-        "docs/archivio.mdx"
+        "docs/archivio.mdx",
+        "faq/come-archiviare-dati.mdx"
       ],
       "caption": "Quota non saldata di Sara nel distinto Archivio dei pagamenti.",
       "workflow": "archive-maintenance",
@@ -17776,7 +17860,8 @@
       "width": 1920,
       "height": 1080,
       "pages": [
-        "docs/libro-soci.mdx"
+        "docs/libro-soci.mdx",
+        "tutorials/come-creare-moduli-iscrizione-personalizzati.mdx"
       ],
       "caption": "Due quote associative con nomi e importi distinti prima del salvataggio.",
       "workflow": "members-fee-plan-selection",
@@ -17793,7 +17878,8 @@
       "width": 1920,
       "height": 1080,
       "pages": [
-        "docs/libro-soci.mdx"
+        "docs/libro-soci.mdx",
+        "tutorials/come-creare-moduli-iscrizione-personalizzati.mdx"
       ],
       "caption": "Piani conservati nel modulo dopo il ricaricamento.",
       "workflow": "members-fee-plan-selection",
@@ -17810,7 +17896,8 @@
       "width": 1920,
       "height": 1080,
       "pages": [
-        "docs/libro-soci.mdx"
+        "docs/libro-soci.mdx",
+        "tutorials/come-creare-moduli-iscrizione-personalizzati.mdx"
       ],
       "caption": "Quota Sostenitore scelta nel primo passaggio della creazione.",
       "workflow": "members-fee-plan-selection",
@@ -17861,7 +17948,8 @@
       "width": 1920,
       "height": 1080,
       "pages": [
-        "docs/libro-soci.mdx"
+        "docs/libro-soci.mdx",
+        "tutorials/come-creare-moduli-iscrizione-personalizzati.mdx"
       ],
       "caption": "Pagamento reale di 45 euro collegato alla nuova iscrizione.",
       "workflow": "members-fee-plan-selection",
@@ -19164,6 +19252,7 @@
       "width": 1920,
       "height": 1080,
       "pages": [
+        "faq/come-condividere-il-link-iscrizioni.mdx",
         "tutorials/come-creare-moduli-iscrizione-personalizzati.mdx"
       ],
       "caption": "Link corrente e QR dimostrativi mascherati nel riquadro Condividi link iscrizioni.",
@@ -19171,7 +19260,7 @@
       "checkpoint": "signup-current-module-share-dialog",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "4a715a72e173a19098575232463655d2b56659fa5e0dd32aad38f329f9e15f18"
+      "sha256": "1b75f1b13795d4d3918a4cee820bee14442270a9d60288100826ff5d6a166403"
     },
     {
       "original_path": "images/impostazioni/moduli-checkout-reali/14.png",
@@ -19181,6 +19270,7 @@
       "width": 1920,
       "height": 1080,
       "pages": [
+        "faq/come-condividere-il-link-iscrizioni.mdx",
         "tutorials/come-creare-moduli-iscrizione-personalizzati.mdx"
       ],
       "caption": "Apri mostra il modulo reale Aurora con la sola tipologia Socio e Tesserato.",
@@ -19188,7 +19278,7 @@
       "checkpoint": "signup-current-module-real-preview",
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
-      "sha256": "95d7bb70395e36672d84a88c7f743717e74c3dd28d8efb02dc42419a3ca04b56"
+      "sha256": "f71543bb8d2511764d1bbcda5926513b9d1e3eae9ed22bc71ae298fe84afb7dc"
     },
     {
       "original_path": "images/impostazioni/moduli-checkout-reali/15.png",
@@ -19268,6 +19358,7 @@
       "height": 1080,
       "pages": [
         "docs/impostazioni.mdx",
+        "faq/come-condividere-il-link-iscrizioni.mdx",
         "tutorials/come-creare-moduli-iscrizione-personalizzati.mdx"
       ],
       "caption": "Dati dimostrativi di Elisa Ferri e Taglia maglietta M nel modulo autonomo.",
@@ -19320,7 +19411,8 @@
       "width": 1920,
       "height": 1080,
       "pages": [
-        "docs/impostazioni.mdx"
+        "docs/impostazioni.mdx",
+        "faq/come-condividere-il-link-iscrizioni.mdx"
       ],
       "caption": "Tratto dimostrativo inserito nel canvas prima di proseguire.",
       "workflow": "settings-signup-checkout",
@@ -19356,6 +19448,7 @@
       "height": 1080,
       "pages": [
         "docs/impostazioni.mdx",
+        "faq/come-condividere-il-link-iscrizioni.mdx",
         "tutorials/come-creare-moduli-iscrizione-personalizzati.mdx"
       ],
       "caption": "Elisa Ferri salvata come richiesta firmata In attesa, dopo la ricarica.",
@@ -19874,15 +19967,1408 @@
       "planned_from": "docs/manuale/screenshot-plan.json",
       "placement": "assigned by the workflow authoring recipe",
       "sha256": "651fb96a2ccd3dcdc6c89c565b43e2707a97c0acfc23bd80dd07f0e372ecc9e4"
+    },
+    {
+      "original_path": "images/bacheca/riordinamento/1.png",
+      "placeholder_path": "images/bacheca/riordinamento/1.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/bacheca.mdx"
+      ],
+      "caption": "Bacheca in modifica prima del trascinamento.",
+      "workflow": "dashboard-reorder",
+      "checkpoint": "dashboard-reorder-edit-before-drag",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "7be2262073837e04307129996a18fa4ef8718aa36b108e02d6cfcb30d8f08fc6"
+    },
+    {
+      "original_path": "images/bacheca/riordinamento/2.png",
+      "placeholder_path": "images/bacheca/riordinamento/2.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/bacheca.mdx"
+      ],
+      "caption": "Ordine modificato prima del salvataggio.",
+      "workflow": "dashboard-reorder",
+      "checkpoint": "dashboard-reorder-drag-before-save",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "69a9b9cccc976f16e13f43781aca616151ee3c62d8af7b7e4640c42a72087bcd"
+    },
+    {
+      "original_path": "images/bacheca/riordinamento/3.png",
+      "placeholder_path": "images/bacheca/riordinamento/3.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/bacheca.mdx"
+      ],
+      "caption": "Nuovo ordine conservato dopo la ricarica.",
+      "workflow": "dashboard-reorder",
+      "checkpoint": "dashboard-reorder-order-persists-after-reload",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "76e5a79c0198f2ab32b6f525f6ade098b26c5284e04d0fe32ff0806bed3a6f39"
+    },
+    {
+      "original_path": "images/collaboratori/permessi/8.png",
+      "placeholder_path": "images/collaboratori/permessi/8.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/collaboratori.mdx",
+        "faq/come-invitare-collaboratori.mdx"
+      ],
+      "caption": "Full access role persists and allows own profile write.",
+      "workflow": "collaborator-permissions",
+      "checkpoint": "full-access-role-persists-and-allows-own-profile-write",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "9b2a02179b13a2cd40b9a473586724e126b8cb9ae70e1ea283c4e1349f3321b4"
+    },
+    {
+      "original_path": "images/collaboratori/permessi/9.png",
+      "placeholder_path": "images/collaboratori/permessi/9.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "docs/collaboratori.mdx"
+      ],
+      "caption": "Full access returned to original custom permissions.",
+      "workflow": "collaborator-permissions",
+      "checkpoint": "full-access-returned-to-original-custom-permissions",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "296c313f679e8449c0a2efc676c405e9312598c32be42400f9b2910c275c3aea"
+    },
+    {
+      "original_path": "images/impostazioni/causale-iscrizioni/1.png",
+      "placeholder_path": "images/impostazioni/causale-iscrizioni/1.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "tutorials/come-creare-moduli-iscrizione-personalizzati.mdx"
+      ],
+      "caption": "Default registration category before edit.",
+      "workflow": "registration-default-category",
+      "checkpoint": "default-registration-category-before-edit",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "0f6d8af7fd528ce6a3359e0da3ac34538be71bbdbdf297b4a204cbd764523cb5"
+    },
+    {
+      "original_path": "images/impostazioni/causale-iscrizioni/2.png",
+      "placeholder_path": "images/impostazioni/causale-iscrizioni/2.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "tutorials/come-creare-moduli-iscrizione-personalizzati.mdx"
+      ],
+      "caption": "Default registration category before save.",
+      "workflow": "registration-default-category",
+      "checkpoint": "default-registration-category-before-save",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "b2d03f63752a6c1c988919483533000681a09acad257901baa36b217a58cc4fa"
+    },
+    {
+      "original_path": "images/impostazioni/causale-iscrizioni/3.png",
+      "placeholder_path": "images/impostazioni/causale-iscrizioni/3.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "tutorials/come-creare-moduli-iscrizione-personalizzati.mdx"
+      ],
+      "caption": "Default registration category persists after reload.",
+      "workflow": "registration-default-category",
+      "checkpoint": "default-registration-category-persists-after-reload",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "8e253df5bf0cc9af99ad628e252a04f2717c863b35c954328396cb230cea8c2d"
+    },
+    {
+      "original_path": "images/impostazioni/causale-iscrizioni/4.png",
+      "placeholder_path": "images/impostazioni/causale-iscrizioni/4.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "tutorials/come-creare-moduli-iscrizione-personalizzati.mdx"
+      ],
+      "caption": "Registration using default category summary.",
+      "workflow": "registration-default-category",
+      "checkpoint": "registration-using-default-category-summary",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "c46da4a221147b49181773740ef49a53c129160fc7f5e55cce7ae454d4867c1f"
+    },
+    {
+      "original_path": "images/impostazioni/causale-iscrizioni/5.png",
+      "placeholder_path": "images/impostazioni/causale-iscrizioni/5.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "tutorials/come-creare-moduli-iscrizione-personalizzati.mdx"
+      ],
+      "caption": "Registration payment with saved default category.",
+      "workflow": "registration-default-category",
+      "checkpoint": "registration-payment-with-saved-default-category",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "4c991c0baf08b919be45b7bc1131a182a57de0e2397755f5bcbc84dcb802dc27"
+    },
+    {
+      "original_path": "images/archivio/modelli-reali/1.png",
+      "placeholder_path": "images/archivio/modelli-reali/1.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "tutorials/come-creare-moduli-iscrizione-personalizzati.mdx"
+      ],
+      "caption": "Templates list before create.",
+      "workflow": "organization-document-templates",
+      "checkpoint": "templates-list-before-create",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "67d1d600b43087e188326383751efdb813d812a377f2e39a1528110db7f26325"
+    },
+    {
+      "original_path": "images/archivio/modelli-reali/2.png",
+      "placeholder_path": "images/archivio/modelli-reali/2.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "tutorials/come-creare-moduli-iscrizione-personalizzati.mdx"
+      ],
+      "caption": "Template required fields validation.",
+      "workflow": "organization-document-templates",
+      "checkpoint": "template-required-fields-validation",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "dfa635d571b3f6c5021242b6d4d5eb36f9099215e43f66e9f22f968d6cdc40e6"
+    },
+    {
+      "original_path": "images/archivio/modelli-reali/3.png",
+      "placeholder_path": "images/archivio/modelli-reali/3.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "tutorials/come-creare-moduli-iscrizione-personalizzati.mdx"
+      ],
+      "caption": "Template name layout and dynamic person before save.",
+      "workflow": "organization-document-templates",
+      "checkpoint": "template-name-layout-and-dynamic-person-before-save",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "78c04c5103d06b831119f2e07dbc76553a56eb9ab515088b51eb351ecff30ab4"
+    },
+    {
+      "original_path": "images/archivio/modelli-reali/4.png",
+      "placeholder_path": "images/archivio/modelli-reali/4.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "tutorials/come-creare-moduli-iscrizione-personalizzati.mdx"
+      ],
+      "caption": "Template created after reload.",
+      "workflow": "organization-document-templates",
+      "checkpoint": "template-created-after-reload",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "38c9cc00b09d41d005a37c90993ac5cc403d3fde338c3752236ccd3190cf4c4a"
+    },
+    {
+      "original_path": "images/archivio/modelli-reali/5.png",
+      "placeholder_path": "images/archivio/modelli-reali/5.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "tutorials/come-creare-moduli-iscrizione-personalizzati.mdx"
+      ],
+      "caption": "Template reopened before generation.",
+      "workflow": "organization-document-templates",
+      "checkpoint": "template-reopened-before-generation",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "af3852ca9ddd15d04ff9444e9963ff7504f59e3099e2e9e5719dabf3490433b9"
+    },
+    {
+      "original_path": "images/archivio/modelli-reali/6.png",
+      "placeholder_path": "images/archivio/modelli-reali/6.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "tutorials/come-creare-moduli-iscrizione-personalizzati.mdx"
+      ],
+      "caption": "Member documents before generation.",
+      "workflow": "organization-document-templates",
+      "checkpoint": "member-documents-before-generation",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "100f60cc35cddba1342dd5b08b352b24c85f30c0bc1ccf0368fe1262e9e06e8a"
+    },
+    {
+      "original_path": "images/archivio/modelli-reali/7.png",
+      "placeholder_path": "images/archivio/modelli-reali/7.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "tutorials/come-creare-moduli-iscrizione-personalizzati.mdx"
+      ],
+      "caption": "Member template selected before generation.",
+      "workflow": "organization-document-templates",
+      "checkpoint": "member-template-selected-before-generation",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "790fc98ba20297f95971e23199b5b35748396a7d4942e6bf8104fee3d4662210"
+    },
+    {
+      "original_path": "images/archivio/modelli-reali/8.png",
+      "placeholder_path": "images/archivio/modelli-reali/8.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "tutorials/come-creare-moduli-iscrizione-personalizzati.mdx"
+      ],
+      "caption": "Generated document persists in member files.",
+      "workflow": "organization-document-templates",
+      "checkpoint": "generated-document-persists-in-member-files",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "7c33a3b5a3a56a66385c057eaeafad8f16ac61e080767dd52e8ef85215fc3b2f"
+    },
+    {
+      "original_path": "images/archivio/modelli-reali/9.png",
+      "placeholder_path": "images/archivio/modelli-reali/9.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "tutorials/come-creare-moduli-iscrizione-personalizzati.mdx"
+      ],
+      "caption": "Generated document real renderer with person.",
+      "workflow": "organization-document-templates",
+      "checkpoint": "generated-document-real-renderer-with-person",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "b628fd8d9bedf3f048454f5c5fe3355ccef14c391127aab3987e25059f86d165"
+    },
+    {
+      "original_path": "images/archivio/modelli-reali/10.png",
+      "placeholder_path": "images/archivio/modelli-reali/10.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "tutorials/come-creare-moduli-iscrizione-personalizzati.mdx"
+      ],
+      "caption": "Generated document after download.",
+      "workflow": "organization-document-templates",
+      "checkpoint": "generated-document-after-download",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "f23f814d5614482c493f906b6930ed9efaee7b1c0384dc46f3c8be611f61374e"
+    },
+    {
+      "original_path": "images/archivio/modelli-reali/11.png",
+      "placeholder_path": "images/archivio/modelli-reali/11.placeholder.svg",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "pages": [
+        "tutorials/come-creare-moduli-iscrizione-personalizzati.mdx"
+      ],
+      "caption": "Reader document generation action absent.",
+      "workflow": "organization-document-templates",
+      "checkpoint": "reader-document-generation-action-absent",
+      "planned_from": "docs/manuale/screenshot-plan.json",
+      "placement": "assigned by the workflow authoring recipe",
+      "sha256": "2103e15cfb918f99e349e093fa3e93f349b4adf6450a943fac038ffeb37981cd"
+    },
+    {
+      "original_path": "images/libro-soci/quote-multiple/multiple-fees-module-before-save.png",
+      "placeholder_path": "images/libro-soci/quote-multiple/multiple-fees-module-before-save.placeholder.svg",
+      "pages": [
+        "tutorials/come-creare-moduli-iscrizione-personalizzati.mdx"
+      ],
+      "planned_from": "authored-checkpoint-alias",
+      "workflow": "members-fee-plan-selection",
+      "checkpoint": "multiple-fees-module-before-save",
+      "capture_target": "images/libro-soci/quote-multiple/1.png",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "51ca0761732a8298beb679f7038ca85a3252a53a455eea55bdf242bd4d2c9e81",
+      "caption": "Due quote associative con nomi e importi distinti prima del salvataggio."
+    },
+    {
+      "original_path": "images/libro-soci/quote-multiple/multiple-fees-module-persisted.png",
+      "placeholder_path": "images/libro-soci/quote-multiple/multiple-fees-module-persisted.placeholder.svg",
+      "pages": [
+        "tutorials/come-creare-moduli-iscrizione-personalizzati.mdx"
+      ],
+      "planned_from": "authored-checkpoint-alias",
+      "workflow": "members-fee-plan-selection",
+      "checkpoint": "multiple-fees-module-persisted",
+      "capture_target": "images/libro-soci/quote-multiple/2.png",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "8c6bb04da51b10f1d142d7fa4ecb6fa1fc2d6e51139fadb5fd1b7493de3b555b",
+      "caption": "Piani conservati nel modulo dopo il ricaricamento."
+    },
+    {
+      "original_path": "images/libro-soci/quote-multiple/multiple-fees-selected-in-wizard.png",
+      "placeholder_path": "images/libro-soci/quote-multiple/multiple-fees-selected-in-wizard.placeholder.svg",
+      "pages": [
+        "tutorials/come-creare-moduli-iscrizione-personalizzati.mdx"
+      ],
+      "planned_from": "authored-checkpoint-alias",
+      "workflow": "members-fee-plan-selection",
+      "checkpoint": "multiple-fees-selected-in-wizard",
+      "capture_target": "images/libro-soci/quote-multiple/3.png",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "ef81704203b1c13ac7eecbf244fed832644be2beb33e513c8443c2c89c0febb8",
+      "caption": "Quota Sostenitore scelta nel primo passaggio della creazione."
+    },
+    {
+      "original_path": "images/libro-soci/quote-multiple/multiple-fees-unpaid-payment.png",
+      "placeholder_path": "images/libro-soci/quote-multiple/multiple-fees-unpaid-payment.placeholder.svg",
+      "pages": [
+        "tutorials/come-creare-moduli-iscrizione-personalizzati.mdx"
+      ],
+      "planned_from": "authored-checkpoint-alias",
+      "workflow": "members-fee-plan-selection",
+      "checkpoint": "multiple-fees-unpaid-payment",
+      "capture_target": "images/libro-soci/quote-multiple/6.png",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "bd3cd4ff8ee4928cb370fbf0d7e33f205402325de3f458a4bfd7741a245e2403",
+      "caption": "Pagamento reale di 45 euro collegato alla nuova iscrizione."
+    },
+    {
+      "original_path": "images/impostazioni/moduli-checkout-reali/signup-current-module-share-dialog.png",
+      "placeholder_path": "images/impostazioni/moduli-checkout-reali/signup-current-module-share-dialog.placeholder.svg",
+      "pages": [
+        "faq/come-condividere-il-link-iscrizioni.mdx"
+      ],
+      "planned_from": "authored-checkpoint-alias",
+      "workflow": "settings-signup-checkout",
+      "checkpoint": "signup-current-module-share-dialog",
+      "capture_target": "images/impostazioni/moduli-checkout-reali/13.png",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "e74034e72f9f31708b38dc9398fa7e9328b86ef1c07f1a34e593399908fdb08c",
+      "caption": "Link corrente e QR dimostrativi mascherati nel riquadro Condividi link iscrizioni."
+    },
+    {
+      "original_path": "images/impostazioni/moduli-checkout-reali/signup-current-module-real-preview.png",
+      "placeholder_path": "images/impostazioni/moduli-checkout-reali/signup-current-module-real-preview.placeholder.svg",
+      "pages": [
+        "faq/come-condividere-il-link-iscrizioni.mdx"
+      ],
+      "planned_from": "authored-checkpoint-alias",
+      "workflow": "settings-signup-checkout",
+      "checkpoint": "signup-current-module-real-preview",
+      "capture_target": "images/impostazioni/moduli-checkout-reali/14.png",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "7e2adcd39226b5811f438926ae21de21ca24e427f7dbafc4295fe81b97e3f738",
+      "caption": "Apri mostra il modulo reale Aurora con la sola tipologia Socio e Tesserato."
+    },
+    {
+      "original_path": "images/impostazioni/moduli-checkout-reali/public-signup-valid-profile-and-custom-field.png",
+      "placeholder_path": "images/impostazioni/moduli-checkout-reali/public-signup-valid-profile-and-custom-field.placeholder.svg",
+      "pages": [
+        "faq/come-condividere-il-link-iscrizioni.mdx"
+      ],
+      "planned_from": "authored-checkpoint-alias",
+      "workflow": "settings-signup-checkout",
+      "checkpoint": "public-signup-valid-profile-and-custom-field",
+      "capture_target": "images/impostazioni/moduli-checkout-reali/19.png",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "cf6103774d67c9a1d2bc45b9ff334d4bc408298a314c3c868a2c26072fa3495f",
+      "caption": "Dati dimostrativi di Elisa Ferri e Taglia maglietta M nel modulo autonomo."
+    },
+    {
+      "original_path": "images/impostazioni/moduli-checkout-reali/public-signup-fictional-signature.png",
+      "placeholder_path": "images/impostazioni/moduli-checkout-reali/public-signup-fictional-signature.placeholder.svg",
+      "pages": [
+        "faq/come-condividere-il-link-iscrizioni.mdx"
+      ],
+      "planned_from": "authored-checkpoint-alias",
+      "workflow": "settings-signup-checkout",
+      "checkpoint": "public-signup-fictional-signature",
+      "capture_target": "images/impostazioni/moduli-checkout-reali/22.png",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "aebe9d0d54165428bf824b6b65353bc69fb71674321d81a459c5ac08057dc923",
+      "caption": "Tratto dimostrativo inserito nel canvas prima di proseguire."
+    },
+    {
+      "original_path": "images/impostazioni/moduli-checkout-reali/public-signup-pending-request-after-reload.png",
+      "placeholder_path": "images/impostazioni/moduli-checkout-reali/public-signup-pending-request-after-reload.placeholder.svg",
+      "pages": [
+        "faq/come-condividere-il-link-iscrizioni.mdx"
+      ],
+      "planned_from": "authored-checkpoint-alias",
+      "workflow": "settings-signup-checkout",
+      "checkpoint": "public-signup-pending-request-after-reload",
+      "capture_target": "images/impostazioni/moduli-checkout-reali/24.png",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "77a9ca6c15be0bb0eb1ac5900ef1cd7f584067087419b5160b4447a1c9e50ff1",
+      "caption": "Elisa Ferri salvata come richiesta firmata In attesa, dopo la ricarica."
+    },
+    {
+      "original_path": "images/certificati/controlli-reali/profile-medical-empty-before-upload.png",
+      "placeholder_path": "images/certificati/controlli-reali/profile-medical-empty-before-upload.placeholder.svg",
+      "pages": [
+        "tutorials/come-gestire-certificati-medici.mdx"
+      ],
+      "planned_from": "authored-checkpoint-alias",
+      "workflow": "medical-followups",
+      "checkpoint": "profile-medical-empty-before-upload",
+      "capture_target": "images/certificati/controlli-reali/7.png",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "1ee8ef82ed8e686cd7e5dc4cda013ac3ddb40eb4dd9ea1e805c349330c72844d",
+      "caption": "Scheda della persona: Nuovo Certificato prima del caricamento."
+    },
+    {
+      "original_path": "images/certificati/controlli-reali/profile-upload-confirmation-before-save.png",
+      "placeholder_path": "images/certificati/controlli-reali/profile-upload-confirmation-before-save.placeholder.svg",
+      "pages": [
+        "tutorials/come-gestire-certificati-medici.mdx"
+      ],
+      "planned_from": "authored-checkpoint-alias",
+      "workflow": "medical-followups",
+      "checkpoint": "profile-upload-confirmation-before-save",
+      "capture_target": "images/certificati/controlli-reali/8.png",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "f549ca4307bc3a2b801697e08a07bdfc49aee280f328bfe3a8fe8974bce24bdf",
+      "caption": "File allegato immediatamente; data controllata prima di Salva."
+    },
+    {
+      "original_path": "images/certificati/controlli-reali/profile-saved-certificate-after-reload.png",
+      "placeholder_path": "images/certificati/controlli-reali/profile-saved-certificate-after-reload.placeholder.svg",
+      "pages": [
+        "tutorials/come-gestire-certificati-medici.mdx"
+      ],
+      "planned_from": "authored-checkpoint-alias",
+      "workflow": "medical-followups",
+      "checkpoint": "profile-saved-certificate-after-reload",
+      "capture_target": "images/certificati/controlli-reali/9.png",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "d2fc2ffc78425433c4bd1636cf8d25bf4a902b704bce74a76af6465aef92546a",
+      "caption": "Allegato e scadenza persistiti dopo Salva e ricaricamento."
+    },
+    {
+      "original_path": "images/certificati/controlli-reali/date-only-editor-preserves-existing-date.png",
+      "placeholder_path": "images/certificati/controlli-reali/date-only-editor-preserves-existing-date.placeholder.svg",
+      "pages": [
+        "tutorials/come-gestire-certificati-medici.mdx"
+      ],
+      "planned_from": "authored-checkpoint-alias",
+      "workflow": "medical-followups",
+      "checkpoint": "date-only-editor-preserves-existing-date",
+      "capture_target": "images/certificati/controlli-reali/12.png",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "100b0a4c8e64d43adeff81211c5a00e14836d33e77e28e787e68b641dfb03567",
+      "caption": "Modifica scadenza: data salvata proposta, senza campo di caricamento."
+    },
+    {
+      "original_path": "images/certificati/controlli-reali/date-only-saved-same-document.png",
+      "placeholder_path": "images/certificati/controlli-reali/date-only-saved-same-document.placeholder.svg",
+      "pages": [
+        "tutorials/come-gestire-certificati-medici.mdx"
+      ],
+      "planned_from": "authored-checkpoint-alias",
+      "workflow": "medical-followups",
+      "checkpoint": "date-only-saved-same-document",
+      "capture_target": "images/certificati/controlli-reali/13.png",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "cb3269059879dd8c99e3f0253724c7aab222ceb19f5e2f6a67acad1b152fa416",
+      "caption": "Data modificata e riaperta, con lo stesso documento allegato."
+    },
+    {
+      "original_path": "images/certificati/controlli-reali/missing-certificate-filter-results.png",
+      "placeholder_path": "images/certificati/controlli-reali/missing-certificate-filter-results.placeholder.svg",
+      "pages": [
+        "tutorials/come-gestire-certificati-medici.mdx"
+      ],
+      "planned_from": "authored-checkpoint-alias",
+      "workflow": "medical-followups",
+      "checkpoint": "missing-certificate-filter-results",
+      "capture_target": "images/certificati/controlli-reali/23.png",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "96b2fa749f52ad80d6252fc2afe2ea5117d58c304dda73f8b1b45d391fb8964e",
+      "caption": "Certificato non presente: le iscrizioni prive di certificato, senza la persona con documento."
+    },
+    {
+      "original_path": "images/certificati/controlli-reali/medical-dashboard-both-widgets-saved.png",
+      "placeholder_path": "images/certificati/controlli-reali/medical-dashboard-both-widgets-saved.placeholder.svg",
+      "pages": [
+        "tutorials/come-gestire-certificati-medici.mdx"
+      ],
+      "planned_from": "authored-checkpoint-alias",
+      "workflow": "medical-followups",
+      "checkpoint": "medical-dashboard-both-widgets-saved",
+      "capture_target": "images/certificati/controlli-reali/21.png",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "2c4bbca5076e84cdfe3861c10a43657aeecc9f9227f0c0a1908c825cce114fc2",
+      "caption": "Bacheca salvata con entrambi i gruppi sanitari."
+    },
+    {
+      "original_path": "images/certificati/controlli-reali/today-list-versus-widget-boundary.png",
+      "placeholder_path": "images/certificati/controlli-reali/today-list-versus-widget-boundary.placeholder.svg",
+      "pages": [
+        "tutorials/come-gestire-certificati-medici.mdx"
+      ],
+      "planned_from": "authored-checkpoint-alias",
+      "workflow": "medical-followups",
+      "checkpoint": "today-list-versus-widget-boundary",
+      "capture_target": "images/certificati/controlli-reali/26.png",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "338c379d28fa876d5a3740c13d8bd95e0b725b9e8fbfe301f62fa4982716749b",
+      "caption": "Scadenza di oggi: filtro elenco scaduto e widget in scadenza selezionano diversamente."
+    },
+    {
+      "original_path": "images/certificati/controlli-reali/competitive-classification-after-reload.png",
+      "placeholder_path": "images/certificati/controlli-reali/competitive-classification-after-reload.placeholder.svg",
+      "pages": [
+        "tutorials/come-gestire-certificati-medici.mdx"
+      ],
+      "planned_from": "authored-checkpoint-alias",
+      "workflow": "medical-followups",
+      "checkpoint": "competitive-classification-after-reload",
+      "capture_target": "images/certificati/controlli-reali/14.png",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "53cef6711d039a0f420f8e5f0c8343697ff363b1aea2a478fc3f8eb273447637",
+      "caption": "File, scadenza e classificazione agonistica conservati insieme."
+    },
+    {
+      "original_path": "images/archivio/manutenzione/archived-member-and-restore-action-after-reload.png",
+      "placeholder_path": "images/archivio/manutenzione/archived-member-and-restore-action-after-reload.placeholder.svg",
+      "pages": [
+        "docs/archivio.mdx"
+      ],
+      "planned_from": "authored-checkpoint-alias",
+      "workflow": "archive-maintenance",
+      "checkpoint": "archived-member-and-restore-action-after-reload",
+      "capture_target": "images/archivio/manutenzione/4.png",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "73782918dc9917291e29b272fc12820fb4ad63cffca0de2849c33e67e0b136c9",
+      "caption": "Sara presente nell’Archivio delle iscrizioni dopo il ricaricamento."
+    },
+    {
+      "original_path": "images/archivio/manutenzione/member-restore-confirmation.png",
+      "placeholder_path": "images/archivio/manutenzione/member-restore-confirmation.placeholder.svg",
+      "pages": [
+        "docs/archivio.mdx"
+      ],
+      "planned_from": "authored-checkpoint-alias",
+      "workflow": "archive-maintenance",
+      "checkpoint": "member-restore-confirmation",
+      "capture_target": "images/archivio/manutenzione/8.png",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "36affd87f74d3beae5b273c18eadaa4ead5f8c5b43a5d5ee629d3a4bd5359d46",
+      "caption": "Conferma Sposta nel libro soci dalla riga archiviata."
+    },
+    {
+      "original_path": "images/archivio/manutenzione/restored-member-and-payment-still-archived.png",
+      "placeholder_path": "images/archivio/manutenzione/restored-member-and-payment-still-archived.placeholder.svg",
+      "pages": [
+        "docs/archivio.mdx"
+      ],
+      "planned_from": "authored-checkpoint-alias",
+      "workflow": "archive-maintenance",
+      "checkpoint": "restored-member-and-payment-still-archived",
+      "capture_target": "images/archivio/manutenzione/9.png",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "0ca84d59dce8f5b9ca2cfd49c3cda6dd592e0c6de285b331fd8ab62980952eda",
+      "caption": "Iscrizione ripristinata dopo ricaricamento; pagamento da controllare separatamente."
+    },
+    {
+      "original_path": "images/archivio/manutenzione/selected-unpaid-member-before-archiving.png",
+      "placeholder_path": "images/archivio/manutenzione/selected-unpaid-member-before-archiving.placeholder.svg",
+      "pages": [
+        "faq/come-archiviare-dati.mdx"
+      ],
+      "planned_from": "authored-checkpoint-alias",
+      "workflow": "archive-maintenance",
+      "checkpoint": "selected-unpaid-member-before-archiving",
+      "capture_target": "images/archivio/manutenzione/1.png",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "27824d90beec8a11df44fa02cb17175071cba73dd228b8d34e0a18410b51c57a",
+      "caption": "Iscrizione di Sara Conti selezionata prima di Archivia."
+    },
+    {
+      "original_path": "images/archivio/manutenzione/member-archive-confirmation-and-cancel.png",
+      "placeholder_path": "images/archivio/manutenzione/member-archive-confirmation-and-cancel.placeholder.svg",
+      "pages": [
+        "faq/come-archiviare-dati.mdx"
+      ],
+      "planned_from": "authored-checkpoint-alias",
+      "workflow": "archive-maintenance",
+      "checkpoint": "member-archive-confirmation-and-cancel",
+      "capture_target": "images/archivio/manutenzione/2.png",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "847c47af4729d7a50a337b15636e72d8397ddb4b42b037de03f21bc607312f98",
+      "caption": "Conferma Archivia selezionati e possibilità di Annulla."
+    },
+    {
+      "original_path": "images/archivio/manutenzione/archive-search-finds-selected-registration.png",
+      "placeholder_path": "images/archivio/manutenzione/archive-search-finds-selected-registration.placeholder.svg",
+      "pages": [
+        "faq/come-archiviare-dati.mdx"
+      ],
+      "planned_from": "authored-checkpoint-alias",
+      "workflow": "archive-maintenance",
+      "checkpoint": "archive-search-finds-selected-registration",
+      "capture_target": "images/archivio/manutenzione/5.png",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "a3a48a74b3825513312cb77e3fb45792c5c0cf6cd8183c7f7434d26182934484",
+      "caption": "Ricerca Sara nell’Archivio delle iscrizioni."
+    },
+    {
+      "original_path": "images/archivio/manutenzione/unpaid-member-payment-in-separate-payment-archive.png",
+      "placeholder_path": "images/archivio/manutenzione/unpaid-member-payment-in-separate-payment-archive.placeholder.svg",
+      "pages": [
+        "faq/come-archiviare-dati.mdx"
+      ],
+      "planned_from": "authored-checkpoint-alias",
+      "workflow": "archive-maintenance",
+      "checkpoint": "unpaid-member-payment-in-separate-payment-archive",
+      "capture_target": "images/archivio/manutenzione/6.png",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "b2b0a6f18bd22594d1c4e47acaf8016a8eb791bf8174d7f14ca356f84951a195",
+      "caption": "Quota non saldata di Sara nel distinto Archivio dei pagamenti."
+    },
+    {
+      "original_path": "images/collaboratori/rimozione/removable-accepted-account-and-separate-pending-invite.png",
+      "placeholder_path": "images/collaboratori/rimozione/removable-accepted-account-and-separate-pending-invite.placeholder.svg",
+      "pages": [
+        "docs/collaboratori.mdx"
+      ],
+      "planned_from": "authored-checkpoint-alias",
+      "workflow": "collaborator-removal",
+      "checkpoint": "removable-accepted-account-and-separate-pending-invite",
+      "capture_target": "images/collaboratori/rimozione/1.png",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "175db099619a4869442dc492a0cc564efbc916833b1467a317f7def93c58edf6",
+      "caption": "Paolo Testa Accettato e invito temporaneo In attesa nella lista Collaboratori."
+    },
+    {
+      "original_path": "images/istruttori/creazione-ore/empty-instructor-list-and-create-action.png",
+      "placeholder_path": "images/istruttori/creazione-ore/empty-instructor-list-and-create-action.placeholder.svg",
+      "pages": [
+        "docs/istruttori.mdx"
+      ],
+      "planned_from": "authored-checkpoint-alias",
+      "workflow": "instructors-create-edit-hours",
+      "checkpoint": "empty-instructor-list-and-create-action",
+      "capture_target": "images/istruttori/creazione-ore/1.png",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "002863de0870c8d61438fccfbca188d87aee7b22ca5b9dc4caa5c20f53830bf0",
+      "caption": "Empty instructor list and create action."
+    },
+    {
+      "original_path": "images/istruttori/creazione-ore/instructor-required-and-personal-data.png",
+      "placeholder_path": "images/istruttori/creazione-ore/instructor-required-and-personal-data.placeholder.svg",
+      "pages": [
+        "docs/istruttori.mdx"
+      ],
+      "planned_from": "authored-checkpoint-alias",
+      "workflow": "instructors-create-edit-hours",
+      "checkpoint": "instructor-required-and-personal-data",
+      "capture_target": "images/istruttori/creazione-ore/2.png",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "ff8129b02ca13f1e2bfa12e2ed3f4f548e52a82c9748a1e879e95b26f177d1a0",
+      "caption": "Instructor required and personal data."
+    },
+    {
+      "original_path": "images/istruttori/creazione-ore/instructor-contract-default-rates-and-unlinked-account.png",
+      "placeholder_path": "images/istruttori/creazione-ore/instructor-contract-default-rates-and-unlinked-account.placeholder.svg",
+      "pages": [
+        "docs/istruttori.mdx"
+      ],
+      "planned_from": "authored-checkpoint-alias",
+      "workflow": "instructors-create-edit-hours",
+      "checkpoint": "instructor-contract-default-rates-and-unlinked-account",
+      "capture_target": "images/istruttori/creazione-ore/3.png",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "a18060b5751a4bd1164389dbc79f09e37d7700382516532a679d4dddf709cd3c",
+      "caption": "Instructor contract default rates and unlinked account."
+    },
+    {
+      "original_path": "images/istruttori/creazione-ore/created-instructor-persists-after-reload.png",
+      "placeholder_path": "images/istruttori/creazione-ore/created-instructor-persists-after-reload.placeholder.svg",
+      "pages": [
+        "docs/istruttori.mdx"
+      ],
+      "planned_from": "authored-checkpoint-alias",
+      "workflow": "instructors-create-edit-hours",
+      "checkpoint": "created-instructor-persists-after-reload",
+      "capture_target": "images/istruttori/creazione-ore/4.png",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "62affbcdc5a4f3ceec41ef62e22f1c3da008c61897987a7a55791cb1de9fb9fe",
+      "caption": "Created instructor persists after reload."
+    },
+    {
+      "original_path": "images/istruttori/creazione-ore/edit-instructor-default-hourly-rate.png",
+      "placeholder_path": "images/istruttori/creazione-ore/edit-instructor-default-hourly-rate.placeholder.svg",
+      "pages": [
+        "docs/istruttori.mdx"
+      ],
+      "planned_from": "authored-checkpoint-alias",
+      "workflow": "instructors-create-edit-hours",
+      "checkpoint": "edit-instructor-default-hourly-rate",
+      "capture_target": "images/istruttori/creazione-ore/5.png",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "1c0563499da9f995fa8c7fc9f7b745de82be8c4b6579ffbdb34e42a01a23d803",
+      "caption": "Edit instructor default hourly rate."
+    },
+    {
+      "original_path": "images/istruttori/creazione-ore/instructor-compensation-card-before-hours.png",
+      "placeholder_path": "images/istruttori/creazione-ore/instructor-compensation-card-before-hours.placeholder.svg",
+      "pages": [
+        "docs/istruttori.mdx"
+      ],
+      "planned_from": "authored-checkpoint-alias",
+      "workflow": "instructors-create-edit-hours",
+      "checkpoint": "instructor-compensation-card-before-hours",
+      "capture_target": "images/istruttori/creazione-ore/6.png",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "47e3a844fe1b8a3724bdf03f279d60844f06e397e2a7d58cb6bb1dd074540095",
+      "caption": "Instructor compensation card before hours."
+    },
+    {
+      "original_path": "images/istruttori/creazione-ore/saved-hours-unpaid-and-summary-persist-after-reload.png",
+      "placeholder_path": "images/istruttori/creazione-ore/saved-hours-unpaid-and-summary-persist-after-reload.placeholder.svg",
+      "pages": [
+        "docs/istruttori.mdx"
+      ],
+      "planned_from": "authored-checkpoint-alias",
+      "workflow": "instructors-create-edit-hours",
+      "checkpoint": "saved-hours-unpaid-and-summary-persist-after-reload",
+      "capture_target": "images/istruttori/creazione-ore/8.png",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "0bcc8d11314833df19be49a346337c121991c121c8dd7f23c26e62f76700fb30",
+      "caption": "Saved hours unpaid and summary persist after reload."
+    },
+    {
+      "original_path": "images/istruttori/creazione-ore/hourly-hours-default-rate-unpaid-and-calculated-total.png",
+      "placeholder_path": "images/istruttori/creazione-ore/hourly-hours-default-rate-unpaid-and-calculated-total.placeholder.svg",
+      "pages": [
+        "docs/istruttori.mdx"
+      ],
+      "planned_from": "authored-checkpoint-alias",
+      "workflow": "instructors-create-edit-hours",
+      "checkpoint": "hourly-hours-default-rate-unpaid-and-calculated-total",
+      "capture_target": "images/istruttori/creazione-ore/7.png",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "3d306bdf809557ee7db9bc9a3b28f9911c94f8f9655624b8bdece930b7451004",
+      "caption": "Hourly hours default rate unpaid and calculated total."
+    },
+    {
+      "original_path": "images/impostazioni/organizzazione-anno/organization-info-original-address-and-owner-controls.png",
+      "placeholder_path": "images/impostazioni/organizzazione-anno/organization-info-original-address-and-owner-controls.placeholder.svg",
+      "pages": [
+        "docs/impostazioni.mdx"
+      ],
+      "planned_from": "authored-checkpoint-alias",
+      "workflow": "organization-settings",
+      "checkpoint": "organization-info-original-address-and-owner-controls",
+      "capture_target": "images/impostazioni/organizzazione-anno/1.png",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "fbbae4727b11f75132b1da48b7adcdc2ebe3a47b52c9f18a44c35b45d2cde79c",
+      "caption": "Organization info original address and owner controls."
+    },
+    {
+      "original_path": "images/impostazioni/organizzazione-anno/organization-address-website-abbreviation-and-sport-before-save.png",
+      "placeholder_path": "images/impostazioni/organizzazione-anno/organization-address-website-abbreviation-and-sport-before-save.placeholder.svg",
+      "pages": [
+        "docs/impostazioni.mdx"
+      ],
+      "planned_from": "authored-checkpoint-alias",
+      "workflow": "organization-settings",
+      "checkpoint": "organization-address-website-abbreviation-and-sport-before-save",
+      "capture_target": "images/impostazioni/organizzazione-anno/2.png",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "5045f8f9253fe667fc51d8b616991c091a5bd2b8fad5b3a7cdd60a3799eb07bf",
+      "caption": "Organization address website abbreviation and sport before save."
+    },
+    {
+      "original_path": "images/impostazioni/organizzazione-anno/organization-info-persists-after-authenticated-reload.png",
+      "placeholder_path": "images/impostazioni/organizzazione-anno/organization-info-persists-after-authenticated-reload.placeholder.svg",
+      "pages": [
+        "docs/impostazioni.mdx"
+      ],
+      "planned_from": "authored-checkpoint-alias",
+      "workflow": "organization-settings",
+      "checkpoint": "organization-info-persists-after-authenticated-reload",
+      "capture_target": "images/impostazioni/organizzazione-anno/3.png",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "06bc028fc1f9da1df54627ea1faccbf642a2898bf45724574a8d5c49a8d37977",
+      "caption": "Organization info persists after authenticated reload."
+    },
+    {
+      "original_path": "images/impostazioni/organizzazione-anno/general-settings-fiscal-presets-and-separate-season.png",
+      "placeholder_path": "images/impostazioni/organizzazione-anno/general-settings-fiscal-presets-and-separate-season.placeholder.svg",
+      "pages": [
+        "docs/impostazioni.mdx"
+      ],
+      "planned_from": "authored-checkpoint-alias",
+      "workflow": "organization-settings",
+      "checkpoint": "general-settings-fiscal-presets-and-separate-season",
+      "capture_target": "images/impostazioni/organizzazione-anno/4.png",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "0c2d60a693c83d5ff541aef32368e25c220d58e787d23e0ae4011ee09d1a161c",
+      "caption": "General settings fiscal presets and separate season."
+    },
+    {
+      "original_path": "images/impostazioni/organizzazione-anno/custom-fiscal-year-starts-october-fifteen.png",
+      "placeholder_path": "images/impostazioni/organizzazione-anno/custom-fiscal-year-starts-october-fifteen.placeholder.svg",
+      "pages": [
+        "docs/impostazioni.mdx"
+      ],
+      "planned_from": "authored-checkpoint-alias",
+      "workflow": "organization-settings",
+      "checkpoint": "custom-fiscal-year-starts-october-fifteen",
+      "capture_target": "images/impostazioni/organizzazione-anno/5.png",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "e1010c1e470a38ece6e05e8a1564ece55c089d317eb1f47575fe225efbd1897b",
+      "caption": "Custom fiscal year starts october fifteen."
+    },
+    {
+      "original_path": "images/impostazioni/organizzazione-anno/saved-fiscal-and-season-settings-persist-after-reload.png",
+      "placeholder_path": "images/impostazioni/organizzazione-anno/saved-fiscal-and-season-settings-persist-after-reload.placeholder.svg",
+      "pages": [
+        "docs/impostazioni.mdx"
+      ],
+      "planned_from": "authored-checkpoint-alias",
+      "workflow": "organization-settings",
+      "checkpoint": "saved-fiscal-and-season-settings-persist-after-reload",
+      "capture_target": "images/impostazioni/organizzazione-anno/7.png",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "e39e8020492eba034242b1067e3e0de5dad76a5c0468b900762abff97e99dd9c",
+      "caption": "Saved fiscal and season settings persist after reload."
+    },
+    {
+      "original_path": "images/impostazioni/organizzazione-anno/reader-can-consult-fiscal-season-settings-with-disabled-writes.png",
+      "placeholder_path": "images/impostazioni/organizzazione-anno/reader-can-consult-fiscal-season-settings-with-disabled-writes.placeholder.svg",
+      "pages": [
+        "docs/impostazioni.mdx"
+      ],
+      "planned_from": "authored-checkpoint-alias",
+      "workflow": "organization-settings",
+      "checkpoint": "reader-can-consult-fiscal-season-settings-with-disabled-writes",
+      "capture_target": "images/impostazioni/organizzazione-anno/8.png",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "5a9fe465c866afec7fda7021696be051bdc20c312475c84bd39388c8fc56aaa6",
+      "caption": "Reader can consult fiscal season settings with disabled writes."
+    },
+    {
+      "original_path": "images/impostazioni/organizzazione-anno/short-sport-season-and-registration-duration-before-save.png",
+      "placeholder_path": "images/impostazioni/organizzazione-anno/short-sport-season-and-registration-duration-before-save.placeholder.svg",
+      "pages": [
+        "docs/impostazioni.mdx"
+      ],
+      "planned_from": "authored-checkpoint-alias",
+      "workflow": "organization-settings",
+      "checkpoint": "short-sport-season-and-registration-duration-before-save",
+      "capture_target": "images/impostazioni/organizzazione-anno/6.png",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "6e8bf74e8833b4e27091db4be44753b438e439c9412e7db41f23e34d026e2654",
+      "caption": "Short sport season and registration duration before save."
+    },
+    {
+      "original_path": "images/collaboratori/permessi/existing-accepted-custom-collaborator-and-edit-action.png",
+      "placeholder_path": "images/collaboratori/permessi/existing-accepted-custom-collaborator-and-edit-action.placeholder.svg",
+      "pages": [
+        "docs/collaboratori.mdx"
+      ],
+      "planned_from": "authored-checkpoint-alias",
+      "workflow": "collaborator-permissions",
+      "checkpoint": "existing-accepted-custom-collaborator-and-edit-action",
+      "capture_target": "images/collaboratori/permessi/1.png",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "d24840bd080417cb14a5f67a00502e72e6443a2d93730d7074f7cf7730e78293",
+      "caption": "Existing accepted custom collaborator and edit action."
+    },
+    {
+      "original_path": "images/collaboratori/permessi/owner-adds-only-update-settings-to-existing-custom-permissions.png",
+      "placeholder_path": "images/collaboratori/permessi/owner-adds-only-update-settings-to-existing-custom-permissions.placeholder.svg",
+      "pages": [
+        "docs/collaboratori.mdx"
+      ],
+      "planned_from": "authored-checkpoint-alias",
+      "workflow": "collaborator-permissions",
+      "checkpoint": "owner-adds-only-update-settings-to-existing-custom-permissions",
+      "capture_target": "images/collaboratori/permessi/3.png",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "ec08f79ddd6f365e8481fe924876650801f9874177a5087c422efd5f991ea619",
+      "caption": "Owner adds only update settings to existing custom permissions."
+    },
+    {
+      "original_path": "images/collaboratori/permessi/full-access-role-persists-and-allows-own-profile-write.png",
+      "placeholder_path": "images/collaboratori/permessi/full-access-role-persists-and-allows-own-profile-write.placeholder.svg",
+      "pages": [
+        "docs/collaboratori.mdx"
+      ],
+      "planned_from": "authored-checkpoint-alias",
+      "workflow": "collaborator-permissions",
+      "checkpoint": "full-access-role-persists-and-allows-own-profile-write",
+      "capture_target": "images/collaboratori/permessi/8.png",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "9cd59cced14eb7e69703184b3564f4bd47150972c7966624c9c143fd08adf81c",
+      "caption": "Full access role persists and allows own profile write."
+    },
+    {
+      "original_path": "images/collaboratori/permessi/full-access-returned-to-original-custom-permissions.png",
+      "placeholder_path": "images/collaboratori/permessi/full-access-returned-to-original-custom-permissions.placeholder.svg",
+      "pages": [
+        "docs/collaboratori.mdx"
+      ],
+      "planned_from": "authored-checkpoint-alias",
+      "workflow": "collaborator-permissions",
+      "checkpoint": "full-access-returned-to-original-custom-permissions",
+      "capture_target": "images/collaboratori/permessi/9.png",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "772c5dd2ac668bc5ebc1df0ea67cbcf45d2159b37bdba5addee99f582bfa1322",
+      "caption": "Full access returned to original custom permissions."
+    },
+    {
+      "original_path": "images/collaboratori/permessi/revoked-update-permission-restores-reader-disabled-organization-controls.png",
+      "placeholder_path": "images/collaboratori/permessi/revoked-update-permission-restores-reader-disabled-organization-controls.placeholder.svg",
+      "pages": [
+        "docs/collaboratori.mdx"
+      ],
+      "planned_from": "authored-checkpoint-alias",
+      "workflow": "collaborator-permissions",
+      "checkpoint": "revoked-update-permission-restores-reader-disabled-organization-controls",
+      "capture_target": "images/collaboratori/permessi/6.png",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "2194eb295dc2d0d0803cabbce3da07e1b6f413ed5ba3a3d61330727a5826d421",
+      "caption": "Revoked update permission restores reader disabled organization controls."
+    },
+    {
+      "original_path": "images/collaboratori/permessi/collaborator-current-profile-after-grant-and-own-name-edit.png",
+      "placeholder_path": "images/collaboratori/permessi/collaborator-current-profile-after-grant-and-own-name-edit.placeholder.svg",
+      "pages": [
+        "docs/collaboratori.mdx"
+      ],
+      "planned_from": "authored-checkpoint-alias",
+      "workflow": "collaborator-permissions",
+      "checkpoint": "collaborator-current-profile-after-grant-and-own-name-edit",
+      "capture_target": "images/collaboratori/permessi/4.png",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "059ea44d2c7abe69e60cdf6771f6c880f0b3bc26885ce4978e460c11f5775be8",
+      "caption": "Collaborator current profile after grant and own name edit."
+    },
+    {
+      "original_path": "images/collaboratori/permessi/authorized-own-profile-write-persists-and-owner-organization-is-preserved.png",
+      "placeholder_path": "images/collaboratori/permessi/authorized-own-profile-write-persists-and-owner-organization-is-preserved.placeholder.svg",
+      "pages": [
+        "docs/collaboratori.mdx"
+      ],
+      "planned_from": "authored-checkpoint-alias",
+      "workflow": "collaborator-permissions",
+      "checkpoint": "authorized-own-profile-write-persists-and-owner-organization-is-preserved",
+      "capture_target": "images/collaboratori/permessi/5.png",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "0f804339933b50d8bc289a9e203a847a019bb787aee21e2e38127b286b72c4c4",
+      "caption": "Authorized own profile write persists and owner organization is preserved."
+    },
+    {
+      "original_path": "images/impostazioni/causale-iscrizioni/default-registration-category-before-edit.png",
+      "placeholder_path": "images/impostazioni/causale-iscrizioni/default-registration-category-before-edit.placeholder.svg",
+      "pages": [
+        "tutorials/come-creare-moduli-iscrizione-personalizzati.mdx"
+      ],
+      "planned_from": "authored-checkpoint-alias",
+      "workflow": "registration-default-category",
+      "checkpoint": "default-registration-category-before-edit",
+      "capture_target": "images/impostazioni/causale-iscrizioni/1.png",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "879b06810c08bcd3339105ae51cf2b903e5fa03ce4d9cc963b73cd4f6e0f5a45",
+      "caption": "Default registration category before edit."
+    },
+    {
+      "original_path": "images/impostazioni/causale-iscrizioni/default-registration-category-persists-after-reload.png",
+      "placeholder_path": "images/impostazioni/causale-iscrizioni/default-registration-category-persists-after-reload.placeholder.svg",
+      "pages": [
+        "tutorials/come-creare-moduli-iscrizione-personalizzati.mdx"
+      ],
+      "planned_from": "authored-checkpoint-alias",
+      "workflow": "registration-default-category",
+      "checkpoint": "default-registration-category-persists-after-reload",
+      "capture_target": "images/impostazioni/causale-iscrizioni/3.png",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "97e85a6acf9cffe6318b10d908871fc3ee4faea9ababe3384a6924086d9d50c6",
+      "caption": "Default registration category persists after reload."
+    },
+    {
+      "original_path": "images/impostazioni/causale-iscrizioni/registration-payment-with-saved-default-category.png",
+      "placeholder_path": "images/impostazioni/causale-iscrizioni/registration-payment-with-saved-default-category.placeholder.svg",
+      "pages": [
+        "tutorials/come-creare-moduli-iscrizione-personalizzati.mdx"
+      ],
+      "planned_from": "authored-checkpoint-alias",
+      "workflow": "registration-default-category",
+      "checkpoint": "registration-payment-with-saved-default-category",
+      "capture_target": "images/impostazioni/causale-iscrizioni/5.png",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "785e1af8b2f25801707b830971afaeaadab392f125a4187d3d475f5058df90db",
+      "caption": "Registration payment with saved default category."
+    },
+    {
+      "original_path": "images/archivio/modelli-reali/templates-list-before-create.png",
+      "placeholder_path": "images/archivio/modelli-reali/templates-list-before-create.placeholder.svg",
+      "pages": [
+        "tutorials/come-creare-moduli-iscrizione-personalizzati.mdx"
+      ],
+      "planned_from": "authored-checkpoint-alias",
+      "workflow": "organization-document-templates",
+      "checkpoint": "templates-list-before-create",
+      "capture_target": "images/archivio/modelli-reali/1.png",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "61731f92a12419b8dc19cc93ca6d45cf3d68d4c6dc9e6f7866495e1719e07b08",
+      "caption": "Templates list before create."
+    },
+    {
+      "original_path": "images/archivio/modelli-reali/template-name-layout-and-dynamic-person-before-save.png",
+      "placeholder_path": "images/archivio/modelli-reali/template-name-layout-and-dynamic-person-before-save.placeholder.svg",
+      "pages": [
+        "tutorials/come-creare-moduli-iscrizione-personalizzati.mdx"
+      ],
+      "planned_from": "authored-checkpoint-alias",
+      "workflow": "organization-document-templates",
+      "checkpoint": "template-name-layout-and-dynamic-person-before-save",
+      "capture_target": "images/archivio/modelli-reali/3.png",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "5f8f8ebcee2d6547e05d406916b035825055c2bbf262d2d2aae95f69eac64936",
+      "caption": "Template name layout and dynamic person before save."
+    },
+    {
+      "original_path": "images/archivio/modelli-reali/template-reopened-before-generation.png",
+      "placeholder_path": "images/archivio/modelli-reali/template-reopened-before-generation.placeholder.svg",
+      "pages": [
+        "tutorials/come-creare-moduli-iscrizione-personalizzati.mdx"
+      ],
+      "planned_from": "authored-checkpoint-alias",
+      "workflow": "organization-document-templates",
+      "checkpoint": "template-reopened-before-generation",
+      "capture_target": "images/archivio/modelli-reali/5.png",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "23bd23c062b5a564b78fb5a67ca5e5a056812dd4590275b6e2d58687dd9e8455",
+      "caption": "Template reopened before generation."
+    },
+    {
+      "original_path": "images/archivio/modelli-reali/member-documents-before-generation.png",
+      "placeholder_path": "images/archivio/modelli-reali/member-documents-before-generation.placeholder.svg",
+      "pages": [
+        "tutorials/come-creare-moduli-iscrizione-personalizzati.mdx"
+      ],
+      "planned_from": "authored-checkpoint-alias",
+      "workflow": "organization-document-templates",
+      "checkpoint": "member-documents-before-generation",
+      "capture_target": "images/archivio/modelli-reali/6.png",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "7e46619f99bda3bf039e9822be92aa483c20c01fa2f1ba58c650439a217774b4",
+      "caption": "Member documents before generation."
+    },
+    {
+      "original_path": "images/archivio/modelli-reali/member-template-selected-before-generation.png",
+      "placeholder_path": "images/archivio/modelli-reali/member-template-selected-before-generation.placeholder.svg",
+      "pages": [
+        "tutorials/come-creare-moduli-iscrizione-personalizzati.mdx"
+      ],
+      "planned_from": "authored-checkpoint-alias",
+      "workflow": "organization-document-templates",
+      "checkpoint": "member-template-selected-before-generation",
+      "capture_target": "images/archivio/modelli-reali/7.png",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "2c8393acc9b36f0646d1a3765d47a7661969c4b37e8afc5058fe4a30d089d342",
+      "caption": "Member template selected before generation."
+    },
+    {
+      "original_path": "images/archivio/modelli-reali/generated-document-persists-in-member-files.png",
+      "placeholder_path": "images/archivio/modelli-reali/generated-document-persists-in-member-files.placeholder.svg",
+      "pages": [
+        "tutorials/come-creare-moduli-iscrizione-personalizzati.mdx"
+      ],
+      "planned_from": "authored-checkpoint-alias",
+      "workflow": "organization-document-templates",
+      "checkpoint": "generated-document-persists-in-member-files",
+      "capture_target": "images/archivio/modelli-reali/8.png",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "0ecda1ba9c0c6491980f36c8d1ceb6690e9f5b2b15f0e4a8f7d1b83e044a9958",
+      "caption": "Generated document persists in member files."
+    },
+    {
+      "original_path": "images/archivio/modelli-reali/generated-document-after-download.png",
+      "placeholder_path": "images/archivio/modelli-reali/generated-document-after-download.placeholder.svg",
+      "pages": [
+        "tutorials/come-creare-moduli-iscrizione-personalizzati.mdx"
+      ],
+      "planned_from": "authored-checkpoint-alias",
+      "workflow": "organization-document-templates",
+      "checkpoint": "generated-document-after-download",
+      "capture_target": "images/archivio/modelli-reali/10.png",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "a93a38560a7df2d52f48674d31340f7198d4d2c844de50823c8d657a2b685a85",
+      "caption": "Generated document after download."
+    },
+    {
+      "original_path": "images/registro-presenze/automatiche-pianificate/1.png",
+      "placeholder_path": "images/registro-presenze/automatiche-pianificate/1.placeholder.svg",
+      "pages": [
+        "docs/registro-presenze.mdx",
+        "tutorials/come-gestire-registro-presenze-carnet.mdx"
+      ],
+      "planned_from": "future-automatic-attendance-review",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "84d0d5e8d555f207b381f8bcb630ed6b7a87c8a7538ab9407ca09126c01d9a57",
+      "caption": "Screenshot pianificato: Generali e Segna Presenze Automaticamente",
+      "placement": "Future real capture; not a registered or verified workflow checkpoint"
+    },
+    {
+      "original_path": "images/registro-presenze/automatiche-pianificate/2.png",
+      "placeholder_path": "images/registro-presenze/automatiche-pianificate/2.placeholder.svg",
+      "pages": [
+        "docs/carnet.mdx",
+        "docs/registro-presenze.mdx"
+      ],
+      "planned_from": "future-automatic-attendance-review",
+      "status": "placeholder",
+      "verified": false,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "c01618dc5d5e415b3d6f8901046505479dcce36d73039c4f9d04294722908f53",
+      "caption": "Screenshot pianificato: area atleta e segnalazione assenza",
+      "placement": "Future real capture; not a registered or verified workflow checkpoint"
     }
   ],
   "summary": {
     "navigation_pages": 43,
     "draft_sections": 507,
-    "svg_placeholders": 669,
+    "svg_placeholders": 751,
     "backlog_entries": 43,
     "backlog_screenshots_requested": 94,
-    "referenced_placeholder_paths": 288,
+    "referenced_placeholder_paths": 313,
     "rewritten_sections": 507
   },
   "screenshot_backlog": [
