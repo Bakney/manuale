@@ -244,23 +244,37 @@ Premi **Elimina** sulla causale propria e rileggi **Vuoi eliminare la causale di
 
 ### Causali detraibili 730
 
-<Warning>Questa sezione richiede verifiche esterne del servizio, delle condizioni applicabili o della consegna. Non documenta un’operazione esterna già eseguita.</Warning>
+<Note>Bozza in attesa di prova: questa sezione deve essere confermata con una procedura reale prima della pubblicazione.</Note>
 
-Per le causali di entrata è presente **Detraibile fiscalmente**. L’opzione identifica nell’applicazione una classificazione da usare nei documenti previsti, ma non accerta da sola il diritto alla detrazione.
+Il contrassegno **Detraibile fiscalmente** appartiene alla **causale** di un’entrata. L’associazione lo imposta nella gestione delle causali, poi sceglie quella causale nei pagamenti interessati. Il campo registra una scelta: non certifica il diritto alla detrazione.
 
 <Steps>
-  <Step title="Controlla la causale di entrata">
-    Apri **Causali** e il modulo di creazione o modifica della voce. Verifica **Movimento > Entrata**.
-  </Step>
-  <Step title="Configura dopo la verifica contabile">
-    Se la classificazione è stata confermata dal responsabile, usa **Detraibile fiscalmente** e controlla le altre impostazioni di tipologia e detrazione.
-  </Step>
-  <Step title="Salva e controlla l’utilizzo">
-    Salva, riapri la causale e controlla la registrazione a cui viene assegnata. La configurazione e i documenti risultanti attendono la prova in browser.
-  </Step>
+<Step title="Apri la causale personale">
+Da **Pagamenti** apri **Gestisci Causali**. Per una nuova voce premi **Crea causale**; per una voce dell’associazione usa la matita **Modifica**. Le causali comuni hanno i comandi di modifica disabilitati.
+Controlla **Nome**, **Movimento** e **Tipologia**: **Detraibile fiscalmente** è mostrato quando il movimento è **Entrata**. La distinzione **Istituzionale** o **Commerciale** e la **Gestione IVA** restano campi separati.
+</Step>
+<Step title="Imposta il contrassegno e salva">
+Nell’esempio crei **Laboratorio detraibile dimostrativo**, con movimento **Entrata**, tipologia **Istituzionale**, **Tipo IVA: IVA Esente** e **Tipo detrazione: No**. Seleziona **Detraibile fiscalmente**, poi premi **Salva**.
+I valori fiscali dell’esempio servono solo a riconoscere i campi: scegli quelli concordati per la tua associazione.
+<Frame>![Entrata istituzionale con Detraibile fiscalmente selezionato prima del salvataggio.](/images/pagamenti/ripartizione-causali/2.placeholder.svg)</Frame>
+</Step>
+<Step title="Riapri e controlla la scelta">
+Ricarica l’elenco e apri **Modifica**. Il contrassegno deve essere selezionato. Nell’esempio il nome diventa **Laboratorio detraibile serale**: salvi e riapri per controllare che la modifica del nome conservi il contrassegno.
+<Frame>![Contrassegno fiscale conservato dopo la modifica del solo nome e la riapertura.](/images/pagamenti/ripartizione-causali/5.placeholder.svg)</Frame>
+</Step>
+<Step title="Correggi una selezione errata">
+Se la classificazione era errata, riapri la causale personale, disattiva **Detraibile fiscalmente** e premi **Salva**. Ricarica e riapri per controllare che il campo resti disattivato.
+La modifica riguarda la causale condivisa dai pagamenti che la utilizzano: non promette una correzione dei documenti PDF già generati.
+<Frame>![Contrassegno disattivato anche dopo il ricaricamento.](/images/pagamenti/ripartizione-causali/7.placeholder.svg)</Frame>
+</Step>
+<Step title="Controlla i permessi e la documentazione">
+Un collaboratore con soli permessi di lettura può consultare l’elenco; il comando **Modifica** è disabilitato. Per aggiornare una causale occorre il permesso relativo alla modifica delle causali.
+<Frame>![Collaboratore in lettura: causale visibile e comando di modifica disabilitato.](/images/pagamenti/ripartizione-causali/16.placeholder.svg)</Frame>
+Prima di consegnare documenti a un socio, controlla intestatario, importo, data, modalità di pagamento e documentazione richiesta.
+</Step>
 </Steps>
 
-Requisiti, soggetti ammessi, modalità di pagamento e documentazione fiscale devono essere verificati per il caso concreto. Non considerare l’interruttore una garanzia di detraibilità nel 730.
+<Warning>Questa procedura prepara solo la gestione locale del contrassegno. Non è una procedura di invio del 730, non verifica l’ammissibilità della spesa e non attesta la completezza di un riepilogo fiscale. La produzione di tale riepilogo e la verifica fiscale richiedono una prova e una valutazione separate.</Warning>
 
 ## Risorse correlate
 

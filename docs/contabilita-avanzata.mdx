@@ -23,11 +23,18 @@ Le **Causali** si trovano nella pagina **Pagamenti**. Le sezioni successive desc
 
 ## Fatture attive
 
-<Note>Bozza in attesa di prova: questa sezione deve essere confermata con una procedura reale prima della pubblicazione.</Note>
+Le **Fatture Attive** sono i documenti emessi verso i clienti. La sezione si trova in **Contabilità > Documenti fiscali > Fatture Attive** e richiede il permesso di lettura delle fatture clienti.
 
-Le **Fatture Attive** riguardano i documenti emessi verso i clienti. La voce si trova in **Contabilità > Documenti fiscali > Fatture Attive**; la pagina presenta l’elenco **Fatture Clienti**.
-Nel codice attuale sono disponibili creazione, scaricamento PDF/XML quando il documento è pronto ed eliminazione con i permessi previsti. La finestra di modifica degli stati è esclusa dal montaggio dell’elenco: non è un comando utilizzabile da questa pagina.
-<Warning>Il ciclo di creazione e preparazione del documento attivo non è esercitato dalla prova locale sulle fatture passive. Generazione XML, PDF e trasmissione fiscale conservano una verifica separata. La presenza di una riga o di un pulsante di download non attesta la consegna né l’accettazione del documento.</Warning>
+L’elenco distingue **Identificativo**, **Importo**, **Cliente** e scadenza. La registrazione di un documento, la preparazione del suo XML e la trasmissione fiscale hanno risultati diversi: la sola presenza di una riga non dimostra la consegna al destinatario.
+
+In questa versione la pagina non espone i comandi di **Modifica** e di cambio dello stato **Pagata** descritti nelle sezioni successive del manuale originale. Gli incassi si gestiscono in [Pagamenti](/docs/pagamenti); prima di aggiungerne uno controlla che non sia già registrato.
+
+<CardGroup cols={2}>
+<Card title="Anagrafica del cliente" icon="user" href="/docs/contabilita-avanzata#fornitori-e-clienti">Conserva il cliente e i suoi recapiti prima di preparare il documento.</Card>
+<Card title="Preparazione del documento" icon="file-invoice" href="/docs/contabilita-avanzata#creare-una-fattura-attiva">Controlla cedente, destinatario, numerazione, righe e condizioni di pagamento.</Card>
+</CardGroup>
+
+<Warning>Questa è una descrizione dei campi e dei limiti presenti nel codice. Creazione, generazione XML, scaricamento e trasmissione al Sistema di Interscambio attendono prove dedicate; nessun documento fiscale viene dichiarato emesso o consegnato da questa sezione.</Warning>
 
 ### Creare una fattura attiva
 
@@ -504,23 +511,73 @@ Premi **Salva** e ricarica l’elenco. Verifica il nome **Quota laboratorio sera
 
 <Note>Bozza in attesa di prova: questa sezione deve essere confermata con una procedura reale prima della pubblicazione.</Note>
 
+**Causali aggiuntive** permette di associare più voci a un solo pagamento. Il campo **Importo** in alto è la quota della causale principale; ogni riga aggiuntiva ha il proprio importo. Al salvataggio il totale è la somma di questi valori.
+
+<Warning>Non inserire nel campo principale un totale che comprende già le righe aggiuntive: verrebbero sommate di nuovo. Per un totale di **50,00 €**, l’esempio usa **35,00 €** principali, **10,00 €** e **5,00 €** aggiuntivi.</Warning>
+
 <Steps>
-<Step title="Apri il pagamento">
-Nel modulo del pagamento trova **Causali aggiuntive** e premi **Aggiungi causale**.
+<Step title="Prepara il pagamento principale">
+Da **Pagamenti** premi **Pagamento** per una nuova registrazione, oppure la matita **Modifica** su una già presente. Servono i permessi per creare o modificare i pagamenti.
+Nell’esempio inserisci la descrizione **Ripartizione laboratorio manuale**, l’intestataria **Giulia Bianchi**, la causale **Quote e attività associative** e **35,00** nel campo **Importo** principale. Mantieni il pagamento come **Entrata**, con **Tipo Quota: Altro**, e lascia vuota **Data Incasso**: questo esempio non registra un incasso.
 </Step>
-<Step title="Ripartisci l’importo senza duplicarlo">
-Per ogni riga scegli una causale coerente con **Entrata** o **Uscita** e indica l’importo assegnato. Il rendiconto sposta questi importi dalla causale principale alle aggiuntive: non sono nuovi incassi.
+<Step title="Aggiungi le voci e i loro importi">
+Nel riquadro **Causali aggiuntive** premi **Aggiungi causale**. Scegli **Laboratorio detraibile serale** e inserisci **10,00** nella prima riga. Aggiungi una seconda riga con **Quote e attività associative** e **5,00**.
+Il menu propone causali coerenti con il movimento **Entrata** o **Uscita**. Ogni riga riguarda una parte dello stesso pagamento, non un pagamento separato.
+<Frame>![Importo principale 35 euro e due causali aggiuntive da 10 e 5 euro.](/images/pagamenti/ripartizione-causali/8.placeholder.svg)</Frame>
 </Step>
-<Step title="Salva e confronta la ripartizione">
-Salva il pagamento, riaprilo e controlla causali e importi. Confronta poi le voci del rendiconto mantenendo il totale del pagamento. Questa prova di ripartizione resta da eseguire.
+<Step title="Salva e confronta il totale">
+Premi **Crea** o **Modifica**, attendi la conferma e ricarica la pagina. Nell’elenco il pagamento unico mostra **50,00 €**: **35,00 + 10,00 + 5,00**. La registrazione rimane non incassata e non viene prodotta una ricevuta da questa procedura.
+<Frame>![Pagamento unico non incassato da 50 euro dopo il salvataggio.](/images/pagamenti/ripartizione-causali/9.placeholder.svg)</Frame>
+</Step>
+<Step title="Riapri prima di correggere gli importi">
+Premi **Modifica** sulla stessa riga. Il modulo separa il totale salvato: mostra **35,00** nel campo principale e **10,00**, **5,00** nelle causali aggiuntive. Correggi la componente interessata; non sostituire automaticamente l’importo principale con **50,00**.
+<Frame>![Riapertura del pagamento: importo principale 35 euro, aggiuntive 10 e 5 euro.](/images/pagamenti/ripartizione-causali/10.placeholder.svg)</Frame>
+</Step>
+<Step title="Rimuovi una voce e controlla il nuovo totale">
+Il cestino accanto a una causale aggiuntiva rimuove quella riga dal modulo. Eliminando la seconda voce da **5,00**, poi salvando, il totale diventa **45,00 €**. Ricarica e controlla la stessa registrazione.
+<Frame>![Totale unico ridotto a 45 euro dopo il salvataggio e la ricarica.](/images/pagamenti/ripartizione-causali/12.placeholder.svg)</Frame>
+Se vuoi lasciare invariato il totale di **50,00 €**, devi ripartire quei **5,00 €** fra le voci rimaste prima di salvare. La rimozione di una riga non li trasferisce automaticamente alla causale principale.
+</Step>
+<Step title="Annulla oppure conserva la sola causale principale">
+**Annulla** chiude il modulo senza salvare le correzioni: nell’esempio la modifica provvisoria a **99,00** lascia il pagamento a **45,00 €** dopo la ricarica.
+Riaprendo e rimuovendo anche l’ultima voce aggiuntiva da **10,00**, il campo principale resta **35,00**; dopo **Modifica** e la ricarica, il pagamento mostra **35,00 €** e nessuna causale aggiuntiva.
+<Frame>![Pagamento unico da 35 euro senza causali aggiuntive, conservato dopo la ricarica.](/images/pagamenti/ripartizione-causali/15.placeholder.svg)</Frame>
 </Step>
 </Steps>
+
+<Note>Il collaboratore in lettura consulta il pagamento ma non può modificarlo. L’esempio prova la ripartizione nel pagamento e la persistenza dei valori; il rendiconto, la stampa della ricevuta e il trattamento fiscale delle singole voci richiedono verifiche dedicate. Consulta anche [Gestione delle causali](/docs/pagamenti#gestione-delle-causali) e [Bilancio](/docs/bilancio).</Note>
 
 ### Causali detraibili 730
 
 <Note>Bozza in attesa di prova: questa sezione deve essere confermata con una procedura reale prima della pubblicazione.</Note>
 
-**Detraibile fiscalmente** contrassegna le causali delle entrate che intendi utilizzare nei riepiloghi delle spese detraibili.
-Controlla persona, causale, importo, data e modalità di pagamento prima di preparare la documentazione richiesta dal socio.
-<Note>La produzione del riepilogo 730 e la sua completezza non sono esercitate. Questo contrassegno non è una conferma automatica del diritto alla detrazione e non sostituisce la verifica della documentazione.</Note>
+Il contrassegno **Detraibile fiscalmente** appartiene alla **causale** di un’entrata. L’associazione lo imposta nella gestione delle causali, poi sceglie quella causale nei pagamenti interessati. Il campo registra una scelta: non certifica il diritto alla detrazione.
+
+<Steps>
+<Step title="Apri la causale personale">
+Da **Pagamenti** apri **Gestisci Causali**. Per una nuova voce premi **Crea causale**; per una voce dell’associazione usa la matita **Modifica**. Le causali comuni hanno i comandi di modifica disabilitati.
+Controlla **Nome**, **Movimento** e **Tipologia**: **Detraibile fiscalmente** è mostrato quando il movimento è **Entrata**. La distinzione **Istituzionale** o **Commerciale** e la **Gestione IVA** restano campi separati.
+</Step>
+<Step title="Imposta il contrassegno e salva">
+Nell’esempio crei **Laboratorio detraibile dimostrativo**, con movimento **Entrata**, tipologia **Istituzionale**, **Tipo IVA: IVA Esente** e **Tipo detrazione: No**. Seleziona **Detraibile fiscalmente**, poi premi **Salva**.
+I valori fiscali dell’esempio servono solo a riconoscere i campi: scegli quelli concordati per la tua associazione.
+<Frame>![Entrata istituzionale con Detraibile fiscalmente selezionato prima del salvataggio.](/images/pagamenti/ripartizione-causali/2.placeholder.svg)</Frame>
+</Step>
+<Step title="Riapri e controlla la scelta">
+Ricarica l’elenco e apri **Modifica**. Il contrassegno deve essere selezionato. Nell’esempio il nome diventa **Laboratorio detraibile serale**: salvi e riapri per controllare che la modifica del nome conservi il contrassegno.
+<Frame>![Contrassegno fiscale conservato dopo la modifica del solo nome e la riapertura.](/images/pagamenti/ripartizione-causali/5.placeholder.svg)</Frame>
+</Step>
+<Step title="Correggi una selezione errata">
+Se la classificazione era errata, riapri la causale personale, disattiva **Detraibile fiscalmente** e premi **Salva**. Ricarica e riapri per controllare che il campo resti disattivato.
+La modifica riguarda la causale condivisa dai pagamenti che la utilizzano: non promette una correzione dei documenti PDF già generati.
+<Frame>![Contrassegno disattivato anche dopo il ricaricamento.](/images/pagamenti/ripartizione-causali/7.placeholder.svg)</Frame>
+</Step>
+<Step title="Controlla i permessi e la documentazione">
+Un collaboratore con soli permessi di lettura può consultare l’elenco; il comando **Modifica** è disabilitato. Per aggiornare una causale occorre il permesso relativo alla modifica delle causali.
+<Frame>![Collaboratore in lettura: causale visibile e comando di modifica disabilitato.](/images/pagamenti/ripartizione-causali/16.placeholder.svg)</Frame>
+Prima di consegnare documenti a un socio, controlla intestatario, importo, data, modalità di pagamento e documentazione richiesta.
+</Step>
+</Steps>
+
+<Warning>Questa procedura prepara solo la gestione locale del contrassegno. Non è una procedura di invio del 730, non verifica l’ammissibilità della spesa e non attesta la completezza di un riepilogo fiscale. La produzione di tale riepilogo e la verifica fiscale richiedono una prova e una valutazione separate.</Warning>
 

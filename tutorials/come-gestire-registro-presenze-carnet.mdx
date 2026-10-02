@@ -219,14 +219,28 @@ Riapri il carnet in **Utilizzo** e ricarica la pagina: il saldo torna da **4/5**
 
 ## Registro lezioni nel carnet
 
-Ogni consumo generato dal registro manuale conserva data, corso, titolo della lezione e riferimento alla data del registro. Nella scheda **Utilizzo** del pacchetto, la colonna **Lezioni** mostra il saldo e il totale: nell’esempio **4/5** significa quattro lezioni residue su cinque assegnate.
+Il saldo del carnet e il registro presenze descrivono due aspetti della stessa partecipazione. In **Utilizzo del Carnet** leggi quante lezioni restano; nel corso ritrovi la data e la persona presente. Questa pagina non offre un elenco separato di tutte le lezioni consumate dal singolo carnet.
 
-Apri **Attività → Carnet**, scegli il pacchetto e **Utilizzo**, individua la persona e confronta il saldo con il registro del corso. Quando rimuovi la presenza dalla stessa lezione, il consumo corrispondente viene rimosso e la lezione restituita.
+Nell’esempio Giulia è già iscritta a **Ginnastica per tutti**, ha un carnet di cinque lezioni collegato al corso e il pagamento del carnet è stato incassato. Prima di iniziare segui [Come funzionano i carnet con le presenze](/tutorials/come-gestire-registro-presenze-carnet#come-funzionano-i-carnet-con-le-presenze).
 
-<Frame>![Saldo dopo il consumo della presenza manuale](/images/registro-presenze/carnet-manuale/14.placeholder.svg)</Frame>
-<Frame>![Saldo dopo la correzione della presenza](/images/registro-presenze/carnet-manuale/15.placeholder.svg)</Frame>
+<Steps>
+<Step title="Registra la partecipazione alla lezione">
+Apri **Ginnastica per tutti → Presenze**, trova **Lezione dimostrativa di ginnastica** e apri **Modifica Presenze** con il pulsante blu della riga. Attiva l’interruttore di **Bianchi Giulia**, attendi il salvataggio e premi **Chiudi**. La partecipazione è riferita a quella data, non a una modifica generica del saldo.
+<Frame>![Presenza salvata nella stessa lezione del corso](/images/registro-presenze/carnet-manuale/13.placeholder.svg)</Frame>
+</Step>
+<Step title="Confronta il saldo del carnet">
+Apri **Attività → Carnet → Carnet ginnastica 5 lezioni → Utilizzo**. La riga di Giulia mostra **4/5**: quattro lezioni disponibili su cinque assegnate. Ricarica la pagina e ricontrolla il saldo. Per leggere chi ha partecipato e in quale data torna al registro **Presenze** del corso.
+<Frame>![Saldo di quattro lezioni conservato dopo il ricaricamento](/images/registro-presenze/carnet-manuale/14.placeholder.svg)</Frame>
+</Step>
+<Step title="Correggi una partecipazione registrata per errore">
+Torna alla stessa lezione in **Presenze**, apri la finestra e disattiva l’interruttore di Giulia. Attendi il salvataggio e chiudi. Riapri **Utilizzo** del carnet: il saldo torna a **5/5**, anche dopo il ricaricamento. La correzione rimuove l’utilizzo associato alla presenza; il pagamento resta distinto.
+<Frame>![Cinque lezioni disponibili dopo la correzione della presenza](/images/registro-presenze/carnet-manuale/15.placeholder.svg)</Frame>
+</Step>
+</Steps>
 
-<Note>La tabella Utilizzo non mostra una riga dettagliata per ogni consumo. Non descriviamo qui una schermata di storico del carnet che il percorso non apre. Per leggere le presenze della persona usa la sezione **Registro Presenze** della sua scheda.</Note>
+<Warning>La modifica amministrativa delle lezioni residue cambia soltanto il saldo. Eliminare l’intera data o l’evento del calendario è un’altra operazione: non usarla per correggere l’interruttore di una singola persona.</Warning>
+
+Per consultare l’elenco personale delle partecipazioni, usa [Consultare lo storico presenze di un atleta](/docs/registro-presenze#consultare-lo-storico-presenze-di-un-atleta).
 
 # Gestire le lezioni perse e le correzioni
 
@@ -364,9 +378,14 @@ Premi **Salva** e attendi **Modificato con successo.**. Chiudi e riapri la perso
 
 # Conclusione
 
-Dopo ogni lezione controlla il registro e il saldo della persona. Per una presenza registrata per errore correggi quella stessa data; per un nuovo pacchetto usa l’assegnazione o la ricarica; per una variazione amministrativa usa la modifica delle lezioni residue e ricontrolla il totale.
+Il registro del corso conserva le partecipazioni; il carnet conserva il saldo dell’assegnazione. Il pagamento del carnet deve essere distinto da quello del corso. Una correzione della partecipazione riguarda la stessa persona nella stessa lezione, mentre la ricarica crea un’assegnazione nuova e la modifica amministrativa cambia soltanto il saldo.
 
-Le presenze automatiche richiedono piano, opzione attiva e calendario pubblicato. Le segnalazioni dell’atleta e l’elaborazione del processo automatico sono passaggi distinti: le rispettive sezioni indicano i controlli e le parti ancora da eseguire nella versione in uso.
+<CardGroup cols={2}>
+<Card title="Registro del corso" icon="list-check" href="/docs/registro-presenze">Partecipazioni, correzioni, date e storico della persona.</Card>
+<Card title="Pacchetti e assegnazioni" icon="ticket" href="/docs/carnet">Creazione, collegamento al corso, ricarica e regole di consumo.</Card>
+<Card title="Quote e incassi" icon="wallet" href="/docs/pagamenti">Pagamenti distinti dell’iscrizione al corso e del carnet.</Card>
+<Card title="Presenze automatiche" icon="calendar-check" href="/docs/registro-presenze#presenze-automatiche-pro-teams">Configurazione, requisiti e limiti dell’elaborazione automatica.</Card>
+</CardGroup>
 
-Puoi riprendere dalle guide [Carnet](/docs/carnet), [Registro presenze](/docs/registro-presenze) e [Corsi](/docs/corsi) per approfondire l’operazione necessaria.
+<Note>Questo riepilogo descrive le regole presenti nell’applicazione. Ogni procedura collegata conserva i propri controlli, screenshot e limiti di esecuzione.</Note>
 

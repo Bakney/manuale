@@ -241,22 +241,20 @@ La nuova assegnazione crea un nuovo pagamento di **50,00 €**, inizialmente da 
 
 ## Riepilogo delle regole di funzionamento
 
-Il pacchetto disponibile in catalogo, l’assegnazione alla persona e l’iscrizione al corso sono dati distinti. Questa distinzione aiuta a scegliere la correzione adatta.
+Un **carnet in catalogo**, la sua **assegnazione a una persona** e l’**iscrizione al corso** sono dati distinti. Anche il pagamento della quota del corso e quello del carnet restano separati.
 
-| Operazione | Effetto da controllare |
-| --- | --- |
-| Assegna carnet | Nuova assegnazione con lezioni iniziali e pagamento proprio |
-| Assegna corso al carnet | Collegamento al corso, senza un altro pagamento |
-| Nuova presenza manuale con carnet pagato | Una lezione consumata e saldo ridotto |
-| Rimuovi la stessa presenza | Consumo rimosso e lezione restituita |
-| Ricarica carnet | Nuova assegnazione e nuovo pagamento; conserva l’assegnazione precedente |
-| Modifica lezioni rimanenti | Correzione del saldo fra zero e il totale, senza ricostruire lo storico |
-| Elimina una data dal registro | Data rimossa, evento del calendario conservato; non è una restituzione del carnet |
+| Operazione | Regola dell’applicazione | Guida da consultare |
+| --- | --- | --- |
+| Creare un pacchetto senza assegnazioni | Non crea il pagamento del carnet di una persona | [Creare e gestire](/docs/carnet#creare-e-gestire-un-carnet) |
+| Assegnare il pacchetto | Crea una nuova assegnazione e il suo pagamento | [Assegnazione](/docs/carnet#assegnare-un-carnet-ad-un-atleta) |
+| Collegare un corso già frequentato | Limita l’assegnazione al corso senza creare un secondo pagamento | [Collegare il corso](/docs/carnet#assegnare-un-corso-ad-un-carnet) |
+| Segnare una presenza manuale | Cerca un carnet attivo con lezioni disponibili; quello scelto deve risultare pagato | [Scalamento e casi particolari](/docs/registro-presenze#casi-particolari-con-i-carnet) |
+| Correggere la stessa presenza | Rimuove l’utilizzo corrispondente e restituisce la lezione | [Restituzione](/docs/registro-presenze#restituzione-alla-rimozione) |
+| Ricaricare | Aggiunge un’assegnazione con un nuovo pagamento e copia i collegamenti; conserva la riga precedente | [Ricaricare un carnet](/docs/carnet#ricaricare-un-carnet) |
+| Modificare le lezioni residue | Corregge il saldo fra zero e il totale; non ricostruisce le partecipazioni | [Saldo manuale](/tutorials/come-gestire-registro-presenze-carnet#modificare-le-lezioni-rimanenti) |
+| Eliminare una data dal registro | Rimuove la data; non esegue la correzione dell’interruttore della presenza | [Eliminare una lezione](/docs/registro-presenze#eliminare-una-lezione-dal-registro) |
 
-<Frame>![Saldo 4/5 dopo una presenza](/images/registro-presenze/carnet-manuale/14.placeholder.svg)</Frame>
-<Frame>![Saldo 5/5 dopo la correzione](/images/registro-presenze/carnet-manuale/15.placeholder.svg)</Frame>
-
-<Note>Le regole dei carnet concorrenti e delle presenze automatiche sono descritte nelle sezioni dedicate e conservano i propri limiti di esecuzione. Non dedurre da questo esempio una restituzione automatica dopo la cancellazione di una data.</Note>
+<Note>Le presenze automatiche, i carnet concorrenti e le assenze previste hanno regole proprie. Consulta le sezioni dedicate prima di applicare il caso semplice con un solo carnet. La modifica del saldo, la restituzione di una lezione e l’annullamento di un incasso sono operazioni diverse.</Note>
 
 ## Risorse correlate
 

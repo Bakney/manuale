@@ -265,53 +265,105 @@ Controlla titolo, periodo e distinzione fra totale e nuove registrazioni descrit
 
 ### Lezioni di oggi
 
-Il nome attuale è **Registro presenze lezioni**. Elenca le lezioni nella finestra della giornata, con il corso, gli istruttori quando indicati e i riepiloghi di presenza.
-In assenza di lezioni compare **Nessuna lezione oggi**, come nella bacheca dimostrativa.
-Un collaboratore associato a un profilo istruttore vede le lezioni collegate a quell'istruttore; gli altri account vedono quelle dell'associazione.
-<Note>La registrazione delle presenze dal pulsante **Presenze** richiede una verifica dedicata. Il pulsante ha inoltre un limite nell'interfaccia per il piano gratuito; non dedurre altre differenze fra edizioni da questo esempio.</Note>
+Il riquadro si chiama **Registro presenze lezioni**. Mostra le lezioni nella finestra della giornata, con corso, istruttori quando indicati, presenti e assenze previste. Nell’esempio il corso **Ginnastica in bacheca** ha due iscritti e parte da **0 / 2 presenti**. Le lezioni del giorno precedente e successivo non compaiono.
 
-Per trovare una lezione assente dal riquadro, controlla che il calendario del corso sia pubblicato e la data sia corretta. Per segnare o correggere una presenza segui il [Registro presenze](/docs/registro-presenze): il salvataggio del layout della bacheca non registra alcuna partecipazione.
+<Steps>
+<Step title="Leggi la lezione corretta">
+Apri la bacheca e trova **Registro presenze lezioni**. Controlla data e corso prima di intervenire. La scritta **non ci sarò** conta le assenze previste, separate dalle presenze già registrate.
+<Frame>![Lezione di oggi con zero presenze su due iscritti](/images/bacheca/liste-operative/1.placeholder.svg)</Frame>
+</Step>
+<Step title="Apri Presenze">
+Premi **Presenze** sulla lezione. Nell’elenco cerca **Bianchi Giulia** e verifica che stai operando sulla giornata desiderata.
+<Frame>![Elenco degli iscritti nel registro aperto dalla bacheca](/images/bacheca/liste-operative/2.placeholder.svg)</Frame>
+</Step>
+<Step title="Registra e ricontrolla">
+Attiva l’interruttore di Giulia. Ogni cambio viene salvato subito: attendi la conferma, poi premi **Chiudi**. Riapri la bacheca e controlla **1 / 2 presenti**. Per correggere una presenza torna nella stessa lezione e disattiva l’interruttore.
+<Frame>![Presenza di Giulia conservata dopo la riapertura](/images/bacheca/liste-operative/3.placeholder.svg)</Frame>
+</Step>
+<Step title="Controlla i permessi">
+Un collaboratore in sola lettura può consultare l’elenco, ma gli interruttori restano disabilitati e il salvataggio è negato.
+<Frame>![Registro in lettura per il collaboratore](/images/bacheca/liste-operative/4.placeholder.svg)</Frame>
+</Step>
+</Steps>
 
-<Frame>![Riquadro vuoto nell’esempio iniziale: non è una prova di tutti i casi di selezione](/images/bacheca/lettura-widget/6.placeholder.svg)</Frame>
+<Note>Un collaboratore collegato a un profilo istruttore vede le lezioni di quell’istruttore; gli altri account vedono le lezioni dell’associazione. Nell’interfaccia il piano gratuito rimanda all’aggiornamento dal comando Presenze. Quando non ci sono lezioni viene mostrato **Nessuna lezione oggi**.</Note>
 
-<Note>La cattura pianificata illustra lo stato vuoto del riepilogo. Non dimostra da sola soglie, ordinamenti, approvazioni, incassi o aggiornamenti di documenti con dati presenti.</Note>
+Per il consumo dei carnet e le correzioni usa la guida [Registro presenze](/docs/registro-presenze); questo esempio registra una presenza senza carnet collegati al corso.
 
 ### Carnet in esaurimento
 
-Elenca i carnet con meno di quattro lezioni residue, ordinati dal numero minore di lezioni rimaste.
-Un carnet senza lezioni residue viene incluso soltanto se il suo registro contiene attività negli ultimi 30 giorni.
-Le voci mostrano la persona, il carnet e le lezioni rimaste. Un elenco vuoto non è una conferma generale dell'assenza di carnet nell'associazione.
+Usa **Carnet in esaurimento** per individuare i pacchetti con meno di quattro lezioni residue. Nell’esempio di Giulia compaiono **Carnet esaurito recente**, **Carnet ultima lezione** e **Carnet tre lezioni**, ordinati rispettivamente con zero, una e tre lezioni rimaste.
 
-Usa questa lista come promemoria per il rinnovo. Per decidere cosa assegnare, apri **Utilizzo** del carnet e controlla il saldo, i collegamenti ai corsi e il pagamento: un riquadro vuoto non equivale a un controllo di tutte le assegnazioni.
+<Steps>
+<Step title="Confronta residue e totale">
+Controlla persona, nome del carnet e rapporto tra lezioni residue e totale. **1 / 5** significa una lezione ancora disponibile su un pacchetto di cinque; il colore evidenzia la quantità rimasta.
+<Frame>![Carnet con zero, una e tre lezioni residue](/images/bacheca/liste-operative/5.placeholder.svg)</Frame>
+</Step>
+<Step title="Apri la scheda della persona">
+Premi **Modifica** sul carnet che vuoi approfondire. Il collegamento apre la sezione carnet dell’iscrizione della persona, nell’esempio **Giulia Bianchi**. Controlla il pacchetto e il registro di utilizzo nella scheda prima di intervenire.
+<Frame>![Scheda carnet di Giulia aperta dal riquadro](/images/bacheca/liste-operative/6.placeholder.svg)</Frame>
+</Step>
+<Step title="Interpreta le esclusioni">
+Un carnet con **4** lezioni residue non rientra nel riquadro. Un carnet a **0** compare solo se il registro contiene attività negli ultimi 30 giorni: quello esaurito senza attività recente resta escluso. Non usare un elenco vuoto come prova che non esistano carnet.
+</Step>
+</Steps>
 
-<Frame>![Riquadro vuoto nell’esempio iniziale: non è una prova di tutti i casi di selezione](/images/bacheca/lettura-widget/7.placeholder.svg)</Frame>
-
-<Note>La cattura pianificata illustra lo stato vuoto del riepilogo. Non dimostra da sola soglie, ordinamenti, approvazioni, incassi o aggiornamenti di documenti con dati presenti.</Note>
+<Note>Il riquadro usa le lezioni rimaste; non seleziona una scadenza di calendario e non applica un filtro automatico sui carnet disabilitati. **Nessun carnet in scadenza** è la scritta dello stato vuoto. Per creare, ricaricare o controllare i pacchetti segui [Carnet](/docs/carnet).</Note>
 
 ### Iscrizioni da approvare
 
-Mostra fino a 100 iscrizioni non archiviate, valide alla data corrente, con stato **In attesa** o **Non firmate**.
-La provenienza dal modulo online non è un requisito per comparire qui.
-La larghezza cambia lo spazio disponibile per leggere l'elenco, senza modificare il numero massimo di voci selezionate.
-<Note>I comandi di approvazione e rifiuto hanno i permessi delle iscrizioni. Questo esempio non esegue tali operazioni dal widget.</Note>
+**Iscrizioni da approvare** raccoglie fino a 100 iscrizioni non archiviate, valide alla data corrente, con stato **in attesa** o **non firmata**. Non è necessario che provengano dal modulo online. Nell’esempio **Marta Riva** è in attesa e **Paolo Russo** non ha firmato; le iscrizioni fuori validità o archiviate non compaiono.
 
-Apri la scheda dell’iscrizione per leggere i dati prima di decidere. Lo stato **Non firmata** è distinto da **In attesa**: controlla il modulo e la firma. Le operazioni complete sono descritte in [gestione delle richieste](/faq/come-si-crea-un-socio#gestione-delle-richieste).
+<Steps>
+<Step title="Controlla persona e stato">
+Leggi nome, data di creazione e stato. Il nome apre la scheda dell’iscrizione: verifica i dati e l’eventuale firma prima di decidere. I due pulsanti sotto ogni persona sono approvazione e rifiuto.
+<Frame>![Iscrizioni in attesa e non firmate da gestire](/images/bacheca/liste-operative/7.placeholder.svg)</Frame>
+</Step>
+<Step title="Annulla se non sei pronto">
+Premi il pulsante di approvazione e leggi **Vuoi accettare l’iscrizione?**. Con **Annulla** non viene modificato lo stato e la richiesta resta nel riquadro.
+<Frame>![Annullamento della conferma senza modificare lo stato](/images/bacheca/liste-operative/8.placeholder.svg)</Frame>
+</Step>
+<Step title="Approva l’iscrizione controllata">
+Per Marta premi **Approva** nella conferma. Attendi il messaggio e riapri la bacheca: Marta deve essere assente dall’elenco delle richieste perché lo stato è ora Accettata. La persona non viene eliminata.
+<Frame>![Conferma prima di approvare Marta](/images/bacheca/liste-operative/10.placeholder.svg)</Frame>
+<Frame>![Marta approvata e rimossa dall’elenco delle richieste](/images/bacheca/liste-operative/11.placeholder.svg)</Frame>
+</Step>
+<Step title="Rifiuta quando necessario">
+Per Paolo usa il pulsante di rifiuto e conferma **Rifiuta**. Riapri la bacheca: anche lui esce dall’elenco delle richieste e la sua iscrizione assume lo stato Rifiutata. Dopo entrambe le operazioni compare **Nessun socio da approvare**.
+<Frame>![Conferma prima di rifiutare Paolo](/images/bacheca/liste-operative/12.placeholder.svg)</Frame>
+<Frame>![Elenco vuoto dopo approvazione e rifiuto](/images/bacheca/liste-operative/13.placeholder.svg)</Frame>
+</Step>
+<Step title="Rispetta i permessi">
+La modifica richiede i permessi sulle iscrizioni. Il riquadro può mostrare il pulsante anche al collaboratore in lettura, ma la conferma è negata e lo stato resta invariato.
+<Frame>![Approva negato al collaboratore in lettura](/images/bacheca/liste-operative/9.placeholder.svg)</Frame>
+</Step>
+</Steps>
 
-<Frame>![Riquadro vuoto nell’esempio iniziale: non è una prova di tutti i casi di selezione](/images/bacheca/lettura-widget/8.placeholder.svg)</Frame>
-
-<Note>La cattura pianificata illustra lo stato vuoto del riepilogo. Non dimostra da sola soglie, ordinamenti, approvazioni, incassi o aggiornamenti di documenti con dati presenti.</Note>
+<Warning>Approvare una richiesta non aggiunge automaticamente una firma mancante. Verifica separatamente il documento nella scheda dell’iscrizione.</Warning>
 
 ### Certificati medici in scadenza
 
-Mostra i certificati con scadenza dalla data corrente fino ai successivi 30 giorni, compreso quello che scade oggi.
-L'elenco riguarda iscrizioni non archiviate create nel periodo dell'esercizio corrente e con una scadenza medica presente.
-Le voci sono ordinate dalle scadenze più vicine. I certificati già scaduti appartengono al riquadro separato **Certificati medici scaduti**.
+**Certificati medici in scadenza** elenca le scadenze dalla data corrente fino ai successivi 30 giorni, estremi compresi. Sono selezionate le iscrizioni non archiviate create nel periodo dell’esercizio corrente e con una data di scadenza medica presente. La lista parte dalla scadenza più vicina.
 
-Pianifica il rinnovo partendo dalle scadenze più vicine. Se un certificato atteso manca, controlla la data di scadenza e il periodo di creazione dell’iscrizione; consulta la scheda per leggere o sostituire il documento.
+<Steps>
+<Step title="Leggi giorni e data">
+Nell’esempio **Chiara Fontana** scade oggi e **Davide Greco** fra 30 giorni. Entrambi compaiono; il certificato che scade fra 31 giorni resta fuori. La voce che scade oggi può già essere etichettata **scaduto** nel riquadro, ma appartiene ancora a questo elenco.
+<Frame>![Certificati che scadono oggi e fra trenta giorni](/images/bacheca/liste-operative/14.placeholder.svg)</Frame>
+</Step>
+<Step title="Apri la scheda corretta">
+Premi **Modifica** sotto la persona da controllare. Il collegamento apre **Certificato medico** della sua iscrizione: verifica persona, data e documento prima di correggere la scadenza. La sola apertura non modifica il certificato.
+</Step>
+<Step title="Ricontrolla una correzione salvata">
+Dopo aver aggiornato la scadenza nella scheda e premuto **Salva**, riapri la bacheca. Nell’esempio Emma, che prima era scaduta, compare ora tra le prossime scadenze perché la data salvata è fra 30 giorni.
+<Frame>![Emma passa nel riquadro dei certificati in scadenza](/images/bacheca/liste-operative/18.placeholder.svg)</Frame>
+</Step>
+<Step title="Usa la consultazione in lettura">
+Il collaboratore senza modifica delle iscrizioni può vedere la scheda, ma non ha **Modifica scadenza**. Un tentativo di salvare comunque è negato e conserva la data esistente.
+<Frame>![Certificato consultabile dal collaboratore senza modifica](/images/bacheca/liste-operative/19.placeholder.svg)</Frame>
+</Step>
+</Steps>
 
-<Frame>![Riquadro vuoto nell’esempio iniziale: non è una prova di tutti i casi di selezione](/images/bacheca/lettura-widget/9.placeholder.svg)</Frame>
-
-<Note>La cattura pianificata illustra lo stato vuoto del riepilogo. Non dimostra da sola soglie, ordinamenti, approvazioni, incassi o aggiornamenti di documenti con dati presenti.</Note>
+<Note>Il riquadro non comprende certificati senza data, iscrizioni archiviate o iscrizioni create fuori dall’esercizio corrente. **Nessun certificato medico in scadenza** descrive soltanto questa selezione. Per caricare il documento e gestire i promemoria leggi [Certificati medici](/tutorials/come-gestire-certificati-medici).</Note>
 
 ### Entrate e uscite
 
@@ -333,39 +385,74 @@ Controlla titolo, periodo e distinzione fra totale e nuove registrazioni descrit
 
 ### Pagamenti scaduti
 
-Il nome nella finestra è **Pagamenti scaduti o in scadenza oggi**.
-La selezione attuale comprende importi positivi non pagati, non archiviati, collegati a una persona e a un'iscrizione compatibile, creati fra 30 giorni fa e 7 giorni dopo la data corrente.
-La dicitura di ritardo è calcolata dalla data di creazione del pagamento: possono comparire anche voci future con **scade tra ... gg.**.
-<Note>Controlla i dati del pagamento prima di sollecitare la persona. La guida non conferma che il widget selezioni esclusivamente scadenze già trascorse. Il comando d'incasso richiede il permesso di modifica dei pagamenti e non è eseguito in questo esempio.</Note>
+Nella scelta dei widget il nome è **Pagamenti scaduti o in scadenza oggi**; il riquadro si intitola **Pagamenti scaduti e in scadenza**. La selezione comprende entrate positive non pagate e non archiviate, collegate a una persona e a un’iscrizione compatibile, create fra 30 giorni fa e 7 giorni dopo la data corrente. Il ritardo viene calcolato dalla data di creazione del pagamento.
 
-Prima di inviare un promemoria, apri il pagamento e controlla importo, stato e data. Il titolo del widget non garantisce che ogni riga sia già in ritardo: la selezione comprende anche una finestra futura e non tutti i pagamenti in attesa compaiono qui.
+<Steps>
+<Step title="Leggi la selezione prima di sollecitare">
+Nell’esempio compaiono **scaduto da 29 gg.**, **scade oggi** e **scade tra 7 gg.**. Le voci a 31 giorni nel passato o otto giorni nel futuro sono escluse; anche importi zero, spese, pagamenti saldati o archiviati non entrano nella lista. Controlla **Incasso previsto il** e apri la scheda della persona quando serve.
+<Frame>![Entrate con ritardo di ventinove giorni, oggi e fra sette giorni](/images/bacheca/liste-operative/20.placeholder.svg)</Frame>
+</Step>
+<Step title="Apri la conferma di incasso">
+Premi il comando con il segno di spunta sotto il pagamento. Se l’incasso non è avvenuto premi **Annulla**: il pagamento rimane non saldato e presente nell’elenco.
+<Frame>![Annullamento dell’incasso senza cambiare i pagamenti](/images/bacheca/liste-operative/21.placeholder.svg)</Frame>
+</Step>
+<Step title="Conferma la data reale">
+Per il pagamento scaduto da 29 giorni inserisci la **Data incasso** corretta e premi **Incassa**. Il comando registra un incasso nel gestionale: usalo dopo aver ricevuto il denaro.
+<Frame>![Conferma della data di incasso](/images/bacheca/liste-operative/22.placeholder.svg)</Frame>
+</Step>
+<Step title="Ricontrolla dopo la riapertura">
+Riapri la bacheca. Il pagamento deve essere scomparso dal riquadro perché risulta saldato; nella scheda pagamenti verifica la data registrata. Le altre entrate non saldate restano visibili.
+<Frame>![Pagamento saldato rimosso dal riquadro dopo riapertura](/images/bacheca/liste-operative/23.placeholder.svg)</Frame>
+</Step>
+<Step title="Controlla i permessi">
+Il collaboratore in lettura vede **Non hai i permessi.** e non trova il comando di incasso. Il salvataggio diretto è comunque negato e non modifica il pagamento.
+<Frame>![Collaboratore senza comando di incasso](/images/bacheca/liste-operative/24.placeholder.svg)</Frame>
+</Step>
+</Steps>
 
-<Frame>![Riquadro vuoto nell’esempio iniziale: non è una prova di tutti i casi di selezione](/images/bacheca/lettura-widget/10.placeholder.svg)</Frame>
-
-<Note>La cattura pianificata illustra lo stato vuoto del riepilogo. Non dimostra da sola soglie, ordinamenti, approvazioni, incassi o aggiornamenti di documenti con dati presenti.</Note>
+<Note>Il riquadro usa la data di creazione, non una scadenza contrattuale autonoma. L’abbinamento alla persona richiede anche una data di pagamento compatibile con la validità dell’iscrizione: una voce non presente qui può comunque essere nell’elenco [Pagamenti](/docs/pagamenti). L’esempio conferma lo stato dell’incasso; non attesta recapito di email o stampa della ricevuta.</Note>
 
 ### Certificati medici scaduti
 
-Mostra i certificati con scadenza precedente alla data corrente, ordinati in base alla distanza dalla scadenza.
-Sono considerate le iscrizioni create nell'esercizio corrente con un certificato e una data di scadenza presenti.
-La selezione di questo widget non esclude esplicitamente le iscrizioni archiviate: controlla la scheda della persona prima di intervenire.
-L'aggiunta e la rimozione del riquadro non modificano il documento o la sua scadenza.
+**Certificati medici scaduti** mostra le scadenze precedenti alla data corrente, ordinate dalla scadenza più lontana. Oggi è escluso: un certificato che scade oggi compare nel riquadro **Certificati medici in scadenza**. Servono una scadenza presente e un’iscrizione creata nell’esercizio corrente.
 
-Apri la scheda della persona per verificare se l’iscrizione è ancora operativa e se esiste un documento più recente. Questo riquadro segnala una scadenza memorizzata e non certifica da solo l’idoneità alla pratica sportiva.
+<Steps>
+<Step title="Controlla il ritardo">
+Nell’esempio **Emma Ferrari** è scaduta da un giorno. Il riquadro può includere anche un’iscrizione archiviata, come **Irene Marino**, scaduta da cinque giorni: verifica lo stato della persona prima di contattarla.
+<Frame>![Certificati scaduti, incluso il caso archiviato](/images/bacheca/liste-operative/15.placeholder.svg)</Frame>
+</Step>
+<Step title="Apri il certificato di Emma">
+Premi **Modifica** sotto Emma. Controlla che si apra la sua scheda e che la data corrisponda al certificato disponibile.
+<Frame>![Scheda del certificato scaduto di Emma](/images/bacheca/liste-operative/16.placeholder.svg)</Frame>
+</Step>
+<Step title="Aggiorna solo la data corretta">
+Se il documento giustifica una nuova scadenza, premi **Modifica scadenza**, inserisci la data e premi **Salva**. Nell’esempio la nuova scadenza è fra 30 giorni; il cambio di data conserva il certificato esistente. Non considerare la correzione della data come sostituzione del documento.
+<Frame>![Correzione della scadenza nella scheda personale](/images/bacheca/liste-operative/17.placeholder.svg)</Frame>
+</Step>
+<Step title="Riapri la bacheca">
+Controlla che Emma sia scomparsa dall’elenco degli scaduti e sia ora nel riquadro delle prossime scadenze. Irene resta tra gli scaduti.
+<Frame>![Emma passa nel riquadro dei certificati in scadenza](/images/bacheca/liste-operative/18.placeholder.svg)</Frame>
+</Step>
+</Steps>
 
-<Frame>![Riquadro vuoto nell’esempio iniziale: non è una prova di tutti i casi di selezione](/images/bacheca/lettura-widget/11.placeholder.svg)</Frame>
-
-<Note>La cattura pianificata illustra lo stato vuoto del riepilogo. Non dimostra da sola soglie, ordinamenti, approvazioni, incassi o aggiornamenti di documenti con dati presenti.</Note>
+<Warning>Questo riquadro, a differenza di quello delle prossime scadenze, attualmente include anche le iscrizioni archiviate. La modifica nella scheda richiede i permessi sulle iscrizioni e non è disponibile per l’iscrizione archiviata. Un elenco vuoto non prova che tutti abbiano caricato un certificato.</Warning>
 
 ## Consigli utili
 
-Disponi in alto i riquadri che usi ogni giorno: presenze, richieste e scadenze; assegna più larghezza agli elenchi e meno ai numeri sintetici. I valori dei widget usano intervalli e filtri diversi: leggi la descrizione del singolo indicatore prima di confrontarli.
+<CardGroup cols={2}>
+  <Card title="Apri la scheda prima di decidere" icon="user" href="/faq/come-si-crea-un-socio">
+    Usa nome e collegamenti del riquadro per verificare persona, validità e stato dell’iscrizione. Una richiesta non firmata resta distinta da una richiesta approvata.
+  </Card>
+  <Card title="Confronta i periodi" icon="calendar" href="/docs/pagamenti">
+    I riquadri usano filtri diversi: lezioni della giornata, carnet con meno di quattro lezioni, certificati nell’esercizio corrente e pagamenti nel loro intervallo di creazione.
+  </Card>
+  <Card title="Controlla il documento medico" icon="file" href="/tutorials/come-gestire-certificati-medici">
+    La data mostrata non prova che esista un allegato valido. Apri la scheda e verifica il documento prima di aggiornare una scadenza o contattare la persona.
+  </Card>
+  <Card title="Consulta gli elenchi completi" icon="list" href="/docs/carnet">
+    Un widget vuoto indica che nessuna voce soddisfa quel filtro. Usa gli elenchi dedicati per cercare anche carnet, pagamenti e iscrizioni esclusi dalla bacheca.
+  </Card>
+</CardGroup>
 
-- Personalizza da un computer: i comandi di modifica sono nascosti nella visualizzazione per telefono.
-- Premi **Salva** prima di lasciare la pagina e ricontrolla il risultato dopo un ricaricamento.
-- Togliere un widget cambia soltanto la disposizione personale; i dati dell’associazione rimangono nelle loro sezioni.
-- Il layout del collaboratore è distinto da quello del titolare. Il widget **Bacheca Staff** richiede inoltre il permesso di lettura dei messaggi.
-- Usa **Ripristina default** quando desideri tornare alla disposizione iniziale e poi salva la scelta.
-
-<Frame>![Layout personale del collaboratore, distinto da quello del titolare](/images/bacheca/personalizzazione/11.placeholder.svg)</Frame>
+Le azioni dipendono dai permessi del tuo account. I collaboratori in lettura possono consultare le informazioni disponibili senza salvare presenze, approvare iscrizioni o incassare pagamenti. Dopo una modifica torna sul riquadro e confronta il risultato con la scheda della persona. Per organizzare meglio la pagina usa [Personalizzazione](/docs/bacheca#personalizzare-la-bacheca).
 
