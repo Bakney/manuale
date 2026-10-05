@@ -1158,200 +1158,130 @@
       "title": "Assegnare un carnet ad un atleta",
       "content_sha256": "cee45b8d78d9581966e7e8a797431a92bd2f17eab4fff76d10b11ba192810c09",
       "recipe_module": "docs/manuale/attendance-carnet-recipes.mjs",
-      "recipe_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+      "recipe_sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
       "recipe_review": {
-        "previous_sha256": "81cfa60348f464d75659dbe6150353e93d1ed52e3663ce7c91f7f35f2a26c340",
-        "sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "previous_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
         "purpose": "editorial-review-only"
       },
-      "content_source": "authored-mdx",
-      "editorial_content_sha256": "cee45b8d78d9581966e7e8a797431a92bd2f17eab4fff76d10b11ba192810c09",
-      "materialization": {
-        "format": 1,
-        "capture_id": "a090d6e1699b3fae",
-        "scenario_id": "attendance-carnet-manual",
-        "report_sha256": "fb2547d0e71ae612103705a521cd870b7c75bc4845f78398e14d06de9717f84d"
-      }
+      "content_source": "authored-mdx"
     },
     "docs/carnet.mdx#assegnare-un-corso-ad-un-carnet": {
       "title": "Assegnare un corso ad un carnet",
       "content_sha256": "e81f7121973e835ef2591b59ca079fc5625fd6606e8060469b7f6ec8c89d1156",
       "recipe_module": "docs/manuale/attendance-carnet-recipes.mjs",
-      "recipe_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+      "recipe_sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
       "recipe_review": {
-        "previous_sha256": "81cfa60348f464d75659dbe6150353e93d1ed52e3663ce7c91f7f35f2a26c340",
-        "sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "previous_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
         "purpose": "editorial-review-only"
       },
-      "content_source": "authored-mdx",
-      "editorial_content_sha256": "e81f7121973e835ef2591b59ca079fc5625fd6606e8060469b7f6ec8c89d1156",
-      "materialization": {
-        "format": 1,
-        "capture_id": "a090d6e1699b3fae",
-        "scenario_id": "attendance-carnet-manual",
-        "report_sha256": "fb2547d0e71ae612103705a521cd870b7c75bc4845f78398e14d06de9717f84d"
-      }
+      "content_source": "authored-mdx"
     },
     "docs/carnet.mdx#blocco-per-assenza-prevista": {
       "title": "Blocco per assenza prevista",
       "content_sha256": "ebd5499d038b26b5dc3ff7a547f0b80b2f6cd0e8d0d2d58e91c21afba12e2ead",
       "recipe_module": "docs/manuale/attendance-carnet-recipes.mjs",
-      "recipe_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+      "recipe_sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
       "recipe_review": {
-        "previous_sha256": "81cfa60348f464d75659dbe6150353e93d1ed52e3663ce7c91f7f35f2a26c340",
-        "sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "previous_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
         "purpose": "editorial-review-only"
       },
-      "content_source": "authored-mdx",
-      "editorial_content_sha256": "ebd5499d038b26b5dc3ff7a547f0b80b2f6cd0e8d0d2d58e91c21afba12e2ead",
-      "materialization": {
-        "format": 1,
-        "capture_id": "5cb328aa9e0394e0",
-        "scenario_id": "attendance-automatic",
-        "report_sha256": "ea85e6629a4109f464e6a4a51ed164f594e27680bf25b2ef860639db1112622e"
-      }
+      "content_source": "authored-mdx"
     },
     "docs/carnet.mdx#carnet-pubblici-e-privati": {
       "title": "Carnet pubblici e privati",
       "content_sha256": "ca8118188fdad61dc2e50890b1f3ecaba4cbb7856b4ab85f1fcae5653476fe11",
       "recipe_module": "docs/manuale/attendance-carnet-recipes.mjs",
-      "recipe_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+      "recipe_sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
       "recipe_review": {
-        "previous_sha256": "81cfa60348f464d75659dbe6150353e93d1ed52e3663ce7c91f7f35f2a26c340",
-        "sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "previous_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
         "purpose": "editorial-review-only"
       },
-      "content_source": "authored-mdx",
-      "editorial_content_sha256": "ca8118188fdad61dc2e50890b1f3ecaba4cbb7856b4ab85f1fcae5653476fe11",
-      "materialization": {
-        "format": 1,
-        "capture_id": "a090d6e1699b3fae",
-        "scenario_id": "attendance-carnet-manual",
-        "report_sha256": "fb2547d0e71ae612103705a521cd870b7c75bc4845f78398e14d06de9717f84d"
-      }
+      "content_source": "authored-mdx"
     },
     "docs/carnet.mdx#come-funziona-un-carnet": {
       "title": "Come funziona un carnet?",
       "content_sha256": "b39deda25dd0cfb8b9c3cd18d9547eef54270ac80f7549acb97f9f231e89f2af",
       "recipe_module": "docs/manuale/attendance-carnet-recipes.mjs",
-      "recipe_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+      "recipe_sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
       "recipe_review": {
-        "previous_sha256": "81cfa60348f464d75659dbe6150353e93d1ed52e3663ce7c91f7f35f2a26c340",
-        "sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "previous_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
         "purpose": "editorial-review-only"
       },
-      "content_source": "authored-mdx",
-      "editorial_content_sha256": "b39deda25dd0cfb8b9c3cd18d9547eef54270ac80f7549acb97f9f231e89f2af",
-      "materialization": {
-        "format": 1,
-        "capture_id": "a090d6e1699b3fae",
-        "scenario_id": "attendance-carnet-manual",
-        "report_sha256": "fb2547d0e71ae612103705a521cd870b7c75bc4845f78398e14d06de9717f84d"
-      }
+      "content_source": "authored-mdx"
     },
     "docs/carnet.mdx#cos-e-un-carnet": {
       "title": "Cos'è un carnet?",
       "content_sha256": "4583b6ba64a25fda69f4a72b581714b649e9b52a5bb159ae8a078768a2cce0c7",
       "recipe_module": "docs/manuale/attendance-carnet-recipes.mjs",
-      "recipe_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+      "recipe_sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
       "recipe_review": {
-        "previous_sha256": "81cfa60348f464d75659dbe6150353e93d1ed52e3663ce7c91f7f35f2a26c340",
-        "sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "previous_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
         "purpose": "editorial-review-only"
       },
-      "content_source": "authored-mdx",
-      "editorial_content_sha256": "4583b6ba64a25fda69f4a72b581714b649e9b52a5bb159ae8a078768a2cce0c7",
-      "materialization": {
-        "format": 1,
-        "capture_id": "a090d6e1699b3fae",
-        "scenario_id": "attendance-carnet-manual",
-        "report_sha256": "fb2547d0e71ae612103705a521cd870b7c75bc4845f78398e14d06de9717f84d"
-      }
+      "content_source": "authored-mdx"
     },
     "docs/carnet.mdx#creare-e-gestire-un-carnet": {
       "title": "Creare e gestire un carnet",
       "content_sha256": "6ff42714844b530ef75ca2729ef74e5ae50abb405b1fae4fbc7a4d5672f1a220",
       "recipe_module": "docs/manuale/attendance-carnet-recipes.mjs",
-      "recipe_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+      "recipe_sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
       "recipe_review": {
-        "previous_sha256": "81cfa60348f464d75659dbe6150353e93d1ed52e3663ce7c91f7f35f2a26c340",
-        "sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "previous_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
         "purpose": "editorial-review-only"
       },
-      "content_source": "authored-mdx",
-      "editorial_content_sha256": "6ff42714844b530ef75ca2729ef74e5ae50abb405b1fae4fbc7a4d5672f1a220",
-      "materialization": {
-        "format": 1,
-        "capture_id": "a090d6e1699b3fae",
-        "scenario_id": "attendance-carnet-manual",
-        "report_sha256": "fb2547d0e71ae612103705a521cd870b7c75bc4845f78398e14d06de9717f84d"
-      }
+      "content_source": "authored-mdx"
     },
     "docs/carnet.mdx#logica-di-scalamento-lezioni": {
       "title": "Logica di scalamento lezioni",
       "content_sha256": "d8d676b4937f4b6f8cf17776f044a940e967d9b365f48320e55a47bf148d623b",
       "recipe_module": "docs/manuale/attendance-carnet-recipes.mjs",
-      "recipe_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+      "recipe_sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
       "recipe_review": {
-        "previous_sha256": "81cfa60348f464d75659dbe6150353e93d1ed52e3663ce7c91f7f35f2a26c340",
-        "sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "previous_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
         "purpose": "editorial-review-only"
       },
-      "content_source": "authored-mdx",
-      "editorial_content_sha256": "d8d676b4937f4b6f8cf17776f044a940e967d9b365f48320e55a47bf148d623b",
-      "materialization": {
-        "format": 1,
-        "capture_id": "5cb328aa9e0394e0",
-        "scenario_id": "attendance-carnet-variants",
-        "report_sha256": "1d18b2b4e7119bc3a05dc48d54b8b20235f660d9ff48bd3fe297d6057efba65f"
-      }
+      "content_source": "authored-mdx"
     },
     "docs/carnet.mdx#registro-presenze-automatico-con-carnet": {
       "title": "Registro presenze automatico con carnet",
       "content_sha256": "fbdc03f9ab4f0aa4e2af7c1f7ff855fcd02442a0f4d9a1cf7b26647da58d90a6",
       "recipe_module": "docs/manuale/attendance-carnet-recipes.mjs",
-      "recipe_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+      "recipe_sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
       "recipe_review": {
-        "previous_sha256": "81cfa60348f464d75659dbe6150353e93d1ed52e3663ce7c91f7f35f2a26c340",
-        "sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "previous_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
         "purpose": "editorial-review-only"
       },
-      "content_source": "authored-mdx",
-      "editorial_content_sha256": "fbdc03f9ab4f0aa4e2af7c1f7ff855fcd02442a0f4d9a1cf7b26647da58d90a6",
-      "materialization": {
-        "format": 1,
-        "capture_id": "5cb328aa9e0394e0",
-        "scenario_id": "attendance-automatic",
-        "report_sha256": "ea85e6629a4109f464e6a4a51ed164f594e27680bf25b2ef860639db1112622e"
-      }
+      "content_source": "authored-mdx"
     },
     "docs/carnet.mdx#ricaricare-un-carnet": {
       "title": "Ricaricare un carnet",
       "content_sha256": "78f7ffcb5d3c9ae1d878d63e00fbd2431e3272049f6778d3e3834a2deee7e968",
       "recipe_module": "docs/manuale/attendance-carnet-recipes.mjs",
-      "recipe_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+      "recipe_sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
       "recipe_review": {
-        "previous_sha256": "81cfa60348f464d75659dbe6150353e93d1ed52e3663ce7c91f7f35f2a26c340",
-        "sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "previous_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
         "purpose": "editorial-review-only"
       },
-      "content_source": "authored-mdx",
-      "editorial_content_sha256": "78f7ffcb5d3c9ae1d878d63e00fbd2431e3272049f6778d3e3834a2deee7e968",
-      "materialization": {
-        "format": 1,
-        "capture_id": "a090d6e1699b3fae",
-        "scenario_id": "attendance-carnet-maintenance",
-        "report_sha256": "bb02374408c9379f8b2bbb5b282b5a7f37a5dd70600bd1768104637d64c52a46"
-      }
+      "content_source": "authored-mdx"
     },
     "docs/carnet.mdx#riepilogo-delle-regole-di-funzionamento": {
       "title": "Riepilogo delle regole di funzionamento",
       "content_sha256": "f0dd0b7d5cb5fa0b0a80e08fe54eabcdd2c0837a7c8481bf3c3a6d1a0d01388c",
       "recipe_module": "docs/manuale/attendance-carnet-recipes.mjs",
-      "recipe_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+      "recipe_sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
       "recipe_review": {
-        "previous_sha256": "81cfa60348f464d75659dbe6150353e93d1ed52e3663ce7c91f7f35f2a26c340",
-        "sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "previous_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
         "purpose": "editorial-review-only"
       },
       "content_source": "authored-mdx"
@@ -1360,10 +1290,10 @@
       "title": "Risorse correlate",
       "content_sha256": "9f2d00ae2f2d46bac4e69410bff5346d0543b22a3c7631b86ec3af6ee33b4989",
       "recipe_module": "docs/manuale/attendance-carnet-recipes.mjs",
-      "recipe_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+      "recipe_sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
       "recipe_review": {
-        "previous_sha256": "81cfa60348f464d75659dbe6150353e93d1ed52e3663ce7c91f7f35f2a26c340",
-        "sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "previous_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
         "purpose": "editorial-review-only"
       },
       "content_source": "authored-mdx"
@@ -2075,57 +2005,36 @@
       "title": "Aggiungere o rimuovere atleti",
       "content_sha256": "f63df5c75d09b0066809476525296aaa884e0f442a267d2e7a6e1a106acd3f0e",
       "recipe_module": "docs/manuale/attendance-carnet-recipes.mjs",
-      "recipe_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+      "recipe_sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
       "content_source": "authored-mdx",
       "recipe_review": {
-        "previous_sha256": "81cfa60348f464d75659dbe6150353e93d1ed52e3663ce7c91f7f35f2a26c340",
-        "sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "previous_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
         "purpose": "editorial-review-only"
-      },
-      "editorial_content_sha256": "f63df5c75d09b0066809476525296aaa884e0f442a267d2e7a6e1a106acd3f0e",
-      "materialization": {
-        "format": 1,
-        "capture_id": "5cb328aa9e0394e0",
-        "scenario_id": "course-enrollment-calendar-navigation",
-        "report_sha256": "91f6e1f2ab93967005fd848ae8c7cf54186c65c4ac1502d878b45626518563f7"
       }
     },
     "docs/corsi.mdx#calendario-delle-lezioni": {
       "title": "Calendario delle lezioni",
       "content_sha256": "166ac9790dc5c20f80e9ad94c378a8a4f069fe64d23475bf8ae225e4904bab6b",
       "recipe_module": "docs/manuale/attendance-carnet-recipes.mjs",
-      "recipe_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+      "recipe_sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
       "content_source": "authored-mdx",
       "recipe_review": {
-        "previous_sha256": "81cfa60348f464d75659dbe6150353e93d1ed52e3663ce7c91f7f35f2a26c340",
-        "sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "previous_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
         "purpose": "editorial-review-only"
-      },
-      "editorial_content_sha256": "166ac9790dc5c20f80e9ad94c378a8a4f069fe64d23475bf8ae225e4904bab6b",
-      "materialization": {
-        "format": 1,
-        "capture_id": "a090d6e1699b3fae",
-        "scenario_id": "attendance-carnet-manual",
-        "report_sha256": "fb2547d0e71ae612103705a521cd870b7c75bc4845f78398e14d06de9717f84d"
       }
     },
     "docs/corsi.mdx#corso-con-pagamento-per-lezione": {
       "title": "Corso con pagamento per lezione",
       "content_sha256": "2b0527543e815f2092e48b24ed208df4a0e02790f07d4d8a61d38984a304b73d",
       "recipe_module": "docs/manuale/attendance-carnet-recipes.mjs",
-      "recipe_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+      "recipe_sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
       "content_source": "authored-mdx",
       "recipe_review": {
-        "previous_sha256": "81cfa60348f464d75659dbe6150353e93d1ed52e3663ce7c91f7f35f2a26c340",
-        "sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "previous_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
         "purpose": "editorial-review-only"
-      },
-      "editorial_content_sha256": "2b0527543e815f2092e48b24ed208df4a0e02790f07d4d8a61d38984a304b73d",
-      "materialization": {
-        "format": 1,
-        "capture_id": "a090d6e1699b3fae",
-        "scenario_id": "attendance-carnet-manual",
-        "report_sha256": "fb2547d0e71ae612103705a521cd870b7c75bc4845f78398e14d06de9717f84d"
       }
     },
     "docs/corsi.mdx#creare-un-corso": {
@@ -2144,38 +2053,24 @@
       "title": "Gestire le lezioni",
       "content_sha256": "d9930ce03a776ce1400e323d7030f0dbb7f595e5a312117cf7e548ba1f59d4b5",
       "recipe_module": "docs/manuale/attendance-carnet-recipes.mjs",
-      "recipe_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+      "recipe_sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
       "content_source": "authored-mdx",
       "recipe_review": {
-        "previous_sha256": "81cfa60348f464d75659dbe6150353e93d1ed52e3663ce7c91f7f35f2a26c340",
-        "sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "previous_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
         "purpose": "editorial-review-only"
-      },
-      "editorial_content_sha256": "d9930ce03a776ce1400e323d7030f0dbb7f595e5a312117cf7e548ba1f59d4b5",
-      "materialization": {
-        "format": 1,
-        "capture_id": "a090d6e1699b3fae",
-        "scenario_id": "attendance-carnet-manual",
-        "report_sha256": "fb2547d0e71ae612103705a521cd870b7c75bc4845f78398e14d06de9717f84d"
       }
     },
     "docs/corsi.mdx#lezione-singola": {
       "title": "Lezione singola",
       "content_sha256": "d5104ef27a3917ac46ed3a0357348da7e4e792d661d18c136f67902781569f31",
       "recipe_module": "docs/manuale/attendance-carnet-recipes.mjs",
-      "recipe_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+      "recipe_sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
       "content_source": "authored-mdx",
       "recipe_review": {
-        "previous_sha256": "81cfa60348f464d75659dbe6150353e93d1ed52e3663ce7c91f7f35f2a26c340",
-        "sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "previous_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
         "purpose": "editorial-review-only"
-      },
-      "editorial_content_sha256": "d5104ef27a3917ac46ed3a0357348da7e4e792d661d18c136f67902781569f31",
-      "materialization": {
-        "format": 1,
-        "capture_id": "a090d6e1699b3fae",
-        "scenario_id": "attendance-carnet-manual",
-        "report_sha256": "fb2547d0e71ae612103705a521cd870b7c75bc4845f78398e14d06de9717f84d"
       }
     },
     "docs/corsi.mdx#modificare-le-informazioni-del-corso": {
@@ -2194,19 +2089,12 @@
       "title": "Pubblicare il calendario",
       "content_sha256": "6b44b8c9597ed0b604f1fd7822d32c8e508169ddda6a31d7f8d5adea286565a9",
       "recipe_module": "docs/manuale/attendance-carnet-recipes.mjs",
-      "recipe_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+      "recipe_sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
       "content_source": "authored-mdx",
       "recipe_review": {
-        "previous_sha256": "81cfa60348f464d75659dbe6150353e93d1ed52e3663ce7c91f7f35f2a26c340",
-        "sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "previous_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
         "purpose": "editorial-review-only"
-      },
-      "editorial_content_sha256": "6b44b8c9597ed0b604f1fd7822d32c8e508169ddda6a31d7f8d5adea286565a9",
-      "materialization": {
-        "format": 1,
-        "capture_id": "5cb328aa9e0394e0",
-        "scenario_id": "course-enrollment-calendar-navigation",
-        "report_sha256": "91f6e1f2ab93967005fd848ae8c7cf54186c65c4ac1502d878b45626518563f7"
       }
     },
     "docs/impostazioni.mdx#anno-fiscale": {
@@ -2728,200 +2616,130 @@
       "title": "Attivare le presenze automatiche",
       "content_sha256": "04070b7cbde2c08ed181b874b6ecc60e16eaa18bbd577dbee0da99c7720c6820",
       "recipe_module": "docs/manuale/attendance-carnet-recipes.mjs",
-      "recipe_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+      "recipe_sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
       "recipe_review": {
-        "previous_sha256": "81cfa60348f464d75659dbe6150353e93d1ed52e3663ce7c91f7f35f2a26c340",
-        "sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "previous_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
         "purpose": "editorial-review-only"
       },
-      "content_source": "authored-mdx",
-      "editorial_content_sha256": "04070b7cbde2c08ed181b874b6ecc60e16eaa18bbd577dbee0da99c7720c6820",
-      "materialization": {
-        "format": 1,
-        "capture_id": "5cb328aa9e0394e0",
-        "scenario_id": "attendance-automatic",
-        "report_sha256": "ea85e6629a4109f464e6a4a51ed164f594e27680bf25b2ef860639db1112622e"
-      }
+      "content_source": "authored-mdx"
     },
     "docs/registro-presenze.mdx#casi-particolari-con-i-carnet": {
       "title": "Casi particolari con i carnet",
       "content_sha256": "5aafe893a2570210ae30b258bf23c0ed909309c0fc332ee9bdc195a517264f00",
       "recipe_module": "docs/manuale/attendance-carnet-recipes.mjs",
-      "recipe_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+      "recipe_sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
       "recipe_review": {
-        "previous_sha256": "81cfa60348f464d75659dbe6150353e93d1ed52e3663ce7c91f7f35f2a26c340",
-        "sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "previous_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
         "purpose": "editorial-review-only"
       },
-      "content_source": "authored-mdx",
-      "editorial_content_sha256": "5aafe893a2570210ae30b258bf23c0ed909309c0fc332ee9bdc195a517264f00",
-      "materialization": {
-        "format": 1,
-        "capture_id": "5cb328aa9e0394e0",
-        "scenario_id": "attendance-carnet-variants",
-        "report_sha256": "1d18b2b4e7119bc3a05dc48d54b8b20235f660d9ff48bd3fe297d6057efba65f"
-      }
+      "content_source": "authored-mdx"
     },
     "docs/registro-presenze.mdx#come-funziona": {
       "title": "Come funziona",
       "content_sha256": "fae2f41378e2be6ad48596ea67f20304e33d24a0ccd206d1c6753e1a21dc65f5",
       "recipe_module": "docs/manuale/attendance-carnet-recipes.mjs",
-      "recipe_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+      "recipe_sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
       "recipe_review": {
-        "previous_sha256": "81cfa60348f464d75659dbe6150353e93d1ed52e3663ce7c91f7f35f2a26c340",
-        "sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "previous_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
         "purpose": "editorial-review-only"
       },
-      "content_source": "authored-mdx",
-      "editorial_content_sha256": "fae2f41378e2be6ad48596ea67f20304e33d24a0ccd206d1c6753e1a21dc65f5",
-      "materialization": {
-        "format": 1,
-        "capture_id": "5cb328aa9e0394e0",
-        "scenario_id": "attendance-automatic",
-        "report_sha256": "ea85e6629a4109f464e6a4a51ed164f594e27680bf25b2ef860639db1112622e"
-      }
+      "content_source": "authored-mdx"
     },
     "docs/registro-presenze.mdx#come-funziona-la-sincronizzazione": {
       "title": "Come funziona la sincronizzazione",
       "content_sha256": "2dcc5a1fa7fa736595d6b13d805dd0bcf69aea583ac3903d7484ef591e6ecce5",
       "recipe_module": "docs/manuale/attendance-carnet-recipes.mjs",
-      "recipe_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+      "recipe_sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
       "recipe_review": {
-        "previous_sha256": "81cfa60348f464d75659dbe6150353e93d1ed52e3663ce7c91f7f35f2a26c340",
-        "sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "previous_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
         "purpose": "editorial-review-only"
       },
-      "content_source": "authored-mdx",
-      "editorial_content_sha256": "2dcc5a1fa7fa736595d6b13d805dd0bcf69aea583ac3903d7484ef591e6ecce5",
-      "materialization": {
-        "format": 1,
-        "capture_id": "a090d6e1699b3fae",
-        "scenario_id": "course-calendar-maintenance",
-        "report_sha256": "942f8b04e9e8e104ce15ccffbb2fad43320b94d187ff842614299c29f9ce7486"
-      }
+      "content_source": "authored-mdx"
     },
     "docs/registro-presenze.mdx#consultare-lo-storico-presenze-di-un-atleta": {
       "title": "Consultare lo storico presenze di un atleta",
       "content_sha256": "0149655ab59e99a69605f76a8be410839331a13b96b5eccd016664a73d1c3cf0",
       "recipe_module": "docs/manuale/attendance-carnet-recipes.mjs",
-      "recipe_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+      "recipe_sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
       "recipe_review": {
-        "previous_sha256": "81cfa60348f464d75659dbe6150353e93d1ed52e3663ce7c91f7f35f2a26c340",
-        "sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "previous_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
         "purpose": "editorial-review-only"
       },
-      "content_source": "authored-mdx",
-      "editorial_content_sha256": "0149655ab59e99a69605f76a8be410839331a13b96b5eccd016664a73d1c3cf0",
-      "materialization": {
-        "format": 1,
-        "capture_id": "a090d6e1699b3fae",
-        "scenario_id": "attendance-carnet-maintenance",
-        "report_sha256": "bb02374408c9379f8b2bbb5b282b5a7f37a5dd70600bd1768104637d64c52a46"
-      }
+      "content_source": "authored-mdx"
     },
     "docs/registro-presenze.mdx#eliminare-una-lezione-dal-registro": {
       "title": "Eliminare una lezione dal registro",
       "content_sha256": "e1af3fe677cfd0b24a5df248d402e14394d300f71531c66f8c34a133fa9bb283",
       "recipe_module": "docs/manuale/attendance-carnet-recipes.mjs",
-      "recipe_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+      "recipe_sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
       "recipe_review": {
-        "previous_sha256": "81cfa60348f464d75659dbe6150353e93d1ed52e3663ce7c91f7f35f2a26c340",
-        "sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "previous_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
         "purpose": "editorial-review-only"
       },
-      "content_source": "authored-mdx",
-      "editorial_content_sha256": "e1af3fe677cfd0b24a5df248d402e14394d300f71531c66f8c34a133fa9bb283",
-      "materialization": {
-        "format": 1,
-        "capture_id": "a090d6e1699b3fae",
-        "scenario_id": "attendance-carnet-maintenance",
-        "report_sha256": "bb02374408c9379f8b2bbb5b282b5a7f37a5dd70600bd1768104637d64c52a46"
-      }
+      "content_source": "authored-mdx"
     },
     "docs/registro-presenze.mdx#interazione-con-i-carnet": {
       "title": "Interazione con i carnet",
       "content_sha256": "ff61b9dd428993f222606b026f267a2caa426d8038a09d3169a97f01beadeab4",
       "recipe_module": "docs/manuale/attendance-carnet-recipes.mjs",
-      "recipe_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+      "recipe_sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
       "recipe_review": {
-        "previous_sha256": "81cfa60348f464d75659dbe6150353e93d1ed52e3663ce7c91f7f35f2a26c340",
-        "sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "previous_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
         "purpose": "editorial-review-only"
       },
-      "content_source": "authored-mdx",
-      "editorial_content_sha256": "ff61b9dd428993f222606b026f267a2caa426d8038a09d3169a97f01beadeab4",
-      "materialization": {
-        "format": 1,
-        "capture_id": "a090d6e1699b3fae",
-        "scenario_id": "attendance-carnet-manual",
-        "report_sha256": "fb2547d0e71ae612103705a521cd870b7c75bc4845f78398e14d06de9717f84d"
-      }
+      "content_source": "authored-mdx"
     },
     "docs/registro-presenze.mdx#introduzione": {
       "title": "Introduzione",
       "content_sha256": "37ab21d0a1a03d190fa4ad90b7bff65047cfaf0834ce068066fcbbdfd7a1cf7a",
       "recipe_module": "docs/manuale/attendance-carnet-recipes.mjs",
-      "recipe_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+      "recipe_sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
       "recipe_review": {
-        "previous_sha256": "81cfa60348f464d75659dbe6150353e93d1ed52e3663ce7c91f7f35f2a26c340",
-        "sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "previous_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
         "purpose": "editorial-review-only"
       },
-      "content_source": "authored-mdx",
-      "editorial_content_sha256": "37ab21d0a1a03d190fa4ad90b7bff65047cfaf0834ce068066fcbbdfd7a1cf7a",
-      "materialization": {
-        "format": 1,
-        "capture_id": "a090d6e1699b3fae",
-        "scenario_id": "attendance-carnet-manual",
-        "report_sha256": "fb2547d0e71ae612103705a521cd870b7c75bc4845f78398e14d06de9717f84d"
-      }
+      "content_source": "authored-mdx"
     },
     "docs/registro-presenze.mdx#presenze-automatiche-pro-teams": {
       "title": "Presenze automatiche (Pro/Teams)",
       "content_sha256": "bf2b1a71fbb2f841348d50693c8e06b1c9b911fdc2e744de35d373b1673af517",
       "recipe_module": "docs/manuale/attendance-carnet-recipes.mjs",
-      "recipe_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+      "recipe_sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
       "recipe_review": {
-        "previous_sha256": "81cfa60348f464d75659dbe6150353e93d1ed52e3663ce7c91f7f35f2a26c340",
-        "sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "previous_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
         "purpose": "editorial-review-only"
       },
-      "content_source": "authored-mdx",
-      "editorial_content_sha256": "bf2b1a71fbb2f841348d50693c8e06b1c9b911fdc2e744de35d373b1673af517",
-      "materialization": {
-        "format": 1,
-        "capture_id": "5cb328aa9e0394e0",
-        "scenario_id": "attendance-automatic",
-        "report_sha256": "ea85e6629a4109f464e6a4a51ed164f594e27680bf25b2ef860639db1112622e"
-      }
+      "content_source": "authored-mdx"
     },
     "docs/registro-presenze.mdx#restituzione-alla-rimozione": {
       "title": "Restituzione alla rimozione",
       "content_sha256": "f4ab090c64141cc79ee47c2ad940086abfa63b92b8ade287a71bc2c2edf13766",
       "recipe_module": "docs/manuale/attendance-carnet-recipes.mjs",
-      "recipe_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+      "recipe_sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
       "recipe_review": {
-        "previous_sha256": "81cfa60348f464d75659dbe6150353e93d1ed52e3663ce7c91f7f35f2a26c340",
-        "sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "previous_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
         "purpose": "editorial-review-only"
       },
-      "content_source": "authored-mdx",
-      "editorial_content_sha256": "f4ab090c64141cc79ee47c2ad940086abfa63b92b8ade287a71bc2c2edf13766",
-      "materialization": {
-        "format": 1,
-        "capture_id": "a090d6e1699b3fae",
-        "scenario_id": "attendance-carnet-manual",
-        "report_sha256": "fb2547d0e71ae612103705a521cd870b7c75bc4845f78398e14d06de9717f84d"
-      }
+      "content_source": "authored-mdx"
     },
     "docs/registro-presenze.mdx#risorse-correlate": {
       "title": "Risorse correlate",
       "content_sha256": "c690fd2f9780eb355b74b618ea0a87700c21df99428f7238af75210bdb31a2f9",
       "recipe_module": "docs/manuale/attendance-carnet-recipes.mjs",
-      "recipe_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+      "recipe_sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
       "recipe_review": {
-        "previous_sha256": "81cfa60348f464d75659dbe6150353e93d1ed52e3663ce7c91f7f35f2a26c340",
-        "sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "previous_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
         "purpose": "editorial-review-only"
       },
       "content_source": "authored-mdx"
@@ -2930,77 +2748,49 @@
       "title": "Scalamento alla presenza",
       "content_sha256": "e8b4a8edaaf20d2b3f52784ebff8cf5c4f705e5a506646160783849b2486dea8",
       "recipe_module": "docs/manuale/attendance-carnet-recipes.mjs",
-      "recipe_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+      "recipe_sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
       "recipe_review": {
-        "previous_sha256": "81cfa60348f464d75659dbe6150353e93d1ed52e3663ce7c91f7f35f2a26c340",
-        "sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "previous_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
         "purpose": "editorial-review-only"
       },
-      "content_source": "authored-mdx",
-      "editorial_content_sha256": "e8b4a8edaaf20d2b3f52784ebff8cf5c4f705e5a506646160783849b2486dea8",
-      "materialization": {
-        "format": 1,
-        "capture_id": "a090d6e1699b3fae",
-        "scenario_id": "attendance-carnet-manual",
-        "report_sha256": "fb2547d0e71ae612103705a521cd870b7c75bc4845f78398e14d06de9717f84d"
-      }
+      "content_source": "authored-mdx"
     },
     "docs/registro-presenze.mdx#segnalazione-assenze-da-parte-degli-atleti": {
       "title": "Segnalazione assenze da parte degli atleti",
       "content_sha256": "5ed7023694ba9b320c0c4dd9dcb4b51f433c650e82a0758458e0b1a4f6707946",
       "recipe_module": "docs/manuale/attendance-carnet-recipes.mjs",
-      "recipe_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+      "recipe_sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
       "recipe_review": {
-        "previous_sha256": "81cfa60348f464d75659dbe6150353e93d1ed52e3663ce7c91f7f35f2a26c340",
-        "sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "previous_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
         "purpose": "editorial-review-only"
       },
-      "content_source": "authored-mdx",
-      "editorial_content_sha256": "5ed7023694ba9b320c0c4dd9dcb4b51f433c650e82a0758458e0b1a4f6707946",
-      "materialization": {
-        "format": 1,
-        "capture_id": "5cb328aa9e0394e0",
-        "scenario_id": "attendance-automatic",
-        "report_sha256": "ea85e6629a4109f464e6a4a51ed164f594e27680bf25b2ef860639db1112622e"
-      }
+      "content_source": "authored-mdx"
     },
     "docs/registro-presenze.mdx#segnare-le-presenze-manualmente": {
       "title": "Segnare le presenze manualmente",
       "content_sha256": "193b9ca1886b3446db8190897c144655ce4476d90b901560eb2daf3ab01801ed",
       "recipe_module": "docs/manuale/attendance-carnet-recipes.mjs",
-      "recipe_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+      "recipe_sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
       "recipe_review": {
-        "previous_sha256": "81cfa60348f464d75659dbe6150353e93d1ed52e3663ce7c91f7f35f2a26c340",
-        "sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "previous_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
         "purpose": "editorial-review-only"
       },
-      "content_source": "authored-mdx",
-      "editorial_content_sha256": "193b9ca1886b3446db8190897c144655ce4476d90b901560eb2daf3ab01801ed",
-      "materialization": {
-        "format": 1,
-        "capture_id": "a090d6e1699b3fae",
-        "scenario_id": "attendance-carnet-manual",
-        "report_sha256": "fb2547d0e71ae612103705a521cd870b7c75bc4845f78398e14d06de9717f84d"
-      }
+      "content_source": "authored-mdx"
     },
     "docs/registro-presenze.mdx#sincronizzazione-con-il-calendario": {
       "title": "Sincronizzazione con il calendario",
       "content_sha256": "11e744970c28a492589e6bd08eb0aa12e62360445eecaaca6cbcc78afb886aa1",
       "recipe_module": "docs/manuale/attendance-carnet-recipes.mjs",
-      "recipe_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+      "recipe_sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
       "recipe_review": {
-        "previous_sha256": "81cfa60348f464d75659dbe6150353e93d1ed52e3663ce7c91f7f35f2a26c340",
-        "sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "previous_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
         "purpose": "editorial-review-only"
       },
-      "content_source": "authored-mdx",
-      "editorial_content_sha256": "11e744970c28a492589e6bd08eb0aa12e62360445eecaaca6cbcc78afb886aa1",
-      "materialization": {
-        "format": 1,
-        "capture_id": "a090d6e1699b3fae",
-        "scenario_id": "course-calendar-maintenance",
-        "report_sha256": "942f8b04e9e8e104ce15ccffbb2fad43320b94d187ff842614299c29f9ce7486"
-      }
+      "content_source": "authored-mdx"
     },
     "docs/ricevute.mdx#come-posso-scaricare-una-ricevuta": {
       "title": "Come posso scaricare una ricevuta?",
@@ -4338,105 +4128,70 @@
       "title": "Aggiungere una presenza mancante",
       "content_sha256": "3d5c295f3b0132077b921cf75f8e0a9af48d8dad30ca7e27bc51b305ff648677",
       "recipe_module": "docs/manuale/attendance-carnet-recipes.mjs",
-      "recipe_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+      "recipe_sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
       "recipe_review": {
-        "previous_sha256": "81cfa60348f464d75659dbe6150353e93d1ed52e3663ce7c91f7f35f2a26c340",
-        "sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "previous_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
         "purpose": "editorial-review-only"
       },
-      "content_source": "authored-mdx",
-      "editorial_content_sha256": "3d5c295f3b0132077b921cf75f8e0a9af48d8dad30ca7e27bc51b305ff648677",
-      "materialization": {
-        "format": 1,
-        "capture_id": "a090d6e1699b3fae",
-        "scenario_id": "attendance-carnet-manual",
-        "report_sha256": "fb2547d0e71ae612103705a521cd870b7c75bc4845f78398e14d06de9717f84d"
-      }
+      "content_source": "authored-mdx"
     },
     "tutorials/come-gestire-registro-presenze-carnet.mdx#assegnare-un-nuovo-carnet": {
       "title": "Assegnare un nuovo carnet",
       "content_sha256": "21ed08fd12a55e846f18d1bbdb03dc59e69d38bce80760f5b6b39abab3d7ba8a",
       "recipe_module": "docs/manuale/attendance-carnet-recipes.mjs",
-      "recipe_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+      "recipe_sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
       "recipe_review": {
-        "previous_sha256": "81cfa60348f464d75659dbe6150353e93d1ed52e3663ce7c91f7f35f2a26c340",
-        "sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "previous_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
         "purpose": "editorial-review-only"
       },
-      "content_source": "authored-mdx",
-      "editorial_content_sha256": "21ed08fd12a55e846f18d1bbdb03dc59e69d38bce80760f5b6b39abab3d7ba8a",
-      "materialization": {
-        "format": 1,
-        "capture_id": "a090d6e1699b3fae",
-        "scenario_id": "attendance-carnet-maintenance",
-        "report_sha256": "bb02374408c9379f8b2bbb5b282b5a7f37a5dd70600bd1768104637d64c52a46"
-      }
+      "content_source": "authored-mdx"
     },
     "tutorials/come-gestire-registro-presenze-carnet.mdx#come-funziona": {
       "title": "Come funziona",
       "content_sha256": "76efe2a09a4bc835949093ec09db0aba06c850776a726d6a511bff515b3ea8c2",
       "recipe_module": "docs/manuale/attendance-carnet-recipes.mjs",
-      "recipe_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+      "recipe_sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
       "recipe_review": {
-        "previous_sha256": "81cfa60348f464d75659dbe6150353e93d1ed52e3663ce7c91f7f35f2a26c340",
-        "sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "previous_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
         "purpose": "editorial-review-only"
       },
-      "content_source": "authored-mdx",
-      "editorial_content_sha256": "76efe2a09a4bc835949093ec09db0aba06c850776a726d6a511bff515b3ea8c2",
-      "materialization": {
-        "format": 1,
-        "capture_id": "5cb328aa9e0394e0",
-        "scenario_id": "attendance-automatic",
-        "report_sha256": "ea85e6629a4109f464e6a4a51ed164f594e27680bf25b2ef860639db1112622e"
-      }
+      "content_source": "authored-mdx"
     },
     "tutorials/come-gestire-registro-presenze-carnet.mdx#come-funzionano-i-carnet-con-le-presenze": {
       "title": "Come funzionano i carnet con le presenze",
       "content_sha256": "ecfc32ea1b2900bb8fbdb9b0e203a3db5e29d93f6b392cc2fbb2b5a8eb15aeff",
       "recipe_module": "docs/manuale/attendance-carnet-recipes.mjs",
-      "recipe_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+      "recipe_sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
       "recipe_review": {
-        "previous_sha256": "81cfa60348f464d75659dbe6150353e93d1ed52e3663ce7c91f7f35f2a26c340",
-        "sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "previous_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
         "purpose": "editorial-review-only"
       },
-      "content_source": "authored-mdx",
-      "editorial_content_sha256": "ecfc32ea1b2900bb8fbdb9b0e203a3db5e29d93f6b392cc2fbb2b5a8eb15aeff",
-      "materialization": {
-        "format": 1,
-        "capture_id": "a090d6e1699b3fae",
-        "scenario_id": "attendance-carnet-manual",
-        "report_sha256": "fb2547d0e71ae612103705a521cd870b7c75bc4845f78398e14d06de9717f84d"
-      }
+      "content_source": "authored-mdx"
     },
     "tutorials/come-gestire-registro-presenze-carnet.mdx#come-si-attivano-le-presenze-automatiche": {
       "title": "Come si attivano le presenze automatiche",
       "content_sha256": "9381b03cb2d1399241f5e3a393e09d4410d14243da8e72f468b5c916a52bc811",
       "recipe_module": "docs/manuale/attendance-carnet-recipes.mjs",
-      "recipe_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+      "recipe_sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
       "recipe_review": {
-        "previous_sha256": "81cfa60348f464d75659dbe6150353e93d1ed52e3663ce7c91f7f35f2a26c340",
-        "sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "previous_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
         "purpose": "editorial-review-only"
       },
-      "content_source": "authored-mdx",
-      "editorial_content_sha256": "9381b03cb2d1399241f5e3a393e09d4410d14243da8e72f468b5c916a52bc811",
-      "materialization": {
-        "format": 1,
-        "capture_id": "5cb328aa9e0394e0",
-        "scenario_id": "attendance-automatic",
-        "report_sha256": "ea85e6629a4109f464e6a4a51ed164f594e27680bf25b2ef860639db1112622e"
-      }
+      "content_source": "authored-mdx"
     },
     "tutorials/come-gestire-registro-presenze-carnet.mdx#conclusione": {
       "title": "Conclusione",
       "content_sha256": "fc7c404c61d29e12e4c793b5503bfc7babf158fafc1eba160de9f93d3249a441",
       "recipe_module": "docs/manuale/attendance-carnet-recipes.mjs",
-      "recipe_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+      "recipe_sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
       "recipe_review": {
-        "previous_sha256": "81cfa60348f464d75659dbe6150353e93d1ed52e3663ce7c91f7f35f2a26c340",
-        "sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "previous_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
         "purpose": "editorial-review-only"
       },
       "content_source": "authored-mdx"
@@ -4445,229 +4200,145 @@
       "title": "Consigli per la gestione dei carnet",
       "content_sha256": "d317e8fb0209ad0bd1e90be967354d62c9df949cb0c994be20fe2afed2603eea",
       "recipe_module": "docs/manuale/attendance-carnet-recipes.mjs",
-      "recipe_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+      "recipe_sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
       "recipe_review": {
-        "previous_sha256": "81cfa60348f464d75659dbe6150353e93d1ed52e3663ce7c91f7f35f2a26c340",
-        "sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "previous_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
         "purpose": "editorial-review-only"
       },
-      "content_source": "authored-mdx",
-      "editorial_content_sha256": "d317e8fb0209ad0bd1e90be967354d62c9df949cb0c994be20fe2afed2603eea",
-      "materialization": {
-        "format": 1,
-        "capture_id": "a090d6e1699b3fae",
-        "scenario_id": "attendance-carnet-manual",
-        "report_sha256": "fb2547d0e71ae612103705a521cd870b7c75bc4845f78398e14d06de9717f84d"
-      }
+      "content_source": "authored-mdx"
     },
     "tutorials/come-gestire-registro-presenze-carnet.mdx#controllare-le-lezioni-rimanenti": {
       "title": "Controllare le lezioni rimanenti",
       "content_sha256": "7ff787d84c261283ad2ff8528b0fa86c681c8d4ae0edb2920e1169e9aea2e5a7",
       "recipe_module": "docs/manuale/attendance-carnet-recipes.mjs",
-      "recipe_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+      "recipe_sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
       "recipe_review": {
-        "previous_sha256": "81cfa60348f464d75659dbe6150353e93d1ed52e3663ce7c91f7f35f2a26c340",
-        "sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "previous_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
         "purpose": "editorial-review-only"
       },
-      "content_source": "authored-mdx",
-      "editorial_content_sha256": "7ff787d84c261283ad2ff8528b0fa86c681c8d4ae0edb2920e1169e9aea2e5a7",
-      "materialization": {
-        "format": 1,
-        "capture_id": "a090d6e1699b3fae",
-        "scenario_id": "attendance-carnet-manual",
-        "report_sha256": "fb2547d0e71ae612103705a521cd870b7c75bc4845f78398e14d06de9717f84d"
-      }
+      "content_source": "authored-mdx"
     },
     "tutorials/come-gestire-registro-presenze-carnet.mdx#correggere-una-presenza-errata": {
       "title": "Correggere una presenza errata",
       "content_sha256": "b604b71e916497341699aceb2b6f7929d3092959f96761e75877534809a4f6a4",
       "recipe_module": "docs/manuale/attendance-carnet-recipes.mjs",
-      "recipe_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+      "recipe_sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
       "recipe_review": {
-        "previous_sha256": "81cfa60348f464d75659dbe6150353e93d1ed52e3663ce7c91f7f35f2a26c340",
-        "sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "previous_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
         "purpose": "editorial-review-only"
       },
-      "content_source": "authored-mdx",
-      "editorial_content_sha256": "b604b71e916497341699aceb2b6f7929d3092959f96761e75877534809a4f6a4",
-      "materialization": {
-        "format": 1,
-        "capture_id": "a090d6e1699b3fae",
-        "scenario_id": "attendance-carnet-manual",
-        "report_sha256": "fb2547d0e71ae612103705a521cd870b7c75bc4845f78398e14d06de9717f84d"
-      }
+      "content_source": "authored-mdx"
     },
     "tutorials/come-gestire-registro-presenze-carnet.mdx#gestire-le-lezioni-perse-e-le-correzioni": {
       "title": "Gestire le lezioni perse e le correzioni",
       "content_sha256": "020b0a34a74e7435341089e377b05abf365035437267145be3ae947f0e37b18e",
       "recipe_module": "docs/manuale/attendance-carnet-recipes.mjs",
-      "recipe_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+      "recipe_sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
       "recipe_review": {
-        "previous_sha256": "81cfa60348f464d75659dbe6150353e93d1ed52e3663ce7c91f7f35f2a26c340",
-        "sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "previous_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
         "purpose": "editorial-review-only"
       },
-      "content_source": "authored-mdx",
-      "editorial_content_sha256": "020b0a34a74e7435341089e377b05abf365035437267145be3ae947f0e37b18e",
-      "materialization": {
-        "format": 1,
-        "capture_id": "a090d6e1699b3fae",
-        "scenario_id": "attendance-carnet-manual",
-        "report_sha256": "fb2547d0e71ae612103705a521cd870b7c75bc4845f78398e14d06de9717f84d"
-      }
+      "content_source": "authored-mdx"
     },
     "tutorials/come-gestire-registro-presenze-carnet.mdx#indice": {
       "title": "Indice",
       "content_sha256": "f588538d6264d395e0163bb59532246729e2c6e8beab07512fbdefc57eefc5b1",
       "recipe_module": "docs/manuale/attendance-carnet-recipes.mjs",
-      "recipe_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+      "recipe_sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
       "recipe_review": {
-        "previous_sha256": "81cfa60348f464d75659dbe6150353e93d1ed52e3663ce7c91f7f35f2a26c340",
-        "sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "previous_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
         "purpose": "editorial-review-only"
       },
-      "content_source": "authored-mdx",
-      "editorial_content_sha256": "f588538d6264d395e0163bb59532246729e2c6e8beab07512fbdefc57eefc5b1",
-      "materialization": {
-        "format": 1,
-        "capture_id": "a090d6e1699b3fae",
-        "scenario_id": "attendance-carnet-manual",
-        "report_sha256": "fb2547d0e71ae612103705a521cd870b7c75bc4845f78398e14d06de9717f84d"
-      }
+      "content_source": "authored-mdx"
     },
     "tutorials/come-gestire-registro-presenze-carnet.mdx#modificare-le-lezioni-rimanenti": {
       "title": "Modificare le lezioni rimanenti",
       "content_sha256": "2dc562fc11039b98956771c733ef7a3c13c96daa8f9ef07eb14424420c396af4",
       "recipe_module": "docs/manuale/attendance-carnet-recipes.mjs",
-      "recipe_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+      "recipe_sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
       "recipe_review": {
-        "previous_sha256": "81cfa60348f464d75659dbe6150353e93d1ed52e3663ce7c91f7f35f2a26c340",
-        "sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "previous_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
         "purpose": "editorial-review-only"
       },
-      "content_source": "authored-mdx",
-      "editorial_content_sha256": "2dc562fc11039b98956771c733ef7a3c13c96daa8f9ef07eb14424420c396af4",
-      "materialization": {
-        "format": 1,
-        "capture_id": "a090d6e1699b3fae",
-        "scenario_id": "attendance-carnet-maintenance",
-        "report_sha256": "bb02374408c9379f8b2bbb5b282b5a7f37a5dd70600bd1768104637d64c52a46"
-      }
+      "content_source": "authored-mdx"
     },
     "tutorials/come-gestire-registro-presenze-carnet.mdx#presenze-automatiche-pro-teams": {
       "title": "Presenze automatiche (Pro/Teams)",
       "content_sha256": "49296c3b13fac5b2e8fef0570d199699976e2ee5c004fb22e617cc757094fb13",
       "recipe_module": "docs/manuale/attendance-carnet-recipes.mjs",
-      "recipe_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+      "recipe_sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
       "recipe_review": {
-        "previous_sha256": "81cfa60348f464d75659dbe6150353e93d1ed52e3663ce7c91f7f35f2a26c340",
-        "sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "previous_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
         "purpose": "editorial-review-only"
       },
-      "content_source": "authored-mdx",
-      "editorial_content_sha256": "49296c3b13fac5b2e8fef0570d199699976e2ee5c004fb22e617cc757094fb13",
-      "materialization": {
-        "format": 1,
-        "capture_id": "5cb328aa9e0394e0",
-        "scenario_id": "attendance-automatic",
-        "report_sha256": "ea85e6629a4109f464e6a4a51ed164f594e27680bf25b2ef860639db1112622e"
-      }
+      "content_source": "authored-mdx"
     },
     "tutorials/come-gestire-registro-presenze-carnet.mdx#registro-lezioni-nel-carnet": {
       "title": "Registro lezioni nel carnet",
       "content_sha256": "b1a2a3186a7c763a246c439da9c4cf64bde83276753f53dd1825610511c3fbb4",
       "recipe_module": "docs/manuale/attendance-carnet-recipes.mjs",
-      "recipe_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+      "recipe_sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
       "recipe_review": {
-        "previous_sha256": "81cfa60348f464d75659dbe6150353e93d1ed52e3663ce7c91f7f35f2a26c340",
-        "sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "previous_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
         "purpose": "editorial-review-only"
       },
-      "content_source": "authored-mdx",
-      "editorial_content_sha256": "b1a2a3186a7c763a246c439da9c4cf64bde83276753f53dd1825610511c3fbb4",
-      "materialization": {
-        "format": 1,
-        "capture_id": "a090d6e1699b3fae",
-        "scenario_id": "attendance-carnet-manual",
-        "report_sha256": "fb2547d0e71ae612103705a521cd870b7c75bc4845f78398e14d06de9717f84d"
-      }
+      "content_source": "authored-mdx"
     },
     "tutorials/come-gestire-registro-presenze-carnet.mdx#ripristino-delle-lezioni": {
       "title": "Ripristino delle lezioni",
       "content_sha256": "349a559afad401d5d0be3a107fdb200bff5afe2da235b31de5ffaecb572bf781",
       "recipe_module": "docs/manuale/attendance-carnet-recipes.mjs",
-      "recipe_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+      "recipe_sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
       "recipe_review": {
-        "previous_sha256": "81cfa60348f464d75659dbe6150353e93d1ed52e3663ce7c91f7f35f2a26c340",
-        "sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "previous_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
         "purpose": "editorial-review-only"
       },
-      "content_source": "authored-mdx",
-      "editorial_content_sha256": "349a559afad401d5d0be3a107fdb200bff5afe2da235b31de5ffaecb572bf781",
-      "materialization": {
-        "format": 1,
-        "capture_id": "a090d6e1699b3fae",
-        "scenario_id": "attendance-carnet-manual",
-        "report_sha256": "fb2547d0e71ae612103705a521cd870b7c75bc4845f78398e14d06de9717f84d"
-      }
+      "content_source": "authored-mdx"
     },
     "tutorials/come-gestire-registro-presenze-carnet.mdx#scalamento-delle-lezioni": {
       "title": "Scalamento delle lezioni",
       "content_sha256": "5036f36e1c1b67fe978706eda87f70970c93167b9107945c52b08b0945ac7226",
       "recipe_module": "docs/manuale/attendance-carnet-recipes.mjs",
-      "recipe_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+      "recipe_sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
       "recipe_review": {
-        "previous_sha256": "81cfa60348f464d75659dbe6150353e93d1ed52e3663ce7c91f7f35f2a26c340",
-        "sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "previous_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
         "purpose": "editorial-review-only"
       },
-      "content_source": "authored-mdx",
-      "editorial_content_sha256": "5036f36e1c1b67fe978706eda87f70970c93167b9107945c52b08b0945ac7226",
-      "materialization": {
-        "format": 1,
-        "capture_id": "a090d6e1699b3fae",
-        "scenario_id": "attendance-carnet-manual",
-        "report_sha256": "fb2547d0e71ae612103705a521cd870b7c75bc4845f78398e14d06de9717f84d"
-      }
+      "content_source": "authored-mdx"
     },
     "tutorials/come-gestire-registro-presenze-carnet.mdx#segnare-le-presenze-manualmente": {
       "title": "Segnare le presenze manualmente",
       "content_sha256": "66347856d874e40ce2d8adca3771179f85fcf591a56e33b20a50655d43b22f2c",
       "recipe_module": "docs/manuale/attendance-carnet-recipes.mjs",
-      "recipe_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+      "recipe_sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
       "recipe_review": {
-        "previous_sha256": "81cfa60348f464d75659dbe6150353e93d1ed52e3663ce7c91f7f35f2a26c340",
-        "sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "previous_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
         "purpose": "editorial-review-only"
       },
-      "content_source": "authored-mdx",
-      "editorial_content_sha256": "66347856d874e40ce2d8adca3771179f85fcf591a56e33b20a50655d43b22f2c",
-      "materialization": {
-        "format": 1,
-        "capture_id": "a090d6e1699b3fae",
-        "scenario_id": "attendance-carnet-manual",
-        "report_sha256": "fb2547d0e71ae612103705a521cd870b7c75bc4845f78398e14d06de9717f84d"
-      }
+      "content_source": "authored-mdx"
     },
     "tutorials/come-gestire-registro-presenze-carnet.mdx#visualizzare-il-registro-presenze": {
       "title": "Visualizzare il registro presenze",
       "content_sha256": "351db860b316908c7bc7b8cdf70f3a0812ae0b798bcc3c1d760f9fb5b9a38ae8",
       "recipe_module": "docs/manuale/attendance-carnet-recipes.mjs",
-      "recipe_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+      "recipe_sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
       "recipe_review": {
-        "previous_sha256": "81cfa60348f464d75659dbe6150353e93d1ed52e3663ce7c91f7f35f2a26c340",
-        "sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "previous_sha256": "8f68c669ea987ac48dcae1eeecde14406f648d86522011abad543263fcb894e0",
+        "sha256": "7445312dade48e6d675e5d0acb803a33c177e537e76196a7a79bf100d5f43049",
         "purpose": "editorial-review-only"
       },
-      "content_source": "authored-mdx",
-      "editorial_content_sha256": "351db860b316908c7bc7b8cdf70f3a0812ae0b798bcc3c1d760f9fb5b9a38ae8",
-      "materialization": {
-        "format": 1,
-        "capture_id": "a090d6e1699b3fae",
-        "scenario_id": "attendance-carnet-manual",
-        "report_sha256": "fb2547d0e71ae612103705a521cd870b7c75bc4845f78398e14d06de9717f84d"
-      }
+      "content_source": "authored-mdx"
     },
     "tutorials/come-impostare-automazioni-workflow.mdx#aggiungere-le-azioni": {
       "title": "Aggiungere le azioni",
