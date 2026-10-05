@@ -2359,10 +2359,10 @@
       "title": "Cosa desideri approfondire?",
       "content_sha256": "1e78b794b47e515f143363ec6326427372b636a5ebc050336f1bd076aa5743cd",
       "recipe_module": "docs/manuale/overview-recipes.mjs",
-      "recipe_sha256": "d8d06f97fcf6ff2320ea412bf5075e497b0684b42d035a99152fec20c050f597",
+      "recipe_sha256": "3a4e173dd7e05385eeefaee46ab7bcff79f6e6e8d1f570f3df3c12190855212e",
       "recipe_review": {
-        "previous_sha256": "972cb61fb9874883ae9f6b6511fc5d1ad2a6c5976ef862b96d5412ba3da8ade2",
-        "sha256": "d8d06f97fcf6ff2320ea412bf5075e497b0684b42d035a99152fec20c050f597",
+        "previous_sha256": "d8d06f97fcf6ff2320ea412bf5075e497b0684b42d035a99152fec20c050f597",
+        "sha256": "3a4e173dd7e05385eeefaee46ab7bcff79f6e6e8d1f570f3df3c12190855212e",
         "purpose": "editorial-review-only"
       },
       "content_source": "authored-mdx"
@@ -2371,10 +2371,10 @@
       "title": "Manuale",
       "content_sha256": "e9d1d8beb001cbdb5e696e966b3feacca5875f967c0b4d0bcb754192945ba57e",
       "recipe_module": "docs/manuale/overview-recipes.mjs",
-      "recipe_sha256": "d8d06f97fcf6ff2320ea412bf5075e497b0684b42d035a99152fec20c050f597",
+      "recipe_sha256": "3a4e173dd7e05385eeefaee46ab7bcff79f6e6e8d1f570f3df3c12190855212e",
       "recipe_review": {
-        "previous_sha256": "972cb61fb9874883ae9f6b6511fc5d1ad2a6c5976ef862b96d5412ba3da8ade2",
-        "sha256": "d8d06f97fcf6ff2320ea412bf5075e497b0684b42d035a99152fec20c050f597",
+        "previous_sha256": "d8d06f97fcf6ff2320ea412bf5075e497b0684b42d035a99152fec20c050f597",
+        "sha256": "3a4e173dd7e05385eeefaee46ab7bcff79f6e6e8d1f570f3df3c12190855212e",
         "purpose": "editorial-review-only"
       },
       "content_source": "authored-mdx"
@@ -2383,20 +2383,13 @@
       "title": "Per iniziare",
       "content_sha256": "8532d7197e01043002e75b8fddd0e20e5cb12871cfa0d65a1982c5c190a73597",
       "recipe_module": "docs/manuale/overview-recipes.mjs",
-      "recipe_sha256": "d8d06f97fcf6ff2320ea412bf5075e497b0684b42d035a99152fec20c050f597",
+      "recipe_sha256": "3a4e173dd7e05385eeefaee46ab7bcff79f6e6e8d1f570f3df3c12190855212e",
       "recipe_review": {
-        "previous_sha256": "972cb61fb9874883ae9f6b6511fc5d1ad2a6c5976ef862b96d5412ba3da8ade2",
-        "sha256": "d8d06f97fcf6ff2320ea412bf5075e497b0684b42d035a99152fec20c050f597",
+        "previous_sha256": "d8d06f97fcf6ff2320ea412bf5075e497b0684b42d035a99152fec20c050f597",
+        "sha256": "3a4e173dd7e05385eeefaee46ab7bcff79f6e6e8d1f570f3df3c12190855212e",
         "purpose": "editorial-review-only"
       },
-      "content_source": "authored-mdx",
-      "editorial_content_sha256": "8532d7197e01043002e75b8fddd0e20e5cb12871cfa0d65a1982c5c190a73597",
-      "materialization": {
-        "format": 1,
-        "capture_id": "a090d6e1699b3fae",
-        "scenario_id": "registration-forms-manage",
-        "report_sha256": "d9cfbba43a99eca50b3a86a24b5de6a600f2051eb9d3890944009654890f2f74"
-      }
+      "content_source": "authored-mdx"
     },
     "docs/istruttori.mdx#account-collaboratore-associato": {
       "title": "Account collaboratore associato",
