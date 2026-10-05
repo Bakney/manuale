@@ -86,23 +86,21 @@ L’opzione **Pagamenti Online** appartiene all’associazione. Puoi salvarla e 
   <Step title="Apri le impostazioni generali">
     Apri **Profilo**, scegli **Generali** e raggiungi la voce **Pagamenti Online** nella parte inferiore della pagina. Verifica di poter modificare le impostazioni: con un account in sola lettura l’interruttore e il pulsante **Salva** sono disabilitati.
   
-<Frame>![Apri le impostazioni generali](/images/pagamenti/stripe-controlli-locali/1.placeholder.svg)</Frame>
+<Frame>![Apri le impostazioni generali](/images/pagamenti/stripe-controlli-locali/1.png)</Frame>
   </Step>
   <Step title="Attiva e salva">
     Seleziona **Pagamenti Online**, poi premi **Salva** nella testata della pagina. Attendi la conferma **Impostazioni generali aggiornate**. Se il salvataggio fallisce, non considerare attiva l’opzione soltanto perché la casella è selezionata.
   
-<Frame>![Attiva e salva](/images/pagamenti/stripe-controlli-locali/2.placeholder.svg)</Frame>
+<Frame>![Attiva e salva](/images/pagamenti/stripe-controlli-locali/2.png)</Frame>
   </Step>
   <Step title="Riapri e controlla">
     Ricarica la pagina, torna a **Generali** se necessario e controlla che l’interruttore resti selezionato. Il controllo riguarda il valore salvato dell’associazione; la presenza di credenziali Stripe e l’esito di un pagamento richiedono verifiche separate.
   
-<Frame>![Riapri e controlla](/images/pagamenti/stripe-controlli-locali/3.placeholder.svg)</Frame>
+<Frame>![Riapri e controlla](/images/pagamenti/stripe-controlli-locali/3.png)</Frame>
   </Step>
 </Steps>
 
 <Note>Per tornare alla situazione precedente deseleziona l’interruttore e salva di nuovo. Il salvataggio non crea una quota, non incassa pagamenti e non certifica il collegamento del servizio esterno.</Note>
-
-<Note>Procedura ancora da verificare in browser, compresi risultato e riapertura. I comandi descritti sono presenti nell’applicazione.</Note>
 
 # Metodi di pagamento disponibili
 
@@ -147,25 +145,23 @@ La pagina **Pagamenti** serve a consultare le registrazioni dell’associazione.
   <Step title="Consulta le registrazioni">
     Apri **Pagamenti**. Controlla periodo e filtri prima di cercare un importo o una persona: un ambito troppo ristretto può nascondere la quota che cerchi.
   
-<Frame>![Consulta le registrazioni](/images/pagamenti/stripe-controlli-locali/7.placeholder.svg)</Frame>
+<Frame>![Consulta le registrazioni](/images/pagamenti/stripe-controlli-locali/7.png)</Frame>
   </Step>
   <Step title="Isola metodo e stato">
     In **Metodo pagamento** scegli **Stripe**. In **Stato pagamento** scegli **Pagato** per le registrazioni incassate oppure **In attesa** per le quote aperte. Attendi il caricamento dopo ogni scelta e confronta le righe effettivamente mostrate.
   
-<Frame>![Isola metodo e stato](/images/pagamenti/stripe-controlli-locali/10.placeholder.svg)</Frame>
+<Frame>![Isola metodo e stato](/images/pagamenti/stripe-controlli-locali/10.png)</Frame>
   </Step>
   <Step title="Controlla anche un risultato vuoto">
     Se non compaiono righe, verifica prima periodo, stato e altri filtri. Rimuovi le selezioni scegliendo **Stato** e **Metodo**, poi ripeti la ricerca nell’ambito desiderato. La consultazione non cambia lo stato dei pagamenti.
   
-<Frame>![Controlla anche un risultato vuoto](/images/pagamenti/stripe-controlli-locali/9.placeholder.svg)</Frame>
+<Frame>![Controlla anche un risultato vuoto](/images/pagamenti/stripe-controlli-locali/9.png)</Frame>
   </Step>
 </Steps>
 
 Per una registrazione dubbia raccogli intestatario, importo e data e chiedi al gestore il confronto con il servizio. Non creare una seconda quota o segnarla manualmente come incassata soltanto per far sparire una differenza.
 
 <Note>La dimostrazione del filtro usa un periodo privo di registrazioni Stripe. Non rappresenta una transazione esterna eseguita. Commissioni, accrediti, rimborsi e aggiornamento tramite webhook richiedono verifiche proprie.</Note>
-
-<Note>Procedura ancora da verificare in browser, compresi risultato e riapertura. I comandi descritti sono presenti nell’applicazione.</Note>
 
 ## Commissioni
 

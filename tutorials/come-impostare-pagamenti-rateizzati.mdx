@@ -18,7 +18,7 @@ Una rata assegnata è una quota da gestire, non una prova di incasso. Per gli in
 
 # Attivare i pagamenti a rate
 
-<Note>Procedura basata sui comandi presenti nell’applicazione, ancora da verificare in browser e dopo la riapertura.</Note>
+
 
 Prepara importo totale e scadenze prima di iscrivere i tesserati. Occorrono i permessi per creare o modificare il corso; l’assegnazione al tesserato e l’incasso sono operazioni distinte.
 
@@ -27,11 +27,15 @@ Prepara importo totale e scadenze prima di iscrivere i tesserati. Occorrono i pe
     In **Attività > Corsi e Abbonamenti**, premi **Corso o Abbonamento**. Compila titolo e descrizione e scegli **Standard**.
   </Step>
   <Step title="Imposta quota e rateizzazione">
-    Compila **Quota attività**, poi attiva **Rateizza**. La sezione **Rateizzazione della quota attività** permette di preparare le scadenze.
-  </Step>
+Compila **Quota attività**, poi attiva **Rateizza**. La sezione **Rateizzazione della quota attività** permette di preparare le scadenze.
+
+<Frame>![Corso Standard: tre rate da 100 euro, scadenze e alternativa da 280 euro.](/images/corsi/piano-rate-reale/1.png)</Frame>
+</Step>
   <Step title="Controlla prima di salvare">
-    Completa il piano descritto sotto, salva il corso e riaprilo. Per una prova assegna il piano a un solo tesserato e controlla le quote create.
-  </Step>
+Completa il piano descritto sotto, salva il corso e riaprilo. Per una prova assegna il piano a un solo tesserato e controlla le quote create.
+
+<Frame>![Pagamenti della singola iscrizione, con importi e corso corretti.](/images/corsi/piano-rate-reale/9.png)</Frame>
+</Step>
 </Steps>
 
 # Configurare le rate
@@ -55,25 +59,33 @@ Il vecchio limite di undici rate non descrive il generatore corrente. Per una so
 
 ## Come configurare le rate
 
-<Note>Procedura basata sui comandi presenti nell’applicazione, ancora da verificare in browser e dopo la riapertura.</Note>
+
 
 <Steps>
   <Step title="Genera le righe">
-    Dopo **Rateizza**, indica il numero di rate e premi **Crea Rate**. Si aprono le righe numerate.
-  </Step>
+Dopo **Rateizza**, indica il numero di rate e premi **Crea Rate**. Si aprono le righe numerate.
+
+<Frame>![Corso Standard: tre rate da 100 euro, scadenze e alternativa da 280 euro.](/images/corsi/piano-rate-reale/1.png)</Frame>
+</Step>
   <Step title="Rivedi tutte le scadenze">
-    Modifica **Scade il** per ogni rata. Controlla anno, mese e ordine; non lasciare una data proposta soltanto perché sembra plausibile.
-  </Step>
+Modifica **Scade il** per ogni rata. Controlla anno, mese e ordine; non lasciare una data proposta soltanto perché sembra plausibile.
+
+<Frame>![Generatore in creazione: tre importi differenti e scadenze corrette, totale 300 euro.](/images/corsi/piano-rate-reale/3.png)</Frame>
+</Step>
   <Step title="Scegli la ripartizione degli importi">
     Con importi uniformi controlla la divisione della quota. Per importi differenti attiva **Permetti rate di importi diversi**, compila le righe e verifica il totale aggiornato.
   </Step>
   <Step title="Salva e riapri">
-    Salva il corso e riapri la scheda per controllare importi e date conservati. La rimozione di una riga ancora in preparazione cambia il piano: ricontrolla anche il totale.
-  </Step>
+Salva il corso e riapri la scheda per controllare importi e date conservati. La rimozione di una riga ancora in preparazione cambia il piano: ricontrolla anche il totale.
+
+<Frame>![Nuovo piano da 150 e 100 euro con date conservate dopo salvataggio e riapertura.](/images/corsi/piano-rate-reale/5.png)</Frame>
+
+<Frame>![Rimozione della terza riga prima di salvare: due rate e totale ricalcolato a 250 euro.](/images/corsi/piano-rate-reale/4.png)</Frame>
+</Step>
 </Steps>
 
-<Frame caption="Segnaposto FullHD: numero di rate, importi e scadenze del piano. Procedura ancora da verificare.">
-  <img src="/images/course-payment-additional/installments-pending.svg" alt="Segnaposto FullHD: numero di rate, importi e scadenze del piano" />
+<Frame caption="Generatore in creazione: tre importi differenti e scadenze corrette, totale 300 euro.">
+  <img src="/images/corsi/piano-rate-reale/3.png" alt="Generatore in creazione: tre importi differenti e scadenze corrette, totale 300 euro." />
 </Frame>
 
 ## Esempio di configurazione
@@ -120,59 +132,79 @@ Questo comportamento non annulla le rate passate selezionate esplicitamente. Nel
 
 ## Opzione "Piano rate completo"
 
-<Note>Procedura basata sui comandi presenti nell’applicazione, ancora da verificare in browser e dopo la riapertura.</Note>
+
 
 L’impostazione corrente si chiama **Assegna piano rate completo di default**. Serve per i percorsi di assegnazione predefinita; non sostituisce il controllo di una selezione esplicita nel modulo.
 
 <Steps>
   <Step title="Apri le impostazioni">
-    Vai in **Profilo > Impostazioni** e trova **Assegna piano rate completo di default**.
-  </Step>
+Vai in **Profilo > Impostazioni** e trova **Assegna piano rate completo di default**.
+
+<Frame>![Profilo, Generali: impostazione del piano rate completo prima della modifica.](/images/corsi/piano-rate-reale/25.png)</Frame>
+</Step>
   <Step title="Scegli e salva il comportamento">
-    Abilita l’opzione soltanto se l’associazione vuole assegnare anche le scadenze precedenti nei percorsi predefiniti. Salva le impostazioni e riapri per controllare il valore.
-  </Step>
+Abilita l’opzione soltanto se l’associazione vuole assegnare anche le scadenze precedenti nei percorsi predefiniti. Salva le impostazioni e riapri per controllare il valore.
+
+<Frame>![Impostazione del piano completo salvata e riaperta; iscrizioni esistenti conservate.](/images/corsi/piano-rate-reale/27.png)</Frame>
+</Step>
   <Step title="Controlla una nuova assegnazione">
-    Usa una singola iscrizione di prova e verifica il piano risultante. La modifica dell’impostazione non va interpretata come aggiornamento retroattivo di tutti i piani esistenti.
-  </Step>
+Usa una singola iscrizione di prova e verifica il piano risultante. La modifica dell’impostazione non va interpretata come aggiornamento retroattivo di tutti i piani esistenti.
+
+<Frame>![Piano completo predefinito: tre rate conservate, compresa la scadenza precedente all’iscrizione.](/images/corsi/piano-rate-reale/29.png)</Frame>
+
+<Frame>![Tre pagamenti reali della nuova iscrizione di prova, ancora da incassare.](/images/corsi/piano-rate-reale/30.png)</Frame>
+</Step>
 </Steps>
 
 Nell’elenco del corso è presente anche **Assegna piano rate completo**, un’operazione sulle iscrizioni selezionate. È distinta dall’impostazione generale e può sostituire le rate non incassate.
 
 # Offrire anche il pagamento in un'unica soluzione
 
-<Note>Procedura basata sui comandi presenti nell’applicazione, ancora da verificare in browser e dopo la riapertura.</Note>
+
 
 <Steps>
   <Step title="Prepara il piano">
     Nel corso Standard attiva **Rateizza** e crea le rate. Compare **Permetti pagamento in un’unica soluzione**.
   </Step>
   <Step title="Configura l’importo alternativo">
-    Attiva **Unica soluzione**, indica la quota della relativa area e salva. Controlla che l’importo alternativo sia quello concordato, anche se diverso dal totale rate.
-  </Step>
+Attiva **Unica soluzione**, indica la quota della relativa area e salva. Controlla che l’importo alternativo sia quello concordato, anche se diverso dal totale rate.
+
+<Frame>![Corso Standard: tre rate da 100 euro, scadenze e alternativa da 280 euro.](/images/corsi/piano-rate-reale/1.png)</Frame>
+</Step>
   <Step title="Applica e controlla la scelta">
-    Nel corso seleziona il tesserato. Usa **Operazioni su selezionati > Cambia in unica soluzione** quando disponibile; rivedi la conferma e controlla il pagamento creato e le quote già incassate.
-  </Step>
+Nel corso seleziona il tesserato. Usa **Operazioni su selezionati > Cambia in unica soluzione** quando disponibile; rivedi la conferma e controlla il pagamento creato e le quote già incassate.
+
+<Frame>![Giulia ha la quota unica da 280 euro; Luca mantiene le sue tre rate.](/images/corsi/piano-rate-reale/22.png)</Frame>
+</Step>
 </Steps>
 
 <Warning>La sostituzione riguarda le rate non incassate e non dispone un rimborso delle somme già ricevute. Controlla gli incassi prima della conversione; non è una transazione Stripe.</Warning>
 
 # Modificare il piano rate per un singolo atleta
 
-<Note>Procedura basata sui comandi presenti nell’applicazione, ancora da verificare in browser e dopo la riapertura.</Note>
+
 
 <Steps>
   <Step title="Apri l’iscrizione corretta">
-    In **Iscritti al corso**, individua il tesserato e usa il comando di modifica della sua riga. Controlla nome e corso.
-  </Step>
+In **Iscritti al corso**, individua il tesserato e usa il comando di modifica della sua riga. Controlla nome e corso.
+
+<Frame>![Modifica del Piano rate della sola Giulia, senza intervenire sull’iscrizione di Luca.](/images/corsi/piano-rate-reale/11.png)</Frame>
+</Step>
   <Step title="Rivedi Piano rate">
-    Nel campo **Piano rate** seleziona le rate da mantenere o aggiungere. Le righe indicano scadenza, importo e stato; il modulo avverte che i pagamenti già incassati non vengono eliminati nello stesso modo delle rate in attesa.
-  </Step>
+Nel campo **Piano rate** seleziona le rate da mantenere o aggiungere. Le righe indicano scadenza, importo e stato; il modulo avverte che i pagamenti già incassati non vengono eliminati nello stesso modo delle rate in attesa.
+
+<Frame>![Aggiunta della rata mancante alla sola iscrizione di Giulia, con data e importo del piano generale.](/images/corsi/piano-rate-reale/13.png)</Frame>
+</Step>
   <Step title="Salva e confronta le quote">
-    Premi **Modifica**, poi riapri il piano. Consulta anche i pagamenti: aggiungere una rata crea una nuova quota, mentre rimuoverla può cancellare il collegamento e il pagamento non incassato.
-  </Step>
+Premi **Modifica**, poi riapri il piano. Consulta anche i pagamenti: aggiungere una rata crea una nuova quota, mentre rimuoverla può cancellare il collegamento e il pagamento non incassato.
+
+<Frame>![Nuovo pagamento della rata aggiunta e quote già collegate da 100 e 50 euro.](/images/corsi/piano-rate-reale/15.png)</Frame>
+</Step>
   <Step title="Correggi l’importo nel percorso appropriato">
-    La modifica del piano serve soprattutto a scegliere le rate. Non presumere che selezionare di nuovo una rata già collegata aggiorni il suo importo alla nuova quota del corso. Per una somma registrata consulta il singolo pagamento.
-  </Step>
+La modifica del piano serve soprattutto a scegliere le rate. Non presumere che selezionare di nuovo una rata già collegata aggiorni il suo importo alla nuova quota del corso. Per una somma registrata consulta il singolo pagamento.
+
+<Frame>![Il pagamento individuale conserva 100 euro anche se il modello generale indica 110 euro.](/images/corsi/piano-rate-reale/16.png)</Frame>
+</Step>
 </Steps>
 
 <Warning>Evita di modificare in blocco piani con incassi già avvenuti senza confronto individuale. Una rata rimossa non equivale a rimborso o annullamento della ricevuta.</Warning>
