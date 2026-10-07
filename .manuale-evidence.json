@@ -17,9 +17,9 @@
       "editorial_content_sha256": "5efbd296e55f9a1abf7e27ce1f55a97c522e9670745f6e528c4f9ced3852047e",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "archive-maintenance",
-        "report_sha256": "8d5108e4cdfcd1b6a6bc36a3bf159481287967799ba19caf04cf8098949b61bf"
+        "report_sha256": "31248cb730f114ddf9854ab64e49923804275660aee75386a9951e7e9c258fed"
       }
     },
     "docs/archivio.mdx#ripristinare-un-elemento-dall-archivio": {
@@ -36,9 +36,9 @@
       "editorial_content_sha256": "ffea0df9f59196af29da74f63dce1e6f832a1d81b3e3ebe02ee83fb145cc7df3",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "archive-maintenance",
-        "report_sha256": "8d5108e4cdfcd1b6a6bc36a3bf159481287967799ba19caf04cf8098949b61bf"
+        "report_sha256": "31248cb730f114ddf9854ab64e49923804275660aee75386a9951e7e9c258fed"
       }
     },
     "docs/bacheca.mdx#aggiungere-un-widget": {
@@ -55,9 +55,9 @@
       "editorial_content_sha256": "1c4204674a46766e09c6c88e78652b41ebf5d7e4958ff683b0816d3d29ff890f",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "dashboard-personalize",
-        "report_sha256": "8224c6b477ddb6299248bab95df4db68028568a0fee2ff1ecf6efe8a6854a06c"
+        "report_sha256": "98af99d3ac7fe145542ac0e6d21fb928b8a8d21496093873fb3b6637bdba2765"
       }
     },
     "docs/bacheca.mdx#carnet-in-esaurimento": {
@@ -74,9 +74,9 @@
       "editorial_content_sha256": "c99d7380b867c5fad2e61a546ef76faa71fe6ae58287b17fb18f5165b8cf82b8",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "dashboard-lists",
-        "report_sha256": "d87364cb304380d4a5df9345cbe964b8242fa4bfc5ac3f2f4fdedb6a15192183"
+        "report_sha256": "5b0e2c88a8237deb5a0bc24021ff84a7c0d0c2811d7cae037083856f8e917ffc"
       }
     },
     "docs/bacheca.mdx#certificati-medici-in-scadenza": {
@@ -93,9 +93,9 @@
       "editorial_content_sha256": "9a2bc9288c7f6263c477498c0983fe1b6f225f7d6bf66dea836795d977c28b06",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "dashboard-lists",
-        "report_sha256": "d87364cb304380d4a5df9345cbe964b8242fa4bfc5ac3f2f4fdedb6a15192183"
+        "report_sha256": "5b0e2c88a8237deb5a0bc24021ff84a7c0d0c2811d7cae037083856f8e917ffc"
       }
     },
     "docs/bacheca.mdx#certificati-medici-scaduti": {
@@ -112,9 +112,9 @@
       "editorial_content_sha256": "28155a48cc7256d488b54fabbf0d8ce90c28cd9312c76f4cd710af891b6c5ede",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "dashboard-lists",
-        "report_sha256": "d87364cb304380d4a5df9345cbe964b8242fa4bfc5ac3f2f4fdedb6a15192183"
+        "report_sha256": "5b0e2c88a8237deb5a0bc24021ff84a7c0d0c2811d7cae037083856f8e917ffc"
       }
     },
     "docs/bacheca.mdx#consigli-utili": {
@@ -143,9 +143,9 @@
       "editorial_content_sha256": "61ca8f042a427eeb8036dd700f62200725700bb8375acf5761372b171c914d75",
       "materialization": {
         "format": 1,
-        "capture_id": "37a017f005032645",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "dashboard-display",
-        "report_sha256": "e159c95760379520dee710643e711ac30d415362620b6111b003319464250fc4"
+        "report_sha256": "d22469afa0a1192c5aa9df8fd0a560952d5de3fea080753c8a3b5b29d35c288f"
       }
     },
     "docs/bacheca.mdx#introduzione": {
@@ -162,9 +162,9 @@
       "editorial_content_sha256": "f07a49dca2df1dae72a004e8e61762fe4f8b89ba5eb736cf95db495d3d859ec6",
       "materialization": {
         "format": 1,
-        "capture_id": "37a017f005032645",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "dashboard-display",
-        "report_sha256": "e159c95760379520dee710643e711ac30d415362620b6111b003319464250fc4"
+        "report_sha256": "d22469afa0a1192c5aa9df8fd0a560952d5de3fea080753c8a3b5b29d35c288f"
       }
     },
     "docs/bacheca.mdx#iscrizioni-anno-corrente": {
@@ -181,9 +181,9 @@
       "editorial_content_sha256": "7c36a23dae4a2ea9571c2cfbd744f41f91c4c7f65b32c0c72a79d89a9e2f8fbb",
       "materialization": {
         "format": 1,
-        "capture_id": "37a017f005032645",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "dashboard-display",
-        "report_sha256": "e159c95760379520dee710643e711ac30d415362620b6111b003319464250fc4"
+        "report_sha256": "d22469afa0a1192c5aa9df8fd0a560952d5de3fea080753c8a3b5b29d35c288f"
       }
     },
     "docs/bacheca.mdx#iscrizioni-da-approvare": {
@@ -200,9 +200,9 @@
       "editorial_content_sha256": "330a3fe04e974fb2e984ec5f05230d904f6301e10197dd3bb88e78bcdfb585ef",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "dashboard-lists",
-        "report_sha256": "d87364cb304380d4a5df9345cbe964b8242fa4bfc5ac3f2f4fdedb6a15192183"
+        "report_sha256": "5b0e2c88a8237deb5a0bc24021ff84a7c0d0c2811d7cae037083856f8e917ffc"
       }
     },
     "docs/bacheca.mdx#lezioni-di-oggi": {
@@ -219,9 +219,9 @@
       "editorial_content_sha256": "70fbacb34250a827ec1178c4527ea6a5f2389dfd6bdde7055c1851a79dc4d294",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "dashboard-lists",
-        "report_sha256": "d87364cb304380d4a5df9345cbe964b8242fa4bfc5ac3f2f4fdedb6a15192183"
+        "report_sha256": "5b0e2c88a8237deb5a0bc24021ff84a7c0d0c2811d7cae037083856f8e917ffc"
       }
     },
     "docs/bacheca.mdx#migliori-3-corsi-per-iscritti": {
@@ -238,9 +238,9 @@
       "editorial_content_sha256": "d73b0901728ccc742a3c587710a16f892b718de48e5083931372d8a35427b9a8",
       "materialization": {
         "format": 1,
-        "capture_id": "37a017f005032645",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "dashboard-display",
-        "report_sha256": "e159c95760379520dee710643e711ac30d415362620b6111b003319464250fc4"
+        "report_sha256": "d22469afa0a1192c5aa9df8fd0a560952d5de3fea080753c8a3b5b29d35c288f"
       }
     },
     "docs/bacheca.mdx#pagamenti-incassati": {
@@ -257,9 +257,9 @@
       "editorial_content_sha256": "4cba849b5576751307f8c0f582c48cbf94bd9c2715250704edf7a29d78f96d8e",
       "materialization": {
         "format": 1,
-        "capture_id": "37a017f005032645",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "dashboard-display",
-        "report_sha256": "e159c95760379520dee710643e711ac30d415362620b6111b003319464250fc4"
+        "report_sha256": "d22469afa0a1192c5aa9df8fd0a560952d5de3fea080753c8a3b5b29d35c288f"
       }
     },
     "docs/bacheca.mdx#pagamenti-scaduti": {
@@ -276,9 +276,9 @@
       "editorial_content_sha256": "f8fb30af130c993b17e2b69ffc33308b43a3d8caf58325da75aef151ee5e8c26",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "dashboard-lists",
-        "report_sha256": "d87364cb304380d4a5df9345cbe964b8242fa4bfc5ac3f2f4fdedb6a15192183"
+        "report_sha256": "5b0e2c88a8237deb5a0bc24021ff84a7c0d0c2811d7cae037083856f8e917ffc"
       }
     },
     "docs/bacheca.mdx#personalizzare-la-bacheca": {
@@ -295,9 +295,9 @@
       "editorial_content_sha256": "497352bb8aafddcd43b00e47a9719a622e094caa96c7b25df975361a0c4f76c2",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "dashboard-personalize",
-        "report_sha256": "8224c6b477ddb6299248bab95df4db68028568a0fee2ff1ecf6efe8a6854a06c"
+        "report_sha256": "98af99d3ac7fe145542ac0e6d21fb928b8a8d21496093873fb3b6637bdba2765"
       }
     },
     "docs/bacheca.mdx#ridimensionare-i-widget": {
@@ -314,9 +314,9 @@
       "editorial_content_sha256": "ee51cc6b3a264c8fbd57386ef8e1e9be294810f3783dbbc44c403473409bb29a",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "dashboard-personalize",
-        "report_sha256": "8224c6b477ddb6299248bab95df4db68028568a0fee2ff1ecf6efe8a6854a06c"
+        "report_sha256": "98af99d3ac7fe145542ac0e6d21fb928b8a8d21496093873fb3b6637bdba2765"
       }
     },
     "docs/bacheca.mdx#rimuovere-un-widget": {
@@ -333,9 +333,9 @@
       "editorial_content_sha256": "9724f72a7f4e13ef814ad9b9aaf332bea7390dd49e18c08cc8d38074eb05c98d",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "dashboard-personalize",
-        "report_sha256": "8224c6b477ddb6299248bab95df4db68028568a0fee2ff1ecf6efe8a6854a06c"
+        "report_sha256": "98af99d3ac7fe145542ac0e6d21fb928b8a8d21496093873fb3b6637bdba2765"
       }
     },
     "docs/bacheca.mdx#riordinare-i-widget": {
@@ -352,9 +352,9 @@
       "editorial_content_sha256": "8bb92d3ad21108479a5101527032056d96170c443db51cd46dd675bf1552b383",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "dashboard-reorder",
-        "report_sha256": "d039e2e51120c803626e1132b4af45ca0d871cbf545a58af54eb269ba175880c"
+        "report_sha256": "b7e8ff6ec8f6eeb5c02657f8026fbcf150d1c0294ad3eb1948d233c932b60784"
       }
     },
     "docs/bacheca.mdx#ripristinare-il-layout-predefinito": {
@@ -371,9 +371,9 @@
       "editorial_content_sha256": "b390ae2fe711b9738045bb42e5143f5748ce358e70529d5c298334b8b6bf846e",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "dashboard-personalize",
-        "report_sha256": "8224c6b477ddb6299248bab95df4db68028568a0fee2ff1ecf6efe8a6854a06c"
+        "report_sha256": "98af99d3ac7fe145542ac0e6d21fb928b8a8d21496093873fb3b6637bdba2765"
       }
     },
     "docs/bacheca.mdx#soci": {
@@ -390,9 +390,9 @@
       "editorial_content_sha256": "266f2dd19435c1439e879e4b253b007b1c17d0e2783d77bd0f15a154b13a2748",
       "materialization": {
         "format": 1,
-        "capture_id": "37a017f005032645",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "dashboard-display",
-        "report_sha256": "e159c95760379520dee710643e711ac30d415362620b6111b003319464250fc4"
+        "report_sha256": "d22469afa0a1192c5aa9df8fd0a560952d5de3fea080753c8a3b5b29d35c288f"
       }
     },
     "docs/bacheca.mdx#widget-disponibili": {
@@ -409,9 +409,9 @@
       "editorial_content_sha256": "bc95c6092f6ff0717d5339046002b6ef11c87c4e7639091ee0bce9e3e2e1bad6",
       "materialization": {
         "format": 1,
-        "capture_id": "37a017f005032645",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "dashboard-display",
-        "report_sha256": "e159c95760379520dee710643e711ac30d415362620b6111b003319464250fc4"
+        "report_sha256": "d22469afa0a1192c5aa9df8fd0a560952d5de3fea080753c8a3b5b29d35c288f"
       }
     },
     "docs/bilancio.mdx#anno-fiscale": {
@@ -428,9 +428,9 @@
       "editorial_content_sha256": "917527fcb52563061b5ab2e911003369be38e72156c0cdda58201c00a28cdef9",
       "materialization": {
         "format": 1,
-        "capture_id": "37a017f005032645",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "fiscal-year-settings",
-        "report_sha256": "80436f292df9899efd97e46f3d1e01ee046a2720ed1c7d44216a9a433ecf187a"
+        "report_sha256": "c2ab346d7070053a240950d0b526d7b8e166388d5404134f7b0b8f66116c58f8"
       }
     },
     "docs/bilancio.mdx#bilancio": {
@@ -447,9 +447,9 @@
       "editorial_content_sha256": "ce1ca0282c167648833680ae01e2d9cb73df3ba19398b76b420efc2d1ecdf590",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "accounting-balance-manage",
-        "report_sha256": "1b2eadb9a0d7db21821c05fa4c99fce7dd00823d4898b644a7df6b50d7e2cded"
+        "report_sha256": "d7c748b5db77dc20d783147497a9fc3429fd50af18c4df0bf74bf8b6860be66a"
       }
     },
     "docs/bilancio.mdx#conti-economici": {
@@ -466,9 +466,9 @@
       "editorial_content_sha256": "3a59a282af61ebe14bb9981ca61ee4e8d23764407e82c75aab916be3bf8617dd",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "accounting-balance-manage",
-        "report_sha256": "1b2eadb9a0d7db21821c05fa4c99fce7dd00823d4898b644a7df6b50d7e2cded"
+        "report_sha256": "d7c748b5db77dc20d783147497a9fc3429fd50af18c4df0bf74bf8b6860be66a"
       }
     },
     "docs/bilancio.mdx#giroconti": {
@@ -485,9 +485,9 @@
       "editorial_content_sha256": "c83a3820e7ca61bac5b914afdac1c4f345b0bf78fbe708f572a7738134aaebb6",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "accounting-balance-manage",
-        "report_sha256": "1b2eadb9a0d7db21821c05fa4c99fce7dd00823d4898b644a7df6b50d7e2cded"
+        "report_sha256": "d7c748b5db77dc20d783147497a9fc3429fd50af18c4df0bf74bf8b6860be66a"
       }
     },
     "docs/bilancio.mdx#pubblicazione-del-bilancio": {
@@ -504,9 +504,9 @@
       "editorial_content_sha256": "c278c4b799b1874100471faeddbee74106be43d3077ad793cb51072483b32fa1",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "accounting-balance-manage",
-        "report_sha256": "1b2eadb9a0d7db21821c05fa4c99fce7dd00823d4898b644a7df6b50d7e2cded"
+        "report_sha256": "d7c748b5db77dc20d783147497a9fc3429fd50af18c4df0bf74bf8b6860be66a"
       }
     },
     "docs/bilancio.mdx#risorse-correlate": {
@@ -547,9 +547,9 @@
       "editorial_content_sha256": "8064132becc41c437739e6f1134fa89fd86145dffdbb2133d403b30bab6b0f2b",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "camps-calendar-manage",
-        "report_sha256": "084670e261429f2cb892248c9b11132f16911925581fea3b176b8756158e2322"
+        "report_sha256": "27e733bd5c69d1f81f8422fb17690beae077f0a452a9d4b879ca8c4aafd51d44"
       }
     },
     "docs/calendario.mdx#condivisione-tramite-email": {
@@ -590,9 +590,9 @@
       "editorial_content_sha256": "10ebbb7032d1ec1e81767984ab47c72a2159eeaa9cd83e8920a7a66af846a836",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "camps-calendar-manage",
-        "report_sha256": "084670e261429f2cb892248c9b11132f16911925581fea3b176b8756158e2322"
+        "report_sha256": "27e733bd5c69d1f81f8422fb17690beae077f0a452a9d4b879ca8c4aafd51d44"
       }
     },
     "docs/calendario.mdx#disconnettere-google-calendar": {
@@ -621,9 +621,9 @@
       "editorial_content_sha256": "4555b86e5ffbc0e87816094484545afba69cf74e44d5376a3b047f13f34c53a3",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "camps-calendar-manage",
-        "report_sha256": "084670e261429f2cb892248c9b11132f16911925581fea3b176b8756158e2322"
+        "report_sha256": "27e733bd5c69d1f81f8422fb17690beae077f0a452a9d4b879ca8c4aafd51d44"
       }
     },
     "docs/calendario.mdx#gestire-le-presenze-dal-calendario": {
@@ -640,9 +640,9 @@
       "editorial_content_sha256": "06d66a3948d9e7afa076be2e83d7422f38936b0d01f71b97f8acc14c4958264b",
       "materialization": {
         "format": 1,
-        "capture_id": "37a017f005032645",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "course-enrollment-calendar-navigation",
-        "report_sha256": "3e1e3d560ff7c518726124d80c51903dd54cdb517a75c5ed7aab3e3cec53b40a"
+        "report_sha256": "85644cf471e15c3d24c67bbf5b89d15c0551e654ef616889c199d65a6547c0d8"
       }
     },
     "docs/calendario.mdx#il-calendario-generale": {
@@ -659,9 +659,9 @@
       "editorial_content_sha256": "09daef872b1b6147a3d7f671467599e780ead235b085ee05319d2895c0147325",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "camps-calendar-manage",
-        "report_sha256": "084670e261429f2cb892248c9b11132f16911925581fea3b176b8756158e2322"
+        "report_sha256": "27e733bd5c69d1f81f8422fb17690beae077f0a452a9d4b879ca8c4aafd51d44"
       }
     },
     "docs/calendario.mdx#incorporare-il-calendario-nel-tuo-sito-web": {
@@ -702,9 +702,9 @@
       "editorial_content_sha256": "37fe62b83d31b3294eb69aa22ef13ef593b3743afdcc090759e364fe6975a38f",
       "materialization": {
         "format": 1,
-        "capture_id": "37a017f005032645",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "course-types-sharing",
-        "report_sha256": "837de4b2a3ec39425ac89d0af635251ff88d19ed0d293f79292d06a560097067"
+        "report_sha256": "7ba47fd85e70e1d4db5a8c749b91a01d38696d4b924c84dd59a97375ac14a54f"
       }
     },
     "docs/calendario.mdx#modalita-di-visualizzazione": {
@@ -721,9 +721,9 @@
       "editorial_content_sha256": "9c222aafa0dd764b9aa361de4d5f59b024aff598c3dcfbdab8ce3e7588f934ec",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "camps-calendar-manage",
-        "report_sha256": "084670e261429f2cb892248c9b11132f16911925581fea3b176b8756158e2322"
+        "report_sha256": "27e733bd5c69d1f81f8422fb17690beae077f0a452a9d4b879ca8c4aafd51d44"
       }
     },
     "docs/calendario.mdx#modificare-o-eliminare-un-evento": {
@@ -740,9 +740,9 @@
       "editorial_content_sha256": "7e6149249428edac251252390b5b5869fc0ea0bbe023cf9a65325505cee01cfe",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "camps-calendar-manage",
-        "report_sha256": "084670e261429f2cb892248c9b11132f16911925581fea3b176b8756158e2322"
+        "report_sha256": "27e733bd5c69d1f81f8422fb17690beae077f0a452a9d4b879ca8c4aafd51d44"
       }
     },
     "docs/calendario.mdx#navigare-nel-calendario": {
@@ -759,9 +759,9 @@
       "editorial_content_sha256": "240201cafc8cb59b4cc3c6d30a2fe518bc05698f0a47f1bc6fe1f1c8d1033ba9",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "camps-calendar-manage",
-        "report_sha256": "084670e261429f2cb892248c9b11132f16911925581fea3b176b8756158e2322"
+        "report_sha256": "27e733bd5c69d1f81f8422fb17690beae077f0a452a9d4b879ca8c4aafd51d44"
       }
     },
     "docs/calendario.mdx#risorse-correlate": {
@@ -802,9 +802,9 @@
       "editorial_content_sha256": "03b527a846c9821d67af0d96f330890b44a13c956279d0953e8a419ada33717e",
       "materialization": {
         "format": 1,
-        "capture_id": "37a017f005032645",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "course-enrollment-calendar-navigation",
-        "report_sha256": "3e1e3d560ff7c518726124d80c51903dd54cdb517a75c5ed7aab3e3cec53b40a"
+        "report_sha256": "85644cf471e15c3d24c67bbf5b89d15c0551e654ef616889c199d65a6547c0d8"
       }
     },
     "docs/calendario.mdx#vista-giorno": {
@@ -821,9 +821,9 @@
       "editorial_content_sha256": "06b692f6413db5b2c52bc358c1fac3a15f2a8f1b2449f7dbcfad4becaf2cbbe4",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "camps-calendar-manage",
-        "report_sha256": "084670e261429f2cb892248c9b11132f16911925581fea3b176b8756158e2322"
+        "report_sha256": "27e733bd5c69d1f81f8422fb17690beae077f0a452a9d4b879ca8c4aafd51d44"
       }
     },
     "docs/calendario.mdx#vista-lista": {
@@ -840,9 +840,9 @@
       "editorial_content_sha256": "437942201bb526fddc7f5c75d7782d1fe3fa47cb3a7f7c27fc2a161c9006bb97",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "camps-calendar-manage",
-        "report_sha256": "084670e261429f2cb892248c9b11132f16911925581fea3b176b8756158e2322"
+        "report_sha256": "27e733bd5c69d1f81f8422fb17690beae077f0a452a9d4b879ca8c4aafd51d44"
       }
     },
     "docs/calendario.mdx#vista-mese": {
@@ -859,9 +859,9 @@
       "editorial_content_sha256": "4379bb1dbdbbdb5b03105b419e96f184c0778f494c62d36ac1d9daf2f0c26ebf",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "camps-calendar-manage",
-        "report_sha256": "084670e261429f2cb892248c9b11132f16911925581fea3b176b8756158e2322"
+        "report_sha256": "27e733bd5c69d1f81f8422fb17690beae077f0a452a9d4b879ca8c4aafd51d44"
       }
     },
     "docs/calendario.mdx#vista-settimana": {
@@ -878,9 +878,9 @@
       "editorial_content_sha256": "d5f80e560f0c3734889465f1246f69f6d48d3d4c40cc0f598b82043e65e32a16",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "camps-calendar-manage",
-        "report_sha256": "084670e261429f2cb892248c9b11132f16911925581fea3b176b8756158e2322"
+        "report_sha256": "27e733bd5c69d1f81f8422fb17690beae077f0a452a9d4b879ca8c4aafd51d44"
       }
     },
     "docs/camp-e-ritiri.mdx#aggiungere-un-iscritto-manualmente": {
@@ -897,9 +897,9 @@
       "editorial_content_sha256": "c1d39da9e6676f42ca46914d612f93529659abf4351b9c46fb25a8dd7c348a29",
       "materialization": {
         "format": 1,
-        "capture_id": "37a017f005032645",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "camps-enrollment-local",
-        "report_sha256": "b11768e6751906a09187c0d23f5046f4c800b6f6fb57a1e8b7033b98e9e20167"
+        "report_sha256": "17a3369eecaa93c49b4634a0ce8d602a8ca6880bf4fec8b9e6763e10845104f9"
       }
     },
     "docs/camp-e-ritiri.mdx#aggiungere-un-periodo": {
@@ -916,9 +916,9 @@
       "editorial_content_sha256": "80fa0ad52dfac47f36e0d3a6ed912aa380497a49968b91333f3640253132869c",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "camps-calendar-manage",
-        "report_sha256": "084670e261429f2cb892248c9b11132f16911925581fea3b176b8756158e2322"
+        "report_sha256": "27e733bd5c69d1f81f8422fb17690beae077f0a452a9d4b879ca8c4aafd51d44"
       }
     },
     "docs/camp-e-ritiri.mdx#aggiungere-un-servizio": {
@@ -935,9 +935,9 @@
       "editorial_content_sha256": "23c3462e9608f694fa7aa9137915ff278bd6ab065ba0086aacdc3a89e1c6847b",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "camps-calendar-manage",
-        "report_sha256": "084670e261429f2cb892248c9b11132f16911925581fea3b176b8756158e2322"
+        "report_sha256": "27e733bd5c69d1f81f8422fb17690beae077f0a452a9d4b879ca8c4aafd51d44"
       }
     },
     "docs/camp-e-ritiri.mdx#cos-e-un-camp-o-ritiro": {
@@ -954,9 +954,9 @@
       "editorial_content_sha256": "1f1f28cffde7ce4cc8703848691a1c659232fbf9bb345409a08cbd2b07d943aa",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "camps-calendar-manage",
-        "report_sha256": "084670e261429f2cb892248c9b11132f16911925581fea3b176b8756158e2322"
+        "report_sha256": "27e733bd5c69d1f81f8422fb17690beae077f0a452a9d4b879ca8c4aafd51d44"
       }
     },
     "docs/camp-e-ritiri.mdx#creare-un-camp-o-ritiro": {
@@ -973,9 +973,9 @@
       "editorial_content_sha256": "83d9c203315d30703d0c823aa38518401d578774a7fb4ddcf7fe3a74246ea893",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "camps-calendar-manage",
-        "report_sha256": "084670e261429f2cb892248c9b11132f16911925581fea3b176b8756158e2322"
+        "report_sha256": "27e733bd5c69d1f81f8422fb17690beae077f0a452a9d4b879ca8c4aafd51d44"
       }
     },
     "docs/camp-e-ritiri.mdx#flusso-di-lavoro-consigliato": {
@@ -992,9 +992,9 @@
       "editorial_content_sha256": "7cbf2d8c8262f15d914270c46a2a02b6ea0640664a7c214dd32d9e6d30b6fbe8",
       "materialization": {
         "format": 1,
-        "capture_id": "37a017f005032645",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "camps-enrollment-local",
-        "report_sha256": "b11768e6751906a09187c0d23f5046f4c800b6f6fb57a1e8b7033b98e9e20167"
+        "report_sha256": "17a3369eecaa93c49b4634a0ce8d602a8ca6880bf4fec8b9e6763e10845104f9"
       }
     },
     "docs/camp-e-ritiri.mdx#gestire-i-pagamenti": {
@@ -1011,9 +1011,9 @@
       "editorial_content_sha256": "abca4fc0fcdd6e1b3f0b93b1d5cb3471577023a10d0db8b3f680825124f43c5f",
       "materialization": {
         "format": 1,
-        "capture_id": "37a017f005032645",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "camps-enrollment-local",
-        "report_sha256": "b11768e6751906a09187c0d23f5046f4c800b6f6fb57a1e8b7033b98e9e20167"
+        "report_sha256": "17a3369eecaa93c49b4634a0ce8d602a8ca6880bf4fec8b9e6763e10845104f9"
       }
     },
     "docs/camp-e-ritiri.mdx#gestire-i-periodi": {
@@ -1030,9 +1030,9 @@
       "editorial_content_sha256": "0d5bdd2af6f82b16884e3c058f006c9ff1338cecd7200c1df273b0cc337235c5",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "camps-calendar-manage",
-        "report_sha256": "084670e261429f2cb892248c9b11132f16911925581fea3b176b8756158e2322"
+        "report_sha256": "27e733bd5c69d1f81f8422fb17690beae077f0a452a9d4b879ca8c4aafd51d44"
       }
     },
     "docs/camp-e-ritiri.mdx#gestire-i-servizi": {
@@ -1049,9 +1049,9 @@
       "editorial_content_sha256": "1ce108df2d6d964db107c399360ec4e1491c6cebac7d770bfd3566503c90d8f0",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "camps-calendar-manage",
-        "report_sha256": "084670e261429f2cb892248c9b11132f16911925581fea3b176b8756158e2322"
+        "report_sha256": "27e733bd5c69d1f81f8422fb17690beae077f0a452a9d4b879ca8c4aafd51d44"
       }
     },
     "docs/camp-e-ritiri.mdx#iscrivere-gli-atleti": {
@@ -1068,9 +1068,9 @@
       "editorial_content_sha256": "4620e39f5720352e8b89fe2fedde7f83bc1e5666fdb7771f72f4c96db712d2b7",
       "materialization": {
         "format": 1,
-        "capture_id": "37a017f005032645",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "camps-enrollment-local",
-        "report_sha256": "b11768e6751906a09187c0d23f5046f4c800b6f6fb57a1e8b7033b98e9e20167"
+        "report_sha256": "17a3369eecaa93c49b4634a0ce8d602a8ca6880bf4fec8b9e6763e10845104f9"
       }
     },
     "docs/camp-e-ritiri.mdx#modificare-o-eliminare-un-servizio": {
@@ -1087,9 +1087,9 @@
       "editorial_content_sha256": "6f9d8eadeb8173856e6105a18e6b3aa54934ecfd4484aba9eb173c16a663ddfb",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "camps-calendar-manage",
-        "report_sha256": "084670e261429f2cb892248c9b11132f16911925581fea3b176b8756158e2322"
+        "report_sha256": "27e733bd5c69d1f81f8422fb17690beae077f0a452a9d4b879ca8c4aafd51d44"
       }
     },
     "docs/camp-e-ritiri.mdx#modificare-un-iscrizione": {
@@ -1106,9 +1106,9 @@
       "editorial_content_sha256": "ebe6eed0e3e92bdb2039377cbe8e1dc59bed5f5043520a34a173dbf5de30cc95",
       "materialization": {
         "format": 1,
-        "capture_id": "37a017f005032645",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "camps-enrollment-local",
-        "report_sha256": "b11768e6751906a09187c0d23f5046f4c800b6f6fb57a1e8b7033b98e9e20167"
+        "report_sha256": "17a3369eecaa93c49b4634a0ce8d602a8ca6880bf4fec8b9e6763e10845104f9"
       }
     },
     "docs/camp-e-ritiri.mdx#modificare-un-periodo": {
@@ -1125,9 +1125,9 @@
       "editorial_content_sha256": "6bbfc8274ca2d978d205a37b7e63fd1a4ac1b0aec50dadae40826c1600f87dfc",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "camps-calendar-manage",
-        "report_sha256": "084670e261429f2cb892248c9b11132f16911925581fea3b176b8756158e2322"
+        "report_sha256": "27e733bd5c69d1f81f8422fb17690beae077f0a452a9d4b879ca8c4aafd51d44"
       }
     },
     "docs/camp-e-ritiri.mdx#modulo-di-iscrizione-pubblico": {
@@ -1144,9 +1144,9 @@
       "editorial_content_sha256": "1da3ec21ac6a76f6f69fc396b99a7dffa9ea582478a7de39e1fc9a743c72eff4",
       "materialization": {
         "format": 1,
-        "capture_id": "37a017f005032645",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "camps-enrollment-local",
-        "report_sha256": "b11768e6751906a09187c0d23f5046f4c800b6f6fb57a1e8b7033b98e9e20167"
+        "report_sha256": "17a3369eecaa93c49b4634a0ce8d602a8ca6880bf4fec8b9e6763e10845104f9"
       }
     },
     "docs/camp-e-ritiri.mdx#rimuovere-un-iscrizione": {
@@ -1163,9 +1163,9 @@
       "editorial_content_sha256": "7b17f0f24b757a5f12fc2efa9c3e5721f8fe8df9221701a20ef7c3bbbdb7e906",
       "materialization": {
         "format": 1,
-        "capture_id": "37a017f005032645",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "camps-enrollment-local",
-        "report_sha256": "b11768e6751906a09187c0d23f5046f4c800b6f6fb57a1e8b7033b98e9e20167"
+        "report_sha256": "17a3369eecaa93c49b4634a0ce8d602a8ca6880bf4fec8b9e6763e10845104f9"
       }
     },
     "docs/carnet.mdx#assegnare-un-carnet-ad-un-atleta": {
@@ -1182,9 +1182,9 @@
       "editorial_content_sha256": "cee45b8d78d9581966e7e8a797431a92bd2f17eab4fff76d10b11ba192810c09",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "attendance-carnet-manual",
-        "report_sha256": "3647372d97e936858636df1764201ad63620d74480ca39959052e39d6a75c10a"
+        "report_sha256": "c8a79bd1ab235682127ad0e76e6930d0b67c9fc8d57784c5d0efb5817cc75433"
       }
     },
     "docs/carnet.mdx#assegnare-un-corso-ad-un-carnet": {
@@ -1201,9 +1201,9 @@
       "editorial_content_sha256": "e81f7121973e835ef2591b59ca079fc5625fd6606e8060469b7f6ec8c89d1156",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "attendance-carnet-manual",
-        "report_sha256": "3647372d97e936858636df1764201ad63620d74480ca39959052e39d6a75c10a"
+        "report_sha256": "c8a79bd1ab235682127ad0e76e6930d0b67c9fc8d57784c5d0efb5817cc75433"
       }
     },
     "docs/carnet.mdx#blocco-per-assenza-prevista": {
@@ -1220,9 +1220,9 @@
       "editorial_content_sha256": "ebd5499d038b26b5dc3ff7a547f0b80b2f6cd0e8d0d2d58e91c21afba12e2ead",
       "materialization": {
         "format": 1,
-        "capture_id": "37a017f005032645",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "attendance-automatic",
-        "report_sha256": "938044cfa8240c70765b38f9bfe39a0715c98c7460b6fa1acc1783e8cad11ccf"
+        "report_sha256": "b86981eee01b7c6f74acc1c826132d46496929f5adea635ade6e8d14351c592e"
       }
     },
     "docs/carnet.mdx#carnet-pubblici-e-privati": {
@@ -1239,9 +1239,9 @@
       "editorial_content_sha256": "ca8118188fdad61dc2e50890b1f3ecaba4cbb7856b4ab85f1fcae5653476fe11",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "attendance-carnet-manual",
-        "report_sha256": "3647372d97e936858636df1764201ad63620d74480ca39959052e39d6a75c10a"
+        "report_sha256": "c8a79bd1ab235682127ad0e76e6930d0b67c9fc8d57784c5d0efb5817cc75433"
       }
     },
     "docs/carnet.mdx#come-funziona-un-carnet": {
@@ -1258,9 +1258,9 @@
       "editorial_content_sha256": "b39deda25dd0cfb8b9c3cd18d9547eef54270ac80f7549acb97f9f231e89f2af",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "attendance-carnet-manual",
-        "report_sha256": "3647372d97e936858636df1764201ad63620d74480ca39959052e39d6a75c10a"
+        "report_sha256": "c8a79bd1ab235682127ad0e76e6930d0b67c9fc8d57784c5d0efb5817cc75433"
       }
     },
     "docs/carnet.mdx#cos-e-un-carnet": {
@@ -1277,9 +1277,9 @@
       "editorial_content_sha256": "4583b6ba64a25fda69f4a72b581714b649e9b52a5bb159ae8a078768a2cce0c7",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "attendance-carnet-manual",
-        "report_sha256": "3647372d97e936858636df1764201ad63620d74480ca39959052e39d6a75c10a"
+        "report_sha256": "c8a79bd1ab235682127ad0e76e6930d0b67c9fc8d57784c5d0efb5817cc75433"
       }
     },
     "docs/carnet.mdx#creare-e-gestire-un-carnet": {
@@ -1296,9 +1296,9 @@
       "editorial_content_sha256": "6ff42714844b530ef75ca2729ef74e5ae50abb405b1fae4fbc7a4d5672f1a220",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "attendance-carnet-manual",
-        "report_sha256": "3647372d97e936858636df1764201ad63620d74480ca39959052e39d6a75c10a"
+        "report_sha256": "c8a79bd1ab235682127ad0e76e6930d0b67c9fc8d57784c5d0efb5817cc75433"
       }
     },
     "docs/carnet.mdx#logica-di-scalamento-lezioni": {
@@ -1315,9 +1315,9 @@
       "editorial_content_sha256": "d8d676b4937f4b6f8cf17776f044a940e967d9b365f48320e55a47bf148d623b",
       "materialization": {
         "format": 1,
-        "capture_id": "37a017f005032645",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "attendance-carnet-variants",
-        "report_sha256": "cf1796f9568063fa873bc69a2926bc12c31e05bcc29a892bcfacfdf3be863952"
+        "report_sha256": "708bcf691317cd002470ce16fd2f48ab69c4f3b519f17c7d22de3a26c9dcc7cf"
       }
     },
     "docs/carnet.mdx#registro-presenze-automatico-con-carnet": {
@@ -1334,9 +1334,9 @@
       "editorial_content_sha256": "fbdc03f9ab4f0aa4e2af7c1f7ff855fcd02442a0f4d9a1cf7b26647da58d90a6",
       "materialization": {
         "format": 1,
-        "capture_id": "37a017f005032645",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "attendance-automatic",
-        "report_sha256": "938044cfa8240c70765b38f9bfe39a0715c98c7460b6fa1acc1783e8cad11ccf"
+        "report_sha256": "b86981eee01b7c6f74acc1c826132d46496929f5adea635ade6e8d14351c592e"
       }
     },
     "docs/carnet.mdx#ricaricare-un-carnet": {
@@ -1353,9 +1353,9 @@
       "editorial_content_sha256": "78f7ffcb5d3c9ae1d878d63e00fbd2431e3272049f6778d3e3834a2deee7e968",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "attendance-carnet-maintenance",
-        "report_sha256": "4b9a299684130f245f97f32cf64eb6fbd4f045959da51c13e24c6c8e7254dd1d"
+        "report_sha256": "cfb09fc8470f5f997a828edd3ed161d48dc158509242916534d194a48cad5f03"
       }
     },
     "docs/carnet.mdx#riepilogo-delle-regole-di-funzionamento": {
@@ -1396,9 +1396,9 @@
       "editorial_content_sha256": "e98439259175654ca3cc14ef91e6ab4f0faae6d50f09cc17c3c90294c88c8447",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "collaborator-permissions",
-        "report_sha256": "346813fb4d2ef885018a12da232bb789bab93d21d526d2984c63bbe89be135e4"
+        "report_sha256": "5981fee9e5974f59607d028ff4b6aa55eb9657c1c2a8b05bd02ecc4f52de631f"
       }
     },
     "docs/collaboratori.mdx#introduzione": {
@@ -1415,9 +1415,9 @@
       "editorial_content_sha256": "a6c19f2a8f4789d6d3af9b2e7d9612e85e0804e342c734decd21377f6eebaf91",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "collaborator-permissions",
-        "report_sha256": "346813fb4d2ef885018a12da232bb789bab93d21d526d2984c63bbe89be135e4"
+        "report_sha256": "5981fee9e5974f59607d028ff4b6aa55eb9657c1c2a8b05bd02ecc4f52de631f"
       }
     },
     "docs/collaboratori.mdx#invitare-un-collaboratore": {
@@ -1446,9 +1446,9 @@
       "editorial_content_sha256": "37833e30523cb87cdba433bbcf224b1918718aed778a9f4c2ebf12afcaa2a4aa",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "collaborator-permissions",
-        "report_sha256": "346813fb4d2ef885018a12da232bb789bab93d21d526d2984c63bbe89be135e4"
+        "report_sha256": "5981fee9e5974f59607d028ff4b6aa55eb9657c1c2a8b05bd02ecc4f52de631f"
       }
     },
     "docs/collaboratori.mdx#modificare-i-permessi-di-un-collaboratore": {
@@ -1465,9 +1465,9 @@
       "editorial_content_sha256": "1a3778e0a68f4e416ecb91c8b14b98deef52212ace7edd384eca22fccfc1b205",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "collaborator-permissions",
-        "report_sha256": "346813fb4d2ef885018a12da232bb789bab93d21d526d2984c63bbe89be135e4"
+        "report_sha256": "5981fee9e5974f59607d028ff4b6aa55eb9657c1c2a8b05bd02ecc4f52de631f"
       }
     },
     "docs/collaboratori.mdx#personalizzato": {
@@ -1484,9 +1484,9 @@
       "editorial_content_sha256": "729f271ed4c37632d39c6839d2fff69b2f33ff0a0fad8ea91121b05e252e55de",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "collaborator-permissions",
-        "report_sha256": "346813fb4d2ef885018a12da232bb789bab93d21d526d2984c63bbe89be135e4"
+        "report_sha256": "5981fee9e5974f59607d028ff4b6aa55eb9657c1c2a8b05bd02ecc4f52de631f"
       }
     },
     "docs/collaboratori.mdx#stato-degli-inviti": {
@@ -1503,9 +1503,9 @@
       "editorial_content_sha256": "4b4140b8ee12a8740029dc100240eeab2f28a847934e0d322a595ece7a8b93e3",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "collaborator-removal",
-        "report_sha256": "3e8d6d5de5c10a40b3336813cf4b7d45e4fde591449d1cf2504c15e2e75567b7"
+        "report_sha256": "d7006ac0592ba86c7c3dbc661933d08cbaa7e35852e38674fa6f7ea2ab1d98aa"
       }
     },
     "docs/comunicazioni.mdx#automazioni-via-workflow": {
@@ -1546,9 +1546,9 @@
       "editorial_content_sha256": "7a60bdf49a402afc7a827843eecc34d3738d3eed5aaf790a59f01c8ac66c21fb",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "communication-workflow-manage",
-        "report_sha256": "d9bdd86b23b890e3c104ba7b8229f3070b3c1e3b4c8498b2b48e27ee96f05c69"
+        "report_sha256": "b6053a42102069f08f0d57526d636a3048ba6efa307c4b17609b73dba78f416d"
       }
     },
     "docs/comunicazioni.mdx#come-inviare-una-comunicazione-sms-email": {
@@ -1577,9 +1577,9 @@
       "editorial_content_sha256": "e256eeb35aaa629d31fad0681db1a76c8fbb8511d0d306a73a9439d7d23780d0",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "communication-message-compose",
-        "report_sha256": "aa11f8e9dc741269a8f4cc4a7babec8fa8c03a23ea29ee60b6020995a428798c"
+        "report_sha256": "eb2a55477aaa660f460f1b81d0814c186c23dc2b7efd25f216d28c69a0498dd6"
       }
     },
     "docs/comunicazioni.mdx#limiti-delle-comunicazioni": {
@@ -1608,9 +1608,9 @@
       "editorial_content_sha256": "3ee4183002c904228b6748a0bab3c5d24d1122ef29d80952d5c6dbb70ea05ec5",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "communication-message-compose",
-        "report_sha256": "aa11f8e9dc741269a8f4cc4a7babec8fa8c03a23ea29ee60b6020995a428798c"
+        "report_sha256": "eb2a55477aaa660f460f1b81d0814c186c23dc2b7efd25f216d28c69a0498dd6"
       }
     },
     "docs/comunicazioni.mdx#post": {
@@ -1627,9 +1627,9 @@
       "editorial_content_sha256": "b5208c9bd513210d7f604fdac479d6869898820d0a59dbb8ce37fa379ff2fee1",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "communication-message-compose",
-        "report_sha256": "aa11f8e9dc741269a8f4cc4a7babec8fa8c03a23ea29ee60b6020995a428798c"
+        "report_sha256": "eb2a55477aaa660f460f1b81d0814c186c23dc2b7efd25f216d28c69a0498dd6"
       }
     },
     "docs/comunicazioni.mdx#quanti-sms-posso-inviare": {
@@ -1682,9 +1682,9 @@
       "editorial_content_sha256": "9c122915188cccc0ac0e762892b5dc8b679b6aeb5137f273fd44490b5da91f97",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "accounting-suppliers-manage",
-        "report_sha256": "ac3e7db67b9d534866cdda4978f49a83c0ee9b50756cef2a771f3fdade906819"
+        "report_sha256": "4bca5d6a31feba5dc3eb856b8ee18ab8815e99e422b22e963a0130136652cdbe"
       }
     },
     "docs/contabilita-avanzata.mdx#causali-aggiuntive-nei-pagamenti": {
@@ -1701,9 +1701,9 @@
       "editorial_content_sha256": "6a1d0a4e17db7fcaf6128bb36b2ca4249ddaeee089159cbb3ebd73d191e2150e",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "payment-classification-local",
-        "report_sha256": "c9c72a3f49d9bde76c4a074e6546e4ad481dacfc5afec823aef793cfaa3be6df"
+        "report_sha256": "6a7ec26b9a0d5694b89b44f72cbf62c7b9eff0c09fcadb0c7feae5b0c28e586d"
       }
     },
     "docs/contabilita-avanzata.mdx#causali-detraibili-730": {
@@ -1720,9 +1720,9 @@
       "editorial_content_sha256": "b375a23170663777ba58e86f3b05b7034d7935424b14bdbe65774630ae561a32",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "payment-classification-local",
-        "report_sha256": "c9c72a3f49d9bde76c4a074e6546e4ad481dacfc5afec823aef793cfaa3be6df"
+        "report_sha256": "6a7ec26b9a0d5694b89b44f72cbf62c7b9eff0c09fcadb0c7feae5b0c28e586d"
       }
     },
     "docs/contabilita-avanzata.mdx#causali-di-pagamento": {
@@ -1739,9 +1739,9 @@
       "editorial_content_sha256": "16c5130786bbf52eb40274d0204044b8f491db933885c3f0c38d6cb88b38c3b3",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "payment-categories-manage",
-        "report_sha256": "d0103e4934993659198476e0c808bc71e21f91403d87cd894c9cc217f5c44f63"
+        "report_sha256": "4b98e3935b6579fd72b20770204d35ea75ad4dca60d53ad89d99622fcc017a8c"
       }
     },
     "docs/contabilita-avanzata.mdx#conti-finanziari": {
@@ -1758,9 +1758,9 @@
       "editorial_content_sha256": "d04b0848e0d3d367fd524c22bad9b94899819614959589f581007d1a1c06f4d7",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "accounting-balance-manage",
-        "report_sha256": "1b2eadb9a0d7db21821c05fa4c99fce7dd00823d4898b644a7df6b50d7e2cded"
+        "report_sha256": "d7c748b5db77dc20d783147497a9fc3429fd50af18c4df0bf74bf8b6860be66a"
       }
     },
     "docs/contabilita-avanzata.mdx#creare-un-giroconto": {
@@ -1777,9 +1777,9 @@
       "editorial_content_sha256": "51ee451c817d19bba650dd0c22d2a7c414a3bdb778d56f22ca0fcf23790dcbe5",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "accounting-balance-manage",
-        "report_sha256": "1b2eadb9a0d7db21821c05fa4c99fce7dd00823d4898b644a7df6b50d7e2cded"
+        "report_sha256": "d7c748b5db77dc20d783147497a9fc3429fd50af18c4df0bf74bf8b6860be66a"
       }
     },
     "docs/contabilita-avanzata.mdx#creare-un-nuovo-conto": {
@@ -1796,9 +1796,9 @@
       "editorial_content_sha256": "2c639625a150764acf9c17313d1a0aca0f4d3b781a958a81b4095e53b086db56",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "accounting-balance-manage",
-        "report_sha256": "1b2eadb9a0d7db21821c05fa4c99fce7dd00823d4898b644a7df6b50d7e2cded"
+        "report_sha256": "d7c748b5db77dc20d783147497a9fc3429fd50af18c4df0bf74bf8b6860be66a"
       }
     },
     "docs/contabilita-avanzata.mdx#creare-una-causale": {
@@ -1815,9 +1815,9 @@
       "editorial_content_sha256": "45d8a026c23f275c14e5721a236b1a39b52bbc9a292c33146100597e3e45ee69",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "payment-categories-manage",
-        "report_sha256": "d0103e4934993659198476e0c808bc71e21f91403d87cd894c9cc217f5c44f63"
+        "report_sha256": "4b98e3935b6579fd72b20770204d35ea75ad4dca60d53ad89d99622fcc017a8c"
       }
     },
     "docs/contabilita-avanzata.mdx#creare-una-fattura-attiva": {
@@ -1846,9 +1846,9 @@
       "editorial_content_sha256": "8ffa19491835ab7bdd11c73009d7eef71fb3dd789791f1e128252c67dc976c7f",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "accounting-suppliers-manage",
-        "report_sha256": "ac3e7db67b9d534866cdda4978f49a83c0ee9b50756cef2a771f3fdade906819"
+        "report_sha256": "4bca5d6a31feba5dc3eb856b8ee18ab8815e99e422b22e963a0130136652cdbe"
       }
     },
     "docs/contabilita-avanzata.mdx#eliminare-un-giroconto": {
@@ -1865,9 +1865,9 @@
       "editorial_content_sha256": "406fb4a8f3694ee525cb66a7f411bdd04ff31491eaab2e73c2fdabb12c6f938a",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "accounting-balance-manage",
-        "report_sha256": "1b2eadb9a0d7db21821c05fa4c99fce7dd00823d4898b644a7df6b50d7e2cded"
+        "report_sha256": "d7c748b5db77dc20d783147497a9fc3429fd50af18c4df0bf74bf8b6860be66a"
       }
     },
     "docs/contabilita-avanzata.mdx#fatture-attive": {
@@ -1896,9 +1896,9 @@
       "editorial_content_sha256": "54a1d8dfe2eda600b83d1ca8987d16fe8882b0c22bb4f1ed809590d9ac979134",
       "materialization": {
         "format": 1,
-        "capture_id": "37a017f005032645",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "accounting-supplier-invoices-manage",
-        "report_sha256": "4bfdebaf7f338f31744b5535fd2b8845b995490bffd215fde9eb46e95a80cc4a"
+        "report_sha256": "4d2675df6580c13c3e6a96a8ce207e89dca6d6d51b014c2813fdeabf355a0331"
       }
     },
     "docs/contabilita-avanzata.mdx#fornitori-e-clienti": {
@@ -1915,9 +1915,9 @@
       "editorial_content_sha256": "94c527e7a2e2b356d657e65365248f8928e5f49f312cc87cd0222ed6f3c9fc91",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "accounting-suppliers-manage",
-        "report_sha256": "ac3e7db67b9d534866cdda4978f49a83c0ee9b50756cef2a771f3fdade906819"
+        "report_sha256": "4bca5d6a31feba5dc3eb856b8ee18ab8815e99e422b22e963a0130136652cdbe"
       }
     },
     "docs/contabilita-avanzata.mdx#giroconti": {
@@ -1934,9 +1934,9 @@
       "editorial_content_sha256": "2f5c3e0b2a757546025cae327637bf6c53bd0fd091e2647b22cb5708de9d61a7",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "accounting-balance-manage",
-        "report_sha256": "1b2eadb9a0d7db21821c05fa4c99fce7dd00823d4898b644a7df6b50d7e2cded"
+        "report_sha256": "d7c748b5db77dc20d783147497a9fc3429fd50af18c4df0bf74bf8b6860be66a"
       }
     },
     "docs/contabilita-avanzata.mdx#modificare-un-conto": {
@@ -1953,9 +1953,9 @@
       "editorial_content_sha256": "cd28cc1fd2614821f605055b718cc159830d6db42d61cbdb8875c672303bbfb3",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "accounting-balance-manage",
-        "report_sha256": "1b2eadb9a0d7db21821c05fa4c99fce7dd00823d4898b644a7df6b50d7e2cded"
+        "report_sha256": "d7c748b5db77dc20d783147497a9fc3429fd50af18c4df0bf74bf8b6860be66a"
       }
     },
     "docs/contabilita-avanzata.mdx#modificare-un-fornitore-o-cliente": {
@@ -1972,9 +1972,9 @@
       "editorial_content_sha256": "ed7ef94d6e583dc131f25a6298a4ef27e74a386ba9c87d9be6f5a03797e46d0c",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "accounting-suppliers-manage",
-        "report_sha256": "ac3e7db67b9d534866cdda4978f49a83c0ee9b50756cef2a771f3fdade906819"
+        "report_sha256": "4bca5d6a31feba5dc3eb856b8ee18ab8815e99e422b22e963a0130136652cdbe"
       }
     },
     "docs/contabilita-avanzata.mdx#modificare-una-causale": {
@@ -1991,9 +1991,9 @@
       "editorial_content_sha256": "ac50392e504cf521a05e5762a3f090e59aac796933081f179ad660825ebc9291",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "payment-categories-manage",
-        "report_sha256": "d0103e4934993659198476e0c808bc71e21f91403d87cd894c9cc217f5c44f63"
+        "report_sha256": "4b98e3935b6579fd72b20770204d35ea75ad4dca60d53ad89d99622fcc017a8c"
       }
     },
     "docs/contabilita-avanzata.mdx#modificare-una-fattura-attiva": {
@@ -2022,9 +2022,9 @@
       "editorial_content_sha256": "07d331b5983290516623b99d163ced474d1ef6bcf06c5a30b711d85c9ca1f4d5",
       "materialization": {
         "format": 1,
-        "capture_id": "37a017f005032645",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "accounting-supplier-invoices-manage",
-        "report_sha256": "4bfdebaf7f338f31744b5535fd2b8845b995490bffd215fde9eb46e95a80cc4a"
+        "report_sha256": "4d2675df6580c13c3e6a96a8ce207e89dca6d6d51b014c2813fdeabf355a0331"
       }
     },
     "docs/contabilita-avanzata.mdx#panoramica": {
@@ -2053,9 +2053,9 @@
       "editorial_content_sha256": "89426b3ded33aa9f595c6629803b1e4af081cf161cbea53e716814db7ab2588d",
       "materialization": {
         "format": 1,
-        "capture_id": "37a017f005032645",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "accounting-supplier-invoices-manage",
-        "report_sha256": "4bfdebaf7f338f31744b5535fd2b8845b995490bffd215fde9eb46e95a80cc4a"
+        "report_sha256": "4d2675df6580c13c3e6a96a8ce207e89dca6d6d51b014c2813fdeabf355a0331"
       }
     },
     "docs/contabilita-avanzata.mdx#segnare-una-fattura-come-pagata": {
@@ -2084,9 +2084,9 @@
       "editorial_content_sha256": "52e7d38d33b7c02a5131942f35e85b83e6a0b81902df7b0d48d34caa8b9ec676",
       "materialization": {
         "format": 1,
-        "capture_id": "37a017f005032645",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "accounting-supplier-invoices-manage",
-        "report_sha256": "4bfdebaf7f338f31744b5535fd2b8845b995490bffd215fde9eb46e95a80cc4a"
+        "report_sha256": "4d2675df6580c13c3e6a96a8ce207e89dca6d6d51b014c2813fdeabf355a0331"
       }
     },
     "docs/contabilita-avanzata.mdx#tipologie-di-causali": {
@@ -2103,9 +2103,9 @@
       "editorial_content_sha256": "6bcf4ba482cda53b6e0eb21f212ae9b7a243b388903bf43a3fe24c145637ec25",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "payment-categories-manage",
-        "report_sha256": "d0103e4934993659198476e0c808bc71e21f91403d87cd894c9cc217f5c44f63"
+        "report_sha256": "4b98e3935b6579fd72b20770204d35ea75ad4dca60d53ad89d99622fcc017a8c"
       }
     },
     "docs/contabilita-avanzata.mdx#tipologie-di-conto": {
@@ -2122,9 +2122,9 @@
       "editorial_content_sha256": "97f97ecdd827745bce08bc222a3504ea82736e5417e00183c951dbbda57a1fc7",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "accounting-balance-manage",
-        "report_sha256": "1b2eadb9a0d7db21821c05fa4c99fce7dd00823d4898b644a7df6b50d7e2cded"
+        "report_sha256": "d7c748b5db77dc20d783147497a9fc3429fd50af18c4df0bf74bf8b6860be66a"
       }
     },
     "docs/corsi.mdx#aggiungere-o-rimuovere-atleti": {
@@ -2141,9 +2141,9 @@
       "editorial_content_sha256": "f63df5c75d09b0066809476525296aaa884e0f442a267d2e7a6e1a106acd3f0e",
       "materialization": {
         "format": 1,
-        "capture_id": "37a017f005032645",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "course-enrollment-calendar-navigation",
-        "report_sha256": "3e1e3d560ff7c518726124d80c51903dd54cdb517a75c5ed7aab3e3cec53b40a"
+        "report_sha256": "85644cf471e15c3d24c67bbf5b89d15c0551e654ef616889c199d65a6547c0d8"
       }
     },
     "docs/corsi.mdx#calendario-delle-lezioni": {
@@ -2160,9 +2160,9 @@
       "editorial_content_sha256": "166ac9790dc5c20f80e9ad94c378a8a4f069fe64d23475bf8ae225e4904bab6b",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "attendance-carnet-manual",
-        "report_sha256": "3647372d97e936858636df1764201ad63620d74480ca39959052e39d6a75c10a"
+        "report_sha256": "c8a79bd1ab235682127ad0e76e6930d0b67c9fc8d57784c5d0efb5817cc75433"
       }
     },
     "docs/corsi.mdx#corso-con-pagamento-per-lezione": {
@@ -2179,9 +2179,9 @@
       "editorial_content_sha256": "2b0527543e815f2092e48b24ed208df4a0e02790f07d4d8a61d38984a304b73d",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "attendance-carnet-manual",
-        "report_sha256": "3647372d97e936858636df1764201ad63620d74480ca39959052e39d6a75c10a"
+        "report_sha256": "c8a79bd1ab235682127ad0e76e6930d0b67c9fc8d57784c5d0efb5817cc75433"
       }
     },
     "docs/corsi.mdx#creare-un-corso": {
@@ -2198,9 +2198,9 @@
       "editorial_content_sha256": "0dc112a213a8112dc9cef8c38c8a8fec3fd379e6051f062b3de3e29f1fae224e",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "courses-create-edit",
-        "report_sha256": "f0e61f45fa4b022bc28838bac21e82ca6f1da89052cb37b4bbb2cc261512c6a7"
+        "report_sha256": "219c2bb2c7f51f8cc6364e8373af703d6c3c1e23f478e6bbb862f8a71d88d6bc"
       }
     },
     "docs/corsi.mdx#gestire-le-lezioni": {
@@ -2217,9 +2217,9 @@
       "editorial_content_sha256": "d9930ce03a776ce1400e323d7030f0dbb7f595e5a312117cf7e548ba1f59d4b5",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "attendance-carnet-manual",
-        "report_sha256": "3647372d97e936858636df1764201ad63620d74480ca39959052e39d6a75c10a"
+        "report_sha256": "c8a79bd1ab235682127ad0e76e6930d0b67c9fc8d57784c5d0efb5817cc75433"
       }
     },
     "docs/corsi.mdx#lezione-singola": {
@@ -2236,9 +2236,9 @@
       "editorial_content_sha256": "d5104ef27a3917ac46ed3a0357348da7e4e792d661d18c136f67902781569f31",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "attendance-carnet-manual",
-        "report_sha256": "3647372d97e936858636df1764201ad63620d74480ca39959052e39d6a75c10a"
+        "report_sha256": "c8a79bd1ab235682127ad0e76e6930d0b67c9fc8d57784c5d0efb5817cc75433"
       }
     },
     "docs/corsi.mdx#modificare-le-informazioni-del-corso": {
@@ -2255,9 +2255,9 @@
       "editorial_content_sha256": "7ce83b72de73b5be4f3b93f98802a4fb3a1adfc2da240aceb85c4364de383624",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "courses-create-edit",
-        "report_sha256": "f0e61f45fa4b022bc28838bac21e82ca6f1da89052cb37b4bbb2cc261512c6a7"
+        "report_sha256": "219c2bb2c7f51f8cc6364e8373af703d6c3c1e23f478e6bbb862f8a71d88d6bc"
       }
     },
     "docs/corsi.mdx#pubblicare-il-calendario": {
@@ -2274,9 +2274,9 @@
       "editorial_content_sha256": "6b44b8c9597ed0b604f1fd7822d32c8e508169ddda6a31d7f8d5adea286565a9",
       "materialization": {
         "format": 1,
-        "capture_id": "37a017f005032645",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "course-enrollment-calendar-navigation",
-        "report_sha256": "3e1e3d560ff7c518726124d80c51903dd54cdb517a75c5ed7aab3e3cec53b40a"
+        "report_sha256": "85644cf471e15c3d24c67bbf5b89d15c0551e654ef616889c199d65a6547c0d8"
       }
     },
     "docs/impostazioni.mdx#anno-fiscale": {
@@ -2293,9 +2293,9 @@
       "editorial_content_sha256": "e88ca39aeddcff3a2b81246b6786afd16ef5f5870576a55efeec2372e22aa78c",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "organization-settings",
-        "report_sha256": "5405582d942777f78ff4e39bb457e92e1afe47839f5aa29f5ace963d69f734ee"
+        "report_sha256": "5f1c8f914930b02791f9e559dfa5797cef2583c7685bec318a8a50057b3c94ba"
       }
     },
     "docs/impostazioni.mdx#durata-delle-iscrizioni-e-tesseramenti": {
@@ -2312,9 +2312,9 @@
       "editorial_content_sha256": "1e445ceb7551b1c7d059a310616b171ffaabb0f97c76a59e087762f7e265985e",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "organization-settings",
-        "report_sha256": "5405582d942777f78ff4e39bb457e92e1afe47839f5aa29f5ace963d69f734ee"
+        "report_sha256": "5f1c8f914930b02791f9e559dfa5797cef2583c7685bec318a8a50057b3c94ba"
       }
     },
     "docs/impostazioni.mdx#informazioni-dell-organizzazione": {
@@ -2331,9 +2331,9 @@
       "editorial_content_sha256": "84d7014b5d695cbdbc5d8d9e6464f429ea2e4455d8bd711cdf31fd482459bbda",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "organization-settings",
-        "report_sha256": "5405582d942777f78ff4e39bb457e92e1afe47839f5aa29f5ace963d69f734ee"
+        "report_sha256": "5f1c8f914930b02791f9e559dfa5797cef2583c7685bec318a8a50057b3c94ba"
       }
     },
     "docs/impostazioni.mdx#stagione-sportiva": {
@@ -2350,9 +2350,9 @@
       "editorial_content_sha256": "6db1e7d37e7ac866613206ce7cbe2e268f01f115fcafb456491fb45dc34cb5db",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "organization-settings",
-        "report_sha256": "5405582d942777f78ff4e39bb457e92e1afe47839f5aa29f5ace963d69f734ee"
+        "report_sha256": "5f1c8f914930b02791f9e559dfa5797cef2583c7685bec318a8a50057b3c94ba"
       }
     },
     "docs/introduzione.mdx#cosa-desideri-approfondire": {
@@ -2393,9 +2393,9 @@
       "editorial_content_sha256": "8532d7197e01043002e75b8fddd0e20e5cb12871cfa0d65a1982c5c190a73597",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "registration-forms-manage",
-        "report_sha256": "0925e8a260e9d70fac7f86eac41a66aa498c350efe76e9d0b910ed1d1ee13297"
+        "report_sha256": "678fb7c7cf83edc1e5eb334884fbd082290f439b3fa5cfbf3fe1245facd9d111"
       }
     },
     "docs/istruttori.mdx#account-collaboratore-associato": {
@@ -2412,9 +2412,9 @@
       "editorial_content_sha256": "67d98abe461cd3aeca4222c5fd106881cddb7ad56bb7f0a7453b49c15cfffc7b",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "instructors-create-edit-hours",
-        "report_sha256": "db252d548b2ff10d800d69c2e965179b21b4f9d358b60d6e80adb008daea2abf"
+        "report_sha256": "311259ef578cb1e40759b230e702cd518f5943225777f0f2f52df09849e93c38"
       }
     },
     "docs/istruttori.mdx#aggiungere-un-istruttore": {
@@ -2431,9 +2431,9 @@
       "editorial_content_sha256": "a6ed62869d36994569ae50ecffa22203e338f2c57252ec0f03ebf33dcea0b574",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "instructors-create-edit-hours",
-        "report_sha256": "db252d548b2ff10d800d69c2e965179b21b4f9d358b60d6e80adb008daea2abf"
+        "report_sha256": "311259ef578cb1e40759b230e702cd518f5943225777f0f2f52df09849e93c38"
       }
     },
     "docs/istruttori.mdx#campi-principali": {
@@ -2450,9 +2450,9 @@
       "editorial_content_sha256": "75c3141f17b55605e1ebcb7989bee6a97ac1df9d982c5932e3113a4e041f5cb4",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "instructors-create-edit-hours",
-        "report_sha256": "db252d548b2ff10d800d69c2e965179b21b4f9d358b60d6e80adb008daea2abf"
+        "report_sha256": "311259ef578cb1e40759b230e702cd518f5943225777f0f2f52df09849e93c38"
       }
     },
     "docs/istruttori.mdx#compenso-orario": {
@@ -2469,9 +2469,9 @@
       "editorial_content_sha256": "11801df7e376b42c7eb758356a8109af237ceb49091a28a0603ee912f7e59b4e",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "instructors-create-edit-hours",
-        "report_sha256": "db252d548b2ff10d800d69c2e965179b21b4f9d358b60d6e80adb008daea2abf"
+        "report_sha256": "311259ef578cb1e40759b230e702cd518f5943225777f0f2f52df09849e93c38"
       }
     },
     "docs/istruttori.mdx#informazioni-anagrafiche": {
@@ -2488,9 +2488,9 @@
       "editorial_content_sha256": "b68774ccef4a436b6ad8894d003a701ee2bf220115f921fea105f61abb500266",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "instructors-create-edit-hours",
-        "report_sha256": "db252d548b2ff10d800d69c2e965179b21b4f9d358b60d6e80adb008daea2abf"
+        "report_sha256": "311259ef578cb1e40759b230e702cd518f5943225777f0f2f52df09849e93c38"
       }
     },
     "docs/istruttori.mdx#informazioni-contratto": {
@@ -2507,9 +2507,9 @@
       "editorial_content_sha256": "113d52f781c8327b704fea7f05b6d82a1ce758b5c43dbc51e713d45b8beee279",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "instructors-create-edit-hours",
-        "report_sha256": "db252d548b2ff10d800d69c2e965179b21b4f9d358b60d6e80adb008daea2abf"
+        "report_sha256": "311259ef578cb1e40759b230e702cd518f5943225777f0f2f52df09849e93c38"
       }
     },
     "docs/istruttori.mdx#informazioni-obbligatorie": {
@@ -2526,9 +2526,9 @@
       "editorial_content_sha256": "d2f8a395858f9dfa4f3a567b4bff122de1e057ff0c035980f0ae7ef670b3fb67",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "instructors-create-edit-hours",
-        "report_sha256": "db252d548b2ff10d800d69c2e965179b21b4f9d358b60d6e80adb008daea2abf"
+        "report_sha256": "311259ef578cb1e40759b230e702cd518f5943225777f0f2f52df09849e93c38"
       }
     },
     "docs/istruttori.mdx#la-scheda-dell-istruttore": {
@@ -2545,9 +2545,9 @@
       "editorial_content_sha256": "eb4daf9b0eda1b5f36903d70b9a2e593d3df9a8c80dd01dd2ee91e8ee1b1f3a3",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "instructors-create-edit-hours",
-        "report_sha256": "db252d548b2ff10d800d69c2e965179b21b4f9d358b60d6e80adb008daea2abf"
+        "report_sha256": "311259ef578cb1e40759b230e702cd518f5943225777f0f2f52df09849e93c38"
       }
     },
     "docs/istruttori.mdx#modificare-un-istruttore": {
@@ -2564,9 +2564,9 @@
       "editorial_content_sha256": "136acca091691df950083e3d1dd20e7b595128c57857ca350865ae754c22b57c",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "instructors-create-edit-hours",
-        "report_sha256": "db252d548b2ff10d800d69c2e965179b21b4f9d358b60d6e80adb008daea2abf"
+        "report_sha256": "311259ef578cb1e40759b230e702cd518f5943225777f0f2f52df09849e93c38"
       }
     },
     "docs/istruttori.mdx#note-e-salvataggio": {
@@ -2583,9 +2583,9 @@
       "editorial_content_sha256": "013ebf6bbee03f5cef6ce01d2973674f0a6fd8e731809ff1a13087b6d26ef18a",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "instructors-create-edit-hours",
-        "report_sha256": "db252d548b2ff10d800d69c2e965179b21b4f9d358b60d6e80adb008daea2abf"
+        "report_sha256": "311259ef578cb1e40759b230e702cd518f5943225777f0f2f52df09849e93c38"
       }
     },
     "docs/istruttori.mdx#registrare-le-ore-lavorate": {
@@ -2602,9 +2602,9 @@
       "editorial_content_sha256": "629303795f31023e293101fcfb208834e2d9fcbe7839f3d9dff539caa1e284b3",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "instructors-create-edit-hours",
-        "report_sha256": "db252d548b2ff10d800d69c2e965179b21b4f9d358b60d6e80adb008daea2abf"
+        "report_sha256": "311259ef578cb1e40759b230e702cd518f5943225777f0f2f52df09849e93c38"
       }
     },
     "docs/istruttori.mdx#stato-dei-compensi": {
@@ -2621,9 +2621,9 @@
       "editorial_content_sha256": "4f118159a7ca3c00b168c89385d69cd2d8be8c11bf0230f9990994caaaec7d51",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "instructors-create-edit-hours",
-        "report_sha256": "db252d548b2ff10d800d69c2e965179b21b4f9d358b60d6e80adb008daea2abf"
+        "report_sha256": "311259ef578cb1e40759b230e702cd518f5943225777f0f2f52df09849e93c38"
       }
     },
     "docs/istruttori.mdx#tariffe-predefinite": {
@@ -2640,9 +2640,9 @@
       "editorial_content_sha256": "c61d8fe85015ae3d55cded691d871386a819efa30ca244a5b9e846b6db95238a",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "instructors-create-edit-hours",
-        "report_sha256": "db252d548b2ff10d800d69c2e965179b21b4f9d358b60d6e80adb008daea2abf"
+        "report_sha256": "311259ef578cb1e40759b230e702cd518f5943225777f0f2f52df09849e93c38"
       }
     },
     "docs/istruttori.mdx#tipi-di-compenso": {
@@ -2659,9 +2659,9 @@
       "editorial_content_sha256": "354cf9231bc0fe5ee1b09b34306182fcfa2105f24e5464b23190c73511ae3d50",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "instructors-create-edit-hours",
-        "report_sha256": "db252d548b2ff10d800d69c2e965179b21b4f9d358b60d6e80adb008daea2abf"
+        "report_sha256": "311259ef578cb1e40759b230e702cd518f5943225777f0f2f52df09849e93c38"
       }
     },
     "docs/libro-soci.mdx#1-informazioni-profilo": {
@@ -2678,9 +2678,9 @@
       "editorial_content_sha256": "4b4941fdb7f04f13b227d16b5f34dedd1b2d061fd46703f6df027c60b567342d",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "members-create",
-        "report_sha256": "0c0345e0162bc339c5ec4086fd64a170b53f2a7282e4b7cde2043409acba3d01"
+        "report_sha256": "44cbdc492759626b29e513002a5c7f675d4cad8416b57d188b2ff82ca2ca0929"
       }
     },
     "docs/libro-soci.mdx#2-informazioni-anagrafiche": {
@@ -2697,9 +2697,9 @@
       "editorial_content_sha256": "25b2caf7c61c85ece8a3fb6343bf1c049cc7533fc5efbabf6869a85804b11e49",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "members-create",
-        "report_sha256": "0c0345e0162bc339c5ec4086fd64a170b53f2a7282e4b7cde2043409acba3d01"
+        "report_sha256": "44cbdc492759626b29e513002a5c7f675d4cad8416b57d188b2ff82ca2ca0929"
       }
     },
     "docs/libro-soci.mdx#3-firma-del-documento": {
@@ -2716,9 +2716,9 @@
       "editorial_content_sha256": "769c2fbc777861aec73c0b15aaeaf5f78add5123ea0837624d56b5af36286fb7",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "members-create",
-        "report_sha256": "0c0345e0162bc339c5ec4086fd64a170b53f2a7282e4b7cde2043409acba3d01"
+        "report_sha256": "44cbdc492759626b29e513002a5c7f675d4cad8416b57d188b2ff82ca2ca0929"
       }
     },
     "docs/libro-soci.mdx#4-certificato-medico": {
@@ -2735,9 +2735,9 @@
       "editorial_content_sha256": "b2cab6a1e4144411a30e6104f5152eb4ec2d45ab1fa3c84e562c8ff745f3aad8",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "members-create",
-        "report_sha256": "0c0345e0162bc339c5ec4086fd64a170b53f2a7282e4b7cde2043409acba3d01"
+        "report_sha256": "44cbdc492759626b29e513002a5c7f675d4cad8416b57d188b2ff82ca2ca0929"
       }
     },
     "docs/libro-soci.mdx#5-riepilogo-e-creazione": {
@@ -2754,9 +2754,9 @@
       "editorial_content_sha256": "9f6f93af87f1c0baeb9dd983fbfdf3d0e845a6c95ea99457dfb85cdc3a6e3e7a",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "members-create",
-        "report_sha256": "0c0345e0162bc339c5ec4086fd64a170b53f2a7282e4b7cde2043409acba3d01"
+        "report_sha256": "44cbdc492759626b29e513002a5c7f675d4cad8416b57d188b2ff82ca2ca0929"
       }
     },
     "docs/libro-soci.mdx#aggiungi-un-socio": {
@@ -2773,9 +2773,9 @@
       "editorial_content_sha256": "fe262605cde85e6e9b0a401bfc25b264ce4f3206e1631678912a0d3063176e11",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "members-create",
-        "report_sha256": "0c0345e0162bc339c5ec4086fd64a170b53f2a7282e4b7cde2043409acba3d01"
+        "report_sha256": "44cbdc492759626b29e513002a5c7f675d4cad8416b57d188b2ff82ca2ca0929"
       }
     },
     "docs/libro-soci.mdx#anagrafica-smart": {
@@ -2792,9 +2792,9 @@
       "editorial_content_sha256": "e21541a8fb00d05df084e9bef948c0ccc97fe79f60e83289070319b0f942306a",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "members-profile-update",
-        "report_sha256": "1e760a5d55c12b87a7d42037a92145fb5a7aafd336d5ace4d79f906c00a2d2ab"
+        "report_sha256": "8e23aee92500693ed847aad5a911a9d6f6fe461da5dbd0fda2419675653ae6c7"
       }
     },
     "docs/libro-soci.mdx#ciclo-di-vita-dell-iscrizione": {
@@ -2811,9 +2811,9 @@
       "editorial_content_sha256": "99bdc7464b0d1672d4a96b506b9af7a98c26be5e3b424ae7c318d1a1d34062e5",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "members-approve",
-        "report_sha256": "316c7ca4bc4ba3a673b5fef0f1f50126fd94148735a8da3026259b993e775526"
+        "report_sha256": "e3f1db44fedf68fb20cfc053f205714f977dc02e8a58326fb53172bd094d56a0"
       }
     },
     "docs/libro-soci.mdx#introduzione": {
@@ -2830,9 +2830,9 @@
       "editorial_content_sha256": "d63f72cdea72d1588b736e790c75fee87044577d37a1c05aab2743db0f231cb5",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "members-search",
-        "report_sha256": "1a023488c88b9ea55b37bfc1881c322f0a8f5edaf5f535f9bd348986fc6cdcb9"
+        "report_sha256": "d809a1b86474bf6e9c519ade71bc59c117f48e51c7bf7395f74742ce94a6f878"
       }
     },
     "docs/pagamenti.mdx#creare-un-pagamento": {
@@ -2849,9 +2849,9 @@
       "editorial_content_sha256": "18650e7327ece3274bc8d1dbbbd51a2b8e54f5c3ec775cc7d7573656907983d3",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "payments-create-edit-approve",
-        "report_sha256": "5bddb651a6fd6cd9a2929cbf5026d309681286a58cb15143dc140b07631ee2a0"
+        "report_sha256": "49100fd384395b1faef498d3cb0e63677daa90975d6b5bc0b8d320489639adc6"
       }
     },
     "docs/pagamenti.mdx#modificare-un-pagamento": {
@@ -2868,9 +2868,9 @@
       "editorial_content_sha256": "9abb61368ec31e4bd3f616dd81a31977f883cb773ef3165b71d2e25dc2253896",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "payments-create-edit-approve",
-        "report_sha256": "5bddb651a6fd6cd9a2929cbf5026d309681286a58cb15143dc140b07631ee2a0"
+        "report_sha256": "49100fd384395b1faef498d3cb0e63677daa90975d6b5bc0b8d320489639adc6"
       }
     },
     "docs/pagamenti.mdx#segna-un-pagamento-come-pagato": {
@@ -2887,9 +2887,9 @@
       "editorial_content_sha256": "6930f13a2aa74bc1d424b006d190316216f886db9145e8c4eeaed0d5820eb273",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "payments-create-edit-approve",
-        "report_sha256": "5bddb651a6fd6cd9a2929cbf5026d309681286a58cb15143dc140b07631ee2a0"
+        "report_sha256": "49100fd384395b1faef498d3cb0e63677daa90975d6b5bc0b8d320489639adc6"
       }
     },
     "docs/registro-presenze.mdx#attivare-le-presenze-automatiche": {
@@ -2906,9 +2906,9 @@
       "editorial_content_sha256": "04070b7cbde2c08ed181b874b6ecc60e16eaa18bbd577dbee0da99c7720c6820",
       "materialization": {
         "format": 1,
-        "capture_id": "37a017f005032645",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "attendance-automatic",
-        "report_sha256": "938044cfa8240c70765b38f9bfe39a0715c98c7460b6fa1acc1783e8cad11ccf"
+        "report_sha256": "b86981eee01b7c6f74acc1c826132d46496929f5adea635ade6e8d14351c592e"
       }
     },
     "docs/registro-presenze.mdx#casi-particolari-con-i-carnet": {
@@ -2925,9 +2925,9 @@
       "editorial_content_sha256": "5aafe893a2570210ae30b258bf23c0ed909309c0fc332ee9bdc195a517264f00",
       "materialization": {
         "format": 1,
-        "capture_id": "37a017f005032645",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "attendance-carnet-variants",
-        "report_sha256": "cf1796f9568063fa873bc69a2926bc12c31e05bcc29a892bcfacfdf3be863952"
+        "report_sha256": "708bcf691317cd002470ce16fd2f48ab69c4f3b519f17c7d22de3a26c9dcc7cf"
       }
     },
     "docs/registro-presenze.mdx#come-funziona": {
@@ -2944,9 +2944,9 @@
       "editorial_content_sha256": "fae2f41378e2be6ad48596ea67f20304e33d24a0ccd206d1c6753e1a21dc65f5",
       "materialization": {
         "format": 1,
-        "capture_id": "37a017f005032645",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "attendance-automatic",
-        "report_sha256": "938044cfa8240c70765b38f9bfe39a0715c98c7460b6fa1acc1783e8cad11ccf"
+        "report_sha256": "b86981eee01b7c6f74acc1c826132d46496929f5adea635ade6e8d14351c592e"
       }
     },
     "docs/registro-presenze.mdx#come-funziona-la-sincronizzazione": {
@@ -2963,9 +2963,9 @@
       "editorial_content_sha256": "2dcc5a1fa7fa736595d6b13d805dd0bcf69aea583ac3903d7484ef591e6ecce5",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "course-calendar-maintenance",
-        "report_sha256": "d5471dceb931833733c4e187c37dad6efa2b523452a67a4e3627b66cc8d3e62f"
+        "report_sha256": "5d8bc05256671854bec1a32a7db8bb9aad97d39b230b51b885c93ca6dc96c049"
       }
     },
     "docs/registro-presenze.mdx#consultare-lo-storico-presenze-di-un-atleta": {
@@ -2982,9 +2982,9 @@
       "editorial_content_sha256": "0149655ab59e99a69605f76a8be410839331a13b96b5eccd016664a73d1c3cf0",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "attendance-carnet-maintenance",
-        "report_sha256": "4b9a299684130f245f97f32cf64eb6fbd4f045959da51c13e24c6c8e7254dd1d"
+        "report_sha256": "cfb09fc8470f5f997a828edd3ed161d48dc158509242916534d194a48cad5f03"
       }
     },
     "docs/registro-presenze.mdx#eliminare-una-lezione-dal-registro": {
@@ -3001,9 +3001,9 @@
       "editorial_content_sha256": "e1af3fe677cfd0b24a5df248d402e14394d300f71531c66f8c34a133fa9bb283",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "attendance-carnet-maintenance",
-        "report_sha256": "4b9a299684130f245f97f32cf64eb6fbd4f045959da51c13e24c6c8e7254dd1d"
+        "report_sha256": "cfb09fc8470f5f997a828edd3ed161d48dc158509242916534d194a48cad5f03"
       }
     },
     "docs/registro-presenze.mdx#interazione-con-i-carnet": {
@@ -3020,9 +3020,9 @@
       "editorial_content_sha256": "ff61b9dd428993f222606b026f267a2caa426d8038a09d3169a97f01beadeab4",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "attendance-carnet-manual",
-        "report_sha256": "3647372d97e936858636df1764201ad63620d74480ca39959052e39d6a75c10a"
+        "report_sha256": "c8a79bd1ab235682127ad0e76e6930d0b67c9fc8d57784c5d0efb5817cc75433"
       }
     },
     "docs/registro-presenze.mdx#introduzione": {
@@ -3039,9 +3039,9 @@
       "editorial_content_sha256": "37ab21d0a1a03d190fa4ad90b7bff65047cfaf0834ce068066fcbbdfd7a1cf7a",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "attendance-carnet-manual",
-        "report_sha256": "3647372d97e936858636df1764201ad63620d74480ca39959052e39d6a75c10a"
+        "report_sha256": "c8a79bd1ab235682127ad0e76e6930d0b67c9fc8d57784c5d0efb5817cc75433"
       }
     },
     "docs/registro-presenze.mdx#presenze-automatiche-pro-teams": {
@@ -3058,9 +3058,9 @@
       "editorial_content_sha256": "bf2b1a71fbb2f841348d50693c8e06b1c9b911fdc2e744de35d373b1673af517",
       "materialization": {
         "format": 1,
-        "capture_id": "37a017f005032645",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "attendance-automatic",
-        "report_sha256": "938044cfa8240c70765b38f9bfe39a0715c98c7460b6fa1acc1783e8cad11ccf"
+        "report_sha256": "b86981eee01b7c6f74acc1c826132d46496929f5adea635ade6e8d14351c592e"
       }
     },
     "docs/registro-presenze.mdx#restituzione-alla-rimozione": {
@@ -3077,9 +3077,9 @@
       "editorial_content_sha256": "f4ab090c64141cc79ee47c2ad940086abfa63b92b8ade287a71bc2c2edf13766",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "attendance-carnet-manual",
-        "report_sha256": "3647372d97e936858636df1764201ad63620d74480ca39959052e39d6a75c10a"
+        "report_sha256": "c8a79bd1ab235682127ad0e76e6930d0b67c9fc8d57784c5d0efb5817cc75433"
       }
     },
     "docs/registro-presenze.mdx#risorse-correlate": {
@@ -3108,9 +3108,9 @@
       "editorial_content_sha256": "e8b4a8edaaf20d2b3f52784ebff8cf5c4f705e5a506646160783849b2486dea8",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "attendance-carnet-manual",
-        "report_sha256": "3647372d97e936858636df1764201ad63620d74480ca39959052e39d6a75c10a"
+        "report_sha256": "c8a79bd1ab235682127ad0e76e6930d0b67c9fc8d57784c5d0efb5817cc75433"
       }
     },
     "docs/registro-presenze.mdx#segnalazione-assenze-da-parte-degli-atleti": {
@@ -3127,9 +3127,9 @@
       "editorial_content_sha256": "5ed7023694ba9b320c0c4dd9dcb4b51f433c650e82a0758458e0b1a4f6707946",
       "materialization": {
         "format": 1,
-        "capture_id": "37a017f005032645",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "attendance-automatic",
-        "report_sha256": "938044cfa8240c70765b38f9bfe39a0715c98c7460b6fa1acc1783e8cad11ccf"
+        "report_sha256": "b86981eee01b7c6f74acc1c826132d46496929f5adea635ade6e8d14351c592e"
       }
     },
     "docs/registro-presenze.mdx#segnare-le-presenze-manualmente": {
@@ -3146,9 +3146,9 @@
       "editorial_content_sha256": "193b9ca1886b3446db8190897c144655ce4476d90b901560eb2daf3ab01801ed",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "attendance-carnet-manual",
-        "report_sha256": "3647372d97e936858636df1764201ad63620d74480ca39959052e39d6a75c10a"
+        "report_sha256": "c8a79bd1ab235682127ad0e76e6930d0b67c9fc8d57784c5d0efb5817cc75433"
       }
     },
     "docs/registro-presenze.mdx#sincronizzazione-con-il-calendario": {
@@ -3165,9 +3165,9 @@
       "editorial_content_sha256": "11e744970c28a492589e6bd08eb0aa12e62360445eecaaca6cbcc78afb886aa1",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "course-calendar-maintenance",
-        "report_sha256": "d5471dceb931833733c4e187c37dad6efa2b523452a67a4e3627b66cc8d3e62f"
+        "report_sha256": "5d8bc05256671854bec1a32a7db8bb9aad97d39b230b51b885c93ca6dc96c049"
       }
     },
     "docs/ricevute.mdx#come-posso-scaricare-una-ricevuta": {
@@ -3184,9 +3184,9 @@
       "editorial_content_sha256": "6ce0f0a38c1b404b354236676ea154ac05a48bc5f00b8eb577c212ec8dbef764",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "receipts-approve-download",
-        "report_sha256": "7eebbcb38dec4fe3456459fe112ed598e902137e37f895bb2d3e022578f4e611"
+        "report_sha256": "9b2c297a56c3759e6f2587b8b6a85a0fb0f501bf76ea6bda52534fa0e4818260"
       }
     },
     "docs/ricevute.mdx#come-vengono-emesse-le-ricevute": {
@@ -3203,9 +3203,9 @@
       "editorial_content_sha256": "696aaf31b722f6b4c80b556ace8d6972ccbdda933a45b85444f5f3a799ff5be6",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "receipts-approve-download",
-        "report_sha256": "7eebbcb38dec4fe3456459fe112ed598e902137e37f895bb2d3e022578f4e611"
+        "report_sha256": "9b2c297a56c3759e6f2587b8b6a85a0fb0f501bf76ea6bda52534fa0e4818260"
       }
     },
     "docs/ricevute.mdx#configurazioni-possibili": {
@@ -3234,9 +3234,9 @@
       "editorial_content_sha256": "4522c808419025ceed247c1e60db3f173b17b80a5810e4cd79777d8e14806212",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "receipts-edit-delete",
-        "report_sha256": "f930b40d9fc48b49212f00faff171df416320e0ca1cd620dcc9977dbad7f9944"
+        "report_sha256": "005eecc84a7ce0e0021b5132b4e94b0fbf4d766e36551bbe3c32032718bb5f2a"
       }
     },
     "docs/ricevute.mdx#modifica-del-progressivo-della-ricevuta": {
@@ -3253,9 +3253,9 @@
       "editorial_content_sha256": "73c8460b6f261146375617f9783d557ed087b7e3f6e9e62d48b125c2c94cf1e0",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "receipts-edit-delete",
-        "report_sha256": "f930b40d9fc48b49212f00faff171df416320e0ca1cd620dcc9977dbad7f9944"
+        "report_sha256": "005eecc84a7ce0e0021b5132b4e94b0fbf4d766e36551bbe3c32032718bb5f2a"
       }
     },
     "docs/ricevute.mdx#numerazione-progressiva": {
@@ -3272,9 +3272,9 @@
       "editorial_content_sha256": "42ced68100192df0dc0271d8029113bc6824f5cb7704bc4beb68b1350b8d3abd",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "receipts-approve-download",
-        "report_sha256": "7eebbcb38dec4fe3456459fe112ed598e902137e37f895bb2d3e022578f4e611"
+        "report_sha256": "9b2c297a56c3759e6f2587b8b6a85a0fb0f501bf76ea6bda52534fa0e4818260"
       }
     },
     "faq/come-abilitare-autenticazione-due-fattori.mdx#abilitare-l-autenticazione-a-due-fattori-2fa": {
@@ -3315,9 +3315,9 @@
       "editorial_content_sha256": "70cc4dfc30a83592a613b194377168a6d2c8965e4ff4480627bcd947d92eb072",
       "materialization": {
         "format": 1,
-        "capture_id": "8ed3c5b902c8b4bd",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "account-two-factor-login",
-        "report_sha256": "18301c5da8257f37ae2cf6cd011d967a5b75e71f77cd1e82ee802ba3b9549320"
+        "report_sha256": "b82a1c2125427e7fe3a13fafdd99c83978bf8cbb14cd431d4411857b62086c77"
       }
     },
     "faq/come-abilitare-autenticazione-due-fattori.mdx#come-disattivare-il-2fa": {
@@ -3334,9 +3334,9 @@
       "editorial_content_sha256": "7d7989b71061a822b9103ff754de667f7823c520d4e09f1ebb46297de7b8d2a5",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "account-two-factor",
-        "report_sha256": "e8259d601038527b8ec68ae250640e633ab98971c85539d4afd8010b617bb79a"
+        "report_sha256": "8b84972a1d78824b47650239fee5cd06f11db8b76c82f935ba56f6d3d7143584"
       }
     },
     "faq/come-abilitare-autenticazione-due-fattori.mdx#come-funziona-il-login-con-il-2fa": {
@@ -3353,9 +3353,9 @@
       "editorial_content_sha256": "7b3bb23c8c1702e6292ab610bc7ce62f3978e5a7a728c17faa9c0256bb70f77e",
       "materialization": {
         "format": 1,
-        "capture_id": "8ed3c5b902c8b4bd",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "account-two-factor-login",
-        "report_sha256": "18301c5da8257f37ae2cf6cd011d967a5b75e71f77cd1e82ee802ba3b9549320"
+        "report_sha256": "b82a1c2125427e7fe3a13fafdd99c83978bf8cbb14cd431d4411857b62086c77"
       }
     },
     "faq/come-abilitare-autenticazione-due-fattori.mdx#hai-perso-l-accesso-all-app": {
@@ -3396,9 +3396,9 @@
       "editorial_content_sha256": "caff386dbfe9d11d3f72f7ef03624cc0339fd45926cffc563a847bee796229d9",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "archive-maintenance",
-        "report_sha256": "8d5108e4cdfcd1b6a6bc36a3bf159481287967799ba19caf04cf8098949b61bf"
+        "report_sha256": "31248cb730f114ddf9854ab64e49923804275660aee75386a9951e7e9c258fed"
       }
     },
     "faq/come-archiviare-dati.mdx#consultare-i-dati-archiviati": {
@@ -3415,9 +3415,9 @@
       "editorial_content_sha256": "0698f13621275814f3346403ab37dc3a47e5ecccb08e1b109119dc84ab283c32",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "archive-maintenance",
-        "report_sha256": "8d5108e4cdfcd1b6a6bc36a3bf159481287967799ba19caf04cf8098949b61bf"
+        "report_sha256": "31248cb730f114ddf9854ab64e49923804275660aee75386a9951e7e9c258fed"
       }
     },
     "faq/come-archiviare-dati.mdx#cosa-significa-archiviare": {
@@ -3434,9 +3434,9 @@
       "editorial_content_sha256": "dda5149bba53c530cac25e6633f45dc0930562a6c7a3a1bb4036b0fc307f305f",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "archive-maintenance",
-        "report_sha256": "8d5108e4cdfcd1b6a6bc36a3bf159481287967799ba19caf04cf8098949b61bf"
+        "report_sha256": "31248cb730f114ddf9854ab64e49923804275660aee75386a9951e7e9c258fed"
       }
     },
     "faq/come-archiviare-dati.mdx#cosa-viene-archiviato": {
@@ -3453,9 +3453,9 @@
       "editorial_content_sha256": "a6522368012bf70666fb3e1b215af06aa4333ff34a43a55ed1ee9d71c4db763f",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "archive-maintenance",
-        "report_sha256": "8d5108e4cdfcd1b6a6bc36a3bf159481287967799ba19caf04cf8098949b61bf"
+        "report_sha256": "31248cb730f114ddf9854ab64e49923804275660aee75386a9951e7e9c258fed"
       }
     },
     "faq/come-archiviare-dati.mdx#ripristinare-i-dati-archiviati": {
@@ -3472,9 +3472,9 @@
       "editorial_content_sha256": "f0b82c012b8a287288dbd20efbd0ed5763876ec6ba81877900ec34898b009149",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "archive-maintenance",
-        "report_sha256": "8d5108e4cdfcd1b6a6bc36a3bf159481287967799ba19caf04cf8098949b61bf"
+        "report_sha256": "31248cb730f114ddf9854ab64e49923804275660aee75386a9951e7e9c258fed"
       }
     },
     "faq/come-calcolare-generare-codici-fiscali.mdx#come-funziona": {
@@ -3491,9 +3491,9 @@
       "editorial_content_sha256": "237b22611c666266316bbf633b46ac2f150de29c3d96d26c46722ff3dc9c3ac9",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "members-create",
-        "report_sha256": "0c0345e0162bc339c5ec4086fd64a170b53f2a7282e4b7cde2043409acba3d01"
+        "report_sha256": "44cbdc492759626b29e513002a5c7f675d4cad8416b57d188b2ff82ca2ca0929"
       }
     },
     "faq/come-cambiare-anno-sportivo-fiscale.mdx#cambiare-l-anno-sportivo-e-fiscale": {
@@ -3510,9 +3510,9 @@
       "editorial_content_sha256": "6ee2d4e5f6a4b6b46bc0e05f0ad6370a95a4fd0f8c53f9eecb034869c7c5cdb6",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "organization-settings",
-        "report_sha256": "5405582d942777f78ff4e39bb457e92e1afe47839f5aa29f5ace963d69f734ee"
+        "report_sha256": "5f1c8f914930b02791f9e559dfa5797cef2583c7685bec318a8a50057b3c94ba"
       }
     },
     "faq/come-cambiare-anno-sportivo-fiscale.mdx#come-cambiare-l-anno-fiscale": {
@@ -3529,9 +3529,9 @@
       "editorial_content_sha256": "5e2207b385abdaf47068dfabab56403dbc7e484a2d097af0879be6d9d696c20b",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "organization-settings",
-        "report_sha256": "5405582d942777f78ff4e39bb457e92e1afe47839f5aa29f5ace963d69f734ee"
+        "report_sha256": "5f1c8f914930b02791f9e559dfa5797cef2583c7685bec318a8a50057b3c94ba"
       }
     },
     "faq/come-cambiare-anno-sportivo-fiscale.mdx#come-cambiare-la-stagione-sportiva": {
@@ -3548,9 +3548,9 @@
       "editorial_content_sha256": "8f6f58f2b01270d4f7e1d5d509d2c860f54f7b9adbfc9c4d10befeb9b4fc727b",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "organization-settings",
-        "report_sha256": "5405582d942777f78ff4e39bb457e92e1afe47839f5aa29f5ace963d69f734ee"
+        "report_sha256": "5f1c8f914930b02791f9e559dfa5797cef2583c7685bec318a8a50057b3c94ba"
       }
     },
     "faq/come-cambiare-anno-sportivo-fiscale.mdx#cosa-cambia-dopo-la-modifica": {
@@ -3567,9 +3567,9 @@
       "editorial_content_sha256": "68e944c342cc12ce0840f893d79e9424ded918d4e693d26ed3b0d5cd8a6088ae",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "organization-settings",
-        "report_sha256": "5405582d942777f78ff4e39bb457e92e1afe47839f5aa29f5ace963d69f734ee"
+        "report_sha256": "5f1c8f914930b02791f9e559dfa5797cef2583c7685bec318a8a50057b3c94ba"
       }
     },
     "faq/come-cambiare-anno-sportivo-fiscale.mdx#opzioni-disponibili": {
@@ -3586,9 +3586,9 @@
       "editorial_content_sha256": "e4a2ae278e0b9ef2604d382c2927292de601c2a4eee58060aa49e0eafa3fc787",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "organization-settings",
-        "report_sha256": "5405582d942777f78ff4e39bb457e92e1afe47839f5aa29f5ace963d69f734ee"
+        "report_sha256": "5f1c8f914930b02791f9e559dfa5797cef2583c7685bec318a8a50057b3c94ba"
       }
     },
     "faq/come-cambiare-anno-sportivo-fiscale.mdx#qual-e-la-differenza": {
@@ -3605,9 +3605,9 @@
       "editorial_content_sha256": "792b26d967698835096f754a304c61a52cc1c432569a77131ed84fad3973322b",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "organization-settings",
-        "report_sha256": "5405582d942777f78ff4e39bb457e92e1afe47839f5aa29f5ace963d69f734ee"
+        "report_sha256": "5f1c8f914930b02791f9e559dfa5797cef2583c7685bec318a8a50057b3c94ba"
       }
     },
     "faq/come-collegare-google-calendar.mdx#collegare-google-calendar": {
@@ -3696,9 +3696,9 @@
       "editorial_content_sha256": "aced52dd0493ecd4e3b93b2fdc89dbcaf10492c0275ede8431090950a2f5e781",
       "materialization": {
         "format": 1,
-        "capture_id": "37a017f005032645",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "settings-signup-checkout",
-        "report_sha256": "1b0c968e9bbf43db37bfbe68b8733578ca0067aa833ddabfe5829562944ded45"
+        "report_sha256": "60bf99776696bff046d346c10feadf22d9f504d9dfedcacb976eb338921a0ac1"
       }
     },
     "faq/come-condividere-il-link-iscrizioni.mdx#2-whatsapp": {
@@ -3739,9 +3739,9 @@
       "editorial_content_sha256": "8c909bd1804176edc144232f228094c9ca76ed3efc19bbd17cdf5b255c10203e",
       "materialization": {
         "format": 1,
-        "capture_id": "37a017f005032645",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "membership-links-cards",
-        "report_sha256": "af42a0b2d80bddcda384cb8c8e103a0292d090491d35654a69199957aa89179a"
+        "report_sha256": "9ae1aa19432e1e9a8400d0ce69ae5fdbff704bedd62d9cda0cd0937273a3c593"
       }
     },
     "faq/come-condividere-il-link-iscrizioni.mdx#condividere-il-link-per-le-iscrizioni": {
@@ -3758,9 +3758,9 @@
       "editorial_content_sha256": "b5bd43c16f991ba54fcf36575a1354e96ff20df4f8d8f35b3ceeac4fe5b3d9d9",
       "materialization": {
         "format": 1,
-        "capture_id": "37a017f005032645",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "settings-signup-checkout",
-        "report_sha256": "1b0c968e9bbf43db37bfbe68b8733578ca0067aa833ddabfe5829562944ded45"
+        "report_sha256": "60bf99776696bff046d346c10feadf22d9f504d9dfedcacb976eb338921a0ac1"
       }
     },
     "faq/come-condividere-il-link-iscrizioni.mdx#cosa-vede-chi-apre-il-link": {
@@ -3777,9 +3777,9 @@
       "editorial_content_sha256": "ef249d33b4ea6cf5f3ad75872b83c2eecd72cb254a8d5d47f4503c5ef79b9dbe",
       "materialization": {
         "format": 1,
-        "capture_id": "37a017f005032645",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "settings-signup-checkout",
-        "report_sha256": "1b0c968e9bbf43db37bfbe68b8733578ca0067aa833ddabfe5829562944ded45"
+        "report_sha256": "60bf99776696bff046d346c10feadf22d9f504d9dfedcacb976eb338921a0ac1"
       }
     },
     "faq/come-condividere-il-link-iscrizioni.mdx#dove-trovo-il-link-di-iscrizione": {
@@ -3796,9 +3796,9 @@
       "editorial_content_sha256": "73697ca2c0c69d51bf420e6f258971d719663fdc844c9d5f821d9f69aca4f434",
       "materialization": {
         "format": 1,
-        "capture_id": "37a017f005032645",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "settings-signup-checkout",
-        "report_sha256": "1b0c968e9bbf43db37bfbe68b8733578ca0067aa833ddabfe5829562944ded45"
+        "report_sha256": "60bf99776696bff046d346c10feadf22d9f504d9dfedcacb976eb338921a0ac1"
       }
     },
     "faq/come-condividere-il-link-iscrizioni.mdx#modalita-di-condivisione": {
@@ -3815,9 +3815,9 @@
       "editorial_content_sha256": "e4051a2242562b7933dc44ec7023a829b7d39b7f82afdb186744d71c0a7bff39",
       "materialization": {
         "format": 1,
-        "capture_id": "37a017f005032645",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "settings-signup-checkout",
-        "report_sha256": "1b0c968e9bbf43db37bfbe68b8733578ca0067aa833ddabfe5829562944ded45"
+        "report_sha256": "60bf99776696bff046d346c10feadf22d9f504d9dfedcacb976eb338921a0ac1"
       }
     },
     "faq/come-generare-bilancio.mdx#allineamento-dell-anno-fiscale": {
@@ -3834,9 +3834,9 @@
       "editorial_content_sha256": "2221ae29688979c6f45b9dabc3bc064432c5d882cda0af1d3db3960824cc4e7e",
       "materialization": {
         "format": 1,
-        "capture_id": "37a017f005032645",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "fiscal-year-settings",
-        "report_sha256": "80436f292df9899efd97e46f3d1e01ee046a2720ed1c7d44216a9a433ecf187a"
+        "report_sha256": "c2ab346d7070053a240950d0b526d7b8e166388d5404134f7b0b8f66116c58f8"
       }
     },
     "faq/come-generare-bilancio.mdx#configurare-i-conti-economici": {
@@ -3853,9 +3853,9 @@
       "editorial_content_sha256": "aac97864a06db01518b446c848e309a8ba815e3eac0aaf0daa1ff9283e18236a",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "accounting-balance-manage",
-        "report_sha256": "1b2eadb9a0d7db21821c05fa4c99fce7dd00823d4898b644a7df6b50d7e2cded"
+        "report_sha256": "d7c748b5db77dc20d783147497a9fc3429fd50af18c4df0bf74bf8b6860be66a"
       }
     },
     "faq/come-generare-bilancio.mdx#cos-e-il-bilancio": {
@@ -3872,9 +3872,9 @@
       "editorial_content_sha256": "de204aef8db500b8eb519a3e6c5249e0deea4f205a14eb13a3c7238312902de6",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "accounting-balance-manage",
-        "report_sha256": "1b2eadb9a0d7db21821c05fa4c99fce7dd00823d4898b644a7df6b50d7e2cded"
+        "report_sha256": "d7c748b5db77dc20d783147497a9fc3429fd50af18c4df0bf74bf8b6860be66a"
       }
     },
     "faq/come-generare-bilancio.mdx#generare-e-consultare-il-bilancio": {
@@ -3891,9 +3891,9 @@
       "editorial_content_sha256": "5ed3b46037a3e5b1274e0495f4487f110bcf41ba5b79196e7dba189d9f157da3",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "accounting-balance-manage",
-        "report_sha256": "1b2eadb9a0d7db21821c05fa4c99fce7dd00823d4898b644a7df6b50d7e2cded"
+        "report_sha256": "d7c748b5db77dc20d783147497a9fc3429fd50af18c4df0bf74bf8b6860be66a"
       }
     },
     "faq/come-generare-bilancio.mdx#i-giroconti-trasferimenti-tra-conti": {
@@ -3910,9 +3910,9 @@
       "editorial_content_sha256": "97cd31773655ba6b5747c776f38836b432db4a2eb6c1024b5db0f192ee453952",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "accounting-balance-manage",
-        "report_sha256": "1b2eadb9a0d7db21821c05fa4c99fce7dd00823d4898b644a7df6b50d7e2cded"
+        "report_sha256": "d7c748b5db77dc20d783147497a9fc3429fd50af18c4df0bf74bf8b6860be66a"
       }
     },
     "faq/come-generare-bilancio.mdx#pubblicare-il-bilancio": {
@@ -3929,9 +3929,9 @@
       "editorial_content_sha256": "eed5ae2b62483464f7d6cc86d2cc461c5bb1f3f8763e096fd61d95922d92b2f5",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "accounting-balance-manage",
-        "report_sha256": "1b2eadb9a0d7db21821c05fa4c99fce7dd00823d4898b644a7df6b50d7e2cded"
+        "report_sha256": "d7c748b5db77dc20d783147497a9fc3429fd50af18c4df0bf74bf8b6860be66a"
       }
     },
     "faq/come-inviare-email-nuovi-iscritti.mdx#creare-un-automazione-per-inviare-un-email-ai-nuovi-iscritti": {
@@ -3948,9 +3948,9 @@
       "editorial_content_sha256": "902f935a8917c4db7cc2b9b14348eae37c395b009d0e03a2b66da1979147cfa4",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "communication-welcome-state",
-        "report_sha256": "f82932cc2623a04dc8ce0de89847b0a9db4aa1090166536c7c2bf6f5acdb93e0"
+        "report_sha256": "1ac4cf655a228f8fb81963648cf918ad91f1e5d812bc5920430888a2b6fa6b38"
       }
     },
     "faq/come-inviare-email-nuovi-iscritti.mdx#note-e-consigli": {
@@ -4015,9 +4015,9 @@
       "editorial_content_sha256": "17371da4106a26894ce9c22ea958a0c7e84209417d1e98ed40f95913587f5c90",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "collaborator-permissions",
-        "report_sha256": "346813fb4d2ef885018a12da232bb789bab93d21d526d2984c63bbe89be135e4"
+        "report_sha256": "5981fee9e5974f59607d028ff4b6aa55eb9657c1c2a8b05bd02ecc4f52de631f"
       }
     },
     "faq/come-invitare-collaboratori.mdx#modificare-i-permessi": {
@@ -4034,9 +4034,9 @@
       "editorial_content_sha256": "66d2bdc53b442c8f1191a9c956827752551954d26d2842a7585a887537b3100f",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "collaborator-permissions",
-        "report_sha256": "346813fb4d2ef885018a12da232bb789bab93d21d526d2984c63bbe89be135e4"
+        "report_sha256": "5981fee9e5974f59607d028ff4b6aa55eb9657c1c2a8b05bd02ecc4f52de631f"
       }
     },
     "faq/come-invitare-collaboratori.mdx#stato-degli-inviti": {
@@ -4053,9 +4053,9 @@
       "editorial_content_sha256": "4b4140b8ee12a8740029dc100240eeab2f28a847934e0d322a595ece7a8b93e3",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "collaborator-removal",
-        "report_sha256": "3e8d6d5de5c10a40b3336813cf4b7d45e4fde591449d1cf2504c15e2e75567b7"
+        "report_sha256": "d7006ac0592ba86c7c3dbc661933d08cbaa7e35852e38674fa6f7ea2ab1d98aa"
       }
     },
     "faq/come-si-crea-un-socio.mdx#creare-un-socio-socio-tesserato-o-tesserato": {
@@ -4072,9 +4072,9 @@
       "editorial_content_sha256": "0b777a09c140d11bda6cc335827a08ff9c46c687c26f96407b196cbb9e809950",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "members-create",
-        "report_sha256": "0c0345e0162bc339c5ec4086fd64a170b53f2a7282e4b7cde2043409acba3d01"
+        "report_sha256": "44cbdc492759626b29e513002a5c7f675d4cad8416b57d188b2ff82ca2ca0929"
       }
     },
     "faq/come-usare-ricerca-filtri-atleti.mdx#la-barra-di-ricerca": {
@@ -4091,9 +4091,9 @@
       "editorial_content_sha256": "a8530581bef00170ffb1db3e443b8d7ecf5afc857f4c9993f112f4aa8c48779b",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "members-search",
-        "report_sha256": "1a023488c88b9ea55b37bfc1881c322f0a8f5edaf5f535f9bd348986fc6cdcb9"
+        "report_sha256": "d809a1b86474bf6e9c519ade71bc59c117f48e51c7bf7395f74742ce94a6f878"
       }
     },
     "faq/i-miei-dati-sono-al-sicuro.mdx#conformita-gdpr-e-gestione-responsabile-dei-dati": {
@@ -4242,9 +4242,9 @@
       "editorial_content_sha256": "8b9932cd971ebc9fac3dfddcd87daf2e28b47dd3ba6f19e562a90577c581a0cd",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "tags-create-assign",
-        "report_sha256": "10a25c65d58eab656bb0061d0079d80aed0131880d85e9a5543a7d974517ff61"
+        "report_sha256": "f4425058d7d6e4fd1ec570239481654845ea06629c956b4eeea580bb1337aa1a"
       }
     },
     "tutorials/come-assegnare-i-tag-agli-atleti.mdx#creare-un-nuovo-tag": {
@@ -4261,9 +4261,9 @@
       "editorial_content_sha256": "a093052a217a9b08e50c7aa254d88cf33b004a7d094d5c9c7fdb4efe09cf1ab6",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "tags-create-assign",
-        "report_sha256": "10a25c65d58eab656bb0061d0079d80aed0131880d85e9a5543a7d974517ff61"
+        "report_sha256": "f4425058d7d6e4fd1ec570239481654845ea06629c956b4eeea580bb1337aa1a"
       }
     },
     "tutorials/come-assegnare-i-tag-agli-atleti.mdx#indice": {
@@ -4280,9 +4280,9 @@
       "editorial_content_sha256": "1d40d9496f8f40259b7c69f6c9e652f1e6e38e10b3ac1747de53a03f90a53d3a",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "tags-create-assign",
-        "report_sha256": "10a25c65d58eab656bb0061d0079d80aed0131880d85e9a5543a7d974517ff61"
+        "report_sha256": "f4425058d7d6e4fd1ec570239481654845ea06629c956b4eeea580bb1337aa1a"
       }
     },
     "tutorials/come-assegnare-i-tag-agli-atleti.mdx#modificare-e-o-eliminare-uno-o-piu-tag": {
@@ -4299,9 +4299,9 @@
       "editorial_content_sha256": "536198b3cab0d4664bf61f23432bce9795377598bb1bc329e8bdfbb9f9c49f6a",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "tags-create-assign",
-        "report_sha256": "10a25c65d58eab656bb0061d0079d80aed0131880d85e9a5543a7d974517ff61"
+        "report_sha256": "f4425058d7d6e4fd1ec570239481654845ea06629c956b4eeea580bb1337aa1a"
       }
     },
     "tutorials/come-assegnare-i-tag-agli-atleti.mdx#seleziona-gli-atleti": {
@@ -4318,9 +4318,9 @@
       "editorial_content_sha256": "dfc298d12ced4f8735c4b056e5089e54684a4a3abf4562ba41982ad08d422183",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "tags-create-assign",
-        "report_sha256": "10a25c65d58eab656bb0061d0079d80aed0131880d85e9a5543a7d974517ff61"
+        "report_sha256": "f4425058d7d6e4fd1ec570239481654845ea06629c956b4eeea580bb1337aa1a"
       }
     },
     "tutorials/come-creare-moduli-iscrizione-personalizzati.mdx#campi-aggiuntivi": {
@@ -4337,9 +4337,9 @@
       "editorial_content_sha256": "5f375a2b186bb2a66e37e6388a549aab5e432dae0d613da75404677ef6a52b4c",
       "materialization": {
         "format": 1,
-        "capture_id": "37a017f005032645",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "settings-signup-checkout",
-        "report_sha256": "1b0c968e9bbf43db37bfbe68b8733578ca0067aa833ddabfe5829562944ded45"
+        "report_sha256": "60bf99776696bff046d346c10feadf22d9f504d9dfedcacb976eb338921a0ac1"
       }
     },
     "tutorials/come-creare-moduli-iscrizione-personalizzati.mdx#causali-predefinite": {
@@ -4356,9 +4356,9 @@
       "editorial_content_sha256": "d556c1d1b39866a6da5040c02afbbc5eb93be589b595266a5afe0f7f88b7a0ae",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "registration-default-category",
-        "report_sha256": "ae6fba620ef7a8413398c9934a84746400b2568bd6afb4b04561d4ec79306c7f"
+        "report_sha256": "4317f8d4ff1fd21ee48cb273c944558a0b163a82f0c8d684a6dcc6599e459fb0"
       }
     },
     "tutorials/come-creare-moduli-iscrizione-personalizzati.mdx#come-assegnare-un-modulo-personalizzato": {
@@ -4375,9 +4375,9 @@
       "editorial_content_sha256": "453055bb969e2918212b8d68547019bd59b690a968a7c16f4db7a8783adc1ee6",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "organization-document-templates",
-        "report_sha256": "18e96ea01a4666da1447da9c305cb83628eb087d067b342103fe5bc2e4425088"
+        "report_sha256": "073e497d1443083e2beba3f0088932afff093145c75c99ec2039451d09681b65"
       }
     },
     "tutorials/come-creare-moduli-iscrizione-personalizzati.mdx#conclusione": {
@@ -4394,9 +4394,9 @@
       "editorial_content_sha256": "fc0c8d641af2cef74f0084d3efb8f33df8cced87cae28169acdbc4906dc24de2",
       "materialization": {
         "format": 1,
-        "capture_id": "37a017f005032645",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "settings-signup-checkout",
-        "report_sha256": "1b0c968e9bbf43db37bfbe68b8733578ca0067aa833ddabfe5829562944ded45"
+        "report_sha256": "60bf99776696bff046d346c10feadf22d9f504d9dfedcacb976eb338921a0ac1"
       }
     },
     "tutorials/come-creare-moduli-iscrizione-personalizzati.mdx#configurare-il-modulo-d-iscrizione": {
@@ -4413,9 +4413,9 @@
       "editorial_content_sha256": "4440281c4830bbb6a50d14bb940b5cbd894390dd59fca39a470cc60b556640a5",
       "materialization": {
         "format": 1,
-        "capture_id": "37a017f005032645",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "settings-signup-checkout",
-        "report_sha256": "1b0c968e9bbf43db37bfbe68b8733578ca0067aa833ddabfe5829562944ded45"
+        "report_sha256": "60bf99776696bff046d346c10feadf22d9f504d9dfedcacb976eb338921a0ac1"
       }
     },
     "tutorials/come-creare-moduli-iscrizione-personalizzati.mdx#configurare-l-anno-sportivo-l-anno-fiscale-e-le-causali-per-i-pagamenti": {
@@ -4432,9 +4432,9 @@
       "editorial_content_sha256": "84452fbf69d4a3240fa1f6cfcf3a1c1ba6bf150f7bc097454a9c9660efe91cea",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "organization-settings",
-        "report_sha256": "5405582d942777f78ff4e39bb457e92e1afe47839f5aa29f5ace963d69f734ee"
+        "report_sha256": "5f1c8f914930b02791f9e559dfa5797cef2583c7685bec318a8a50057b3c94ba"
       }
     },
     "tutorials/come-creare-moduli-iscrizione-personalizzati.mdx#cosa-scegliere-per-le-iscrizioni": {
@@ -4451,9 +4451,9 @@
       "editorial_content_sha256": "86d22dfb056bb7c875f8b67fc00aa86aea6a12340ea8224de48e90e3c093c858",
       "materialization": {
         "format": 1,
-        "capture_id": "37a017f005032645",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "settings-signup-checkout",
-        "report_sha256": "1b0c968e9bbf43db37bfbe68b8733578ca0067aa833ddabfe5829562944ded45"
+        "report_sha256": "60bf99776696bff046d346c10feadf22d9f504d9dfedcacb976eb338921a0ac1"
       }
     },
     "tutorials/come-creare-moduli-iscrizione-personalizzati.mdx#creare-un-modulo-completamente-personalizzato": {
@@ -4470,9 +4470,9 @@
       "editorial_content_sha256": "5b86ceefb3703a324526cd0b7446680dcaa9b9bc3344ed3aed7befa0b43bdec8",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "organization-document-templates",
-        "report_sha256": "18e96ea01a4666da1447da9c305cb83628eb087d067b342103fe5bc2e4425088"
+        "report_sha256": "073e497d1443083e2beba3f0088932afff093145c75c99ec2039451d09681b65"
       }
     },
     "tutorials/come-creare-moduli-iscrizione-personalizzati.mdx#durata-di-iscrizioni-e-tesseramenti": {
@@ -4489,9 +4489,9 @@
       "editorial_content_sha256": "6d83e732ff64cd7148357dd8c337bd008f821810ed94a2009a17f912cfb1e33d",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "organization-settings",
-        "report_sha256": "5405582d942777f78ff4e39bb457e92e1afe47839f5aa29f5ace963d69f734ee"
+        "report_sha256": "5f1c8f914930b02791f9e559dfa5797cef2583c7685bec318a8a50057b3c94ba"
       }
     },
     "tutorials/come-creare-moduli-iscrizione-personalizzati.mdx#impostare-le-quote": {
@@ -4508,9 +4508,9 @@
       "editorial_content_sha256": "dc08f1a5f8a1a775472ddf98bf29734bf73d84746ed271507a43f6d3e537bd4b",
       "materialization": {
         "format": 1,
-        "capture_id": "37a017f005032645",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "settings-signup-checkout",
-        "report_sha256": "1b0c968e9bbf43db37bfbe68b8733578ca0067aa833ddabfe5829562944ded45"
+        "report_sha256": "60bf99776696bff046d346c10feadf22d9f504d9dfedcacb976eb338921a0ac1"
       }
     },
     "tutorials/come-creare-moduli-iscrizione-personalizzati.mdx#impostare-quote-multiple": {
@@ -4527,9 +4527,9 @@
       "editorial_content_sha256": "553f5156a97f6b862a9949dcb30dc61ad18a7659ec2f844ca07c4fea0e355326",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "members-fee-plan-selection",
-        "report_sha256": "d165daae17af799163e095f156db29d05d2b081fb3e9251a91cab859da187413"
+        "report_sha256": "e04d82519719e201690ab830938e181ce016c9b43871b4fd0e2293b1a4a5b59e"
       }
     },
     "tutorials/come-creare-moduli-iscrizione-personalizzati.mdx#indice": {
@@ -4546,9 +4546,9 @@
       "editorial_content_sha256": "c83956ce60c9342103f68ea0364d08007be7d260cd1558a7045b7c53b2d3ddb1",
       "materialization": {
         "format": 1,
-        "capture_id": "37a017f005032645",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "settings-signup-checkout",
-        "report_sha256": "1b0c968e9bbf43db37bfbe68b8733578ca0067aa833ddabfe5829562944ded45"
+        "report_sha256": "60bf99776696bff046d346c10feadf22d9f504d9dfedcacb976eb338921a0ac1"
       }
     },
     "tutorials/come-creare-moduli-iscrizione-personalizzati.mdx#personalizzare-il-modulo-d-iscrizione": {
@@ -4565,9 +4565,9 @@
       "editorial_content_sha256": "d43d7fd4dec1f9e6c740ba5e62d9aaded5f3d36880cb0f8685476a530a607cf2",
       "materialization": {
         "format": 1,
-        "capture_id": "37a017f005032645",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "settings-signup-checkout",
-        "report_sha256": "1b0c968e9bbf43db37bfbe68b8733578ca0067aa833ddabfe5829562944ded45"
+        "report_sha256": "60bf99776696bff046d346c10feadf22d9f504d9dfedcacb976eb338921a0ac1"
       }
     },
     "tutorials/come-creare-moduli-iscrizione-personalizzati.mdx#sezioni-del-modulo-d-iscrizione": {
@@ -4584,9 +4584,9 @@
       "editorial_content_sha256": "336dcb4428dfc105cea335636e8105b15251c06f49308880a8fe0461cd596709",
       "materialization": {
         "format": 1,
-        "capture_id": "37a017f005032645",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "settings-signup-checkout",
-        "report_sha256": "1b0c968e9bbf43db37bfbe68b8733578ca0067aa833ddabfe5829562944ded45"
+        "report_sha256": "60bf99776696bff046d346c10feadf22d9f504d9dfedcacb976eb338921a0ac1"
       }
     },
     "tutorials/come-creare-moduli-iscrizione-personalizzati.mdx#visualizzare-un-anteprima-del-modulo-d-iscrizione-digitale": {
@@ -4603,9 +4603,9 @@
       "editorial_content_sha256": "82b01b71d721a73286473e730af5b17804995d6bd3655fc878bd885ef2c33c61",
       "materialization": {
         "format": 1,
-        "capture_id": "37a017f005032645",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "settings-signup-checkout",
-        "report_sha256": "1b0c968e9bbf43db37bfbe68b8733578ca0067aa833ddabfe5829562944ded45"
+        "report_sha256": "60bf99776696bff046d346c10feadf22d9f504d9dfedcacb976eb338921a0ac1"
       }
     },
     "tutorials/come-gestire-certificati-medici.mdx#consigli-per-una-gestione-efficiente": {
@@ -4622,9 +4622,9 @@
       "editorial_content_sha256": "f729345b2224cfb21a7db1b57fce3a3e770a37e8024e8e2e2c1c75eacc76a520",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "medical-followups",
-        "report_sha256": "4e9bb3e363e341279138b8c2f3d1f7de790b1af7996b8c07d77d7daf9fc67324"
+        "report_sha256": "89f32f2b542fbd9021c1dbd22fe1ca3aa45360112f84aea7d3a8b9ce4b183520"
       }
     },
     "tutorials/come-gestire-certificati-medici.mdx#dal-profilo-dell-atleta": {
@@ -4641,9 +4641,9 @@
       "editorial_content_sha256": "43d5dbfe2f7bd342b80b75c89c9dd33bb18ea0249eea04069d08dbc07c359423",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "medical-followups",
-        "report_sha256": "4e9bb3e363e341279138b8c2f3d1f7de790b1af7996b8c07d77d7daf9fc67324"
+        "report_sha256": "89f32f2b542fbd9021c1dbd22fe1ca3aa45360112f84aea7d3a8b9ce4b183520"
       }
     },
     "tutorials/come-gestire-certificati-medici.mdx#impostare-la-data-di-scadenza": {
@@ -4660,9 +4660,9 @@
       "editorial_content_sha256": "26b00057a3718068cdd30b4ef1a7771a195cfbc8a54b8f6ec12e0a83328b14ce",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "medical-followups",
-        "report_sha256": "4e9bb3e363e341279138b8c2f3d1f7de790b1af7996b8c07d77d7daf9fc67324"
+        "report_sha256": "89f32f2b542fbd9021c1dbd22fe1ca3aa45360112f84aea7d3a8b9ce4b183520"
       }
     },
     "tutorials/come-gestire-certificati-medici.mdx#tieni-traccia-dei-certificati-agonistici": {
@@ -4679,9 +4679,9 @@
       "editorial_content_sha256": "9c6c681f1b2b568cc42a69836735ea5a92393723a0645ab63f9d5227281c1ef4",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "medical-followups",
-        "report_sha256": "4e9bb3e363e341279138b8c2f3d1f7de790b1af7996b8c07d77d7daf9fc67324"
+        "report_sha256": "89f32f2b542fbd9021c1dbd22fe1ca3aa45360112f84aea7d3a8b9ce4b183520"
       }
     },
     "tutorials/come-gestire-registro-presenze-carnet.mdx#aggiungere-una-presenza-mancante": {
@@ -4698,9 +4698,9 @@
       "editorial_content_sha256": "3d5c295f3b0132077b921cf75f8e0a9af48d8dad30ca7e27bc51b305ff648677",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "attendance-carnet-manual",
-        "report_sha256": "3647372d97e936858636df1764201ad63620d74480ca39959052e39d6a75c10a"
+        "report_sha256": "c8a79bd1ab235682127ad0e76e6930d0b67c9fc8d57784c5d0efb5817cc75433"
       }
     },
     "tutorials/come-gestire-registro-presenze-carnet.mdx#assegnare-un-nuovo-carnet": {
@@ -4717,9 +4717,9 @@
       "editorial_content_sha256": "21ed08fd12a55e846f18d1bbdb03dc59e69d38bce80760f5b6b39abab3d7ba8a",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "attendance-carnet-maintenance",
-        "report_sha256": "4b9a299684130f245f97f32cf64eb6fbd4f045959da51c13e24c6c8e7254dd1d"
+        "report_sha256": "cfb09fc8470f5f997a828edd3ed161d48dc158509242916534d194a48cad5f03"
       }
     },
     "tutorials/come-gestire-registro-presenze-carnet.mdx#come-funziona": {
@@ -4736,9 +4736,9 @@
       "editorial_content_sha256": "76efe2a09a4bc835949093ec09db0aba06c850776a726d6a511bff515b3ea8c2",
       "materialization": {
         "format": 1,
-        "capture_id": "37a017f005032645",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "attendance-automatic",
-        "report_sha256": "938044cfa8240c70765b38f9bfe39a0715c98c7460b6fa1acc1783e8cad11ccf"
+        "report_sha256": "b86981eee01b7c6f74acc1c826132d46496929f5adea635ade6e8d14351c592e"
       }
     },
     "tutorials/come-gestire-registro-presenze-carnet.mdx#come-funzionano-i-carnet-con-le-presenze": {
@@ -4755,9 +4755,9 @@
       "editorial_content_sha256": "ecfc32ea1b2900bb8fbdb9b0e203a3db5e29d93f6b392cc2fbb2b5a8eb15aeff",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "attendance-carnet-manual",
-        "report_sha256": "3647372d97e936858636df1764201ad63620d74480ca39959052e39d6a75c10a"
+        "report_sha256": "c8a79bd1ab235682127ad0e76e6930d0b67c9fc8d57784c5d0efb5817cc75433"
       }
     },
     "tutorials/come-gestire-registro-presenze-carnet.mdx#come-si-attivano-le-presenze-automatiche": {
@@ -4774,9 +4774,9 @@
       "editorial_content_sha256": "9381b03cb2d1399241f5e3a393e09d4410d14243da8e72f468b5c916a52bc811",
       "materialization": {
         "format": 1,
-        "capture_id": "37a017f005032645",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "attendance-automatic",
-        "report_sha256": "938044cfa8240c70765b38f9bfe39a0715c98c7460b6fa1acc1783e8cad11ccf"
+        "report_sha256": "b86981eee01b7c6f74acc1c826132d46496929f5adea635ade6e8d14351c592e"
       }
     },
     "tutorials/come-gestire-registro-presenze-carnet.mdx#conclusione": {
@@ -4805,9 +4805,9 @@
       "editorial_content_sha256": "d317e8fb0209ad0bd1e90be967354d62c9df949cb0c994be20fe2afed2603eea",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "attendance-carnet-manual",
-        "report_sha256": "3647372d97e936858636df1764201ad63620d74480ca39959052e39d6a75c10a"
+        "report_sha256": "c8a79bd1ab235682127ad0e76e6930d0b67c9fc8d57784c5d0efb5817cc75433"
       }
     },
     "tutorials/come-gestire-registro-presenze-carnet.mdx#controllare-le-lezioni-rimanenti": {
@@ -4824,9 +4824,9 @@
       "editorial_content_sha256": "7ff787d84c261283ad2ff8528b0fa86c681c8d4ae0edb2920e1169e9aea2e5a7",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "attendance-carnet-manual",
-        "report_sha256": "3647372d97e936858636df1764201ad63620d74480ca39959052e39d6a75c10a"
+        "report_sha256": "c8a79bd1ab235682127ad0e76e6930d0b67c9fc8d57784c5d0efb5817cc75433"
       }
     },
     "tutorials/come-gestire-registro-presenze-carnet.mdx#correggere-una-presenza-errata": {
@@ -4843,9 +4843,9 @@
       "editorial_content_sha256": "b604b71e916497341699aceb2b6f7929d3092959f96761e75877534809a4f6a4",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "attendance-carnet-manual",
-        "report_sha256": "3647372d97e936858636df1764201ad63620d74480ca39959052e39d6a75c10a"
+        "report_sha256": "c8a79bd1ab235682127ad0e76e6930d0b67c9fc8d57784c5d0efb5817cc75433"
       }
     },
     "tutorials/come-gestire-registro-presenze-carnet.mdx#gestire-le-lezioni-perse-e-le-correzioni": {
@@ -4862,9 +4862,9 @@
       "editorial_content_sha256": "020b0a34a74e7435341089e377b05abf365035437267145be3ae947f0e37b18e",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "attendance-carnet-manual",
-        "report_sha256": "3647372d97e936858636df1764201ad63620d74480ca39959052e39d6a75c10a"
+        "report_sha256": "c8a79bd1ab235682127ad0e76e6930d0b67c9fc8d57784c5d0efb5817cc75433"
       }
     },
     "tutorials/come-gestire-registro-presenze-carnet.mdx#indice": {
@@ -4881,9 +4881,9 @@
       "editorial_content_sha256": "f588538d6264d395e0163bb59532246729e2c6e8beab07512fbdefc57eefc5b1",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "attendance-carnet-manual",
-        "report_sha256": "3647372d97e936858636df1764201ad63620d74480ca39959052e39d6a75c10a"
+        "report_sha256": "c8a79bd1ab235682127ad0e76e6930d0b67c9fc8d57784c5d0efb5817cc75433"
       }
     },
     "tutorials/come-gestire-registro-presenze-carnet.mdx#modificare-le-lezioni-rimanenti": {
@@ -4900,9 +4900,9 @@
       "editorial_content_sha256": "2dc562fc11039b98956771c733ef7a3c13c96daa8f9ef07eb14424420c396af4",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "attendance-carnet-maintenance",
-        "report_sha256": "4b9a299684130f245f97f32cf64eb6fbd4f045959da51c13e24c6c8e7254dd1d"
+        "report_sha256": "cfb09fc8470f5f997a828edd3ed161d48dc158509242916534d194a48cad5f03"
       }
     },
     "tutorials/come-gestire-registro-presenze-carnet.mdx#presenze-automatiche-pro-teams": {
@@ -4919,9 +4919,9 @@
       "editorial_content_sha256": "49296c3b13fac5b2e8fef0570d199699976e2ee5c004fb22e617cc757094fb13",
       "materialization": {
         "format": 1,
-        "capture_id": "37a017f005032645",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "attendance-automatic",
-        "report_sha256": "938044cfa8240c70765b38f9bfe39a0715c98c7460b6fa1acc1783e8cad11ccf"
+        "report_sha256": "b86981eee01b7c6f74acc1c826132d46496929f5adea635ade6e8d14351c592e"
       }
     },
     "tutorials/come-gestire-registro-presenze-carnet.mdx#registro-lezioni-nel-carnet": {
@@ -4938,9 +4938,9 @@
       "editorial_content_sha256": "b1a2a3186a7c763a246c439da9c4cf64bde83276753f53dd1825610511c3fbb4",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "attendance-carnet-manual",
-        "report_sha256": "3647372d97e936858636df1764201ad63620d74480ca39959052e39d6a75c10a"
+        "report_sha256": "c8a79bd1ab235682127ad0e76e6930d0b67c9fc8d57784c5d0efb5817cc75433"
       }
     },
     "tutorials/come-gestire-registro-presenze-carnet.mdx#ripristino-delle-lezioni": {
@@ -4957,9 +4957,9 @@
       "editorial_content_sha256": "349a559afad401d5d0be3a107fdb200bff5afe2da235b31de5ffaecb572bf781",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "attendance-carnet-manual",
-        "report_sha256": "3647372d97e936858636df1764201ad63620d74480ca39959052e39d6a75c10a"
+        "report_sha256": "c8a79bd1ab235682127ad0e76e6930d0b67c9fc8d57784c5d0efb5817cc75433"
       }
     },
     "tutorials/come-gestire-registro-presenze-carnet.mdx#scalamento-delle-lezioni": {
@@ -4976,9 +4976,9 @@
       "editorial_content_sha256": "5036f36e1c1b67fe978706eda87f70970c93167b9107945c52b08b0945ac7226",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "attendance-carnet-manual",
-        "report_sha256": "3647372d97e936858636df1764201ad63620d74480ca39959052e39d6a75c10a"
+        "report_sha256": "c8a79bd1ab235682127ad0e76e6930d0b67c9fc8d57784c5d0efb5817cc75433"
       }
     },
     "tutorials/come-gestire-registro-presenze-carnet.mdx#segnare-le-presenze-manualmente": {
@@ -4995,9 +4995,9 @@
       "editorial_content_sha256": "66347856d874e40ce2d8adca3771179f85fcf591a56e33b20a50655d43b22f2c",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "attendance-carnet-manual",
-        "report_sha256": "3647372d97e936858636df1764201ad63620d74480ca39959052e39d6a75c10a"
+        "report_sha256": "c8a79bd1ab235682127ad0e76e6930d0b67c9fc8d57784c5d0efb5817cc75433"
       }
     },
     "tutorials/come-gestire-registro-presenze-carnet.mdx#visualizzare-il-registro-presenze": {
@@ -5014,9 +5014,9 @@
       "editorial_content_sha256": "351db860b316908c7bc7b8cdf70f3a0812ae0b798bcc3c1d760f9fb5b9a38ae8",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "attendance-carnet-manual",
-        "report_sha256": "3647372d97e936858636df1764201ad63620d74480ca39959052e39d6a75c10a"
+        "report_sha256": "c8a79bd1ab235682127ad0e76e6930d0b67c9fc8d57784c5d0efb5817cc75433"
       }
     },
     "tutorials/come-impostare-automazioni-workflow.mdx#aggiungere-le-azioni": {
@@ -5033,9 +5033,9 @@
       "editorial_content_sha256": "ad5472c93c5be263632aefcf0c9f6a2353a0154e6967bb52932a839a31c436af",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "communication-workflow-manage",
-        "report_sha256": "d9bdd86b23b890e3c104ba7b8229f3070b3c1e3b4c8498b2b48e27ee96f05c69"
+        "report_sha256": "b6053a42102069f08f0d57526d636a3048ba6efa307c4b17609b73dba78f416d"
       }
     },
     "tutorials/come-impostare-automazioni-workflow.mdx#attivare-disattivare-e-modificare-i-workflow": {
@@ -5064,9 +5064,9 @@
       "editorial_content_sha256": "8d1655d04461ad04f4095a76580115f4e8e734cf20709ba855d257422527c4f2",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "communication-welcome-state",
-        "report_sha256": "f82932cc2623a04dc8ce0de89847b0a9db4aa1090166536c7c2bf6f5acdb93e0"
+        "report_sha256": "1ac4cf655a228f8fb81963648cf918ad91f1e5d812bc5920430888a2b6fa6b38"
       }
     },
     "tutorials/come-impostare-automazioni-workflow.mdx#azioni-disponibili": {
@@ -5107,9 +5107,9 @@
       "editorial_content_sha256": "815b835672e3f62442787c02aca461185edba0526cb4e8e228174872442737c3",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "communication-welcome-state",
-        "report_sha256": "f82932cc2623a04dc8ce0de89847b0a9db4aa1090166536c7c2bf6f5acdb93e0"
+        "report_sha256": "1ac4cf655a228f8fb81963648cf918ad91f1e5d812bc5920430888a2b6fa6b38"
       }
     },
     "tutorials/come-impostare-automazioni-workflow.mdx#conferma-pagamento": {
@@ -5138,9 +5138,9 @@
       "editorial_content_sha256": "2c08371750437df9641221e9c749e255acb11e4afcdd335da4ad10a129bb72ec",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "communication-workflow-manage",
-        "report_sha256": "d9bdd86b23b890e3c104ba7b8229f3070b3c1e3b4c8498b2b48e27ee96f05c69"
+        "report_sha256": "b6053a42102069f08f0d57526d636a3048ba6efa307c4b17609b73dba78f416d"
       }
     },
     "tutorials/come-impostare-automazioni-workflow.mdx#creare-un-workflow-passo-dopo-passo": {
@@ -5157,9 +5157,9 @@
       "editorial_content_sha256": "c96d0b999b587288b4fa2bdb7dc58b0da20c60f3737303584286f960655a2cd4",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "communication-workflow-manage",
-        "report_sha256": "d9bdd86b23b890e3c104ba7b8229f3070b3c1e3b4c8498b2b48e27ee96f05c69"
+        "report_sha256": "b6053a42102069f08f0d57526d636a3048ba6efa307c4b17609b73dba78f416d"
       }
     },
     "tutorials/come-impostare-automazioni-workflow.mdx#destinatari-delle-azioni": {
@@ -5200,9 +5200,9 @@
       "editorial_content_sha256": "396bc280c8d122a79f2202319f6c514f1cfbed578ed8bde4528da6460721f768",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "communication-welcome-state",
-        "report_sha256": "f82932cc2623a04dc8ce0de89847b0a9db4aa1090166536c7c2bf6f5acdb93e0"
+        "report_sha256": "1ac4cf655a228f8fb81963648cf918ad91f1e5d812bc5920430888a2b6fa6b38"
       }
     },
     "tutorials/come-impostare-automazioni-workflow.mdx#email-di-benvenuto": {
@@ -5219,9 +5219,9 @@
       "editorial_content_sha256": "c9abe1424957c978b605d38a2d1b3d564078d02dd00bf80d5867d9d541f3dcee",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "communication-welcome-state",
-        "report_sha256": "f82932cc2623a04dc8ce0de89847b0a9db4aa1090166536c7c2bf6f5acdb93e0"
+        "report_sha256": "1ac4cf655a228f8fb81963648cf918ad91f1e5d812bc5920430888a2b6fa6b38"
       }
     },
     "tutorials/come-impostare-automazioni-workflow.mdx#esempi-di-workflow-utili": {
@@ -5310,9 +5310,9 @@
       "editorial_content_sha256": "8c42424712227e609dce451b77e553ac9430174613a3323206700e649e22e343",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "communication-workflow-manage",
-        "report_sha256": "d9bdd86b23b890e3c104ba7b8229f3070b3c1e3b4c8498b2b48e27ee96f05c69"
+        "report_sha256": "b6053a42102069f08f0d57526d636a3048ba6efa307c4b17609b73dba78f416d"
       }
     },
     "tutorials/come-impostare-automazioni-workflow.mdx#promemoria-certificato-medico": {
@@ -5353,9 +5353,9 @@
       "editorial_content_sha256": "ccc112ff43eec40ed85c3254cc8c952a4e7474d12bdd35c83bd69af2b183ae49",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "communication-workflow-manage",
-        "report_sha256": "d9bdd86b23b890e3c104ba7b8229f3070b3c1e3b4c8498b2b48e27ee96f05c69"
+        "report_sha256": "b6053a42102069f08f0d57526d636a3048ba6efa307c4b17609b73dba78f416d"
       }
     },
     "tutorials/come-impostare-automazioni-workflow.mdx#se-scegli-invio-email": {
@@ -5372,9 +5372,9 @@
       "editorial_content_sha256": "1180128c8af9d7e6e7272ed49374bad4d1b6e41965062375a0d9fadafdc518fb",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "communication-workflow-manage",
-        "report_sha256": "d9bdd86b23b890e3c104ba7b8229f3070b3c1e3b4c8498b2b48e27ee96f05c69"
+        "report_sha256": "b6053a42102069f08f0d57526d636a3048ba6efa307c4b17609b73dba78f416d"
       }
     },
     "tutorials/come-impostare-automazioni-workflow.mdx#se-scegli-invio-sms": {
@@ -5415,9 +5415,9 @@
       "editorial_content_sha256": "a95d3bb42ef073f3a0300d5015f02d2a9ea010e404f2247cef84df48bd829fb0",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "instructors-create-edit-hours",
-        "report_sha256": "db252d548b2ff10d800d69c2e965179b21b4f9d358b60d6e80adb008daea2abf"
+        "report_sha256": "311259ef578cb1e40759b230e702cd518f5943225777f0f2f52df09849e93c38"
       }
     },
     "tutorials/come-impostare-gestire-istruttori.mdx#modificare-i-dati": {
@@ -5434,9 +5434,9 @@
       "editorial_content_sha256": "7944e7e3ca56ec1ad6460e534a1d6845598967abc2e3c8aa2b1dfbe51bd0a0ac",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "instructors-create-edit-hours",
-        "report_sha256": "db252d548b2ff10d800d69c2e965179b21b4f9d358b60d6e80adb008daea2abf"
+        "report_sha256": "311259ef578cb1e40759b230e702cd518f5943225777f0f2f52df09849e93c38"
       }
     },
     "tutorials/come-impostare-gestire-istruttori.mdx#registrare-le-ore-lavorate": {
@@ -5453,9 +5453,9 @@
       "editorial_content_sha256": "69b07883c4fd5360975d2bc6d97771c6364eaf90c7171a8eb85fd24f66638056",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "instructors-create-edit-hours",
-        "report_sha256": "db252d548b2ff10d800d69c2e965179b21b4f9d358b60d6e80adb008daea2abf"
+        "report_sha256": "311259ef578cb1e40759b230e702cd518f5943225777f0f2f52df09849e93c38"
       }
     },
     "tutorials/come-impostare-gestire-istruttori.mdx#riepilogo-ore": {
@@ -5472,9 +5472,9 @@
       "editorial_content_sha256": "cee7ca5c218614d638763b8e4369d7600c69972834345669ddd2ff1f1d704a1f",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "instructors-create-edit-hours",
-        "report_sha256": "db252d548b2ff10d800d69c2e965179b21b4f9d358b60d6e80adb008daea2abf"
+        "report_sha256": "311259ef578cb1e40759b230e702cd518f5943225777f0f2f52df09849e93c38"
       }
     },
     "tutorials/come-impostare-gestire-istruttori.mdx#tipologie-di-compenso": {
@@ -5491,9 +5491,9 @@
       "editorial_content_sha256": "2f15ec9a3d3970941688f9bb114a8c640a85838b9e04227e44a6063c34437fb6",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "instructors-create-edit-hours",
-        "report_sha256": "db252d548b2ff10d800d69c2e965179b21b4f9d358b60d6e80adb008daea2abf"
+        "report_sha256": "311259ef578cb1e40759b230e702cd518f5943225777f0f2f52df09849e93c38"
       }
     },
     "docs/libro-soci.mdx#come-funziona-il-libro-soci": {
@@ -5558,9 +5558,9 @@
       "editorial_content_sha256": "85c6e7fe40519f640ee6774308cfcf40603fccd9b91a94ed697308ddde556404",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "members-fee-plan-selection",
-        "report_sha256": "d165daae17af799163e095f156db29d05d2b081fb3e9251a91cab859da187413"
+        "report_sha256": "e04d82519719e201690ab830938e181ce016c9b43871b4fd0e2293b1a4a5b59e"
       }
     },
     "docs/libro-soci.mdx#esenzione-certificato-medico-per-minori-di-6-anni": {
@@ -5613,9 +5613,9 @@
       "editorial_content_sha256": "0b980de0d239a897c4a9727e2f61463772a00e78338dd8a10355b57050520473",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "members-import",
-        "report_sha256": "e08b87fc84b09c889b4b1a0d58615d9a749255c247ca2463f3713ec804adc53b"
+        "report_sha256": "f39c7d88b91f03c73dad405ab8a2b145caca68d8b6818ab623e878d818620f22"
       }
     },
     "docs/libro-soci.mdx#deduplicazione-automatica-durante-l-importazione": {
@@ -5644,9 +5644,9 @@
       "editorial_content_sha256": "68d5064d2391d83e44136285cb5f1ccd50157bf946270d0eaf03b130421dae09",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "members-account-access",
-        "report_sha256": "13ac6fb17295a2042e21d112191f49266fa0ab841f027ba419be0dd85ffbb629"
+        "report_sha256": "b26c46dddbc105a2c50945383f146820634a05f975e70bb895f1f7895b3999c8"
       }
     },
     "docs/libro-soci.mdx#scadenza-delle-richieste-di-trasferimento": {
@@ -5675,9 +5675,9 @@
       "editorial_content_sha256": "354613c4b07d9ea45570eafbe85dcbff68983e71522a982282c8308b2de4744c",
       "materialization": {
         "format": 1,
-        "capture_id": "37a017f005032645",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "member-tags",
-        "report_sha256": "e26b9e412e51b0b61f0547b0627e3a06836a216d4224a05e8ae3fef50459ee14"
+        "report_sha256": "6c0a03c33c19591449d08588d4903e29b276b32bbcec767bc23839196e09114a"
       }
     },
     "docs/libro-soci.mdx#eliminare-un-tag": {
@@ -5694,9 +5694,9 @@
       "editorial_content_sha256": "6c96233b40736054efe14a13c9784e4b771a11fc2c89e95f59a74e837eb482ec",
       "materialization": {
         "format": 1,
-        "capture_id": "37a017f005032645",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "member-tags",
-        "report_sha256": "e26b9e412e51b0b61f0547b0627e3a06836a216d4224a05e8ae3fef50459ee14"
+        "report_sha256": "6c0a03c33c19591449d08588d4903e29b276b32bbcec767bc23839196e09114a"
       }
     },
     "docs/libro-soci.mdx#risorse-correlate": {
@@ -5797,9 +5797,9 @@
       "editorial_content_sha256": "3270106a3ccd5738f3d68c31e746b50309ae921942a4c26ce1fa517523557eca",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "members-approve",
-        "report_sha256": "316c7ca4bc4ba3a673b5fef0f1f50126fd94148735a8da3026259b993e775526"
+        "report_sha256": "e3f1db44fedf68fb20cfc053f205714f977dc02e8a58326fb53172bd094d56a0"
       }
     },
     "faq/come-si-importano-dei-soci.mdx#cos-e-l-importazione-dei-soci": {
@@ -5840,9 +5840,9 @@
       "editorial_content_sha256": "e0970cc98b228afb33a3ed52fc4b914a1e17720697b0c5313ae742bf39cc7846",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "members-import",
-        "report_sha256": "e08b87fc84b09c889b4b1a0d58615d9a749255c247ca2463f3713ec804adc53b"
+        "report_sha256": "f39c7d88b91f03c73dad405ab8a2b145caca68d8b6818ab623e878d818620f22"
       }
     },
     "faq/come-si-importano-dei-soci.mdx#gestione-dei-soci-importati": {
@@ -5859,9 +5859,9 @@
       "editorial_content_sha256": "930f746628a6372f7c5ec16edea84ba60802b6c23c734a6001ff9d35380473cb",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "members-import",
-        "report_sha256": "e08b87fc84b09c889b4b1a0d58615d9a749255c247ca2463f3713ec804adc53b"
+        "report_sha256": "f39c7d88b91f03c73dad405ab8a2b145caca68d8b6818ab623e878d818620f22"
       }
     },
     "faq/come-si-importano-dei-soci.mdx#consigli-utili": {
@@ -5902,9 +5902,9 @@
       "editorial_content_sha256": "dd1443b7a835541bab7b862d296fd2a72b52a309734c68d61f52b50815211e8c",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "members-filter-export",
-        "report_sha256": "4375c43aed0a68466718513344462ffca7d92fc45bec358f5e7aaf124068c98a"
+        "report_sha256": "27b9f1edf0e874f6f1b48bc3b6df725a74d2be5968c769f9fd71a36aa911592d"
       }
     },
     "faq/come-usare-ricerca-filtri-atleti.mdx#filtro-per-stato": {
@@ -5933,9 +5933,9 @@
       "editorial_content_sha256": "8bc96989f350ec45de7a5fe8c63aa09e1b78c244c08a3b27275b2af77fd95694",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "members-filter-export",
-        "report_sha256": "4375c43aed0a68466718513344462ffca7d92fc45bec358f5e7aaf124068c98a"
+        "report_sha256": "27b9f1edf0e874f6f1b48bc3b6df725a74d2be5968c769f9fd71a36aa911592d"
       }
     },
     "faq/come-usare-ricerca-filtri-atleti.mdx#filtro-per-eta": {
@@ -5952,9 +5952,9 @@
       "editorial_content_sha256": "887c98e2ac2ee5d5bfec228cad3db64c21d9c217edb50374aceb56f90996c69e",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "members-filter-export",
-        "report_sha256": "4375c43aed0a68466718513344462ffca7d92fc45bec358f5e7aaf124068c98a"
+        "report_sha256": "27b9f1edf0e874f6f1b48bc3b6df725a74d2be5968c769f9fd71a36aa911592d"
       }
     },
     "faq/come-usare-ricerca-filtri-atleti.mdx#filtro-per-tipo": {
@@ -5995,9 +5995,9 @@
       "editorial_content_sha256": "ce6e7bf86a76fd458a1dc48f5d135e4faea0f8ac9b70364bd213e7ff43f75a1b",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "members-filter-export",
-        "report_sha256": "4375c43aed0a68466718513344462ffca7d92fc45bec358f5e7aaf124068c98a"
+        "report_sha256": "27b9f1edf0e874f6f1b48bc3b6df725a74d2be5968c769f9fd71a36aa911592d"
       }
     },
     "faq/come-usare-ricerca-filtri-atleti.mdx#azioni-in-blocco-sui-risultati-filtrati": {
@@ -6014,9 +6014,9 @@
       "editorial_content_sha256": "52fd5d11d490a12058793ffec359354c85e7fdfe62b270df7d953c834f2372ff",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "members-filter-export",
-        "report_sha256": "4375c43aed0a68466718513344462ffca7d92fc45bec358f5e7aaf124068c98a"
+        "report_sha256": "27b9f1edf0e874f6f1b48bc3b6df725a74d2be5968c769f9fd71a36aa911592d"
       }
     },
     "faq/come-usare-ricerca-filtri-atleti.mdx#personalizzare-le-colonne-della-tabella": {
@@ -6033,9 +6033,9 @@
       "editorial_content_sha256": "534181260413c2f4d13a7b2ed42d8e640d30c683e7a449bb4fe43f8d5191d43e",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "members-filter-export",
-        "report_sha256": "4375c43aed0a68466718513344462ffca7d92fc45bec358f5e7aaf124068c98a"
+        "report_sha256": "27b9f1edf0e874f6f1b48bc3b6df725a74d2be5968c769f9fd71a36aa911592d"
       }
     },
     "faq/come-calcolare-generare-codici-fiscali.mdx#calcolo-automatico-del-codice-fiscale": {
@@ -6100,9 +6100,9 @@
       "editorial_content_sha256": "106dbe0a9289ffcdad596b87c23a58f7d50228d2d3495909079f856bbcb4ba6a",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "members-tax-code-correction",
-        "report_sha256": "b5c064aa0f2d6cc7f2595882326878bc8d44cd1c27917991ce77e8ec8f0614b6"
+        "report_sha256": "de0f80a13d3df96c0a6b04627273978135f218f641df9967b09e5a2e809c8b95"
       }
     },
     "faq/come-gestire-i-certificati-medici.mdx#gestire-i-certificati-medici": {
@@ -6131,9 +6131,9 @@
       "editorial_content_sha256": "d96bd20cbd67986b9ce21a2e9d4bfad5cdd5b1ebe32d6fff3fb28679764f350f",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "medical-followups",
-        "report_sha256": "4e9bb3e363e341279138b8c2f3d1f7de790b1af7996b8c07d77d7daf9fc67324"
+        "report_sha256": "89f32f2b542fbd9021c1dbd22fe1ca3aa45360112f84aea7d3a8b9ce4b183520"
       }
     },
     "faq/come-gestire-i-certificati-medici.mdx#notifiche-automatiche-di-scadenza": {
@@ -6162,9 +6162,9 @@
       "editorial_content_sha256": "c4aa0fac366092ed5d9a1b35a201b415c6dfa6a8d7cf2a5450e893878edc0842",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "medical-followups",
-        "report_sha256": "4e9bb3e363e341279138b8c2f3d1f7de790b1af7996b8c07d77d7daf9fc67324"
+        "report_sha256": "89f32f2b542fbd9021c1dbd22fe1ca3aa45360112f84aea7d3a8b9ce4b183520"
       }
     },
     "faq/come-gestire-i-certificati-medici.mdx#aggiornare-un-certificato-medico": {
@@ -6181,9 +6181,9 @@
       "editorial_content_sha256": "547a8da5df934053ce4743ec29d9b02db75692451b8c66dd0079333d569b6fa9",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "medical-followups",
-        "report_sha256": "4e9bb3e363e341279138b8c2f3d1f7de790b1af7996b8c07d77d7daf9fc67324"
+        "report_sha256": "89f32f2b542fbd9021c1dbd22fe1ca3aa45360112f84aea7d3a8b9ce4b183520"
       }
     },
     "tutorials/come-gestire-certificati-medici.mdx#indice": {
@@ -6224,9 +6224,9 @@
       "editorial_content_sha256": "f8dde6e322c4f95904c746ffe1dee4e2d4ba41ece3ee891b840dd8027509f72e",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "medical-followups",
-        "report_sha256": "4e9bb3e363e341279138b8c2f3d1f7de790b1af7996b8c07d77d7daf9fc67324"
+        "report_sha256": "89f32f2b542fbd9021c1dbd22fe1ca3aa45360112f84aea7d3a8b9ce4b183520"
       }
     },
     "tutorials/come-gestire-certificati-medici.mdx#notifiche-automatiche-di-scadenza": {
@@ -6255,9 +6255,9 @@
       "editorial_content_sha256": "4cc2ede3cb417d553dd4a72707a6f90bd3b99c93bf4995f7582688a5de4210b9",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "medical-followups",
-        "report_sha256": "4e9bb3e363e341279138b8c2f3d1f7de790b1af7996b8c07d77d7daf9fc67324"
+        "report_sha256": "89f32f2b542fbd9021c1dbd22fe1ca3aa45360112f84aea7d3a8b9ce4b183520"
       }
     },
     "tutorials/come-gestire-certificati-medici.mdx#esenzione-per-bambini-sotto-i-6-anni": {
@@ -6286,9 +6286,9 @@
       "editorial_content_sha256": "89f33ef168853cf452318375f96031149ab516e30a6b83f819ffe2e46a4cf607",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "medical-followups",
-        "report_sha256": "4e9bb3e363e341279138b8c2f3d1f7de790b1af7996b8c07d77d7daf9fc67324"
+        "report_sha256": "89f32f2b542fbd9021c1dbd22fe1ca3aa45360112f84aea7d3a8b9ce4b183520"
       }
     },
     "tutorials/come-gestire-certificati-medici.mdx#richiedi-il-certificato-all-iscrizione": {
@@ -6365,9 +6365,9 @@
       "editorial_content_sha256": "34784f582223a279f7481bad8eb0893ee1a52ab0257bc4f5f382927f816e23de",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "course-installments-manage",
-        "report_sha256": "a8eee6a7770d08b1dd44d444fb49001eaec13025085ee147b1f8e42434b731db"
+        "report_sha256": "de2668b7827e401384062db6379963a31ea83915bd24dc73c90a41dcb4356bd2"
       }
     },
     "docs/corsi.mdx#corso-con-le-rate-e-pagamento-in-unica-soluzione": {
@@ -6384,9 +6384,9 @@
       "editorial_content_sha256": "d7f90260aeb1f28a66838135426c02523fe2efe2bc5df729f711700114d1d8d3",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "course-installments-manage",
-        "report_sha256": "a8eee6a7770d08b1dd44d444fb49001eaec13025085ee147b1f8e42434b731db"
+        "report_sha256": "de2668b7827e401384062db6379963a31ea83915bd24dc73c90a41dcb4356bd2"
       }
     },
     "docs/corsi.mdx#corso-con-quote-multiple": {
@@ -6403,9 +6403,9 @@
       "editorial_content_sha256": "fcb3d411d65b0c631845bc93fde4365093fd62d37d2a21d599450bfb692e14c6",
       "materialization": {
         "format": 1,
-        "capture_id": "37a017f005032645",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "course-types-sharing",
-        "report_sha256": "837de4b2a3ec39425ac89d0af635251ff88d19ed0d293f79292d06a560097067"
+        "report_sha256": "7ba47fd85e70e1d4db5a8c749b91a01d38696d4b924c84dd59a97375ac14a54f"
       }
     },
     "docs/corsi.mdx#corso-di-tipo-abbonamento": {
@@ -6422,9 +6422,9 @@
       "editorial_content_sha256": "e32d4152a970b81a89ed017f27f8917684f5a21349eb4895cfdf212941542a32",
       "materialization": {
         "format": 1,
-        "capture_id": "37a017f005032645",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "course-types-sharing",
-        "report_sha256": "837de4b2a3ec39425ac89d0af635251ff88d19ed0d293f79292d06a560097067"
+        "report_sha256": "7ba47fd85e70e1d4db5a8c749b91a01d38696d4b924c84dd59a97375ac14a54f"
       }
     },
     "docs/corsi.mdx#validita-dei-corsi": {
@@ -6453,9 +6453,9 @@
       "editorial_content_sha256": "73b34afc9800a4718dafc6750d45713470970b1cd1530c3849888dee25e9b67a",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "course-calendar-maintenance",
-        "report_sha256": "d5471dceb931833733c4e187c37dad6efa2b523452a67a4e3627b66cc8d3e62f"
+        "report_sha256": "5d8bc05256671854bec1a32a7db8bb9aad97d39b230b51b885c93ca6dc96c049"
       }
     },
     "docs/corsi.mdx#lezione-periodica": {
@@ -6472,9 +6472,9 @@
       "editorial_content_sha256": "8338c1d385c4d5a6c9798852db22227083dad937deda6403cb4ba0fc97abe73a",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "course-calendar-maintenance",
-        "report_sha256": "d5471dceb931833733c4e187c37dad6efa2b523452a67a4e3627b66cc8d3e62f"
+        "report_sha256": "5d8bc05256671854bec1a32a7db8bb9aad97d39b230b51b885c93ca6dc96c049"
       }
     },
     "docs/corsi.mdx#modificare-o-rimuovere-le-lezioni": {
@@ -6491,9 +6491,9 @@
       "editorial_content_sha256": "1696cc387930eb338dbedcd13ec28a6f6a22c316bd1f1d7af5a45ce1d997cf48",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "course-calendar-maintenance",
-        "report_sha256": "d5471dceb931833733c4e187c37dad6efa2b523452a67a4e3627b66cc8d3e62f"
+        "report_sha256": "5d8bc05256671854bec1a32a7db8bb9aad97d39b230b51b885c93ca6dc96c049"
       }
     },
     "docs/corsi.mdx#condivisione-del-calendario": {
@@ -6510,9 +6510,9 @@
       "editorial_content_sha256": "692aa2df621c9d666e64606a94a553fd588b748402f60385639770e0ae9043a2",
       "materialization": {
         "format": 1,
-        "capture_id": "37a017f005032645",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "course-types-sharing",
-        "report_sha256": "837de4b2a3ec39425ac89d0af635251ff88d19ed0d293f79292d06a560097067"
+        "report_sha256": "7ba47fd85e70e1d4db5a8c749b91a01d38696d4b924c84dd59a97375ac14a54f"
       }
     },
     "docs/corsi.mdx#gestire-i-pagamenti-del-corso": {
@@ -6529,9 +6529,9 @@
       "editorial_content_sha256": "29582b0e3a29a74bffac962cf99fcbc662c0caf2f9615bfaabb140fb28bc4186",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "course-installments-manage",
-        "report_sha256": "a8eee6a7770d08b1dd44d444fb49001eaec13025085ee147b1f8e42434b731db"
+        "report_sha256": "de2668b7827e401384062db6379963a31ea83915bd24dc73c90a41dcb4356bd2"
       }
     },
     "docs/corsi.mdx#dettagli-tecnici-e-casi-particolari": {
@@ -6584,9 +6584,9 @@
       "editorial_content_sha256": "7a880ab1253e4143195334d1fbab8788ea6209359e3823d2d779462368d1b5d0",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "course-calendar-maintenance",
-        "report_sha256": "d5471dceb931833733c4e187c37dad6efa2b523452a67a4e3627b66cc8d3e62f"
+        "report_sha256": "5d8bc05256671854bec1a32a7db8bb9aad97d39b230b51b885c93ca6dc96c049"
       }
     },
     "docs/corsi.mdx#eliminazione-di-un-atleta-dal-corso": {
@@ -6603,9 +6603,9 @@
       "editorial_content_sha256": "4e21289c6c90f21bdcaffcf72c985447089707554fbd14f28f6dff95b38d8e72",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "course-calendar-maintenance",
-        "report_sha256": "d5471dceb931833733c4e187c37dad6efa2b523452a67a4e3627b66cc8d3e62f"
+        "report_sha256": "5d8bc05256671854bec1a32a7db8bb9aad97d39b230b51b885c93ca6dc96c049"
       }
     },
     "docs/corsi.mdx#risorse-correlate": {
@@ -6646,9 +6646,9 @@
       "editorial_content_sha256": "2b59f8afaa8d2c4023ac60353eb820f23bbd3faa525ed6a00e411fbdd9093d6a",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "course-installments-manage",
-        "report_sha256": "a8eee6a7770d08b1dd44d444fb49001eaec13025085ee147b1f8e42434b731db"
+        "report_sha256": "de2668b7827e401384062db6379963a31ea83915bd24dc73c90a41dcb4356bd2"
       }
     },
     "tutorials/come-impostare-pagamenti-rateizzati.mdx#configurare-le-rate": {
@@ -6689,9 +6689,9 @@
       "editorial_content_sha256": "2910d0fa0e4c41cf67843ba23bc732eff23a00849a72bbd6023f66105936e477",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "course-installments-manage",
-        "report_sha256": "a8eee6a7770d08b1dd44d444fb49001eaec13025085ee147b1f8e42434b731db"
+        "report_sha256": "de2668b7827e401384062db6379963a31ea83915bd24dc73c90a41dcb4356bd2"
       }
     },
     "tutorials/come-impostare-pagamenti-rateizzati.mdx#esempio-di-configurazione": {
@@ -6756,9 +6756,9 @@
       "editorial_content_sha256": "1f0da4c0fdbb2d666822b0508f18b6f1c40784e6ba11f99264cc32000c79a73f",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "course-installments-manage",
-        "report_sha256": "a8eee6a7770d08b1dd44d444fb49001eaec13025085ee147b1f8e42434b731db"
+        "report_sha256": "de2668b7827e401384062db6379963a31ea83915bd24dc73c90a41dcb4356bd2"
       }
     },
     "tutorials/come-impostare-pagamenti-rateizzati.mdx#offrire-anche-il-pagamento-in-un-unica-soluzione": {
@@ -6775,9 +6775,9 @@
       "editorial_content_sha256": "48fb7c46da83605f2b32a9db89ccf6cb01d1714f8bea198f8b05b9be52fb2cdf",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "course-installments-manage",
-        "report_sha256": "a8eee6a7770d08b1dd44d444fb49001eaec13025085ee147b1f8e42434b731db"
+        "report_sha256": "de2668b7827e401384062db6379963a31ea83915bd24dc73c90a41dcb4356bd2"
       }
     },
     "tutorials/come-impostare-pagamenti-rateizzati.mdx#modificare-il-piano-rate-per-un-singolo-atleta": {
@@ -6794,9 +6794,9 @@
       "editorial_content_sha256": "690c1d0bcb49ea918c752fd8b9d12e06db4601f2315a2fcce0215ec08e812b6f",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "course-installments-manage",
-        "report_sha256": "a8eee6a7770d08b1dd44d444fb49001eaec13025085ee147b1f8e42434b731db"
+        "report_sha256": "de2668b7827e401384062db6379963a31ea83915bd24dc73c90a41dcb4356bd2"
       }
     },
     "tutorials/come-impostare-pagamenti-rateizzati.mdx#conclusione": {
@@ -6861,9 +6861,9 @@
       "editorial_content_sha256": "8e4358b6887f525f6d88fb5676cd9819a49253be85c169a76573212529c94722",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "payments-maintenance",
-        "report_sha256": "f0972aa82339dadbcac072d6d76e712f42b9dfdc6ecad1630ad228b1ba0bc473"
+        "report_sha256": "6ee376e86255ff44841edd0e0c42b3c0a5c0413fcfa8335244d3db381cae3cdf"
       }
     },
     "docs/pagamenti.mdx#esportare-i-pagamenti": {
@@ -6880,9 +6880,9 @@
       "editorial_content_sha256": "d7d8f571f4cd7f0bbaee580044b2f46ed57d50e5c327b4501bd815f9fafbbb2b",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "payments-maintenance",
-        "report_sha256": "f0972aa82339dadbcac072d6d76e712f42b9dfdc6ecad1630ad228b1ba0bc473"
+        "report_sha256": "6ee376e86255ff44841edd0e0c42b3c0a5c0413fcfa8335244d3db381cae3cdf"
       }
     },
     "docs/pagamenti.mdx#personalizzare-le-colonne-della-tabella": {
@@ -6899,9 +6899,9 @@
       "editorial_content_sha256": "83044a2378d9acfef40809e9c20a38a79423b85368fbce6eb7be4a13897b739e",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "payments-maintenance",
-        "report_sha256": "f0972aa82339dadbcac072d6d76e712f42b9dfdc6ecad1630ad228b1ba0bc473"
+        "report_sha256": "6ee376e86255ff44841edd0e0c42b3c0a5c0413fcfa8335244d3db381cae3cdf"
       }
     },
     "docs/pagamenti.mdx#come-sollecitare-un-pagamento": {
@@ -6930,9 +6930,9 @@
       "editorial_content_sha256": "7aee7f871cfc7afdd27ea82b9e1b7f82a58fe6ab51a391ab97648c16926d4a95",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "stripe-local-settings-filters",
-        "report_sha256": "f5d42b443c23e24f4a667bb3682cab1687fb0958b6dd49edfeb47cfecf9892c0"
+        "report_sha256": "4fa9e85b125c4262c7e6b80fae45cc5826cff05ddaa9da484ee26601ad1284a7"
       }
     },
     "docs/pagamenti.mdx#gestione-delle-causali": {
@@ -6949,9 +6949,9 @@
       "editorial_content_sha256": "6c22e4ebe195fe9091ebc0b82a64993ae4e85fe752e4ea8655145b06d01e4d2b",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "payment-categories-manage",
-        "report_sha256": "d0103e4934993659198476e0c808bc71e21f91403d87cd894c9cc217f5c44f63"
+        "report_sha256": "4b98e3935b6579fd72b20770204d35ea75ad4dca60d53ad89d99622fcc017a8c"
       }
     },
     "docs/pagamenti.mdx#causali-detraibili-730": {
@@ -6968,9 +6968,9 @@
       "editorial_content_sha256": "b375a23170663777ba58e86f3b05b7034d7935424b14bdbe65774630ae561a32",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "payment-classification-local",
-        "report_sha256": "c9c72a3f49d9bde76c4a074e6546e4ad481dacfc5afec823aef793cfaa3be6df"
+        "report_sha256": "6a7ec26b9a0d5694b89b44f72cbf62c7b9eff0c09fcadb0c7feae5b0c28e586d"
       }
     },
     "docs/pagamenti.mdx#risorse-correlate": {
@@ -7059,9 +7059,9 @@
       "editorial_content_sha256": "9e15ee9637fd237aaec70c0172c722c8453a77b0056b20395c8efcaff0b8ca10",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "stripe-local-settings-filters",
-        "report_sha256": "f5d42b443c23e24f4a667bb3682cab1687fb0958b6dd49edfeb47cfecf9892c0"
+        "report_sha256": "4fa9e85b125c4262c7e6b80fae45cc5826cff05ddaa9da484ee26601ad1284a7"
       }
     },
     "tutorials/come-impostare-stripe-pagamenti-online.mdx#metodi-di-pagamento-disponibili": {
@@ -7102,9 +7102,9 @@
       "editorial_content_sha256": "92348a68add4380804f3681af419612ac7dea59c2f5d4a327e3eba7b0ae1cd5e",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "stripe-local-settings-filters",
-        "report_sha256": "f5d42b443c23e24f4a667bb3682cab1687fb0958b6dd49edfeb47cfecf9892c0"
+        "report_sha256": "4fa9e85b125c4262c7e6b80fae45cc5826cff05ddaa9da484ee26601ad1284a7"
       }
     },
     "tutorials/come-impostare-stripe-pagamenti-online.mdx#commissioni": {
@@ -7241,9 +7241,9 @@
       "editorial_content_sha256": "42fffe178ec910dd7aa60c1446c61daa6eccb8813cf023c00487ec0cad8a1fea",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "stripe-local-settings-filters",
-        "report_sha256": "f5d42b443c23e24f4a667bb3682cab1687fb0958b6dd49edfeb47cfecf9892c0"
+        "report_sha256": "4fa9e85b125c4262c7e6b80fae45cc5826cff05ddaa9da484ee26601ad1284a7"
       }
     },
     "tutorials/come-esportare-dati-associazione.mdx#indice": {
@@ -7272,9 +7272,9 @@
       "editorial_content_sha256": "2e3b31571b513b7cecc58844a59a00f62b531fcbe0101bea9d15110cfe2db1ea",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "organization-exports",
-        "report_sha256": "7462be97c179a0b73f91591390df2427b268d787d068534f3196f28b985fd3ea"
+        "report_sha256": "719e444b580233ca333fa4c31960e86f84f2327644d5ea21d82a6cab5892ad49"
       }
     },
     "tutorials/come-esportare-dati-associazione.mdx#esportare-i-pagamenti": {
@@ -7291,9 +7291,9 @@
       "editorial_content_sha256": "f1e951a2991befba87e287c7cf62b7a0205adac2d6440cfecb4def4d153280e0",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "organization-exports",
-        "report_sha256": "7462be97c179a0b73f91591390df2427b268d787d068534f3196f28b985fd3ea"
+        "report_sha256": "719e444b580233ca333fa4c31960e86f84f2327644d5ea21d82a6cab5892ad49"
       }
     },
     "tutorials/come-esportare-dati-associazione.mdx#esportare-il-registro-presenze": {
@@ -7322,9 +7322,9 @@
       "editorial_content_sha256": "2ff6fd1eb07d8b8a423074859192afc5c2fd918768d61d451ef3bdae56277e85",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "organization-exports",
-        "report_sha256": "7462be97c179a0b73f91591390df2427b268d787d068534f3196f28b985fd3ea"
+        "report_sha256": "719e444b580233ca333fa4c31960e86f84f2327644d5ea21d82a6cab5892ad49"
       }
     },
     "tutorials/come-esportare-dati-associazione.mdx#formati-disponibili-e-consigli": {
@@ -7437,9 +7437,9 @@
       "editorial_content_sha256": "c3b0ec005499598ecfbb54abdce4738d7957d80d3c57d1c2458b2a0452e4e51e",
       "materialization": {
         "format": 1,
-        "capture_id": "37a017f005032645",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "instructor-maintenance",
-        "report_sha256": "99bf60128951341f3c56500c6c8de0d81bb08bf606e91164271f0bc1a1444082"
+        "report_sha256": "a8bd1d2582bb6493a29b3dcab5b54feee0fe4c1ca4f5508b9857b255804b5d7f"
       }
     },
     "tutorials/come-impostare-gestire-istruttori.mdx#gestire-i-compensi": {
@@ -7468,9 +7468,9 @@
       "editorial_content_sha256": "4f511221a6da4c50b63ded75f71d2bf0eb3811e9a3b3380e3f72c675def74ebd",
       "materialization": {
         "format": 1,
-        "capture_id": "8ed3c5b902c8b4bd",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "instructor-compensation",
-        "report_sha256": "d6f6c0b57d637224b1241f7d66ffe4d2aa68b807d2b5706e37cc669027b71fa4"
+        "report_sha256": "e138253802126ad00e063178ade43ae99defccc692d9668b20751213c43f93b8"
       }
     },
     "tutorials/come-impostare-gestire-istruttori.mdx#creare-un-pagamento-per-il-compenso": {
@@ -7487,9 +7487,9 @@
       "editorial_content_sha256": "f2d35f4381c8ab0ce611a54b657eabe2cffe6a1bd1fd3d5864c8ce624d00852a",
       "materialization": {
         "format": 1,
-        "capture_id": "8ed3c5b902c8b4bd",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "instructor-compensation",
-        "report_sha256": "d6f6c0b57d637224b1241f7d66ffe4d2aa68b807d2b5706e37cc669027b71fa4"
+        "report_sha256": "e138253802126ad00e063178ade43ae99defccc692d9668b20751213c43f93b8"
       }
     },
     "tutorials/come-impostare-gestire-istruttori.mdx#visualizzare-ore-e-report": {
@@ -7518,9 +7518,9 @@
       "editorial_content_sha256": "e6d877a59c7f9a9aa480390754f2ec63f4bc492a4e0ebf762354e2d2b10ca387",
       "materialization": {
         "format": 1,
-        "capture_id": "8ed3c5b902c8b4bd",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "instructor-compensation",
-        "report_sha256": "d6f6c0b57d637224b1241f7d66ffe4d2aa68b807d2b5706e37cc669027b71fa4"
+        "report_sha256": "e138253802126ad00e063178ade43ae99defccc692d9668b20751213c43f93b8"
       }
     },
     "tutorials/come-impostare-gestire-istruttori.mdx#modificare-e-rimuovere-un-istruttore": {
@@ -7549,9 +7549,9 @@
       "editorial_content_sha256": "1c9c08b145f51210f2aa4aae53704a488c0bc290ee69080ceaf816c2c9385a3b",
       "materialization": {
         "format": 1,
-        "capture_id": "37a017f005032645",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "instructor-maintenance",
-        "report_sha256": "99bf60128951341f3c56500c6c8de0d81bb08bf606e91164271f0bc1a1444082"
+        "report_sha256": "a8bd1d2582bb6493a29b3dcab5b54feee0fe4c1ca4f5508b9857b255804b5d7f"
       }
     },
     "tutorials/come-impostare-gestire-istruttori.mdx#conclusione": {
@@ -7592,9 +7592,9 @@
       "editorial_content_sha256": "5358811f41d449e74303ab758fc2913dc45a909b8818486065a853e200a1be3b",
       "materialization": {
         "format": 1,
-        "capture_id": "37a017f005032645",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "instructor-maintenance",
-        "report_sha256": "99bf60128951341f3c56500c6c8de0d81bb08bf606e91164271f0bc1a1444082"
+        "report_sha256": "a8bd1d2582bb6493a29b3dcab5b54feee0fe4c1ca4f5508b9857b255804b5d7f"
       }
     },
     "docs/istruttori.mdx#compenso-a-percentuale": {
@@ -7611,9 +7611,9 @@
       "editorial_content_sha256": "3143d1a92936fa59d6e3dde2f57d102ced3f1b83a597c500a097b63375b29dd2",
       "materialization": {
         "format": 1,
-        "capture_id": "8ed3c5b902c8b4bd",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "instructor-compensation",
-        "report_sha256": "d6f6c0b57d637224b1241f7d66ffe4d2aa68b807d2b5706e37cc669027b71fa4"
+        "report_sha256": "e138253802126ad00e063178ade43ae99defccc692d9668b20751213c43f93b8"
       }
     },
     "docs/istruttori.mdx#gestire-i-compensi": {
@@ -7642,9 +7642,9 @@
       "editorial_content_sha256": "67880f0d205aa7265a0d3a662feb11596bec7d2323d7a691f5654a2a653589df",
       "materialization": {
         "format": 1,
-        "capture_id": "8ed3c5b902c8b4bd",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "instructor-compensation",
-        "report_sha256": "d6f6c0b57d637224b1241f7d66ffe4d2aa68b807d2b5706e37cc669027b71fa4"
+        "report_sha256": "e138253802126ad00e063178ade43ae99defccc692d9668b20751213c43f93b8"
       }
     },
     "docs/istruttori.mdx#documento-del-compenso": {
@@ -7661,9 +7661,9 @@
       "editorial_content_sha256": "eb993983bfeff517c9d5617e24f36e41d201ffe4792c7850a48aa7454ff5b4aa",
       "materialization": {
         "format": 1,
-        "capture_id": "8ed3c5b902c8b4bd",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "instructor-compensation",
-        "report_sha256": "d6f6c0b57d637224b1241f7d66ffe4d2aa68b807d2b5706e37cc669027b71fa4"
+        "report_sha256": "e138253802126ad00e063178ade43ae99defccc692d9668b20751213c43f93b8"
       }
     },
     "docs/istruttori.mdx#modificare-o-eliminare-le-ore-registrate": {
@@ -7692,9 +7692,9 @@
       "editorial_content_sha256": "797f3265013956f0ae806a30a110117d9790cf4b72bac1a52e3a95e27448cfe7",
       "materialization": {
         "format": 1,
-        "capture_id": "37a017f005032645",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "instructor-maintenance",
-        "report_sha256": "99bf60128951341f3c56500c6c8de0d81bb08bf606e91164271f0bc1a1444082"
+        "report_sha256": "a8bd1d2582bb6493a29b3dcab5b54feee0fe4c1ca4f5508b9857b255804b5d7f"
       }
     },
     "docs/istruttori.mdx#eliminare-una-registrazione": {
@@ -7711,9 +7711,9 @@
       "editorial_content_sha256": "17ae1c785a0d46c5f8272226ca3e7899bce14e52151eea98ea23f4c43910c74a",
       "materialization": {
         "format": 1,
-        "capture_id": "37a017f005032645",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "instructor-maintenance",
-        "report_sha256": "99bf60128951341f3c56500c6c8de0d81bb08bf606e91164271f0bc1a1444082"
+        "report_sha256": "a8bd1d2582bb6493a29b3dcab5b54feee0fe4c1ca4f5508b9857b255804b5d7f"
       }
     },
     "docs/istruttori.mdx#generare-un-report": {
@@ -7730,9 +7730,9 @@
       "editorial_content_sha256": "2a40b2a60ec6955b85ae7d3c1153477cf28fc74398dbcee6bd0a8d2597f689ec",
       "materialization": {
         "format": 1,
-        "capture_id": "8ed3c5b902c8b4bd",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "instructor-compensation",
-        "report_sha256": "d6f6c0b57d637224b1241f7d66ffe4d2aa68b807d2b5706e37cc669027b71fa4"
+        "report_sha256": "e138253802126ad00e063178ade43ae99defccc692d9668b20751213c43f93b8"
       }
     },
     "docs/istruttori.mdx#assegnare-un-istruttore-ai-corsi": {
@@ -7749,9 +7749,9 @@
       "editorial_content_sha256": "2c514572a8a449575da4a63e950abe131c4b6752436e7ae7ad30a98fc500fc1e",
       "materialization": {
         "format": 1,
-        "capture_id": "37a017f005032645",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "instructor-maintenance",
-        "report_sha256": "99bf60128951341f3c56500c6c8de0d81bb08bf606e91164271f0bc1a1444082"
+        "report_sha256": "a8bd1d2582bb6493a29b3dcab5b54feee0fe4c1ca4f5508b9857b255804b5d7f"
       }
     },
     "docs/archivio.mdx#cosa-puoi-archiviare": {
@@ -7780,9 +7780,9 @@
       "editorial_content_sha256": "8b3a546823d8d030d6aef30f229b94ffd9238ae6b558b6163586772f6668c450",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "archive-maintenance",
-        "report_sha256": "8d5108e4cdfcd1b6a6bc36a3bf159481287967799ba19caf04cf8098949b61bf"
+        "report_sha256": "31248cb730f114ddf9854ab64e49923804275660aee75386a9951e7e9c258fed"
       }
     },
     "docs/archivio.mdx#consultare-l-archivio": {
@@ -7799,9 +7799,9 @@
       "editorial_content_sha256": "1c7f2a7c4620700dc00916899640dcd3170ffd0e03ce3c22f7d3f4ab5455e880",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "archive-maintenance",
-        "report_sha256": "8d5108e4cdfcd1b6a6bc36a3bf159481287967799ba19caf04cf8098949b61bf"
+        "report_sha256": "31248cb730f114ddf9854ab64e49923804275660aee75386a9951e7e9c258fed"
       }
     },
     "docs/archivio.mdx#risorse-correlate": {
@@ -7854,9 +7854,9 @@
       "editorial_content_sha256": "a3418b0f2242abe800f2c8afe3d436455d4de28aad352b3b7095597bf996a170",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "archive-maintenance",
-        "report_sha256": "8d5108e4cdfcd1b6a6bc36a3bf159481287967799ba19caf04cf8098949b61bf"
+        "report_sha256": "31248cb730f114ddf9854ab64e49923804275660aee75386a9951e7e9c258fed"
       }
     },
     "docs/collaboratori.mdx#rimuovere-un-collaboratore": {
@@ -7873,9 +7873,9 @@
       "editorial_content_sha256": "7332d098b726b78a74468a3a66543a13757c0c26fc38b05c2fbdcb05335964d9",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "collaborator-removal",
-        "report_sha256": "3e8d6d5de5c10a40b3336813cf4b7d45e4fde591449d1cf2504c15e2e75567b7"
+        "report_sha256": "d7006ac0592ba86c7c3dbc661933d08cbaa7e35852e38674fa6f7ea2ab1d98aa"
       }
     },
     "docs/collaboratori.mdx#risorse-correlate": {
@@ -7904,9 +7904,9 @@
       "editorial_content_sha256": "7332d098b726b78a74468a3a66543a13757c0c26fc38b05c2fbdcb05335964d9",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "collaborator-removal",
-        "report_sha256": "3e8d6d5de5c10a40b3336813cf4b7d45e4fde591449d1cf2504c15e2e75567b7"
+        "report_sha256": "d7006ac0592ba86c7c3dbc661933d08cbaa7e35852e38674fa6f7ea2ab1d98aa"
       }
     },
     "docs/comunicazioni.mdx#introduzione": {
@@ -7983,9 +7983,9 @@
       "editorial_content_sha256": "1b93771eab772ecb31e2af885367fd7a64865f719a6da49fe95945578dbda351",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "settings-print",
-        "report_sha256": "0833bfcb4be3b3759e4bff11794ae3334b245d8b5fb85e3ac7018ddb0dde311d"
+        "report_sha256": "fb716cf7b543ccec6a2b76d16e7091452b20d51ee293440919705a1c1cb4a704"
       }
     },
     "docs/impostazioni.mdx#intestazione-e-pie-di-pagina-stampe": {
@@ -8002,9 +8002,9 @@
       "editorial_content_sha256": "a71639fb29cb282e8c039958d234bad0c2a51db97801824c6463d5259f921ec2",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "settings-print",
-        "report_sha256": "0833bfcb4be3b3759e4bff11794ae3334b245d8b5fb85e3ac7018ddb0dde311d"
+        "report_sha256": "fb716cf7b543ccec6a2b76d16e7091452b20d51ee293440919705a1c1cb4a704"
       }
     },
     "docs/impostazioni.mdx#ricevute": {
@@ -8033,9 +8033,9 @@
       "editorial_content_sha256": "7f96003d2961d3124732f208c51a5ba34dd63a66ac0b2811855d68fe684c9392",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "settings-receipts-card",
-        "report_sha256": "63276c9e9b5a4b68ab8b7000408ae8f522b4cd5c405d61e92b8e4bf2ac05f1f2"
+        "report_sha256": "919f7238af4af13b3226c8f2e9554dbcfc1a0be39ec8c3530b333cfb005dc34b"
       }
     },
     "docs/impostazioni.mdx#data-uguale-per-ricevute-e-pagamenti": {
@@ -8052,9 +8052,9 @@
       "editorial_content_sha256": "286538954e9115c6862b48f27aceed933e6fe43207ead011d0044c191ae3ed71",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "settings-receipts-card",
-        "report_sha256": "63276c9e9b5a4b68ab8b7000408ae8f522b4cd5c405d61e92b8e4bf2ac05f1f2"
+        "report_sha256": "919f7238af4af13b3226c8f2e9554dbcfc1a0be39ec8c3530b333cfb005dc34b"
       }
     },
     "docs/impostazioni.mdx#nascondi-nome-causale": {
@@ -8095,9 +8095,9 @@
       "editorial_content_sha256": "848c3e4a336f3dad3903bacc199d8d7595540a79356ef97acc0523ee419ac215",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "settings-print",
-        "report_sha256": "0833bfcb4be3b3759e4bff11794ae3334b245d8b5fb85e3ac7018ddb0dde311d"
+        "report_sha256": "fb716cf7b543ccec6a2b76d16e7091452b20d51ee293440919705a1c1cb4a704"
       }
     },
     "docs/impostazioni.mdx#testo-extra-ricevute": {
@@ -8126,9 +8126,9 @@
       "editorial_content_sha256": "270559748ae20d1091edeb58092066b2adf8184b8e6287ef289c75a2b22ad8af",
       "materialization": {
         "format": 1,
-        "capture_id": "ed2a9ee1f6d0f176",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "settings-receipts-card",
-        "report_sha256": "63276c9e9b5a4b68ab8b7000408ae8f522b4cd5c405d61e92b8e4bf2ac05f1f2"
+        "report_sha256": "919f7238af4af13b3226c8f2e9554dbcfc1a0be39ec8c3530b333cfb005dc34b"
       }
     },
     "docs/impostazioni.mdx#moduli-d-iscrizione": {
@@ -8145,9 +8145,9 @@
       "editorial_content_sha256": "2cb88b26fa48cc756863482358a680b7faf72bad70c30a65810d05b6f426387d",
       "materialization": {
         "format": 1,
-        "capture_id": "37a017f005032645",
+        "capture_id": "861d7061dc98bc98",
         "scenario_id": "settings-signup-checkout",
-        "report_sha256": "1b0c968e9bbf43db37bfbe68b8733578ca0067aa833ddabfe5829562944ded45"
+        "report_sha256": "60bf99776696bff046d346c10feadf22d9f504d9dfedcacb976eb338921a0ac1"
       }
     },
     "docs/impostazioni.mdx#modulo-di-iscrizione-anonimo": {
