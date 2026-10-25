@@ -1603,10 +1603,10 @@
       "title": "Cosa desideri approfondire?",
       "content_sha256": "1e78b794b47e515f143363ec6326427372b636a5ebc050336f1bd076aa5743cd",
       "recipe_module": "docs/manuale/overview-recipes.mjs",
-      "recipe_sha256": "8b7046c65012467e109e6d92f90de635318ccadbd6f3876889963cbece64d83d",
+      "recipe_sha256": "63d8bccaa69b71a9d2529bc3626d58063505adf22aac52245bdf0aae0d73b68b",
       "recipe_review": {
-        "previous_sha256": "a322bd02647e6f6f430029f69907c7b182ee6b0739f5e6fc94cc15b0758865cf",
-        "sha256": "8b7046c65012467e109e6d92f90de635318ccadbd6f3876889963cbece64d83d",
+        "previous_sha256": "8b7046c65012467e109e6d92f90de635318ccadbd6f3876889963cbece64d83d",
+        "sha256": "63d8bccaa69b71a9d2529bc3626d58063505adf22aac52245bdf0aae0d73b68b",
         "purpose": "editorial-review-only"
       },
       "content_source": "authored-mdx"
@@ -1615,10 +1615,10 @@
       "title": "Manuale",
       "content_sha256": "e9d1d8beb001cbdb5e696e966b3feacca5875f967c0b4d0bcb754192945ba57e",
       "recipe_module": "docs/manuale/overview-recipes.mjs",
-      "recipe_sha256": "8b7046c65012467e109e6d92f90de635318ccadbd6f3876889963cbece64d83d",
+      "recipe_sha256": "63d8bccaa69b71a9d2529bc3626d58063505adf22aac52245bdf0aae0d73b68b",
       "recipe_review": {
-        "previous_sha256": "a322bd02647e6f6f430029f69907c7b182ee6b0739f5e6fc94cc15b0758865cf",
-        "sha256": "8b7046c65012467e109e6d92f90de635318ccadbd6f3876889963cbece64d83d",
+        "previous_sha256": "8b7046c65012467e109e6d92f90de635318ccadbd6f3876889963cbece64d83d",
+        "sha256": "63d8bccaa69b71a9d2529bc3626d58063505adf22aac52245bdf0aae0d73b68b",
         "purpose": "editorial-review-only"
       },
       "content_source": "authored-mdx"
@@ -1627,10 +1627,10 @@
       "title": "Per iniziare",
       "content_sha256": "a5c4699cf1ac0bcaf1cb7d8bb631e2c34bb3657528087083127d24e369bbe325",
       "recipe_module": "docs/manuale/overview-recipes.mjs",
-      "recipe_sha256": "8b7046c65012467e109e6d92f90de635318ccadbd6f3876889963cbece64d83d",
+      "recipe_sha256": "63d8bccaa69b71a9d2529bc3626d58063505adf22aac52245bdf0aae0d73b68b",
       "recipe_review": {
-        "previous_sha256": "a322bd02647e6f6f430029f69907c7b182ee6b0739f5e6fc94cc15b0758865cf",
-        "sha256": "8b7046c65012467e109e6d92f90de635318ccadbd6f3876889963cbece64d83d",
+        "previous_sha256": "8b7046c65012467e109e6d92f90de635318ccadbd6f3876889963cbece64d83d",
+        "sha256": "63d8bccaa69b71a9d2529bc3626d58063505adf22aac52245bdf0aae0d73b68b",
         "purpose": "editorial-review-only"
       },
       "content_source": "authored-mdx"
